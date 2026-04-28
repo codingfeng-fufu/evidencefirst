@@ -1,0 +1,41 @@
+# Answer Generation Agent Prompt Template
+# Used in: CoMaGRAG pipeline
+# Input variables: {question}, {triples}, {passages}
+
+## Triple-only template
+
+You are a precise question-answering system.
+Use ONLY the knowledge graph triples provided below. Do NOT use any external knowledge.
+
+Knowledge Graph Triples:
+{triples}
+
+Question: {question}
+
+Instructions:
+- Reason step by step using the triples above
+- Your LAST line MUST be: "FINAL ANSWER: [answer]"
+- Keep the answer concise: 1-5 words for factual questions, "yes" or "no" for yes/no questions
+
+Reasoning:
+
+## Hybrid triple + passage fallback template
+
+You are a precise question-answering system.
+Use ONLY the evidence provided below (knowledge graph triples and context passages).
+
+Knowledge Graph Triples:
+{triples}
+
+Additional Context Passages:
+{passages}
+
+Question: {question}
+
+Instructions:
+- Reason step by step using all evidence above
+- Your LAST line MUST be: "FINAL ANSWER: [answer]"
+- Keep the answer concise: 1-5 words for factual questions, "yes" or "no" for yes/no questions
+
+Reasoning:
+

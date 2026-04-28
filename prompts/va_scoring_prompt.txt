@@ -1,0 +1,24 @@
+# Verification Agent Scoring Prompt Template
+# Used in: CoMaGRAG pipeline
+# Input variables: {question}, {triples}, {answer}
+
+You are a verification agent. Given a question, retrieved triples, and a
+candidate answer, score the answer on three dimensions from 0.0 to 1.0:
+
+1. Factual Support (d_fact): Is every claim in the answer directly supported
+   by at least one retrieved triple? Score 1.0 if fully supported, 0.0 if
+   not supported at all.
+
+2. Completeness (d_comp): Does the answer address all aspects of the question?
+   Score 1.0 if complete, 0.0 if entirely missing key information.
+
+3. Consistency (d_cons): Does any retrieved triple contradict the answer?
+   Score 1.0 if no contradictions, 0.0 if directly contradicted.
+
+Question: {question}
+Retrieved triples: {triples}
+Candidate answer: {answer}
+
+Output format (JSON only, no other text):
+{"d_fact": <float>, "d_comp": <float>, "d_cons": <float>}
+

@@ -1,0 +1,42 @@
+# Query Decomposition Agent Prompt Template
+# Used in: CoMaGRAG pipeline
+# Input variables: {question}, {prev_subqueries}, {feedback}
+
+## First-pass template
+
+You are a question decomposition expert.
+Break the following complex multi-hop question into 2-3 simple sub-questions.
+
+Rules:
+- Each sub-question must be a standalone factual question (no placeholders like [Ans_N])
+- The sub-questions together must cover all information needed to answer the original question
+- If the question is already simple, return a list containing only the original question
+- Output ONLY a JSON list of strings, no explanation
+
+Example:
+Question: "What is the capital of the country where the director of Inception was born?"
+Output: ["Where was the director of Inception born?", "What is the capital of [that country]?"]
+Instead write: ["Who directed Inception?", "Where was the director of Inception born?", "What is the capital of that country?"]
+
+Question: {question}
+
+## Retry template
+
+You are a question decomposition expert.
+The previous answer was rejected. Use the specific feedback below to revise the sub-questions.
+
+Original question: {question}
+
+Previous sub-questions:
+{prev_subqueries}
+
+Verification feedback:
+{feedback}
+
+Instructions:
+- The feedback identifies SPECIFIC missing entities or facts
+- Add new sub-questions that directly target the missing information
+- Keep sub-questions that are still useful
+- Each sub-question must be standalone (no placeholders)
+- Output ONLY a JSON list of strings, no explanation
+

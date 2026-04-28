@@ -1,0 +1,108 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor, OS, and temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+tmp/
+temp/
+.cache/
+
+# Logs and runtime artifacts
+*.log
+*.out
+*.err
+nohup.out
+
+# Generated datasets, KG caches, and model artifacts
+data/*.json
+data/*.jsonl
+data/*.pkl
+data/*.pickle
+data/*.ckpt
+data/*.pt
+data/*.pth
+data/*.faiss
+data/*.npy
+data/*.npz
+!data/README.md
+!data/*.py
+
+comagraag/data/*.json
+comagraag/data/*.jsonl
+comagraag/data/*.pkl
+comagraag/data/*.pickle
+comagraag/data/*.ckpt
+comagraag/data/*.pt
+comagraag/data/*.pth
+comagraag/data/*.faiss
+comagraag/data/*.npy
+comagraag/data/*.npz
+
+# Experiment caches and large reruns
+results/cache_*.json
+results/**/cache_*.json
+comagraag/results/cache_*.json
+comagraag/results/*.log
+comagraag/results/*.json
+comagraag/results/*.csv
+comagraag/results/ms_graphrag_failures/
+comagraag/results_2wiki_rerun/
+comagraag/results_2wiki_rerun_full/
+comagraag/results_2wiki_rerun_no_decomp/
+
+# Keep small historical summary CSVs used by the README
+!comagraag/results/ircot_results.csv
+!comagraag/results/lightrag_results_corrected.csv
+!comagraag/results/ms_graphrag_reextract_eval.csv
+!comagraag/results/hotpotqa_val_results.csv
+!comagraag/results/val_n3.csv
+
+# Local-only historical workspace scripts
+comagraag/build_kg_kggen_partial.py
+comagraag/build_kg_kggen.py
+comagraag/embed_server.py
+comagraag/extract_casestudy.py
+comagraag/reextract_lightrag.py
+comagraag/test.py
+comagraag/test_fallback.py
+comagraag/test_thresh.py
+
+# Large downloaded archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
