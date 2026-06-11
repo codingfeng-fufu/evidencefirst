@@ -1,0 +1,10 @@
+dataset,audit_state,n,rate,em,f1
+hotpot,fallback_incomplete,5,0.0050,0.6000,0.7333
+hotpot,repaired_complete,277,0.2770,0.6065,0.6836
+hotpot,repaired_incomplete,360,0.3600,0.5667,0.6596
+hotpot,unrepaired_incomplete,67,0.0670,0.2985,0.4657
+hotpot,verified_complete,291,0.2910,0.5739,0.6691
+2wiki,repaired_complete,66,0.1320,0.6818,0.7470
+2wiki,repaired_incomplete,234,0.4680,0.6795,0.7490
+2wiki,unrepaired_incomplete,27,0.0540,0.6667,0.7488
+2wiki,verified_complete,173,0.3460,0.7110,0.7762

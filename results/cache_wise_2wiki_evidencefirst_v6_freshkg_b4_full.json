@@ -1,0 +1,1905 @@
+{
+  "d0d400bc0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "d0d400bc0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 13.123,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "82043b7c0bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "82043b7c0bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.1001,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "8ee8432c0bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "8ee8432c0bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2477,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "6439bf4508be11ebbd8aac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "6439bf4508be11ebbd8aac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0271,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0dc3d0280bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0dc3d0280bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.4197,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "6246a517084c11ebbd56ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "6246a517084c11ebbd56ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.278,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "71bf184e0bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "71bf184e0bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0887,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "a87474d20bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "a87474d20bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8057,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "ff7fc86c0bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "ff7fc86c0bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2043,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1815632c0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1815632c0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.5106,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "a3939d3b08a111ebbd79ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "a3939d3b08a111ebbd79ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.228,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "d4bac26008fd11ebbdadac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "d4bac26008fd11ebbdadac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2434,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "065b409008d311ebbd96ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "065b409008d311ebbd96ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8435,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "befd140a088511ebbd6dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "befd140a088511ebbd6dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.4864,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5df2d970087a11ebbd67ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5df2d970087a11ebbd67ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2147,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "e2e113160bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "e2e113160bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0129,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "89760bc40bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "89760bc40bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.6636,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "a08505d20bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "a08505d20bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0293,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "afbfedfc08c411ebbd8eac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "afbfedfc08c411ebbd8eac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6124,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "048fa24c089711ebbd76ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "048fa24c089711ebbd76ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.5281,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "c581990a0bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "c581990a0bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2239,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7a465cb4095111ebbdaeac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "7a465cb4095111ebbdaeac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.1266,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "47f733600bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "47f733600bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0193,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "6f0a43a80bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "6f0a43a80bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9337,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1dbdfcea0bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1dbdfcea0bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6207,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "cf6530d708f311ebbdaaac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "cf6530d708f311ebbdaaac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.8247,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0eb54158087b11ebbd67ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0eb54158087b11ebbd67ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2938,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "e35b10de08cd11ebbd93ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "e35b10de08cd11ebbd93ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.7579,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "3dafdc26089f11ebbd78ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "3dafdc26089f11ebbd78ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3572,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "706064e7087b11ebbd68ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "706064e7087b11ebbd68ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.8741,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7a3da0d0084b11ebbd56ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "7a3da0d0084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8042,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "80774c5508f911ebbdaaac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "80774c5508f911ebbdaaac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.7983,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "24c40fd9099c11ebbdb0ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "24c40fd9099c11ebbdb0ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.9019,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "efa871c8085611ebbd59ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "efa871c8085611ebbd59ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.0128,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "16b3e34d085711ebbd59ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "16b3e34d085711ebbd59ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.1879,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0f0ccb9e0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0f0ccb9e0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9249,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "bb12fd1a0bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "bb12fd1a0bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0706,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1c884ef208a211ebbd7aac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1c884ef208a211ebbd7aac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.0933,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "00efceca0bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "00efceca0bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6776,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "58b2f61c08cb11ebbd92ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "58b2f61c08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.7866,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "27cf588e085011ebbd56ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "27cf588e085011ebbd56ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3048,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "53e18b8c0bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "53e18b8c0bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3437,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "2a78f9e9084b11ebbd56ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "2a78f9e9084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.0838,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "631c2ffb08de11ebbd9eac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "631c2ffb08de11ebbd9eac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6753,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "874046160bd911eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "874046160bd911eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9786,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7b33f605088411ebbd6dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "7b33f605088411ebbd6dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3469,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0bbded440bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0bbded440bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.1527,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "855bfaea0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "855bfaea0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3165,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "80cea3ec0baf11ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "80cea3ec0baf11ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5755,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0468fbec0bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0468fbec0bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.2654,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5e9d435708f711ebbdaaac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5e9d435708f711ebbdaaac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.394,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "f26ca8aa087611ebbd67ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "f26ca8aa087611ebbd67ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2722,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "8aea31a8087011ebbd63ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "8aea31a8087011ebbd63ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.3643,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a0c9c7408c011ebbd8aac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a0c9c7408c011ebbd8aac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0361,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "2ce41efe0bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "2ce41efe0bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.1579,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "081c7c960bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "081c7c960bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.4604,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "f90a5d6a0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "f90a5d6a0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2984,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "acd70b040bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "acd70b040bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.8466,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "8223ad8e097811ebbdb0ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "8223ad8e097811ebbdb0ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.4073,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "c7c0fbdc0bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "c7c0fbdc0bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.065,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "15601bc708c711ebbd91ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "15601bc708c711ebbd91ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.8139,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5896e7a80bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5896e7a80bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2417,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "e81fc7b0087111ebbd64ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "e81fc7b0087111ebbd64ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9658,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5deff9420bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5deff9420bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0408,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "c7a9e30308ae11ebbd83ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "c7a9e30308ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8357,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "96db3af80bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "96db3af80bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3319,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "e036fe320bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "e036fe320bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.9542,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "ed415b0208b511ebbd88ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "ed415b0208b511ebbd88ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0932,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "13f3480e0bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "13f3480e0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.5288,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "b7afade20bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "b7afade20bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5525,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "9a1b06b60bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "9a1b06b60bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.3479,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "b34f43d1087b11ebbd69ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "b34f43d1087b11ebbd69ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2196,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "71530df00bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "71530df00bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5312,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "91e7e3780baf11ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "91e7e3780baf11ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.9031,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "6ede801c08da11ebbd9cac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "6ede801c08da11ebbd9cac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0896,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "44031d3c086f11ebbd62ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "44031d3c086f11ebbd62ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5056,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7f91e578086e11ebbd62ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "7f91e578086e11ebbd62ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2619,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "ee212a820bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "ee212a820bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9717,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "75a4468108ca11ebbd92ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "75a4468108ca11ebbd92ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2258,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1816ca87095011ebbdaeac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1816ca87095011ebbdaeac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3135,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "89022ba60bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "89022ba60bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.1758,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1a5823a1088e11ebbd70ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1a5823a1088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.735,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "93bdd2060bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "93bdd2060bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3239,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "31eeaa6608cf11ebbd94ac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "31eeaa6608cf11ebbd94ac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5461,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "9af5e9640bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "9af5e9640bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5213,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "67c784f708d811ebbd9bac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "67c784f708d811ebbd9bac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.7169,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "a7c95d2b088511ebbd6dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "a7c95d2b088511ebbd6dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.2371,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "6a765fc60bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "6a765fc60bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.103,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "d3dd2d04085f11ebbd5dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "d3dd2d04085f11ebbd5dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.5236,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "077b294e0bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "077b294e0bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.0048,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "bf847e1a086511ebbd5eac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "bf847e1a086511ebbd5eac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6681,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "8f950536085a11ebbd5cac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "8f950536085a11ebbd5cac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.676,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "0167e737086111ebbd5dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "0167e737086111ebbd5dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2187,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "87ceaacc0bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "87ceaacc0bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.5641,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "43dd26de086211ebbd5dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "43dd26de086211ebbd5dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8272,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7032bda20baf11ebab90acde48001122": {
+    "answer": "Louis Armand de Bourbon",
+    "iterations": 1,
+    "usage": {
+      "qid": "7032bda20baf11ebab90acde48001122",
+      "llm_calls": 5,
+      "input_tokens": 4260,
+      "output_tokens": 578,
+      "total_tokens": 4838,
+      "wall_time": 20.6817,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "person",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 53,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Louis Armand I Prince"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Louis Armand de Bourbon",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 9,
+          "triples_added": 9,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Armand de Bourbon",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Armand de Bourbon",
+        "answer": "Louis Armand de Bourbon",
+        "selected": true
+      }
+    ]
+  },
+  "9078bc380baf11ebab90acde48001122": {
+    "answer": "Bona of Savoy",
+    "iterations": 1,
+    "usage": {
+      "qid": "9078bc380baf11ebab90acde48001122",
+      "llm_calls": 6,
+      "input_tokens": 6383,
+      "output_tokens": 1400,
+      "total_tokens": 7783,
+      "wall_time": 33.2808,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "person",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 77,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Philibert I Duke"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "The question asks for Philibert I’s *mother-in-law*",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 33,
+          "triples_added": 33,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "However, the format requires 1–5 words for factual questions — and “not stated” fits",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Bona of Savoy",
+        "answer": "The question asks for Philibert I’s *mother-in-law*",
+        "selected": false
+      }
+    ]
+  },
+  "fb4d4eee088e11ebbd70ac1f6bf848b6": {
+    "answer": "Jackass 3D",
+    "iterations": 1,
+    "usage": {
+      "qid": "fb4d4eee088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 5,
+      "input_tokens": 5573,
+      "output_tokens": 991,
+      "total_tokens": 6564,
+      "wall_time": 24.1253,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Jackass 3D",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 2,
+          "triples_added": 2,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Insufficient information",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "In contrast, Jeff Tremaine directed *Jackass 3D* in 2010 — and the *Jackass* TV series began in",
+        "answer": "Jackass 3D",
+        "selected": true
+      }
+    ]
+  },
+  "acdf3b1e08d411ebbd96ac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "acdf3b1e08d411ebbd96ac1f6bf848b6",
+      "llm_calls": 4,
+      "input_tokens": 2321,
+      "output_tokens": 380,
+      "total_tokens": 2701,
+      "wall_time": 9.6672,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 50,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "no",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "897bcb4a0bb011ebab90acde48001122": {
+    "answer": "Jan I the Scholastic",
+    "iterations": 1,
+    "usage": {
+      "qid": "897bcb4a0bb011ebab90acde48001122",
+      "llm_calls": 5,
+      "input_tokens": 4331,
+      "output_tokens": 1223,
+      "total_tokens": 5554,
+      "wall_time": 28.8253,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "person",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 50,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Jan Iii"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "The draft answer is \"Jan I the",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Jan I the Scholastic",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Jan I the Scholastic",
+        "answer": "The draft answer is \"Jan I the",
+        "selected": false
+      }
+    ]
+  }
+}

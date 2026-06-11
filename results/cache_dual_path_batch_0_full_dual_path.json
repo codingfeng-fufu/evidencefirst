@@ -1,0 +1,1068 @@
+{
+  "5adf37955542993a75d2642e": {
+    "answer": "2012",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adf37955542993a75d2642e",
+      "llm_calls": 11,
+      "input_tokens": 7967,
+      "output_tokens": 1121,
+      "total_tokens": 9088,
+      "wall_time": 52.7797,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adfb790554299603e418389": {
+    "answer": "Both are genera of flowering plants",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfb790554299603e418389",
+      "llm_calls": 11,
+      "input_tokens": 7463,
+      "output_tokens": 3054,
+      "total_tokens": 10517,
+      "wall_time": 72.2166,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abc7d6d5542993a06baf8f3": {
+    "answer": "Neighbours",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abc7d6d5542993a06baf8f3",
+      "llm_calls": 8,
+      "input_tokens": 5159,
+      "output_tokens": 770,
+      "total_tokens": 5929,
+      "wall_time": 19.9613,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae2d59755429928c42394ec": {
+    "answer": "Hrag Vartanian",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae2d59755429928c42394ec",
+      "llm_calls": 11,
+      "input_tokens": 7700,
+      "output_tokens": 1846,
+      "total_tokens": 9546,
+      "wall_time": 45.6542,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8637415542994775f60724": {
+    "answer": "Rhodotypos",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8637415542994775f60724",
+      "llm_calls": 5,
+      "input_tokens": 3786,
+      "output_tokens": 510,
+      "total_tokens": 4296,
+      "wall_time": 13.3216,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a81d0515542990a1d231ed4": {
+    "answer": "Flamingo Las Vegas",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a81d0515542990a1d231ed4",
+      "llm_calls": 5,
+      "input_tokens": 3935,
+      "output_tokens": 241,
+      "total_tokens": 4176,
+      "wall_time": 7.6709,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a78c69e55429974737f787c": {
+    "answer": "Dave Brockie",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a78c69e55429974737f787c",
+      "llm_calls": 11,
+      "input_tokens": 7417,
+      "output_tokens": 664,
+      "total_tokens": 8081,
+      "wall_time": 19.1919,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a711ef85542994082a3e5ac": {
+    "answer": "Howard University Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a711ef85542994082a3e5ac",
+      "llm_calls": 5,
+      "input_tokens": 4128,
+      "output_tokens": 384,
+      "total_tokens": 4512,
+      "wall_time": 10.3051,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8008b95542992097ad2fcf": {
+    "answer": "Sleeping Beauty",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8008b95542992097ad2fcf",
+      "llm_calls": 5,
+      "input_tokens": 3920,
+      "output_tokens": 446,
+      "total_tokens": 4366,
+      "wall_time": 11.7026,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ade949b5542997c77adee63": {
+    "answer": "1982",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ade949b5542997c77adee63",
+      "llm_calls": 11,
+      "input_tokens": 7052,
+      "output_tokens": 664,
+      "total_tokens": 7716,
+      "wall_time": 19.0077,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a82626655429966c78a6a08": {
+    "answer": "Ian MacKaye",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a82626655429966c78a6a08",
+      "llm_calls": 5,
+      "input_tokens": 3686,
+      "output_tokens": 564,
+      "total_tokens": 4250,
+      "wall_time": 14.4785,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac23f98554299636651994b": {
+    "answer": "The Companions were the first shock cavalry.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac23f98554299636651994b",
+      "llm_calls": 8,
+      "input_tokens": 6695,
+      "output_tokens": 427,
+      "total_tokens": 7122,
+      "wall_time": 12.6611,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab4eecb55429942dd415faa": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab4eecb55429942dd415faa",
+      "llm_calls": 11,
+      "input_tokens": 6999,
+      "output_tokens": 916,
+      "total_tokens": 7915,
+      "wall_time": 24.7104,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab2c418554299545a2cfa67": {
+    "answer": "Hotchkiss M1914 machine gun",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab2c418554299545a2cfa67",
+      "llm_calls": 5,
+      "input_tokens": 4552,
+      "output_tokens": 399,
+      "total_tokens": 4951,
+      "wall_time": 11.1282,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8639545542991e771815c7": {
+    "answer": "Budd Boetticher",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8639545542991e771815c7",
+      "llm_calls": 11,
+      "input_tokens": 7191,
+      "output_tokens": 1095,
+      "total_tokens": 8286,
+      "wall_time": 28.6943,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab804065542990e739ec7e0": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab804065542990e739ec7e0",
+      "llm_calls": 5,
+      "input_tokens": 4386,
+      "output_tokens": 251,
+      "total_tokens": 4637,
+      "wall_time": 7.7691,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae4758b5542995dadf24342": {
+    "answer": "José Echegaray",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae4758b5542995dadf24342",
+      "llm_calls": 11,
+      "input_tokens": 7870,
+      "output_tokens": 857,
+      "total_tokens": 8727,
+      "wall_time": 23.4067,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7b73ad5542997c3ec9718c": {
+    "answer": "",
+    "iterations": 1,
+    "error": "Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-ff1f45dc-e16f-93b2-a9b0-007d665b12b1', 'request_id': 'ff1f45dc-e16f-93b2-a9b0-007d665b12b1'}",
+    "usage": {
+      "qid": "5a7b73ad5542997c3ec9718c",
+      "llm_calls": 6,
+      "input_tokens": 3485,
+      "output_tokens": 1790,
+      "total_tokens": 5275,
+      "wall_time": 51.722,
+      "mode": "full_dual_path",
+      "cache_hit": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input data may contain inappropriate content. For details, see: https://help.aliyun.com/zh/model-studio/error-code#inappropriate-content', 'type': 'data_inspection_failed', 'param': None, 'code': 'data_inspection_failed'}, 'id': 'chatcmpl-ff1f45dc-e16f-93b2-a9b0-007d665b12b1', 'request_id': 'ff1f45dc-e16f-93b2-a9b0-007d665b12b1'}"
+    }
+  },
+  "5ac29f58554299657fa28fe4": {
+    "answer": "Todd Eldredge -- is --> 1996 World champion",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac29f58554299657fa28fe4",
+      "llm_calls": 11,
+      "input_tokens": 8046,
+      "output_tokens": 2755,
+      "total_tokens": 10801,
+      "wall_time": 65.3581,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8d93bf554299068b959d46": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8d93bf554299068b959d46",
+      "llm_calls": 11,
+      "input_tokens": 7265,
+      "output_tokens": 1099,
+      "total_tokens": 8364,
+      "wall_time": 28.8788,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8dad37554299068b959d94": {
+    "answer": "Genus",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8dad37554299068b959d94",
+      "llm_calls": 11,
+      "input_tokens": 8803,
+      "output_tokens": 569,
+      "total_tokens": 9372,
+      "wall_time": 17.5248,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac0d1555542997d64295a5d": {
+    "answer": "Kurt Gerron",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac0d1555542997d64295a5d",
+      "llm_calls": 11,
+      "input_tokens": 6968,
+      "output_tokens": 893,
+      "total_tokens": 7861,
+      "wall_time": 25.7629,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab7b0575542992aa3b8c83d": {
+    "answer": "4.7 km",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7b0575542992aa3b8c83d",
+      "llm_calls": 5,
+      "input_tokens": 3610,
+      "output_tokens": 311,
+      "total_tokens": 3921,
+      "wall_time": 8.8466,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac3e22d5542997ea680c976": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac3e22d5542997ea680c976",
+      "llm_calls": 11,
+      "input_tokens": 6443,
+      "output_tokens": 708,
+      "total_tokens": 7151,
+      "wall_time": 19.6787,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab2b61d5542991669774065": {
+    "answer": "Harrison Ford played Han Solo in Star Wars",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab2b61d5542991669774065",
+      "llm_calls": 11,
+      "input_tokens": 8309,
+      "output_tokens": 1024,
+      "total_tokens": 9333,
+      "wall_time": 27.1991,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7bbcd65542997c3ec97268": {
+    "answer": "Chanda Rubin",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7bbcd65542997c3ec97268",
+      "llm_calls": 11,
+      "input_tokens": 6632,
+      "output_tokens": 499,
+      "total_tokens": 7131,
+      "wall_time": 15.2142,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8510a25542994c784ddaf0": {
+    "answer": "Writer",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8510a25542994c784ddaf0",
+      "llm_calls": 11,
+      "input_tokens": 7001,
+      "output_tokens": 659,
+      "total_tokens": 7660,
+      "wall_time": 19.068,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac13f425542991316484a96": {
+    "answer": "neither",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac13f425542991316484a96",
+      "llm_calls": 11,
+      "input_tokens": 7489,
+      "output_tokens": 2828,
+      "total_tokens": 10317,
+      "wall_time": 67.3571,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a73672b5542991f29ee2de7": {
+    "answer": "Bernard King",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a73672b5542991f29ee2de7",
+      "llm_calls": 11,
+      "input_tokens": 7706,
+      "output_tokens": 788,
+      "total_tokens": 8494,
+      "wall_time": 22.3139,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7313865542994cef4bc442": {
+    "answer": "Regional Rural Bank",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7313865542994cef4bc442",
+      "llm_calls": 5,
+      "input_tokens": 4135,
+      "output_tokens": 536,
+      "total_tokens": 4671,
+      "wall_time": 14.8361,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8e068b5542995085b37384": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8e068b5542995085b37384",
+      "llm_calls": 11,
+      "input_tokens": 7478,
+      "output_tokens": 959,
+      "total_tokens": 8437,
+      "wall_time": 25.3539,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae1d4e75542997f29b3c143": {
+    "answer": "None",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae1d4e75542997f29b3c143",
+      "llm_calls": 11,
+      "input_tokens": 7650,
+      "output_tokens": 1516,
+      "total_tokens": 9166,
+      "wall_time": 37.8109,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7c290c5542990527d55468": {
+    "answer": "Oklahoma",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7c290c5542990527d55468",
+      "llm_calls": 5,
+      "input_tokens": 3695,
+      "output_tokens": 201,
+      "total_tokens": 3896,
+      "wall_time": 7.0814,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae164cf5542997b2ef7d1cd": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae164cf5542997b2ef7d1cd",
+      "llm_calls": 11,
+      "input_tokens": 8267,
+      "output_tokens": 780,
+      "total_tokens": 9047,
+      "wall_time": 21.9572,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae4957155429970de88d9bc": {
+    "answer": "Peter Yates",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae4957155429970de88d9bc",
+      "llm_calls": 11,
+      "input_tokens": 6822,
+      "output_tokens": 1770,
+      "total_tokens": 8592,
+      "wall_time": 44.5245,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a774e9c55429972597f14f3": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a774e9c55429972597f14f3",
+      "llm_calls": 11,
+      "input_tokens": 7431,
+      "output_tokens": 1187,
+      "total_tokens": 8618,
+      "wall_time": 33.0537,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab88c075542991b5579efbe": {
+    "answer": "Tumnus",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab88c075542991b5579efbe",
+      "llm_calls": 5,
+      "input_tokens": 4099,
+      "output_tokens": 639,
+      "total_tokens": 4738,
+      "wall_time": 16.8244,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae201465542997f29b3c1f7": {
+    "answer": "South Dakota v. Dole",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae201465542997f29b3c1f7",
+      "llm_calls": 5,
+      "input_tokens": 3854,
+      "output_tokens": 483,
+      "total_tokens": 4337,
+      "wall_time": 14.0757,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8b3e985542995d1e6f131c": {
+    "answer": "Sandy Springs, Georgia",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8b3e985542995d1e6f131c",
+      "llm_calls": 8,
+      "input_tokens": 4969,
+      "output_tokens": 637,
+      "total_tokens": 5606,
+      "wall_time": 18.5304,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84abaf5542997b5ce3ff06": {
+    "answer": "Pittsburgh Steelers",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84abaf5542997b5ce3ff06",
+      "llm_calls": 5,
+      "input_tokens": 4071,
+      "output_tokens": 515,
+      "total_tokens": 4586,
+      "wall_time": 13.4267,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7481d755429974ef308c12": {
+    "answer": "CBS",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7481d755429974ef308c12",
+      "llm_calls": 11,
+      "input_tokens": 6162,
+      "output_tokens": 539,
+      "total_tokens": 6701,
+      "wall_time": 16.8175,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a851cc85542997b5ce3ffa3": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a851cc85542997b5ce3ffa3",
+      "llm_calls": 8,
+      "input_tokens": 5498,
+      "output_tokens": 933,
+      "total_tokens": 6431,
+      "wall_time": 25.3249,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7c17c95542990527d5544d": {
+    "answer": "The Offspring",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7c17c95542990527d5544d",
+      "llm_calls": 11,
+      "input_tokens": 8235,
+      "output_tokens": 644,
+      "total_tokens": 8879,
+      "wall_time": 18.7348,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac439005542995c82c4acf9": {
+    "answer": "Melbourne, Australia",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac439005542995c82c4acf9",
+      "llm_calls": 11,
+      "input_tokens": 8723,
+      "output_tokens": 1018,
+      "total_tokens": 9741,
+      "wall_time": 27.1325,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adcecbd5542992c1e3a24b7": {
+    "answer": "a theme of global peace",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adcecbd5542992c1e3a24b7",
+      "llm_calls": 8,
+      "input_tokens": 5683,
+      "output_tokens": 1946,
+      "total_tokens": 7629,
+      "wall_time": 46.547,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab4482b55429942dd415f09": {
+    "answer": "Herschell Gordon Lewis",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab4482b55429942dd415f09",
+      "llm_calls": 5,
+      "input_tokens": 3262,
+      "output_tokens": 212,
+      "total_tokens": 3474,
+      "wall_time": 6.9432,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ade28b15542997c77aded83": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ade28b15542997c77aded83",
+      "llm_calls": 8,
+      "input_tokens": 3313,
+      "output_tokens": 485,
+      "total_tokens": 3798,
+      "wall_time": 14.4488,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a89e0ec5542992e4fca8427": {
+    "answer": "Objectivism",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a89e0ec5542992e4fca8427",
+      "llm_calls": 11,
+      "input_tokens": 6765,
+      "output_tokens": 980,
+      "total_tokens": 7745,
+      "wall_time": 26.2082,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a840a9e5542992ef85e2397": {
+    "answer": "The group is not identified in any of the provided passages.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a840a9e5542992ef85e2397",
+      "llm_calls": 11,
+      "input_tokens": 8629,
+      "output_tokens": 1279,
+      "total_tokens": 9908,
+      "wall_time": 34.2134,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a88a1475542997e5c09a646": {
+    "answer": "Salvia",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88a1475542997e5c09a646",
+      "llm_calls": 5,
+      "input_tokens": 3899,
+      "output_tokens": 288,
+      "total_tokens": 4187,
+      "wall_time": 9.5071,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8de02b554299068b959e13": {
+    "answer": "Leeds United",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8de02b554299068b959e13",
+      "llm_calls": 11,
+      "input_tokens": 7861,
+      "output_tokens": 535,
+      "total_tokens": 8396,
+      "wall_time": 17.3435,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a83ed9b55429933447460b8": {
+    "answer": "plants",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a83ed9b55429933447460b8",
+      "llm_calls": 11,
+      "input_tokens": 5983,
+      "output_tokens": 731,
+      "total_tokens": 6714,
+      "wall_time": 21.4759,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8682755542996432c571cf": {
+    "answer": "Algeria",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8682755542996432c571cf",
+      "llm_calls": 11,
+      "input_tokens": 7701,
+      "output_tokens": 562,
+      "total_tokens": 8263,
+      "wall_time": 17.0548,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac5199a5542994611c8b38a": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac5199a5542994611c8b38a",
+      "llm_calls": 11,
+      "input_tokens": 7939,
+      "output_tokens": 1256,
+      "total_tokens": 9195,
+      "wall_time": 33.3444,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab6bdd255429953192ad36e": {
+    "answer": "Chile",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab6bdd255429953192ad36e",
+      "llm_calls": 11,
+      "input_tokens": 8457,
+      "output_tokens": 516,
+      "total_tokens": 8973,
+      "wall_time": 17.7772,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac2a10e554299657fa28fec": {
+    "answer": "1942",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac2a10e554299657fa28fec",
+      "llm_calls": 8,
+      "input_tokens": 5901,
+      "output_tokens": 1334,
+      "total_tokens": 7235,
+      "wall_time": 33.4297,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8db9b3554299068b959dde": {
+    "answer": "dog",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8db9b3554299068b959dde",
+      "llm_calls": 5,
+      "input_tokens": 3282,
+      "output_tokens": 630,
+      "total_tokens": 3912,
+      "wall_time": 17.1538,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a79258a55429974737f79a8": {
+    "answer": "The context passages do not provide information about oil production of the city at the mouth of the Congo River",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a79258a55429974737f79a8",
+      "llm_calls": 5,
+      "input_tokens": 3341,
+      "output_tokens": 832,
+      "total_tokens": 4173,
+      "wall_time": 21.2781,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a838eba5542992ef85e22fe": {
+    "answer": "Tar Creek",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a838eba5542992ef85e22fe",
+      "llm_calls": 8,
+      "input_tokens": 6195,
+      "output_tokens": 543,
+      "total_tokens": 6738,
+      "wall_time": 15.5025,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a87ab905542996e4f3088c1": {
+    "answer": "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colisée, which seats 4,000 people.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a87ab905542996e4f3088c1",
+      "llm_calls": 5,
+      "input_tokens": 5402,
+      "output_tokens": 330,
+      "total_tokens": 5732,
+      "wall_time": 9.5519,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a71674f5542994082a3e819": {
+    "answer": "Retro Gamer magazine, which launched in 2001.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a71674f5542994082a3e819",
+      "llm_calls": 11,
+      "input_tokens": 6787,
+      "output_tokens": 791,
+      "total_tokens": 7578,
+      "wall_time": 23.3826,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae1b1445542997283cd223d": {
+    "answer": "Hayley Mills",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae1b1445542997283cd223d",
+      "llm_calls": 11,
+      "input_tokens": 8019,
+      "output_tokens": 3230,
+      "total_tokens": 11249,
+      "wall_time": 77.4521,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abe36aa5542993f32c2a08f": {
+    "answer": "American Scientist",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abe36aa5542993f32c2a08f",
+      "llm_calls": 11,
+      "input_tokens": 7747,
+      "output_tokens": 614,
+      "total_tokens": 8361,
+      "wall_time": 18.6846,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7b01645542992d025e6734": {
+    "answer": "premiered at Full Frame Documentary",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7b01645542992d025e6734",
+      "llm_calls": 11,
+      "input_tokens": 6411,
+      "output_tokens": 2893,
+      "total_tokens": 9304,
+      "wall_time": 69.7074,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8081975542992097ad2fef": {
+    "answer": "Leslie Goodwins",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8081975542992097ad2fef",
+      "llm_calls": 5,
+      "input_tokens": 3194,
+      "output_tokens": 230,
+      "total_tokens": 3424,
+      "wall_time": 7.3376,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac54ca45542993e66e822d5": {
+    "answer": "Blue Album",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac54ca45542993e66e822d5",
+      "llm_calls": 5,
+      "input_tokens": 3878,
+      "output_tokens": 348,
+      "total_tokens": 4226,
+      "wall_time": 10.162,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae28f43554299492dc91c2f": {
+    "answer": "Chicago Rockford International Airport",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae28f43554299492dc91c2f",
+      "llm_calls": 11,
+      "input_tokens": 7924,
+      "output_tokens": 1637,
+      "total_tokens": 9561,
+      "wall_time": 41.3473,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab9560855429970cfb8ea73": {
+    "answer": "The context passages do not state how many people were killed in the collapse of the I-35W Mississippi River bridge",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab9560855429970cfb8ea73",
+      "llm_calls": 8,
+      "input_tokens": 5620,
+      "output_tokens": 506,
+      "total_tokens": 6126,
+      "wall_time": 15.2099,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8a833855429970aeb702fe": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8a833855429970aeb702fe",
+      "llm_calls": 11,
+      "input_tokens": 7060,
+      "output_tokens": 747,
+      "total_tokens": 7807,
+      "wall_time": 21.8249,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ade84d7554299728e26c72b": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ade84d7554299728e26c72b",
+      "llm_calls": 11,
+      "input_tokens": 7401,
+      "output_tokens": 857,
+      "total_tokens": 8258,
+      "wall_time": 26.9888,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7dd6cd5542995f4f4022cd": {
+    "answer": "Pulitzer Prize",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7dd6cd5542995f4f4022cd",
+      "llm_calls": 8,
+      "input_tokens": 5306,
+      "output_tokens": 875,
+      "total_tokens": 6181,
+      "wall_time": 26.8811,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "audit_type": "four_isolated_agent_blind_visible_evidence_gap_adjudication",
+  "dataset": "2wiki",
+  "sample_n": 100,
+  "packet_boundary": "Packets excluded gold answers, EM/F1, baseline outputs, and previous proxy judgments; they included question, prediction, system structural label, structural fields, and reader-visible snippets.",
+  "caveat": "This is a reviewer-style multi-agent simulation over saved packets, not a professional human annotation study or semantic ground truth.",
+  "overall": {
+    "match": 53,
+    "mismatch": 36,
+    "ambiguous": 11
+  },
+  "overall_rates": {
+    "match": 0.53,
+    "mismatch": 0.36,
+    "ambiguous": 0.11
+  },
+  "by_gap_type": {
+    "complete": {
+      "n": 34,
+      "match": 23,
+      "mismatch": 5,
+      "ambiguous": 6,
+      "match_rate": 0.6765
+    },
+    "disconnected": {
+      "n": 11,
+      "match": 6,
+      "mismatch": 4,
+      "ambiguous": 1,
+      "match_rate": 0.5455
+    },
+    "missing_entities": {
+      "n": 35,
+      "match": 20,
+      "mismatch": 12,
+      "ambiguous": 3,
+      "match_rate": 0.5714
+    },
+    "short_chain": {
+      "n": 20,
+      "match": 4,
+      "mismatch": 15,
+      "ambiguous": 1,
+      "match_rate": 0.2
+    }
+  }
+}

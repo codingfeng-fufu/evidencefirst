@@ -1,0 +1,180 @@
+% ============================================================
+% LaTeX Code Snippets for Inserting New Figures
+% Ready to paste into main_wise.tex
+% ============================================================
+
+% ------------------------------------------------------------
+% Figure 2: Convergence-Correctness Correlation
+% Insert in Section 5.2.1 (Convergence as Quality Indicator)
+% ------------------------------------------------------------
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\linewidth]{results/figures/convergence_correctness_correlation.pdf}
+\caption{Convergence-correctness correlation on 1000 HotpotQA questions.
+Answers where the VA converges ($s \geq 0.5$) achieve 58.5\% EM vs. 34.3\% EM
+for non-converged answers, a gap of 24.2 percentage points. This validates
+the VA as an effective quality indicator for trustworthy Web QA systems.}
+\label{fig:convergence_correctness}
+\end{figure}
+
+% ------------------------------------------------------------
+% Figure 3: VA Score Distribution
+% Insert in Section 5.2.2 (VA Score Discrimination)
+% ------------------------------------------------------------
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\linewidth]{results/figures/va_score_distribution.pdf}
+\caption{VA score distribution for correct (green) vs. wrong (red) answers on
+1000 HotpotQA questions. Correct answers concentrate above the threshold
+($\theta = 0.5$), while wrong answers spread below it. Mean scores: 0.612
+(correct) vs. 0.485 (wrong), difference 0.126. The clear separation validates
+the VA's discriminative power.}
+\label{fig:va_score_distribution}
+\end{figure}
+
+% ------------------------------------------------------------
+% Figure 4: Iteration Analysis
+% Insert in Section 5.2.3 (Iterative Refinement Effectiveness)
+% ------------------------------------------------------------
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.75\linewidth]{results/figures/iteration_analysis.pdf}
+\caption{Iteration distribution for \sys on 1000 HotpotQA questions. 38.2\%
+of questions converge on the first pass; 61.8\% require a second iteration
+(average: 1.62 iterations). This validates that iterative refinement is
+necessary for the majority of questions, and the bounded iteration guarantee
+(Proposition~1) ensures predictable inference cost.}
+\label{fig:iteration_analysis}
+\end{figure}
+
+% ------------------------------------------------------------
+% Figure 5: Case Study Surgical Repair Flow
+% Insert in Section 5.2.4 (Case Study: Surgical Sub-Query Repair)
+% ------------------------------------------------------------
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{results/figures/case_study_surgical_repair.pdf}
+\caption{Case study: surgical sub-query repair on a representative multi-iteration
+success. \textbf{Iteration~1}: Entity linking fails, VA score 0.00, wrong answer.
+\textbf{VA feedback}: Identifies the failing sub-query and suggests targeted
+revision (``Missing: the composer of `Picciola serenata'...'').
+\textbf{Iteration~2}: QDA revises only the failing sub-query, VA score rises
+to 0.94, correct answer (\emph{Antonio Salieri}). This demonstrates that surgical
+repair enables targeted recovery from entity linking failures without discarding
+successful retrieval work, and that the VA's diagnostic output makes reasoning
+failures transparent and auditable.}
+\label{fig:case_study_flow}
+\end{figure}
+
+% ============================================================
+% Instructions for Inserting into main_wise.tex
+% ============================================================
+
+% STEP 1: Add the new section content
+% ====================================
+% After Section 5.1 (Main Results on HotpotQA), insert:
+% \input{section_5_2_quality_analysis}
+%
+% This will add the complete Section 5.2 with all subsections.
+
+% STEP 2: Update Related Work (Section 2)
+% ========================================
+% After Section 2.1 (KG-RAG for the Web), insert:
+% \input{section_2_new_related_work}
+%
+% This adds Section 2.2 (Quality Assurance) and Section 2.4 (Traceability).
+% Note: Renumber existing sections accordingly:
+%   Old Section 2.2 (Iterative Retrieval) → New Section 2.3
+%   Old Section 2.3 (Agentic Systems) → New Section 2.5
+
+% STEP 3: Update Discussion (Section 6)
+% ======================================
+% At the beginning of Section 6, insert:
+% \input{section_6_new_discussion}
+%
+% This adds Section 6.1 (Quality Assurance for Trustworthy Web Systems)
+% and Section 6.4 (Implications for Web System Deployment).
+% Note: Renumber existing sections accordingly:
+%   Old Section 6.1 (Design Principles) → New Section 6.2
+%   Old Section 6.2 (VA's Detection Boundary) → New Section 6.3
+%   Old Section 6.3 (Deployment) → Merge into new Section 6.4
+
+% STEP 4: Replace Table 1 (Comparison)
+% =====================================
+% Replace the existing Table 1 in Section 2 with:
+% \input{table_1_updated_comparison}
+%
+% This adds the "Traceable diagnostics" column.
+
+% STEP 5: Add Table 4 (Quality Metrics)
+% ======================================
+% In Section 5.2 (after the convergence analysis), insert:
+% \input{table_4_quality_metrics}
+%
+% Use either the detailed version or compact version depending on space.
+
+% STEP 6: Update Abstract
+% ========================
+% Replace the existing abstract with WISE-focused version from outline:
+%   - Lead with Web systems trustworthiness angle
+%   - Emphasize quality assurance gap
+%   - Highlight 24.2% convergence gap and 0.126 score difference
+%   - Add quality assurance to keywords
+
+% STEP 7: Update Introduction
+% ============================
+% Restructure Introduction per outline:
+%   - Para 1: GraphRAG for Web systems (not collaboration)
+%   - Para 2: The quality assurance gap
+%   - Para 3: WISE context (connect to conference themes)
+%   - Para 4: Our approach (VA as quality gate)
+%   - Para 5: Contributions (add quality analysis as #4)
+
+% STEP 8: Update Title
+% =====================
+% Consider changing title from:
+%   "CoMaGRAG: Reliable KG-Enhanced RAG via Collaborative Multi-Agent..."
+% To one of:
+%   "Quality-Assured GraphRAG via Verification-Driven Multi-Agent Architecture..."
+%   "CoMaGRAG: Verification-Driven GraphRAG with Quality Assurance..."
+
+% STEP 9: Update Keywords
+% ========================
+% Add to keywords list:
+%   Quality Assurance, Verification, Traceability, Trustworthy Web Systems,
+%   Agentic LLM Systems
+
+% STEP 10: Final checks
+% ======================
+% - Search and replace "collaborative" → adjust to "quality-assured" where appropriate
+% - Verify all figure/table references are correct
+% - Check that all citations are in comagraag.bib
+% - Run pdflatex → bibtex → pdflatex → pdflatex
+
+% ============================================================
+% File Checklist
+% ============================================================
+% New files created:
+%   ✓ section_5_2_quality_analysis.tex
+%   ✓ section_2_new_related_work.tex
+%   ✓ section_6_new_discussion.tex
+%   ✓ table_1_updated_comparison.tex
+%   ✓ table_4_quality_metrics.tex
+%
+% Figures ready:
+%   ✓ results/figures/convergence_correctness_correlation.pdf
+%   ✓ results/figures/va_score_distribution.pdf
+%   ✓ results/figures/iteration_analysis.pdf
+%   ✓ results/figures/case_study_surgical_repair.pdf
+%
+% To compile:
+%   cd /home/u2023312337/CoMaGRAG
+%   pdflatex main_wise.tex
+%   bibtex main_wise
+%   pdflatex main_wise.tex
+%   pdflatex main_wise.tex
+

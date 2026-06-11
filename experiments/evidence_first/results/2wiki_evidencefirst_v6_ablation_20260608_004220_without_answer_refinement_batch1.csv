@@ -1,0 +1,2 @@
+mode,variant,ablation,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+full,evidence_first,without_answer_refinement,3,250,0.68,0.7767,1.0,250,5.07,4815.08,773.28,19.1506

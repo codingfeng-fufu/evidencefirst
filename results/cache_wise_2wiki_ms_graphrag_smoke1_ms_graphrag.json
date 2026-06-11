@@ -1,0 +1,16 @@
+{
+  "91edc89c0bdc11eba7f7acde48001122": {
+    "answer": "Les Films du Losange is a French film production and distribution company founded in 1962 by Barbet Schroeder and Éric Rohmer [Data: Sources (8)]. However, the provided data does not specify where either founder *currently works*, nor does it contain any employment or institutional affiliation information for Schroeder or Rohmer beyond their founding role. Notably, Éric Rohmer passed away in 2010, and Barbet Schroeder died in 2023—so neither is actively working at the company today. The data also contains no records about current leadership, headquarters location beyond general nationality, or operational base for Les Films du Losange.",
+    "iterations": 1,
+    "usage": {
+      "qid": "91edc89c0bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 126.1406,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  }
+}

@@ -1,0 +1,2 @@
+mode,variant,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+lightrag,default,2,2,0.5,0.5,1.0,2,1.0,322.5,3.5,135.9925

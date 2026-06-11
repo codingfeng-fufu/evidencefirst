@@ -1,0 +1,5 @@
+gap_type,n,em,f1,support_title_recall,evidence_entity_coverage
+complete,239,0.7029,0.7681,1.0,0.9408
+disconnected,11,0.4545,0.5351,1.0,1.0
+missing_entities,217,0.6959,0.7667,1.0,0.9467
+short_chain,33,0.6364,0.7035,1.0,0.9729

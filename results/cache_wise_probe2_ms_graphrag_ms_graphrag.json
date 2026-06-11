@@ -1,0 +1,16 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 239.4438,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  }
+}

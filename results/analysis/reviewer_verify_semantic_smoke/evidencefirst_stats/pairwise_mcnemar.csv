@@ -1,0 +1,6 @@
+dataset,subgroup,primary,baseline,n,primary_em,baseline_em,em_delta,em_delta_ci95_low,em_delta_ci95_high,primary_f1,baseline_f1,f1_delta,f1_delta_ci95_low,f1_delta_ci95_high,both_correct,primary_only,baseline_only,neither,mcnemar_exact_p
+hotpot,all,EvidenceFirst v4 fresh,HopRAG strict,1000,0.5500,0.5410,0.0090,-0.0260,0.0360,0.6484,0.6438,0.0047,-0.0204,0.0304,433,117,108,342,0.593902
+hotpot,all,EvidenceFirst v6 selector guard,HopRAG strict,1000,0.5620,0.5410,0.0210,-0.0050,0.0490,0.6564,0.6438,0.0126,-0.0145,0.0354,443,119,98,340,0.174424
+hotpot,bridge,EvidenceFirst v6 selector guard,HopRAG strict,500,0.4560,0.3980,0.0580,0.0120,0.1020,0.5689,0.5221,0.0468,0.0027,0.0852,153,75,46,226,0.010611
+2wiki,all,EvidenceFirst v6,LightRAG,500,0.6900,0.6740,0.0160,-0.0160,0.0500,0.7581,0.7716,-0.0135,-0.0441,0.0118,306,39,31,124,0.402963
+2wiki,all,EvidenceFirst v6,A-RAG,500,0.6900,0.6660,0.0240,-0.0100,0.0600,0.7581,0.7323,0.0259,-0.0055,0.0592,292,53,41,114,0.256442

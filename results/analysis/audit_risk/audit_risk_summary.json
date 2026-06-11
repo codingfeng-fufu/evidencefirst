@@ -1,0 +1,468 @@
+{
+  "summary": [
+    {
+      "dataset": "hotpot",
+      "risk_bin": "0",
+      "n": 468,
+      "rate": "0.4680",
+      "em": "0.6581",
+      "f1": "0.7616",
+      "error_rate": "0.3419",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "1.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "1",
+      "n": 255,
+      "rate": "0.2550",
+      "em": "0.6078",
+      "f1": "0.7211",
+      "error_rate": "0.3922",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "2",
+      "n": 148,
+      "rate": "0.1480",
+      "em": "0.3986",
+      "f1": "0.4227",
+      "error_rate": "0.6014",
+      "selected_rate": "0.3243",
+      "chain_complete_rate": "0.6757",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "3",
+      "n": 103,
+      "rate": "0.1030",
+      "em": "0.3592",
+      "f1": "0.4699",
+      "error_rate": "0.6408",
+      "selected_rate": "0.4951",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.4951"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "4+",
+      "n": 26,
+      "rate": "0.0260",
+      "em": "0.1154",
+      "f1": "0.1974",
+      "error_rate": "0.8846",
+      "selected_rate": "0.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.6154"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "0",
+      "n": 170,
+      "rate": "0.3400",
+      "em": "0.7412",
+      "f1": "0.8056",
+      "error_rate": "0.2588",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "1.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "1",
+      "n": 149,
+      "rate": "0.2980",
+      "em": "0.7383",
+      "f1": "0.8118",
+      "error_rate": "0.2617",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "2",
+      "n": 81,
+      "rate": "0.1620",
+      "em": "0.6049",
+      "f1": "0.6695",
+      "error_rate": "0.3951",
+      "selected_rate": "0.1481",
+      "chain_complete_rate": "0.8519",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "3",
+      "n": 89,
+      "rate": "0.1780",
+      "em": "0.6404",
+      "f1": "0.6976",
+      "error_rate": "0.3596",
+      "selected_rate": "0.2360",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.2360"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "4+",
+      "n": 11,
+      "rate": "0.0220",
+      "em": "0.2727",
+      "f1": "0.4396",
+      "error_rate": "0.7273",
+      "selected_rate": "0.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.5455"
+    }
+  ],
+  "triage_utility": [
+    {
+      "dataset": "hotpot",
+      "signal": "audit_risk_score",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.6321",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.6700",
+      "topk_lift": "1.5297",
+      "topk_error_n": 134
+    },
+    {
+      "dataset": "hotpot",
+      "signal": "graph_audit_score",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.5434",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.5250",
+      "topk_lift": "1.1986",
+      "topk_error_n": 105
+    },
+    {
+      "dataset": "hotpot",
+      "signal": "answer_not_selected",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.6077",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.7000",
+      "topk_lift": "1.5982",
+      "topk_error_n": 140
+    },
+    {
+      "dataset": "hotpot",
+      "signal": "chain_incomplete",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.5321",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.5050",
+      "topk_lift": "1.1530",
+      "topk_error_n": 101
+    },
+    {
+      "dataset": "hotpot",
+      "signal": "residual_graph_gap",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.5264",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.5100",
+      "topk_lift": "1.1644",
+      "topk_error_n": 102
+    },
+    {
+      "dataset": "hotpot",
+      "signal": "unrepaired_incomplete",
+      "n": 1000,
+      "overall_error_rate": "0.4380",
+      "error_auc": "0.5359",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.5100",
+      "topk_lift": "1.1644",
+      "topk_error_n": 102
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "audit_risk_score",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5787",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.4000",
+      "topk_lift": "1.2903",
+      "topk_error_n": 40
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "graph_audit_score",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5230",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.3500",
+      "topk_lift": "1.1290",
+      "topk_error_n": 35
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "answer_not_selected",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5754",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.4000",
+      "topk_lift": "1.2903",
+      "topk_error_n": 40
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "chain_incomplete",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5144",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.2900",
+      "topk_lift": "0.9355",
+      "topk_error_n": 29
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "residual_graph_gap",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5204",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.3600",
+      "topk_lift": "1.1613",
+      "topk_error_n": 36
+    },
+    {
+      "dataset": "2wiki",
+      "signal": "unrepaired_incomplete",
+      "n": 500,
+      "overall_error_rate": "0.3100",
+      "error_auc": "0.5029",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.3300",
+      "topk_lift": "1.0645",
+      "topk_error_n": 33
+    }
+  ],
+  "conditional_selection_graph_state": [
+    {
+      "dataset": "hotpot",
+      "answer_selected": "false",
+      "graph_score": 0,
+      "n": 100,
+      "em": "0.2700",
+      "error_rate": "0.7300",
+      "f1": "0.2764"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "false",
+      "graph_score": 1,
+      "n": 52,
+      "em": "0.3269",
+      "error_rate": "0.6731",
+      "f1": "0.3564"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "false",
+      "graph_score": 2,
+      "n": 14,
+      "em": "0.2143",
+      "error_rate": "0.7857",
+      "f1": "0.2714"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "false",
+      "graph_score": 3,
+      "n": 12,
+      "em": "0.0000",
+      "error_rate": "1.0000",
+      "f1": "0.1111"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "true",
+      "graph_score": 0,
+      "n": 468,
+      "em": "0.6581",
+      "error_rate": "0.3419",
+      "f1": "0.7616"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "true",
+      "graph_score": 1,
+      "n": 255,
+      "em": "0.6078",
+      "error_rate": "0.3922",
+      "f1": "0.7211"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "true",
+      "graph_score": 2,
+      "n": 48,
+      "em": "0.6667",
+      "error_rate": "0.3333",
+      "f1": "0.7275"
+    },
+    {
+      "dataset": "hotpot",
+      "answer_selected": "true",
+      "graph_score": 3,
+      "n": 51,
+      "em": "0.3922",
+      "error_rate": "0.6078",
+      "f1": "0.5857"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "false",
+      "graph_score": 0,
+      "n": 69,
+      "em": "0.6087",
+      "error_rate": "0.3913",
+      "f1": "0.6757"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "false",
+      "graph_score": 1,
+      "n": 68,
+      "em": "0.6029",
+      "error_rate": "0.3971",
+      "f1": "0.6679"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "false",
+      "graph_score": 2,
+      "n": 5,
+      "em": "0.2000",
+      "error_rate": "0.8000",
+      "f1": "0.2571"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "false",
+      "graph_score": 3,
+      "n": 6,
+      "em": "0.3333",
+      "error_rate": "0.6667",
+      "f1": "0.5917"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "true",
+      "graph_score": 0,
+      "n": 170,
+      "em": "0.7412",
+      "error_rate": "0.2588",
+      "f1": "0.8056"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "true",
+      "graph_score": 1,
+      "n": 149,
+      "em": "0.7383",
+      "error_rate": "0.2617",
+      "f1": "0.8118"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "true",
+      "graph_score": 2,
+      "n": 12,
+      "em": "0.5833",
+      "error_rate": "0.4167",
+      "f1": "0.6333"
+    },
+    {
+      "dataset": "2wiki",
+      "answer_selected": "true",
+      "graph_score": 3,
+      "n": 21,
+      "em": "0.7619",
+      "error_rate": "0.2381",
+      "f1": "0.7937"
+    }
+  ],
+  "sample_size_stability": [
+    {
+      "dataset": "hotpot",
+      "n": 250,
+      "signal": "audit_risk_score",
+      "error_auc": "0.6324",
+      "topk_fraction": "0.20",
+      "topk_n": 50,
+      "topk_error_rate": "0.6400",
+      "topk_lift": "1.4815"
+    },
+    {
+      "dataset": "hotpot",
+      "n": 500,
+      "signal": "audit_risk_score",
+      "error_auc": "0.6554",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.6900",
+      "topk_lift": "1.5753"
+    },
+    {
+      "dataset": "hotpot",
+      "n": 1000,
+      "signal": "audit_risk_score",
+      "error_auc": "0.6321",
+      "topk_fraction": "0.20",
+      "topk_n": 200,
+      "topk_error_rate": "0.6700",
+      "topk_lift": "1.5297"
+    },
+    {
+      "dataset": "2wiki",
+      "n": 250,
+      "signal": "audit_risk_score",
+      "error_auc": "0.5841",
+      "topk_fraction": "0.20",
+      "topk_n": 50,
+      "topk_error_rate": "0.3800",
+      "topk_lift": "1.3380"
+    },
+    {
+      "dataset": "2wiki",
+      "n": 500,
+      "signal": "audit_risk_score",
+      "error_auc": "0.5787",
+      "topk_fraction": "0.20",
+      "topk_n": 100,
+      "topk_error_rate": "0.4000",
+      "topk_lift": "1.2903"
+    }
+  ]
+}

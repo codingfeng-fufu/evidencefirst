@@ -1,0 +1,752 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 8,
+      "input_tokens": 4883,
+      "output_tokens": 1877,
+      "total_tokens": 6760,
+      "wall_time": 64.5741,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 5,
+      "input_tokens": 2992,
+      "output_tokens": 277,
+      "total_tokens": 3269,
+      "wall_time": 8.0759,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York, USA",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 5,
+      "input_tokens": 4246,
+      "output_tokens": 534,
+      "total_tokens": 4780,
+      "wall_time": 13.8951,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 8,
+      "input_tokens": 6629,
+      "output_tokens": 1855,
+      "total_tokens": 8484,
+      "wall_time": 44.2354,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 5,
+      "input_tokens": 3727,
+      "output_tokens": 382,
+      "total_tokens": 4109,
+      "wall_time": 10.5995,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Manchester",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 8,
+      "input_tokens": 7182,
+      "output_tokens": 457,
+      "total_tokens": 7639,
+      "wall_time": 14.828,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 5,
+      "input_tokens": 3882,
+      "output_tokens": 254,
+      "total_tokens": 4136,
+      "wall_time": 7.9192,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 5,
+      "input_tokens": 4015,
+      "output_tokens": 893,
+      "total_tokens": 4908,
+      "wall_time": 22.6572,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "No.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 8,
+      "input_tokens": 6027,
+      "output_tokens": 317,
+      "total_tokens": 6344,
+      "wall_time": 10.3824,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 5,
+      "input_tokens": 4021,
+      "output_tokens": 313,
+      "total_tokens": 4334,
+      "wall_time": 8.9753,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "Dr. Edward Keonjian",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 5,
+      "input_tokens": 3481,
+      "output_tokens": 216,
+      "total_tokens": 3697,
+      "wall_time": 7.1077,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "The sedan variant of the Volvo V50 was not manufactured; it is the Volvo S40.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 8,
+      "input_tokens": 5143,
+      "output_tokens": 392,
+      "total_tokens": 5535,
+      "wall_time": 11.6667,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "William Dwight Schultz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 5,
+      "input_tokens": 3383,
+      "output_tokens": 355,
+      "total_tokens": 3738,
+      "wall_time": 10.134,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "Philadelphia Eagles",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 5,
+      "input_tokens": 4251,
+      "output_tokens": 178,
+      "total_tokens": 4429,
+      "wall_time": 6.6978,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "Heavyweights",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 8,
+      "input_tokens": 5027,
+      "output_tokens": 429,
+      "total_tokens": 5456,
+      "wall_time": 12.6955,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "Yes.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 5,
+      "input_tokens": 3174,
+      "output_tokens": 730,
+      "total_tokens": 3904,
+      "wall_time": 17.9829,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "New York",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 8,
+      "input_tokens": 6047,
+      "output_tokens": 2007,
+      "total_tokens": 8054,
+      "wall_time": 47.2253,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "George W. Bush",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 8,
+      "input_tokens": 6374,
+      "output_tokens": 708,
+      "total_tokens": 7082,
+      "wall_time": 19.0611,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "The Captain Matchbox Whoopee Band",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 5,
+      "input_tokens": 3487,
+      "output_tokens": 321,
+      "total_tokens": 3808,
+      "wall_time": 8.7553,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "The Smashing Pumpkins",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 8,
+      "input_tokens": 6256,
+      "output_tokens": 527,
+      "total_tokens": 6783,
+      "wall_time": 14.7532,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a85fa815542996432c57155": {
+    "answer": "Belgian",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a85fa815542996432c57155",
+      "llm_calls": 8,
+      "input_tokens": 5364,
+      "output_tokens": 687,
+      "total_tokens": 6051,
+      "wall_time": 18.8076,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a89e4585542992e4fca8454": {
+    "answer": "Mike Pringle",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a89e4585542992e4fca8454",
+      "llm_calls": 8,
+      "input_tokens": 6088,
+      "output_tokens": 1896,
+      "total_tokens": 7984,
+      "wall_time": 44.9652,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7148d25542994082a3e766": {
+    "answer": "Warrel Dane is older. He was born on March 7, 1969; Roy Khan was born on March 12, 1970.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7148d25542994082a3e766",
+      "llm_calls": 8,
+      "input_tokens": 5266,
+      "output_tokens": 370,
+      "total_tokens": 5636,
+      "wall_time": 11.1677,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab29c24554299449642c932": {
+    "answer": "Yes.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab29c24554299449642c932",
+      "llm_calls": 5,
+      "input_tokens": 4330,
+      "output_tokens": 972,
+      "total_tokens": 5302,
+      "wall_time": 23.3737,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7cdcbf55429907fabef04f": {
+    "answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "llm_calls": 8,
+      "input_tokens": 5906,
+      "output_tokens": 650,
+      "total_tokens": 6556,
+      "wall_time": 17.2627,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a863114554299211dda2aa5": {
+    "answer": "none",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a863114554299211dda2aa5",
+      "llm_calls": 8,
+      "input_tokens": 6234,
+      "output_tokens": 1132,
+      "total_tokens": 7366,
+      "wall_time": 28.1431,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adec53655429975fa854f87": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adec53655429975fa854f87",
+      "llm_calls": 5,
+      "input_tokens": 2878,
+      "output_tokens": 214,
+      "total_tokens": 3092,
+      "wall_time": 6.6462,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "Lake Worth Lagoon",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 5,
+      "input_tokens": 3633,
+      "output_tokens": 333,
+      "total_tokens": 3966,
+      "wall_time": 9.5019,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab7de455542992aa3b8c864": {
+    "answer": "Grammy awards",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7de455542992aa3b8c864",
+      "llm_calls": 5,
+      "input_tokens": 3742,
+      "output_tokens": 307,
+      "total_tokens": 4049,
+      "wall_time": 9.0914,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84d80c5542992a431d1ab5": {
+    "answer": "270 Park Avenue",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "llm_calls": 5,
+      "input_tokens": 3759,
+      "output_tokens": 436,
+      "total_tokens": 4195,
+      "wall_time": 11.3128,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a85a2845542997175ce1fe1": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85a2845542997175ce1fe1",
+      "llm_calls": 5,
+      "input_tokens": 3368,
+      "output_tokens": 334,
+      "total_tokens": 3702,
+      "wall_time": 9.5798,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adcfbf45542990d50227d86": {
+    "answer": "Yokohama",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adcfbf45542990d50227d86",
+      "llm_calls": 8,
+      "input_tokens": 5959,
+      "output_tokens": 521,
+      "total_tokens": 6480,
+      "wall_time": 14.8017,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7d2afd5542995f4f402221": {
+    "answer": "Ferdi Taygan",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7d2afd5542995f4f402221",
+      "llm_calls": 8,
+      "input_tokens": 3710,
+      "output_tokens": 421,
+      "total_tokens": 4131,
+      "wall_time": 11.8773,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7d1e685542995ed0d165f7": {
+    "answer": "Two",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "llm_calls": 5,
+      "input_tokens": 3941,
+      "output_tokens": 675,
+      "total_tokens": 4616,
+      "wall_time": 16.814,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab439f055429942dd415eef": {
+    "answer": "Dane County Regional Airport",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab439f055429942dd415eef",
+      "llm_calls": 5,
+      "input_tokens": 3646,
+      "output_tokens": 379,
+      "total_tokens": 4025,
+      "wall_time": 9.9849,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8d4cf35542994ba4e3dc5f": {
+    "answer": "None of the passages mention a radio station serving Belknap County.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "llm_calls": 8,
+      "input_tokens": 6022,
+      "output_tokens": 729,
+      "total_tokens": 6751,
+      "wall_time": 19.1386,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5add016e5542992c1e3a250b": {
+    "answer": "not supported",
+    "iterations": 2,
+    "usage": {
+      "qid": "5add016e5542992c1e3a250b",
+      "llm_calls": 8,
+      "input_tokens": 6615,
+      "output_tokens": 994,
+      "total_tokens": 7609,
+      "wall_time": 24.669,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac4efa85542991943173a04": {
+    "answer": "neither",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac4efa85542991943173a04",
+      "llm_calls": 8,
+      "input_tokens": 5445,
+      "output_tokens": 1044,
+      "total_tokens": 6489,
+      "wall_time": 26.6363,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "Best Alternative Music Album",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 8,
+      "input_tokens": 5956,
+      "output_tokens": 1711,
+      "total_tokens": 7667,
+      "wall_time": 41.5494,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a83880e554299123d8c214e": {
+    "answer": "Garfield",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a83880e554299123d8c214e",
+      "llm_calls": 8,
+      "input_tokens": 5734,
+      "output_tokens": 827,
+      "total_tokens": 6561,
+      "wall_time": 21.9744,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7458ff55429979e2882918": {
+    "answer": "films",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7458ff55429979e2882918",
+      "llm_calls": 5,
+      "input_tokens": 3862,
+      "output_tokens": 513,
+      "total_tokens": 4375,
+      "wall_time": 13.7755,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 8,
+      "input_tokens": 6155,
+      "output_tokens": 1864,
+      "total_tokens": 8019,
+      "wall_time": 44.869,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adfff0755429925eb1afbce": {
+    "answer": "Rachel, Nevada",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfff0755429925eb1afbce",
+      "llm_calls": 8,
+      "input_tokens": 7891,
+      "output_tokens": 574,
+      "total_tokens": 8465,
+      "wall_time": 15.5942,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7283355542991f9a20c4b1": {
+    "answer": "Frederick Barbarossa",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7283355542991f9a20c4b1",
+      "llm_calls": 8,
+      "input_tokens": 6200,
+      "output_tokens": 1331,
+      "total_tokens": 7531,
+      "wall_time": 32.1504,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8fa2955542992414482b11": {
+    "answer": "Bougainville – Our Island Our Fight",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8fa2955542992414482b11",
+      "llm_calls": 8,
+      "input_tokens": 5452,
+      "output_tokens": 1216,
+      "total_tokens": 6668,
+      "wall_time": 29.9638,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a888abc5542997e5c09a604": {
+    "answer": "Kolejka",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a888abc5542997e5c09a604",
+      "llm_calls": 8,
+      "input_tokens": 6097,
+      "output_tokens": 355,
+      "total_tokens": 6452,
+      "wall_time": 10.8639,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "The Rescuers",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 8,
+      "input_tokens": 5643,
+      "output_tokens": 1163,
+      "total_tokens": 6806,
+      "wall_time": 29.2697,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae446fc5542995ad6573d24": {
+    "answer": "Gloria Trevi",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae446fc5542995ad6573d24",
+      "llm_calls": 5,
+      "input_tokens": 3918,
+      "output_tokens": 230,
+      "total_tokens": 4148,
+      "wall_time": 6.938,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "Guitar",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 8,
+      "input_tokens": 6441,
+      "output_tokens": 587,
+      "total_tokens": 7028,
+      "wall_time": 15.7094,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 5,
+      "input_tokens": 4159,
+      "output_tokens": 295,
+      "total_tokens": 4454,
+      "wall_time": 9.361,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  }
+}

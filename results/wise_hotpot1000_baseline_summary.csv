@@ -1,0 +1,11 @@
+method,n,EM,F1,artifact
+naive_rag,1000,0.3920,0.4865,results/wise_hotpot1000_naive_rag_combined_metrics.csv
+ircot,1000,0.4660,0.5707,results/wise_hotpot1000_ircot_combined_metrics.csv
+arag_full_post,1000,0.5170,0.6273,results/wise_hotpot1000_arag_full_post_combined_metrics.csv
+lightrag,1000,0.4380,0.5376,results/wise_hotpot1000_lightrag_combined_metrics.csv
+ms_graphrag,1000,0.1890,0.2774,results/wise_hotpot1000_ms_graphrag_combined_metrics.csv
+hoprag_strict,1000,0.5410,0.6438,results/wise_hotpot1000_hoprag_strict_response_metrics.csv
+hoprag_legacy,1000,0.5470,0.6498,external_runs/hoprag_hotpot1000_bge_fast/metrics.csv
+comagraag_meta_selector_v2,1000,0.5510,0.6541,results/wise_hotpot1000_comagraag_meta_selector_v2_metrics.csv
+comagraag_body_selector_v3,1000,0.5530,0.6553,results/wise_hotpot1000_comagraag_body_best_metrics.csv
+comagraag_consensus,1000,0.5840,0.6869,results/wise_hotpot1000_comagraag_best_hybrid_metrics.csv

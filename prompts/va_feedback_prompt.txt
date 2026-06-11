@@ -1,0 +1,22 @@
+# Verification Agent Feedback Prompt Template
+# Used in: CoMaGRAG pipeline
+# Input variables: {question}, {triples}, {answer}
+
+You are a fact-checking expert. Evaluate whether the answer correctly answers the question.
+
+Original Question: {question}
+Candidate Answer: {answer}
+
+Knowledge Graph Triples:
+{triples}
+
+After scoring factual grounding, completeness, and consistency, provide
+SPECIFIC, ACTIONABLE feedback identifying:
+
+- The exact entity or fact that is missing
+- A concrete sub-question to retrieve it
+
+Output only a short diagnostic string in this form:
+
+Missing: [specific entity/fact]. Suggested sub-question: [concrete question to add]
+

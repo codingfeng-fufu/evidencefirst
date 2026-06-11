@@ -1,0 +1,3726 @@
+{
+  "summary": {
+    "n": 100,
+    "rerun_count": 51,
+    "old_em": 0.34,
+    "new_em": 0.36,
+    "delta_em_points": 2.0,
+    "improved_questions": 3
+  },
+  "records": {
+    "5a7b24fe55429931da12c9f7": {
+      "question": "Which dog breed has more derivative breeds from the original, German Spitz or Norfolk Spaniel?",
+      "gold": "German Spitz",
+      "old_answer": "German Spitz",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "German Spitz",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What dog breeds are derived from the German Spitz?",
+            "What dog breeds are derived from the Norfolk Spaniel?",
+            "How many derivative breeds does each of those two parent breeds have?"
+          ],
+          "n_triples": 50,
+          "answer": "German Spitz",
+          "score": 0.74,
+          "feedback": "Missing: number of derivative breeds from Norfolk Spaniel (e.g., English Springer Spaniel, Welsh Springer Spaniel, English Cocker Spaniel — and whether they count as *direct* derivatives). Suggested sub-question: How many modern dog breeds are documented as directly developed from the extinct Norfolk Spaniel breed?"
+        }
+      ]
+    },
+    "5abd247e5542996e802b472f": {
+      "question": "Are Robert Philibosian and David Ignatius both politicians?",
+      "gold": "no",
+      "old_answer": "no",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "no",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Robert Philibosian?",
+            "Who is David Ignatius?",
+            "Are both Robert Philibosian and David Ignatius politicians?"
+          ],
+          "n_triples": 40,
+          "answer": "no",
+          "score": 0.42,
+          "feedback": "Missing: confirmation that 'David Ignatius' (without suffixes like 'Walsh', 'Finnegan', or 'Jackman') is a politician. The triples refer to 'David Ignatius Walsh', 'David Ignatius Finnegan', and 'David Ignatius Jackman' as politicians, but the question asks about 'David Ignatius' — a distinct, unqualified name. The triple 'David Ignatius -- is a columnist for --> The Washington Post' and 'Body of Lies -- written by --> David Ignatius' suggest this refers to David Ignatius the journalist/novelist (born 1951), who is not a politician. No triple states that *this* David Ignatius is a politician; all political attributions are tied to disambiguated variants. Suggested sub-question: 'Is David Ignatius (the Washington Post columnist and author of Body of Lies) a politician?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Robert Philibosian?",
+            "Is David Ignatius (the Washington Post columnist and author of Body of Lies) a politician?"
+          ],
+          "n_triples": 45,
+          "answer": "no",
+          "score": 0.5900000000000001,
+          "feedback": "Missing: confirmation that Robert Philibosian is a politician (the triple 'Robert Harry Philibosian -- is --> an American politician' supports this, but the answer 'no' contradicts it). Suggested sub-question: Is Robert Harry Philibosian a politician?"
+        }
+      ]
+    },
+    "5a83a7e15542992ef85e2347": {
+      "question": "Who voices Homer Simpson's character on the animated television series? ",
+      "gold": "Daniel Louis Castellaneta",
+      "old_answer": "Dan Castellaneta",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Dan Castellaneta",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who voices Homer Simpson on The Simpsons?"
+          ],
+          "n_triples": 50,
+          "answer": "Dan Castellaneta",
+          "score": 1.0,
+          "feedback": "Missing: none. The candidate answer 'Dan Castellaneta' is directly supported by multiple triples (e.g., 'Homer Jay Simpson -- is voiced by --> Dan Castellaneta', 'Dan Castellaneta -- voices --> Homer Simpson', 'Daniel Louis Castellaneta -- plays --> Homer Simpson'), fully answers the question, and no triple contradicts this."
+        }
+      ]
+    },
+    "5ac4f12d55429924173fb4f6": {
+      "question": "Pravda and Stiffelio are both operas?",
+      "gold": "no",
+      "old_answer": "no",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "no",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Is Pravda an opera?",
+            "Is Stiffelio an opera?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.74,
+          "feedback": "Missing: genre classification of 'Stiffelio' (e.g., whether it is an opera) and genre classification of 'Pravda' (e.g., whether it is an opera). Suggested sub-question: 'Is Stiffelio an opera?' and 'Is Pravda an opera?'"
+        }
+      ]
+    },
+    "5ab33ef955429969a97a810e": {
+      "question": "Corn Ranch is a spaceport where test flights are carried out by a company headquartered in what state?",
+      "gold": "Washington",
+      "old_answer": "But again: the triples give *no info about Blue Origin’s headquarters*. So we cannot answer",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "But again: the triples give *no info about Blue Origin’s headquarters*. So we cannot answer",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What company carries out test flights at Corn Ranch?",
+            "Where is that company headquartered?"
+          ],
+          "n_triples": 50,
+          "answer": "But again: the triples give *no info about Blue Origin’s headquarters*. So we cannot answer",
+          "score": 0.7,
+          "feedback": "Missing: headquarters location of Blue Origin. Suggested sub-question: Where is Blue Origin headquartered?"
+        }
+      ]
+    },
+    "5a7a1d305542990783324e66": {
+      "question": "What are the professions of Tom Johnston and Daryl Palumbo?",
+      "gold": "American musician",
+      "old_answer": "musician",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "musician",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is Tom Johnston's profession?",
+            "What is Daryl Palumbo's profession?"
+          ],
+          "n_triples": 50,
+          "answer": "musician",
+          "score": 0.56,
+          "feedback": "Missing: Tom Johnston's profession (the triples only state he 'give --> Town a big boost', which is vague and non-professional; no triple identifies him as a musician or specifies his occupation). Suggested sub-question: What is Tom Johnston's profession?"
+        }
+      ]
+    },
+    "5ac00f795542996f0d89cb16": {
+      "question": "The Disney version of Ebenezer Scrooge was voiced by whom?",
+      "gold": "Alan Young",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Ebenezer Scrooge?",
+            "Which Disney adaptation features Ebenezer Scrooge?",
+            "Who voiced Ebenezer Scrooge in that Disney adaptation?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: voice actor for Ebenezer Scrooge in Disney's 'Mickey's Christmas Carol' (1983). Suggested sub-question: Who voiced Ebenezer Scrooge in the 1983 Disney animated featurette 'Mickey's Christmas Carol'?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Ebenezer Scrooge?",
+            "Which Disney adaptation features Ebenezer Scrooge?",
+            "Who voiced Ebenezer Scrooge in the 1983 Disney animated featurette 'Mickey's Christmas Carol'?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: voice actor for Ebenezer Scrooge in Disney's 'Mickey's Christmas Carol' (1983). Suggested sub-question: Who voiced Ebenezer Scrooge in the 1983 Disney animated featurette 'Mickey's Christmas Carol'?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who voiced Ebenezer Scrooge in the 1983 Disney animated featurette 'Mickey's Christmas Carol'?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the voice actor for Ebenezer Scrooge in Disney's 'Mickey's Christmas Carol'. Suggested sub-question: Who voiced Ebenezer Scrooge in the 1983 Disney animated featurette 'Mickey's Christmas Carol'?"
+        }
+      ]
+    },
+    "5ae4ec1e5542990ba0bbb19b": {
+      "question": "In between The Bears and I and Oceans which was released on July 31, 1974, by Buena Vista Distribution?",
+      "gold": "The Bears and I",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "no such film",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the release date of the film 'The Bears and I'?",
+            "What is the release date of the film 'Oceans'?",
+            "Which of these two films was released on July 31, 1974, by Buena Vista Distribution?"
+          ],
+          "n_triples": 49,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: release title of the film released by Buena Vista Distribution on July 31, 1974. Suggested sub-question: Which film was released by Buena Vista Distribution on July 31, 1974?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the release date of the film 'The Bears and I'?",
+            "What is the release date of the film 'Oceans'?",
+            "Which film was released by Buena Vista Distribution on July 31, 1974?"
+          ],
+          "n_triples": 47,
+          "answer": "no such film",
+          "score": 0.75,
+          "feedback": "Missing: explicit identification of 'The Bears and I' as the film released on July 31, 1974 by Buena Vista Distribution — specifically, a triple linking 'The Bears and I' to the release date and distributor. Suggested sub-question: 'Which film titled \"The Bears and I\" or \"Oceans\" was released on July 31, 1974 by Buena Vista Distribution?'"
+        }
+      ]
+    },
+    "5a8408a9554299123d8c21d3": {
+      "question": "Which Canadian artist is credited with first coming up with the title of Various Positions?",
+      "gold": "Leonard Cohen",
+      "old_answer": "Leonard Cohen",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Leonard Cohen",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is the Canadian artist who released the album Various Positions?",
+            "Who came up with the title of the album Various Positions?"
+          ],
+          "n_triples": 50,
+          "answer": "Leonard Cohen",
+          "score": 0.54,
+          "feedback": "Missing: explicit attribution of the title 'Various Positions' to Leonard Cohen as its originator (i.e., that Cohen coined or chose the title for his 1984 album). Suggested sub-question: Who selected or is credited with naming Leonard Cohen's 1984 album 'Various Positions'?"
+        }
+      ]
+    },
+    "5a83041355429966c78a6ae8": {
+      "question": "Both Ralph Bakshi and Béla Gaál had what roll in film making?",
+      "gold": "film director",
+      "old_answer": "director",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "director",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Ralph Bakshi?",
+            "Who is Béla Gaál?",
+            "What was the primary role of each in filmmaking?"
+          ],
+          "n_triples": 50,
+          "answer": "director",
+          "score": 0.94,
+          "feedback": "Missing: explicit confirmation that Béla Gaál was a director *in general* (beyond directing specific films), and no triple states Ralph Bakshi's role beyond 'directed' or 'written and directed' — though 'is primarily known as a director of animated films' strongly implies it. However, the question asks for 'what role', and while 'director' is correct for both, the knowledge graph lacks a direct triple stating 'Béla Gaál -- has role --> director' or 'Ralph Bakshi -- has role --> director' as an ontological role (i.e., profession/occupation). Suggested sub-question: 'What is Béla Gaál’s primary professional role in filmmaking?'"
+        }
+      ]
+    },
+    "5ae0c29c5542993d6555ec46": {
+      "question": "What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?",
+      "gold": "professional wrestler, actor, and hip hop musician",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "professional wrestler",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who collaborated with Marc Predka on a 2005 album?",
+            "What song did that person write on that 2005 album?",
+            "What was the profession of that person?"
+          ],
+          "n_triples": 50,
+          "answer": "professional wrestler",
+          "score": 0.3,
+          "feedback": "Missing: the profession of Marc Predka (who is Tha Trademarc). Suggested sub-question: What is Marc Predka's primary profession?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who collaborated with Marc Predka on a 2005 album?",
+            "What song did that person write on that 2005 album?",
+            "What was the profession of that person?",
+            "What is Marc Predka's primary profession?"
+          ],
+          "n_triples": 50,
+          "answer": "Wait — what *is* stated about Marc Predka’s",
+          "score": 0.3,
+          "feedback": "Missing: the profession of Marc Predka (who is Tha Trademarc) — specifically, the triples state 'Tha Trademarc -- works as --> classroom specialist', but the candidate answer does not identify this profession and instead begins with an incoherent fragment. Suggested sub-question: What is Marc Predka's profession?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who collaborated with Marc Predka on a 2005 album?",
+            "What song did that person write on that 2005 album?",
+            "What was the profession of that person?",
+            "What is Marc Predka's profession?"
+          ],
+          "n_triples": 50,
+          "answer": "Let’s check if any other 2005 album is linked to Marc Predka —",
+          "score": 0.42,
+          "feedback": "Missing: the profession of Marc Predka (a.k.a. Tha Trademarc) — specifically, whether his role as 'classroom specialist' is his primary or current profession, and whether he wrote songs on the 2005 album 'You Can't See Me'. The triples state he 'collaborated on' the album and 'works as classroom specialist', but do not specify if he *wrote* any song on it, nor clarify whether 'classroom specialist' is his profession *as a songwriter/musician* or in an unrelated field. Suggested sub-question: 'Did Marc Predka write any songs on the 2005 album \"You Can't See Me\"?'"
+        }
+      ]
+    },
+    "5a86458b5542991e771815ec": {
+      "question": "What is the population of the city where the Akademisches Kunstmuseum is?",
+      "gold": "300,000",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where is the Akademisches Kunstmuseum located?",
+            "What is the population of that city?"
+          ],
+          "n_triples": 7,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: population of Bonn, Germany. Suggested sub-question: What is the current population of Bonn, Germany?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Where is the Akademisches Kunstmuseum located?",
+            "What is the current population of Bonn, Germany?"
+          ],
+          "n_triples": 7,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: population of Bonn, Germany. Suggested sub-question: What is the current population of Bonn, Germany?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Where is the Akademisches Kunstmuseum located?",
+            "What is the current population of Bonn, Germany?"
+          ],
+          "n_triples": 7,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: population of Bonn, Germany. Suggested sub-question: What is the current population of Bonn, Germany?"
+        }
+      ]
+    },
+    "5ae694a15542991bbc976141": {
+      "question": "Why is Minister Pool important to Black Country and the West Midlands in England?",
+      "gold": "defence of the Cathedral",
+      "old_answer": "Not mentioned",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Not mentioned",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Minister Pool?",
+            "What role or position does Minister Pool hold in relation to the Black Country and the West Midlands?",
+            "What specific contributions or actions has Minister Pool made that are significant to the Black Country and the West Midlands?"
+          ],
+          "n_triples": 50,
+          "answer": "Not mentioned",
+          "score": 0.3,
+          "feedback": "Missing: any information about 'Minister Pool' — including identity, role, affiliation, or connection to the Black Country or West Midlands. Suggested sub-question: Who is Minister Pool, and what is their official position or responsibility related to the Black Country or West Midlands?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Minister Pool, and what is their official position or responsibility related to the Black Country or West Midlands?",
+            "What specific contributions or actions has Minister Pool made that are significant to the Black Country and the West Midlands?"
+          ],
+          "n_triples": 50,
+          "answer": "Not mentioned",
+          "score": 0.3,
+          "feedback": "Missing: identity and role of 'Minister Pool' — no triple mentions any person named 'Pool', 'Minister Pool', or any government minister associated with the Black Country or West Midlands. Suggested sub-question: 'Who is Minister Pool, and what is their official position or portfolio related to the Black Country or West Midlands?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Minister Pool, and what is their official position or portfolio related to the Black Country or West Midlands?",
+            "Does a government minister named 'Pool' currently hold office in the UK government with responsibilities for the Black Country or West Midlands?",
+            "Is 'Minister Pool' a formal title, a misnomer, or a reference to a specific individual, organisation, or initiative associated with the Black Country or West Midlands?"
+          ],
+          "n_triples": 50,
+          "answer": "Not mentioned",
+          "score": 0.3,
+          "feedback": "Missing: identity and role of 'Minister Pool' — no triple mentions any person or entity named 'Minister Pool', nor any ministerial figure associated with the Black Country or West Midlands. Suggested sub-question: 'Who is Minister Pool, and what official position or responsibilities do they hold in relation to the Black Country or West Midlands?'"
+        }
+      ]
+    },
+    "5a7f53ff5542992097ad2f17": {
+      "question": "In addition to the best known comic servant from Commedia dell'arte, who else is featured in La Surprise de l'amour?",
+      "gold": "Columbine",
+      "old_answer": "Columbine",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Columbine",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is the best known comic servant from Commedia dell'arte?",
+            "Who are the characters featured in La Surprise de l'amour?"
+          ],
+          "n_triples": 50,
+          "answer": "Columbine",
+          "score": 0.8200000000000001,
+          "feedback": "Missing: the best known comic servant from Commedia dell'arte (Arlequin/Arlecchino). Suggested sub-question: Who is the best known comic servant character in Commedia dell'arte?"
+        }
+      ]
+    },
+    "5a8ec02e5542995a26add501": {
+      "question": "Which American sketch comedy television series starring John C. Reilly was produced by Abso Lutely Productions?",
+      "gold": "Check It Out!",
+      "old_answer": "none",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "none",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Which American sketch comedy television series starred John C. Reilly?",
+            "Which production company produced that series?",
+            "Is Abso Lutely Productions the production company of that series?"
+          ],
+          "n_triples": 50,
+          "answer": "none",
+          "score": 0.7,
+          "feedback": "Missing: American sketch comedy television series starring John C. Reilly and produced by Abso Lutely Productions. Suggested sub-question: Which American sketch comedy television series starring John C. Reilly was produced by Abso Lutely Productions?"
+        }
+      ]
+    },
+    "5a8fdb955542990a98493572": {
+      "question": "One of the directors of Mediastan is well-known for founding what organisation in 2006?",
+      "gold": "WikiLeaks",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who are the directors of Mediastan?",
+            "Which director of Mediastan founded an organization in 2006?",
+            "What organization did that director found in 2006?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: identity of the directors of Mediastan and any organisation they founded in 2006. Suggested sub-question: Who are the directors of Mediastan, and which of them founded an organisation in 2006?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who are the directors of Mediastan, and which of them founded an organisation in 2006?",
+            "What organisation did that director found in 2006?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: identity of the directors of Mediastan and the organisation one of them founded in 2006. Suggested sub-question: Who are the directors of Mediastan, and which organisation did any of them found in 2006?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who are the directors of Mediastan?",
+            "Which organisation was founded in 2006 by one of the directors of Mediastan?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: identity of the directors of Mediastan and any organisation they founded in 2006. Suggested sub-question: Who are the directors of Mediastan, and which of them founded an organisation in 2006?"
+        }
+      ]
+    },
+    "5a85ae455542997175ce1ff0": {
+      "question": "What is Rachelle Amy Beinart's role in the film that follows a group of rebels on a mission?",
+      "gold": "stunt performances",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What film follows a group of rebels on a mission and features Rachelle Amy Beinart?",
+            "What role did Rachelle Amy Beinart play in that film?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: Rachelle Amy Beinart's role in the film 'Rogue One'. Suggested sub-question: What character did Rachelle Amy Beinart portray in Rogue One?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What film follows a group of rebels on a mission and features Rachelle Amy Beinart?",
+            "What character did Rachelle Amy Beinart portray in Rogue One?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.7,
+          "feedback": "Missing: Rachelle Amy Beinart's filmography or casting credits in Rogue One: A Star Wars Story. Suggested sub-question: Did Rachelle Amy Beinart appear in Rogue One: A Star Wars Story, and if so, in what role?"
+        }
+      ]
+    },
+    "5a710a915542994082a3e504": {
+      "question": "Which of these men, Scott Treleaven and Edmund Mortimer, is credited with working in both films and photography?",
+      "gold": "Scott Treleaven",
+      "old_answer": "Scott Treleaven",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "Scott Treleaven",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What films has Scott Treleaven worked on?",
+            "What photography work has Scott Treleaven done?",
+            "What films has Edmund Mortimer worked on?",
+            "What photography work has Edmund Mortimer done?"
+          ],
+          "n_triples": 50,
+          "answer": "Scott Treleaven",
+          "score": 0.42,
+          "feedback": "Missing: explicit statement that Scott Treleaven works in photography. While 'work of Scott Treleaven -- employs --> a variety of media' and 'a variety of media -- including --> photography' are present, there is no direct triple linking Scott Treleaven to photography (e.g., 'Scott Treleaven -- practices --> photography' or 'Scott Treleaven -- is known for --> photography'). Also missing: confirmation that Edmund Mortimer worked in photography — the triples only state he was an actor and director of films, with no mention of photography. Suggested sub-question: 'Does Scott Treleaven work in photography?' and 'Did Edmund Mortimer work in photography?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What films has Scott Treleaven worked on?",
+            "What photography work has Scott Treleaven done?",
+            "What films has Edmund Mortimer worked on?",
+            "What photography work has Edmund Mortimer done?",
+            "Does Scott Treleaven work in photography?",
+            "Did Edmund Mortimer work in photography?"
+          ],
+          "n_triples": 50,
+          "answer": "Scott Treleaven",
+          "score": 0.51,
+          "feedback": "Missing: explicit attribution of photography work to Scott Treleaven. Suggested sub-question: 'Has Scott Treleaven worked in photography?'"
+        }
+      ]
+    },
+    "5ab207f65542993be8fa98b8": {
+      "question": "Edmund Robert Harris is the principal benefactor of a museum located where ?",
+      "gold": "Preston",
+      "old_answer": "not specified",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Edmund Robert Harris?",
+            "Which museum was funded by Edmund Robert Harris?",
+            "Where is that museum located?"
+          ],
+          "n_triples": 35,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: location of the Harris Museum. Suggested sub-question: Where is the Harris Museum located?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Edmund Robert Harris?",
+            "Which museum was funded by Edmund Robert Harris?",
+            "Where is the Harris Museum located?"
+          ],
+          "n_triples": 38,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: location of the Harris Museum. Suggested sub-question: Where is the Harris Museum located?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Edmund Robert Harris?",
+            "Which museum was funded by Edmund Robert Harris?",
+            "Where is the Harris Museum located?"
+          ],
+          "n_triples": 38,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: location of the Harris Museum. Suggested sub-question: Where is the Harris Museum located?"
+        }
+      ]
+    },
+    "5a72af155542992359bc316c": {
+      "question": "What movie included Robin Williams along with Joshua Aaron Charles, set in 1959 at a Vermont boarding school?",
+      "gold": "Dead Poets Society",
+      "old_answer": "Dead Poets Society",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Dead Poets Society",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What movie starring Robin Williams is set in 1959 at a Vermont boarding school?",
+            "Did Joshua Aaron Charles appear in that movie?"
+          ],
+          "n_triples": 50,
+          "answer": "Dead Poets Society",
+          "score": 0.8800000000000001,
+          "feedback": "Missing: Joshua Aaron Charles's role in Dead Poets Society. Suggested sub-question: Which character did Joshua Aaron Charles portray in Dead Poets Society?"
+        }
+      ]
+    },
+    "5ac176555542994d76dcce47": {
+      "question": "What profession does H. L. Mencken and Albert Camus have in common?",
+      "gold": "journalist",
+      "old_answer": "But wait — re-examining",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "But the instructions require a final answer of 1–5 words. And the system",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was H. L. Mencken?",
+            "Who was Albert Camus?",
+            "What profession did both H. L. Mencken and Albert Camus share?"
+          ],
+          "n_triples": 50,
+          "answer": "But the instructions require a final answer of 1–5 words. And the system",
+          "score": 0.15,
+          "feedback": "Missing: profession of H. L. Mencken and profession of Albert Camus. Suggested sub-question: What was H. L. Mencken's primary profession? What was Albert Camus's primary profession?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who was H. L. Mencken?",
+            "Who was Albert Camus?",
+            "What was H. L. Mencken's primary profession?",
+            "What was Albert Camus's primary profession?"
+          ],
+          "n_triples": 50,
+          "answer": "Therefore, per strict adherence to",
+          "score": 0.15,
+          "feedback": "Missing: professions of H. L. Mencken and Albert Camus. Suggested sub-question: What was H. L. Mencken's primary profession? What was Albert Camus's primary profession?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What was H. L. Mencken's primary profession?",
+            "What was Albert Camus's primary profession?"
+          ],
+          "n_triples": 50,
+          "answer": "- \"H. L",
+          "score": 0.15,
+          "feedback": "Missing: the profession(s) of H. L. Mencken and Albert Camus. Suggested sub-question: What was H. L. Mencken's primary profession? What was Albert Camus's primary profession?"
+        }
+      ]
+    },
+    "5a72aec45542994cef4bc3d7": {
+      "question": "Which author lived longer, Nelson Algren or Nathanael West?",
+      "gold": "Nelson Algren",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was Nelson Algren born and when did he die?",
+            "When was Nathanael West born and when did he die?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: birth and death dates of Nelson Algren and Nathanael West. Suggested sub-question: When was Nelson Algren born and when did he die? When was Nathanael West born and when did he die?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was Nelson Algren born and when did he die?",
+            "When was Nathanael West born and when did he die?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: birth and death dates of Nelson Algren and Nathanael West. Suggested sub-question: When was Nelson Algren born and when did he die? When was Nathanael West born and when did he die?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "When was Nelson Algren born?",
+            "When did Nelson Algren die?",
+            "When was Nathanael West born?",
+            "When did Nathanael West die?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: birth and death dates of Nelson Algren and Nathanael West. Suggested sub-question: When was Nelson Algren born and when did he die? When was Nathanael West born and when did he die?"
+        }
+      ]
+    },
+    "5ab913205542991b5579f0e0": {
+      "question": "The Sanders-Brown Center on Aging was funded by a grant from a businessman known for what restaurant chain?",
+      "gold": "Kentucky Fried Chicken (KFC)",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who funded the Sanders-Brown Center on Aging?",
+            "What restaurant chain is that businessman known for?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the businessman who funded the Sanders-Brown Center on Aging and his associated restaurant chain. Suggested sub-question: Who provided the grant funding for the Sanders-Brown Center on Aging, and what restaurant chain is that individual known for?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who provided the grant funding for the Sanders-Brown Center on Aging, and what restaurant chain is that individual known for?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: the businessman who funded the Sanders-Brown Center on Aging and his associated restaurant chain. Suggested sub-question: Who provided the grant funding for the Sanders-Brown Center on Aging, and what restaurant chain is that person known for?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who provided the grant funding for the Sanders-Brown Center on Aging?",
+            "What restaurant chain is that person known for?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the name of the businessman who funded the Sanders-Brown Center on Aging and his associated restaurant chain. Suggested sub-question: Who funded the Sanders-Brown Center on Aging, and what restaurant chain is that funder known for?"
+        }
+      ]
+    },
+    "5a8aed1755429950cd6afbf1": {
+      "question": "Are Fastbacks and Local Natives both from the same US state?",
+      "gold": "no",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where are Fastbacks from?",
+            "Where are Local Natives from?",
+            "Are Fastbacks and Local Natives from the same US state?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: origin state of the band Fastbacks. Suggested sub-question: Where was the band Fastbacks formed or based?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Where was the band Fastbacks formed or based?",
+            "Where are Local Natives from?",
+            "Are Fastbacks and Local Natives from the same US state?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: origin state of Fastbacks. Suggested sub-question: Where is the band Fastbacks from?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Where is the band Fastbacks from?",
+            "Where are Local Natives from?",
+            "Are Fastbacks and Local Natives from the same US state?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: origin state of the band Fastbacks. Suggested sub-question: Where was the band Fastbacks formed or based?"
+        }
+      ]
+    },
+    "5a729fa15542994cef4bc397": {
+      "question": "Which movie came out first, \"Bambi\" or \"Underdog\"?",
+      "gold": "Bambi",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was 'Bambi' released?",
+            "When was 'Underdog' released?"
+          ],
+          "n_triples": 40,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release year of 'Bambi' and release year of 'Underdog'. Suggested sub-question: 'When was the animated movie \"Bambi\" released?' and 'When was the live-action movie \"Underdog\" (2007) released?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was the animated movie \"Bambi\" released?",
+            "When was the live-action movie \"Underdog\" (2007) released?"
+          ],
+          "n_triples": 47,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release years of 'Bambi' and 'Underdog'. Suggested sub-question: 'What year was the Disney movie \"Bambi\" released?' and 'What year was the live-action movie \"Underdog\" released?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What year was the Disney movie \"Bambi\" released?",
+            "What year was the live-action movie \"Underdog\" released?"
+          ],
+          "n_triples": 46,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release year of 'Bambi' and release year of 'Underdog'. Suggested sub-question: 'What year was the Disney movie \"Bambi\" released?' and 'What year was the movie \"Underdog\" (2007 live-action film) released?'"
+        }
+      ]
+    },
+    "5abbdb195542993f40c73bf1": {
+      "question": "Which is larger, Garajonay National Park or Guadarrama National Park?",
+      "gold": "Sierra de Guadarrama National Park",
+      "old_answer": "Guadarrama National Park",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Guadarrama National Park",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the area of Garajonay National Park?",
+            "What is the area of Guadarrama National Park?"
+          ],
+          "n_triples": 50,
+          "answer": "Guadarrama National Park",
+          "score": 0.3,
+          "feedback": "Missing: area (in km²) of Garajonay National Park and area (in km²) of Sierra de Guadarrama National Park. Suggested sub-question: What is the total area of Garajonay National Park in square kilometers? What is the total area of Sierra de Guadarrama National Park in square kilometers?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the total area of Garajonay National Park in square kilometers?",
+            "What is the total area of Sierra de Guadarrama National Park in square kilometers?"
+          ],
+          "n_triples": 50,
+          "answer": "Guadarrama National Park",
+          "score": 0.3,
+          "feedback": "Missing: area (in km²) of Garajonay National Park and area (in km²) of Sierra de Guadarrama National Park. Suggested sub-question: What is the total area of Garajonay National Park? What is the total area of Sierra de Guadarrama National Park?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What is the total area of Garajonay National Park?",
+            "What is the total area of Sierra de Guadarrama National Park?"
+          ],
+          "n_triples": 50,
+          "answer": "Guadarrama National Park",
+          "score": 0.3,
+          "feedback": "Missing: area (in km²) of Garajonay National Park and area (in km²) of Sierra de Guadarrama National Park. Suggested sub-question: What is the total area of Garajonay National Park in square kilometers? What is the total area of Sierra de Guadarrama National Park in square kilometers?"
+        }
+      ]
+    },
+    "5a78d16455429974737f78bb": {
+      "question": "Between two scientists Ernst Messerschmid and Philippe Perrin, who is older?",
+      "gold": "Ernst Willi Messerschmid",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was Ernst Messerschmid born?",
+            "When was Philippe Perrin born?"
+          ],
+          "n_triples": 38,
+          "answer": "insufficient information",
+          "score": 0.68,
+          "feedback": "Missing: birth date of Ernst Messerschmid. Suggested sub-question: When was Ernst Messerschmid born?"
+        }
+      ]
+    },
+    "5a83ab355542990548d0b218": {
+      "question": "Who was a higher ranked tennis player: Paola Suárez or Michael Venus?",
+      "gold": "Paola Suárez",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What was Paola Suárez's highest singles ranking in professional tennis?",
+            "What was Michael Venus's highest doubles ranking in professional tennis?",
+            "What was Paola Suárez's highest doubles ranking in professional tennis?"
+          ],
+          "n_triples": 45,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: highest career singles ranking of Paola Suárez and Michael Venus. Suggested sub-question: What was Paola Suárez's highest WTA singles ranking? What was Michael Venus's highest ATP singles ranking?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What was Paola Suárez's highest WTA singles ranking?",
+            "What was Michael Venus's highest ATP singles ranking?",
+            "What was Paola Suárez's highest WTA doubles ranking?",
+            "What was Michael Venus's highest ATP doubles ranking?"
+          ],
+          "n_triples": 41,
+          "answer": "insufficient information",
+          "score": 0.38,
+          "feedback": "Missing: highest singles and doubles ranking achieved by Michael Venus, and highest singles and doubles ranking achieved by Paola Suárez (beyond 'holding the No. 1 doubles ranking' — which lacks a timeframe or confirmation of peak rank). Suggested sub-question: 'What was Paola Suárez's career-high WTA singles ranking and career-high WTA doubles ranking?' and 'What was Michael Venus's career-high ATP singles ranking and career-high ATP doubles ranking?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What was Paola Suárez's career-high WTA singles ranking?",
+            "What was Paola Suárez's career-high WTA doubles ranking?",
+            "What was Michael Venus's career-high ATP singles ranking?",
+            "What was Michael Venus's career-high ATP doubles ranking?"
+          ],
+          "n_triples": 41,
+          "answer": "insufficient information",
+          "score": 0.38,
+          "feedback": "Missing: highest singles and doubles ranking achieved by Michael Venus, and highest singles and doubles ranking achieved by Paola Suárez (beyond 'holding the No. 1 doubles ranking' — which lacks a timeframe or confirmation of peak rank). Suggested sub-question: 'What was Paola Suárez's career-high WTA singles ranking and career-high WTA doubles ranking?' and 'What was Michael Venus's career-high ATP singles ranking and career-high ATP doubles ranking?'"
+        }
+      ]
+    },
+    "5a80c79155429938b61421da": {
+      "question": "How many seasons has a popular tv show had, in which one of the episodes is called Moho House?",
+      "gold": "28",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What TV show has an episode titled 'Moho House'?",
+            "How many seasons does that TV show have?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the TV show that contains an episode titled 'Moho House'. Suggested sub-question: Which TV show has an episode titled 'Moho House'?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Which TV show has an episode titled 'Moho House'?",
+            "How many seasons does that TV show have?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the TV show that contains an episode titled 'Moho House'. Suggested sub-question: Which TV show has an episode titled 'Moho House'?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Which TV show has an episode titled 'Moho House'?",
+            "How many seasons does The Simpsons have?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the TV show whose episode is titled 'Moho House'. Suggested sub-question: Which TV show has an episode titled 'Moho House'?"
+        }
+      ]
+    },
+    "5adf33965542993344016c20": {
+      "question": "KSCW-DT is part of a duopoly with which virtual channel 12 in Wichita?",
+      "gold": "KWCH-DT",
+      "old_answer": "KWCH-DT",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "KWCH-DT",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the call sign of the virtual channel 12 station in Wichita?",
+            "Is KSCW-DT part of a duopoly with that station?"
+          ],
+          "n_triples": 50,
+          "answer": "KWCH-DT",
+          "score": 0.3,
+          "feedback": "Missing: the identity of the station operating on virtual channel 12 in Wichita that forms a duopoly with KSCW-DT. Suggested sub-question: Which television station in Wichita, Kansas, operates on virtual channel 12 and is part of a duopoly with KSCW-DT?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Which television station in Wichita, Kansas, operates on virtual channel 12 and is part of a duopoly with KSCW-DT?"
+          ],
+          "n_triples": 50,
+          "answer": "KWCH-DT",
+          "score": 0.54,
+          "feedback": "Missing: explicit statement that KWCH-DT and KSCW-DT form a duopoly and that KWCH-DT broadcasts on virtual channel 12 in Wichita. Suggested sub-question: Does KWCH-DT operate on virtual channel 12 in Wichita, and is it part of a duopoly with KSCW-DT?"
+        }
+      ]
+    },
+    "5a82bc7455429940e5e1a926": {
+      "question": "In what movie did the male star of a movie about a widowed 37-year-old woman also star in in the year 1993?",
+      "gold": "\"Red Rock West\"",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What movie is about a widowed 37-year-old woman?",
+            "Who is the male star of that movie?",
+            "What movie did that actor star in during 1993?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.32,
+          "feedback": "Missing: the title of the movie about a widowed 37-year-old woman starring Cher, and the male star's identity and his 1993 filmography. Suggested sub-question: 'What 1993 movie starred the male lead from the 1983 film \"Silkwood\" (in which Cher played a widowed 37-year-old Italian-American woman)?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the title of the 1983 movie in which Cher played a widowed 37-year-old Italian-American woman?",
+            "Who was the male lead in the 1983 film 'Silkwood'?",
+            "What movie did the male lead from the 1983 film 'Silkwood' star in during 1993?"
+          ],
+          "n_triples": 33,
+          "answer": "insufficient information",
+          "score": 0.41000000000000003,
+          "feedback": "Missing: the title of the movie about a widowed 37-year-old woman starring Cher (i.e., 'Moonstruck') and the male star of that film (Nicolas Cage), and whether Nicolas Cage starred in any movie released in 1993. Suggested sub-question: 'What movie(s) did Nicolas Cage star in that were released in 1993?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What is the title of the 1987 movie in which Cher played a widowed 37-year-old Italian-American woman?",
+            "Who was the male star of the 1987 movie 'Moonstruck'?",
+            "What movie(s) did Nicolas Cage star in that were released in 1993?"
+          ],
+          "n_triples": 36,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the male star of the movie featuring Cher as a widowed 37-year-old woman and the title/year of that movie's 1993 release. Suggested sub-question: Who starred opposite Cher in the 1987 film Moonstruck, and did that actor appear in any movie released in 1993?"
+        }
+      ]
+    },
+    "5adfdef9554299025d62a36b": {
+      "question": "Where was the first governor after the The Missouri Compromise from?",
+      "gold": "Bath, Maine",
+      "old_answer": "not specified",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Indiana",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What was the first state admitted to the Union after the Missouri Compromise?",
+            "Who was the first governor of that state?",
+            "Where was that governor from?"
+          ],
+          "n_triples": 50,
+          "answer": "Indiana",
+          "score": 0.15,
+          "feedback": "Missing: identity of the first governor appointed after the Missouri Compromise and their state of origin. Suggested sub-question: Who was the first territorial or state governor serving under the terms established by the Missouri Compromise, and where was that person from?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who was the first territorial or state governor serving under the terms established by the Missouri Compromise, and where was that person from?",
+            "What was the first state or territory governed by a leader appointed after the Missouri Compromise?"
+          ],
+          "n_triples": 49,
+          "answer": "Maine",
+          "score": 0.3,
+          "feedback": "Missing: identity and home state of the first governor appointed or elected after the Missouri Compromise (1820). Suggested sub-question: Who was the first U.S. state governor inaugurated after the Missouri Compromise was enacted in 1820, and which state did they govern?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who was the first U.S. state governor inaugurated after the Missouri Compromise was enacted in 1820, and which state did they govern?",
+            "Where was that governor from (i.e., their home state or place of birth)?"
+          ],
+          "n_triples": 46,
+          "answer": "Indiana",
+          "score": 0.15,
+          "feedback": "Missing: identity and home state of the first governor appointed or serving after the Missouri Compromise (1820). Suggested sub-question: Who was the first territorial or state governor to take office after the Missouri Compromise was enacted in 1820, and where was that person from?"
+        }
+      ]
+    },
+    "5ade7fa3554299728e26c727": {
+      "question": "what is the english name of Émile Verdets editorial?",
+      "gold": "Annals of Chemistry and of Physics",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Émile Verdet?",
+            "What editorial work is Émile Verdet known for?",
+            "What is the English name of that editorial?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the English name (if any) of Émile Verdets' editorial. Suggested sub-question: What is the English title or translation of Émile Verdets' editorial?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Émile Verdet?",
+            "What editorial work is Émile Verdet known for?",
+            "What is the English title or translation of Émile Verdet's editorial?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the English name (or title) of Émile Verdets's editorial. Suggested sub-question: What is the English title or translation of Émile Verdets's editorial?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Émile Verdet?",
+            "What editorial work is Émile Verdet known for?",
+            "What is the English title or translation of Émile Verdet's editorial?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: English name or title of Émile Verdets's editorial. Suggested sub-question: What is the English title or translation of Émile Verdets's editorial?"
+        }
+      ]
+    },
+    "5a779fd95542997042120ab5": {
+      "question": "In what year were the European Athletics Junior Championships held in the capital of Slovenia?",
+      "gold": "1997",
+      "old_answer": "1997",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "1997",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the capital of Slovenia?",
+            "In what year were the European Athletics Junior Championships held in Ljubljana?"
+          ],
+          "n_triples": 50,
+          "answer": "1997",
+          "score": 0.94,
+          "feedback": "Missing: confirmation that Ljubljana is the capital of Slovenia. Suggested sub-question: What is the capital city of Slovenia?"
+        }
+      ]
+    },
+    "5ae0fe4e554299422ee995a9": {
+      "question": "What type of diet does the author of Eat to Live: The Amazing Nutrient-Rich Program for Fast and Sustained Weight Loss advocate?",
+      "gold": "micronutrient-rich",
+      "old_answer": "Nutrient-Rich",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Nutrient-Rich",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is the author of Eat to Live: The Amazing Nutrient-Rich Program for Fast and Sustained Weight Loss?",
+            "What type of diet does the author of Eat to Live advocate?"
+          ],
+          "n_triples": 43,
+          "answer": "Nutrient-Rich",
+          "score": 0.54,
+          "feedback": "Missing: the specific dietary pattern advocated by Dr. Joel Fuhrman in 'Eat to Live' (e.g., nutrient-dense, plant-based, high-nutrient low-calorie, or 'Nutritarian' diet). Suggested sub-question: What is the name or defining characteristic of the diet promoted by Dr. Joel Fuhrman in 'Eat to Live: The Amazing Nutrient-Rich Program for Fast and Sustained Weight Loss'?"
+        }
+      ]
+    },
+    "5adfecd755429942ec259b90": {
+      "question": "What year was the magazine that Stanley Bing spent a decade at founded in?",
+      "gold": "1933",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Stanley Bing?",
+            "Which magazine did Stanley Bing spend a decade working at?",
+            "In what year was that magazine founded?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the name of the magazine Stanley Bing spent a decade at, and its founding year. Suggested sub-question: What magazine did Stanley Bing work for for a decade, and in what year was that magazine founded?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Stanley Bing?",
+            "What magazine did Stanley Bing work for for a decade, and in what year was that magazine founded?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the name of the magazine Stanley Bing spent a decade at, and its founding year. Suggested sub-question: What magazine did Stanley Bing write for over a decade, and in what year was that magazine founded?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Stanley Bing?",
+            "What magazine did Stanley Bing write for over a decade, and in what year was that magazine founded?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the name of the magazine Stanley Bing spent a decade at, and its founding year. Suggested sub-question: Which magazine did Stanley Bing write for over a decade, and in what year was that magazine founded?"
+        }
+      ]
+    },
+    "5a884adb5542996e4f308938": {
+      "question": "Are Eryngium and Arnebia in the same kingdom of life forms?",
+      "gold": "yes",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What kingdom does Eryngium belong to?",
+            "What kingdom does Arnebia belong to?"
+          ],
+          "n_triples": 48,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: taxonomic kingdom classification of Eryngium and Arnebia. Suggested sub-question: What is the biological kingdom of the plant genus Eryngium? What is the biological kingdom of the plant genus Arnebia?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the biological kingdom of the plant genus Eryngium?",
+            "What is the biological kingdom of the plant genus Arnebia?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: taxonomic kingdom classification of Eryngium and Arnebia. Suggested sub-question: What is the biological kingdom of the genus Eryngium? What is the biological kingdom of the genus Arnebia?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What is the biological kingdom of the genus Eryngium?",
+            "What is the biological kingdom of the genus Arnebia?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: taxonomic kingdom classification of Eryngium and Arnebia. Suggested sub-question: What is the biological kingdom of the plant genus Eryngium? What is the biological kingdom of the plant genus Arnebia?"
+        }
+      ]
+    },
+    "5a728dc65542992359bc30ef": {
+      "question": "What fellow Turkish footballer did Darko Kovačević form an offensive partnership with during his tenure at Real Sociedad?",
+      "gold": "Nihat Kahveci",
+      "old_answer": "Nihat Kahveci",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Nihat Kahveci",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Which Turkish footballer played for Real Sociedad alongside Darko Kovačević?",
+            "Did Darko Kovačević play for Real Sociedad with a fellow Turkish footballer?"
+          ],
+          "n_triples": 50,
+          "answer": "Nihat Kahveci",
+          "score": 1.0,
+          "feedback": "Missing: explicit confirmation that Nihat Kahveci and Darko Kovačević were teammates *at Real Sociedad* (the triples state Kovačević played for Real Sociedad and had an offensive partnership with Nihat Kahveci, but do not explicitly link Kahveci to Real Sociedad). Suggested sub-question: Did Nihat Kahveci play for Real Sociedad during the same period as Darko Kovačević?"
+        }
+      ]
+    },
+    "5a7145d55542994082a3e73c": {
+      "question": "Which person went into space at a later date, Sigmund Jähn or Christer Fuglesang?",
+      "gold": "Christer Fuglesang",
+      "old_answer": "Christer Fuglesang",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Christer Fuglesang",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When did Sigmund Jähn go into space?",
+            "When did Christer Fuglesang go into space?"
+          ],
+          "n_triples": 35,
+          "answer": "Christer Fuglesang",
+          "score": 0.94,
+          "feedback": "Missing: launch date of Sigmund Jähn. Suggested sub-question: When did Sigmund Jähn fly in space?"
+        }
+      ]
+    },
+    "5ab474135542991751b4d77b": {
+      "question": "At the 46th Grammy Awards, which award did the album by The White Stripes, which included the song Seven Nation Army, win?",
+      "gold": "Best Alternative Music Album",
+      "old_answer": "Best Alternative Music Album",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Best Alternative Music Album",
+      "new_em": 1.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Which album by The White Stripes includes the song 'Seven Nation Army'?",
+            "At the 46th Grammy Awards, what award did that album win?"
+          ],
+          "n_triples": 50,
+          "answer": "Best Alternative Music Album",
+          "score": 0.3,
+          "feedback": "Missing: the Grammy Award won by The White Stripes' album 'Elephant' (which contains 'Seven Nation Army') at the 46th Grammy Awards. Suggested sub-question: Which Grammy Award did The White Stripes' album 'Elephant' win at the 46th Annual Grammy Awards?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Which album by The White Stripes includes the song 'Seven Nation Army'?",
+            "Which Grammy Award did The White Stripes' album 'Elephant' win at the 46th Annual Grammy Awards?"
+          ],
+          "n_triples": 50,
+          "answer": "Best Alternative Music Album",
+          "score": 0.3,
+          "feedback": "Missing: the Grammy Award won by The White Stripes' album 'Elephant' at the 46th Grammy Awards. Suggested sub-question: Which Grammy Award did The White Stripes win for their album 'Elephant' at the 46th Grammy Awards?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Which album by The White Stripes includes the song 'Seven Nation Army'?",
+            "Which Grammy Award did The White Stripes win for their album 'Elephant' at the 46th Grammy Awards?"
+          ],
+          "n_triples": 50,
+          "answer": "Best Alternative Music Album",
+          "score": 0.3,
+          "feedback": "Missing: the Grammy Award won by The White Stripes' album 'Elephant' at the 46th Grammy Awards. Suggested sub-question: Which Grammy Award did the album 'Elephant' by The White Stripes win at the 46th Grammy Awards?"
+        }
+      ]
+    },
+    "5a7a7dc15542994f819ef1f2": {
+      "question": "Who was born first, Andy Warhol or Alexander Butler?",
+      "gold": "Alexander Butler",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was Andy Warhol born?",
+            "When was Alexander Butler born?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: birth dates of Andy Warhol and Alexander Butler. Suggested sub-question: When was Andy Warhol born? When was Alexander Butler born?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was Andy Warhol born?",
+            "When was Alexander Butler born?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: birth dates of Andy Warhol and Alexander Butler. Suggested sub-question: When was Andy Warhol born? When was Alexander Butler born?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "When was Andy Warhol born?",
+            "When was Alexander Butler born?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.7,
+          "feedback": "Missing: birth dates of Andy Warhol and Alexander Butler. Suggested sub-question: When was Andy Warhol born? When was Alexander Butler born?"
+        }
+      ]
+    },
+    "5a7133565542994082a3e65c": {
+      "question": "What Kentucky county has a population of 60,316 and features the Lake Louisvilla neighborhood?",
+      "gold": "Oldham County",
+      "old_answer": "Oldham County",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Oldham County",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What Kentucky county has a population of 60,316?",
+            "Which Kentucky county contains the Lake Louisville neighborhood?"
+          ],
+          "n_triples": 50,
+          "answer": "Oldham County",
+          "score": 1.0,
+          "feedback": "Missing: direct triple linking Lake Louisvilla to Oldham County (e.g., 'Lake Louisvilla -- is located in --> Oldham County'). Suggested sub-question: In which Kentucky county is the Lake Louisvilla neighborhood located?"
+        }
+      ]
+    },
+    "5ae3e84b5542996836b02bf0": {
+      "question": "Which airport, Salt Lake City International Airport or Brainerd Lakes Regional Airport, serves as a commercial airline and is closest to it's respective downtown city?",
+      "gold": "Brainerd Lakes Regional Airport",
+      "old_answer": "Salt Lake City International Airport",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "Salt Lake City International Airport",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the distance from Salt Lake City International Airport to downtown Salt Lake City?",
+            "What is the distance from Brainerd Lakes Regional Airport to downtown Brainerd?",
+            "Does Salt Lake City International Airport serve commercial airlines?",
+            "Does Brainerd Lakes Regional Airport serve commercial airlines?"
+          ],
+          "n_triples": 50,
+          "answer": "- Also, Salt Lake City International Airport is served by a light",
+          "score": 0.35,
+          "feedback": "Missing: commercial airline service status for Brainerd Lakes Regional Airport and Salt Lake City International Airport, and the straight-line or road distance from each airport to its respective downtown city center. Suggested sub-question: Does Brainerd Lakes Regional Airport currently offer scheduled commercial passenger airline service? What is the road distance from Brainerd Lakes Regional Airport to downtown Brainerd, MN? What is the road distance from Salt Lake City International Airport to downtown Salt Lake City, UT?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Does Salt Lake City International Airport currently offer scheduled commercial passenger airline service?",
+            "Does Brainerd Lakes Regional Airport currently offer scheduled commercial passenger airline service?",
+            "What is the road distance from Salt Lake City International Airport to downtown Salt Lake City, UT?",
+            "What is the road distance from Brainerd Lakes Regional Airport to downtown Brainerd, MN?"
+          ],
+          "n_triples": 50,
+          "answer": "Salt Lake City International Airport",
+          "score": 0.74,
+          "feedback": "Missing: commercial airline service status and downtown proximity data for Brainerd Lakes Regional Airport (e.g., whether it has scheduled commercial passenger service, and its distance or transit access to downtown Brainerd). Suggested sub-question: Does Brainerd Lakes Regional Airport offer scheduled commercial airline service, and what is the distance or public transit connection between the airport and downtown Brainerd?"
+        }
+      ]
+    },
+    "5ab8869155429916710eb081": {
+      "question": "Electronic Attack Squadron 138 is a type of which American carrier-based electronic warfare aircraft, a specialized version of the two-seat F/A-18F Super Hornet?",
+      "gold": "Boeing EA-18G Growler",
+      "old_answer": "EA-18G Growler",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "EA-18G Growler",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the designation of the American carrier-based electronic warfare aircraft used by Electronic Attack Squadron 138?",
+            "Is the aircraft used by Electronic Attack Squadron 138 a specialized version of the F/A-18F Super Hornet?",
+            "What is the full name and type of the F/A-18F Super Hornet variant used for electronic attack?"
+          ],
+          "n_triples": 50,
+          "answer": "EA-18G Growler",
+          "score": 1.0,
+          "feedback": "Missing: direct triple linking 'Electronic Attack Squadron 138' to 'EA-18G Growler'. Suggested sub-question: Which aircraft does Electronic Attack Squadron 138 (VAQ-138) operate?"
+        }
+      ]
+    },
+    "5adf53dc5542995534e8c791": {
+      "question": "Who has more productions under their belt Ridley Scott or Elmer Clifton?",
+      "gold": "Ridley Scott",
+      "old_answer": "Elmer Clifton",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Elmer Clifton",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "How many productions did Ridley Scott direct or produce?",
+            "How many productions did Elmer Clifton direct or produce?"
+          ],
+          "n_triples": 50,
+          "answer": "Elmer Clifton",
+          "score": 0.35,
+          "feedback": "Missing: number of film productions directed or produced by Ridley Scott and Elmer Clifton respectively. Suggested sub-question: How many films did Ridley Scott direct? How many films did Elmer Clifton direct?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "How many films did Ridley Scott direct?",
+            "How many films did Elmer Clifton direct?"
+          ],
+          "n_triples": 50,
+          "answer": "Elmer Clifton",
+          "score": 0.35,
+          "feedback": "Missing: number of film productions directed or produced by Ridley Scott and Elmer Clifton respectively. Suggested sub-question: How many films did Ridley Scott direct? How many films did Elmer Clifton direct?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "How many films did Ridley Scott direct?",
+            "How many films did Elmer Clifton direct?"
+          ],
+          "n_triples": 50,
+          "answer": "Elmer Clifton",
+          "score": 0.35,
+          "feedback": "Missing: number of film productions directed or produced by Ridley Scott and Elmer Clifton respectively. Suggested sub-question: How many films did Ridley Scott direct? How many films did Elmer Clifton direct?"
+        }
+      ]
+    },
+    "5adcd4325542994d58a2f6ed": {
+      "question": "Are Colocasia and Coronilla both flowering plants?",
+      "gold": "yes",
+      "old_answer": "yes",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Is Colocasia a flowering plant?",
+            "Is Coronilla a flowering plant?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.5900000000000001,
+          "feedback": "Missing: taxonomic classification of Coronilla (e.g., whether it is a genus of flowering plants). Suggested sub-question: Is Coronilla a genus of flowering plants?"
+        }
+      ]
+    },
+    "5a7b1e22554299042af8f6e4": {
+      "question": "What award won by only twelve people has a man who Ted Kooshian has performed with won?",
+      "gold": "EGOT",
+      "old_answer": "- Not mentioned elsewhere except in “Ted Kooshian has performed",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "The triples say: “won an Emmy, a Grammy,",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Ted Kooshian?",
+            "Which people has Ted Kooshian performed with?",
+            "What award has been won by only twelve people?"
+          ],
+          "n_triples": 41,
+          "answer": "The triples say: “won an Emmy, a Grammy,",
+          "score": 0.3,
+          "feedback": "Missing: the specific award won by only twelve people that a person Ted Kooshian has performed with has won. Suggested sub-question: Which person that Ted Kooshian has performed with has won an EGOT (Emmy, Grammy, Oscar, Tony), and is that person one of only twelve EGOT winners?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Ted Kooshian?",
+            "Which people has Ted Kooshian performed with?",
+            "Which person that Ted Kooshian has performed with has won an EGOT (Emmy, Grammy, Oscar, Tony)?",
+            "Is that person one of only twelve EGOT winners?"
+          ],
+          "n_triples": 47,
+          "answer": "None of the triples say",
+          "score": 0.3,
+          "feedback": "Missing: which award (e.g., EGOT) has been won by only twelve people and which of Ted Kooshian's collaborators (e.g., Robert Lopez) won it. Suggested sub-question: Which person that Ted Kooshian has performed with has won an award won by only twelve people, and what is that award?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Ted Kooshian?",
+            "Which people has Ted Kooshian performed with?",
+            "What award has been won by only twelve people?",
+            "Which person that Ted Kooshian has performed with has won an award won by only twelve people, and what is that award?"
+          ],
+          "n_triples": 41,
+          "answer": "Hence, the only interpretation consistent with the triples is that the question refers to the *EGOT",
+          "score": 0.41000000000000003,
+          "feedback": "Missing: The identity of the award won by only twelve people that a person Ted Kooshian has performed with has won. While the triples state 'Robert Lopez -- is --> the youngest of only twelve people who have won an Emmy, a Grammy, an Oscar and a Tony Award' and list Ted Kooshian's collaborators (e.g., Aretha Franklin, Chuck Berry, etc.), none of those collaborators are stated to have won an EGOT — and crucially, no triple links Robert Lopez to Ted Kooshian. Thus, the candidate answer infers an EGOT connection without supporting evidence from the triples. Suggested sub-question: 'Has Ted Kooshian ever performed with Robert Lopez?'"
+        }
+      ]
+    },
+    "5ae6152d5542996de7b71b38": {
+      "question": "The Cat in the Hat was a comedy film directed by which production designer and director?",
+      "gold": "Robert W. \"Bo\" Welch III",
+      "old_answer": "Bo Welch",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Bo Welch",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who directed The Cat in the Hat?",
+            "Who was the production designer for The Cat in the Hat?"
+          ],
+          "n_triples": 50,
+          "answer": "Bo Welch",
+          "score": 0.5,
+          "feedback": "Missing: production designer for 'The Cat in the Hat' (2003). Suggested sub-question: Who was the production designer for the 2003 film 'Dr. Seuss' The Cat in the Hat'?"
+        }
+      ]
+    },
+    "5a7652435542992d0ec060a5": {
+      "question": "Who was the first Russian composer to make a lasting impression internationally, Alessandro Scarlatti or Pyotr Ilyich Tchaikovsky?",
+      "gold": "Pyotr Ilyich Tchaikovsky",
+      "old_answer": "Pyotr Ilyich Tchaikovsky",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Pyotr Ilyich Tchaikovsky",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was Alessandro Scarlatti?",
+            "Who was Pyotr Ilyich Tchaikovsky?",
+            "Which of these two composers was the first Russian composer to make a lasting international impression?"
+          ],
+          "n_triples": 50,
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "score": 0.8400000000000001,
+          "feedback": "Missing: Alessandro Scarlatti's nationality and lack of association with Russia. Suggested sub-question: Was Alessandro Scarlatti a Russian composer?"
+        }
+      ]
+    },
+    "5ae0ead25542990adbacf6c8": {
+      "question": "What is the name for plastic water-filled barriers that you might find along the MacArthur Road highway in Pennsylvania?",
+      "gold": "Jersey barrier",
+      "old_answer": "Jersey barriers",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Jersey barriers",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What are plastic water-filled barriers commonly called?",
+            "Where is MacArthur Road located?"
+          ],
+          "n_triples": 41,
+          "answer": "Jersey barriers",
+          "score": 0.94,
+          "feedback": "Missing: explicit confirmation that plastic water-filled barriers on MacArthur Road are specifically called 'Jersey barriers' (i.e., no triple directly links MacArthur Road to Jersey barriers, nor states that water-filled variants are classified as Jersey barriers). Suggested sub-question: Are the plastic water-filled barriers installed along MacArthur Road in Pennsylvania officially designated or commonly referred to as Jersey barriers?"
+        }
+      ]
+    },
+    "5a8460d5554299123d8c2229": {
+      "question": "Have singers Yang Yo-seob and Kim Tae-yeon both appeared in group bands?",
+      "gold": "yes",
+      "old_answer": "yes",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Yang Yo-seob's group band?",
+            "Who is Kim Tae-yeon's group band?",
+            "Are both Yang Yo-seob and Kim Tae-yeon members of group bands?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.8800000000000001,
+          "feedback": "Missing: explicit confirmation that Yang Yo-seob was a member of a group band (not just co-founder of an agency or solo artist). Suggested sub-question: Was Yang Yo-seob a member of the boy group Highlight (formerly Beast)?"
+        }
+      ]
+    },
+    "5a711c535542994082a3e59b": {
+      "question": "Albanians in Montenegro which make up 4.91 of the county's total population could be members of the Albanian Coalation Perspect which is a what? ",
+      "gold": "Albanian political party in Montenegro",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the Albanian Coalition Perspective in Montenegro?",
+            "What percentage of Montenegro's population is ethnic Albanian?",
+            "What is the political nature or classification of the Albanian Coalition Perspective (e.g., political party, coalition, movement)?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the nature or classification of 'Albanian Coalition Perspect' (e.g., political party, electoral coalition, NGO, etc.). Suggested sub-question: What type of organization is the Albanian Coalition Perspect in Montenegro?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the Albanian Coalition Perspective in Montenegro?",
+            "What percentage of Montenegro's population is ethnic Albanian?",
+            "What type of organization is the Albanian Coalition Perspect in Montenegro?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the nature or definition of 'Albanian Coalition Perspect' (e.g., political party, electoral coalition, NGO). Suggested sub-question: What type of organization is the Albanian Coalition Perspect in Montenegro?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What type of organization is the Albanian Coalition Perspect in Montenegro?",
+            "What percentage of Montenegro's population is ethnic Albanian?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the nature or definition of 'Albanian Coalition Perspect' (e.g., political party, electoral coalition, NGO). Suggested sub-question: What type of organization is the Albanian Coalition Perspect in Montenegro?"
+        }
+      ]
+    },
+    "5a7e49e05542991319bc9463": {
+      "question": "What sibling of John D. Rockefeller III was the chairman of Chase Manhattan Corporation?",
+      "gold": "David Rockefeller",
+      "old_answer": "David Rockefeller",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "David Rockefeller",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who were the siblings of John D. Rockefeller III?",
+            "Which sibling of John D. Rockefeller III served as chairman of Chase Manhattan Corporation?"
+          ],
+          "n_triples": 50,
+          "answer": "David Rockefeller",
+          "score": 0.5700000000000001,
+          "feedback": "Missing: David Rockefeller's role as chairman of Chase Manhattan Corporation. Suggested sub-question: 'Was David Rockefeller the chairman of Chase Manhattan Corporation, and if so, during what years?'"
+        }
+      ]
+    },
+    "5a773d8955429966f1a36cc4": {
+      "question": "What is the first year that the second largest university in Alabama fielded a football team?",
+      "gold": "1892",
+      "old_answer": "1938",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the second largest university in Alabama?",
+            "In what year did that university first field a football team?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: identity of the second largest university in Alabama. Suggested sub-question: What is the second largest university in Alabama by enrollment?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the second largest university in Alabama by enrollment?",
+            "In what year did the University of Alabama at Birmingham first field a football team?"
+          ],
+          "n_triples": 50,
+          "answer": "But the instruction says: “Use ONLY the knowledge graph triples provided.” And the triples",
+          "score": 0.3,
+          "feedback": "Missing: identification of the second largest university in Alabama. Suggested sub-question: What is the second largest university in Alabama by enrollment?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What is the second largest university in Alabama by enrollment?",
+            "In what year did the University of Alabama at Birmingham first field a football team?"
+          ],
+          "n_triples": 50,
+          "answer": "1938",
+          "score": 0.42,
+          "feedback": "Missing: identification of the second largest university in Alabama. Suggested sub-question: What is the second largest university in Alabama by enrollment?"
+        }
+      ]
+    },
+    "5ac325495542995ef918c12e": {
+      "question": "Which region of Ghana was the city where Akrofuom is located? ",
+      "gold": "Ashanti Region of Ghana",
+      "old_answer": "Ashanti Region",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Ashanti Region",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where is Akrofuom located?",
+            "What region of Ghana is that location in?"
+          ],
+          "n_triples": 50,
+          "answer": "Ashanti Region",
+          "score": 1.0,
+          "feedback": "Missing: direct triple stating 'Akrofuom -- is located in --> Ashanti Region'. Suggested sub-question: 'Which region of Ghana is Akrofuom located in?'"
+        }
+      ]
+    },
+    "5a728f745542991f9a20c4e6": {
+      "question": "Which magazine was founded first, Diva or Elle?",
+      "gold": "Elle",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was Diva magazine founded?",
+            "When was Elle magazine founded?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.7,
+          "feedback": "Missing: founding year of Diva magazine and founding year of Elle magazine. Suggested sub-question: When was Diva magazine founded? When was Elle magazine founded?"
+        }
+      ]
+    },
+    "5ac3d667554299076e296ca5": {
+      "question": "Which dog is based in Switzerland, Appenzeller Sennenhund or Drentse Patrijshond?",
+      "gold": "Appenzeller Sennenhund",
+      "old_answer": "Appenzeller Sennenhund",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Appenzeller Sennenhund",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where is the Appenzeller Sennenhund breed originally from?",
+            "Where is the Drentse Patrijshond breed originally from?"
+          ],
+          "n_triples": 50,
+          "answer": "Appenzeller Sennenhund",
+          "score": 1.0,
+          "feedback": "Missing: explicit statement that Appenzeller Sennenhund originates in or is based in Switzerland. Suggested sub-question: Where is the Appenzeller Sennenhund breed originally from?"
+        }
+      ]
+    },
+    "5a8198565542995ce29dcc13": {
+      "question": "Are Ranger Rick and Tennis both sports magazines?",
+      "gold": "no",
+      "old_answer": "no",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "no",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What type of magazine is Ranger Rick?",
+            "What type of magazine is Tennis?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.8400000000000001,
+          "feedback": "Missing: classification of Tennis magazine (e.g., 'Tennis -- is --> a sports magazine' or equivalent). Suggested sub-question: Is Tennis magazine classified as a sports magazine in the knowledge graph?"
+        }
+      ]
+    },
+    "5ab97d0a5542996be202051e": {
+      "question": "Who was hung for assisting the attempted surrender of a defector from the American Continental Army to the British Army?",
+      "gold": "John André",
+      "old_answer": "John André",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "John André",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was the defector from the American Continental Army who attempted to surrender to the British Army?",
+            "Who assisted that defector's attempted surrender to the British Army?",
+            "What was the punishment carried out on that person?"
+          ],
+          "n_triples": 50,
+          "answer": "John André",
+          "score": 0.94,
+          "feedback": "Missing: explicit statement that Benedict Arnold's attempted surrender involved a defector from the Continental Army (i.e., Arnold himself was the defector). Suggested sub-question: Was Benedict Arnold a member of the Continental Army before attempting to surrender West Point to the British?"
+        }
+      ]
+    },
+    "5a76a0005542993569682c64": {
+      "question": "Which American film director is an advisor for Disney, Rick Ray or John Lasseter?",
+      "gold": "John Alan Lasseter",
+      "old_answer": "John Lasseter",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "John Lasseter",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Rick Ray?",
+            "Who is John Lasseter?",
+            "Is either Rick Ray or John Lasseter an advisor for Disney?"
+          ],
+          "n_triples": 50,
+          "answer": "John Lasseter",
+          "score": 0.5700000000000001,
+          "feedback": "Missing: John Lasseter's formal advisory role at Disney (e.g., title, tenure, or official capacity as 'advisor'). Suggested sub-question: 'What official position or advisory role did John Lasseter hold at The Walt Disney Company after 2018?'"
+        }
+      ]
+    },
+    "5a738fb4554299623ed4abf9": {
+      "question": "Which of these is further south in China, the Pulandian District or Kaiyuan, Liaoning?",
+      "gold": "Pulandian District",
+      "old_answer": "Pulandian District",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Pulandian District",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the latitude of Pulandian District, China?",
+            "What is the latitude of Kaiyuan, Liaoning, China?",
+            "Which location has a lower latitude?"
+          ],
+          "n_triples": 44,
+          "answer": "Pulandian District",
+          "score": 0.54,
+          "feedback": "Missing: latitude coordinates or relative north-south positional relationship between Pulandian District and Kaiyuan, Liaoning. Suggested sub-question: What are the geographic coordinates (latitude) of Pulandian District, Dalian, Liaoning and Kaiyuan, Liaoning?"
+        }
+      ]
+    },
+    "5a7129685542994082a3e5fa": {
+      "question": "Which \"Blackzilians\" fighter is currently competing in the Middleweight division of Ultimate Fighting Championship?",
+      "gold": "Vitor Belfort",
+      "old_answer": "none",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who are the fighters associated with the Blackzilians team?",
+            "Which of those fighters currently compete in the UFC Middleweight division?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: affiliation of any listed fighter with the 'Blackzilians' gym. Suggested sub-question: Which of these fighters (Rashad Evans, Luke Zachrich, Kelvin Gastelum) trained with or was officially affiliated with the Blackzilians camp?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who are the fighters associated with the Blackzilians team?",
+            "Which of those fighters currently compete in the UFC Middleweight division?",
+            "Which of Rashad Evans, Luke Zachrich, and Kelvin Gastelum trained with or was officially affiliated with the Blackzilians camp?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: affiliation of Rashad Evans (or any listed fighter) with the Blackzilians team. Suggested sub-question: Which fighters on the list were members of the Blackzilians training camp?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who are the fighters associated with the Blackzilians team?",
+            "Which of those fighters currently compete in the UFC Middleweight division?",
+            "Was Rashad Evans a member of the Blackzilians training camp?",
+            "Was Luke Zachrich a member of the Blackzilians training camp?",
+            "Was Kelvin Gastelum a member of the Blackzilians training camp?"
+          ],
+          "n_triples": 50,
+          "answer": "none",
+          "score": 0.3,
+          "feedback": "Missing: membership affiliation of Rashad Evans, Kelvin Gastelum, or any other UFC middleweight fighter with the 'Blackzilians' camp. Suggested sub-question: Was Rashad Evans ever a member of the Blackzilians training camp?"
+        }
+      ]
+    },
+    "5ade6eb65542992fa25da782": {
+      "question": "What two singers who worked together on the song I Would Like to See You Again also performed as part of a country music group which was active between 1985 and 1995?",
+      "gold": "Johnny Cash, Waylon Jennings",
+      "old_answer": "Johnny Cash and Waylon Jennings",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "Johnny Cash and Waylon Jennings",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who performed the song 'I Would Like to See You Again'?",
+            "What country music group, active between 1985 and 1995, included both of those singers?",
+            "What were the names of the two singers who were members of that country music group?"
+          ],
+          "n_triples": 50,
+          "answer": "But the question expects an answer drawn *only* from the triples — and the only two singers jointly tied to *I Would Like to See You Again* are Johnny Cash",
+          "score": 0.32,
+          "feedback": "Missing: the country music group active between 1985 and 1995 that included both Johnny Cash and Waylon Jennings as members. Suggested sub-question: Which country music group — active between 1985 and 1995 — included both Johnny Cash and Waylon Jennings as performing members?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who performed the song 'I Would Like to See You Again'?",
+            "Which country music group — active between 1985 and 1995 — included both Johnny Cash and Waylon Jennings as performing members?"
+          ],
+          "n_triples": 50,
+          "answer": "Johnny Cash and Waylon Jennings",
+          "score": 0.74,
+          "feedback": "Missing: the country music group formed by Johnny Cash and Waylon Jennings (and others) that was active between 1985 and 1995. Suggested sub-question: Which country music supergroup, including Johnny Cash and Waylon Jennings, was active from 1985 to 1995?"
+        }
+      ]
+    },
+    "5ab5b0f75542992aa134a38c": {
+      "question": "What episode did Mona Penelope Simpson  on the animated show \"The Simpsons\"die?",
+      "gold": "\"Mona Leaves-a\"",
+      "old_answer": "Mona Leaves-a",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Not stated",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Mona Penelope Simpson in 'The Simpsons'?",
+            "In which episode of 'The Simpsons' did Mona Simpson die?"
+          ],
+          "n_triples": 50,
+          "answer": "Not stated",
+          "score": 0.3,
+          "feedback": "Missing: the episode in which Mona Simpson dies. Suggested sub-question: In which episode of The Simpsons does Mona Simpson die?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Mona Penelope Simpson in 'The Simpsons'?",
+            "In which episode of The Simpsons does Mona Simpson die?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: Mona Simpson's death episode. Suggested sub-question: In which episode of The Simpsons does the character Mona Simpson die?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Mona Penelope Simpson in 'The Simpsons'?",
+            "In which episode of The Simpsons does the character Mona Simpson die?"
+          ],
+          "n_triples": 50,
+          "answer": "Not specified",
+          "score": 0.3,
+          "feedback": "Missing: the episode in which Mona Simpson dies. Suggested sub-question: In which episode of The Simpsons does Mona Simpson die?"
+        }
+      ]
+    },
+    "5ac23f5655429951e9e684d9": {
+      "question": "Both the Pulandian District and Hailar District are located within which country?",
+      "gold": "China",
+      "old_answer": "China",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "China",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where is Pulandian District located?",
+            "Where is Hailar District located?",
+            "What country contains both Pulandian District and Hailar District?"
+          ],
+          "n_triples": 50,
+          "answer": "However, note: “Hulunbuir -- is governed as --> a prefecture-level city” — and “prefecture-level city” is a Chinese administrative designation, but again,",
+          "score": 0.32,
+          "feedback": "Missing: country in which Pulandian District and Hailar District are located. Suggested sub-question: In which country is Dalian located? And in which country is Hulunbuir City located?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Where is Pulandian District located?",
+            "Where is Hailar District located?",
+            "In which country is Dalian located?",
+            "In which country is Hulunbuir City located?"
+          ],
+          "n_triples": 50,
+          "answer": "China",
+          "score": 0.9200000000000002,
+          "feedback": "Missing: explicit statement that Pulandian District is located in China. Suggested sub-question: Where is Dalian located?"
+        }
+      ]
+    },
+    "5a88016b5542997e5c09a58a": {
+      "question": "Migene González-Wippler is leading expert on a religion that developed among which ethnic group ?",
+      "gold": "West African descendants",
+      "old_answer": "not specified",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Migene González-Wippler?",
+            "What religion is Migene González-Wippler a leading expert on?",
+            "Among which ethnic group did that religion develop?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: Migene González-Wippler's area of religious expertise (e.g., which religion she is a leading expert on, and its associated ethnic group). Suggested sub-question: Which religion is Migene González-Wippler a leading expert on, and among which ethnic group did that religion develop?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Migene González-Wippler?",
+            "Which religion is Migene González-Wippler a leading expert on, and among which ethnic group did that religion develop?"
+          ],
+          "n_triples": 50,
+          "answer": "not specified",
+          "score": 0.3,
+          "feedback": "Missing: the ethnic group associated with Santeria, which Migene González-Wippler is a leading expert on. Suggested sub-question: Among which ethnic group did Santeria develop?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Migene González-Wippler?",
+            "Which religion is Migene González-Wippler a leading expert on?",
+            "Among which ethnic group did Santeria develop?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: the ethnic group associated with Santeria, which Migene González-Wippler is a leading expert on. Suggested sub-question: Among which ethnic group did Santeria develop?"
+        }
+      ]
+    },
+    "5ac15f6c5542994d76dccdf3": {
+      "question": "Are both Miltoniopsis and Strobilanthes examples of a genus?",
+      "gold": "yes",
+      "old_answer": "yes",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Is Miltoniopsis a genus?",
+            "Is Strobilanthes a genus?"
+          ],
+          "n_triples": 41,
+          "answer": "yes",
+          "score": 0.94,
+          "feedback": "Missing: explicit statement that Strobilanthes is a genus (beyond 'is a genus of 350 species', which implies but does not directly assert genus status). Suggested sub-question: 'Is Strobilanthes a genus?'"
+        }
+      ]
+    },
+    "5a861ea85542994775f60700": {
+      "question": "Were Robert Holdstock and H. L. Mencken both known for being satirists?",
+      "gold": "no",
+      "old_answer": "no",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "no",
+      "new_em": 1.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was Robert Holdstock?",
+            "Who was H. L. Mencken?",
+            "Were both Robert Holdstock and H. L. Mencken known for satire?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: Robert Holdstock's primary literary genre and H. L. Mencken's role as a satirist. Suggested sub-question: Was Robert Holdstock primarily known as a satirist? Was H. L. Mencken primarily known as a satirist?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who was Robert Holdstock?",
+            "Who was H. L. Mencken?",
+            "Was Robert Holdstock primarily known as a satirist?",
+            "Was H. L. Mencken primarily known as a satirist?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.39,
+          "feedback": "Missing: Robert Holdstock's primary literary genre and H. L. Mencken's role as a satirist. Suggested sub-question: Was Robert Holdstock primarily known as a satirist? Was H. L. Mencken primarily known as a satirist?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who was Robert Holdstock?",
+            "Who was H. L. Mencken?",
+            "What was Robert Holdstock's primary literary genre?",
+            "Was Robert Holdstock primarily known as a satirist?",
+            "Was H. L. Mencken primarily known as a satirist?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: the primary literary genres and reputations of Robert Holdstock and H. L. Mencken — specifically, whether either was known as a satirist. Suggested sub-question: 'Was Robert Holdstock primarily known as a satirist?' and 'Was H. L. Mencken primarily known as a satirist?'"
+        }
+      ]
+    },
+    "5ae17a9b5542990adbacf7a2": {
+      "question": "Was the band The Shins formed before the band Paramore?  ",
+      "gold": "yes",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was the band The Shins formed?",
+            "When was the band Paramore formed?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: formation year of The Shins. Suggested sub-question: When was the band The Shins formed?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was the band The Shins formed?",
+            "When was the band Paramore formed?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: formation year of The Shins. Suggested sub-question: When was the band The Shins formed?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "When was the band The Shins formed?",
+            "When was the band Paramore formed?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: formation year of The Shins. Suggested sub-question: When was the band The Shins formed?"
+        }
+      ]
+    },
+    "5ab9d6ef5542994dbf01985b": {
+      "question": "What country of origin does  Dana Ivey and Two Weeks Notice have in common?",
+      "gold": "American",
+      "old_answer": "American",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "American",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where was Dana Ivey born?",
+            "What country of origin is associated with the film Two Weeks Notice?"
+          ],
+          "n_triples": 50,
+          "answer": "American",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: country of origin of the film 'Two Weeks Notice'. Suggested sub-question: 'What is the country of origin of the 2002 film Two Weeks Notice?'"
+        }
+      ]
+    },
+    "5abd0097554299700f9d7956": {
+      "question": "What is the scentific name of the butterfly that is widespread in the seventh-largest country in the world?",
+      "gold": "I. helicon",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the seventh-largest country in the world by area?",
+            "What butterfly species is widespread in that country?",
+            "What is the scientific name of that butterfly species?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 1.0,
+          "feedback": "Missing: scientific name of a butterfly species native to or widespread in India. Suggested sub-question: What butterfly species is widespread in India, and what is its scientific name?"
+        }
+      ]
+    },
+    "5a8b83bc55429949d91db5c0": {
+      "question": "Bandit was built in 1988 by which Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides?",
+      "gold": "TOGO company",
+      "old_answer": "TOGO",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "TOGO",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who built the Bandit roller coaster?",
+            "In which year was the Bandit roller coaster built?",
+            "What is the name of the Japanese amusement ride company that built the Bandit roller coaster?"
+          ],
+          "n_triples": 50,
+          "answer": "TOGO",
+          "score": 1.0,
+          "feedback": "Missing: explicit confirmation that TOGO built Bandit in 1988. Suggested sub-question: Which company built the Bandit roller coaster, and in what year?"
+        }
+      ]
+    },
+    "5ac4e593554299076e296e37": {
+      "question": "OU812 was the second album to feature a vocalist that also played what instrument in \"Finish What Ya Started\"?",
+      "gold": "rhythm guitar",
+      "old_answer": "rhythm guitar",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "rhythm guitar",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was the vocalist on Van Halen's album OU812?",
+            "What instrument did that vocalist play in the song 'Finish What Ya Started'?",
+            "Was OU812 the second album featuring that vocalist?"
+          ],
+          "n_triples": 50,
+          "answer": "rhythm guitar",
+          "score": 1.0,
+          "feedback": "Missing: explicit confirmation that Sammy Hagar played rhythm guitar *on the track 'Finish What Ya Started'*. Suggested sub-question: 'Did Sammy Hagar play rhythm guitar on the song \"Finish What Ya Started\" from the album OU812?'"
+        }
+      ]
+    },
+    "5a74d7685542996c70cfae0a": {
+      "question": "Who was the murderer sent to \"Old Smokey\" for allegedly commiting \"The Crime of the Century\"?",
+      "gold": "Richard Hauptmann",
+      "old_answer": "Richard Hauptmann",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 2,
+      "new_answer": "Richard Hauptmann",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What was 'The Crime of the Century'?",
+            "Who was convicted of 'The Crime of the Century' and sentenced to death?",
+            "What is 'Old Smokey'?"
+          ],
+          "n_triples": 32,
+          "answer": "- “Old Smokey” is only defined as a nickname for electric chairs in PA, NJ, TN",
+          "score": 0.42,
+          "feedback": "Missing: the identity of the murderer executed in 'Old Smokey' for 'The Crime of the Century'. Suggested sub-question: Who was executed in an electric chair nicknamed 'Old Smokey' for the 1932 Lindbergh baby kidnapping and murder?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What was 'The Crime of the Century'?",
+            "Who was convicted of 'The Crime of the Century' and sentenced to death?",
+            "What is 'Old Smokey'?",
+            "Who was executed in an electric chair nicknamed 'Old Smokey' for the 1932 Lindbergh baby kidnapping and murder?"
+          ],
+          "n_triples": 38,
+          "answer": "Richard Hauptmann",
+          "score": 0.94,
+          "feedback": "Missing: confirmation that 'Old Smokey' was the nickname of the electric chair used in New Jersey where Richard Hauptmann was executed. Suggested sub-question: In which state was Richard Hauptmann executed, and was that state's electric chair nicknamed 'Old Smokey'?"
+        }
+      ]
+    },
+    "5ab42b24554299753aec5a43": {
+      "question": "Operation light house was an experiment by Wernher von Braun and another man born in what year?",
+      "gold": "1895",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "Not in knowledge graph",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was the other man involved in Operation Light House with Wernher von Braun?",
+            "In what year was that person born?"
+          ],
+          "n_triples": 50,
+          "answer": "Not in knowledge graph",
+          "score": 0.3,
+          "feedback": "Missing: existence and details of 'Operation Light House' — no triple references any operation by that name, nor confirms it was an experiment by Wernher von Braun and another person. Suggested sub-question: Was there a historical initiative or experiment named 'Operation Light House' involving Wernher von Braun?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Was there a historical initiative or experiment named 'Operation Light House' involving Wernher von Braun?",
+            "Who was the other man involved in Operation Light House with Wernher von Braun?",
+            "In what year was that person born?"
+          ],
+          "n_triples": 50,
+          "answer": "Not in knowledge graph",
+          "score": 0.3,
+          "feedback": "Missing: existence and details of 'Operation Light House' involving Wernher von Braun. Suggested sub-question: Did Wernher von Braun conduct or participate in an experiment or project named 'Operation Light House', and if so, who was the other person involved and when were they born?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Did Wernher von Braun conduct or participate in an experiment or project named 'Operation Light House'?",
+            "If Wernher von Braun conducted or participated in an experiment or project named 'Operation Light House', who was the other person involved?",
+            "If Wernher von Braun conducted or participated in an experiment or project named 'Operation Light House', in what year was that other person born?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: existence and details of 'Operation Light House' involving Wernher von Braun. Suggested sub-question: Did Wernher von Braun conduct or participate in an experiment or project named 'Operation Light House', and if so, who was the other person involved and when were they born?"
+        }
+      ]
+    },
+    "5a7774e155429967ab10518d": {
+      "question": "What studio helped produce both Return to Never Land and McFarland, USA?",
+      "gold": "Walt Disney Pictures",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who produced Return to Never Land?",
+            "Who produced McFarland, USA?",
+            "What studio is listed as a producer for both Return to Never Land and McFarland, USA?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: production studio(s) for 'McFarland, USA' and confirmed production studio(s) for 'Return to Never Land' beyond distribution. Suggested sub-question: 'Which studio or studios co-produced the 2002 film Return to Never Land?' and 'Which studio or studios produced the 2015 film McFarland, USA?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Which studio or studios co-produced the 2002 film Return to Never Land?",
+            "Which studio or studios produced the 2015 film McFarland, USA?",
+            "What studio is listed as a producer for both Return to Never Land and McFarland, USA?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: production studio(s) for 'McFarland, USA' and the production studio(s) for 'Return to Never Land' (beyond distributor). Suggested sub-question: 'Which studio produced McFarland, USA?' and 'Which studio produced Return to Never Land, besides Walt Disney Studios Motion Pictures as distributor?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Which studio or studios co-produced the 2002 film Return to Never Land, excluding Walt Disney Studios Motion Pictures as distributor?",
+            "Which studio or studios produced the 2015 film McFarland, USA?",
+            "What studio is listed as a producer for both Return to Never Land and McFarland, USA?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: production studio(s) for 'McFarland, USA'. Suggested sub-question: Which studio produced 'McFarland, USA'?"
+        }
+      ]
+    },
+    "5ac156d05542994ab5c67ce9": {
+      "question": "Was Cars 2 released by the same company which used songs written by Lin-Manuel Miranda in another of its movies?",
+      "gold": "yes",
+      "old_answer": "no",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "And \"the game Cars 2\" is linked to Pixar, and Pixar is universally known to be Disney-owned — but again, per instructions, we cannot use external knowledge.",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Which company released Cars 2?",
+            "Which company used songs written by Lin-Manuel Miranda in one of its movies?",
+            "Are the companies identified in the previous two questions the same?"
+          ],
+          "n_triples": 50,
+          "answer": "And \"the game Cars 2\" is linked to Pixar, and Pixar is universally known to be Disney-owned — but again, per instructions, we cannot use external knowledge.",
+          "score": 0.35,
+          "feedback": "Missing: the production company of the film Cars 2. Suggested sub-question: Which company produced and released the film Cars 2?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Which company produced and released the film Cars 2?",
+            "Which company used songs written by Lin-Manuel Miranda in one of its movies?",
+            "Are the companies identified in the previous two questions the same?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.09,
+          "feedback": "Missing: the production company of Cars 2 and the production company of the Disney movie featuring Lin-Manuel Miranda's songs (Moana). Suggested sub-question: Which company produced Cars 2? Which company produced Moana?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Which company produced Cars 2?",
+            "Which company produced Moana?",
+            "Did Lin-Manuel Miranda write songs for Moana?",
+            "Are the companies that produced Cars 2 and Moana the same?"
+          ],
+          "n_triples": 50,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: the production company of Cars 2 and the production company of Moana (the Disney film for which Lin-Manuel Miranda wrote songs). Suggested sub-question: Which studio produced Cars 2? Which studio produced Moana (2016)?"
+        }
+      ]
+    },
+    "5a72ac8a5542992359bc3164": {
+      "question": "Which body of water required more intensive man made barriers the Dundee Canal or Lake Worth Lagoon?",
+      "gold": "The Dundee Canal",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What man-made barriers were constructed for the Dundee Canal?",
+            "What man-made barriers were constructed for Lake Worth Lagoon?",
+            "Which of these two bodies of water required more intensive man-made barriers?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.7,
+          "feedback": "Missing: comparative information about man-made barriers for Dundee Canal (e.g., presence, type, scale, or intensity of engineered structures like locks, dams, or inlets). Suggested sub-question: What man-made barriers were constructed on the Dundee Canal, and how do their number, complexity, or engineering intensity compare to those of Lake Worth Lagoon?"
+        }
+      ]
+    },
+    "5ab510cb5542996a3a96a00f": {
+      "question": "Were both the Battle of Saipan and the Battle of Manila fought by American forces?",
+      "gold": "yes",
+      "old_answer": "no",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 2,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who fought in the Battle of Saipan?",
+            "Who fought in the Battle of Manila?"
+          ],
+          "n_triples": 27,
+          "answer": "- Battle of Manila (1898): Yes — \"Commodore Dewey's Asiatic Squadron\" = U.S. forces.",
+          "score": 0.3,
+          "feedback": "Missing: confirmation that the Battle of Saipan was fought by American forces, and clarification that the Battle of Manila referenced in the question is the 1945 battle (not the 1898 Battle of Manila Bay or the 1898 Battle of Manila). Suggested sub-question: 'Was the Battle of Saipan (1944) fought by United States forces?' and 'Which Battle of Manila — 1898 or 1945 — is being asked about in the context of American forces fighting alongside Filipino allies against Japan in World War II?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Was the Battle of Saipan (1944) fought by United States forces?",
+            "Which Battle of Manila — 1898 or 1945 — is being asked about in the context of American forces fighting alongside Filipino allies against Japan in World War II?"
+          ],
+          "n_triples": 47,
+          "answer": "yes",
+          "score": 0.8,
+          "feedback": "Missing: explicit statement that American forces fought in the Battle of Saipan. Suggested sub-question: Which forces fought in the Battle of Saipan?"
+        }
+      ]
+    },
+    "5a77c74155429967ab105291": {
+      "question": "Which band formed in England, Of Montreal or Vib Gyor?",
+      "gold": "Vib Gyor was a band that was formed in Leeds, England.",
+      "old_answer": "Vib Gyor",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Vib Gyor",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where was Of Montreal formed?",
+            "Where was Vib Gyor formed?"
+          ],
+          "n_triples": 50,
+          "answer": "Vib Gyor",
+          "score": 1.0,
+          "feedback": "Missing: formation location of Of Montreal. Suggested sub-question: Where was Of Montreal formed?"
+        }
+      ]
+    },
+    "5a71278c5542994082a3e5e2": {
+      "question": "What North Carolina native did Danja produce songs for?",
+      "gold": "J. Cole",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Danja?",
+            "Which songs did Danja produce?",
+            "Which of those songs were performed by a native of North Carolina?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: identity of North Carolina native(s) produced by Danja (Daniel Johnson, the producer). Suggested sub-question: Which North Carolina-born recording artists has producer Danja worked with?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who is Danja?",
+            "Which North Carolina-born recording artists has producer Danja worked with?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: identity of North Carolina native(s) produced by Danja (Daniel Johnson, the producer). Suggested sub-question: Which North Carolina native musicians or singers has producer Danja worked with?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who is Danja?",
+            "Which North Carolina native musicians or singers has producer Danja worked with?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.3,
+          "feedback": "Missing: identity of North Carolina native(s) produced by Danja (Daniel 'Danja' Johnson). Suggested sub-question: Which North Carolina native musicians or artists has producer Danja worked with?"
+        }
+      ]
+    },
+    "5ab8494d55429916710eb016": {
+      "question": "Which was founded first, University of California, Santa Barbara or Hamdard University?",
+      "gold": "University of California, Santa Barbara",
+      "old_answer": "- “Santa Barbara City College -- opened in --> 1909” — but that’s a different institution",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "University of California, Santa Barbara",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was the University of California, Santa Barbara founded?",
+            "When was Hamdard University founded?"
+          ],
+          "n_triples": 50,
+          "answer": "University of California, Santa Barbara",
+          "score": 0.54,
+          "feedback": "Missing: founding year of University of California, Santa Barbara. Suggested sub-question: When was the University of California, Santa Barbara founded?"
+        }
+      ]
+    },
+    "5abb61c0554299642a094a86": {
+      "question": "Are both Trace Cyrus and Jizzy Pearl vocalists?",
+      "gold": "yes",
+      "old_answer": "no",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Is Trace Cyrus a vocalist?",
+            "Is Jizzy Pearl a vocalist?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.54,
+          "feedback": "Missing: explicit statement that Trace Cyrus is a vocalist (e.g., 'Trace Cyrus -- performs --> lead vocals' or 'Trace Cyrus -- is --> vocalist'). Suggested sub-question: Does Trace Cyrus perform vocals in Metro Station?"
+        }
+      ]
+    },
+    "5a7c99705542990527d554de": {
+      "question": "Which town is named after the developers of Monmouth Heights at Manalapan?",
+      "gold": "Levittown",
+      "old_answer": "none",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "none",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who developed Monmouth Heights at Manalapan?",
+            "What town is named after the developers of Monmouth Heights at Manalapan?"
+          ],
+          "n_triples": 50,
+          "answer": "none",
+          "score": 0.3,
+          "feedback": "Missing: the developers of Monmouth Heights at Manalapan. Suggested sub-question: Who developed Monmouth Heights at Manalapan?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "Who developed Monmouth Heights at Manalapan?",
+            "What town is named after the developers of Monmouth Heights at Manalapan?"
+          ],
+          "n_triples": 50,
+          "answer": "none",
+          "score": 0.3,
+          "feedback": "Missing: the developers of Monmouth Heights at Manalapan. Suggested sub-question: Who developed Monmouth Heights at Manalapan?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Who developed Monmouth Heights at Manalapan?",
+            "Which town is named after the developers of Monmouth Heights at Manalapan?"
+          ],
+          "n_triples": 50,
+          "answer": "none",
+          "score": 0.3,
+          "feedback": "Missing: the developers of Monmouth Heights at Manalapan. Suggested sub-question: Who developed Monmouth Heights at Manalapan?"
+        }
+      ]
+    },
+    "5adfc77b554299603e4183ab": {
+      "question": "Is Edison Sault Power Canal somehow linked with or used with the Cayuga–Seneca Canal?",
+      "gold": "no",
+      "old_answer": "no",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "no",
+      "new_em": 1.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the Edison Sault Power Canal?",
+            "What is the Cayuga–Seneca Canal?",
+            "Are the Edison Sault Power Canal and the Cayuga–Seneca Canal geographically connected or historically used together?"
+          ],
+          "n_triples": 49,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: any information about the Edison Sault Power Canal — including its location, function, historical context, or relationship to other canals (e.g., Cayuga–Seneca Canal or New York State Canal System). Suggested sub-question: What is the location and purpose of the Edison Sault Power Canal, and is it connected to or part of the New York State Canal System or Cayuga–Seneca Canal?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What is the location and purpose of the Edison Sault Power Canal, and is it connected to or part of the New York State Canal System or Cayuga–Seneca Canal?",
+            "What is the Cayuga–Seneca Canal, including its location, function, historical context, and relationship to the New York State Canal System?"
+          ],
+          "n_triples": 33,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: geographic location or operational relationship between Edison Sault Power Canal and Cayuga–Seneca Canal. Suggested sub-question: Where is the Edison Sault Power Canal located, and is it part of or connected to the New York State Canal System?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "Where is the Edison Sault Power Canal located, and is it part of or connected to the New York State Canal System?",
+            "What is the location and purpose of the Edison Sault Power Canal, and is it connected to or part of the New York State Canal System or Cayuga–Seneca Canal?",
+            "What is the Cayuga–Seneca Canal, including its location, function, historical context, and relationship to the New York State Canal System?"
+          ],
+          "n_triples": 45,
+          "answer": "no",
+          "score": 0.3,
+          "feedback": "Missing: any information about the Edison Sault Power Canal — including its location, purpose, ownership, or relationship to other canals or systems. Suggested sub-question: What is the location and operational relationship of the Edison Sault Power Canal to other waterways or canal systems in the United States?"
+        }
+      ]
+    },
+    "5ae38b115542990afbd1e183": {
+      "question": "Who played a more important role in the church George Albert Smith or Wong Jing?",
+      "gold": "George Albert Smith",
+      "old_answer": "George Albert Smith",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "George Albert Smith",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who was George Albert Smith in relation to the church?",
+            "Who was Wong Jing in relation to the church?",
+            "What criteria determine a 'more important role' in the church?"
+          ],
+          "n_triples": 50,
+          "answer": "George Albert Smith",
+          "score": 0.71,
+          "feedback": "Missing: Wong Jing's religious affiliation or any role in a church. Suggested sub-question: Was Wong Jing ever a member, leader, or participant in any religious organization—particularly The Church of Jesus Christ of Latter-day Saints—or did he hold any ecclesiastical position?"
+        }
+      ]
+    },
+    "5ac097b05542996f0d89cc18": {
+      "question": "Are Ruggero Deodato from Italy, and Mexican Alejandro Springall, both film directors?",
+      "gold": "yes",
+      "old_answer": "yes",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "yes",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Is Ruggero Deodato a film director?",
+            "Is Alejandro Springall a film director?",
+            "Is Ruggero Deodato from Italy?",
+            "Is Alejandro Springall from Mexico?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: Ruggero Deodato's nationality (specifically confirmation that he is from Italy). Suggested sub-question: Where was Ruggero Deodato born?"
+        }
+      ]
+    },
+    "5a900b575542995b44242099": {
+      "question": "Which director, Christopher Guest or Elem Klimov, is known for writing, directing and starring in his movies?",
+      "gold": "Christopher Guest",
+      "old_answer": "Christopher Guest",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Christopher Guest",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What movies did Christopher Guest write, direct, and star in?",
+            "What movies did Elem Klimov write, direct, and star in?",
+            "Which of these two directors is known for writing, directing, and starring in his movies?"
+          ],
+          "n_triples": 49,
+          "answer": "Christopher Guest",
+          "score": 0.8400000000000001,
+          "feedback": "Missing: explicit evidence that Christopher Guest both wrote, directed, AND starred in the same movies (e.g., specific films like 'This Is Spinal Tap' or 'Waiting for Guffman'). Suggested sub-question: 'Which films did Christopher Guest write, direct, and act in?'"
+        }
+      ]
+    },
+    "5ac2659b55429963665199a1": {
+      "question": "How many laps did Harry Prowell run during the 10,000 metres race at the 1967 Pan American Games?",
+      "gold": "25 laps",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "unknown",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the standard lap distance for a 10,000 metres race on a standard outdoor track?",
+            "How many laps are required to complete 10,000 metres on a standard outdoor track?"
+          ],
+          "n_triples": 50,
+          "answer": "unknown",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: number of laps Harry Prowell ran in the 10,000 metres race at the 1967 Pan American Games. Suggested sub-question: How many laps constitute a 10,000 metres race on a standard 400-metre track, and did Harry Prowell complete the full race distance?"
+        }
+      ]
+    },
+    "5ae7edee554299540e5a56ad": {
+      "question": "The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?",
+      "gold": "Macaronesia",
+      "old_answer": "Canary Islands",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Canary Islands",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the most populated island of the Canary Islands?",
+            "What city is located on that island?",
+            "In which city was the Church of the Guanche People founded?"
+          ],
+          "n_triples": 50,
+          "answer": "Canary Islands",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: the most populated island of the Canary Islands. Suggested sub-question: Which island is the most populated in the Canary Islands?"
+        }
+      ]
+    },
+    "5a7652785542992db9473760": {
+      "question": "Which of the following is known for his work \"Good Bye Lenin!\" in 2003: Vladimir Danilevich or Wolfgang Becker?",
+      "gold": "Wolfgang Becker",
+      "old_answer": "Wolfgang Becker",
+      "old_em": 1.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "Wolfgang Becker",
+      "new_em": 1.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who directed the film 'Good Bye Lenin!' released in 2003?",
+            "Was Vladimir Danilevich the director of 'Good Bye Lenin!'?",
+            "Was Wolfgang Becker the director of 'Good Bye Lenin!'?"
+          ],
+          "n_triples": 50,
+          "answer": "Wolfgang Becker",
+          "score": 1.0,
+          "feedback": "Missing: explicit triple stating 'Wolfgang Becker -- directed --> Good Bye Lenin!'. Suggested sub-question: Who directed the 2003 film 'Good Bye Lenin!'?"
+        }
+      ]
+    },
+    "5aba71b155429955dce3ee2a": {
+      "question": "Pirates Plunge, at the Grace O'Malley-inspired Pirates Adventure Park in Westport, holds which notable record?",
+      "gold": "first flume ride in Ireland",
+      "old_answer": "first flume ride in Ireland",
+      "old_em": 1.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "first flume ride in Ireland",
+      "new_em": 1.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What is the name of the water slide called Pirates Plunge at Pirates Adventure Park in Westport?",
+            "What notable record does Pirates Plunge hold?",
+            "Is Pirates Adventure Park in Westport inspired by Grace O'Malley?"
+          ],
+          "n_triples": 47,
+          "answer": "first flume ride in Ireland",
+          "score": 0.3,
+          "feedback": "Missing: the notable record held by Pirates Plunge at the Grace O'Malley-inspired Pirates Adventure Park in Westport. Suggested sub-question: What notable record does Pirates Plunge hold?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What notable record does Pirates Plunge hold?"
+          ],
+          "n_triples": 50,
+          "answer": "first flume ride in Ireland",
+          "score": 0.3,
+          "feedback": "Missing: Pirates Plunge's notable record (e.g., 'first flume ride in Ireland'). Suggested sub-question: What notable record does Pirates Plunge hold?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What notable record does Pirates Plunge hold?"
+          ],
+          "n_triples": 50,
+          "answer": "first flume ride in Ireland",
+          "score": 0.3,
+          "feedback": "Missing: the record held by Pirates Plunge (e.g., 'first flume ride in Ireland'). Suggested sub-question: What notable record does Pirates Plunge hold?"
+        }
+      ]
+    },
+    "5abaad5855429901930fa88f": {
+      "question": "How many more singles titles did Kim Warwick win than Jorge Lozano?",
+      "gold": "three singles titles",
+      "old_answer": "3",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "0",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "How many singles titles did Kim Warwick win?",
+            "How many singles titles did Jorge Lozano win?"
+          ],
+          "n_triples": 50,
+          "answer": "0",
+          "score": 0.48,
+          "feedback": "Missing: number of singles titles won by Kim Warwick. Suggested sub-question: How many singles titles did Kim Warwick win during his professional tennis career?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "How many singles titles did Kim Warwick win during his professional tennis career?",
+            "How many singles titles did Jorge Lozano win?"
+          ],
+          "n_triples": 50,
+          "answer": "0",
+          "score": 0.48,
+          "feedback": "Missing: number of singles titles won by Kim Warwick. Suggested sub-question: How many singles titles did Kim Warwick win during his professional tennis career?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "How many singles titles did Kim Warwick win during his professional tennis career?",
+            "How many singles titles did Jorge Lozano win?"
+          ],
+          "n_triples": 50,
+          "answer": "0",
+          "score": 0.48,
+          "feedback": "Missing: number of singles titles won by Kim Warwick. Suggested sub-question: How many singles titles did Kim Warwick win during his professional tennis career?"
+        }
+      ]
+    },
+    "5ae0d7bf5542990adbacf67b": {
+      "question": "Which Walt Disney film was released earlier, The Rescuers or The Muppets?",
+      "gold": "The Muppets",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was The Rescuers released?",
+            "When was The Muppets released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release year of 'The Muppets' (2011 film). Suggested sub-question: When was 'The Muppets' (2011) released?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was The Rescuers released?",
+            "When was The Muppets (2011) released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release year of 'The Muppets' (2011 film). Suggested sub-question: When was 'The Muppets' (2011) released?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "When was The Rescuers released?",
+            "When was The Muppets (2011) released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release year of 'The Muppets' (2011 film). Suggested sub-question: When was 'The Muppets' (2011) released?"
+        }
+      ]
+    },
+    "5abd4f2e5542993062266c4b": {
+      "question": "Which plant is indigenous to the western hemisphere, Stephanocereus or Nepenthes?",
+      "gold": "Stephanocereus",
+      "old_answer": "But per instruction, we must answer using *only* the triples — and since no triple supports Nepenthes being western-hemisphere-indigenous, and none mention Stephanocereus, the only defensible answer is that *neither",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "But per instruction, we must answer using *only* the triples — and since no triple supports Nepenthes being western-hemisphere-indigenous, and none mention Stephanocereus, the only defensible answer is that *neither",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Where is Stephanocereus indigenous to?",
+            "Where is Nepenthes indigenous to?"
+          ],
+          "n_triples": 50,
+          "answer": "But per instruction, we must answer using *only* the triples — and since no triple supports Nepenthes being western-hemisphere-indigenous, and none mention Stephanocereus, the only defensible answer is that *neither",
+          "score": 0.78,
+          "feedback": "Missing: geographic origin or native range of Stephanocereus. Suggested sub-question: Where is Stephanocereus indigenous to?"
+        }
+      ]
+    },
+    "5adc020a5542994650320c4c": {
+      "question": "Are Jeff Ragsdale and Millard Webb both authors?",
+      "gold": "no",
+      "old_answer": "yes",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "yes",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Jeff Ragsdale?",
+            "Who is Millard Webb?",
+            "Is Jeff Ragsdale an author?",
+            "Is Millard Webb an author?"
+          ],
+          "n_triples": 50,
+          "answer": "yes",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: explicit statement that Jeff Ragsdale is an author (beyond 'wrote Jeff, One Lonely Guy' — though implied, the question asks whether he *is* an author, requiring confirmation of authorial identity/status). Suggested sub-question: Is Jeff Ragsdale recognized as an author based on his publication of 'Jeff, One Lonely Guy'?"
+        }
+      ]
+    },
+    "5a84b5975542991dd0999da3": {
+      "question": "In what ecclesiastical province is Stephen Conway currently part of?",
+      "gold": "Province of Canterbury",
+      "old_answer": "unknown",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "Who is Stephen Conway?",
+            "What ecclesiastical province is Stephen Conway currently part of?"
+          ],
+          "n_triples": 45,
+          "answer": "insufficient information",
+          "score": 0.7,
+          "feedback": "Missing: current ecclesiastical province of Stephen Conway. Suggested sub-question: Which ecclesiastical province is Stephen Conway, as a bishop or archbishop, currently assigned to?"
+        }
+      ]
+    },
+    "5adce3b95542990d50227d56": {
+      "question": "What profession is shared by both Monty Banks and George Seaton?",
+      "gold": "film director",
+      "old_answer": "director",
+      "old_em": 0.0,
+      "old_converged": true,
+      "old_iterations": 1,
+      "new_answer": "director",
+      "new_em": 0.0,
+      "new_converged": true,
+      "new_iterations": 1,
+      "rerun": false,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "What was Monty Banks's profession?",
+            "What was George Seaton's profession?",
+            "What profession do Monty Banks and George Seaton have in common?"
+          ],
+          "n_triples": 50,
+          "answer": "director",
+          "score": 0.8500000000000001,
+          "feedback": "Missing: explicit statement that Monty Banks and George Seaton were both directors (i.e., 'Monty Banks -- profession --> director' or 'George Seaton -- profession --> director'). Suggested sub-question: What is the profession of Monty Banks? What is the profession of George Seaton?"
+        }
+      ]
+    },
+    "5a76404b5542994ccc91873d": {
+      "question": "Which documentary was made first, The Shame of a City or Unchained Memories?",
+      "gold": "Unchained Memories",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was The Shame of a City released?",
+            "When was Unchained Memories released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release years of 'The Shame of a City' and 'Unchained Memories'. Suggested sub-question: 'What year was the documentary \"The Shame of a City\" released?' and 'What year was the documentary \"Unchained Memories\" released?'"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "What year was the documentary \"The Shame of a City\" released?",
+            "What year was the documentary \"Unchained Memories\" released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release years of 'The Shame of a City' and 'Unchained Memories'. Suggested sub-question: 'What year was the documentary \"The Shame of a City\" released?' and 'What year was the documentary \"Unchained Memories\" released?'"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "What year was the documentary \"The Shame of a City\" released?",
+            "What year was the documentary \"Unchained Memories\" released?"
+          ],
+          "n_triples": 50,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: release years of 'The Shame of a City' and 'Unchained Memories'. Suggested sub-question: 'When was the documentary \"The Shame of a City\" released?' and 'When was the documentary \"Unchained Memories\" released?'"
+        }
+      ]
+    },
+    "5a7633ad5542992db9473741": {
+      "question": "Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?",
+      "gold": "The Seven Days Battles",
+      "old_answer": "insufficient information",
+      "old_em": 0.0,
+      "old_converged": false,
+      "old_iterations": 2,
+      "new_answer": "insufficient information",
+      "new_em": 0.0,
+      "new_converged": false,
+      "new_iterations": 3,
+      "rerun": true,
+      "history": [
+        {
+          "iteration": 1,
+          "subqueries": [
+            "When was the Seven Days Battles fought?",
+            "When was the Battle of Manila fought?"
+          ],
+          "n_triples": 44,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: date of the Battle of Manila. Suggested sub-question: When was the Battle of Manila fought?"
+        },
+        {
+          "iteration": 2,
+          "subqueries": [
+            "When was the Seven Days Battles fought?",
+            "When was the Battle of Manila fought?"
+          ],
+          "n_triples": 44,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: date of the Battle of Manila. Suggested sub-question: When was the Battle of Manila fought?"
+        },
+        {
+          "iteration": 3,
+          "subqueries": [
+            "When was the Seven Days Battles fought?",
+            "When was the Battle of Manila fought?"
+          ],
+          "n_triples": 44,
+          "answer": "insufficient information",
+          "score": 0.3,
+          "feedback": "Missing: date of the Battle of Manila. Suggested sub-question: When was the Battle of Manila fought?"
+        }
+      ]
+    }
+  }
+}

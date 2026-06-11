@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,llm_calls,switches,accepted_switches,acceptance_not_target,acceptance_same_as_current,acceptance_action_not_switch,acceptance_accepted,acceptance_bad_surface
+conservative_evidence_adjudicator,1000,0.554,0.6557,100,100,4,4,900,71,24,4,1

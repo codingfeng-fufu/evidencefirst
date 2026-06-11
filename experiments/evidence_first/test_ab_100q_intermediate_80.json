@@ -1,0 +1,2900 @@
+{
+  "progress": 80,
+  "results": [
+    {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "question": "What award won by only twelve people has a man who Ted Kooshian has performed with won?",
+      "gold_answer": "EGOT",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "EGOT",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae0e183554299422ee9953f",
+      "question": "Did Qionghai or Suining  have a population of 658,798 in 2002? ",
+      "gold_answer": "In 2002, Suining had a population of 658,798.",
+      "predicted_answer": "Suining",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 11,
+            "triples_added": 11,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Suining",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "question": "What location is shared by both Great Neck School District and Saddle Rock Elementary School?",
+      "gold_answer": "New York, United States",
+      "predicted_answer": "Great Neck",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Great Neck, New York",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "question": "What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?",
+      "gold_answer": "professional wrestler, actor, and hip hop musician",
+      "predicted_answer": "“The one” = subject who",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 13,
+            "triples_added": 13,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "WWE wrestler",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae796af554299540e5a5623",
+      "question": "Where was the capital of the Arab country, in which the Aulacodes peribocalis moth is found, relocated to?  ",
+      "gold_answer": "Aden",
+      "predicted_answer": "the port city of Aden",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 29,
+            "triples_added": 29,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Aden",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "question": "Nicole Gordon won a silver medal with Sara Petersen int he women's doubles at a competition held in what city?",
+      "gold_answer": "Manchester",
+      "predicted_answer": "Manchester",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Manchester",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a738b855542992d56e7e363",
+      "question": "Which hospital opened first, St. Elizabeths Hospital or Providence Hospital?",
+      "gold_answer": "St. Elizabeths Hospital",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source St Elizabeths Hospital is not in G"
+    },
+    {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "question": "Psychopsis and Aubrieta are both genuses of which type of plants?",
+      "gold_answer": "flowering plants",
+      "predicted_answer": "flowering plants",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 16,
+            "triples_added": 16,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "flowering plants",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a840e395542992ef85e239d",
+      "question": "Are both The Straight Story and Frozen films of the same genre?",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 16,
+            "triples_added": 16,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae5415055429908b63265b7",
+      "question": "Japanese Weekend School of New York has offices in the entertainment complex in what section of New Rochelle?",
+      "gold_answer": "Downtown",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Japanese Weekend School is not in G"
+    },
+    {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "question": "Who was born first Edward Keonjian or Aram Saroyan?",
+      "gold_answer": "Dr. Edward Keonjian",
+      "predicted_answer": "Dr. Edward Keonjian",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Dr. Edward Keonjian",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ab465095542991751b4d75a",
+      "question": "During which period the sedan variant of the Volvo V50 car was manufactured?",
+      "gold_answer": "1995 to 2012",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 2,
+            "triples_added": 2,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 6
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 6
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "2006–2013",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae763aa5542995703ce8c09",
+      "question": "Who voices Chef Mung Daal in the American animated television series created by C. H. Greenblatt?",
+      "gold_answer": "William Dwight Schultz",
+      "predicted_answer": "William Dwight Schultz",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 9,
+            "triples_added": 9,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 59,
+            "triples_added": 59,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "William Dwight Schultz",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a8f7c9a55429918e830d239",
+      "question": "Which NFL team did both Don Looney and DeSean Jackson play for?",
+      "gold_answer": "Philadelphia Eagles",
+      "predicted_answer": "Dallas Texans (NFL)",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 28,
+            "triples_added": 28,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 4
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 4
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Philadelphia Eagles",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae383e15542992f92d822fb",
+      "question": "Which film is newer, The Apple Dumpling Gang or Heavyweights?",
+      "gold_answer": "Heavyweights",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Apple Dumpling Gang is not in G"
+    },
+    {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "question": "Are Colocasia and Coronilla both flowering plants?",
+      "gold_answer": "yes",
+      "predicted_answer": "yes",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 3,
+            "triples_added": 3,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "yes",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a7a33205542996a35c1712f",
+      "question": "Out of two American colonies that had a series of skirmishes and raids between 1701 and 1765 at the disputed border, which British proprietary colony became a royal colony on the northeast coast of North America?",
+      "gold_answer": "Province of New York",
+      "predicted_answer": "Therefore, the answer is Province of New",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 4,
+            "triples_extracted": 77,
+            "triples_added": 77,
+            "llm_calls": 4
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 14,
+            "triples_added": 14,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Province of New York",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a8459aa5542996488c2e51e",
+      "question": " Kenneth Anderson served under the General who was which President of the United States?",
+      "gold_answer": "34th",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 12,
+            "triples_added": 12,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 12,
+            "triples_added": 12,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "none of the above",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "question": "Wangaratta Wahine, an album featuring the work of an Australian Living Treasure, was recorded by what band?",
+      "gold_answer": "The Captain Matchbox Whoopee Band",
+      "predicted_answer": "The Captain Matchbox Whoopee Band",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 3
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The Captain Matchbox Whoopee Band",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae4d0ff55429913cc204511",
+      "question": "Did Billy Corgan's band The Smashing Pumpkins or Greek Fire originate in a more southern location?",
+      "gold_answer": "Greek Fire",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 4,
+            "triples_extracted": 13,
+            "triples_added": 13,
+            "llm_calls": 4
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The Smashing Pumpkins",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a85fa815542996432c57155",
+      "question": "Where was the movement that August Brancart published literature from centerd?",
+      "gold_answer": "Western Europe",
+      "predicted_answer": "France",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 11,
+            "triples_added": 11,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Decadent movement",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a89e4585542992e4fca8454",
+      "question": "George Reed was, along with which Drake University player, one of the greatest running backs in CFL history?",
+      "gold_answer": "Johnny D. Bright",
+      "predicted_answer": "Mike Pringle and Johnny Bright",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 16,
+            "triples_added": 16,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Mike Pringle and Johnny Bright",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a7148d25542994082a3e766",
+      "question": "Which of these artists is older, Warrel Dane or Roy Khan?",
+      "gold_answer": "Warrel Dane",
+      "predicted_answer": "Roy Khan",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Roy Khan",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ab29c24554299449642c932",
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "gold_answer": "yes",
+      "predicted_answer": "no",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 24,
+            "triples_added": 24,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "yes",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "question": "Which film came out first, Still Kicking: Six Artistic Women of Project Arts & Longevity or Time Bombs?",
+      "gold_answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+      "predicted_answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 19,
+            "triples_added": 19,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 28,
+            "triples_added": 28,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a863114554299211dda2aa5",
+      "question": "What man won an Academy Award for his work on a drama based on the life of Rocky Graziano?",
+      "gold_answer": "Francis Keogh Gleason",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Joseph Ruttenberg",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5adec53655429975fa854f87",
+      "question": "Are Kim Dong-jun and Charlie Harper both singers?",
+      "gold_answer": "yes",
+      "predicted_answer": "no",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "yes",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a72ac8a5542992359bc3164",
+      "question": "Which body of water required more intensive man made barriers the Dundee Canal or Lake Worth Lagoon?",
+      "gold_answer": "The Dundee Canal",
+      "predicted_answer": "Lake Worth Lagoon",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 22,
+            "triples_added": 22,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Lake Worth Lagoon",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab7de455542992aa3b8c864",
+      "question": "Janet Williams has performed with an internationally recognized solo pianist whose recordings have earned him five what?",
+      "gold_answer": "Grammy awards",
+      "predicted_answer": "Grammy awards",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Grammy awards",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "question": "Which building is used for more different uses, MiMA or 270 Park Avenue?",
+      "gold_answer": "MiMA",
+      "predicted_answer": "270 Park Avenue",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 13,
+            "triples_added": 13,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "MiMA",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a85a2845542997175ce1fe1",
+      "question": "Are both Aloinopsis and Eriogonum ice plants?",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5adcfbf45542990d50227d86",
+      "question": "Into Dust is a song by the alternative rock band formed in which city?",
+      "gold_answer": "Santa Monica, California",
+      "predicted_answer": "And it is unambiguously labeled “an American alternative rock",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 10,
+            "triples_added": 10,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Oklahoma City",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7d2afd5542995f4f402221",
+      "question": "Who is older, Ferdi Taygan or Mahesh Bhupathi?",
+      "gold_answer": "Ferdi Taygan",
+      "predicted_answer": "Ferdi Taygan",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Ferdi Taygan",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "question": "How many women in total competed at the Asian Games the year Lee Young-Sun achieved her personal best throw of 58.87 metres?",
+      "gold_answer": "179 women",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 5,
+            "triples_added": 5,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Two",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab439f055429942dd415eef",
+      "question": "Which airport Albany International Airport and Dane County Regional Airport is nearer its local town ?",
+      "gold_answer": "Dane County Regional Airport",
+      "predicted_answer": "Albany International Airport",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Albany International Airport",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "question": "What are the letters of the radio station serves the area comprising all of Belknap County, among others?",
+      "gold_answer": "WANH",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "None of the passages mention",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5add016e5542992c1e3a250b",
+      "question": "What made the man who abolished the Consell in 1718 resume the throne?",
+      "gold_answer": "upon his son's death",
+      "predicted_answer": "Simon I returned to Kartli",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "None of the passages state",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ac4efa85542991943173a04",
+      "question": "Which body of water flows through more states, Tamiami Canal or Genesee River?",
+      "gold_answer": "Genesee River",
+      "predicted_answer": "Genesee River",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Genesee River",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ab474135542991751b4d77b",
+      "question": "At the 46th Grammy Awards, which award did the album by The White Stripes, which included the song Seven Nation Army, win?",
+      "gold_answer": "Best Alternative Music Album",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source White Stripes is not in G"
+    },
+    {
+      "qid": "5a83880e554299123d8c214e",
+      "question": "Suicide's 1977 released album features a song based on what brand's comic character?",
+      "gold_answer": "Marvel",
+      "predicted_answer": "Garfield",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Garfield",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7458ff55429979e2882918",
+      "question": "That Darn Cat and Honey, I Blew Up the Kid are both what?",
+      "gold_answer": "comedy",
+      "predicted_answer": "film",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 30,
+            "triples_added": 30,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 35,
+            "triples_added": 35,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "American films",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab8494d55429916710eb016",
+      "question": "Which was founded first, University of California, Santa Barbara or Hamdard University?",
+      "gold_answer": "University of California, Santa Barbara",
+      "predicted_answer": "University of California, Santa Barbara",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 24,
+            "triples_added": 24,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "University of California, Santa Barbara",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5adfff0755429925eb1afbce",
+      "question": "What is 25 miles south of Groom Lake?",
+      "gold_answer": "Rachel, Nevada",
+      "predicted_answer": "What is 25 miles south of Groom Lake?",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Rachel, Nevada",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7283355542991f9a20c4b1",
+      "question": "Who is the grandfather to Frederick II and was the Holy Roman Emperor until death?",
+      "gold_answer": "Frederick I",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 24,
+            "triples_added": 24,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Frederick Barbarossa",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a8fa2955542992414482b11",
+      "question": "Which film was directed by Wayne Coles-Janess, Tender Fictions or Bougainville – Our Island Our Fight?",
+      "gold_answer": "Bougainville",
+      "predicted_answer": "Bougainville – Our Island Our Fight",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 16,
+            "triples_added": 16,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 25,
+            "triples_added": 25,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Bougainville – Our Island Our Fight",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a888abc5542997e5c09a604",
+      "question": "Which was released first, Kolejka or Ghettopoly?",
+      "gold_answer": "Ghettopoly",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "None of the passages mention \"Kolejka\" or \"Ghettopoly\"",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "question": "Which Walt Disney film was released earlier, The Rescuers or The Muppets?",
+      "gold_answer": "The Muppets",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Muppets is not in G"
+    },
+    {
+      "qid": "5ae446fc5542995ad6573d24",
+      "question": "What Mexican singer released the song Todos Me Miran?",
+      "gold_answer": "Gloria Trevi",
+      "predicted_answer": "Gloria Trevi",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 15,
+            "triples_added": 15,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 17,
+            "triples_added": 17,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Gloria Trevi",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ac4e593554299076e296e37",
+      "question": "OU812 was the second album to feature a vocalist that also played what instrument in \"Finish What Ya Started\"?",
+      "gold_answer": "rhythm guitar",
+      "predicted_answer": "guitar",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 32,
+            "triples_added": 32,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "rhythm guitar",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a72af155542992359bc316c",
+      "question": "What movie included Robin Williams along with Joshua Aaron Charles, set in 1959 at a Vermont boarding school?",
+      "gold_answer": "Dead Poets Society",
+      "predicted_answer": "Dead Poets Society",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 8,
+            "triples_added": 8,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 19,
+            "triples_added": 19,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Dead Poets Society",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ac23f5655429951e9e684d9",
+      "question": "Both the Pulandian District and Hailar District are located within which country?",
+      "gold_answer": "China",
+      "predicted_answer": "China",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "China",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab5d4eb5542992aa134a3aa",
+      "question": "how many films has the director of \"Girl 6\" produced since 1983?",
+      "gold_answer": "over 35 films",
+      "predicted_answer": "The director of \"Girl 6\"",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 3,
+            "triples_added": 3,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The director of \"Girl 6\"",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a75f0bf5542994ccc91866b",
+      "question": "Who is younger, Pelle Almqvist or Steve Winwood?",
+      "gold_answer": "Pelle Almqvist",
+      "predicted_answer": "Pelle Almqvist",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Pelle Almqvist",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a7129685542994082a3e5fa",
+      "question": "Which \"Blackzilians\" fighter is currently competing in the Middleweight division of Ultimate Fighting Championship?",
+      "gold_answer": "Vitor Belfort",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Ultimate Fighting Championship is not in G"
+    },
+    {
+      "qid": "5a7220f055429971e9dc92ac",
+      "question": "What was the Volvo S70 essentially modeled after and was the first all wheel drive Volvo?",
+      "gold_answer": "Volvo 850",
+      "predicted_answer": "Volvo 850 range",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The Volvo S70 was essentially",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a8787915542996e4f30882e",
+      "question": "Which film was produced first, Dangal or The Man from Snowy River II?",
+      "gold_answer": "The Man from Snowy River II",
+      "predicted_answer": "The Man from Snowy River II",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 20,
+            "triples_added": 20,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The Man from Snowy River II",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a80c79155429938b61421da",
+      "question": "How many seasons has a popular tv show had, in which one of the episodes is called Moho House?",
+      "gold_answer": "28",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Unknown",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7b63eb55429931da12ca7e",
+      "question": "What city does Paul Clyne and David Soares have in common?",
+      "gold_answer": "New York",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Albany",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5adfee9c55429906c02daa8a",
+      "question": "The music magazine launched by Rob Stone and Jon Cohen that interviewed CupcakKe about her album Audacious in September was the first print publication to be released where?",
+      "gold_answer": "on iTunes.",
+      "predicted_answer": "New York City",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 3,
+            "triples_added": 3,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 21,
+            "triples_added": 21,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "on iTunes",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae33fa95542990afbd1e0f2",
+      "question": "Did Minersville School District v. Gobitis and Gravel v. United States occur in the same decade?",
+      "gold_answer": "no",
+      "predicted_answer": "No. Minersville School District v. Gobitis occurred in 1940 (1940s), and Gravel v. United States occurred in 1972 (1970s).",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "no_triples_fallback",
+          "fallback_to": "passages"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab7fa4f5542993667794080",
+      "question": "Which of the following was founded in 2003: University of Arizona or Presbyterian University College?",
+      "gold_answer": "Presbyterian University College",
+      "predicted_answer": "Presbyterian University College",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 27,
+            "triples_added": 27,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 12,
+            "triples_added": 12,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Presbyterian University College",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a70f0a75542994082a3e403",
+      "question": "Which dialect spoken in the province of Scania calls Spettekaka, \"spiddekaga\"?",
+      "gold_answer": "Scanian dialects",
+      "predicted_answer": "Scanian dialect",
+      "exact_match": false,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 4,
+            "triples_added": 4,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Scanian dialects",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae74eeb5542991bbc9761e1",
+      "question": "What's the familiar short name of Polyethylene terephthalate, a material used by bottle makers such as Ecopack of Pakistan?",
+      "gold_answer": "PET",
+      "predicted_answer": "PET",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 4,
+            "triples_extracted": 22,
+            "triples_added": 22,
+            "llm_calls": 4
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "PET",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab71b5c5542991d3222377e",
+      "question": "What is a luxury goods company long Northern Boulevard in the Miracle Mile?",
+      "gold_answer": "Gucci",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Americana Manhasset",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ab96c93554299743d22eb63",
+      "question": "Which of the cities of Dujiangyan City and Ezhou has the larger population according to their latest census ?",
+      "gold_answer": "Ezhou",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Not enough information",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5abd4f2e5542993062266c4b",
+      "question": "Which plant is indigenous to the western hemisphere, Stephanocereus or Nepenthes?",
+      "gold_answer": "Stephanocereus",
+      "predicted_answer": "Stephanocereus",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 17,
+            "triples_added": 17,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 3,
+            "triples_extracted": 4,
+            "triples_added": 4,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Stephanocereus",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ac24ad7554299636651995a",
+      "question": "Which was Disney's 2nd animated production, Pinocchio or Home on the Range?",
+      "gold_answer": "Pinocchio",
+      "predicted_answer": "Pinocchio",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 3,
+            "triples_extracted": 21,
+            "triples_added": 21,
+            "llm_calls": 3
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 25,
+            "triples_added": 25,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Pinocchio",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae0432a55429924de1b7081",
+      "question": "Were Rosario Castellanos and Lucy Maud Montgomery both authors?",
+      "gold_answer": "yes",
+      "predicted_answer": "no",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 13,
+            "triples_added": 13,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a887898554299206df2b2a2",
+      "question": "Are Broughtonia and Perilla both types of mint?",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 12,
+            "triples_added": 12,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a861ea85542994775f60700",
+      "question": "Were Robert Holdstock and H. L. Mencken both known for being satirists?",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 15,
+            "triples_added": 15,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5ae457a95542996836b02c85",
+      "question": "Who directed and wrote the 2016 film featuring the voice of Townsend Coleman?",
+      "gold_answer": "Garth Jennings",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 29,
+            "triples_added": 29,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Eric Fogel",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a8f799d55429918e830d22d",
+      "question": "Which genus has the most number of species, Myrsine or Styrax?",
+      "gold_answer": "Myrsine",
+      "predicted_answer": "Styrax",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 4
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Myrsine",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a8cc08455429941ae14deea",
+      "question": "What country is the singer from, who duets with Dave Hemingway on the song \"A Little Time\"?",
+      "gold_answer": "Northern Irish",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Little Time\" is not in G"
+    },
+    {
+      "qid": "5ae6fee3554299572ea54670",
+      "question": "The player who defeated Johnny Majors for the Heisman Trophy in 1956 was born in what year?",
+      "gold_answer": "1935",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 25,
+            "triples_added": 25,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "1937",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5abdff775542993f32c2a082",
+      "question": "At what theater is the composer and lyricist for the musical Big Fish a residential artist?",
+      "gold_answer": "Ars Nova Theater",
+      "predicted_answer": "not mentioned",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 14,
+            "triples_added": 14,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "The Guthrie Theater",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a7a70b355429941d65f2647",
+      "question": "Who was born later, Jerry Garcia or Joe Gooch?",
+      "gold_answer": "Joe Gooch",
+      "predicted_answer": "Jerry Garcia",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 22,
+            "triples_added": 22,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Unknown",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a87bada5542994846c1cddc",
+      "question": "In which city are the headquarters of the American research and scientific development company where Ravi Sethi worked as computer scientist located?",
+      "gold_answer": "Murray Hill",
+      "predicted_answer": "Given all",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 2,
+            "triples_added": 2,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 21,
+            "triples_added": 21,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Murray Hill, New Jersey",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5abaad5855429901930fa88f",
+      "question": "How many more singles titles did Kim Warwick win than Jorge Lozano?",
+      "gold_answer": "three singles titles",
+      "predicted_answer": "three singles titles",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "three singles titles",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "question": "When was the host of \"British Academy Television Awards 2009\" born? ",
+      "gold_answer": "4 April 1963",
+      "predicted_answer": "ERROR",
+      "exact_match": false,
+      "fuzzy_match": false,
+      "chain_complete": false,
+      "error": "Source Academy Television Awards is not in G"
+    },
+    {
+      "qid": "5a7ce100554299683c1c63b5",
+      "question": "Who is younger, Terry Glaze or Hayley Williams?",
+      "gold_answer": "Hayley Williams",
+      "predicted_answer": "Hayley Williams",
+      "exact_match": true,
+      "fuzzy_match": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 6,
+            "triples_added": 6,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Hayley Williams",
+          "selected": true
+        }
+      ]
+    }
+  ]
+}

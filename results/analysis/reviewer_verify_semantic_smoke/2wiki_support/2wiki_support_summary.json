@@ -1,0 +1,107 @@
+{
+  "n": 500,
+  "evidencefirst_reader_full": {
+    "em": 0.69,
+    "f1": 0.7581,
+    "support_title_recall": 1.0,
+    "evidence_entity_coverage": 0.9468
+  },
+  "naive_bm25_top5_input": {
+    "support_title_recall": 0.602,
+    "evidence_entity_coverage": 0.6685
+  },
+  "arag_actual_read_input": {
+    "support_title_recall": 0.2955,
+    "evidence_entity_coverage": 0.3326
+  },
+  "arag_keyword_search_found_upper_bound": {
+    "support_title_recall": 0.5885,
+    "evidence_entity_coverage": 0.6085
+  },
+  "by_chain_complete": [
+    {
+      "chain_complete": "False",
+      "n": 261,
+      "em": 0.6782,
+      "f1": 0.749,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9522
+    },
+    {
+      "chain_complete": "True",
+      "n": 239,
+      "em": 0.7029,
+      "f1": 0.7681,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9408
+    }
+  ],
+  "by_gap_type": [
+    {
+      "gap_type": "complete",
+      "n": 239,
+      "em": 0.7029,
+      "f1": 0.7681,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9408
+    },
+    {
+      "gap_type": "disconnected",
+      "n": 11,
+      "em": 0.4545,
+      "f1": 0.5351,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 1.0
+    },
+    {
+      "gap_type": "missing_entities",
+      "n": 217,
+      "em": 0.6959,
+      "f1": 0.7667,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9467
+    },
+    {
+      "gap_type": "short_chain",
+      "n": 33,
+      "em": 0.6364,
+      "f1": 0.7035,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9729
+    }
+  ],
+  "by_type": [
+    {
+      "type": "bridge_comparison",
+      "n": 112,
+      "em": 0.9375,
+      "f1": 0.9375,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9361
+    },
+    {
+      "type": "comparison",
+      "n": 119,
+      "em": 0.958,
+      "f1": 0.9652,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.8917
+    },
+    {
+      "type": "compositional",
+      "n": 218,
+      "em": 0.4541,
+      "f1": 0.5626,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9851
+    },
+    {
+      "type": "inference",
+      "n": 51,
+      "em": 0.5294,
+      "f1": 0.7167,
+      "support_title_recall": 1.0,
+      "evidence_entity_coverage": 0.9346
+    }
+  ]
+}

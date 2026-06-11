@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{buneman2001why}
+Buneman, P., Khanna, S., Tan, W.: Why and where: {A} characterization of data
+  provenance. In: Proceedings of the 8th International Conference on Database
+  Theory (ICDT). pp. 316--330 (2001)
+
+\bibitem{chen2024rgb}
+Chen, J., Lin, H., Han, X., Sun, L.: Benchmarking large language models in
+  retrieval-augmented generation. In: Proceedings of AAAI. vol.~38, pp.
+  17754--17762 (2024)
+
+\bibitem{cheney2009provenance}
+Cheney, J., Chiticariu, L., Tan, W.C.: Provenance in databases: Why, how, and
+  where. Foundations and Trends in Databases  \textbf{1}(4),  379--474 (2009)
+
+\bibitem{arag2026}
+Du, M., Xu, B., Zhu, C., Wang, S., Wang, P., Wang, X., Mao, Z.: {A-RAG}:
+  Scaling agentic retrieval-augmented generation via hierarchical retrieval
+  interfaces. arXiv preprint arXiv:2602.03442  (2026)
+
+\bibitem{edge2024graphrag}
+Edge, D., et~al.: From local to global: {A} graph {RAG} approach to
+  query-focused summarization. arXiv preprint arXiv:2404.16130  (2024)
+
+\bibitem{es2024ragas}
+Es, S., James, J., Anke, L.E., Schockaert, S.: {RAGAS}: Automated evaluation of
+  retrieval augmented generation. In: Proceedings of EACL System
+  Demonstrations. pp. 150--158 (2024)
+
+\bibitem{friel2024ragbench}
+Friel, R., Belyi, M., Sanyal, A.: {RAGBench}: Explainable benchmark for
+  retrieval-augmented generation systems. arXiv preprint arXiv:2407.11005
+  (2024)
+
+\bibitem{gao2023alce}
+Gao, T., Yen, H., Yu, J., Chen, D.: Enabling large language models to generate
+  text with citations. In: Proceedings of EMNLP. pp. 6465--6488 (2023)
+
+\bibitem{guo2024lightrag}
+Guo, Z., Xia, L., Yu, Y., Ao, T., Huang, C.: {LightRAG}: Simple and fast
+  retrieval-augmented generation. arXiv preprint arXiv:2410.05779  (2024)
+
+\bibitem{gutierrez2024hipporag}
+Guti{\'e}rrez, B.J., Shu, Y., Gu, Y., Yasunaga, M., Su, Y.: {HippoRAG}:
+  Neurobiologically inspired long-term memory for large language models. In:
+  Advances in Neural Information Processing Systems (NeurIPS) (2024)
+
+\bibitem{han2025graphragsurvey}
+Han, H., Wang, Y., Shomer, H., Guo, K., Ding, J., Lei, Y., Halappanavar, M.,
+  Rossi, R.A., Mukherjee, S., Tang, X., et~al.: Retrieval-augmented generation
+  with graphs ({GraphRAG}). arXiv preprint arXiv:2501.00309  (2025)
+
+\bibitem{ho2020constructing}
+Ho, X., Nguyen, A.D., Sugawara, S., Aizawa, A.: Constructing {A} multi-hop {QA}
+  dataset for comprehensive evaluation of reasoning steps. In: Proceedings of
+  COLING. pp. 6609--6625 (2020)
+
+\bibitem{lewis2020rag}
+Lewis, P., et~al.: Retrieval-augmented generation for knowledge-intensive {NLP}
+  tasks. In: Advances in Neural Information Processing Systems (NeurIPS). pp.
+  9459--9474 (2020)
+
+\bibitem{s2grag2026}
+Li, M., Zou, J., Lv, X., Zhang, C., Zhou, G.: {S2G-RAG}: Structured sufficiency
+  and gap judging for iterative retrieval-augmented {QA}. arXiv preprint
+  arXiv:2604.23783  (2026), accepted to ACL 2026 Main Conference
+
+\bibitem{li2024structrag}
+Li, Z., et~al.: {StructRAG}: Boosting knowledge intensive reasoning of {LLM}s
+  via inference-time hybrid information structurization. arXiv preprint
+  arXiv:2410.08815  (2024)
+
+\bibitem{yu2025hoprag}
+Liu, H., Wang, Z., Chen, X., Li, Z., Xiong, F., Yu, Q., Zhang, W.: {HopRAG}:
+  Multi-hop reasoning for logic-aware retrieval-augmented generation. arXiv
+  preprint arXiv:2502.12442  (2025)
+
+\bibitem{mohan1992aries}
+Mohan, C., Haderle, D., Lindsay, B., Pirahesh, H., Schwarz, P.: {ARIES}: {A}
+  transaction recovery method supporting fine-granularity locking and partial
+  rollbacks using write-ahead logging. ACM Transactions on Database Systems
+  \textbf{17}(1),  94--162 (1992)
+
+\bibitem{rashkin2023attribution}
+Rashkin, H., et~al.: Measuring attribution in natural language generation
+  models. Computational Linguistics  \textbf{49}(4),  777--840 (2023)
+
+\bibitem{ru2024ragchecker}
+Ru, D., et~al.: {RAGChecker}: {A} fine-grained framework for diagnosing
+  retrieval-augmented generation. arXiv preprint arXiv:2408.08067  (2024)
+
+\bibitem{saadfalcon2024ares}
+Saad{-}Falcon, J., Khattab, O., Potts, C., Zaharia, M.: {ARES}: An automated
+  evaluation framework for retrieval-augmented generation systems. In:
+  Proceedings of NAACL. pp. 338--354 (2024)
+
+\bibitem{sarthi2024raptor}
+Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., Manning, C.D.:
+  {RAPTOR}: Recursive abstractive processing for tree-organized retrieval. In:
+  International Conference on Learning Representations (ICLR) (2024)
+
+\bibitem{sigelman2010dapper}
+Sigelman, B.H., et~al.: Dapper, a large-scale distributed systems tracing
+  infrastructure. Tech. rep., Google, Inc. (2010)
+
+\bibitem{trivedi2022ircot}
+Trivedi, H., Balasubramanian, N., Khot, T., Sabharwal, A.: Interleaving
+  retrieval with chain-of-thought reasoning for knowledge-intensive multi-step
+  questions. In: Proceedings of ACL. pp. 10014--10037 (2023)
+
+\bibitem{wallat2024faithfulness}
+Wallat, J., Heuss, M., de~Rijke, M., Anand, A.: Correctness is not faithfulness
+  in {RAG} attributions. arXiv preprint arXiv:2412.18004  (2024)
+
+\bibitem{yang2018hotpotqa}
+Yang, Z., et~al.: {HotpotQA}: {A} dataset for diverse, explainable multi-hop
+  question answering. In: Proceedings of EMNLP. pp. 2369--2380 (2018)
+
+\end{thebibliography}

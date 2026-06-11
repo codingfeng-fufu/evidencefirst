@@ -1,0 +1,807 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "But Robert",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 6,
+      "input_tokens": 7006,
+      "output_tokens": 2123,
+      "total_tokens": 9129,
+      "wall_time": 74.5566,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "award",
+      "evidence_aug_passages": [
+        "Ted Kooshian: Ted Kooshian (born October 8, 1961) is an American jazz pianist, keyboardist, and composer, who has performed with Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, Il Divo, and Blood, Sweat, and Tears. Kooshian has played in many Broadway pit orchestras, and has been a member of the Ed Palermo Big Band since 1994. Originally from San Jose, California, Kooshian has been performing since the 1980s.",
+        "Robert Lopez: Robert Lopez (born February 23, 1975) is an American songwriter of musicals, best known for co-creating \"The Book of Mormon\" and \"Avenue Q\", and for composing the songs featured in the Disney animated film \"Frozen\". He is the youngest of only twelve people who have won an Emmy, a Grammy, an Oscar and a Tony Award, and the quickest (10 years) to win all four.",
+        "The Human Centipede 2 (Full Sequence): The Human Centipede 2 (Full Sequence) is a 2011 Dutch black and white exploitation-horror film written, directed, and co-produced by Dutch filmmaker Tom Six. The sequel to Six's 2009 film \"The Human Centipede (First Sequence)\", the film stars Laurence R. Harvey as a mentally impaired English man who watches and becomes obsessed with the first \"Human Centipede\" film, and decides to make his own \"centipede\" consisting of twelve people, including Ashlynn Yennie, an actress from the first film.",
+        "Castelldefels train accident: The Castelldefels train accident occurred on 23 June 2010 when a passenger train struck a group of people who were crossing the railway on the level at Platja de Castelldefels station to the southwest of Barcelona, in Catalonia, Spain. Twelve people were killed, and fourteen injured: all victims but one Romanian were of Latin American origin, with a majority from Ecuador.",
+        "Brezno train accident: The Brezno train accident was a train accident which occurred close to Brezno, Slovakia, on 21 February 2009, when a train collided with a tourist coach on a level crossing. Twelve people were killed and at least twenty people were injured in the crash. All of the deaths and injuries occurred on the bus, which was pushed for tens of metres by the derailed train. The crash scene is near the popular ski resort of Polomka Bucnik, where the tourists were headed. The crash led to the third national day of mourning in Slovakia's history.",
+        "People's jury: A people's jury, or citizen's jury, is an institution used by a democratically elected body to resolve a divisive issue, in order to reach a consensus. An example, which occurred in Oxfordshire in the late 1990s, was the use of a people's jury to resolve where to site a waste recycling plant. A group of twelve people was selected as though they were going to belong to a legal jury. They were then taken on a guided tour of the county and introduced to experts in various fields. After they had been given the opportunity to perform sufficient research, they were asked to choose the site to use.",
+        "Duodecet: In music, a duodecet—sometimes duodectet, or duodecimette—is a composition which requires twelve musicians for a performance, or a musical group that consists of twelve people. In jazz, such a group of twelve players is sometimes called a \"twelvetet\". The corresponding German word is duodezett. The French equivalent form, douzetuor, is virtually unknown (in sharp contrast to \"dixtuor\", the French word for decet). Unlike some other musical ensembles such as the string quartet, there is no established or standard set of instruments in a duodecet.",
+        "2003 Marriott Hotel bombing: The 2003 Marriott Hotel bombing occurred on 5 August 2003 in Mega Kuningan, South Jakarta, Indonesia. A suicide bomber detonated a car bomb outside the lobby of the JW Marriott Hotel, killing twelve people and injuring 150. Those killed were mostly Indonesian, with the exception of one Dutch man. The hotel was viewed as a Western symbol, and had been used by the United States embassy for various events. The hotel was closed for five weeks and reopened to the public on 8 September."
+      ],
+      "evidence_aug_candidates": [
+        "But Robert",
+        "EGOT",
+        "Oscar and a Tony Award"
+      ]
+    },
+    "score": 0.35,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "What award has been won by only twelve people?"
+        ],
+        "n_triples": 41,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "award",
+          "n_passages": 8,
+          "n_candidates": 2,
+          "candidates": [
+            "EGOT",
+            "Oscar and a Tony Award"
+          ]
+        },
+        "answer": "But Robert",
+        "score": 0.35,
+        "feedback": "Missing: The award won by only twelve people is the EGOT (Emmy, Grammy, Oscar, Tony), and Robert Lopez — who has won it — is the man Ted Kooshian has performed with. However, no knowledge triple or retrieved passage states that Ted Kooshian has performed with Robert Lopez. All listed collaborators (Chuck Berry, Aretha Franklin, etc.) are distinct from Robert Lopez, and no evidence links Kooshian to Lopez. Suggested retrieval: 'Has Ted Kooshian performed with Robert Lopez?' or 'Did Ted Kooshian collaborate with Robert Lopez on any Broadway show, film soundtrack, or live performance?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "What award has been won by only twelve people?",
+          "Has Ted Kooshian performed with Robert Lopez?",
+          "Did Ted Kooshian collaborate with Robert Lopez on any Broadway show, film soundtrack, or live performance?"
+        ],
+        "n_triples": 42,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "award",
+          "n_passages": 8,
+          "n_candidates": 3,
+          "candidates": [
+            "But Robert",
+            "EGOT",
+            "Oscar and a Tony Award"
+          ]
+        },
+        "answer": "the award",
+        "score": 0.48,
+        "feedback": "Missing: The specific award name — the 'Emmy, Grammy, Oscar, and Tony Award' (EGOT). The candidate answer 'the award' is vague and fails to name the EGOT, which is explicitly stated in passage [2] as the award won by only twelve people, and Robert Lopez — who is linked *indirectly* to Ted Kooshian via shared collaborators (e.g., both have worked with Broadway/musical theater ecosystems) — is confirmed to have won it. However, no triple or passage states that Ted Kooshian has performed *with Robert Lopez*, breaking the required 'has performed with' link. The knowledge graph lists Kooshian’s collaborators (Aretha Franklin, Chuck Berry, etc.), but *not Robert Lopez*. Thus, the critical bridging fact — 'Ted Kooshian has performed with Robert Lopez' — is absent. Suggested retrieval: 'Has Ted Kooshian performed with Robert Lopez?'; 'Did Ted Kooshian work on Avenue Q, The Book of Mormon, or Frozen-related productions?'"
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "In 2002, Suining had a population of 658,798",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 3,
+      "input_tokens": 1856,
+      "output_tokens": 287,
+      "total_tokens": 2143,
+      "wall_time": 7.5806,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "disjunctive_fact",
+      "evidence_aug_passages": [
+        "Suining: Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China. In 2002, Suining had a population of 658,798.",
+        "Daying County: Daying County () is a county of Sichuan province, China, under the administration of Suining City and in the central part of the Sichuan Basin. In 2002, it had a population of 520,000 residing in an area of 703 km2 . Daying is remarkable for being the home of the \"Chinese Dead Sea\", a tourist attraction that is based on a salt lake with 9 times the salinity of the ocean and which constitutes the largest indoor water park in China. The G42 Shanghai–Chengdu Expressway and Dazhou–Chengdu Railway (达成铁路) traverses east–west through the entire length of the county."
+      ],
+      "evidence_aug_candidates": [
+        "Qionghai",
+        "Suining",
+        "In 2002, Suining had a population of 658,798",
+        "In 2002, it had a population of 520,000 residing in an area of 703 km2",
+        "Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China",
+        "The G42 Shanghai–Chengdu Expressway and Dazhou–Chengdu Railway (达成铁路) traverses east–west through the entire length of the county"
+      ]
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What was the population of Qionghai in 2002?",
+          "What was the population of Suining in 2002?"
+        ],
+        "n_triples": 17,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "disjunctive_fact",
+          "n_passages": 2,
+          "n_candidates": 6,
+          "candidates": [
+            "Qionghai",
+            "Suining",
+            "In 2002, Suining had a population of 658,798",
+            "In 2002, it had a population of 520,000 residing in an area of 703 km2",
+            "Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China",
+            "The G42 Shanghai–Chengdu Expressway and Dazhou–Chengdu Railway (达成铁路) traverses east–west through the entire length of the county"
+          ]
+        },
+        "answer": "In 2002, Suining had a population of 658,798",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: population of Qionghai in 2002. Suggested retrieval: 'What was the population of Qionghai in 2002?'"
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 3,
+      "input_tokens": 4660,
+      "output_tokens": 605,
+      "total_tokens": 5265,
+      "wall_time": 15.4666,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "common",
+      "evidence_aug_passages": [
+        "Saddle Rock Elementary School: Saddle Rock Elementary School or simply \"Saddle Rock\" is an elementary school, comprising grades Kindergarten through 5. It is a public school located in Great Neck, New York, USA as part of the Great Neck School District. The school has been recognized by the Blue Ribbon Schools Program.",
+        "Charleston Community Unit School District 1: Charleston Community Unit School District 1 is a unified school district based in Charleston, the county seat of Coles County, Illinois; it was created through the consolidation of the charter school district it was formed from and over sixty-seven other school districts in the area. Charleston Community Unit School District 1 is a conglomerate of six schools, with all but one located in Charleston itself: four elementary schools, one middle school, and one high school form the makeup of the district. Education begins at a prekindergarten level, and those living in the Charleston area attend Mark Twain Elementary School, which prepares early youth for schooling by taking them through prekindergarten and kindergarten under the supervision of principal Terry Diss. Students who live in the far east reaches of Coles County may attend Ashmore Elementary School, which is based in a northeasterly village by the same name; Ashmore's distance from the other schools permits it to educate a larger range of students for the sake of efficiency. The school educates students from kindergarten through grade four, and also runs a prekindergarten program. Ashmore is also governed by Terry Diss. Students who graduate from Mark Twain move onwards to Carl Sandburg Elementary School, which educates those in grades one, two, and three under principal Chad Burgett. At Jefferson Elementary School in Charleston, the student bodies from both Carl Sandburg Elementary School and Ashmore Elementary School are consolidated. Students from grades four through six are taught in the facility under the supervision of principal Deborah Poffinbarger. District students graduating from Jefferson are moved to Charleston Middle School, where they are taught as seventh and eighth graders; the school principal here is Sandy Wilson. The last branch of education that Charleston's school district can provide is the education of adolescents in the grades nine through twelve at Charleston High School, which is run by principal Trevor Doughty. The superintendent of the schools in the district as of the 2007-08 school year was Dr. William Hill, although is considered as an interim;lastly, the mascots of the district and its middle and high schools are the Trojans, while the mascot of Jefferson Elementary School is the bulldog.",
+        "West Harvey-Dixmoor Public School District 147: West Harvey-Dixmoor Public School District 147 is an elementary school district based in the southern suburban Chicago city of Harvey, Cook County, Illinois. The district is composed of four schools: three are elementary schools and one is a middle school, where all schools are located in the adjacent village of Dixmoor with the exception of one elementary school located in Harvey. District students in living in Harvey that are in prekindergarten, kindergarten, or grades one through five attend Washington Elementary School which is directed by the principal, Dr. Earnest Taylor. Students of the same grades living in Dixmoor attend either Lincoln Elementary School or King Elementary School. The principals of the schools are, respectively, Dr. Gregory Jackson and Sandra Wells. All elementary schools feed into Rosa L. Parks Middle School, which is headed by principal Abigail Phillips. The school district's superintendent is Dr. Alex Boyd, Jr.",
+        "Jasper County Community Unit School District 1: Jasper County Community Unit School District 1 is a unified school district based in Jasper County's county seat of Newton, Illinois; it is the only school district in the county and is, consequently, the main educational body in all of Jasper County, although it serves portions of Effingham County and Cumberland County as well. This school district is composed of six schools in total; four elementary schools, one junior high school, and one high school. There is also a prekindergarten program run at the high school of the district should parents wish to enroll their children early. Willow Hill Elementary School, which is located in the village of its namesake, serves only kindergarteners; its proximity to the county seat and central position in the county allows its students to dawn from all parts of the county and still have easy access to the elementary school they will attend. The principal of Willow Hill is Dave Parker. Grove Elementary School is located in Island Grove, Illinois, the highest point of elevation in the county. Grove Elementary School educates students from kindergarten to grade six, and it runs a prekindergarten program as well. Craig Carr is the principal of this school. Ste. Marie Elementary School is located in the southern Jasper County village of Ste. Marie, and serves students in grades one through six. The principal of Ste. Marie is David Parker, the principal of Willow Hill Elementary School. Newton Elementary School is located in the county seat of Newton, and serves most of west Jasper County's first through sixth graders under principal Travis Wyatt. The latter three elementary schools feed into Jasper County Junior High School and are taught in the facility during seventh and eighth grade while being supervised by Newton Elementary School principal Travis Wyatt before graduating into Newton Community High School. Students in grades nine through twelve spend their last leg of precollegiate education at this school; their principal is Ruth Kerner. The district superintendent is Ron Alburtus, and the district's mascot is the eagle.",
+        "North Boone Community Unit School District 200: North Boone Community Unit School District 200 is a unified school district based in the central region of the county of its namesake, Boone County; more specifically, in the village of Poplar Grove, Illinois. Five of the six schools in the district are located here, with the other being eastwards in the village of Capron. The community unit school district is composed of, as previously mentioned, six schools: there are three elementary schools, two middle schools, and one high school. Manchester Elementary School, which serves the grades K-4 alongside Poplar Grove Elementary School, is governed by Principal Kristi Crawford; the principal of Poplar Grove Elementary School is Sharon Olds. Capron Elementary School, the only school in the district located in a village other than Poplar Grove, serves not only the grades K-4, but also includes a prekindergarten program. The current principal is Matt Klett. All students who graduate from one of the district elementary schools will consolidate at the fifth grade in one school, called North Boone Upper Elementary School, whose principal is Mike Greenlee;all",
+        "Zion",
+        "Villa"
+      ],
+      "evidence_aug_candidates": [
+        "Great Neck",
+        "Charleston",
+        "Charleston itself",
+        "Harvey",
+        "Dixmoor with the exception of one elementary school located in Harvey",
+        "Jasper County's county seat of Newton",
+        "Island Grove",
+        "Ste",
+        "Poplar Grove",
+        "Capron",
+        "Burbank",
+        "Saddle Rock Elementary School or simply \"Saddle Rock",
+        "Saddle Rock Elementary School",
+        "Saddle Rock",
+        "New York",
+        "Great Neck School District.  The",
+        "Blue Ribbon Schools Program",
+        "Charleston Community Unit School District 1",
+        "Charleston Community Unit School District",
+        "Coles County",
+        "Mark Twain Elementary School",
+        "Terry Diss.  Students",
+        "Ashmore Elementary School",
+        "Mark Twain"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the location of Great Neck School District?",
+          "What is the location of Saddle Rock Elementary School?"
+        ],
+        "n_triples": 35,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "common",
+          "n_passages": 7,
+          "n_candidates": 24,
+          "candidates": [
+            "Great Neck",
+            "Charleston",
+            "Charleston itself",
+            "Harvey",
+            "Dixmoor with the exception of one elementary school located in Harvey",
+            "Jasper County's county seat of Newton",
+            "Island Grove",
+            "Ste",
+            "Poplar Grove",
+            "Capron",
+            "Burbank",
+            "Saddle Rock Elementary School or simply \"Saddle Rock",
+            "Saddle Rock Elementary School",
+            "Saddle Rock",
+            "New York",
+            "Great Neck School District.  The",
+            "Blue Ribbon Schools Program",
+            "Charleston Community Unit School District 1",
+            "Charleston Community Unit School District",
+            "Coles County",
+            "Mark Twain Elementary School",
+            "Terry Diss.  Students",
+            "Ashmore Elementary School",
+            "Mark Twain"
+          ]
+        },
+        "answer": "Great Neck",
+        "score": 1.0,
+        "feedback": "Missing: None — 'Great Neck' is explicitly stated in both the triple 'Saddle Rock Elementary School -- is located in --> Great Neck, New York, USA' and 'Great Neck School District -- includes --> [schools]' (with contextual grounding that the district serves the Great Neck area), and the retrieved passage [1] confirms Saddle Rock Elementary School is 'located in Great Neck, New York, USA as part of the Great Neck School District'. The question asks for a shared location, and 'Great Neck' (as a geographic region/village) is unambiguously the correct, minimally specific, and factually supported answer. No further disambiguation (e.g., 'village of Great Neck' vs. 'Greater Great Neck') is required, as all evidence treats 'Great Neck' as the co-located entity for both the district and the school."
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 6,
+      "input_tokens": 9349,
+      "output_tokens": 1782,
+      "total_tokens": 11131,
+      "wall_time": 44.2181,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "person",
+      "evidence_aug_passages": [
+        "Barry Andrews (musician): Barry Andrews (born 12 September 1956, West Norwood, London) is a vocalist and keyboardist. He is a former member of the bands XTC and League of Gentlemen with Robert Fripp, and was co-founder of Shriekback. He has collaborated with Brian Eno on several projects, most recently guesting on keyboards for the 2005 album \"Another Day On Earth\". Andrews also played on the 1980 Iggy Pop album \"Soldier\" with David Bowie, Ivan Kral, Glen Matlock and Klaus Kruger.",
+        "Tha Trademarc: Marc Predka (born April 21, 1975) better known by his stage name Tha Trademarc, is an American hip hop artist. He first came to prominence when he and his first cousin, WWE wrestler John Cena, collaborated on the 2005 album \"You Can't See Me\", including Cena's entrance theme \"The Time Is Now\". He also appeared in the music videos of the songs, \"Bad Bad Man\" and \"Right Now\" with Cena. Prior to the album, Trademarc appeared on Cena's first WWE DVD \"Word Life\". He now works as a classroom specialist for the Peace Corps of America.",
+        "Spiritual Unity (Marc Ribot album): Spiritual Unity is a 2005 album by Marc Ribot released on Pi Recordings. The album features compositions by Albert Ayler who Ribot identifies as a significant influence. It was recorded at Orange Music Sound Studio, West Orange, New Jersey on October 28, 2004, except \"Bells\", which was recorded live at Tonic in New York City on October 27, 2004.",
+        "Painkiller (Freestylers song): \"Painkiller\" is a 2006 single by Freestylers featuring Pendulum and SirReal. It was released to promote the release of Freestylers' album \"Adventures in Freestyle\". Pendulum had previously collaborated with Freestylers for the track \"Fasten Your Seatbelt\", which was released as a single and appeared on the former's 2005 album, \"Hold Your Colour\". The single was released on 12\" vinyl and on CD, with a second remix single being released on 12\" vinyl.",
+        "Duality (Ra album): Duality is a 2005 album from the band Ra. The style from this album has noticeably changed since Ra's debut album of \"From One\". The album boasts a hard rock and melodic vibe whereas their first album had more of a nu metal feel. The middle-eastern influences in the CD are still present, but are noticeably pushed back. Akin to their former album, \"Duality\" only claimed one single which was the song \"Fallen Angels\", a song that was inspired by the Kevin Smith film Dogma. The tenth track \"Got Me Going\" was played on the radio in the background of the movie \"Hot Rod\". Janel Elizabeth has a cover of the song \"Swimming Upstream\" streamed on her Myspace.",
+        "Hoppípolla: \"Hoppípolla\" (] , \"Hopp í polla\" is Icelandic for \"Hopping into puddles\") is a song by Icelandic band Sigur Rós from their 2005 album \"Takk...\". It was released as the album's second single on 28 November 2005. The lyrics are mainly in Icelandic, with some nonsensical phrases, a \"language\" the band calls Vonlenska (\"Hopelandic\"). Written with spaces, the song's title would be \"Hoppa í polla\" (the \"—a\" in \"hoppa\" is not pronounced). As with many of the band's songs, it was given a nickname in the early stages of writing. \"Hoppípolla\" was \"The Money Song\", as the band was certain they had written a song which would have commercial success. It is the band's most successful single, charting at #24 on the UK Singles Chart in May 2006. It is considered the most well known song within its genre. The single also features \"Með blóðnasir\", an instrumental coda to \"Hoppípolla\", which is also featured on \"Takk...\"; and a studio remake of \"Hafssól\", a song previously released on the band's 1997 debut album, \"Von\". The title appears as \"Hafsól\" on the single.",
+        "Can We Talk: \"Can We Talk\" is a song recorded by American R&B singer Tevin Campbell and composed and produced by Babyface. It was the first single to be released from his double platinum second release \"I'm Ready\". The song hit top ten on the pop charts peaking at number nine on the \"Billboard\" Hot 100 and spent a total of three weeks at number one on the US R&B chart. It sold 500,000 copies and earned a gold certification from the Recording Industry Association of America. The song was also Nominated for a Grammy Award for Best Rhythm & Blues Vocal Performance - Male. It was also nominated and later won the Soul Train Music Award for Best R&B/Soul Single - Male (\"Can We Talk\"). Cover versions of the hit song have been done by The Whispers, Sanchez, and Kirk Whalum (on his 2005 album \"Kirk Whalum Performs the Babyface Songbook\"). The song was later covered by British boyband Code Red in 1996, for their debut album \"Scarlet\" and was released as the album's lead single becoming a modest hit and reaching #1 in Asia. The song has also been covered by a Japanese/Korean singer during June 2008. The song became the opening theme to the 2012 sitcom \"1600 Penn\". The song was sampled in hip hop duo Luniz's song \"Playa Hata\" from their debut album \"Operation Stackola\". The song was sung by 19-year-old Victor Sulfa during the semi-finals on season 3 of \"New Zealand Idol\" as well as Nikko Smith during the Top 10 round on season 4 of \"American Idol\". The song has been featured on at least two different compilation albums including Disc 14 of \"Classic Soul Ballads\" entitled \"Tender Love\" and Volume 6 of MTV's \"Party to Go\" compilation albums series entitled \"MTV Party to Go 6\".",
+        "L'Heure d'été (album): L'Heure d'été is a 2005 album recorded by French artist Marc Lavoine. It was his ninth studio album and his 12th album overall. Released on May 23, 2005, it was successful in the francophone countries."
+      ],
+      "evidence_aug_candidates": [
+        "WWE wrestler",
+        "Barry Andrews",
+        "West Norwood",
+        "Robert Fripp",
+        "Brian Eno",
+        "Another Day On Earth",
+        "Iggy Pop",
+        "David Bowie",
+        "Ivan Kral",
+        "Glen Matlock",
+        "Klaus Kruger",
+        "Marc Predka",
+        "Tha Trademarc",
+        "John Cena",
+        "You Can't See Me",
+        "The Time Is Now",
+        "Bad Bad Man"
+      ]
+    },
+    "score": 0.41000000000000003,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who collaborated with Marc Predka on a 2005 album?",
+          "What song did that person write on that 2005 album?",
+          "What was the profession of that person?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 16,
+          "candidates": [
+            "Barry Andrews",
+            "West Norwood",
+            "Robert Fripp",
+            "Brian Eno",
+            "Another Day On Earth",
+            "Iggy Pop",
+            "David Bowie",
+            "Ivan Kral",
+            "Glen Matlock",
+            "Klaus Kruger",
+            "Marc Predka",
+            "Tha Trademarc",
+            "John Cena",
+            "You Can't See Me",
+            "The Time Is Now",
+            "Bad Bad Man"
+          ]
+        },
+        "answer": "WWE wrestler",
+        "score": 0.41000000000000003,
+        "feedback": "Missing: The identity of the person who wrote a song on a 2005 album he collaborated on with Marc Predka (a.k.a. Tha Trademarc). The retrieved passages confirm Marc Predka is Tha Trademarc and that he collaborated with WWE wrestler John Cena on the 2005 album 'You Can't See Me', but the question asks for the *profession of the one who wrote a song* on that album — i.e., John Cena’s profession. While passage [2] states Cena is a 'WWE wrestler', it does not explicitly state he *wrote* a song on that album; it only says they 'collaborated' and that Cena's entrance theme 'The Time Is Now' is on it. Crucially, no evidence confirms Cena wrote any song on the album — he is credited as performer/artist, not songwriter. The candidate answer 'WWE wrestler' is factually correct as Cena’s profession, but the question hinges on authorship ('wrote a song'), and no triple or passage verifies Cena was a songwriter on that album. Suggested retrieval: 'Who wrote the songs on John Cena and Tha Trademarc's 2005 album \"You Can't See Me\"?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who collaborated with Marc Predka (a.k.a. Tha Trademarc) on a 2005 album?",
+          "What is the title of the 2005 album Marc Predka collaborated on with John Cena?",
+          "Who wrote the songs on the 2005 album 'You Can't See Me' by John Cena and Tha Trademarc?",
+          "What was the profession of the person who wrote a song on the 2005 album 'You Can't See Me'?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 17,
+          "candidates": [
+            "WWE wrestler",
+            "Barry Andrews",
+            "West Norwood",
+            "Robert Fripp",
+            "Brian Eno",
+            "Another Day On Earth",
+            "Iggy Pop",
+            "David Bowie",
+            "Ivan Kral",
+            "Glen Matlock",
+            "Klaus Kruger",
+            "Marc Predka",
+            "Tha Trademarc",
+            "John Cena",
+            "You Can't See Me",
+            "The Time Is Now",
+            "Bad Bad Man"
+          ]
+        },
+        "answer": "WWE wrestler",
+        "score": 0.41000000000000003,
+        "feedback": "Missing: The identity of the person who wrote a song on a 2005 album he collaborated on with Marc Predka. The retrieved passages confirm Marc Predka is Tha Trademarc (hip hop artist), and that he collaborated with WWE wrestler John Cena on the 2005 album 'You Can't See Me' — but the question asks for the profession of *the one who wrote a song* on that album, not Predka himself. The songwriter credited for 'The Time Is Now' (Cena's entrance theme on that album) is Jim Johnston, a WWE composer. No triples or passages mention Johnston or his profession. Suggested retrieval: 'Who composed \"The Time Is Now\" from John Cena's 2005 album \"You Can't See Me\"?'"
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 3,
+      "input_tokens": 3567,
+      "output_tokens": 423,
+      "total_tokens": 3990,
+      "wall_time": 11.0266,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "location",
+      "evidence_aug_passages": [
+        "Aulacodes peribocalis: Aulacodes peribocalis is a moth in the Crambidae family. It was described by Walker in 1859. It is found in Yemen and India.",
+        "Yemen: Yemen ( ; Arabic: اليَمَن‎ ‎ \"al-Yaman \"), officially known as the Republic of Yemen (الجمهورية اليمنية \"al-Jumhūrīyah al-Yamanīyah \"), is an Arab country in Western Asia at the southern end of the Arabian Peninsula. Yemen is the second-largest country in the peninsula, occupying 527,970 km (203,850 sq mi). The coastline stretches for about 2,000 km (1,200 mi). It is bordered by Saudi Arabia to the north, the Red Sea to the west, the Gulf of Aden and Arabian Sea to the south, and Oman to the east-northeast. Although Yemen's constitutionally stated capital is the city of Sana'a, the city has been under rebel control since February 2015. Because of this, Yemen's capital has been temporarily relocated to the port city of Aden, on the southern coast. Yemen's territory includes more than 200 islands; the largest of these is Socotra.",
+        "Aulacodes templalis: Aulacodes templalis is a moth in the Crambidae family. It was described by Schaus in 1906. It is found in Brazil.",
+        "Aulacodes traversalis: Aulacodes traversalis is a moth in the Crambidae family. It was described by Harrison Gray Dyar Jr. in 1914. It is found in Panama.",
+        "Amka: Amka (Hebrew: עַמְקָה‎ ), also known in Arabic as Amqa (Arabic: عمقا‎ ‎ ), is a moshav in the Matte Asher Regional Council of Israel's Northern District, near Acre. The location of the moshav roughly corresponds the former Arab village, depopulated during the 1948 Arab–Israeli War. Yemenite Jews, who arrived from the southern Arab country of Yemen, founded the village's successor Amka in 1949. In 2016 its population was 706 .",
+        "Tunisian UAVs: The TAT Nasnas is an unmanned aerial vehicle (UAV). Tunisia was the first Arab country to develop this industry in 1997. In 2003, it was joined by the United Arab Emirates. The UAVs are constructed and designed in Tunisia. They are produced by the Tunisia Aero Technologies company (TAT). The flight of the first Tunisian drone, \"TAT Aoussou\", took place in October 1997. It served primarily as an aerial target for anti-aircraft units. It was designed and built in eight months. The first flight of the prototype \"TAT Nasnas\" (or anasnas) took place in August 1998. It was designed and built in six months.",
+        "Media of Lebanon: Lebanon is not only a regional center of media production but also the most liberal and free in the Arab world. According to Press freedom's Reporters Without Borders, \"the media have more freedom in Lebanon than in any other Arab country\". Despite its small population and geographic size, Lebanon plays an influential role in the production of information in the Arab world and is \"at the core of a regional media network with global implications\".",
+        "American-Arab Anti-Discrimination Committee: The American-Arab Anti-Discrimination Committee (ADC) states that it is \"the largest Arab American grassroots civil rights organization in the United States.\" According to its webpage it is open to people of all backgrounds, faiths and ethnicities and has a national network of chapters and members in all 50 states. It claims that three million Americans trace their roots to an Arab country. The ADC seeks to “empower Arab Americans, defend the civil rights of all people, promote Arab cultural heritage, promote civic participation, encourage a balanced US policy in the Middle East and support freedom and development in the Arab World.” ADC has a number of programs to combat discrimination and bias against Arab-Americans, including stereotypes of Arabs and Muslims. The ADC is a member of the Leadership Conference on Civil Rights (LCCR) and has a seat on its executive committee."
+      ],
+      "evidence_aug_candidates": [
+        "Sana'a",
+        "Aden",
+        "Yemen"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "In which Arab country is the Aulacodes peribocalis moth found?",
+          "What is the capital of that Arab country?",
+          "To which city was the capital of that Arab country relocated?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "location",
+          "n_passages": 8,
+          "n_candidates": 3,
+          "candidates": [
+            "Sana'a",
+            "Aden",
+            "Yemen"
+          ]
+        },
+        "answer": "Aden",
+        "score": 1.0,
+        "feedback": "Missing: confirmation that Yemen is an Arab country (though strongly implied by 'Arab country in Western Asia' in passage [2] and 'Arab country' in triple 'Yemen's capital -- has been temporarily relocated to --> the port city of Aden'). Suggested retrieval: 'Is Yemen classified as an Arab country?' or 'Yemen -- is a member of --> Arab League'"
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Since no city is named, and no inference is possible",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 3,
+      "input_tokens": 4808,
+      "output_tokens": 920,
+      "total_tokens": 5728,
+      "wall_time": 22.3019,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "location",
+      "evidence_aug_passages": [
+        "Nicole Gordon (badminton): Nicole Gordon (born 17 March 1976 in Lower Hutt, New Zealand) is a female badminton player from New Zealand. At the 2002 Commonwealth Games she won a silver medal with Sara Petersen in the women's doubles, and a bronze medal in the mixed team.",
+        "John Lindsay (Paralympian): John Lindsay, OAM (born 29 January 1970) is an Australian Paralympic athlete from Melbourne. He competed in the 1988 Seoul games in distances ranging from 100 m to 800 m, but did not win any medals. At the 1992 Barcelona Games, he won a gold medal in the Men's 200 m TW3 event, for which he received a Medal of the Order of Australia, a silver medal in the Men's 100 m TW3 event and a bronze medal in the Men's 400 m TW3 event. That year, he had a Victorian Institute of Sport scholarship. He was also working as a fitness instructor in 1992, held world records in the 100 m and 200 m events, and was ranked 6th in the world in the 400 m. He won a gold medal in the men's athletics 100 m T52 event at the 1996 Summer Paralympics with a time of 15.22, a silver medal in the 200 m T52 event with a time of 27.38, and a bronze medal in the 400 m T52 event with a time of 52.93. At the 2000 Sydney Games, he won a gold medal in the Men's 100 m T53 event, a silver medal as part of the Men's 4x100 m Relay T54 team, and a bronze medal in the Men's 200 m T53 event; he was also part of the Men's 4x400 m Relay T54 team, which was the only one to qualify in its heat, but it did not make it to the finals. At the 2004 Athens Games, he came seventh in the first round of the Men's 100 m T53 event and sixth in the third round of the Men's 200 m T53 event. He was an Australian Institute of Sport scholarship holder in 1995 and 2000.",
+        "Du Yue: Du Yue (, born 15 February 1998) is a Chinese female badminton player. In 2014, she won the silver medal at the Asian Junior Championships in the girls' doubles event partnered with Li Yinhui. In 2015, Du and Li won the gold medal at the Asia Junior Championships in the girls' doubles event. In 2016, she won the Asia Junior Championships in the girls' doubles event partnered with Xu Ya and in the mixed doubles event with He Jiting. She also won the gold medal at the World Junior Championships in the mixed doubles event with He Jiting. In 2017, she won the China International Challengge tournament in the women's doubles event partnered with Xu Ya.",
+        "Marion O'Brien: Marion O'Brien is an Australian Paralympic table tennis player and athlete. At the 1964 Tokyo Games, she won a gold medal in the women's doubles C event with Daphne Ceeney, a silver medal in the women's javelin C event, and a bronze medal in the women's singles C event. At the 1968 Tel Aviv Games, she won a silver medal in the women's doubles C event with Elaine Schreiber, and a bronze medal in the women's slalom C event.",
+        "Elaine Schreiber: Elaine Annette Schreiber (4 June 1939 – 11 June 2017) was an Australian Paralympic table tennis player and athlete. She contracted poliomyelitis as a child. At the 1964 Tokyo Games, she won a gold medal in the women's club throw A event, a silver medal in the women's javelin A event, and a bronze medal in the women's singles B event. At the 1968 Tel Aviv Games, she won a silver medal in the women's doubles C event with Marion O'Brien; she also competed but did not win any medals in athletic events at the 1968 games. She participated without winning medals in athletics events at both the 1972 Heidelberg and 1976 Toronto Games, and also participated in table tennis at the latter games.",
+        "Nicole Strausak: Nicole Strausak (born October 21, 1971) is a Swiss curler who retired from competitive curling in March 2005. Amongst other awards, she received a World Junior Silver medal in 1991, a European Silver medal in 1993 and a World Silver medal in 2000. In 1999, at the European Curling Championships in Chamonix, as well as receiving a Bronze medal, she was awarded the Fair Play & Friendly Award by her fellow athletes for her conduct and attitude, on and off the ice.",
+        "Anne Tran: Anne Tran (born 27 April 1996) is a French female badminton player. In 2013, she won French National Badminton Championships in women's doubles event with her partner Delphine Lansac. In the same year, she won silver medal at the European Junior Badminton Championships in mixed team event, then in 2015 she won silver medal in girls' doubles and bronze medal in mixed doubles events.",
+        "Sharon Walraven: Sharon Walraven (born 19 June 1970, Schaesberg) is a Dutch wheelchair tennis player. She became paraplegic at age 23 after complications following a fall while she was ice-skating. She has won seven Grand Slams doubles titles partnering compatriot Esther Vergeer. At the 2008 Paralympics in Beijing she won the Gold medal in the women's doubles competition. At the 2000 Paralympics in Sydney she won a Silver medal in the women's singles competition. Walraven has a highest ranking of No.2 in singles and No.1 in doubles."
+      ],
+      "evidence_aug_candidates": [
+        "Fair Play & Friendly Award"
+      ]
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who won a silver medal with Sara Petersen in the women's doubles?",
+          "At which competition did Nicole Gordon and Sara Petersen win a silver medal in women's doubles?",
+          "In what city was that competition held?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "location",
+          "n_passages": 8,
+          "n_candidates": 1,
+          "candidates": [
+            "Fair Play & Friendly Award"
+          ]
+        },
+        "answer": "Since no city is named, and no inference is possible",
+        "score": 0.7,
+        "feedback": "Missing: the city where the 2002 Commonwealth Games were held. Suggested retrieval: 'Where were the 2002 Commonwealth Games held?'"
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 3,
+      "input_tokens": 4060,
+      "output_tokens": 227,
+      "total_tokens": 4287,
+      "wall_time": 6.4188,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "comparison",
+      "evidence_aug_passages": [
+        "Providence Hospital (Washington, D.C.): Providence Hospital is a 408 bed hospital located in the District of Columbia. Founded in 1861, it is the longest continuously operating hospital in the District. Providence Hospital is a member of Ascension Health, the largest non-profit health care organization in the United States.",
+        "Vassar Brothers Medical Center: Vassar Brother Medical Center (locally known as Vassar Hospital or VBMC) is a major medical facility located in the city of Poughkeepsie, New York that is a member of the Health Quest network, a nonprofit family of hospitals and healthcare centers in the Hudson Valley area. VBMC is one of two major medical centers located in Dutchess County, New York, the other being Mid-Hudson Regional Hospital of Westchester Medical Center. The hospital was first incorporated in 1882 under the name Vassar Brothers Hospital, following contributions made by John Guy Vassar following the death of his brother. The hospital opened its doors in 1887, and initially had 40 beds divided up into four wards, each containing ten beds. At the time the hospital opened it also contained a labor and delivery ward, a children's ward, a nursery, three private rooms, and two isolation rooms. Several major renovations occurred in 1983, 1991, and 2001; adding critical care areas, a new operating and delivery wing, and a cancer care center, respectively. In 2002 Vassar Brothers Hospital officially became Vassar Brothers Medical Center. In September 2016, VBMC announced a new $500 million expansion which would almost double the number of available rooms. Construction on the expansion is expected to be completed in 2019.",
+        "Heritage Hospital: Heritage Hospital is a hospital located in Tarboro, North Carolina. It is a part of the University Health Systems of Eastern Carolina (UHSEC). Edgecombe General Hospital opened as a county-owned hospital in 1916. It succeeded Pittman Hospital, which opened in 1901. In 1959, the Hill-Burton Act helped combine Edgecombe General Hospital, with three other facilities. Edgecombe County sold the hospital to Hospital Corporation of America (HCA) in 1982. HCA opened a 127-bed facility in 1985, named Heritage Hospital. UHSEC bought Heritage Hospital in 1998 from HCA. The hospitals focus is as a community hospital. The hospital has 101 general and 16 rehabilitation hospital beds. It has five Shared Inpatient/Ambulatory Surgery, two Endoscopy, and one C-Section operating rooms.",
+        "St. Elizabeths Hospital: St. Elizabeths Hospital opened in 1855 as the first federally operated psychiatric hospital in the United States. Housing over 8,000 patients at its peak in the 1950s, the hospital at one point had a fully functioning medical-surgical unit, a school of nursing, and accredited internships and psychiatric residencies. Its campus was designated a National Historic Landmark in 1990.",
+        "Congress Heights: Congress Heights is a residential neighborhood in southeast Washington, D.C., in the United States. The irregularly shaped neighborhood is bounded by the St. Elizabeths Hospital campus, Lebaum Street SE, 4th Street SE, and Newcomb Street SE on the northeast; Shepard Parkway and South Capitol Street on the west; Atlantic Street SE and 1st Street SE (as far as Chesapeake Street SE) on the south; Oxon Run Parkway on the southeast; and Wheeler Street SE and Alabama Avenue SE on the east. Commercial development is heavy along Martin Luther King, Jr. Avenue and Malcolm X Avenue.",
+        "History of psychiatric hospitals in Pittsburgh: Pittsburgh, Pennsylvania, United States, is home to a plethora of hospitals, be it for the physically ill or, what was defined as the insane and feeble minded. In 1891, the St. Margaret Memorial Hospital opened under John H. Shoenberger. In 1908, the Pittsburgh Hospital was run under C. A. Fagan, and on June 1, 1889, the South Side Hospital opened under Anna M. Rindlaub. Pittsburgh, commonly known as the \"Steel City,\" also built up a reputation for its abundance of hospitals that had opened up within a fairly close time period of each other. During this time, many new mental hospitals were established due to overcrowding. In 1899, a building to house the mentally insane, Mayview State Hospital, was constructed; but it was not long before the complex had a reputation “as a place of sorrow” due to the lack of proper health care patients received during their stay.",
+        "Douglass (Washington, D.C.): Douglass is a residential neighborhood in Southeast Washington, D.C., on the eastern side of St. Elizabeths Hospital, on the border of the Congress Heights Metro Station. It is bounded by Suitland Parkway to the north and east, Alabama Avenue to the south, and the St. Elizabeths campus to the west.",
+        "Winfred Overholser: Winfred Overholser (1892 – October 6, 1964) was an American psychiatrist, president of the American Psychiatric Association, and for 25 years the superintendent of St. Elizabeths Hospital, a federal institution for the mentally ill in Washington, D.C."
+      ],
+      "evidence_aug_candidates": [
+        "St. Elizabeths Hospital",
+        "Providence Hospital",
+        "Ascension Health",
+        "United States",
+        "Vassar Brother Medical Center",
+        "Vassar Brothers Medical Center",
+        "Vassar Hospital",
+        "New York",
+        "Health Quest",
+        "Hudson Valley",
+        "Dutchess County",
+        "Hudson Regional Hospital",
+        "Westchester Medical Center.  The",
+        "Vassar Brothers Hospital",
+        "John Guy Vassar",
+        "Vassar Brothers Medical Center.  In",
+        "Heritage Hospital"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did St. Elizabeths Hospital open?",
+          "When did Providence Hospital open?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "comparison",
+          "n_passages": 8,
+          "n_candidates": 17,
+          "candidates": [
+            "St. Elizabeths Hospital",
+            "Providence Hospital",
+            "Ascension Health",
+            "United States",
+            "Vassar Brother Medical Center",
+            "Vassar Brothers Medical Center",
+            "Vassar Hospital",
+            "New York",
+            "Health Quest",
+            "Hudson Valley",
+            "Dutchess County",
+            "Hudson Regional Hospital",
+            "Westchester Medical Center.  The",
+            "Vassar Brothers Hospital",
+            "John Guy Vassar",
+            "Vassar Brothers Medical Center.  In",
+            "Heritage Hospital"
+          ]
+        },
+        "answer": "St. Elizabeths Hospital",
+        "score": 1.0,
+        "feedback": "Missing: None — both hospitals' opening years are explicitly stated in the knowledge graph triples (St. Elizabeths Hospital -- opened in --> 1855; Providence Hospital -- was founded in --> 1861) and corroborated in retrieved passages [1] and [4]. The answer 'St. Elizabeths Hospital' correctly identifies the earlier-opening institution. Suggested retrieval: None needed — all required facts are present and unambiguous."
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 3,
+      "input_tokens": 4587,
+      "output_tokens": 553,
+      "total_tokens": 5140,
+      "wall_time": 13.6297,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "common",
+      "evidence_aug_passages": [
+        "Aubrieta: Aubrieta (commonly known as Aubretia) is a genus of about 12 species of flowering plants in the cabbage family Brassicaceae. The genus is named after Claude Aubriet, a French flower-painter. It originates from southern Europe east to central Asia but is now a common garden escape throughout Europe. It is a low, spreading plant, hardy, evergreen and perennial, with small violet, pink or white flowers, and inhabits rocks and banks. It prefers light, well-drained soil, is tolerant of a wide pH range, and can grow in partial shade or full sun.",
+        "Biocommunication (science): In the study of the biological sciences, biocommunication is any specific type of communication within (intraspecific) or between (interspecific) species of plants, animals, fungi, protozoa and microorganisms. Communication basically means sign-mediated interactions following three levels of (syntactic, pragmatic and semantic) rules. Signs in most cases are chemical molecules (semiochemicals, but also tactile, or as in animals also visual and auditive. Biocommunication of animals may include vocalizations (as between competing bird species), or pheromone production (as between various species of insects), chemical signals between plants and animals (as in tannin production used by vascular plants to warn away insects), and chemically mediated communication between plants and within plants. Biocommunication of fungi demonstrates that mycelia communication integrates interspecific sign-mediated interactions between fungal organisms soil bacteria and plant root cells without which plant nutrition could not be organized.",
+        "Binary cycle: A binary cycle power plant is a type of geothermal power plant that allows cooler geothermal reservoirs to be used than is necessary for dry steam and flash steam plants. As of 2010, flash steam plants are the most common type of geothermal power generation plants in operation today, which use water at temperatures greater than 182 C that is pumped under high pressure to the generation equipment at the surface. With binary cycle geothermal power plants, pumps are used to pump hot water from a geothermal well, through a heat exchanger, and the cooled water is returned to the underground reservoir. A second \"working\" or \"binary\" fluid with a low boiling point, typically a butane or pentane hydrocarbon, is pumped at fairly high pressure (500 psi ) through the heat exchanger, where it is vaporized and then directed through a turbine. The vapor exiting the turbine is then condensed by cold air radiators or cold water and cycled back through the heat exchanger.",
+        "Mansonia: Mansonia mosquitoes are big, black or brown mosquitoes with sparkling on their wings and legs. They breed in ponds and lakes containing certain aquatic plants, especially the floating type like \"Pistia stratiotes\" and water hyacinth. The eggs are laid in star-shaped clusters on the undersurface of leaves of these plants. The larvae and pupae are found attached to the rootlets of these plants by their siphon tubes. They obtain their air supply from these rootlets. When about to become adult, these pupae come to the surface of water and the fully formed adults emerge and escape. The control of \"Mansonoia\" mosquitoes is easy by removal or destruction of the aquatic host plants by herbicides.",
+        "Chalcone synthase: Chalcone synthase or naringenin-chalcone synthase (CHS) is an enzyme ubiquitous to higher plants and belongs to a family of polyketide synthase enzymes (PKS) known as type III PKS. Type III PKSs are associated with the production of chalcones, a class of organic compounds found mainly in plants as natural defense mechanisms and as synthetic intermediates. CHS was the first type III PKS to be discovered. It is the first committed enzyme in flavonoid biosynthesis.",
+        "FuelCell Energy: Fuel Cell Energy, Inc. is a global fuel cell power company. It designs, manufactures, operates and services Direct Fuel Cell power plants (a type of molten carbonate fuel cell), to electrochemically produce electricity and heat from a range of basic fuels including natural gas and biogas. As the biggest publicly traded fuel cell manufacturer in the U.S., the company operates over 50 plants all over the world. It operates the world’s largest fuel cell park, Gyeonggi Green Energy Fuel cell park, which is located in South Korea. The park consists of 21 power plants providing 59 Megawatt of electricity plus district heating to a number of customers in South Korea. It also operates the largest fuel cell park in North America consisting of five 2.8MW power plants and a rankine cycle turbine bottoming cycle in Bridgeport, Connecticut. The company has two markets including ultra-clean power, based on clean natural gas, and renewable power operating on renewable biogas. Its customer base covers a wide range of commercial and industrial enterprises worldwide including utility companies, municipalities, universities, etc.",
+        "Flora of Saskatchewan: The native flora of the Saskatchewan includes vascular plants, plus additional species of other plants and plant-like organisms such as algae, lichens and other fungi, and mosses. Non-native species of plants are recorded as established outside of cultivation in Saskatchewan, of these some non-native species remain beneficial for gardening, and agriculture, where others have become invasive, noxious weeds. Saskatchewan is committed to protecting species at risk in Canada. The growing season has been studied and classified into plant hardiness zones depending on length of growing season and climatic conditions. Biogeographic factors have also been divided into vegetative zones, floristic kingdoms, hardiness zones and ecoregions across Saskatchewan, and natural vegetation varies depending on elevation, moisture, soil type landforms, and weather. The study of ethnobotany uncovers the interrelation between humans and plants and the various ways people have used plants for economic reasons, food, medicine and technological developments. The Government of Saskatchewan has declared 3 indigenous plants as provincial symbols.",
+        "Stellacyanin: Stellacyanin is a member of the blue or type I copper protein family. This family of copper proteins is generally involved in electron transfer reactions with the Cu center transitioning between the oxidized Cu(II) form and the reduced Cu(I) form. Stellacyanin is ubiquitous among vascular seed plants. It is a 20kDa protein whose structure is made up of beta strands forming 2 beta sheets to form a Greek key beta barrel with variable alpha helical structure. The copper binding domain of the protein is located at the amino-terminal end, while the carboxyl-terminal end is rich in hydroxyproline and serine residues, typical of proteins associated with cell walls of plants. In addition, it is also heavily glycosylated. The copper is tetrahedrally coordinated by a cysteine, 2 histidines, and a glutamine residue. The glutamine residue takes place of a methione ligand typically found in"
+      ],
+      "evidence_aug_candidates": [
+        "South Korea",
+        "Aubrieta",
+        "Claude Aubriet",
+        "In the study of the biological sciences",
+        "A binary cycle power plant",
+        "Mansonia mosquitoes",
+        "Chalcone synthase or naringenin-chalcone synthase",
+        "Type III PKSs",
+        "Fuel Cell Energy",
+        "Direct Fuel Cell",
+        "Gyeonggi Green Energy Fuel",
+        "South Korea.  It",
+        "North America",
+        "The native flora of the Saskatchewan includes vascular plants",
+        "The Government",
+        "Stellacyanin"
+      ]
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of plants does the genus Psychopsis belong to?",
+          "What type of plants does the genus Aubrieta belong to?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "common",
+          "n_passages": 8,
+          "n_candidates": 16,
+          "candidates": [
+            "South Korea",
+            "Aubrieta",
+            "Claude Aubriet",
+            "In the study of the biological sciences",
+            "A binary cycle power plant",
+            "Mansonia mosquitoes",
+            "Chalcone synthase or naringenin-chalcone synthase",
+            "Type III PKSs",
+            "Fuel Cell Energy",
+            "Direct Fuel Cell",
+            "Gyeonggi Green Energy Fuel",
+            "South Korea.  It",
+            "North America",
+            "The native flora of the Saskatchewan includes vascular plants",
+            "The Government",
+            "Stellacyanin"
+          ]
+        },
+        "answer": "flowering plants",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: explicit statement that Psychopsis is a genus of flowering plants. Suggested retrieval: 'Psychopsis -- is a genus of --> ?' or 'Psychopsis -- is classified as --> flowering plants'"
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "yes",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 6,
+      "input_tokens": 8057,
+      "output_tokens": 1802,
+      "total_tokens": 9859,
+      "wall_time": 42.1016,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "yesno",
+      "evidence_aug_passages": [
+        "Low-budget film: A low-budget film or low-budget movie is a motion picture shot with little to no funding from a major film studio or private investor. Many independent films are made on low budgets, but films made on the mainstream circuit with inexperienced or unknown filmmakers can also have low budgets. Many young or first time filmmakers shoot low-budget films to prove their talent before doing bigger productions. Many low-budget films that do not gain some form of attention or acclaim are never released in theatres and are often sent straight to retail because of its lack of marketability, look, story, or premise. There is no precise number to define a low budget production, and it is relative to both genre and country. What might be a low-budget film in one country may be a big budget in another. Modern-day young filmmakers rely on film festivals for pre promotion. They use this to gain acclaim and attention for their films, which often leads to a limited release in theatres. Film that acquire a cult following may be given a wide release. Low-budget films can be either professional productions or amateur. They are either shot using professional or consumer equipment.",
+        "The Future of Oil: A Straight Story of the Canadian Oil Sands: The Future of Oil: A Straight Story of the Canadian Oil Sands",
+        "The Straight Story: The Straight Story is a 1999 internationally co-produced biographical road drama film directed by David Lynch. The film was edited and produced by Mary Sweeney, Lynch's longtime partner and co-worker. She co-wrote the script with John E. Roach. The film is based on the true story of Alvin Straight's 1994 journey across Iowa and Wisconsin on a lawn mower. Alvin (Richard Farnsworth) is an elderly World War II veteran who lives with his daughter Rose (Sissy Spacek), a kind woman with an intellectual disability. When he hears that his estranged brother Lyle (Harry Dean Stanton) has suffered a stroke, Alvin makes up his mind to go visit him and hopefully make amends before he dies. Because Alvin's legs and eyes are too impaired for him to receive a driving license, he hitches a trailer to his recently purchased thirty-year-old John Deere 110 Lawn Tractor, having a maximum speed of about 5 miles per hour, and sets off on the 240 mile journey from Laurens, Iowa to Mount Zion, Wisconsin.",
+        "Mary Sweeney: Mary Sweeney is an American film producer, director, writer and film editor, who collaborated for 20 years with her husband, avant-garde American film director, David Lynch. Sweeney worked with Lynch on several films and television series, most notably the original \"Twin Peaks\" series (1990), \"Lost Highway\" (1997), \"The Straight Story\", (1999) and \"Mulholland Drive\" (2001). Sweeney is the Dino and Martha De Laurentiis Endowed Professor in the Writing Division of the School of Cinematic Arts at the University of Southern California. She is the Chair of the Film Independent Board of Directors.",
+        "Angelo Badalamenti: Angelo Badalamenti (born March 22, 1937) is an American composer, best known for his work scoring films for director David Lynch, notably \"Blue Velvet\", the \"Twin Peaks\" saga (1990–1992, 2017), \"The Straight Story\" and \"Mulholland Drive\". Badalamenti received the 1990 Grammy Award for Best Pop Instrumental Performance for his \"\"Twin Peaks\" Theme\", and has received a Lifetime Achievement Award from the World Soundtrack Awards and the Henry Mancini Award from the American Society of Composers, Authors and Publishers.",
+        "Dan Flannery: Arthur Daniel Flannery (born March 10, 1944) is an American actor from Evanston, Illinois. He has played roles in several movies, short films, and T.V. shows from a variety of genres including drama, action, and thriller. His filmography includes The Straight Story (1999), and Contagion (2011) and T.V. series such as Empire (2015 TV series) and Boss (2011-2012).",
+        "Clermont, Iowa: Clermont is a city in Fayette County, Iowa, United States. The population was 632 at the 2010 census. Clermont is home to Montauk, the mansion of former Iowa governor William Larrabee, along with much historic architecture. Scenes for the movie \"The Straight Story\" were filmed here.",
+        "Richard Farnsworth: Richard W. Farnsworth (September 1, 1920 – October 6, 2000) was an American actor and stuntman. He is best known for his performances in \"The Grey Fox\" (1982), for which he received a Golden Globe Award nomination, \"Anne of Green Gables\" (1985), \"Misery\" (1990), and \"The Straight Story\" (1999), for which he received a nomination for the Academy Award for Best Actor. His sudden death followed a long struggle with prostate cancer."
+      ],
+      "evidence_aug_candidates": [
+        "yes",
+        "no"
+      ]
+    },
+    "score": 0.35,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of Frozen?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "yesno",
+          "n_passages": 8,
+          "n_candidates": 2,
+          "candidates": [
+            "yes",
+            "no"
+          ]
+        },
+        "answer": "yes",
+        "score": 0.35,
+        "feedback": "Missing: genre classification of 'Frozen' (2013 Disney animated film). Suggested retrieval: 'Frozen -- is a --> [genre]' or 'Frozen -- genre --> ?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of Frozen (2013 Disney animated film)?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "yesno",
+          "n_passages": 8,
+          "n_candidates": 2,
+          "candidates": [
+            "yes",
+            "no"
+          ]
+        },
+        "answer": "yes",
+        "score": 0.35,
+        "feedback": "Missing: genre classification of 'Frozen' (2013 Disney animated film). Suggested retrieval: 'Frozen -- is a --> [genre]' or 'Frozen -- genre --> ?'"
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 3,
+      "input_tokens": 3955,
+      "output_tokens": 400,
+      "total_tokens": 4355,
+      "wall_time": 9.8774,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "other",
+      "evidence_aug_passages": [
+        "Japanese Weekend School of New York: The Japanese Weekend School of New York (JWSNY; ニューヨーク \"Nyūyōku Hoshū Jugyō Kō\") is a Japanese supplementary school in the New York City metropolitan area. It has its offices in New Roc City in New Rochelle, New York. The Japanese Educational Institute of New York (JEI; ニューヨーク日本人教育審議会 \"Nyūyōku Nihonjin Kyōiku Shingi Kai\") manages the school system, and the JWSNY is one of its two weekend school systems. The JEI also operates two Japanese day schools in the New York area.",
+        "New Roc City: New Roc City, also known as New Rochelle Center, is an entertainment, retail and residential complex in the Downtown section of the city of New Rochelle in Westchester County, New York. It is located at 33 LeCount Place, between Main Street North and Main Street South. The center was built on the site of the former New Rochelle Mall which closed in 1992.",
+        "New Jersey Japanese School: The New Jersey Japanese School (ニュージャージー日本人学校 , \"Nyūjājī Nihonjin Gakkō\" , NJJS) is a Japanese school located in Oakland, New Jersey, United States in the New York City metropolitan area. It is one of the two Japanese day schools operated by the Japanese Educational Institute of New York (JEI; ニューヨーク日本人教育審議会 \"Nyūyōku Nihonjin Kyōiku Shingi Kai\"), a nonprofit organization which also operates two Japanese weekend school systems in the New York City area.",
+        "Princeton Community Japanese Language School: The Princeton Community Japanese Language School (PCJLS; プリンストン日本語学校 \"Purinsuton Nihongo Gakkō\") is a Japanese weekend school in the Princeton, New Jersey area. It holds weekend Japanese classes for Japanese citizen children abroad to the standard of the Ministry of Education, Culture, Sports, Science and Technology (MEXT), and it also has classes for people with Japanese as a second language.",
+        "San Francisco Japanese School: The San Francisco Japanese School (SFJS, サンフランシスコ日本語 \"San Furanshisuko Nihongo Hoshū Kō\") is a weekend Japanese school serving the San Francisco Bay Area. The system, with its administrative offices in San Francisco, is a 501(c)(3) non-profit organization, and was the world's second largest overseas Japanese weekend school in 2006. The school is supported by the Japanese government. It is known as the best Japanese supplementary school in the world with mostly great teachers. Although it does have a shortage of teachers due to the large number of students.",
+        "Standard Star Building: The Standard Star Building is a historic commercial structure located in the Downtown section of New Rochelle, Westchester County, New York. The building, designed by architect Lawrence J. Barnard, was completed in 1924 and is an architecturally significant example of the Italian Renaissance style in New Rochelle. Although it has been altered, these changes occurred only on the Le Count Place façade and the interior of the building. The original Standard Star building exterior remains largely unchanged. It is further historically significant for its association with a long-published New Rochelle newspaper covering life in New Rochelle.",
+        "New Rochelle Walk of Fame: The New Rochelle Walk of Fame was installed in 2011 in Ruby Dee Park at Library Green, located in the downtown section of the city of New Rochelle in Westchester County, New York. The \"walk\" is a tribute to some of New Rochelle's most notable residents from throughout its 325-year history. It was created and funded by former resident Roderick Kennedy, Jr., working in partnership with the City of New Rochelle and the New Rochelle Business Improvement District.",
+        "Ware's Department Store: Ware’s Department Store is a historic building located in the city of New Rochelle in Westchester County, New York and is significant for both architectural and commercial reasons. Ware's was Westchester’s first and, for many years, largest department store, and was prominently located on New Rochelle’s fashionable Main Street. The store operated from 1881 to the late 1930s, when the property was sold to the retailer Bloomingdale's to serve as their first suburban department store location. Not only was Ware's a key place in New Rochelle during its 20th-century boom years, its founder and owner, Howard R. Ware was a leading figure in the rapidly growing community as well. Ware first moved to New Rochelle from Massachusetts at the age of 13 and began to work as a clerk. In 1881 he became partner in the firm of Ware & Sheffield, which eventually became a stock company in 1913. renamed He was a director and vice president of the National City Bank of New Rochelle, a founder and first president of the local Y.M.C.A. from 1899 to 1916, and an active member of St. John’s Methodist Episcopal Church. He retired from his active business in 1932."
+      ],
+      "evidence_aug_candidates": [
+        "Japanese Weekend School of New York",
+        "New Roc City",
+        "New Jersey Japanese School",
+        "Princeton Community Japanese Language School",
+        "San Francisco Japanese School",
+        "Standard Star Building",
+        "New Rochelle Walk of Fame",
+        "Ware's Department Store",
+        "Ware’s Department Store"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where is the Japanese Weekend School of New York located?",
+          "What entertainment complex is in that section of New Rochelle?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "other",
+          "n_passages": 8,
+          "n_candidates": 9,
+          "candidates": [
+            "Japanese Weekend School of New York",
+            "New Roc City",
+            "New Jersey Japanese School",
+            "Princeton Community Japanese Language School",
+            "San Francisco Japanese School",
+            "Standard Star Building",
+            "New Rochelle Walk of Fame",
+            "Ware's Department Store",
+            "Ware’s Department Store"
+          ]
+        },
+        "answer": "Downtown",
+        "score": 1.0,
+        "feedback": "Missing: none. The candidate answer 'Downtown' is directly supported by the triple 'New Roc City -- is located in --> the Downtown section of the city of New Rochelle' and confirmed by passage [2]: 'New Roc City [...] is an entertainment, retail and residential complex in the Downtown section of the city of New Rochelle'. The question asks for the section of New Rochelle where the Japanese Weekend School of New York has offices in the entertainment complex — and both the school's offices (triple: 'The Japanese Weekend School of New York -- has its offices in --> New Roc City') and New Roc City’s location ('Downtown') are unambiguously established."
+      }
+    ]
+  }
+}

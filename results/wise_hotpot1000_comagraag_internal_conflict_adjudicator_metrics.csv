@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,llm_calls,switches,acceptance_not_target,acceptance_chose_current,acceptance_accepted,qtype_yesno,qtype_common
+internal_conflict_adjudicator,1000,0.555,0.6557,5,5,3,995,2,3,4,1

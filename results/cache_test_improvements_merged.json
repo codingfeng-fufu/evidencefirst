@@ -1,0 +1,2292 @@
+{
+  "5a8460d5554299123d8c2229": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a8460d5554299123d8c2229",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.7402,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a711c535542994082a3e59b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a711c535542994082a3e59b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.0699,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a7e49e05542991319bc9463": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a7e49e05542991319bc9463",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.0956,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a773d8955429966f1a36cc4": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a773d8955429966f1a36cc4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.1939,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ac325495542995ef918c12e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ac325495542995ef918c12e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.804,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a728f745542991f9a20c4e6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a728f745542991f9a20c4e6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8243,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ac3d667554299076e296ca5": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ac3d667554299076e296ca5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.1782,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a8198565542995ce29dcc13": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a8198565542995ce29dcc13",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3144,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ab97d0a5542996be202051e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ab97d0a5542996be202051e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3777,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a76a0005542993569682c64": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a76a0005542993569682c64",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.4668,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a738fb4554299623ed4abf9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a738fb4554299623ed4abf9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.41,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a7129685542994082a3e5fa": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a7129685542994082a3e5fa",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9013,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ade6eb65542992fa25da782": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ade6eb65542992fa25da782",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.001,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ab5b0f75542992aa134a38c": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ab5b0f75542992aa134a38c",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2794,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ac23f5655429951e9e684d9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ac23f5655429951e9e684d9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.4406,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a88016b5542997e5c09a58a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a88016b5542997e5c09a58a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9089,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ac15f6c5542994d76dccdf3": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ac15f6c5542994d76dccdf3",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3941,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a861ea85542994775f60700": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a861ea85542994775f60700",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2152,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ae17a9b5542990adbacf7a2": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ae17a9b5542990adbacf7a2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0599,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ab9d6ef5542994dbf01985b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ab9d6ef5542994dbf01985b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.42,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5abd0097554299700f9d7956": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5abd0097554299700f9d7956",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9606,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a8b83bc55429949d91db5c0": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a8b83bc55429949d91db5c0",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3896,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.1187,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5a74d7685542996c70cfae0a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5a74d7685542996c70cfae0a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.4564,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5ab42b24554299753aec5a43": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5ab42b24554299753aec5a43",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.4831,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5abbdb195542993f40c73bf1": {
+    "answer": "Sierra de Guadarrama National Park",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abbdb195542993f40c73bf1",
+      "llm_calls": 10,
+      "input_tokens": 7688,
+      "output_tokens": 1038,
+      "total_tokens": 8726,
+      "wall_time": 46.2258,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a78d16455429974737f78bb": {
+    "answer": "Philippe Perrin",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a78d16455429974737f78bb",
+      "llm_calls": 4,
+      "input_tokens": 2763,
+      "output_tokens": 256,
+      "total_tokens": 3019,
+      "wall_time": 7.049,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83ab355542990548d0b218": {
+    "answer": "Paola Su\u00e1rez",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a83ab355542990548d0b218",
+      "llm_calls": 10,
+      "input_tokens": 6930,
+      "output_tokens": 662,
+      "total_tokens": 7592,
+      "wall_time": 19.2917,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 10,
+      "input_tokens": 8072,
+      "output_tokens": 737,
+      "total_tokens": 8809,
+      "wall_time": 20.2575,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf33965542993344016c20": {
+    "answer": "KWCH-DT",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf33965542993344016c20",
+      "llm_calls": 4,
+      "input_tokens": 3440,
+      "output_tokens": 325,
+      "total_tokens": 3765,
+      "wall_time": 8.5434,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a82bc7455429940e5e1a926": {
+    "answer": "Moonstruck",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a82bc7455429940e5e1a926",
+      "llm_calls": 10,
+      "input_tokens": 6513,
+      "output_tokens": 2390,
+      "total_tokens": 8903,
+      "wall_time": 56.3109,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfdef9554299025d62a36b": {
+    "answer": "Maine gubernatorial election, 1820",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfdef9554299025d62a36b",
+      "llm_calls": 10,
+      "input_tokens": 6880,
+      "output_tokens": 1307,
+      "total_tokens": 8187,
+      "wall_time": 33.7614,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ade7fa3554299728e26c727": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ade7fa3554299728e26c727",
+      "llm_calls": 10,
+      "input_tokens": 6414,
+      "output_tokens": 617,
+      "total_tokens": 7031,
+      "wall_time": 17.7616,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a779fd95542997042120ab5": {
+    "answer": "1997",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a779fd95542997042120ab5",
+      "llm_calls": 4,
+      "input_tokens": 3383,
+      "output_tokens": 433,
+      "total_tokens": 3816,
+      "wall_time": 11.0308,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0fe4e554299422ee995a9": {
+    "answer": "Nutrient-Rich diet",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0fe4e554299422ee995a9",
+      "llm_calls": 10,
+      "input_tokens": 6876,
+      "output_tokens": 1236,
+      "total_tokens": 8112,
+      "wall_time": 31.0811,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfecd755429942ec259b90": {
+    "answer": "1933",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfecd755429942ec259b90",
+      "llm_calls": 10,
+      "input_tokens": 7921,
+      "output_tokens": 887,
+      "total_tokens": 8808,
+      "wall_time": 24.526,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a884adb5542996e4f308938": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a884adb5542996e4f308938",
+      "llm_calls": 10,
+      "input_tokens": 7582,
+      "output_tokens": 586,
+      "total_tokens": 8168,
+      "wall_time": 16.9327,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a728dc65542992359bc30ef": {
+    "answer": "Nihat Kahveci",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a728dc65542992359bc30ef",
+      "llm_calls": 4,
+      "input_tokens": 3562,
+      "output_tokens": 566,
+      "total_tokens": 4128,
+      "wall_time": 14.2155,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7145d55542994082a3e73c": {
+    "answer": "Arne Christer Fuglesang",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7145d55542994082a3e73c",
+      "llm_calls": 4,
+      "input_tokens": 3106,
+      "output_tokens": 258,
+      "total_tokens": 3364,
+      "wall_time": 7.4524,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "Best Alternative Music Album",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 10,
+      "input_tokens": 7653,
+      "output_tokens": 1044,
+      "total_tokens": 8697,
+      "wall_time": 27.2753,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a7dc15542994f819ef1f2": {
+    "answer": "Alexander Butler",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7a7dc15542994f819ef1f2",
+      "llm_calls": 10,
+      "input_tokens": 6474,
+      "output_tokens": 532,
+      "total_tokens": 7006,
+      "wall_time": 16.3433,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7133565542994082a3e65c": {
+    "answer": "Oldham County, Kentucky",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7133565542994082a3e65c",
+      "llm_calls": 10,
+      "input_tokens": 6563,
+      "output_tokens": 2763,
+      "total_tokens": 9326,
+      "wall_time": 64.8648,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae3e84b5542996836b02bf0": {
+    "answer": "Brainerd Lakes Regional Airport",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae3e84b5542996836b02bf0",
+      "llm_calls": 7,
+      "input_tokens": 4820,
+      "output_tokens": 1991,
+      "total_tokens": 6811,
+      "wall_time": 46.8485,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab8869155429916710eb081": {
+    "answer": "Boeing EA-18G Growler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab8869155429916710eb081",
+      "llm_calls": 7,
+      "input_tokens": 6230,
+      "output_tokens": 1654,
+      "total_tokens": 7884,
+      "wall_time": 40.2377,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf53dc5542995534e8c791": {
+    "answer": "Elmer Clifton",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adf53dc5542995534e8c791",
+      "llm_calls": 10,
+      "input_tokens": 6395,
+      "output_tokens": 1175,
+      "total_tokens": 7570,
+      "wall_time": 29.5721,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 4,
+      "input_tokens": 2726,
+      "output_tokens": 205,
+      "total_tokens": 2931,
+      "wall_time": 5.7807,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "Il Divo \u2192",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 10,
+      "input_tokens": 6237,
+      "output_tokens": 2853,
+      "total_tokens": 9090,
+      "wall_time": 67.5047,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae6152d5542996de7b71b38": {
+    "answer": "Bo Welch",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae6152d5542996de7b71b38",
+      "llm_calls": 4,
+      "input_tokens": 3421,
+      "output_tokens": 477,
+      "total_tokens": 3898,
+      "wall_time": 11.9611,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7652435542992d0ec060a5": {
+    "answer": "Pyotr Ilyich Tchaikovsky",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7652435542992d0ec060a5",
+      "llm_calls": 4,
+      "input_tokens": 3865,
+      "output_tokens": 335,
+      "total_tokens": 4200,
+      "wall_time": 9.9324,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0ead25542990adbacf6c8": {
+    "answer": "Jersey barriers",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0ead25542990adbacf6c8",
+      "llm_calls": 4,
+      "input_tokens": 3005,
+      "output_tokens": 354,
+      "total_tokens": 3359,
+      "wall_time": 9.6486,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7b24fe55429931da12c9f7": {
+    "answer": "German Spitz",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b24fe55429931da12c9f7",
+      "llm_calls": 7,
+      "input_tokens": 5111,
+      "output_tokens": 1138,
+      "total_tokens": 6249,
+      "wall_time": 47.8914,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abd247e5542996e802b472f": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abd247e5542996e802b472f",
+      "llm_calls": 7,
+      "input_tokens": 4789,
+      "output_tokens": 772,
+      "total_tokens": 5561,
+      "wall_time": 20.0284,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83a7e15542992ef85e2347": {
+    "answer": "Daniel Louis Castellaneta",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83a7e15542992ef85e2347",
+      "llm_calls": 4,
+      "input_tokens": 3084,
+      "output_tokens": 215,
+      "total_tokens": 3299,
+      "wall_time": 6.1304,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac4f12d55429924173fb4f6": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac4f12d55429924173fb4f6",
+      "llm_calls": 10,
+      "input_tokens": 6857,
+      "output_tokens": 965,
+      "total_tokens": 7822,
+      "wall_time": 24.8063,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab33ef955429969a97a810e": {
+    "answer": "New York",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab33ef955429969a97a810e",
+      "llm_calls": 10,
+      "input_tokens": 6773,
+      "output_tokens": 1562,
+      "total_tokens": 8335,
+      "wall_time": 38.8685,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a1d305542990783324e66": {
+    "answer": "musician",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a1d305542990783324e66",
+      "llm_calls": 4,
+      "input_tokens": 2935,
+      "output_tokens": 439,
+      "total_tokens": 3374,
+      "wall_time": 11.2117,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac00f795542996f0d89cb16": {
+    "answer": "Scrooge McDuck",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac00f795542996f0d89cb16",
+      "llm_calls": 10,
+      "input_tokens": 7318,
+      "output_tokens": 1098,
+      "total_tokens": 8416,
+      "wall_time": 28.8643,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae4ec1e5542990ba0bbb19b": {
+    "answer": "The Bears and I",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae4ec1e5542990ba0bbb19b",
+      "llm_calls": 7,
+      "input_tokens": 5218,
+      "output_tokens": 1131,
+      "total_tokens": 6349,
+      "wall_time": 27.4404,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8408a9554299123d8c21d3": {
+    "answer": "Leonard Cohen",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8408a9554299123d8c21d3",
+      "llm_calls": 10,
+      "input_tokens": 6575,
+      "output_tokens": 2408,
+      "total_tokens": 8983,
+      "wall_time": 57.1887,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83041355429966c78a6ae8": {
+    "answer": "director",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83041355429966c78a6ae8",
+      "llm_calls": 4,
+      "input_tokens": 2685,
+      "output_tokens": 391,
+      "total_tokens": 3076,
+      "wall_time": 10.1423,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "Also, \"Tha Trademarc -- collaborated with --> John Cena",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 10,
+      "input_tokens": 7588,
+      "output_tokens": 2802,
+      "total_tokens": 10390,
+      "wall_time": 66.4725,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a86458b5542991e771815ec": {
+    "answer": "not provided",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a86458b5542991e771815ec",
+      "llm_calls": 10,
+      "input_tokens": 5451,
+      "output_tokens": 770,
+      "total_tokens": 6221,
+      "wall_time": 21.6526,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae694a15542991bbc976141": {
+    "answer": "Not mentioned",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae694a15542991bbc976141",
+      "llm_calls": 10,
+      "input_tokens": 6930,
+      "output_tokens": 727,
+      "total_tokens": 7657,
+      "wall_time": 19.7564,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7f53ff5542992097ad2f17": {
+    "answer": "Columbine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7f53ff5542992097ad2f17",
+      "llm_calls": 4,
+      "input_tokens": 3165,
+      "output_tokens": 323,
+      "total_tokens": 3488,
+      "wall_time": 9.1377,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8ec02e5542995a26add501": {
+    "answer": "Starring John C. Reilly \u2705 \u2192",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8ec02e5542995a26add501",
+      "llm_calls": 10,
+      "input_tokens": 6848,
+      "output_tokens": 2843,
+      "total_tokens": 9691,
+      "wall_time": 66.2957,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8fdb955542990a98493572": {
+    "answer": "Families Against Corporate Killers",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8fdb955542990a98493572",
+      "llm_calls": 10,
+      "input_tokens": 7062,
+      "output_tokens": 654,
+      "total_tokens": 7716,
+      "wall_time": 18.033,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a85ae455542997175ce1ff0": {
+    "answer": "stunt performer",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a85ae455542997175ce1ff0",
+      "llm_calls": 10,
+      "input_tokens": 7208,
+      "output_tokens": 1624,
+      "total_tokens": 8832,
+      "wall_time": 40.3288,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a710a915542994082a3e504": {
+    "answer": "Scott Treleaven",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a710a915542994082a3e504",
+      "llm_calls": 10,
+      "input_tokens": 6860,
+      "output_tokens": 1302,
+      "total_tokens": 8162,
+      "wall_time": 32.935,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab207f65542993be8fa98b8": {
+    "answer": "Preston, Lancashire, UK",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab207f65542993be8fa98b8",
+      "llm_calls": 10,
+      "input_tokens": 7005,
+      "output_tokens": 1021,
+      "total_tokens": 8026,
+      "wall_time": 26.6956,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 4,
+      "input_tokens": 3783,
+      "output_tokens": 386,
+      "total_tokens": 4169,
+      "wall_time": 10.6873,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7774e155429967ab10518d": {
+    "answer": "Walt Disney Pictures",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7774e155429967ab10518d",
+      "llm_calls": 10,
+      "input_tokens": 6802,
+      "output_tokens": 1040,
+      "total_tokens": 7842,
+      "wall_time": 47.4705,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac156d05542994ab5c67ce9": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac156d05542994ab5c67ce9",
+      "llm_calls": 10,
+      "input_tokens": 6980,
+      "output_tokens": 1810,
+      "total_tokens": 8790,
+      "wall_time": 43.6683,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "Lake Worth Lagoon",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 4,
+      "input_tokens": 3209,
+      "output_tokens": 293,
+      "total_tokens": 3502,
+      "wall_time": 8.0683,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab510cb5542996a3a96a00f": {
+    "answer": "yes",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab510cb5542996a3a96a00f",
+      "llm_calls": 10,
+      "input_tokens": 7032,
+      "output_tokens": 2769,
+      "total_tokens": 9801,
+      "wall_time": 64.377,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a77c74155429967ab105291": {
+    "answer": "Vib Gyor",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a77c74155429967ab105291",
+      "llm_calls": 4,
+      "input_tokens": 2858,
+      "output_tokens": 191,
+      "total_tokens": 3049,
+      "wall_time": 6.489,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a71278c5542994082a3e5e2": {
+    "answer": "Zion Williamson",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a71278c5542994082a3e5e2",
+      "llm_calls": 10,
+      "input_tokens": 6215,
+      "output_tokens": 778,
+      "total_tokens": 6993,
+      "wall_time": 21.8533,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 10,
+      "input_tokens": 7357,
+      "output_tokens": 2676,
+      "total_tokens": 10033,
+      "wall_time": 62.3551,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abb61c0554299642a094a86": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abb61c0554299642a094a86",
+      "llm_calls": 10,
+      "input_tokens": 6047,
+      "output_tokens": 954,
+      "total_tokens": 7001,
+      "wall_time": 26.4407,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7c99705542990527d554de": {
+    "answer": "none",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7c99705542990527d554de",
+      "llm_calls": 10,
+      "input_tokens": 7410,
+      "output_tokens": 1427,
+      "total_tokens": 8837,
+      "wall_time": 35.1215,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfc77b554299603e4183ab": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfc77b554299603e4183ab",
+      "llm_calls": 10,
+      "input_tokens": 7000,
+      "output_tokens": 1468,
+      "total_tokens": 8468,
+      "wall_time": 36.5913,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae38b115542990afbd1e183": {
+    "answer": "George Albert Smith",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae38b115542990afbd1e183",
+      "llm_calls": 4,
+      "input_tokens": 3239,
+      "output_tokens": 336,
+      "total_tokens": 3575,
+      "wall_time": 9.5552,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac097b05542996f0d89cc18": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac097b05542996f0d89cc18",
+      "llm_calls": 4,
+      "input_tokens": 3256,
+      "output_tokens": 687,
+      "total_tokens": 3943,
+      "wall_time": 17.6269,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a900b575542995b44242099": {
+    "answer": "Christopher Guest",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a900b575542995b44242099",
+      "llm_calls": 4,
+      "input_tokens": 3052,
+      "output_tokens": 552,
+      "total_tokens": 3604,
+      "wall_time": 13.5912,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac2659b55429963665199a1": {
+    "answer": "25",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac2659b55429963665199a1",
+      "llm_calls": 4,
+      "input_tokens": 4425,
+      "output_tokens": 359,
+      "total_tokens": 4784,
+      "wall_time": 9.7653,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae7edee554299540e5a56ad": {
+    "answer": "Canary Islands",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae7edee554299540e5a56ad",
+      "llm_calls": 4,
+      "input_tokens": 3226,
+      "output_tokens": 354,
+      "total_tokens": 3580,
+      "wall_time": 9.538,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7652785542992db9473760": {
+    "answer": "Wolfgang Becker",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7652785542992db9473760",
+      "llm_calls": 4,
+      "input_tokens": 3437,
+      "output_tokens": 321,
+      "total_tokens": 3758,
+      "wall_time": 8.8611,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5aba71b155429955dce3ee2a": {
+    "answer": "first flume ride in Ireland",
+    "iterations": 1,
+    "usage": {
+      "qid": "5aba71b155429955dce3ee2a",
+      "llm_calls": 4,
+      "input_tokens": 3470,
+      "output_tokens": 403,
+      "total_tokens": 3873,
+      "wall_time": 11.1046,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "three singles titles",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 7,
+      "input_tokens": 4877,
+      "output_tokens": 339,
+      "total_tokens": 5216,
+      "wall_time": 10.6382,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "The Rescuers",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 10,
+      "input_tokens": 6706,
+      "output_tokens": 622,
+      "total_tokens": 7328,
+      "wall_time": 19.3962,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "Neither Stephanocereus nor Nepenthes is stated to be indigenous to the western hemisphere in the provided passages",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 10,
+      "input_tokens": 7343,
+      "output_tokens": 2760,
+      "total_tokens": 10103,
+      "wall_time": 64.6571,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adc020a5542994650320c4c": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adc020a5542994650320c4c",
+      "llm_calls": 4,
+      "input_tokens": 2883,
+      "output_tokens": 335,
+      "total_tokens": 3218,
+      "wall_time": 8.8392,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a84b5975542991dd0999da3": {
+    "answer": "Ecclesiastical Province of Ontario",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a84b5975542991dd0999da3",
+      "llm_calls": 10,
+      "input_tokens": 7553,
+      "output_tokens": 497,
+      "total_tokens": 8050,
+      "wall_time": 15.1112,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adce3b95542990d50227d56": {
+    "answer": "director",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adce3b95542990d50227d56",
+      "llm_calls": 4,
+      "input_tokens": 2416,
+      "output_tokens": 429,
+      "total_tokens": 2845,
+      "wall_time": 10.932,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a76404b5542994ccc91873d": {
+    "answer": "Unchained Memories",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a76404b5542994ccc91873d",
+      "llm_calls": 7,
+      "input_tokens": 5009,
+      "output_tokens": 696,
+      "total_tokens": 5705,
+      "wall_time": 17.738,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7633ad5542992db9473741": {
+    "answer": "The Seven Days Battles",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7633ad5542992db9473741",
+      "llm_calls": 10,
+      "input_tokens": 7225,
+      "output_tokens": 541,
+      "total_tokens": 7766,
+      "wall_time": 15.6296,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  }
+}

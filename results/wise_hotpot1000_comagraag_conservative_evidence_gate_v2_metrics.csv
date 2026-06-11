@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,switches,acceptance_not_target,acceptance_same_as_current,acceptance_action_not_switch,acceptance_reader_only_source,acceptance_accepted,acceptance_bad_surface
+conservative_evidence_gate_v2,1000,0.555,0.6573,100,2,900,70,25,2,2,1

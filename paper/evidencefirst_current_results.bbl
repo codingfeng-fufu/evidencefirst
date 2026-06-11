@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{edge2024graphrag}
+Edge, D., Trinh, H., Cheng, N., Bradley, J., Chao, A., Mody, A., Truitt, S.,
+  Larson, J.: From local to global: {A} graph {RAG} approach to query-focused
+  summarization. arXiv preprint arXiv:2404.16130  (2024)
+
+\bibitem{guo2024lightrag}
+Guo, Z., Xia, L., Yu, Y., Ao, T., Huang, C.: {LightRAG}: Simple and fast
+  retrieval-augmented generation. arXiv preprint arXiv:2410.05779  (2024)
+
+\bibitem{han2025graphragsurvey}
+Han, H., Wang, Y., Shomer, H., Guo, K., Ding, J., Lei, Y., Halappanavar, M.,
+  Rossi, R.A., Mukherjee, S., Tang, X., et~al.: Retrieval-augmented generation
+  with graphs ({GraphRAG}). arXiv preprint arXiv:2501.00309  (2025)
+
+\bibitem{lewis2020rag}
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N.,
+  K\"{u}ttler, H., Lewis, M., Yih, W., Rockt\"{a}schel, T., Riedel, S., Kiela,
+  D.: Retrieval-augmented generation for knowledge-intensive {NLP} tasks. In:
+  Advances in Neural Information Processing Systems (NeurIPS). pp. 9459--9474
+  (2020)
+
+\end{thebibliography}

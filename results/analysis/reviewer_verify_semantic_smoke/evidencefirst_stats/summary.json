@@ -1,0 +1,521 @@
+{
+  "metric_ci": [
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v4 fresh",
+      "n": 1000,
+      "em": "0.5500",
+      "em_ci95_low": "0.5170",
+      "em_ci95_high": "0.5790",
+      "f1": "0.6484",
+      "f1_ci95_low": "0.6228",
+      "f1_ci95_high": "0.6768"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "n": 1000,
+      "em": "0.5620",
+      "em_ci95_low": "0.5330",
+      "em_ci95_high": "0.5930",
+      "f1": "0.6564",
+      "f1_ci95_low": "0.6263",
+      "f1_ci95_high": "0.6781"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "HopRAG strict",
+      "n": 1000,
+      "em": "0.5410",
+      "em_ci95_low": "0.5090",
+      "em_ci95_high": "0.5700",
+      "f1": "0.6438",
+      "f1_ci95_low": "0.6181",
+      "f1_ci95_high": "0.6662"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "A-RAG",
+      "n": 1000,
+      "em": "0.5170",
+      "em_ci95_low": "0.4860",
+      "em_ci95_high": "0.5470",
+      "f1": "0.6273",
+      "f1_ci95_low": "0.5975",
+      "f1_ci95_high": "0.6557"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "IRCoT",
+      "n": 1000,
+      "em": "0.4660",
+      "em_ci95_low": "0.4270",
+      "em_ci95_high": "0.4970",
+      "f1": "0.5707",
+      "f1_ci95_low": "0.5405",
+      "f1_ci95_high": "0.5983"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "LightRAG",
+      "n": 1000,
+      "em": "0.4380",
+      "em_ci95_low": "0.4050",
+      "em_ci95_high": "0.4660",
+      "f1": "0.5376",
+      "f1_ci95_low": "0.5089",
+      "f1_ci95_high": "0.5651"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "MS GraphRAG",
+      "n": 1000,
+      "em": "0.1890",
+      "em_ci95_low": "0.1650",
+      "em_ci95_high": "0.2100",
+      "f1": "0.2774",
+      "f1_ci95_low": "0.2543",
+      "f1_ci95_high": "0.2999"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "Naive RAG",
+      "n": 1000,
+      "em": "0.3920",
+      "em_ci95_low": "0.3600",
+      "em_ci95_high": "0.4200",
+      "f1": "0.4865",
+      "f1_ci95_low": "0.4622",
+      "f1_ci95_high": "0.5155"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "n": 500,
+      "em": "0.6900",
+      "em_ci95_low": "0.6540",
+      "em_ci95_high": "0.7300",
+      "f1": "0.7581",
+      "f1_ci95_low": "0.7260",
+      "f1_ci95_high": "0.7974"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "LightRAG",
+      "n": 500,
+      "em": "0.6740",
+      "em_ci95_low": "0.6320",
+      "em_ci95_high": "0.7180",
+      "f1": "0.7716",
+      "f1_ci95_low": "0.7359",
+      "f1_ci95_high": "0.8042"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "A-RAG",
+      "n": 500,
+      "em": "0.6660",
+      "em_ci95_low": "0.6240",
+      "em_ci95_high": "0.7040",
+      "f1": "0.7323",
+      "f1_ci95_low": "0.6944",
+      "f1_ci95_high": "0.7682"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "IRCoT",
+      "n": 500,
+      "em": "0.6560",
+      "em_ci95_low": "0.6120",
+      "em_ci95_high": "0.7000",
+      "f1": "0.7301",
+      "f1_ci95_low": "0.6934",
+      "f1_ci95_high": "0.7701"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "Naive RAG",
+      "n": 500,
+      "em": "0.2980",
+      "em_ci95_low": "0.2580",
+      "em_ci95_high": "0.3360",
+      "f1": "0.3338",
+      "f1_ci95_low": "0.3004",
+      "f1_ci95_high": "0.3753"
+    }
+  ],
+  "pairwise_mcnemar": [
+    {
+      "dataset": "hotpot",
+      "subgroup": "all",
+      "primary": "EvidenceFirst v4 fresh",
+      "baseline": "HopRAG strict",
+      "n": 1000,
+      "primary_em": "0.5500",
+      "baseline_em": "0.5410",
+      "em_delta": "0.0090",
+      "em_delta_ci95_low": "-0.0260",
+      "em_delta_ci95_high": "0.0360",
+      "primary_f1": "0.6484",
+      "baseline_f1": "0.6438",
+      "f1_delta": "0.0047",
+      "f1_delta_ci95_low": "-0.0204",
+      "f1_delta_ci95_high": "0.0304",
+      "both_correct": 433,
+      "primary_only": 117,
+      "baseline_only": 108,
+      "neither": 342,
+      "mcnemar_exact_p": "0.593902"
+    },
+    {
+      "dataset": "hotpot",
+      "subgroup": "all",
+      "primary": "EvidenceFirst v6 selector guard",
+      "baseline": "HopRAG strict",
+      "n": 1000,
+      "primary_em": "0.5620",
+      "baseline_em": "0.5410",
+      "em_delta": "0.0210",
+      "em_delta_ci95_low": "-0.0050",
+      "em_delta_ci95_high": "0.0490",
+      "primary_f1": "0.6564",
+      "baseline_f1": "0.6438",
+      "f1_delta": "0.0126",
+      "f1_delta_ci95_low": "-0.0145",
+      "f1_delta_ci95_high": "0.0354",
+      "both_correct": 443,
+      "primary_only": 119,
+      "baseline_only": 98,
+      "neither": 340,
+      "mcnemar_exact_p": "0.174424"
+    },
+    {
+      "dataset": "hotpot",
+      "subgroup": "bridge",
+      "primary": "EvidenceFirst v6 selector guard",
+      "baseline": "HopRAG strict",
+      "n": 500,
+      "primary_em": "0.4560",
+      "baseline_em": "0.3980",
+      "em_delta": "0.0580",
+      "em_delta_ci95_low": "0.0120",
+      "em_delta_ci95_high": "0.1020",
+      "primary_f1": "0.5689",
+      "baseline_f1": "0.5221",
+      "f1_delta": "0.0468",
+      "f1_delta_ci95_low": "0.0027",
+      "f1_delta_ci95_high": "0.0852",
+      "both_correct": 153,
+      "primary_only": 75,
+      "baseline_only": 46,
+      "neither": 226,
+      "mcnemar_exact_p": "0.010611"
+    },
+    {
+      "dataset": "2wiki",
+      "subgroup": "all",
+      "primary": "EvidenceFirst v6",
+      "baseline": "LightRAG",
+      "n": 500,
+      "primary_em": "0.6900",
+      "baseline_em": "0.6740",
+      "em_delta": "0.0160",
+      "em_delta_ci95_low": "-0.0160",
+      "em_delta_ci95_high": "0.0500",
+      "primary_f1": "0.7581",
+      "baseline_f1": "0.7716",
+      "f1_delta": "-0.0135",
+      "f1_delta_ci95_low": "-0.0441",
+      "f1_delta_ci95_high": "0.0118",
+      "both_correct": 306,
+      "primary_only": 39,
+      "baseline_only": 31,
+      "neither": 124,
+      "mcnemar_exact_p": "0.402963"
+    },
+    {
+      "dataset": "2wiki",
+      "subgroup": "all",
+      "primary": "EvidenceFirst v6",
+      "baseline": "A-RAG",
+      "n": 500,
+      "primary_em": "0.6900",
+      "baseline_em": "0.6660",
+      "em_delta": "0.0240",
+      "em_delta_ci95_low": "-0.0100",
+      "em_delta_ci95_high": "0.0600",
+      "primary_f1": "0.7581",
+      "baseline_f1": "0.7323",
+      "f1_delta": "0.0259",
+      "f1_delta_ci95_low": "-0.0055",
+      "f1_delta_ci95_high": "0.0592",
+      "both_correct": 292,
+      "primary_only": 53,
+      "baseline_only": 41,
+      "neither": 114,
+      "mcnemar_exact_p": "0.256442"
+    }
+  ],
+  "audit_overview": [
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "n": 1000,
+      "chain_complete_rate": "0.5680",
+      "repair_attempt_rate": "0.6370",
+      "repair_to_complete_rate": "0.4349",
+      "fallback_rate": "0.0050",
+      "selector_selected_rate": "0.8210",
+      "posthoc_changed_rate": "0.0210"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "n": 500,
+      "chain_complete_rate": "0.4780",
+      "repair_attempt_rate": "0.6000",
+      "repair_to_complete_rate": "0.2200",
+      "fallback_rate": "0.0000",
+      "selector_selected_rate": "0.7040",
+      "posthoc_changed_rate": "0.0360"
+    }
+  ],
+  "audit_by_state": [
+    {
+      "dataset": "hotpot",
+      "audit_state": "fallback_incomplete",
+      "n": 5,
+      "rate": "0.0050",
+      "em": "0.6000",
+      "f1": "0.7333"
+    },
+    {
+      "dataset": "hotpot",
+      "audit_state": "repaired_complete",
+      "n": 277,
+      "rate": "0.2770",
+      "em": "0.6065",
+      "f1": "0.6836"
+    },
+    {
+      "dataset": "hotpot",
+      "audit_state": "repaired_incomplete",
+      "n": 360,
+      "rate": "0.3600",
+      "em": "0.5667",
+      "f1": "0.6596"
+    },
+    {
+      "dataset": "hotpot",
+      "audit_state": "unrepaired_incomplete",
+      "n": 67,
+      "rate": "0.0670",
+      "em": "0.2985",
+      "f1": "0.4657"
+    },
+    {
+      "dataset": "hotpot",
+      "audit_state": "verified_complete",
+      "n": 291,
+      "rate": "0.2910",
+      "em": "0.5739",
+      "f1": "0.6691"
+    },
+    {
+      "dataset": "2wiki",
+      "audit_state": "repaired_complete",
+      "n": 66,
+      "rate": "0.1320",
+      "em": "0.6818",
+      "f1": "0.7470"
+    },
+    {
+      "dataset": "2wiki",
+      "audit_state": "repaired_incomplete",
+      "n": 234,
+      "rate": "0.4680",
+      "em": "0.6795",
+      "f1": "0.7490"
+    },
+    {
+      "dataset": "2wiki",
+      "audit_state": "unrepaired_incomplete",
+      "n": 27,
+      "rate": "0.0540",
+      "em": "0.6667",
+      "f1": "0.7488"
+    },
+    {
+      "dataset": "2wiki",
+      "audit_state": "verified_complete",
+      "n": 173,
+      "rate": "0.3460",
+      "em": "0.7110",
+      "f1": "0.7762"
+    }
+  ],
+  "audit_by_gap_type": [
+    {
+      "dataset": "hotpot",
+      "gap_type": "complete",
+      "n": 577,
+      "rate": "0.5770",
+      "em": "0.5858",
+      "f1": "0.6720"
+    },
+    {
+      "dataset": "hotpot",
+      "gap_type": "disconnected",
+      "n": 3,
+      "rate": "0.0030",
+      "em": "1.0000",
+      "f1": "1.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "gap_type": "missing_entities",
+      "n": 302,
+      "rate": "0.3020",
+      "em": "0.5596",
+      "f1": "0.6581"
+    },
+    {
+      "dataset": "hotpot",
+      "gap_type": "short_chain",
+      "n": 118,
+      "rate": "0.1180",
+      "em": "0.4407",
+      "f1": "0.5672"
+    },
+    {
+      "dataset": "2wiki",
+      "gap_type": "complete",
+      "n": 239,
+      "rate": "0.4780",
+      "em": "0.7029",
+      "f1": "0.7681"
+    },
+    {
+      "dataset": "2wiki",
+      "gap_type": "disconnected",
+      "n": 11,
+      "rate": "0.0220",
+      "em": "0.4545",
+      "f1": "0.5351"
+    },
+    {
+      "dataset": "2wiki",
+      "gap_type": "missing_entities",
+      "n": 217,
+      "rate": "0.4340",
+      "em": "0.6959",
+      "f1": "0.7667"
+    },
+    {
+      "dataset": "2wiki",
+      "gap_type": "short_chain",
+      "n": 33,
+      "rate": "0.0660",
+      "em": "0.6364",
+      "f1": "0.7035"
+    }
+  ],
+  "audit_label_consistency": [
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "gap_type": "complete",
+      "consistency_rule": "chain_complete=true",
+      "n": 577,
+      "consistent_n": 568,
+      "inconsistent_n": 9,
+      "consistent_rate": "0.9844",
+      "em": "0.5858",
+      "f1": "0.6720"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "gap_type": "disconnected",
+      "consistency_rule": "disconnected_pair_count>0",
+      "n": 3,
+      "consistent_n": 3,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "1.0000",
+      "f1": "1.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "gap_type": "missing_entities",
+      "consistency_rule": "missing_entity_count>0 or missing_entities non-empty",
+      "n": 302,
+      "consistent_n": 302,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.5596",
+      "f1": "0.6581"
+    },
+    {
+      "dataset": "hotpot",
+      "method": "EvidenceFirst v6 selector guard",
+      "gap_type": "short_chain",
+      "consistency_rule": "chain_complete=false and chain_length>0",
+      "n": 118,
+      "consistent_n": 118,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.4407",
+      "f1": "0.5672"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "gap_type": "complete",
+      "consistency_rule": "chain_complete=true",
+      "n": 239,
+      "consistent_n": 239,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.7029",
+      "f1": "0.7681"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "gap_type": "disconnected",
+      "consistency_rule": "disconnected_pair_count>0",
+      "n": 11,
+      "consistent_n": 11,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.4545",
+      "f1": "0.5351"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "gap_type": "missing_entities",
+      "consistency_rule": "missing_entity_count>0 or missing_entities non-empty",
+      "n": 217,
+      "consistent_n": 217,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.6959",
+      "f1": "0.7667"
+    },
+    {
+      "dataset": "2wiki",
+      "method": "EvidenceFirst v6",
+      "gap_type": "short_chain",
+      "consistency_rule": "chain_complete=false and chain_length>0",
+      "n": 33,
+      "consistent_n": 33,
+      "inconsistent_n": 0,
+      "consistent_rate": "1.0000",
+      "em": "0.6364",
+      "f1": "0.7035"
+    }
+  ]
+}

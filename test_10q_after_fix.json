@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "total": 10,
+    "correct": 5,
+    "em": 0.5,
+    "chain_complete": 10,
+    "chain_completeness": 1.0
+  },
+  "results": [
+    {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "question": "What award won by only twelve people has a man who Ted Kooshian has performed with won?",
+      "gold": "EGOT",
+      "pred": "Crucially",
+      "correct": false,
+      "chain_complete": true,
+      "chain_length": 2
+    },
+    {
+      "qid": "5ae0e183554299422ee9953f",
+      "question": "Did Qionghai or Suining  have a population of 658,798 in 2002? ",
+      "gold": "In 2002, Suining had a population of 658,798.",
+      "pred": "Suining",
+      "correct": false,
+      "chain_complete": true,
+      "chain_length": 21
+    },
+    {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "question": "What location is shared by both Great Neck School District and Saddle Rock Elementary School?",
+      "gold": "New York, United States",
+      "pred": "Great Neck, New York",
+      "correct": false,
+      "chain_complete": true,
+      "chain_length": 2
+    },
+    {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "question": "What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?",
+      "gold": "professional wrestler, actor, and hip hop musician",
+      "pred": "WWE wrestler",
+      "correct": false,
+      "chain_complete": true,
+      "chain_length": 2
+    },
+    {
+      "qid": "5ae796af554299540e5a5623",
+      "question": "Where was the capital of the Arab country, in which the Aulacodes peribocalis moth is found, relocated to?  ",
+      "gold": "Aden",
+      "pred": "Aden",
+      "correct": true,
+      "chain_complete": true,
+      "chain_length": 64
+    },
+    {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "question": "Nicole Gordon won a silver medal with Sara Petersen int he women's doubles at a competition held in what city?",
+      "gold": "Manchester",
+      "pred": "we must",
+      "correct": false,
+      "chain_complete": true,
+      "chain_length": 50
+    },
+    {
+      "qid": "5a738b855542992d56e7e363",
+      "question": "Which hospital opened first, St. Elizabeths Hospital or Providence Hospital?",
+      "gold": "St. Elizabeths Hospital",
+      "pred": "St. Elizabeths Hospital",
+      "correct": true,
+      "chain_complete": true,
+      "chain_length": 2
+    },
+    {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "question": "Psychopsis and Aubrieta are both genuses of which type of plants?",
+      "gold": "flowering plants",
+      "pred": "flowering plants",
+      "correct": true,
+      "chain_complete": true,
+      "chain_length": 62
+    },
+    {
+      "qid": "5a840e395542992ef85e239d",
+      "question": "Are both The Straight Story and Frozen films of the same genre?",
+      "gold": "no",
+      "pred": "no",
+      "correct": true,
+      "chain_complete": true,
+      "chain_length": 56
+    },
+    {
+      "qid": "5ae5415055429908b63265b7",
+      "question": "Japanese Weekend School of New York has offices in the entertainment complex in what section of New Rochelle?",
+      "gold": "Downtown",
+      "pred": "Downtown",
+      "correct": true,
+      "chain_complete": true,
+      "chain_length": 70
+    }
+  ]
+}

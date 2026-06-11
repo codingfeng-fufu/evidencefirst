@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,llm_calls,switches,acceptance_not_target,acceptance_chose_current,acceptance_absence_reason,acceptance_accepted,acceptance_error,qtype_person,qtype_comparison,qtype_number_date,qtype_other,qtype_location
+internal_conflict_adjudicator,1000,0.559,0.6591,20,20,1,980,17,1,1,1,3,4,4,6,3

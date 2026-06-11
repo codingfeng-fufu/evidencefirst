@@ -1,0 +1,2 @@
+mode,n,EM,F1,target_replacements,switches,target_selected_current_v2,target_selected_adjudicator,target_confidence_low,target_confidence_high,target_confidence_medium
+targeted_oracle61_qwenmax_labelonly_full,1000,0.561,0.6627,61,8,53,8,14,42,5

@@ -1,0 +1,2702 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "But",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.8827,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9961,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York, USA",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.9221,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.5126,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.8312,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.5565,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "Providence Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.4921,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.7423,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.1421,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown section",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.6771,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "Edward Keonjian",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.7391,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.8463,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "William Dwight Schultz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0954,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "Philadelphia Eagles",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.7395,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.0576,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.8831,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "- and",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.4305,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.8721,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "The Captain Matchbox Whoopee Band",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9893,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2921,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a85fa815542996432c57155": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85fa815542996432c57155",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.6839,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a89e4585542992e4fca8454": {
+    "answer": "And: \"Adolphus 'Dolph' Pulliam -- played collegiately at --> Drake University",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a89e4585542992e4fca8454",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.0244,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7148d25542994082a3e766": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7148d25542994082a3e766",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.556,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab29c24554299449642c932": {
+    "answer": "However, the question is factual and expects a yes/no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab29c24554299449642c932",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.9034,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7cdcbf55429907fabef04f": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.3819,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a863114554299211dda2aa5": {
+    "answer": "Therefore, based solely on the provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a863114554299211dda2aa5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.311,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adec53655429975fa854f87": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adec53655429975fa854f87",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.6637,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9288,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab7de455542992aa3b8c864": {
+    "answer": "Grammy awards",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7de455542992aa3b8c864",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.9144,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a84d80c5542992a431d1ab5": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.2224,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a85a2845542997175ce1fe1": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85a2845542997175ce1fe1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.0945,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adcfbf45542990d50227d86": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcfbf45542990d50227d86",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.8675,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7d2afd5542995f4f402221": {
+    "answer": "cannot be determined",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7d2afd5542995f4f402221",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.7671,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7d1e685542995ed0d165f7": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.9769,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab439f055429942dd415eef": {
+    "answer": "Dane County Regional Airport",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab439f055429942dd415eef",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.1833,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8d4cf35542994ba4e3dc5f": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.4237,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5add016e5542992c1e3a250b": {
+    "answer": "no such event",
+    "iterations": 1,
+    "usage": {
+      "qid": "5add016e5542992c1e3a250b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.8793,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac4efa85542991943173a04": {
+    "answer": "same number",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4efa85542991943173a04",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.842,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "But perhaps the question expects “Grammy Award for Best Rock",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.0602,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83880e554299123d8c214e": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83880e554299123d8c214e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.3151,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7458ff55429979e2882918": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7458ff55429979e2882918",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.7049,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.7183,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfff0755429925eb1afbce": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfff0755429925eb1afbce",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.6755,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7283355542991f9a20c4b1": {
+    "answer": "Frederick Barbarossa",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7283355542991f9a20c4b1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0365,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8fa2955542992414482b11": {
+    "answer": "Bougainville – Our Island Our Fight",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8fa2955542992414482b11",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.1308,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a888abc5542997e5c09a604": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a888abc5542997e5c09a604",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.1307,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.1844,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae446fc5542995ad6573d24": {
+    "answer": "Gloria Trevi",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae446fc5542995ad6573d24",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.7746,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "rhythm guitar",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.7037,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.7204,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac23f5655429951e9e684d9": {
+    "answer": "China",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac23f5655429951e9e684d9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.2743,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab5d4eb5542992aa134a3aa": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab5d4eb5542992aa134a3aa",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.0385,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a75f0bf5542994ccc91866b": {
+    "answer": "Pelle Almqvist",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a75f0bf5542994ccc91866b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.8056,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7129685542994082a3e5fa": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7129685542994082a3e5fa",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.1999,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7220f055429971e9dc92ac": {
+    "answer": "Volvo 850",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7220f055429971e9dc92ac",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.3336,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8787915542996e4f30882e": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8787915542996e4f30882e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.2915,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.8287,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7b63eb55429931da12ca7e": {
+    "answer": "Albany",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b63eb55429931da12ca7e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9397,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfee9c55429906c02daa8a": {
+    "answer": "But",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfee9c55429906c02daa8a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.4224,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae33fa95542990afbd1e0f2": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae33fa95542990afbd1e0f2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9169,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab7fa4f5542993667794080": {
+    "answer": "neither",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7fa4f5542993667794080",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 11.321,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a70f0a75542994082a3e403": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a70f0a75542994082a3e403",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.721,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae74eeb5542991bbc9761e1": {
+    "answer": "PET",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae74eeb5542991bbc9761e1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.7311,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab71b5c5542991d3222377e": {
+    "answer": "none",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab71b5c5542991d3222377e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.6471,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab96c93554299743d22eb63": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab96c93554299743d22eb63",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.5588,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "- Wait: instruction says “Use ONLY the knowledge graph",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.6264,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac24ad7554299636651995a": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac24ad7554299636651995a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.3029,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0432a55429924de1b7081": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0432a55429924de1b7081",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.6036,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a887898554299206df2b2a2": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a887898554299206df2b2a2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.6878,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a861ea85542994775f60700": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a861ea85542994775f60700",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0432,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae457a95542996836b02c85": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae457a95542996836b02c85",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.3497,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8f799d55429918e830d22d": {
+    "answer": "Myrsine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f799d55429918e830d22d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.095,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8cc08455429941ae14deea": {
+    "answer": "Re-examining: Is there *any* triple stating Briana Corrigan’s nationality",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8cc08455429941ae14deea",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.8797,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae6fee3554299572ea54670": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae6fee3554299572ea54670",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.7591,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abdff775542993f32c2a082": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abdff775542993f32c2a082",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.381,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a70b355429941d65f2647": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a70b355429941d65f2647",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.5392,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a87bada5542994846c1cddc": {
+    "answer": "Murray Hill",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a87bada5542994846c1cddc",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.5397,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "3",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.8862,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae55d1e55429960a22e02cb": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.611,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7ce100554299683c1c63b5": {
+    "answer": "Hayley Williams",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ce100554299683c1c63b5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.7741,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5add60905542995b365fab1d": {
+    "answer": "nothing",
+    "iterations": 1,
+    "usage": {
+      "qid": "5add60905542995b365fab1d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.5976,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac4f9db55429924173fb532": {
+    "answer": "genus",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4f9db55429924173fb532",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.0571,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf043b5542993a75d263d4": {
+    "answer": "Charles Joseph Scarborough",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf043b5542993a75d263d4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.4015,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8ad6db55429950cd6afba7": {
+    "answer": "Sufism",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8ad6db55429950cd6afba7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 13.9206,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfed5e55429942ec259b92": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfed5e55429942ec259b92",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.346,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8f51185542992414482a3d": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f51185542992414482a3d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.0645,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a893fc855429951533612f0": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a893fc855429951533612f0",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.5265,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae34a225542992e3233c370": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae34a225542992e3233c370",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.5721,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7e08b55542997cc2c474fe": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7e08b55542997cc2c474fe",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 13.6829,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac1b8ee5542994d76dccedc": {
+    "answer": "But the question is phrased",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac1b8ee5542994d76dccedc",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.9312,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a74bdce55429929fddd84e1": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a74bdce55429929fddd84e1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.1759,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a81028b55429938b614228a": {
+    "answer": "Aliens of the Deep",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a81028b55429938b614228a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.3289,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac3d4b6554299204fd21e93": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac3d4b6554299204fd21e93",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.3468,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72f74a55429901807daf59": {
+    "answer": "none",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72f74a55429901807daf59",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 11.1831,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab9988b554299131ca4238e": {
+    "answer": "none",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab9988b554299131ca4238e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 15.7558,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf75e35542993344016c98": {
+    "answer": "The Entity",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf75e35542993344016c98",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.4758,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a726b0f5542997f827839be": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a726b0f5542997f827839be",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.3811,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab6ba045542995eadef007e": {
+    "answer": "The Picture of Dorian Gray",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab6ba045542995eadef007e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.6427,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac2cb125542996773102626": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac2cb125542996773102626",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.2979,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abdf68c5542993f32c2a06b": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abdf68c5542993f32c2a06b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 2.4147,
+      "mode": "no_verif",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  }
+}

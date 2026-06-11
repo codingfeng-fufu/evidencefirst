@@ -1,0 +1,677 @@
+{
+  "5a7774e155429967ab10518d": {
+    "answer": "Walt Disney Pictures",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7774e155429967ab10518d",
+      "llm_calls": 10,
+      "input_tokens": 6802,
+      "output_tokens": 1040,
+      "total_tokens": 7842,
+      "wall_time": 47.4705,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac156d05542994ab5c67ce9": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac156d05542994ab5c67ce9",
+      "llm_calls": 10,
+      "input_tokens": 6980,
+      "output_tokens": 1810,
+      "total_tokens": 8790,
+      "wall_time": 43.6683,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "Lake Worth Lagoon",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 4,
+      "input_tokens": 3209,
+      "output_tokens": 293,
+      "total_tokens": 3502,
+      "wall_time": 8.0683,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab510cb5542996a3a96a00f": {
+    "answer": "yes",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab510cb5542996a3a96a00f",
+      "llm_calls": 10,
+      "input_tokens": 7032,
+      "output_tokens": 2769,
+      "total_tokens": 9801,
+      "wall_time": 64.377,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a77c74155429967ab105291": {
+    "answer": "Vib Gyor",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a77c74155429967ab105291",
+      "llm_calls": 4,
+      "input_tokens": 2858,
+      "output_tokens": 191,
+      "total_tokens": 3049,
+      "wall_time": 6.489,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a71278c5542994082a3e5e2": {
+    "answer": "Zion Williamson",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a71278c5542994082a3e5e2",
+      "llm_calls": 10,
+      "input_tokens": 6215,
+      "output_tokens": 778,
+      "total_tokens": 6993,
+      "wall_time": 21.8533,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 10,
+      "input_tokens": 7357,
+      "output_tokens": 2676,
+      "total_tokens": 10033,
+      "wall_time": 62.3551,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abb61c0554299642a094a86": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abb61c0554299642a094a86",
+      "llm_calls": 10,
+      "input_tokens": 6047,
+      "output_tokens": 954,
+      "total_tokens": 7001,
+      "wall_time": 26.4407,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7c99705542990527d554de": {
+    "answer": "none",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7c99705542990527d554de",
+      "llm_calls": 10,
+      "input_tokens": 7410,
+      "output_tokens": 1427,
+      "total_tokens": 8837,
+      "wall_time": 35.1215,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfc77b554299603e4183ab": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfc77b554299603e4183ab",
+      "llm_calls": 10,
+      "input_tokens": 7000,
+      "output_tokens": 1468,
+      "total_tokens": 8468,
+      "wall_time": 36.5913,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae38b115542990afbd1e183": {
+    "answer": "George Albert Smith",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae38b115542990afbd1e183",
+      "llm_calls": 4,
+      "input_tokens": 3239,
+      "output_tokens": 336,
+      "total_tokens": 3575,
+      "wall_time": 9.5552,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac097b05542996f0d89cc18": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac097b05542996f0d89cc18",
+      "llm_calls": 4,
+      "input_tokens": 3256,
+      "output_tokens": 687,
+      "total_tokens": 3943,
+      "wall_time": 17.6269,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a900b575542995b44242099": {
+    "answer": "Christopher Guest",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a900b575542995b44242099",
+      "llm_calls": 4,
+      "input_tokens": 3052,
+      "output_tokens": 552,
+      "total_tokens": 3604,
+      "wall_time": 13.5912,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac2659b55429963665199a1": {
+    "answer": "25",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac2659b55429963665199a1",
+      "llm_calls": 4,
+      "input_tokens": 4425,
+      "output_tokens": 359,
+      "total_tokens": 4784,
+      "wall_time": 9.7653,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae7edee554299540e5a56ad": {
+    "answer": "Canary Islands",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae7edee554299540e5a56ad",
+      "llm_calls": 4,
+      "input_tokens": 3226,
+      "output_tokens": 354,
+      "total_tokens": 3580,
+      "wall_time": 9.538,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7652785542992db9473760": {
+    "answer": "Wolfgang Becker",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7652785542992db9473760",
+      "llm_calls": 4,
+      "input_tokens": 3437,
+      "output_tokens": 321,
+      "total_tokens": 3758,
+      "wall_time": 8.8611,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5aba71b155429955dce3ee2a": {
+    "answer": "first flume ride in Ireland",
+    "iterations": 1,
+    "usage": {
+      "qid": "5aba71b155429955dce3ee2a",
+      "llm_calls": 4,
+      "input_tokens": 3470,
+      "output_tokens": 403,
+      "total_tokens": 3873,
+      "wall_time": 11.1046,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "three singles titles",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 7,
+      "input_tokens": 4877,
+      "output_tokens": 339,
+      "total_tokens": 5216,
+      "wall_time": 10.6382,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "The Rescuers",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 10,
+      "input_tokens": 6706,
+      "output_tokens": 622,
+      "total_tokens": 7328,
+      "wall_time": 19.3962,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "Neither Stephanocereus nor Nepenthes is stated to be indigenous to the western hemisphere in the provided passages",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 10,
+      "input_tokens": 7343,
+      "output_tokens": 2760,
+      "total_tokens": 10103,
+      "wall_time": 64.6571,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adc020a5542994650320c4c": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adc020a5542994650320c4c",
+      "llm_calls": 4,
+      "input_tokens": 2883,
+      "output_tokens": 335,
+      "total_tokens": 3218,
+      "wall_time": 8.8392,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a84b5975542991dd0999da3": {
+    "answer": "Ecclesiastical Province of Ontario",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a84b5975542991dd0999da3",
+      "llm_calls": 10,
+      "input_tokens": 7553,
+      "output_tokens": 497,
+      "total_tokens": 8050,
+      "wall_time": 15.1112,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adce3b95542990d50227d56": {
+    "answer": "director",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adce3b95542990d50227d56",
+      "llm_calls": 4,
+      "input_tokens": 2416,
+      "output_tokens": 429,
+      "total_tokens": 2845,
+      "wall_time": 10.932,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a76404b5542994ccc91873d": {
+    "answer": "Unchained Memories",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a76404b5542994ccc91873d",
+      "llm_calls": 7,
+      "input_tokens": 5009,
+      "output_tokens": 696,
+      "total_tokens": 5705,
+      "wall_time": 17.738,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7633ad5542992db9473741": {
+    "answer": "The Seven Days Battles",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7633ad5542992db9473741",
+      "llm_calls": 10,
+      "input_tokens": 7225,
+      "output_tokens": 541,
+      "total_tokens": 7766,
+      "wall_time": 15.6296,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  }
+}

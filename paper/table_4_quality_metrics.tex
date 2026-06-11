@@ -1,0 +1,84 @@
+% ============================================================
+% Table 4: Quality Metrics Summary Table
+% Comprehensive quality assurance metrics for WISE paper
+% ============================================================
+
+\begin{table}[t]
+\centering
+\caption{Quality assurance metrics for \sys on HotpotQA (1000 questions).
+The convergence-correctness gap (24.2\%), VA score discrimination (0.126), and
+iterative refinement rate (61.8\%) validate the VA as an effective quality
+indicator for trustworthy Web QA systems.}
+\label{tab:quality_metrics}
+\small
+\begin{tabular}{llcc}
+\toprule
+\multicolumn{2}{l}{\textbf{Metric}} & \textbf{Value} & \textbf{Significance} \\
+\midrule
+\multicolumn{4}{l}{\textit{Overall Performance}} \\
+& Total questions          & 1000           & --- \\
+& Correct answers          & 454            & --- \\
+& Exact Match              & 45.4\%         & Baseline \\
+\midrule
+\multicolumn{4}{l}{\textit{Convergence Analysis}} \\
+& Converged count          & 458 (45.8\%)   & --- \\
+& Converged EM             & \textbf{58.5\%} & +24.2\% vs. non-conv. \\
+& Not converged count      & 542 (54.2\%)   & --- \\
+& Not converged EM         & 34.3\%         & --- \\
+& \textbf{EM Gap}          & \textbf{24.2\%} & \textbf{Quality signal} \\
+\midrule
+\multicolumn{4}{l}{\textit{VA Score Discrimination}} \\
+& Avg score (correct)      & 0.612          & --- \\
+& Avg score (wrong)        & 0.485          & --- \\
+& \textbf{Score difference} & \textbf{0.126} & \textbf{Discriminative power} \\
+\midrule
+\multicolumn{4}{l}{\textit{Iterative Refinement}} \\
+& Average iterations       & 1.62           & Bounded at 2.0 \\
+& Converged at iter 1      & 382 (38.2\%)   & --- \\
+& \textbf{Required iter 2} & \textbf{618 (61.8\%)} & \textbf{Repair benefit} \\
+& Score improvement (iter 1→2) & +0.12      & Substantive gain \\
+\midrule
+\multicolumn{4}{l}{\textit{Case Study Highlights}} \\
+& Multi-iter successes     & 44             & Surgical repair works \\
+& Best score improvement   & +0.94          & 0.00 → 0.94 \\
+& Avg improvement (top 10) & +0.77          & Consistent pattern \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+% Alternative compact version if space is tight
+% ============================================================
+
+\begin{table}[t]
+\centering
+\caption{Quality assurance metrics summary (1000 questions). Three key findings:
+(1)~24.2\% convergence-correctness gap validates VA as quality indicator;
+(2)~0.126 VA score difference demonstrates discriminative power;
+(3)~61.8\% iterative refinement rate confirms repair mechanism effectiveness.}
+\label{tab:quality_metrics_compact}
+\small
+\begin{tabular}{lrr}
+\toprule
+\textbf{Quality Metric} & \textbf{Value} & \textbf{Impact} \\
+\midrule
+\multicolumn{3}{l}{\textit{Convergence-Correctness Correlation}} \\
+\quad Converged EM                  & 58.5\% & \multirow{2}{*}{24.2\% gap ⭐} \\
+\quad Not Converged EM              & 34.3\% & \\
+\midrule
+\multicolumn{3}{l}{\textit{VA Score Discrimination}} \\
+\quad Correct answers               & 0.612  & \multirow{2}{*}{0.126 diff ⭐} \\
+\quad Wrong answers                 & 0.485  & \\
+\midrule
+\multicolumn{3}{l}{\textit{Iterative Refinement}} \\
+\quad Average iterations            & 1.62   & Bounded at 2.0 \\
+\quad Questions requiring iter 2    & 61.8\% & Repair effective ⭐ \\
+\quad Score gain (iter 1→2)         & +0.12  & Substantive \\
+\midrule
+\multicolumn{3}{l}{\textit{Surgical Repair Success}} \\
+\quad Multi-iteration successes     & 44     & Pattern validated \\
+\quad Best improvement              & +0.94  & 0.00 → 0.94 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

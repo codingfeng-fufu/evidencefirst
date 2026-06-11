@@ -1,0 +1,5 @@
+type,n,em,f1,support_title_recall,evidence_entity_coverage
+bridge_comparison,112,0.9375,0.9375,1.0,0.9361
+comparison,119,0.958,0.9652,1.0,0.8917
+compositional,218,0.4541,0.5626,1.0,0.9851
+inference,51,0.5294,0.7167,1.0,0.9346

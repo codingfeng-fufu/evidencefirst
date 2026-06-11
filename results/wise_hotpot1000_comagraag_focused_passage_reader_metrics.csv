@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,switches,acceptance_not_target,acceptance_same_as_current,acceptance_not_grounded,acceptance_accepted,acceptance_should_switch_false,acceptance_not_high_confidence,target_number_date,target_location,target_person
+focused_passage_reader,1000,0.553,0.6553,100,4,900,81,1,4,2,12,82,15,3

@@ -1,0 +1,9 @@
+dataset,gap_type,n,rate,em,f1
+hotpot,complete,577,0.5770,0.5858,0.6720
+hotpot,disconnected,3,0.0030,1.0000,1.0000
+hotpot,missing_entities,302,0.3020,0.5596,0.6581
+hotpot,short_chain,118,0.1180,0.4407,0.5672
+2wiki,complete,239,0.4780,0.7029,0.7681
+2wiki,disconnected,11,0.0220,0.4545,0.5351
+2wiki,missing_entities,217,0.4340,0.6959,0.7667
+2wiki,short_chain,33,0.0660,0.6364,0.7035

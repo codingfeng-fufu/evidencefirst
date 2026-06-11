@@ -1,0 +1,2 @@
+mode,variant,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+full,evidence_first_v6,3,500,0.392,0.4582,1.0,500,6.03,6740.8,922.66,23.281

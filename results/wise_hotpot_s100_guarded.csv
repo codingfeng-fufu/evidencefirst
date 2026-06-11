@@ -1,0 +1,2 @@
+mode,variant,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+full,default,2,50,0.5,0.6062,1.58,50,5.74,4180.94,651.0,17.1943

@@ -1,0 +1,75 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 1,
+    "ablation": "without_verification",
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 4,
+      "input_tokens": 3967,
+      "output_tokens": 1250,
+      "total_tokens": 5217,
+      "wall_time": 55.161,
+      "mode": "full",
+      "ablation": "without_verification",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_ablation": "without_verification",
+      "evidence_first_verification_disabled": true,
+      "evidence_first_repair_disabled": true,
+      "evidence_first_reader_context_disabled": false,
+      "evidence_first_answer_refinement_disabled": false,
+      "evidence_first_answer_type": "",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 44,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "EGOT",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check_disabled",
+        "ablation": "without_verification"
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unless",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The evidence",
+        "answer": "EGOT",
+        "selected": true
+      }
+    ]
+  }
+}

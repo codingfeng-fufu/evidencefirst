@@ -1,0 +1,78 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "But wait — the question might be interpreted",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 7,
+      "input_tokens": 4945,
+      "output_tokens": 1927,
+      "total_tokens": 6872,
+      "wall_time": 68.1065,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which award has been won by only twelve people?",
+          "Which person who has performed with Ted Kooshian has won that award?"
+        ],
+        "n_triples": 41,
+        "evidence_aug": {
+          "enabled": false,
+          "question_type": "",
+          "n_passages": 0,
+          "n_candidates": 0,
+          "candidates": []
+        },
+        "answer": "But wait — the question might be interpreted",
+        "score": 0.3,
+        "feedback": "Missing: the name of the award won by only twelve people and which one of Ted Kooshian's collaborators (e.g., Robert Lopez, Marvin Hamlisch, Sarah Brightman, etc.) has won it. Suggested sub-question: Which of Ted Kooshian's collaborators has won the EGOT (Emmy, Grammy, Oscar, Tony), and is that the award won by only twelve people?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "What is the EGOT award?",
+          "Which people have won the EGOT?",
+          "How many people have won the EGOT?",
+          "Which of Ted Kooshian's collaborators has won the EGOT?"
+        ],
+        "n_triples": 47,
+        "evidence_aug": {
+          "enabled": false,
+          "question_type": "",
+          "n_passages": 0,
+          "n_candidates": 0,
+          "candidates": []
+        },
+        "answer": "Let’s search again — is there *any* overlap",
+        "score": 0.3,
+        "feedback": "Missing: the name of the award won by only twelve people and which one of Ted Kooshian's collaborators has won it. Suggested sub-question: Which award has been won by exactly twelve people, and has any person Ted Kooshian has performed with (e.g., Aretha Franklin, Marvin Hamlisch, Sarah Brightman, etc.) won that award?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "EGOT",
+        "selected": false
+      }
+    ]
+  }
+}

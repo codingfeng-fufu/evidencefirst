@@ -1,0 +1,145 @@
+% ============================================================
+% Updated Table 1: Comparison with Prior Systems (WISE version)
+% Added Traceability column and adjusted descriptions
+% ============================================================
+
+\begin{table}[t]
+\centering
+\caption{Comparison of \sys with closest prior systems. \sys is the only system
+combining GraphRAG retrieval, sub-query-level quality verification, and traceable
+diagnostic output---addressing three core requirements for trustworthy Web
+information systems.}
+\label{tab:comparison}
+\small
+\begin{tabular}{lccccc}
+\toprule
+System &
+  \begin{tabular}[c]{@{}c@{}}KG\\retrieval\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Sub-query\\decomp.\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Quality\\verification\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Traceable\\diagnostics\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Training-\\free\end{tabular} \\
+\midrule
+IRCoT~\cite{trivedi2022ircot}
+  & -- & Implicit & -- & -- & \checkmark \\
+Self-RAG~\cite{asai2023selfrag}
+  & -- & -- & Token-level & -- & (P) \\
+FAIR-RAG~\cite{fairrag2025}
+  & -- & -- & Evidence gaps & -- & \checkmark \\
+A-RAG~\cite{arag2026}
+  & -- & Implicit & -- & Tool logs & \checkmark \\
+HopRAG~\cite{yu2025hoprag}
+  & \checkmark & -- & -- & -- & \checkmark \\
+GraphRAG~\cite{edge2024graphrag}
+  & \checkmark & -- & -- & -- & \checkmark \\
+StepChain~\cite{stepchain2025}
+  & \checkmark & Implicit & -- & -- & \checkmark \\
+CatRAG~\cite{catrag2025}
+  & \checkmark & -- & -- & -- & \checkmark \\
+\midrule
+\textbf{\sys (ours)}
+  & \checkmark & \checkmark & \textbf{Sub-query-level} & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}
+\vspace{0.3em}
+
+{\footnotesize
+\checkmark = supported; -- = not supported; (P) = requires parameter training.
+\textbf{Quality verification}: Self-RAG operates at token level and requires training;
+FAIR-RAG detects evidence gaps but without component attribution; \sys verifies
+at sub-query level with targeted diagnostics.
+\textbf{Traceable diagnostics}: A-RAG logs tool calls (what happened); \sys
+produces structured diagnostics (what failed and why).
+}
+\end{table}
+
+% ============================================================
+% Alternative wider version with more detailed descriptions
+% ============================================================
+
+\begin{table*}[t]
+\centering
+\caption{Detailed comparison of \sys with closest prior systems across five
+dimensions central to trustworthy Web KG-RAG. The \emph{Traceable diagnostics}
+column distinguishes passive logging (A-RAG) from active diagnostic output
+(\sys). Only \sys provides all five capabilities.}
+\label{tab:comparison_detailed}
+\small
+\begin{tabular}{lp{1.8cm}p{2cm}p{2.5cm}p{2.5cm}p{1.5cm}}
+\toprule
+\textbf{System} &
+  \textbf{KG retrieval} &
+  \textbf{Sub-query decomposition} &
+  \textbf{Quality verification} &
+  \textbf{Traceable diagnostics} &
+  \textbf{Training-free} \\
+\midrule
+IRCoT &
+  No (BM25) &
+  Implicit in CoT &
+  No verification &
+  No &
+  Yes \\
+Self-RAG &
+  No (dense) &
+  No &
+  Token-level reflection tokens &
+  No structured output &
+  No (requires RL) \\
+FAIR-RAG &
+  No (dense) &
+  No &
+  Evidence gap detection (set-level) &
+  No &
+  Yes \\
+A-RAG &
+  No (adaptive flat) &
+  Implicit (tool calls) &
+  No verification &
+  Tool call logs (what happened) &
+  Yes \\
+HopRAG &
+  Yes (passage graph) &
+  No &
+  No verification &
+  No &
+  Yes \\
+GraphRAG &
+  Yes (community) &
+  No &
+  No verification &
+  No &
+  Yes \\
+StepChain &
+  Yes (BFS + CoT) &
+  Implicit in CoT &
+  No verification &
+  No &
+  Yes \\
+CatRAG &
+  Yes (category-aware) &
+  No &
+  No verification &
+  No &
+  Yes \\
+\midrule
+\textbf{\sys} &
+  \textbf{Yes (task-specific)} &
+  \textbf{Explicit (QDA)} &
+  \textbf{Sub-query-level (VA)} &
+  \textbf{Structured diagnostics (what failed, why)} &
+  \textbf{Yes} \\
+\bottomrule
+\end{tabular}
+\vspace{0.5em}
+
+{\footnotesize
+The \emph{Quality verification} column tells the central story: IRCoT, HopRAG,
+and A-RAG iterate but never verify; FAIR-RAG and Self-RAG verify but without KG
+retrieval or sub-query attribution; GraphRAG, StepChain, and CatRAG retrieve
+from KGs but return answers without quality checks. \sys is the only system
+combining KG retrieval, explicit sub-query decomposition, and sub-query-level
+quality verification with traceable diagnostic output.
+}
+\end{table*}
+

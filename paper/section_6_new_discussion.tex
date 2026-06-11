@@ -1,0 +1,181 @@
+% ============================================================
+% Section 6.1 & 6.4: New Discussion sections for WISE
+% Quality Assurance for Web Systems and Deployment Implications
+% ============================================================
+
+\subsection{Quality Assurance for Trustworthy Web Systems}
+
+Web information systems serving critical applications---medical diagnosis support,
+legal research, financial advisory, scientific literature review---require not
+only accurate answers but \emph{trustworthy} answers: outputs whose quality can
+be assessed, whose reasoning can be traced, and whose failures can be detected
+and explained. The keynote theme for WISE 2026, ``Ensuring Quality in LLM-Driven
+Agents''~\cite{benatallah2026keynote}, emphasizes this shift from pure accuracy
+metrics to comprehensive quality assurance as the central challenge for deploying
+LLM-based Web systems in production.
+
+\sys demonstrates three architectural principles for trustworthy GraphRAG that
+directly address this challenge:
+
+\smallskip
+\noindent\textbf{1. Verification as first-class component, not afterthought.}
+The VA is not a post-processing check or an optional evaluation step---it is a
+core component of the inference pipeline, executed on every question, with its
+output directly steering the retrieval-repair loop. This design ensures that
+\emph{every} answer comes with a quality signal ($s \in [0,1]$) and a diagnostic
+record, making quality assessment intrinsic rather than external. The 24.2\%
+convergence-correctness gap (Section~\ref{sec:quality_analysis}) validates that
+this intrinsic verification provides actionable quality information.
+
+\smallskip
+\noindent\textbf{2. Traceability by design, not logging.}
+The VA's diagnostic output (Eq.~\ref{eq:feedback}) is not an execution log or
+attention heatmap but a \emph{structured natural-language record} identifying
+which sub-query failed, why, and what specific information is missing. This
+record serves dual purposes: it enables surgical repair (Figure~\ref{fig:case_study_flow})
+and it provides auditability for regulated domains. A medical QA system can
+present the VA's diagnostic to a clinician explaining why an answer is uncertain;
+a legal research tool can log the diagnostic for compliance auditing; a
+conversational agent can surface it as a user-facing explanation of retrieval
+limitations.
+
+\smallskip
+\noindent\textbf{3. Bounded quality guarantees for production deployment.}
+Proposition~1 bounds inference cost at $4N$ LLM calls; Proposition~2 guarantees
+monotone best-answer tracking. These formal properties ensure that \sys's quality
+assurance mechanism comes with \emph{predictable overhead} and a \emph{reliable
+quality floor}---essential for Web systems operating under latency constraints
+or serving queries at scale. The average of 1.62 iterations (Table~\ref{tab:iteration_breakdown})
+confirms that the bound is tight in practice.
+
+The quality analysis in Section~\ref{sec:quality_analysis} validates these
+principles empirically: VA convergence predicts correctness (24.2\% gap), VA
+scores discriminate answer quality (0.126 separation), and surgical repair
+recovers from retrieval failures (61.8\% questions benefit from refinement).
+Together, these findings establish that sub-query-level quality verification
+is not merely a performance optimization but a fundamental architectural shift
+toward trustworthy GraphRAG for Web systems.
+
+The broader implication for the WISE community: as GraphRAG becomes the dominant
+paradigm for knowledge-intensive Web applications, the research challenge shifts
+from \emph{retrieval accuracy} (can we retrieve the right triples?) to
+\emph{trustworthy retrieval} (can we verify that retrieval succeeded, explain
+when it failed, and provide quality guarantees for production deployment?). \sys
+demonstrates that this shift is architecturally feasible through verification-driven
+design, and the empirical gains validate that trustworthiness and accuracy are
+not in conflict---they reinforce each other.
+
+\subsection{Implications for Web System Deployment}
+
+Deploying GraphRAG systems in production Web environments requires careful
+consideration of the accuracy--cost--trustworthiness tradeoff. We discuss \sys's
+deployment characteristics and compare them to the strongest baselines from the
+1000-question HotpotQA evaluation (Table~\ref{tab:hotpot1000}).
+
+\smallskip
+\noindent\textbf{Inference cost.}
+\sys averages 1.62 iterations $\times$ 4 agents = 6.5 LLM calls per question,
+plus $\sim$5 calls for task-specific KG construction, totaling $\sim$11.5 calls
+per question. This is $\sim$11.5$\times$ Naive RAG (1 call) but comparable to
+other multi-step systems: A-RAG averages 5.0 calls (4.03 retrieval loops + 1
+final answer extraction), IRCoT averages 2.75 calls. HopRAG does not report
+per-question call counts but performs retrieve-reason-prune over a passage graph,
+implying multiple LLM invocations per question.
+
+The cost premium is justified by the dual benefits: \sys delivers both
+\emph{competitive accuracy} (55.3\% EM pure selector, 58.4\% EM with consensus
+reranking; Table~\ref{tab:hotpot1000}) and \emph{trustworthy outputs} (quality
+scores, convergence signals, traceable diagnostics). For Web applications where
+answer trustworthiness is critical---medical QA, legal research, financial
+advisory---this tradeoff is favorable.
+
+\smallskip
+\noindent\textbf{When to use \sys vs. alternatives.}
+\begin{itemize}
+  \item \textbf{Use \sys when}: (1)~the application domain requires auditable
+        reasoning (healthcare, finance, legal), (2)~silent retrieval failures
+        are unacceptable (safety-critical systems), (3)~downstream systems need
+        per-answer confidence signals for decision-making, or (4)~the system
+        must explain \emph{why} it cannot answer rather than returning a
+        likely-wrong answer.
+
+  \item \textbf{Use A-RAG or HopRAG when}: Raw accuracy is the primary objective,
+        latency constraints are tight, and quality assurance is handled externally
+        (e.g., human review of all outputs). A-RAG reaches 51.7\% EM with adaptive
+        multi-step retrieval; HopRAG reaches 54.7\% EM with passage-graph pruning.
+        Both are faster than \sys but provide no intrinsic quality verification.
+
+  \item \textbf{Use Naive RAG or LightRAG when}: The task does not require
+        multi-hop reasoning, the KG construction overhead is prohibitive, or the
+        system operates in a high-throughput, low-latency regime where single-pass
+        retrieval is mandatory.
+\end{itemize}
+
+\smallskip
+\noindent\textbf{Latency and throughput considerations.}
+At $\sim$11.5 LLM calls per question, \sys's end-to-end latency depends on the
+LLM backend. With a frontier model (e.g., GPT-4, Claude) at $\sim$2--5s per call,
+total latency is $\sim$23--58s per question assuming sequential execution. This
+is acceptable for non-interactive Web applications (research tools, report
+generation, batch QA) but too slow for conversational agents requiring
+sub-second response times. Two mitigation strategies:
+\begin{enumerate}
+  \item \textbf{Parallel agent execution.} QDA, GRA, AGA calls within a single
+        iteration can be pipelined (GRA waits for QDA; AGA waits for GRA), but
+        the four agents of iteration~$t$ need not block iteration~$t{+}1$ if
+        speculative execution is permitted. A speculative second iteration can
+        begin before the VA completes, trading compute for latency.
+
+  \item \textbf{Hybrid tiering.} Route simple questions (single-hop, high
+        initial BM25 confidence) to Naive RAG; route complex questions requiring
+        multi-hop reasoning or low-confidence initial retrieval to \sys. A
+        lightweight classifier (e.g., question type, BM25 top-score gap) can
+        perform this routing with negligible overhead.
+\end{enumerate}
+
+\smallskip
+\noindent\textbf{Persistent vs. task-specific KGs.}
+\sys builds a task-specific KG per question from supporting passages
+(Definition~4), averaging 148 nodes and 213 edges per HotpotQA question. This
+trades KG construction cost ($\sim$5 LLM calls) for compactness (no irrelevant
+triples) and eliminates large-scale entity disambiguation. For enterprise
+deployment, a \emph{persistent domain KG} built offline from a curated corpus
+eliminates per-question KG construction but requires (1)~a disambiguation layer
+for entity linking and (2)~KG maintenance as the knowledge source evolves. The
+modular design (Design Principle~P1, Section~\ref{sec:principles}) ensures that
+swapping task-specific KG construction for persistent KG lookup requires only
+GRA prompt adjustments with no change to the VA, QDA, or AGA.
+
+\smallskip
+\noindent\textbf{Regulatory and compliance contexts.}
+For Web systems subject to regulatory oversight (e.g., FDA-regulated clinical
+decision support, financial advisory under fiduciary duty, legal research tools
+in discovery), \sys's traceable diagnostics provide a compliance advantage over
+black-box GraphRAG systems. The VA's diagnostic record can be logged for audit
+trails, presented to domain experts for validation, or surfaced to end-users as
+explanations. The 24.2\% convergence-correctness gap (Table~\ref{tab:convergence_quality})
+provides a quantitative basis for setting quality thresholds: a system requiring
+95\% precision might refuse to answer when $s < 0.7$, trading recall for
+trustworthiness.
+
+\smallskip
+\noindent\textbf{Generalization beyond multi-hop QA.}
+The three design principles (Section~\ref{sec:principles}) apply to any Web
+knowledge retrieval task where intermediate steps can fail silently:
+entity-centric fact verification (verify claims against a KG, detect unsupported
+statements), structured Web search (retrieve entity attributes, verify
+completeness), open-domain QA with KG augmentation (retrieve from both text and
+KG, verify consistency). The verification-driven architecture is task-agnostic;
+only the QDA and GRA prompts need task-specific adaptation.
+
+\smallskip
+\noindent\textbf{Summary.}
+\sys is production-ready for Web applications prioritizing trustworthiness over
+raw throughput. Its bounded cost ($\sim$11.5 calls/question), monotone quality
+guarantees (Proposition~2), and training-free deployment (no fine-tuning, no
+proprietary data) make it deployable via API-accessible LLMs. The quality
+assurance mechanisms---convergence signals, diagnostic records, sub-query-level
+verification---address the core requirements for regulated domains and
+safety-critical Web systems. For applications where silent retrieval failure is
+unacceptable, \sys provides an architecturally sound path to trustworthy GraphRAG.
+

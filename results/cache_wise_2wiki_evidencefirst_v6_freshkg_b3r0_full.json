@@ -1,0 +1,578 @@
+{
+  "9042f8900bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "9042f8900bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 25.7866,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "885ba7220bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "885ba7220bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.6426,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "07fd4f9b088011ebbd6cac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "07fd4f9b088011ebbd6cac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.293,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "d2781aee086611ebbd5eac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "d2781aee086611ebbd5eac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.7182,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "1869092c0bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "1869092c0bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3541,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "46c7082a0bdb11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "46c7082a0bdb11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.8237,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "ba6473160bdc11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "ba6473160bdc11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.7411,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "3d624700088311ebbd6dac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "3d624700088311ebbd6dac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 3.9243,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "5eb334660bdd11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "5eb334660bdd11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5689,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "3004bc240bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "3004bc240bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0342,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "f7e2a6340bd911eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "f7e2a6340bd911eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.0976,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "039006b80bb011ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "039006b80bb011ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.1268,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "43d525ba0baf11ebab90acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "43d525ba0baf11ebab90acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.9877,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "385457c20bde11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "385457c20bde11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.3417,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "ce9c3713087e11ebbd6bac1f6bf848b6": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "ce9c3713087e11ebbd6bac1f6bf848b6",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.1035,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "9132b8d80bda11eba7f7acde48001122": {
+    "answer": "",
+    "iterations": 1,
+    "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+    "usage": {
+      "qid": "9132b8d80bda11eba7f7acde48001122",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.9417,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "CUDA error: out of memory\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"
+    }
+  },
+  "7f46db180bda11eba7f7acde48001122": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f46db180bda11eba7f7acde48001122",
+      "llm_calls": 4,
+      "input_tokens": 4065,
+      "output_tokens": 473,
+      "total_tokens": 4538,
+      "wall_time": 20.33,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "unknown",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "0c55bf3e0bda11eba7f7acde48001122": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "0c55bf3e0bda11eba7f7acde48001122",
+      "llm_calls": 10,
+      "input_tokens": 26409,
+      "output_tokens": 2348,
+      "total_tokens": 28757,
+      "wall_time": 57.1437,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 60,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Younger's"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "unknown",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 30,
+          "triples_added": 30,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5ca68dee08b811ebbd88ac1f6bf848b6": {
+    "answer": "Juan José López-Ibor Aliño",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ca68dee08b811ebbd88ac1f6bf848b6",
+      "llm_calls": 5,
+      "input_tokens": 3288,
+      "output_tokens": 391,
+      "total_tokens": 3679,
+      "wall_time": 10.6244,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "comparison",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Juan José López-Ibor Aliño",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 5,
+          "triples_added": 5,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Juan José López-Ibor Aliño",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Juan José López-Ibor Aliño",
+        "answer": "Juan José López-Ibor Aliño",
+        "selected": true
+      }
+    ]
+  },
+  "9a93aae20bdd11eba7f7acde48001122": {
+    "answer": "English",
+    "iterations": 1,
+    "usage": {
+      "qid": "9a93aae20bdd11eba7f7acde48001122",
+      "llm_calls": 6,
+      "input_tokens": 8876,
+      "output_tokens": 840,
+      "total_tokens": 9716,
+      "wall_time": 20.8212,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 75,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Elizabeth",
+        "Rhuddlan's"
+      ],
+      "evidence_first_missing_entity_count": 2,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "But the instruction says",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 31,
+          "triples_added": 31,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "English",
+        "answer": "But the instruction says",
+        "selected": false
+      }
+    ]
+  }
+}

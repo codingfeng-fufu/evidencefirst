@@ -1,0 +1,691 @@
+% ============================================================
+% EvidenceFirst current-results draft
+% Generated from repository artifacts available on 2026-06-08.
+% Compile from paper/: pdflatex -> bibtex -> pdflatex -> pdflatex
+% ============================================================
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\newcommand{\sys}{\textsc{EvidenceFirst}\xspace}
+\newcommand{\eg}{\emph{e.g.},\xspace}
+\newcommand{\ie}{\emph{i.e.},\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\calG}{\mathcal{G}}
+\newcommand{\calP}{\mathcal{P}}
+\newcommand{\calE}{\mathcal{E}}
+
+\begin{document}
+
+\title{\sys: Pre-Generation Structural Evidence-State Diagnostics for Traceable KG-RAG}
+\titlerunning{\sys: Structural Evidence-State Diagnostics for KG-RAG}
+
+\author{Anonymous Author(s)}
+\authorrunning{Anonymous}
+\institute{
+  Institution anonymized for review\\
+  \email{email@anonymized.com}
+}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+% ============================================================
+
+Knowledge graph-enhanced retrieval-augmented generation (KG-RAG) is a natural
+fit for multi-hop question answering because graph structure can expose the
+entity and relation chain needed to answer a question. Yet most KG-RAG systems
+inspect evidence too late: they retrieve a graph neighborhood, ask a language
+model to generate an answer, and only then evaluate the final string. When the
+retrieved graph is incomplete, the system may still produce a fluent answer but
+cannot say whether the failure came from a missing entity, a broken bridge
+relation, a disconnected component, or the generator itself.
+
+We present \sys, a training-free KG-RAG pipeline that audits structural evidence
+state before generation. The central object of inspection is not the answer
+string but the graph-structured candidate evidence chain. \sys builds a
+per-question evidence graph, checks structural chain completeness, diagnoses
+graph gaps, performs localized repair, and then generates a grounded answer from
+complete, repaired, or explicitly marked fallback evidence. The output is
+therefore both an answer and an audit trail: chain completeness, missing
+entities, disconnected pairs, repair attempts, fallback cases, and runtime
+failures.
+
+This draft reports the completed comparison under a strict artifact boundary. On
+HotpotQA-1000, final \sys v6 reaches 56.2\% EM and 65.6\% F1, descriptively
+above HopRAG strict on the full set with the strongest observed gain on bridge
+questions. On 2WikiMultiHopQA-500, \sys v6 reaches 69.0\% EM and 75.8\% F1,
+obtaining the highest EM among completed runs and outperforming HopRAG strict,
+while LightRAG remains slightly higher in F1 and MS GraphRAG for 2Wiki is
+deferred.
+
+\keywords{KG-RAG \and GraphRAG \and Evidence Diagnostics \and Multi-Hop QA
+\and HotpotQA \and 2WikiMultiHopQA \and Traceable Reasoning}
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+% ============================================================
+
+Multi-hop question answering over Web knowledge requires more than retrieving a
+passage that shares surface words with the question. A correct answer often
+depends on a chain of intermediate entities and relations: an entity mentioned
+in the question leads to a bridge page, the bridge page identifies another
+entity, and only then can the answer be derived. Retrieval-augmented generation
+(RAG) grounds generation in retrieved text~\cite{lewis2020rag}; KG-RAG and
+GraphRAG systems add structured entity-relation evidence over the retrieved
+corpus~\cite{edge2024graphrag,guo2024lightrag,han2025graphragsurvey}. Graphs
+are a natural fit for multi-hop reasoning because the answer is often the
+endpoint of a path through evidence.
+
+The open problem is not only retrieval quality. It is evidence sufficiency. A
+KG-RAG system may retrieve several relevant triples and still miss the bridge
+edge that makes the answer derivable. It may retrieve both endpoint entities
+but leave them in disconnected components. It may retrieve a graph neighborhood
+whose entities look plausible but do not form the required reasoning chain. In
+all of these cases, a retrieve-then-generate pipeline can still produce a
+confident answer. The final answer string may be evaluated later, but the
+system has already lost the ability to explain whether the failure was caused
+by retrieval, graph construction, evidence connectivity, or generation.
+
+\sys addresses this problem by making the evidence graph an inspected
+intermediate object. Before generation, the system checks whether the retrieved
+graph contains a structurally complete candidate multi-hop chain for the
+question. If the chain is incomplete, \sys emits a graph-structural diagnostic:
+which entity is missing, which endpoints are disconnected, whether a bridge edge
+is absent, or whether evidence retrieval failed entirely. The diagnostic then
+drives targeted repair, after which the generator receives complete, repaired,
+or explicitly marked fallback evidence.
+
+\paragraph{Contributions.}
+This paper makes three contributions.
+\begin{itemize}
+    \item We introduce pre-generation structural evidence-state diagnostics for
+    KG-RAG: the inspected object is the retrieved candidate evidence path, not
+    only the generated answer.
+    \item We define graph-structural diagnostics for multi-hop QA, including
+    chain completeness, missing entities, disconnected pairs, bridge gaps, and
+    fallback cases.
+    \item We evaluate \sys on HotpotQA-1000 and 2WikiMultiHopQA-500 against
+    Naive RAG, IRCoT, A-RAG, LightRAG, MS GraphRAG, and HopRAG where completed,
+    and report controlled ablations that separate answer-quality gains from
+	    diagnostic traceability.
+\end{itemize}
+
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+% ============================================================
+
+\paragraph{RAG and GraphRAG for multi-hop QA.}
+RAG conditions generation on retrieved evidence rather than only on parametric
+memory~\cite{lewis2020rag}. Dense, active, and self-reflective retrieval methods
+improve evidence acquisition~\cite{karpukhin2020dpr,jiang2023active,asai2023selfrag},
+while GraphRAG systems organize retrieved information into entity, relation, or
+community structures~\cite{edge2024graphrag,guo2024lightrag,han2025graphragsurvey}.
+IRCoT interleaves retrieval and reasoning~\cite{trivedi2022ircot}; A-RAG uses an
+agentic retrieval trajectory~\cite{arag2026}; and HopRAG performs logic-aware
+graph retrieval and pruning~\cite{yu2025hoprag}. \sys is complementary to these
+retrieval strategies: it records whether the question-level evidence graph has a
+structurally adequate candidate chain before the reader produces the final
+answer.
+
+\paragraph{Sufficiency judging and diagnostic evaluation.}
+Self-verifying and sufficiency-aware RAG systems use model feedback or external
+criteria to reduce unsupported generation~\cite{asai2023selfrag,fairrag2025}.
+S2G-RAG judges whether evidence memory is sufficient and produces structured
+text gap items~\cite{s2grag2026}; RAGChecker provides fine-grained diagnostic
+metrics for retrieval and generation modules~\cite{ru2024ragchecker}. These
+systems motivate the same reliability direction but inspect a different object.
+\sys narrows the claim to graph-state diagnostics: chain completeness,
+missing-entity, disconnected-pair, short-chain, and fallback states are saved
+before generation and can condition repair or later audit. These labels are
+structural states, not semantic proof that the gold reasoning chain has been
+recovered.
+
+% ============================================================
+\section{Method}
+\label{sec:method}
+% ============================================================
+
+\subsection{Pipeline Overview}
+
+Let $q$ be a multi-hop question, $\calP=\{p_i\}$ a set of candidate passages,
+and $\calG=(V,E)$ a per-question evidence graph extracted from the passages.
+\sys uses six stages:
+\begin{enumerate}
+    \item build or load a per-question KG from candidate passages;
+    \item retrieve KG triples and top-ranked passages for the question;
+    \item construct an evidence graph from retrieved triples;
+    \item check graph-structural chain completeness;
+    \item repair localized graph gaps when possible;
+    \item generate a concise answer from verified or repaired evidence.
+\end{enumerate}
+
+Algorithm~\ref{alg:evidencefirst} summarizes inference.
+
+\begin{algorithm}[t]
+\caption{\sys inference}
+\label{alg:evidencefirst}
+\begin{algorithmic}[1]
+\Require Question $q$, passages $\calP$, per-question KG $\calG$
+\Ensure Answer $a$, diagnostic record $D$
+\State $D \gets \emptyset$
+\State $T \gets$ retrieve\_triples$(q,\calG)$
+\If{$T = \emptyset$}
+    \State $D \gets D \cup \{\textsc{EmptyEvidence}\}$
+    \State $P_q \gets$ local\_passages$(q,\calP)$
+    \State $a \gets$ passage\_read$(q,P_q,D)$
+\Else
+    \State $G_E \gets$ build\_evidence\_graph$(T)$
+    \State $(complete, D) \gets$ check\_chain\_completeness$(q,G_E)$
+    \If{not $complete$}
+        \State $(T', D_r) \gets$ repair\_gap$(q,\calG,D)$
+        \State $T \gets T \cup T'$
+        \State $G_E \gets$ build\_evidence\_graph$(T)$
+        \State $(complete, D') \gets$ check\_chain\_completeness$(q,G_E)$
+        \State $D \gets D \cup D_r \cup D'$
+    \EndIf
+    \State $P_q \gets$ local\_passages$(q,\calP)$
+    \State $a \gets$ grounded\_generate$(q,T,P_q,D)$
+\EndIf
+\State $a \gets$ answer\_canonicalize$(q,a,\calP)$
+\State \Return $(a,D)$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Evidence-Chain Diagnostics}
+
+The verifier returns structured diagnostics rather than a single score. Table
+~\ref{tab:gap_types} lists the main diagnostic categories. These labels serve
+two roles: they guide localized repair during inference, and they provide an
+audit trail for posthoc error analysis.
+
+\begin{table}[t]
+\centering
+\caption{Graph-structural diagnostics emitted by \sys before generation.}
+\label{tab:gap_types}
+\small
+\begin{tabular}{lll}
+\toprule
+Gap type & Graph condition & Typical repair action \\
+\midrule
+Missing entity & Required node absent & Entity expansion / passage recall \\
+Disconnected pair & Endpoints in separate components & Bridge search \\
+Bridge gap & Partial path without bridge edge & Targeted relation retrieval \\
+Empty evidence & No usable triples retrieved & Passage fallback \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The completeness check is structural rather than oracle-semantic. A chain is
+treated as complete when the evidence graph contains the question entities and
+a connected support structure linking them through retrieved triples or
+repaired evidence. A complete chain can still be misread by the generator, but
+an incomplete chain warns that the system should repair or fallback before
+answer generation.
+
+% ============================================================
+\section{Experimental Setup}
+\label{sec:setup}
+% ============================================================
+
+\paragraph{Datasets.}
+We report two evaluation settings. HotpotQA-1000 is a 1000-question
+distractor-style multi-hop QA set with repaired contexts from the HotpotQA
+validation split. 2WikiMultiHopQA-500 is a 500-question sample whose examples
+contain natural-language contexts together with Wikidata-derived evidence
+triples, entity ids, evidence ids, and answer ids. Each 2Wiki example includes
+10 context passages; the 500 examples expand to 5000 question-context pairs and
+3346 unique passage bodies for graph-based baselines.
+
+\paragraph{Baselines.}
+For HotpotQA-1000, completed baselines are Naive RAG, IRCoT, A-RAG, LightRAG,
+MS GraphRAG, and HopRAG strict response-only rescoring.
+For 2Wiki-500, completed baselines are Naive RAG, IRCoT, A-RAG, LightRAG, and
+HopRAG strict. MS GraphRAG for 2Wiki was intentionally not run after the user
+decision to defer it.
+
+\paragraph{Metrics.}
+We use exact match (EM) and token F1 with standard QA normalization:
+lowercasing, article removal, punctuation removal, and whitespace collapse. We
+report full-sample results only in the main tables. Partial smoke results are
+excluded from main comparisons.
+
+\paragraph{Reporting boundary.}
+For HotpotQA-1000, we report only the final \sys v6 main model. Earlier
+HotpotQA development variants are treated as process artifacts and are omitted
+from the main comparison. Controlled ablations use explicit pipeline switches
+and are reported separately from historical development variants.
+
+\paragraph{Context-budget and statistical boundary.}
+The tables compare completed saved artifacts under their run protocols, not a
+context-budget-isolated retrieval benchmark. Reported \sys artifacts can use
+local/full reader context, and future strict reruns should use the repository's
+\texttt{--no-global-context} switch when the goal is retrieval-budget isolation.
+Full-set HotpotQA gains over HopRAG and 2Wiki gains over LightRAG/A-RAG are
+descriptive point estimates whose paired confidence intervals cross zero; the
+strongest supported accuracy evidence is the HotpotQA bridge subset and the
+large 2Wiki gap over HopRAG strict.
+
+\paragraph{Artifact mapping.}
+All main numbers in this draft are copied from repository artifacts. The
+HotpotQA baseline summary is
+\texttt{results/wise\_hotpot1000\_baseline\_summary.csv}. The HotpotQA \sys v6
+row uses
+\texttt{experiments/evidence\_first/results/hotpotqa\_evidence\_first\_hfctx\_n1000\_splitkg\_v6\_offline\_selector\_guard.csv}.
+The 2Wiki baseline rows use
+\texttt{results/wise\_2wiki\_naive\_rag\_metrics.csv},
+\texttt{results/wise\_2wiki\_ircot\_metrics.csv},
+\texttt{results/wise\_2wiki\_arag\_full\_post\_metrics.csv},
+\texttt{results/wise\_2wiki\_lightrag\_metrics.csv}, and
+\texttt{results/wise\_2wiki\_hoprag\_strict\_metrics.csv}. The 2Wiki \sys row uses
+\texttt{results/wise\_2wiki\_evidencefirst\_v6\_readerfull\_canon\_metrics.csv}.
+The controlled ablation rows use the 2026-06-08 artifacts with prefix
+\texttt{experiments/evidence\_first/results/*evidencefirst\_v6\_ablation\_20260608\_004220\_*}.
+
+% ============================================================
+\section{Results}
+\label{sec:results}
+% ============================================================
+
+\subsection{HotpotQA-1000}
+
+Table~\ref{tab:hotpot_main} reports the completed HotpotQA-1000 baseline
+comparison together with the final \sys v6 main model. \sys v6 reaches
+56.2\% EM and 65.6\% F1, descriptively 2.1 EM and 1.26 F1 points above HopRAG
+strict. The paired full-set confidence interval crosses zero, so this should be
+read as competitive completed-run accuracy rather than statistically secure
+full-set superiority. Other HotpotQA development attempts are excluded from this
+main comparison.
+
+\begin{table}[t]
+\centering
+\caption{HotpotQA-1000 results. All rows are complete 1000-question runs.}
+\label{tab:hotpot_main}
+\small
+\begin{tabular}{lccc}
+\toprule
+Method & N & EM & F1 \\
+\midrule
+Naive RAG & 1000 & 0.3920 & 0.4865 \\
+IRCoT & 1000 & 0.4660 & 0.5707 \\
+A-RAG & 1000 & 0.5170 & 0.6273 \\
+LightRAG & 1000 & 0.4380 & 0.5376 \\
+MS GraphRAG & 1000 & 0.1890 & 0.2774 \\
+HopRAG strict & 1000 & 0.5410 & 0.6438 \\
+\midrule
+\sys v6 & 1000 & \textbf{0.5620} & \textbf{0.6564} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The result supports a conservative claim: pre-generation structural
+evidence-state diagnostics can remain competitive with strong graph baselines
+while adding diagnostic traceability. The HotpotQA claim is intentionally
+limited to final v6, rather than intermediate attempts explored during
+development.
+
+Table~\ref{tab:hotpot_types} shows where the HotpotQA gain comes from. Against
+the strongest completed graph baselines, \sys is strongest on bridge questions:
+it is 5.8 EM points above HopRAG strict and 10.6 EM points above A-RAG. On
+comparison questions, A-RAG and HopRAG strict remain stronger. This is
+consistent with the method design: structural chain-state diagnostics are most
+useful when the answer depends on connecting entities across evidence, while
+attribute-comparison questions can often be solved by direct answer comparison
+once the relevant passages are retrieved.
+
+\begin{table}[t]
+\centering
+\caption{HotpotQA-1000 question-type breakdown against the strongest completed
+graph baselines.}
+\label{tab:hotpot_types}
+\small
+\begin{tabular}{lcrrrrrr}
+\toprule
+Type & N & \multicolumn{2}{c}{A-RAG} & \multicolumn{2}{c}{HopRAG strict} & \multicolumn{2}{c}{\sys v6} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+ & & EM & F1 & EM & F1 & EM & F1 \\
+\midrule
+Bridge & 500 & 0.3500 & 0.4893 & 0.3980 & 0.5221 & \textbf{0.4560} & \textbf{0.5689} \\
+Comparison & 500 & 0.6840 & 0.7652 & \textbf{0.6840} & \textbf{0.7654} & 0.6680 & 0.7439 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{2WikiMultiHopQA-500}
+
+Table~\ref{tab:2wiki_main} reports completed 2Wiki-500 results. \sys v6
+reader-full canonicalization obtains the highest EM among completed systems,
+with point estimates 12.6 EM points above HopRAG strict, 1.6 EM points above
+LightRAG, 2.4 EM points above A-RAG, and 3.4 EM points above IRCoT. LightRAG
+remains slightly stronger in F1, exceeding \sys by 1.35 F1 points, while \sys is
+14.24 F1 points above HopRAG strict. The LightRAG/A-RAG paired intervals cross
+zero, so the safe claim is highest completed EM point estimate plus a large
+completed-run advantage over HopRAG strict, not universal graph-baseline
+dominance.
+
+\begin{table}[t]
+\centering
+\caption{2WikiMultiHopQA-500 results. All rows are complete 500-question runs.}
+\label{tab:2wiki_main}
+\small
+\begin{tabular}{lccc}
+\toprule
+Method & N & EM & F1 \\
+\midrule
+Naive RAG & 500 & 0.2980 & 0.3338 \\
+IRCoT & 500 & 0.6560 & 0.7301 \\
+A-RAG & 500 & 0.6660 & 0.7323 \\
+HopRAG strict & 500 & 0.5640 & 0.6157 \\
+LightRAG & 500 & 0.6740 & \textbf{0.7716} \\
+\midrule
+\sys v6 & 500 & \textbf{0.6900} & 0.7581 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 2Wiki setting is useful for auditing because examples include gold evidence
+triples and entity ids. The answer-level result should be read together with the
+offline evidence and proxy-adjudication analyses below: they show that
+structural graph states are inspectable but only partially aligned with semantic
+gold-chain proxies.
+
+\subsection{Component Ablations}
+\label{sec:ablations}
+
+Table~\ref{tab:ablations} reports controlled component ablations on both
+datasets. The results separate components that directly drive answer quality
+from components that primarily provide traceability and failure diagnosis.
+Removing local/full reader context causes the largest drop on both datasets,
+showing that graph evidence alone is not sufficient for robust answer surface
+realization. Removing answer refinement hurts HotpotQA but increases 2Wiki F1
+while preserving 2Wiki EM, suggesting that canonical answer selection can
+improve exact normalization while reducing partial token overlap. Chain checking
+and repair show mixed answer-level effects: repair improves EM relative to the
+no-repair setting, but the chain-check switch does not monotonically improve
+EM/F1 in the current implementation. We therefore interpret these ablations as
+behavioral evidence, not as a claim that every diagnostic stage independently
+increases final-answer accuracy.
+
+\begin{table}[t]
+\centering
+\caption{Controlled \sys ablations. Full rows use final v6; ablations use the
+2026-06-08 explicit ablation switches.}
+\label{tab:ablations}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+\multirow{2}{*}{Variant} & \multicolumn{2}{c}{HotpotQA-1000} & \multicolumn{2}{c}{2Wiki-500} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & EM & F1 & EM & F1 \\
+\midrule
+Full \sys v6 & 0.5620 & 0.6564 & 0.6900 & 0.7581 \\
+w/o chain check + repair & 0.5680 & 0.6647 & 0.6780 & 0.7579 \\
+w/o graph repair & 0.5540 & 0.6580 & 0.6500 & 0.7424 \\
+w/o full/local reader context & 0.2360 & 0.2899 & 0.1840 & 0.2289 \\
+w/o answer refinement & 0.5510 & 0.6485 & 0.6900 & 0.7782 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Selector Calibration}
+
+Table~\ref{tab:selector_calibration} analyzes the final answer-selection signal
+inside \sys v6. The selector is not a standalone accuracy guarantee, and the
+ablation in Table~\ref{tab:ablations} shows that answer refinement interacts
+with dataset-specific EM/F1 normalization. However, the selected cases are much
+more accurate than non-selected cases on both datasets. This supports a narrower
+claim: answer selection is a useful calibration signal for auditing when the
+pipeline trusts the refined evidence-grounded answer.
+
+\begin{table}[t]
+\centering
+\caption{\sys v6 selector calibration. ``Selected'' means that the final
+evidence-grounded postprocess answer was chosen.}
+\label{tab:selector_calibration}
+\small
+\begin{tabular}{lcrrrr}
+\toprule
+Dataset & Selected? & N & Rate & EM & F1 \\
+\midrule
+HotpotQA-1000 & Yes & 816 & 0.816 & \textbf{0.6250} & \textbf{0.7346} \\
+HotpotQA-1000 & No & 184 & 0.184 & 0.2826 & 0.3096 \\
+2Wiki-500 & Yes & 352 & 0.704 & \textbf{0.7358} & \textbf{0.8017} \\
+2Wiki-500 & No & 148 & 0.296 & 0.5811 & 0.6546 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 2Wiki canonicalizer is also conservative: it changes only 18 of 500
+predictions, and all 18 changed predictions are exact matches. We therefore use
+this analysis as supporting evidence for auditability and normalization, not as
+a replacement for the controlled answer-refinement ablation.
+
+\subsection{2Wiki Variants}
+
+Table~\ref{tab:2wiki_variants} reports the completed \sys variants on
+2Wiki-500. The low scores for the fresh-KG CPU and local-context-only variants
+show that answer quality depends strongly on letting the reader see the full
+local context. The reader-full canonical variant is the current best 2Wiki
+\sys artifact.
+
+\begin{table}[t]
+\centering
+\caption{Completed \sys variants on 2Wiki-500.}
+\label{tab:2wiki_variants}
+\small
+\begin{tabular}{lccc}
+\toprule
+Variant & N & EM & F1 \\
+\midrule
+v6 default & 500 & 0.3920 & 0.4582 \\
+v6 fresh KG CPU & 500 & 0.3940 & 0.4565 \\
+v6 local context 2 & 500 & 0.5040 & 0.5945 \\
+v6 reader-full & 500 & 0.6540 & 0.7470 \\
+v6 reader-full canonical & 500 & \textbf{0.6900} & \textbf{0.7581} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{2Wiki Question-Type Analysis}
+
+Table~\ref{tab:2wiki_types} compares \sys v6 and LightRAG by 2Wiki question
+type. \sys gains most clearly on pure comparison questions. LightRAG remains
+stronger on bridge-comparison F1 and inference F1, suggesting that \sys's
+canonical answer selection helps exact matching but can under-preserve partial
+answer overlap.
+
+\begin{table}[t]
+\centering
+\caption{2Wiki-500 question-type breakdown for LightRAG and \sys v6.}
+\label{tab:2wiki_types}
+\small
+\begin{tabular}{lcrrrr}
+\toprule
+Type & N & \multicolumn{2}{c}{LightRAG} & \multicolumn{2}{c}{\sys v6} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+ & & EM & F1 & EM & F1 \\
+\midrule
+Bridge comparison & 112 & 0.9464 & 0.9589 & 0.9375 & 0.9375 \\
+Comparison & 119 & 0.8992 & 0.9034 & \textbf{0.9580} & \textbf{0.9652} \\
+Compositional & 218 & 0.4450 & \textbf{0.6041} & \textbf{0.4541} & 0.5626 \\
+Inference & 51 & 0.5294 & \textbf{0.7686} & 0.5294 & 0.7167 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{2Wiki Evidence Availability}
+
+Because 2Wiki provides annotated support facts and evidence triples, we also run
+an offline evidence-availability analysis. This analysis does not call an LLM.
+It asks whether the evidence visible to the answer reader contains the gold
+support titles and evidence entities. Table~\ref{tab:2wiki_support_availability}
+compares \sys v6 reader-full against deterministic or logged evidence views
+available for Naive RAG and A-RAG. LightRAG is not included in this table because
+the completed LightRAG artifacts do not expose comparable per-query retrieved
+support titles.
+
+\begin{table}[t]
+\centering
+\caption{2Wiki-500 evidence availability. A-RAG actual read uses logged
+\texttt{chunks\_read\_ids}; A-RAG search upper bound uses all logged keyword-search
+hits.}
+\label{tab:2wiki_support_availability}
+\small
+\begin{tabular}{lrr}
+\toprule
+Evidence view & Support-title recall & Evidence-entity coverage \\
+\midrule
+\sys v6 reader-full input & \textbf{1.0000} & \textbf{0.9468} \\
+Naive BM25 top-5 input & 0.6020 & 0.6685 \\
+A-RAG actual read chunks & 0.2955 & 0.3326 \\
+A-RAG keyword-search upper bound & 0.5885 & 0.6085 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The result supports a narrow evidence-availability claim: \sys v6 does not
+filter away annotated 2Wiki support passages before answer generation, whereas
+BM25 top-5 and A-RAG's actually read chunks often expose only part of the gold
+support set. The same offline analysis also shows diagnostic selectivity:
+chain-complete cases reach 70.29\% EM and 76.81\% F1, while disconnected-gap
+cases fall to 45.45\% EM and 53.51\% F1 and short-chain cases fall to 63.64\%
+EM and 70.35\% F1. We therefore use this table as auxiliary evidence for
+traceability and evidence availability, not as a full retrieval leaderboard.
+
+\subsection{2Wiki Gap-Label Proxy Adjudication}
+
+To test whether structural gap labels correspond to semantically meaningful
+evidence gaps, we run a no-LLM three-proxy-reviewer adjudication over 100
+stratified 2Wiki examples. The proxy views inspect each saved row from strict
+gold-chain, reader-support, and conservative meta-review perspectives. This is a
+reproducible audit over saved artifacts, not professional human annotation. The
+result is deliberately mixed: 40 rows match the structural label, 31 mismatch,
+and 29 are ambiguous; the overall match rate is 0.4000 with Wilson 95\% CI
+$[0.3094,0.4980]$. Inter-proxy agreement is low, with 72\% of rows showing proxy
+disagreement and Fleiss $\kappa=0.1836$. The strongest label is
+missing-entities, with a 0.7429 match rate; complete, disconnected, and
+short-chain labels are often ambiguous or mismatched. We therefore treat gap
+labels as structural audit states whose semantic validity can be inspected, not
+as semantic-chain correctness certificates.
+
+\subsection{Deferred Baselines}
+
+Table~\ref{tab:deferred} records the status of runs that are not yet part of
+the completed comparison. These entries should not be used for claims until
+their full metrics are available.
+
+\begin{table}[t]
+\centering
+\caption{Deferred 2Wiki-500 baseline.}
+\label{tab:deferred}
+\small
+\begin{tabular}{lll}
+\toprule
+Method & Status & Notes \\
+\midrule
+MS GraphRAG & Deferred & User decision: do not run for now. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+% ============================================================
+
+\paragraph{Accuracy is competitive, but traceability is the main claim.}
+On HotpotQA-1000, \sys is descriptively above HopRAG strict on the full saved
+artifact and strongest on bridge questions, while adding graph-level diagnostics.
+On 2Wiki-500, \sys obtains the highest completed EM point estimate, although
+LightRAG remains higher in F1 and MS GraphRAG is still deferred. The robust
+claim is therefore not an unqualified leaderboard claim; it is that structural
+evidence-state diagnostics can remain competitive while making retrieval
+failures inspectable.
+
+\paragraph{Question-type and selector analyses sharpen the claim.}
+The HotpotQA gain is concentrated on bridge questions, where \sys has the
+largest observed paired advantage and where evidence-chain connection is
+directly tested. The selector analysis shows that answers chosen by the final
+evidence-grounded selection step are substantially more accurate than
+non-selected answers on both datasets. These results support \sys as an
+auditable pipeline with useful internal confidence signals, rather than a
+method that uniformly dominates every question type.
+
+\paragraph{2Wiki exposes canonicalization pressure.}
+The 2Wiki results show a split between EM and F1. \sys v6 has the highest EM
+point estimate through reader-full context and canonical answer selection, but
+LightRAG achieves higher F1. This suggests that some \sys errors are near misses
+or overly canonicalized outputs. The next revision should inspect cases where
+\sys loses F1 but not EM, and cases where LightRAG has high F1 without exact
+match.
+
+\paragraph{Ablations support a narrower component claim.}
+The controlled ablations do not support a simple monotonic story in which every
+EvidenceFirst component independently improves answer EM/F1. The strongest
+accuracy component is local/full reader context. Answer refinement is useful on
+HotpotQA but is not uniformly beneficial on 2Wiki F1. Chain checking and repair
+remain central to the method's traceability claim because they expose missing
+entities, disconnected evidence, bridge gaps, and repair attempts before
+generation, but their current answer-level gains are mixed and should be
+presented as diagnostic behavior rather than guaranteed accuracy improvement.
+
+\paragraph{HotpotQA uses one final model.}
+The HotpotQA section reports final \sys v6 as the single main model. Earlier
+HotpotQA development attempts are not part of the reported method comparison
+or ablation evidence.
+
+\paragraph{2Wiki graph baselines are only partly complete.}
+HopRAG strict is now included in the 2Wiki table and is below \sys on both EM
+and F1. MS GraphRAG remains deferred, so claims about graph-baseline dominance
+on 2Wiki should still remain cautious.
+
+% ============================================================
+\section{Limitations}
+\label{sec:limitations}
+% ============================================================
+
+This draft has five limitations. First, the main tables are saved-protocol
+artifact comparisons, not context-budget-isolated retrieval benchmarks; future
+strict reruns should use \texttt{--no-global-context}. Second, full-set paired
+intervals cross zero for the smaller HotpotQA and 2Wiki differences, so those
+rows should be treated as descriptive point estimates. Third, MS GraphRAG was
+intentionally deferred on 2Wiki, so that baseline remains absent. Fourth, the
+current ablations are system-level switches, and some components interact:
+reader context can compensate for imperfect structural graph checks, while
+answer canonicalization changes EM and F1 differently. Fifth, the 100-example
+semantic gap-label adjudication is a reproducible proxy audit rather than a
+professional human annotation study, and its 72\% disagreement rate shows that
+structural labels should not be treated as semantic correctness labels.
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+% ============================================================
+
+We introduced \sys, a KG-RAG pipeline that records structural evidence-chain
+state before generation. The method changes the reliability object from only the
+final answer string to the retrieved evidence graph, enabling graph-structural
+diagnostics such as missing entities, disconnected pairs, bridge gaps, and
+fallback cases. Current results show that \sys is competitive on HotpotQA-1000
+and obtains the highest completed EM point estimate on 2Wiki-500. More
+importantly, it provides a traceable account of where evidence succeeds or
+fails, moving KG-RAG toward systems that are not only accurate, but auditable.
+
+\bibliographystyle{splncs04}
+\bibliography{comagraag}
+
+\end{document}

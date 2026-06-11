@@ -1,0 +1,1 @@
+{"_id": "5a7b1e22554299042af8f6e4", "mode": "full", "variant": "evidence_first", "ablation": "without_repair", "max_iter": 3, "iterations": 1, "qid": "5a7b1e22554299042af8f6e4", "llm_calls": 4, "input_tokens": 3970, "output_tokens": 1250, "total_tokens": 5220, "wall_time": 54.9349, "cache_hit": false}

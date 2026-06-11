@@ -1,0 +1,2 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost
+results/wise/hotpot1000_comagraag_kg_challenger_gate_usage.jsonl,100,1.0,1680.0,192.7,1872.7,4.716,0.0,0.0,0.0

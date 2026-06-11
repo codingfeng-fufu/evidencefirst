@@ -1,0 +1,4 @@
+repair_outcome,n,em,f1,gold_entity_coverage,gold_pair_recall,gold_relation_recall,gold_pair_complete_rate,gold_nodes_connected_rate,repair_attempt_rate,repair_to_complete_rate
+not_attempted,200,0.705,0.7725,0.791,0.518,0.0462,0.26,0.25,0.0,0.0
+repair_residual_gap,234,0.6795,0.749,0.766,0.4746,0.0406,0.1581,0.1923,1.0,0.0
+repair_to_complete,66,0.6818,0.747,0.6876,0.3674,0.0341,0.1061,0.1212,1.0,1.0

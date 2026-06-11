@@ -1,0 +1,962 @@
+{
+  "5a7cf4e355429907fabef062": {
+    "answer": "former president",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7cf4e355429907fabef062",
+      "llm_calls": 11,
+      "input_tokens": 6380,
+      "output_tokens": 760,
+      "total_tokens": 7140,
+      "wall_time": 42.6767,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab6d04c554299710c8d1f70": {
+    "answer": "Lardizabalaceae",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab6d04c554299710c8d1f70",
+      "llm_calls": 5,
+      "input_tokens": 2899,
+      "output_tokens": 297,
+      "total_tokens": 3196,
+      "wall_time": 8.698,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac1089f554299012d1db688": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac1089f554299012d1db688",
+      "llm_calls": 11,
+      "input_tokens": 6525,
+      "output_tokens": 1090,
+      "total_tokens": 7615,
+      "wall_time": 29.1822,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0819155429924de1b70ea": {
+    "answer": "Neither documentary is mentioned in the provided passages.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0819155429924de1b70ea",
+      "llm_calls": 11,
+      "input_tokens": 7064,
+      "output_tokens": 734,
+      "total_tokens": 7798,
+      "wall_time": 20.9885,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7744e45542993569682d37": {
+    "answer": "insufficient information",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7744e45542993569682d37",
+      "llm_calls": 11,
+      "input_tokens": 6529,
+      "output_tokens": 766,
+      "total_tokens": 7295,
+      "wall_time": 21.6324,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7c0aa15542997c3ec972cd": {
+    "answer": "Endless Love",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7c0aa15542997c3ec972cd",
+      "llm_calls": 11,
+      "input_tokens": 7148,
+      "output_tokens": 553,
+      "total_tokens": 7701,
+      "wall_time": 16.5511,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a77d5b855429949eeb29f77": {
+    "answer": "Spanish",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a77d5b855429949eeb29f77",
+      "llm_calls": 5,
+      "input_tokens": 3542,
+      "output_tokens": 511,
+      "total_tokens": 4053,
+      "wall_time": 13.9513,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a77bdcb5542997042120b0b": {
+    "answer": "Morgan Llywelyn",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a77bdcb5542997042120b0b",
+      "llm_calls": 11,
+      "input_tokens": 7016,
+      "output_tokens": 625,
+      "total_tokens": 7641,
+      "wall_time": 17.7489,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae665795542991bbc9760c9": {
+    "answer": "Shakespeare Wallah",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae665795542991bbc9760c9",
+      "llm_calls": 11,
+      "input_tokens": 7828,
+      "output_tokens": 1591,
+      "total_tokens": 9419,
+      "wall_time": 39.4235,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7df1095542990b8f503afe": {
+    "answer": "Thomas Carr",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7df1095542990b8f503afe",
+      "llm_calls": 5,
+      "input_tokens": 2973,
+      "output_tokens": 321,
+      "total_tokens": 3294,
+      "wall_time": 9.2122,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adbfb6855429944faac23e4": {
+    "answer": "November 22, 1993",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adbfb6855429944faac23e4",
+      "llm_calls": 5,
+      "input_tokens": 4137,
+      "output_tokens": 429,
+      "total_tokens": 4566,
+      "wall_time": 11.4725,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5aba9e235542994dbf019984": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5aba9e235542994dbf019984",
+      "llm_calls": 5,
+      "input_tokens": 3805,
+      "output_tokens": 280,
+      "total_tokens": 4085,
+      "wall_time": 8.668,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7b77d95542997c3ec971a5": {
+    "answer": "compilation of collaborative songs",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b77d95542997c3ec971a5",
+      "llm_calls": 5,
+      "input_tokens": 3838,
+      "output_tokens": 748,
+      "total_tokens": 4586,
+      "wall_time": 18.3287,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a78eea555429970f5fffddf": {
+    "answer": "Herschell Gordon Lewis",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a78eea555429970f5fffddf",
+      "llm_calls": 11,
+      "input_tokens": 6862,
+      "output_tokens": 539,
+      "total_tokens": 7401,
+      "wall_time": 15.772,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a74670855429929fddd840d": {
+    "answer": "Nicholas D. Kristof",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a74670855429929fddd840d",
+      "llm_calls": 11,
+      "input_tokens": 6385,
+      "output_tokens": 2034,
+      "total_tokens": 8419,
+      "wall_time": 48.939,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7a978555429941d65f26db": {
+    "answer": "Paper Trail",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7a978555429941d65f26db",
+      "llm_calls": 11,
+      "input_tokens": 7597,
+      "output_tokens": 1410,
+      "total_tokens": 9007,
+      "wall_time": 36.2668,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae4606c5542996836b02c91": {
+    "answer": "insufficient information",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae4606c5542996836b02c91",
+      "llm_calls": 8,
+      "input_tokens": 7161,
+      "output_tokens": 390,
+      "total_tokens": 7551,
+      "wall_time": 11.9969,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7509175542993748c897a3": {
+    "answer": "Fitz and The Tantrums",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7509175542993748c897a3",
+      "llm_calls": 8,
+      "input_tokens": 5720,
+      "output_tokens": 1037,
+      "total_tokens": 6757,
+      "wall_time": 26.6708,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adf72d35542992d7e9f9369": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adf72d35542992d7e9f9369",
+      "llm_calls": 8,
+      "input_tokens": 4755,
+      "output_tokens": 557,
+      "total_tokens": 5312,
+      "wall_time": 15.2741,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adf3f1d5542992d7e9f9310": {
+    "answer": "composer",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf3f1d5542992d7e9f9310",
+      "llm_calls": 5,
+      "input_tokens": 4555,
+      "output_tokens": 390,
+      "total_tokens": 4945,
+      "wall_time": 10.5661,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a731a635542994cef4bc458": {
+    "answer": "none",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a731a635542994cef4bc458",
+      "llm_calls": 11,
+      "input_tokens": 7099,
+      "output_tokens": 1762,
+      "total_tokens": 8861,
+      "wall_time": 44.5768,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a860d09554299211dda2a53": {
+    "answer": "insufficient information",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a860d09554299211dda2a53",
+      "llm_calls": 11,
+      "input_tokens": 8565,
+      "output_tokens": 1741,
+      "total_tokens": 10306,
+      "wall_time": 43.1363,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abb326055429966062416e7": {
+    "answer": "Bury St Edmunds",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abb326055429966062416e7",
+      "llm_calls": 8,
+      "input_tokens": 4994,
+      "output_tokens": 404,
+      "total_tokens": 5398,
+      "wall_time": 12.4309,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8f6a025542992414482ab8": {
+    "answer": "Ron Cowen and Daniel Lipman",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8f6a025542992414482ab8",
+      "llm_calls": 11,
+      "input_tokens": 7357,
+      "output_tokens": 764,
+      "total_tokens": 8121,
+      "wall_time": 21.1456,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7f113d55429934daa2fcbe": {
+    "answer": "Babe Ruth",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7f113d55429934daa2fcbe",
+      "llm_calls": 8,
+      "input_tokens": 5882,
+      "output_tokens": 1357,
+      "total_tokens": 7239,
+      "wall_time": 32.8392,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0ba15554299603e41844d": {
+    "answer": "Manglietia",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0ba15554299603e41844d",
+      "llm_calls": 5,
+      "input_tokens": 3300,
+      "output_tokens": 403,
+      "total_tokens": 3703,
+      "wall_time": 11.17,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a80a587554299485f598676": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a80a587554299485f598676",
+      "llm_calls": 5,
+      "input_tokens": 3701,
+      "output_tokens": 378,
+      "total_tokens": 4079,
+      "wall_time": 10.4242,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84f06f5542994c784dda92": {
+    "answer": "metropolitan",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a84f06f5542994c784dda92",
+      "llm_calls": 11,
+      "input_tokens": 6565,
+      "output_tokens": 1830,
+      "total_tokens": 8395,
+      "wall_time": 44.4886,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abbf43d5542993f40c73c2f": {
+    "answer": "The Innocence Mission",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbf43d5542993f40c73c2f",
+      "llm_calls": 5,
+      "input_tokens": 3547,
+      "output_tokens": 315,
+      "total_tokens": 3862,
+      "wall_time": 8.9247,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a77ace855429967ab105223": {
+    "answer": "Tamaulipas",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a77ace855429967ab105223",
+      "llm_calls": 8,
+      "input_tokens": 5456,
+      "output_tokens": 590,
+      "total_tokens": 6046,
+      "wall_time": 16.738,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adff056554299603e4183cc": {
+    "answer": "1988",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adff056554299603e4183cc",
+      "llm_calls": 8,
+      "input_tokens": 5680,
+      "output_tokens": 403,
+      "total_tokens": 6083,
+      "wall_time": 12.1036,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab2c6d955429916697740c3": {
+    "answer": "Yes.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab2c6d955429916697740c3",
+      "llm_calls": 5,
+      "input_tokens": 3121,
+      "output_tokens": 234,
+      "total_tokens": 3355,
+      "wall_time": 7.5447,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab852c05542990e739ec8c5": {
+    "answer": "Ngadi Chuli",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab852c05542990e739ec8c5",
+      "llm_calls": 5,
+      "input_tokens": 3418,
+      "output_tokens": 893,
+      "total_tokens": 4311,
+      "wall_time": 21.6285,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae7ad385542993210983ef0": {
+    "answer": "Steve Gaines",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae7ad385542993210983ef0",
+      "llm_calls": 5,
+      "input_tokens": 3735,
+      "output_tokens": 736,
+      "total_tokens": 4471,
+      "wall_time": 19.3425,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a745a2955429929fddd83f8": {
+    "answer": "14",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a745a2955429929fddd83f8",
+      "llm_calls": 11,
+      "input_tokens": 7760,
+      "output_tokens": 527,
+      "total_tokens": 8287,
+      "wall_time": 15.9011,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84be095542992a431d1a97": {
+    "answer": "Diamond v. Chakrabarty came first.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a84be095542992a431d1a97",
+      "llm_calls": 11,
+      "input_tokens": 7873,
+      "output_tokens": 1350,
+      "total_tokens": 9223,
+      "wall_time": 33.787,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abe3f3455429976d4830aa8": {
+    "answer": "MGM Resorts International",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abe3f3455429976d4830aa8",
+      "llm_calls": 11,
+      "input_tokens": 7326,
+      "output_tokens": 868,
+      "total_tokens": 8194,
+      "wall_time": 23.651,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7b2c9155429927d897bf51": {
+    "answer": "Ian Hunter",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7b2c9155429927d897bf51",
+      "llm_calls": 11,
+      "input_tokens": 6998,
+      "output_tokens": 680,
+      "total_tokens": 7678,
+      "wall_time": 20.2479,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ade662155429975fa854ebd": {
+    "answer": "None of the passages mention nicknames for a \"companion of Nuna",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ade662155429975fa854ebd",
+      "llm_calls": 11,
+      "input_tokens": 6531,
+      "output_tokens": 886,
+      "total_tokens": 7417,
+      "wall_time": 24.0883,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8aee3d55429950cd6afc01": {
+    "answer": "Clianthus",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8aee3d55429950cd6afc01",
+      "llm_calls": 11,
+      "input_tokens": 7592,
+      "output_tokens": 1274,
+      "total_tokens": 8866,
+      "wall_time": 32.9805,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a774c0155429966f1a36ce2": {
+    "answer": "Home Monthly was published first.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a774c0155429966f1a36ce2",
+      "llm_calls": 5,
+      "input_tokens": 2695,
+      "output_tokens": 237,
+      "total_tokens": 2932,
+      "wall_time": 7.9146,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8e8f6f5542995085b37451": {
+    "answer": "Cannot be determined",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8e8f6f5542995085b37451",
+      "llm_calls": 11,
+      "input_tokens": 8573,
+      "output_tokens": 645,
+      "total_tokens": 9218,
+      "wall_time": 19.0045,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84fd085542994c784ddaba": {
+    "answer": "the Supersuckers",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a84fd085542994c784ddaba",
+      "llm_calls": 8,
+      "input_tokens": 5614,
+      "output_tokens": 801,
+      "total_tokens": 6415,
+      "wall_time": 21.7997,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8a48ee55429930ff3c0d66": {
+    "answer": "16",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8a48ee55429930ff3c0d66",
+      "llm_calls": 11,
+      "input_tokens": 7410,
+      "output_tokens": 968,
+      "total_tokens": 8378,
+      "wall_time": 26.542,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a77137455429972597f142a": {
+    "answer": "Ferdinand Anton Ernst Porsche",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a77137455429972597f142a",
+      "llm_calls": 11,
+      "input_tokens": 6445,
+      "output_tokens": 1004,
+      "total_tokens": 7449,
+      "wall_time": 26.9423,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a750ccc5542993748c897a8": {
+    "answer": "Con Mine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a750ccc5542993748c897a8",
+      "llm_calls": 5,
+      "input_tokens": 3817,
+      "output_tokens": 236,
+      "total_tokens": 4053,
+      "wall_time": 7.6977,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7a73e45542996c55b2ddb6": {
+    "answer": "J. R. R. Tolkien",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7a73e45542996c55b2ddb6",
+      "llm_calls": 11,
+      "input_tokens": 7331,
+      "output_tokens": 788,
+      "total_tokens": 8119,
+      "wall_time": 23.8275,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a81dacc55429926c1cdada0": {
+    "answer": "William Shakespeare",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a81dacc55429926c1cdada0",
+      "llm_calls": 11,
+      "input_tokens": 7472,
+      "output_tokens": 2157,
+      "total_tokens": 9629,
+      "wall_time": 52.601,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac3b39e554299204fd21e09": {
+    "answer": "yes",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac3b39e554299204fd21e09",
+      "llm_calls": 11,
+      "input_tokens": 7047,
+      "output_tokens": 1328,
+      "total_tokens": 8375,
+      "wall_time": 34.3286,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8e16a5554299068b959e58": {
+    "answer": "Shooter Jennings",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8e16a5554299068b959e58",
+      "llm_calls": 11,
+      "input_tokens": 7072,
+      "output_tokens": 1908,
+      "total_tokens": 8980,
+      "wall_time": 47.056,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a73677455429901807db030": {
+    "answer": "none",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a73677455429901807db030",
+      "llm_calls": 5,
+      "input_tokens": 3783,
+      "output_tokens": 550,
+      "total_tokens": 4333,
+      "wall_time": 14.5264,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a733c925542991f9a20c6b7": {
+    "answer": "cocktails",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a733c925542991f9a20c6b7",
+      "llm_calls": 11,
+      "input_tokens": 6856,
+      "output_tokens": 791,
+      "total_tokens": 7647,
+      "wall_time": 22.6525,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8b59a65542995d1e6f137c": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8b59a65542995d1e6f137c",
+      "llm_calls": 11,
+      "input_tokens": 6937,
+      "output_tokens": 809,
+      "total_tokens": 7746,
+      "wall_time": 22.4861,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a70f39c5542994082a3e429": {
+    "answer": "Eliot Cutler",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a70f39c5542994082a3e429",
+      "llm_calls": 11,
+      "input_tokens": 8025,
+      "output_tokens": 1771,
+      "total_tokens": 9796,
+      "wall_time": 44.3456,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab2b7405542991669774069": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab2b7405542991669774069",
+      "llm_calls": 11,
+      "input_tokens": 7014,
+      "output_tokens": 1280,
+      "total_tokens": 8294,
+      "wall_time": 32.7014,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a749af055429979e28829b7": {
+    "answer": "The Apple Dumpling Gang",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a749af055429979e28829b7",
+      "llm_calls": 5,
+      "input_tokens": 3809,
+      "output_tokens": 278,
+      "total_tokens": 4087,
+      "wall_time": 8.3727,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab1cdf8554299722f9b4c84": {
+    "answer": "Gutzon Borglum",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab1cdf8554299722f9b4c84",
+      "llm_calls": 5,
+      "input_tokens": 3819,
+      "output_tokens": 302,
+      "total_tokens": 4121,
+      "wall_time": 9.961,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a831fcc55429940e5e1a96a": {
+    "answer": "Yes.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a831fcc55429940e5e1a96a",
+      "llm_calls": 5,
+      "input_tokens": 3753,
+      "output_tokens": 251,
+      "total_tokens": 4004,
+      "wall_time": 7.853,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8ba9d255429971feec4759": {
+    "answer": "Battle of Okinawa",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8ba9d255429971feec4759",
+      "llm_calls": 11,
+      "input_tokens": 8063,
+      "output_tokens": 947,
+      "total_tokens": 9010,
+      "wall_time": 28.1523,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a76fe7b5542994aec3b71b2": {
+    "answer": "Princeton University",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a76fe7b5542994aec3b71b2",
+      "llm_calls": 11,
+      "input_tokens": 7445,
+      "output_tokens": 1856,
+      "total_tokens": 9301,
+      "wall_time": 50.395,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7a9ed55542995eb53be87d": {
+    "answer": "George I",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a9ed55542995eb53be87d",
+      "llm_calls": 5,
+      "input_tokens": 4444,
+      "output_tokens": 254,
+      "total_tokens": 4698,
+      "wall_time": 7.8338,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0f4645542997b2ef7d0aa": {
+    "answer": "Ethereal wave",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0f4645542997b2ef7d0aa",
+      "llm_calls": 11,
+      "input_tokens": 6888,
+      "output_tokens": 1480,
+      "total_tokens": 8368,
+      "wall_time": 38.6581,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a89e3995542992e4fca844d": {
+    "answer": "Lapeer County",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a89e3995542992e4fca844d",
+      "llm_calls": 11,
+      "input_tokens": 7744,
+      "output_tokens": 601,
+      "total_tokens": 8345,
+      "wall_time": 19.2465,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a74994a55429974ef308c2e": {
+    "answer": "None",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a74994a55429974ef308c2e",
+      "llm_calls": 8,
+      "input_tokens": 6701,
+      "output_tokens": 858,
+      "total_tokens": 7559,
+      "wall_time": 23.5987,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "n_total": 2,
+  "state_counts": {
+    "checked": 1,
+    "repaired": 0,
+    "residual": 1,
+    "fallback": 0
+  },
+  "checked_pct": 50.0,
+  "repaired_pct": 0.0,
+  "residual_pct": 50.0,
+  "fallback_pct": 0.0,
+  "fallback_examples": [],
+  "transitions": {
+    "checked": {
+      "checked": 1
+    },
+    "residual": {
+      "residual": 1
+    }
+  },
+  "seed": 123,
+  "gold_state_counts": {
+    "checked": 1,
+    "residual": 1
+  }
+}

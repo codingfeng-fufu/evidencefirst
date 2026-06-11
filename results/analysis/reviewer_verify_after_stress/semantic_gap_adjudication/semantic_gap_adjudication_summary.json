@@ -1,0 +1,88 @@
+{
+  "audit_type": "three_deterministic_proxy_view_gap_label_adjudication",
+  "dataset": "2wiki",
+  "sample_n": 100,
+  "seed": 20260608,
+  "requested_sample_size": 100,
+  "sample_quotas": {
+    "complete": 34,
+    "disconnected": 11,
+    "missing_entities": 35,
+    "short_chain": 20
+  },
+  "overall": {
+    "match_n": 40,
+    "mismatch_n": 31,
+    "ambiguous_n": 29,
+    "match_rate": 0.4,
+    "match_wilson_ci95": [
+      0.3094,
+      0.498
+    ],
+    "mismatch_rate": 0.31,
+    "ambiguous_rate": 0.29,
+    "disagreement_rate": 0.72
+  },
+  "by_gap_type": {
+    "complete": {
+      "n": 34,
+      "match_n": 4,
+      "mismatch_n": 10,
+      "ambiguous_n": 20,
+      "match_rate": 0.1176,
+      "match_wilson_ci95": [
+        0.0467,
+        0.2662
+      ],
+      "disagreement_rate": 0.9412
+    },
+    "disconnected": {
+      "n": 11,
+      "match_n": 2,
+      "mismatch_n": 0,
+      "ambiguous_n": 9,
+      "match_rate": 0.1818,
+      "match_wilson_ci95": [
+        0.0514,
+        0.477
+      ],
+      "disagreement_rate": 0.9091
+    },
+    "missing_entities": {
+      "n": 35,
+      "match_n": 26,
+      "mismatch_n": 9,
+      "ambiguous_n": 0,
+      "match_rate": 0.7429,
+      "match_wilson_ci95": [
+        0.5793,
+        0.8584
+      ],
+      "disagreement_rate": 0.5143
+    },
+    "short_chain": {
+      "n": 20,
+      "match_n": 8,
+      "mismatch_n": 12,
+      "ambiguous_n": 0,
+      "match_rate": 0.4,
+      "match_wilson_ci95": [
+        0.2188,
+        0.6134
+      ],
+      "disagreement_rate": 0.6
+    }
+  },
+  "inter_agent_agreement": {
+    "strict_vs_support": 0.53,
+    "strict_vs_conservative": 0.47,
+    "support_vs_conservative": 0.4,
+    "fleiss_kappa": 0.1836
+  },
+  "agents": [
+    "strict_chain_reviewer",
+    "support_sufficiency_reviewer",
+    "conservative_meta_reviewer"
+  ],
+  "caveat": "This is a no-LLM audit with three deterministic proxy views over saved 2Wiki artifacts, not a professional human annotation study. It is suitable as reviewer-facing supplemental evidence for diagnostic-label plausibility, not as a gold standard."
+}

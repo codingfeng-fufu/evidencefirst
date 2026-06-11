@@ -1,0 +1,4993 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 6,
+      "input_tokens": 6334,
+      "output_tokens": 2150,
+      "total_tokens": 8484,
+      "wall_time": 67.1791,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_B",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Marvin Hamlisch won an EGOT",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Marvin Hamlisch won an EGOT",
+        "answer": "EGOT",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "In 2002, Suining had a population of 658,798.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 11,
+      "input_tokens": 13073,
+      "output_tokens": 407,
+      "total_tokens": 13480,
+      "wall_time": 14.5344,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Suining",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Suining",
+        "answer": "In 2002, Suining had a population of 658,798.",
+        "selected": true
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 5,
+      "input_tokens": 6012,
+      "output_tokens": 413,
+      "total_tokens": 6425,
+      "wall_time": 11.2547,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Great Neck",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Great Neck, New York",
+        "answer": "Great Neck, New York",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 5,
+      "input_tokens": 4321,
+      "output_tokens": 1015,
+      "total_tokens": 5336,
+      "wall_time": 24.3282,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "WWE wrestler",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "WWE wrestler",
+        "answer": "the collaborator with Marc Predka on the 2005",
+        "selected": false
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 7,
+      "input_tokens": 8092,
+      "output_tokens": 804,
+      "total_tokens": 8896,
+      "wall_time": 20.4603,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 27,
+          "triples_added": 27,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aden",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Aden",
+        "answer": "Aden",
+        "selected": true
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Manchester",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 8,
+      "input_tokens": 11154,
+      "output_tokens": 1540,
+      "total_tokens": 12694,
+      "wall_time": 38.5154,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 6,
+          "triples_added": 6,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 2,
+          "triples_extracted": 3,
+          "triples_added": 3,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "disconnected"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "Manchester",
+        "selected": true
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 5,
+      "input_tokens": 4561,
+      "output_tokens": 206,
+      "total_tokens": 4767,
+      "wall_time": 6.3742,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "St. Elizabeths Hospital",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "St. Elizabeths Hospital",
+        "answer": "St. Elizabeths Hospital",
+        "selected": true
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 11,
+      "input_tokens": 25207,
+      "output_tokens": 2878,
+      "total_tokens": 28085,
+      "wall_time": 72.0124,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 19,
+          "triples_added": 19,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "flowering plants",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "flowering plants",
+        "answer": "flowering plants",
+        "selected": true
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 11,
+      "input_tokens": 19572,
+      "output_tokens": 781,
+      "total_tokens": 20353,
+      "wall_time": 23.5949,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 16,
+          "triples_added": 16,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 11,
+          "triples_added": 11,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 11,
+      "input_tokens": 17358,
+      "output_tokens": 860,
+      "total_tokens": 18218,
+      "wall_time": 23.7292,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 17,
+          "triples_added": 17,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Downtown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Downtown",
+        "answer": "Downtown",
+        "selected": true
+      }
+    ]
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "Edward Keonjian",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 5,
+      "input_tokens": 3168,
+      "output_tokens": 205,
+      "total_tokens": 3373,
+      "wall_time": 6.7522,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Edward Keonjian",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Edward Keonjian",
+        "answer": "Dr. Edward Keonjian",
+        "selected": true
+      }
+    ]
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "2004–2012",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 6,
+      "input_tokens": 4783,
+      "output_tokens": 1101,
+      "total_tokens": 5884,
+      "wall_time": 27.1977,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 4,
+          "triples_added": 4,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 8
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 8
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "2004–2012",
+        "answer": "the question contains a misconception",
+        "selected": false
+      }
+    ]
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "William Dwight Schultz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 5,
+      "input_tokens": 3323,
+      "output_tokens": 584,
+      "total_tokens": 3907,
+      "wall_time": 15.3214,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 4
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dwight Schultz",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Dwight Schultz",
+        "answer": "William Dwight Schultz",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "Philadelphia Eagles",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 6,
+      "input_tokens": 6574,
+      "output_tokens": 756,
+      "total_tokens": 7330,
+      "wall_time": 19.1668,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 25,
+          "triples_added": 25,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Philadelphia Eagles",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Philadelphia Eagles",
+        "answer": "Philadelphia Eagles",
+        "selected": true
+      }
+    ]
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 6,
+      "input_tokens": 4159,
+      "output_tokens": 272,
+      "total_tokens": 4431,
+      "wall_time": 9.3667,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 6,
+      "input_tokens": 4301,
+      "output_tokens": 372,
+      "total_tokens": 4673,
+      "wall_time": 10.3333,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 4,
+          "triples_added": 4,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Yes",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "yes",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "Province of New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 12,
+      "input_tokens": 17618,
+      "output_tokens": 1238,
+      "total_tokens": 18856,
+      "wall_time": 33.6629,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 20,
+          "triples_added": 20,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 14,
+          "triples_added": 14,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Province of New York",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Province of New York",
+        "answer": "Province of New York",
+        "selected": true
+      }
+    ]
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 7,
+      "input_tokens": 9214,
+      "output_tokens": 658,
+      "total_tokens": 9872,
+      "wall_time": 18.8594,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 22,
+          "triples_added": 22,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 4
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 4
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not in passages",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "The Captain Matchbox Whoopee Band",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 5,
+      "input_tokens": 2862,
+      "output_tokens": 411,
+      "total_tokens": 3273,
+      "wall_time": 10.8657,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Captain Matchbox Whoopee Band",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Captain Matchbox Whoopee Band",
+        "answer": "The Captain Matchbox Whoopee Band",
+        "selected": true
+      }
+    ]
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 11,
+      "input_tokens": 17287,
+      "output_tokens": 572,
+      "total_tokens": 17859,
+      "wall_time": 17.5085,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 15,
+          "triples_added": 15,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Insufficient information",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5a85fa815542996432c57155": {
+    "answer": "France",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85fa815542996432c57155",
+      "llm_calls": 6,
+      "input_tokens": 5481,
+      "output_tokens": 1002,
+      "total_tokens": 6483,
+      "wall_time": 25.092,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 11,
+          "triples_added": 11,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "France",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "France",
+        "answer": "The draft answer",
+        "selected": false
+      }
+    ]
+  },
+  "5a89e4585542992e4fca8454": {
+    "answer": "Mike Pringle",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a89e4585542992e4fca8454",
+      "llm_calls": 6,
+      "input_tokens": 5602,
+      "output_tokens": 1342,
+      "total_tokens": 6944,
+      "wall_time": 32.7585,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "none",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Since *no passage or triple links any player to both",
+        "answer": "Mike Pringle",
+        "selected": true
+      }
+    ]
+  },
+  "5a7148d25542994082a3e766": {
+    "answer": "Warrel Dane",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7148d25542994082a3e766",
+      "llm_calls": 5,
+      "input_tokens": 4355,
+      "output_tokens": 293,
+      "total_tokens": 4648,
+      "wall_time": 8.6794,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Warrel Dane",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Warrel Dane",
+        "answer": "Warrel Dane",
+        "selected": true
+      }
+    ]
+  },
+  "5ab29c24554299449642c932": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab29c24554299449642c932",
+      "llm_calls": 6,
+      "input_tokens": 5543,
+      "output_tokens": 881,
+      "total_tokens": 6424,
+      "wall_time": 22.8543,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 26,
+          "triples_added": 26,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Yes",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "yes",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a7cdcbf55429907fabef04f": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "llm_calls": 13,
+      "input_tokens": 23280,
+      "output_tokens": 1402,
+      "total_tokens": 24682,
+      "wall_time": 37.5088,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 24,
+          "triples_added": 24,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 17,
+          "triples_added": 17,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a863114554299211dda2aa5": {
+    "answer": "Joseph Ruttenberg",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a863114554299211dda2aa5",
+      "llm_calls": 11,
+      "input_tokens": 18828,
+      "output_tokens": 2003,
+      "total_tokens": 20831,
+      "wall_time": 49.8306,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 10,
+          "triples_added": 10,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 24,
+          "triples_added": 24,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "Joseph Ruttenberg",
+        "selected": true
+      }
+    ]
+  },
+  "5adec53655429975fa854f87": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adec53655429975fa854f87",
+      "llm_calls": 5,
+      "input_tokens": 1834,
+      "output_tokens": 354,
+      "total_tokens": 2188,
+      "wall_time": 9.9276,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Yes",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "yes",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 6,
+      "input_tokens": 5532,
+      "output_tokens": 398,
+      "total_tokens": 5930,
+      "wall_time": 12.1289,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5ab7de455542992aa3b8c864": {
+    "answer": "Grammy awards",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7de455542992aa3b8c864",
+      "llm_calls": 6,
+      "input_tokens": 5092,
+      "output_tokens": 837,
+      "total_tokens": 5929,
+      "wall_time": 21.3038,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Grammy awards",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Grammy awards",
+        "answer": "Grammy awards",
+        "selected": true
+      }
+    ]
+  },
+  "5a84d80c5542992a431d1ab5": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "llm_calls": 6,
+      "input_tokens": 5993,
+      "output_tokens": 342,
+      "total_tokens": 6335,
+      "wall_time": 9.9254,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5a85a2845542997175ce1fe1": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85a2845542997175ce1fe1",
+      "llm_calls": 5,
+      "input_tokens": 2887,
+      "output_tokens": 487,
+      "total_tokens": 3374,
+      "wall_time": 13.0759,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5adcfbf45542990d50227d86": {
+    "answer": "Given that, and that Asian Kung-Fu",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcfbf45542990d50227d86",
+      "llm_calls": 6,
+      "input_tokens": 8115,
+      "output_tokens": 1333,
+      "total_tokens": 9448,
+      "wall_time": 33.2796,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 10,
+          "triples_added": 10,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Given that, and that Asian Kung-Fu",
+        "answer": "Songs by Smashing Pumpkins, Beasts of Bourbon, Icehouse",
+        "selected": false
+      }
+    ]
+  },
+  "5a7d2afd5542995f4f402221": {
+    "answer": "Ferdi Taygan",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7d2afd5542995f4f402221",
+      "llm_calls": 5,
+      "input_tokens": 1976,
+      "output_tokens": 229,
+      "total_tokens": 2205,
+      "wall_time": 7.2269,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "Ferdi Taygan",
+        "selected": true
+      }
+    ]
+  },
+  "5a7d1e685542995ed0d165f7": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "llm_calls": 6,
+      "input_tokens": 5729,
+      "output_tokens": 698,
+      "total_tokens": 6427,
+      "wall_time": 18.3247,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 5,
+          "triples_added": 5,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "Draft answer is \"unknown\", which is correct and supported",
+        "selected": false
+      }
+    ]
+  },
+  "5ab439f055429942dd415eef": {
+    "answer": "Dane County Regional Airport",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab439f055429942dd415eef",
+      "llm_calls": 5,
+      "input_tokens": 3467,
+      "output_tokens": 389,
+      "total_tokens": 3856,
+      "wall_time": 10.9594,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dane County Regional Airport",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Dane County Regional Airport",
+        "answer": "Dane County Regional Airport",
+        "selected": true
+      }
+    ]
+  },
+  "5a8d4cf35542994ba4e3dc5f": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "llm_calls": 6,
+      "input_tokens": 6354,
+      "output_tokens": 454,
+      "total_tokens": 6808,
+      "wall_time": 12.4987,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5add016e5542992c1e3a250b": {
+    "answer": "not supported",
+    "iterations": 1,
+    "usage": {
+      "qid": "5add016e5542992c1e3a250b",
+      "llm_calls": 6,
+      "input_tokens": 8140,
+      "output_tokens": 1353,
+      "total_tokens": 9493,
+      "wall_time": 32.6275,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 7,
+          "triples_added": 7,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "However, the only resumption of a throne mentioned is",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "not supported",
+        "answer": "But Philip V was already king of Spain from 1700; he did not *resume* the throne in",
+        "selected": false
+      }
+    ]
+  },
+  "5ac4efa85542991943173a04": {
+    "answer": "The passages provide information about the Tamiami Canal and the Genesee",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4efa85542991943173a04",
+      "llm_calls": 5,
+      "input_tokens": 4450,
+      "output_tokens": 647,
+      "total_tokens": 5097,
+      "wall_time": 15.9877,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Insufficient information",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Neither",
+        "answer": "The passages provide information about the Tamiami Canal and the Genesee",
+        "selected": true
+      }
+    ]
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "Best Alternative Music Album",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 5,
+      "input_tokens": 3924,
+      "output_tokens": 402,
+      "total_tokens": 4326,
+      "wall_time": 11.3892,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Best Alternative Music Album",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Best Alternative Music Album",
+        "answer": "Best Alternative Music Album",
+        "selected": true
+      }
+    ]
+  },
+  "5a83880e554299123d8c214e": {
+    "answer": "Not in passages",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83880e554299123d8c214e",
+      "llm_calls": 6,
+      "input_tokens": 6532,
+      "output_tokens": 454,
+      "total_tokens": 6986,
+      "wall_time": 12.553,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not in passages",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "",
+        "selected": false
+      }
+    ]
+  },
+  "5a7458ff55429979e2882918": {
+    "answer": "Disney films",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7458ff55429979e2882918",
+      "llm_calls": 12,
+      "input_tokens": 15067,
+      "output_tokens": 1982,
+      "total_tokens": 17049,
+      "wall_time": 48.7884,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 46,
+          "triples_added": 46,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 4,
+          "triples_extracted": 21,
+          "triples_added": 21,
+          "llm_calls": 4
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Disney comedy films",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Disney films",
+        "answer": "Disney films",
+        "selected": true
+      }
+    ]
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 11,
+      "input_tokens": 19181,
+      "output_tokens": 2939,
+      "total_tokens": 22120,
+      "wall_time": 70.8699,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 17,
+          "triples_added": 17,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 26,
+          "triples_added": 26,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "University of California, Santa Barbara",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "University of California, Santa Barbara",
+        "answer": "University of California, Santa Barbara was founded in 1944 (implied by passage",
+        "selected": false
+      }
+    ]
+  },
+  "5adfff0755429925eb1afbce": {
+    "answer": "Groom Dry Lake",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfff0755429925eb1afbce",
+      "llm_calls": 5,
+      "input_tokens": 7059,
+      "output_tokens": 1640,
+      "total_tokens": 8699,
+      "wall_time": 39.6151,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No entity is identified in the passages",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Groom Dry Lake",
+        "answer": "Groom Dry Lake",
+        "selected": true
+      }
+    ]
+  },
+  "5a7283355542991f9a20c4b1": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7283355542991f9a20c4b1",
+      "llm_calls": 5,
+      "input_tokens": 3818,
+      "output_tokens": 538,
+      "total_tokens": 4356,
+      "wall_time": 15.4115,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Unknown",
+        "answer": "However, historical knowledge external to the passages is *not*",
+        "selected": false
+      }
+    ]
+  },
+  "5a8fa2955542992414482b11": {
+    "answer": "Bougainville",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8fa2955542992414482b11",
+      "llm_calls": 8,
+      "input_tokens": 8767,
+      "output_tokens": 734,
+      "total_tokens": 9501,
+      "wall_time": 20.5707,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 16,
+          "triples_added": 16,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Bougainville",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Bougainville",
+        "answer": "Bougainville",
+        "selected": true
+      }
+    ]
+  },
+  "5a888abc5542997e5c09a604": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a888abc5542997e5c09a604",
+      "llm_calls": 7,
+      "input_tokens": 10221,
+      "output_tokens": 185,
+      "total_tokens": 10406,
+      "wall_time": 7.61,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "The Rescuers",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 7,
+      "input_tokens": 9639,
+      "output_tokens": 1103,
+      "total_tokens": 10742,
+      "wall_time": 27.4933,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 30,
+          "triples_added": 30,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Rescuers",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Rescuers",
+        "answer": "The draft answer “",
+        "selected": false
+      }
+    ]
+  },
+  "5ae446fc5542995ad6573d24": {
+    "answer": "Gloria Trevi",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae446fc5542995ad6573d24",
+      "llm_calls": 6,
+      "input_tokens": 6886,
+      "output_tokens": 739,
+      "total_tokens": 7625,
+      "wall_time": 18.7443,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 32,
+          "triples_added": 32,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 4
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 4
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Gloria Trevi",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Gloria Trevi",
+        "answer": "Gloria Trevi",
+        "selected": true
+      }
+    ]
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "rhythm guitar",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 6,
+      "input_tokens": 7028,
+      "output_tokens": 540,
+      "total_tokens": 7568,
+      "wall_time": 14.1903,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 11,
+          "triples_added": 11,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "acoustic guitar",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "rhythm guitar",
+        "answer": "rhythm guitar",
+        "selected": true
+      }
+    ]
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 8,
+      "input_tokens": 9947,
+      "output_tokens": 684,
+      "total_tokens": 10631,
+      "wall_time": 18.7702,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 5,
+          "triples_added": 5,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dead Poets Society",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Dead Poets Society",
+        "answer": "Dead Poets Society",
+        "selected": true
+      }
+    ]
+  },
+  "5ac23f5655429951e9e684d9": {
+    "answer": "People's Republic of China",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac23f5655429951e9e684d9",
+      "llm_calls": 5,
+      "input_tokens": 4789,
+      "output_tokens": 1219,
+      "total_tokens": 6008,
+      "wall_time": 29.1206,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "China",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "People's Republic of China",
+        "answer": "People's Republic of China",
+        "selected": true
+      }
+    ]
+  },
+  "5ab5d4eb5542992aa134a3aa": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab5d4eb5542992aa134a3aa",
+      "llm_calls": 6,
+      "input_tokens": 7556,
+      "output_tokens": 620,
+      "total_tokens": 8176,
+      "wall_time": 16.3427,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 5,
+          "triples_added": 5,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a75f0bf5542994ccc91866b": {
+    "answer": "Cannot be determined",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a75f0bf5542994ccc91866b",
+      "llm_calls": 5,
+      "input_tokens": 3010,
+      "output_tokens": 366,
+      "total_tokens": 3376,
+      "wall_time": 9.9478,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Cannot be determined",
+        "answer": "Cannot be determined",
+        "selected": false
+      }
+    ]
+  },
+  "5a7129685542994082a3e5fa": {
+    "answer": "none",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7129685542994082a3e5fa",
+      "llm_calls": 6,
+      "input_tokens": 4358,
+      "output_tokens": 873,
+      "total_tokens": 5231,
+      "wall_time": 21.9389,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 19,
+          "triples_added": 19,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "none",
+        "answer": "none",
+        "selected": false
+      }
+    ]
+  },
+  "5a7220f055429971e9dc92ac": {
+    "answer": "Volvo 850",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7220f055429971e9dc92ac",
+      "llm_calls": 5,
+      "input_tokens": 3625,
+      "output_tokens": 736,
+      "total_tokens": 4361,
+      "wall_time": 17.9938,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Volvo 850",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Volvo 850",
+        "answer": "Volvo 850",
+        "selected": true
+      }
+    ]
+  },
+  "5a8787915542996e4f30882e": {
+    "answer": "The Man from Snowy River II",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8787915542996e4f30882e",
+      "llm_calls": 8,
+      "input_tokens": 6934,
+      "output_tokens": 831,
+      "total_tokens": 7765,
+      "wall_time": 22.8735,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 20,
+          "triples_added": 20,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Man from Snowy River II",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Man from Snowy River II",
+        "answer": "The Man from Snowy River II",
+        "selected": true
+      }
+    ]
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 6,
+      "input_tokens": 7895,
+      "output_tokens": 325,
+      "total_tokens": 8220,
+      "wall_time": 10.6398,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7b63eb55429931da12ca7e": {
+    "answer": "Albany",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b63eb55429931da12ca7e",
+      "llm_calls": 5,
+      "input_tokens": 4419,
+      "output_tokens": 329,
+      "total_tokens": 4748,
+      "wall_time": 9.5194,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Albany",
+        "answer": "Albany",
+        "selected": true
+      }
+    ]
+  },
+  "5adfee9c55429906c02daa8a": {
+    "answer": "iTunes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfee9c55429906c02daa8a",
+      "llm_calls": 8,
+      "input_tokens": 8716,
+      "output_tokens": 847,
+      "total_tokens": 9563,
+      "wall_time": 21.7648,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 3,
+          "triples_added": 3,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "on iTunes",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "on iTunes",
+        "answer": "on iTunes",
+        "selected": true
+      }
+    ]
+  },
+  "5ae33fa95542990afbd1e0f2": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae33fa95542990afbd1e0f2",
+      "llm_calls": 5,
+      "input_tokens": 3331,
+      "output_tokens": 209,
+      "total_tokens": 3540,
+      "wall_time": 6.499,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "no_triples_fallback",
+        "fallback_to": "passages"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "No",
+        "answer": "No",
+        "selected": true
+      }
+    ]
+  },
+  "5ab7fa4f5542993667794080": {
+    "answer": "Presbyterian University College",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7fa4f5542993667794080",
+      "llm_calls": 8,
+      "input_tokens": 9761,
+      "output_tokens": 917,
+      "total_tokens": 10678,
+      "wall_time": 24.2612,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 29,
+          "triples_added": 29,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 6,
+          "triples_added": 6,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Neither",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Presbyterian University College",
+        "answer": "Presbyterian University College",
+        "selected": true
+      }
+    ]
+  },
+  "5a70f0a75542994082a3e403": {
+    "answer": "Scanian",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a70f0a75542994082a3e403",
+      "llm_calls": 6,
+      "input_tokens": 5659,
+      "output_tokens": 419,
+      "total_tokens": 6078,
+      "wall_time": 12.0476,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 4,
+          "triples_added": 4,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Scanian",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Scanian",
+        "answer": "Scanian",
+        "selected": true
+      }
+    ]
+  },
+  "5ae74eeb5542991bbc9761e1": {
+    "answer": "PET",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae74eeb5542991bbc9761e1",
+      "llm_calls": 9,
+      "input_tokens": 9578,
+      "output_tokens": 979,
+      "total_tokens": 10557,
+      "wall_time": 25.0112,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 4,
+          "triples_extracted": 22,
+          "triples_added": 22,
+          "llm_calls": 4
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "PET",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "PET",
+        "answer": "PET",
+        "selected": true
+      }
+    ]
+  },
+  "5ab71b5c5542991d3222377e": {
+    "answer": "Passage [1] states",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab71b5c5542991d3222377e",
+      "llm_calls": 5,
+      "input_tokens": 3628,
+      "output_tokens": 966,
+      "total_tokens": 4594,
+      "wall_time": 23.0821,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "None",
+        "answer": "Passage [1] states",
+        "selected": true
+      }
+    ]
+  },
+  "5ab96c93554299743d22eb63": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab96c93554299743d22eb63",
+      "llm_calls": 7,
+      "input_tokens": 7315,
+      "output_tokens": 173,
+      "total_tokens": 7488,
+      "wall_time": 7.4152,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "Wait",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 7,
+      "input_tokens": 8799,
+      "output_tokens": 2140,
+      "total_tokens": 10939,
+      "wall_time": 50.7814,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 25,
+          "triples_added": 25,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Wait",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Re-read instruction",
+        "answer": "neither",
+        "selected": false
+      }
+    ]
+  },
+  "5ac24ad7554299636651995a": {
+    "answer": "Pinocchio",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac24ad7554299636651995a",
+      "llm_calls": 9,
+      "input_tokens": 14428,
+      "output_tokens": 1610,
+      "total_tokens": 16038,
+      "wall_time": 39.7588,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 23,
+          "triples_added": 23,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 3,
+          "triples_added": 3,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Pinocchio",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Let’s check again",
+        "answer": "Pinocchio",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0432a55429924de1b7081": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0432a55429924de1b7081",
+      "llm_calls": 11,
+      "input_tokens": 11667,
+      "output_tokens": 651,
+      "total_tokens": 12318,
+      "wall_time": 20.556,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 19,
+          "triples_added": 19,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not confirmed",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5a887898554299206df2b2a2": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a887898554299206df2b2a2",
+      "llm_calls": 11,
+      "input_tokens": 17268,
+      "output_tokens": 758,
+      "total_tokens": 18026,
+      "wall_time": 22.4163,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 16,
+          "triples_added": 16,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5a861ea85542994775f60700": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a861ea85542994775f60700",
+      "llm_calls": 6,
+      "input_tokens": 6888,
+      "output_tokens": 825,
+      "total_tokens": 7713,
+      "wall_time": 20.7984,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 3,
+          "triples_added": 3,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5ae457a95542996836b02c85": {
+    "answer": "Passage [1] only",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae457a95542996836b02c85",
+      "llm_calls": 6,
+      "input_tokens": 7269,
+      "output_tokens": 1421,
+      "total_tokens": 8690,
+      "wall_time": 34.0386,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 31,
+          "triples_added": 31,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not stated",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "not specified",
+        "answer": "Passage [1] only",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f799d55429918e830d22d": {
+    "answer": "Myrsine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f799d55429918e830d22d",
+      "llm_calls": 5,
+      "input_tokens": 4311,
+      "output_tokens": 675,
+      "total_tokens": 4986,
+      "wall_time": 17.7837,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Myrsine",
+        "answer": "Myrsine",
+        "selected": true
+      }
+    ]
+  },
+  "5a8cc08455429941ae14deea": {
+    "answer": "United Kingdom",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8cc08455429941ae14deea",
+      "llm_calls": 5,
+      "input_tokens": 3988,
+      "output_tokens": 586,
+      "total_tokens": 4574,
+      "wall_time": 15.0421,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "United Kingdom",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "United Kingdom",
+        "answer": "United Kingdom",
+        "selected": true
+      }
+    ]
+  },
+  "5ae6fee3554299572ea54670": {
+    "answer": "Charlie Ward",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae6fee3554299572ea54670",
+      "llm_calls": 6,
+      "input_tokens": 7477,
+      "output_tokens": 960,
+      "total_tokens": 8437,
+      "wall_time": 23.5651,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 25,
+          "triples_added": 25,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 1
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "Charlie Ward",
+        "selected": true
+      }
+    ]
+  },
+  "5abdff775542993f32c2a082": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abdff775542993f32c2a082",
+      "llm_calls": 6,
+      "input_tokens": 5560,
+      "output_tokens": 660,
+      "total_tokens": 6220,
+      "wall_time": 17.251,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 14,
+          "triples_added": 14,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7a70b355429941d65f2647": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a70b355429941d65f2647",
+      "llm_calls": 6,
+      "input_tokens": 4920,
+      "output_tokens": 195,
+      "total_tokens": 5115,
+      "wall_time": 6.4757,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5a87bada5542994846c1cddc": {
+    "answer": "Murray Hill",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a87bada5542994846c1cddc",
+      "llm_calls": 10,
+      "input_tokens": 9957,
+      "output_tokens": 1360,
+      "total_tokens": 11317,
+      "wall_time": 34.0585,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 14,
+          "triples_added": 14,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_B",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Murray Hill",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Murray Hill",
+        "answer": "Murray Hill",
+        "selected": true
+      }
+    ]
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "3",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 5,
+      "input_tokens": 4254,
+      "output_tokens": 352,
+      "total_tokens": 4606,
+      "wall_time": 10.3809,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "3",
+        "selected": true
+      }
+    ]
+  },
+  "5ae55d1e55429960a22e02cb": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "llm_calls": 5,
+      "input_tokens": 2960,
+      "output_tokens": 342,
+      "total_tokens": 3302,
+      "wall_time": 9.7722,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not stated",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7ce100554299683c1c63b5": {
+    "answer": "William Packard.\nHayley Williams",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ce100554299683c1c63b5",
+      "llm_calls": 6,
+      "input_tokens": 6176,
+      "output_tokens": 483,
+      "total_tokens": 6659,
+      "wall_time": 14.7543,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Hayley Williams",
+        "answer": "William Packard.\nHayley Williams",
+        "selected": true
+      }
+    ]
+  },
+  "5add60905542995b365fab1d": {
+    "answer": "nothing",
+    "iterations": 1,
+    "usage": {
+      "qid": "5add60905542995b365fab1d",
+      "llm_calls": 7,
+      "input_tokens": 8385,
+      "output_tokens": 421,
+      "total_tokens": 8806,
+      "wall_time": 12.4454,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 3,
+          "triples_added": 3,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not stated",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "nothing",
+        "answer": "nothing",
+        "selected": true
+      }
+    ]
+  },
+  "5ac4f9db55429924173fb532": {
+    "answer": "genus",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4f9db55429924173fb532",
+      "llm_calls": 5,
+      "input_tokens": 4089,
+      "output_tokens": 403,
+      "total_tokens": 4492,
+      "wall_time": 10.9579,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "genus",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "genus",
+        "answer": "genus",
+        "selected": true
+      }
+    ]
+  },
+  "5adf043b5542993a75d263d4": {
+    "answer": "Joe Scarborough",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf043b5542993a75d263d4",
+      "llm_calls": 6,
+      "input_tokens": 4137,
+      "output_tokens": 606,
+      "total_tokens": 4743,
+      "wall_time": 16.0631,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 2,
+          "triples_added": 2,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Joe Scarborough",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Joe Scarborough",
+        "answer": "Joe Scarborough",
+        "selected": true
+      }
+    ]
+  },
+  "5a8ad6db55429950cd6afba7": {
+    "answer": "Sufism",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8ad6db55429950cd6afba7",
+      "llm_calls": 6,
+      "input_tokens": 7673,
+      "output_tokens": 712,
+      "total_tokens": 8385,
+      "wall_time": 18.5524,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 23,
+          "triples_added": 23,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Sufism",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Sufism",
+        "answer": "Sufism",
+        "selected": true
+      }
+    ]
+  },
+  "5adfed5e55429942ec259b92": {
+    "answer": "the answer",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfed5e55429942ec259b92",
+      "llm_calls": 6,
+      "input_tokens": 5558,
+      "output_tokens": 1926,
+      "total_tokens": 7484,
+      "wall_time": 44.7439,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 9,
+          "triples_added": 9,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "the answer",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "the answer",
+        "answer": "None of the passages explicitly state “Estée Lauder",
+        "selected": false
+      }
+    ]
+  },
+  "5a8f51185542992414482a3d": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f51185542992414482a3d",
+      "llm_calls": 6,
+      "input_tokens": 4628,
+      "output_tokens": 257,
+      "total_tokens": 4885,
+      "wall_time": 8.5956,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a893fc855429951533612f0": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a893fc855429951533612f0",
+      "llm_calls": 12,
+      "input_tokens": 11286,
+      "output_tokens": 2129,
+      "total_tokens": 13415,
+      "wall_time": 51.4359,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 19,
+          "triples_added": 19,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 21,
+          "triples_added": 21,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "yes",
+        "answer": "The Cretan Hound is described in passage [4]",
+        "selected": false
+      }
+    ]
+  },
+  "5ae34a225542992e3233c370": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae34a225542992e3233c370",
+      "llm_calls": 11,
+      "input_tokens": 14304,
+      "output_tokens": 709,
+      "total_tokens": 15013,
+      "wall_time": 20.0948,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 15,
+          "triples_added": 15,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5a7e08b55542997cc2c474fe": {
+    "answer": "None",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7e08b55542997cc2c474fe",
+      "llm_calls": 6,
+      "input_tokens": 7948,
+      "output_tokens": 1458,
+      "total_tokens": 9406,
+      "wall_time": 34.8471,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 23,
+          "triples_added": 23,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not stated",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5ac1b8ee5542994d76dccedc": {
+    "answer": "Pamela B. Green",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac1b8ee5542994d76dccedc",
+      "llm_calls": 11,
+      "input_tokens": 17600,
+      "output_tokens": 2525,
+      "total_tokens": 20125,
+      "wall_time": 61.3554,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 11,
+          "triples_added": 11,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Crucially",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "based solely on the triples, **there is no support",
+        "answer": "Pamela B. Green",
+        "selected": true
+      }
+    ]
+  },
+  "5a74bdce55429929fddd84e1": {
+    "answer": "FINAL ANSWER",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a74bdce55429929fddd84e1",
+      "llm_calls": 6,
+      "input_tokens": 5007,
+      "output_tokens": 340,
+      "total_tokens": 5347,
+      "wall_time": 9.8459,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "FINAL ANSWER",
+        "selected": true
+      }
+    ]
+  },
+  "5a81028b55429938b614228a": {
+    "answer": "Aliens of the Deep",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a81028b55429938b614228a",
+      "llm_calls": 11,
+      "input_tokens": 17379,
+      "output_tokens": 1100,
+      "total_tokens": 18479,
+      "wall_time": 28.1079,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 6,
+          "triples_extracted": 46,
+          "triples_added": 46,
+          "llm_calls": 6
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aliens of the Deep",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Aliens of the Deep",
+        "answer": "Aliens of the Deep",
+        "selected": true
+      }
+    ]
+  },
+  "5ac3d4b6554299204fd21e93": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac3d4b6554299204fd21e93",
+      "llm_calls": 8,
+      "input_tokens": 11827,
+      "output_tokens": 752,
+      "total_tokens": 12579,
+      "wall_time": 19.7514,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 3,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 3
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5a72f74a55429901807daf59": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a72f74a55429901807daf59",
+      "llm_calls": 7,
+      "input_tokens": 9216,
+      "output_tokens": 984,
+      "total_tokens": 10200,
+      "wall_time": 24.7686,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 12,
+          "triples_added": 12,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "The draft answer is \"no\", but the question asks for an entity —",
+        "selected": false
+      }
+    ]
+  },
+  "5ab9988b554299131ca4238e": {
+    "answer": "Stephanie March",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab9988b554299131ca4238e",
+      "llm_calls": 5,
+      "input_tokens": 3492,
+      "output_tokens": 1050,
+      "total_tokens": 4542,
+      "wall_time": 25.0238,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not stated",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Stephanie March",
+        "answer": "Stephanie March",
+        "selected": true
+      }
+    ]
+  },
+  "5adf75e35542993344016c98": {
+    "answer": "The Entity",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf75e35542993344016c98",
+      "llm_calls": 5,
+      "input_tokens": 2915,
+      "output_tokens": 512,
+      "total_tokens": 3427,
+      "wall_time": 13.3703,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Entity",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Entity",
+        "answer": "The Entity",
+        "selected": true
+      }
+    ]
+  },
+  "5a726b0f5542997f827839be": {
+    "answer": "Jean-Loup Chrétien",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a726b0f5542997f827839be",
+      "llm_calls": 5,
+      "input_tokens": 3397,
+      "output_tokens": 256,
+      "total_tokens": 3653,
+      "wall_time": 7.7665,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Jean-Loup Chrétien",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Jean-Loup Chrétien",
+        "answer": "Jean-Loup Chrétien",
+        "selected": true
+      }
+    ]
+  },
+  "5ab6ba045542995eadef007e": {
+    "answer": "The Picture of Dorian Gray",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab6ba045542995eadef007e",
+      "llm_calls": 5,
+      "input_tokens": 3253,
+      "output_tokens": 504,
+      "total_tokens": 3757,
+      "wall_time": 13.0175,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Picture of Dorian Gray",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Picture of Dorian Gray",
+        "answer": "The Picture of Dorian Gray",
+        "selected": true
+      }
+    ]
+  },
+  "5ac2cb125542996773102626": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac2cb125542996773102626",
+      "llm_calls": 5,
+      "input_tokens": 2971,
+      "output_tokens": 404,
+      "total_tokens": 3375,
+      "wall_time": 10.9275,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 1
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "No",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "no",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5abdf68c5542993f32c2a06b": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abdf68c5542993f32c2a06b",
+      "llm_calls": 5,
+      "input_tokens": 3696,
+      "output_tokens": 210,
+      "total_tokens": 3906,
+      "wall_time": 6.552,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {},
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,2097 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 7,
+      "input_tokens": 4881,
+      "output_tokens": 1913,
+      "total_tokens": 6794,
+      "wall_time": 59.0257,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "What award has been won by only twelve people?"
+        ],
+        "n_triples": 41,
+        "answer": "Check: Does any triple link *both* Ted",
+        "score": 0.3,
+        "feedback": "Missing: the name of the award won by only twelve people and which one of Ted Kooshian's collaborators has won it. Suggested sub-question: Which award has been won by exactly twelve people, and has any person Ted Kooshian has performed with (e.g., Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, or members of Il Divo or Blood, Sweat and Tears) received that award?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "Which award has been won by exactly twelve people, and has any person Ted Kooshian has performed with (e.g., Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, or members of Il Divo or Blood, Sweat and Tears) received that award?"
+        ],
+        "n_triples": 47,
+        "answer": "And Robert Lopez is described as “the youngest of only twelve people who have won an Emmy, a Grammy",
+        "score": 0.09,
+        "feedback": "Missing: confirmation that Robert Lopez has performed with Ted Kooshian. Suggested sub-question: Has Robert Lopez ever performed or recorded with Ted Kooshian?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "EGOT",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 4,
+      "input_tokens": 2590,
+      "output_tokens": 252,
+      "total_tokens": 2842,
+      "wall_time": 7.2744,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What was the population of Qionghai in 2002?",
+          "What was the population of Suining in 2002?"
+        ],
+        "n_triples": 17,
+        "answer": "Suining",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: population of Qionghai in 2002. Suggested sub-question: What was the population of Qionghai in 2002?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Suining",
+        "selected": false
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 4,
+      "input_tokens": 3896,
+      "output_tokens": 479,
+      "total_tokens": 4375,
+      "wall_time": 11.7567,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the location of Great Neck School District?",
+          "What is the location of Saddle Rock Elementary School?"
+        ],
+        "n_triples": 35,
+        "answer": "Great Neck, New York",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating that the Great Neck School District is located in Great Neck, New York. Suggested sub-question: Where is the Great Neck School District headquartered or geographically situated?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Great Neck, New York",
+        "selected": false
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 7,
+      "input_tokens": 6200,
+      "output_tokens": 1961,
+      "total_tokens": 8161,
+      "wall_time": 45.522,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.0,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who collaborated with Marc Predka on a 2005 album?",
+          "What song did that person write on that 2005 album?",
+          "What was the profession of that person?"
+        ],
+        "n_triples": 50,
+        "answer": "However, the triples *do* state",
+        "score": 0.0,
+        "feedback": "Missing: the identity of the person who wrote a song on a 2005 album he collaborated on with Marc Predka. Suggested sub-question: Who wrote a song on the 2005 album 'You Can't See Me', which Marc Predka (aka Tha Trademarc) collaborated on?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who collaborated with Marc Predka on the 2005 album 'You Can't See Me'?",
+          "Who wrote a song on the 2005 album 'You Can't See Me', which Marc Predka (aka Tha Trademarc) collaborated on?",
+          "What was the profession of the person who wrote a song on the 2005 album 'You Can't See Me', which Marc Predka (aka Tha Trademarc) collaborated on?"
+        ],
+        "n_triples": 50,
+        "answer": "- Kirk Whalum released cover on that album",
+        "score": 0.09,
+        "feedback": "Missing: the identity of the person who wrote a song on the 2005 album he collaborated on with Marc Predka. Suggested sub-question: Who is the songwriter and primary artist on the 2005 album 'You Can't See Me' that Marc Predka (aka Tha Trademarc) collaborated on?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "WWE wrestler",
+        "selected": true
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 7,
+      "input_tokens": 5610,
+      "output_tokens": 591,
+      "total_tokens": 6201,
+      "wall_time": 15.3817,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "In which Arab country is the Aulacodes peribocalis moth found?",
+          "What is the capital of that Arab country?",
+          "Where was that capital relocated to?"
+        ],
+        "n_triples": 50,
+        "answer": "Aden",
+        "score": 0.3,
+        "feedback": "Missing: the capital of Yemen and its relocation history. Suggested sub-question: What is the current capital of Yemen, and has Yemen ever relocated its capital — if so, to where and when?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "In which Arab country is the Aulacodes peribocalis moth found?",
+          "What is the current capital of Yemen, and has Yemen ever relocated its capital — if so, to where and when?"
+        ],
+        "n_triples": 50,
+        "answer": "Aden",
+        "score": 0.3,
+        "feedback": "Missing: the capital of Yemen and its relocation history. Suggested sub-question: What is the current capital of Yemen, and has Yemen's capital ever been relocated — if so, where was it relocated to and when?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aden",
+        "selected": true
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Manchester",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 7,
+      "input_tokens": 5849,
+      "output_tokens": 461,
+      "total_tokens": 6310,
+      "wall_time": 12.7021,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Sara Petersen's women's doubles partner who won a silver medal with her?",
+          "In which city was the competition held where Nicole Gordon and Sara Petersen won a silver medal in women's doubles?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: any triple linking Nicole Gordon and Sara Petersen to a women's doubles silver medal or to a specific competition city. Suggested sub-question: Where was the women's doubles badminton (or relevant sport) competition held in which Nicole Gordon and Sara Petersen won a silver medal?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Sara Petersen's women's doubles partner who won a silver medal with her?",
+          "Where was the women's doubles badminton competition held in which Nicole Gordon and Sara Petersen won a silver medal?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: competition details (city, event, year) for Nicole Gordon and Sara Petersen's women's doubles silver medal. Suggested sub-question: In which city was the competition held where Nicole Gordon won a silver medal in women's doubles with Sara Petersen?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Manchester",
+        "selected": true
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 4,
+      "input_tokens": 3523,
+      "output_tokens": 149,
+      "total_tokens": 3672,
+      "wall_time": 4.7628,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.78,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did St. Elizabeths Hospital open?",
+          "When did Providence Hospital open?"
+        ],
+        "n_triples": 50,
+        "answer": "St. Elizabeths Hospital",
+        "score": 0.78,
+        "feedback": "Missing: opening year of Providence Hospital. Suggested sub-question: When did Providence Hospital open?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "St. Elizabeths Hospital",
+        "selected": true
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 4,
+      "input_tokens": 3622,
+      "output_tokens": 510,
+      "total_tokens": 4132,
+      "wall_time": 12.7303,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.6499999999999999,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of plants does the genus Psychopsis belong to?",
+          "What type of plants does the genus Aubrieta belong to?"
+        ],
+        "n_triples": 50,
+        "answer": "flowering plants",
+        "score": 0.6499999999999999,
+        "feedback": "Missing: taxonomic classification of Psychopsis (e.g., whether it is a genus of flowering plants). Suggested sub-question: What type of plants does the genus Psychopsis belong to?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "flowering plants",
+        "selected": true
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 7,
+      "input_tokens": 5482,
+      "output_tokens": 338,
+      "total_tokens": 5820,
+      "wall_time": 9.9634,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of Frozen?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: genre of Frozen. Suggested sub-question: What is the genre of the 2013 Disney film Frozen?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of the 2013 Disney film Frozen?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: genre of Frozen. Suggested sub-question: What is the genre of the 2013 Disney film Frozen?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 4,
+      "input_tokens": 3559,
+      "output_tokens": 187,
+      "total_tokens": 3746,
+      "wall_time": 5.9214,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the address or location of the Japanese Weekend School of New York's offices?",
+          "What entertainment complex is located in New Rochelle?",
+          "Which section of New Rochelle contains that entertainment complex?"
+        ],
+        "n_triples": 50,
+        "answer": "Downtown",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating 'Japanese Weekend School of New York has offices in the entertainment complex in the Downtown section of New Rochelle'. Suggested sub-question: In which section of New Rochelle is New Roc City located?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Downtown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "Edward Keonjian",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 4,
+      "input_tokens": 3028,
+      "output_tokens": 163,
+      "total_tokens": 3191,
+      "wall_time": 5.0741,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.5,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Edward Keonjian born?",
+          "When was Aram Saroyan born?"
+        ],
+        "n_triples": 50,
+        "answer": "Edward Keonjian",
+        "score": 0.5,
+        "feedback": "Missing: birth date of Aram Saroyan. Suggested sub-question: When was Aram Saroyan born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Edward Keonjian",
+        "selected": true
+      }
+    ]
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "For the sedan variant of the car, see Volvo S40",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 7,
+      "input_tokens": 4996,
+      "output_tokens": 354,
+      "total_tokens": 5350,
+      "wall_time": 10.3422,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What years was the Volvo V50 sedan variant produced?"
+        ],
+        "n_triples": 50,
+        "answer": "not specified",
+        "score": 0.3,
+        "feedback": "Missing: manufacturing period of the Volvo V50 sedan. Suggested sub-question: During which years was the Volvo V50 sedan produced?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "During which years was the Volvo V50 sedan produced?"
+        ],
+        "n_triples": 50,
+        "answer": "not specified",
+        "score": 0.3,
+        "feedback": "Missing: production years of the Volvo V50 sedan. Suggested sub-question: During which years was the Volvo V50 sedan manufactured?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "For the sedan variant of the car, see Volvo S40",
+        "selected": true
+      }
+    ]
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "Dwight Schultz",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 7,
+      "input_tokens": 4615,
+      "output_tokens": 605,
+      "total_tokens": 5220,
+      "wall_time": 15.8138,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who created the American animated television series that features Chef Mung Daal?",
+          "What is the name of the American animated television series created by C. H. Greenblatt?",
+          "Who voices Chef Mung Daal in that series?"
+        ],
+        "n_triples": 50,
+        "answer": "William Dwight Schultz",
+        "score": 0.3,
+        "feedback": "Missing: the voice actor for Chef Mung Daal in Chowder. Suggested sub-question: Who voices Chef Mung Daal in the animated series Chowder?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who created the American animated television series that features Chef Mung Daal?",
+          "What is the name of the American animated television series created by C. H. Greenblatt?",
+          "Who voices Chef Mung Daal in the animated series Chowder?"
+        ],
+        "n_triples": 50,
+        "answer": "William Dwight Schultz",
+        "score": 0.3,
+        "feedback": "Missing: the voice actor for Chef Mung Daal in Chowder. Suggested sub-question: Who voices Chef Mung Daal in the animated series Chowder?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dwight Schultz",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "Philadelphia Eagles",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 4,
+      "input_tokens": 3783,
+      "output_tokens": 382,
+      "total_tokens": 4165,
+      "wall_time": 10.0954,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which NFL teams did Don Looney play for?",
+          "Which NFL teams did DeSean Jackson play for?",
+          "What NFL team is common to both lists?"
+        ],
+        "n_triples": 50,
+        "answer": "Philadelphia Eagles",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating that both Don Looney and DeSean Jackson played for the Philadelphia Eagles *simultaneously or at any overlapping/non-overlapping time*. While the knowledge graph contains 'John Don Looney -- played for --> Philadelphia Eagles' and 'DeSean Jackson -- was --> Eagles wide receiver', it does not explicitly confirm the Eagles as the *shared* team — though no other shared team is asserted, and no conflicting team affiliations (e.g., Looney playing only for Steelers *instead of* Eagles) are present. However, one triple says 'John Don Looney -- played for --> Pittsburgh Steelers', which *contradicts* exclusivity and raises ambiguity about whether he played for *both* teams. Crucially, the graph lacks disambiguation of *when* or *which years* Looney played for each team, and no triple confirms he played for the Eagles *and not only the Steelers*. Suggested sub-question: 'Which NFL teams did John Don Looney play for during his career?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Philadelphia Eagles",
+        "selected": false
+      }
+    ]
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "Heavyweights",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 7,
+      "input_tokens": 4798,
+      "output_tokens": 368,
+      "total_tokens": 5166,
+      "wall_time": 10.4524,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was The Apple Dumpling Gang released?",
+          "When was Heavyweights released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release year of Heavyweights. Suggested sub-question: When was the film Heavyweights released?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was The Apple Dumpling Gang released?",
+          "When was the film Heavyweights released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release year of Heavyweights. Suggested sub-question: When was the film Heavyweights released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Heavyweights",
+        "selected": true
+      }
+    ]
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 4,
+      "input_tokens": 2855,
+      "output_tokens": 175,
+      "total_tokens": 3030,
+      "wall_time": 5.6747,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.5900000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Is Colocasia a flowering plant?",
+          "Is Coronilla a flowering plant?"
+        ],
+        "n_triples": 50,
+        "answer": "yes",
+        "score": 0.5900000000000001,
+        "feedback": "Missing: taxonomic classification of Coronilla (e.g., whether it is a genus of flowering plants or its family). Suggested sub-question: 'Is Coronilla a genus of flowering plants?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "Province of New York",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 7,
+      "input_tokens": 5702,
+      "output_tokens": 1990,
+      "total_tokens": 7692,
+      "wall_time": 46.5635,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.42,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which two American colonies had a series of skirmishes and raids between 1701 and 1765 at their disputed border?",
+          "Which British proprietary colony on the northeast coast of North America became a royal colony during that period?"
+        ],
+        "n_triples": 50,
+        "answer": "Moreover, the skirmishes were *between* NY and NJ — so both are candidates",
+        "score": 0.42,
+        "feedback": "Missing: the specific British proprietary colony that became a royal colony on the northeast coast of North America as a result of the 1701–1765 border skirmishes and that was united in 1702. Suggested sub-question: Which British proprietary colony — consisting of East Jersey and West Jersey — was united into a single royal colony in 1702 on the northeast coast of North America?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which two American colonies had a series of skirmishes and raids between 1701 and 1765 at their disputed border?",
+          "Which British proprietary colony — consisting of East Jersey and West Jersey — was united into a single royal colony in 1702 on the northeast coast of North America?"
+        ],
+        "n_triples": 50,
+        "answer": "- \"The Province of New York -- was --> a royal colony",
+        "score": 0.0,
+        "feedback": "Missing: the British proprietary colony that experienced skirmishes/raids with another colony at a disputed border between 1701–1765 and later became a royal colony on the northeast coast of North America. Suggested sub-question: Which British proprietary colony — involved in border skirmishes and raids with the Province of New York between 1701 and 1765 — was converted from a proprietary to a royal colony, and was located on the northeast coast of North America?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Province of New York",
+        "selected": true
+      }
+    ]
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "Kenneth Anderson served under the General who was President of the United States: Gerald Ford",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 7,
+      "input_tokens": 6112,
+      "output_tokens": 1090,
+      "total_tokens": 7202,
+      "wall_time": 26.6952,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Kenneth Anderson's superior general?",
+          "Who was the President of the United States who served as a general?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: identity of Kenneth Anderson (e.g., military officer, time period, branch of service) and any record of his service under a U.S. general who later became president. Suggested sub-question: Who is Kenneth Anderson, and did he serve under a U.S. Army or Marine Corps general who subsequently served as President of the United States?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Kenneth Anderson, and what is his military background (e.g., branch of service, rank, time period)?",
+          "Did Kenneth Anderson serve under a U.S. Army or Marine Corps general who subsequently served as President of the United States?",
+          "Who was Kenneth Anderson's superior general?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: identity of Kenneth Anderson (U.S. military officer) and his commanding general, and that general's subsequent U.S. presidency. Suggested sub-question: Who was Kenneth Anderson, the U.S. Army general who served in World War II, and under which general did he serve — and was that general later a U.S. President?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Kenneth Anderson served under the General who was President of the United States: Gerald Ford",
+        "selected": true
+      }
+    ]
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "The Captain Matchbox Whoopee Band",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 4,
+      "input_tokens": 3024,
+      "output_tokens": 409,
+      "total_tokens": 3433,
+      "wall_time": 10.4554,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is an Australian Living Treasure who worked on the album Wangaratta Wahine?",
+          "What band recorded the album Wangaratta Wahine?"
+        ],
+        "n_triples": 50,
+        "answer": "The Captain Matchbox Whoopee Band",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that Michael Leunig is the 'Australian Living Treasure' referenced in the question (i.e., direct triple linking 'Wangaratta Wahine' → 'features the work of' → 'Michael Leunig' AND 'Michael Leunig' → 'is Australian Living Treasure'). While triples state both that Leunig was declared an Australian Living Treasure and that he created the cover art for the album, the knowledge graph lacks an explicit triple stating that Wangaratta Wahine *features the work of* Leunig *as the Australian Living Treasure*. Suggested sub-question: 'Does the album Wangaratta Wahine feature the work of Michael Leunig, who is an Australian Living Treasure?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Captain Matchbox Whoopee Band",
+        "selected": false
+      }
+    ]
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "The Smashing Pumpkins",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 7,
+      "input_tokens": 5702,
+      "output_tokens": 400,
+      "total_tokens": 6102,
+      "wall_time": 11.5874,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where did The Smashing Pumpkins originate?",
+          "Where did Greek Fire originate?",
+          "Which of those two locations is more southern?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: formation location of Greek Fire. Suggested sub-question: Where was the band Greek Fire formed?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Where did The Smashing Pumpkins originate?",
+          "Where was the band Greek Fire formed?",
+          "Which of those two locations is more southern?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.48,
+        "feedback": "Missing: formation location of Greek Fire. Suggested sub-question: Where was the band Greek Fire formed?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Smashing Pumpkins",
+        "selected": true
+      }
+    ]
+  },
+  "5a85fa815542996432c57155": {
+    "answer": "Belgian",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a85fa815542996432c57155",
+      "llm_calls": 7,
+      "input_tokens": 5018,
+      "output_tokens": 689,
+      "total_tokens": 5707,
+      "wall_time": 43.068,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is August Brancart?",
+          "What movement did August Brancart publish literature from?",
+          "Where was that movement centered?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: geographic or cultural center of the Decadent movement that August Brancart published literature from. Suggested sub-question: Where was the Decadent movement centered geographically during the time August Brancart published its literature?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is August Brancart?",
+          "What movement did August Brancart publish literature from?",
+          "Where was the Decadent movement centered geographically during the time August Brancart published its literature?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the geographic or cultural center of the Decadent movement. Suggested sub-question: Where was the Decadent movement centered?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Belgian",
+        "selected": true
+      }
+    ]
+  },
+  "5a89e4585542992e4fca8454": {
+    "answer": "Mike Pringle and Johnny Bright",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a89e4585542992e4fca8454",
+      "llm_calls": 7,
+      "input_tokens": 5708,
+      "output_tokens": 1916,
+      "total_tokens": 7624,
+      "wall_time": 44.867,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.09,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is George Reed?",
+          "Which Drake University player is considered one of the greatest running backs in CFL history alongside George Reed?"
+        ],
+        "n_triples": 50,
+        "answer": "But wait — is there a possibility of alias? “George Robert",
+        "score": 0.09,
+        "feedback": "Missing: the name of the Drake University player who, alongside George Reed, is considered one of the greatest running backs in CFL history. Suggested sub-question: Which Drake University alumnus is widely regarded as one of the greatest running backs in CFL history and is frequently mentioned alongside George Reed?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is George Reed?",
+          "Which Drake University alumnus is widely regarded as one of the greatest running backs in CFL history and is frequently mentioned alongside George Reed?"
+        ],
+        "n_triples": 50,
+        "answer": "- \"Adolphus 'Dolph' Pulliam -- played collegiately at --> Drake",
+        "score": 0.48,
+        "feedback": "Missing: confirmation that Adolphus 'Dolph' Pulliam played in the CFL or was a running back in the CFL — the triples only state he played collegiately at Drake and had his jersey retired, but do not link him to the CFL or establish his status as a CFL running back, let alone as one of the greatest alongside George Reed. Suggested sub-question: Did Adolphus 'Dolph' Pulliam play in the Canadian Football League, and if so, what were his CFL career achievements as a running back?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Mike Pringle and Johnny Bright",
+        "selected": true
+      }
+    ]
+  },
+  "5a7148d25542994082a3e766": {
+    "answer": "Warrel Dane",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7148d25542994082a3e766",
+      "llm_calls": 4,
+      "input_tokens": 3417,
+      "output_tokens": 162,
+      "total_tokens": 3579,
+      "wall_time": 5.8097,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Warrel Dane born?",
+          "When was Roy Khan born?"
+        ],
+        "n_triples": 50,
+        "answer": "Warrel Dane",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: birth date of Roy Khan (Roy Sætre Khantatat). Suggested sub-question: What is Roy Khan's birth date?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Warrel Dane",
+        "selected": false
+      }
+    ]
+  },
+  "5ab29c24554299449642c932": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab29c24554299449642c932",
+      "llm_calls": 4,
+      "input_tokens": 3705,
+      "output_tokens": 286,
+      "total_tokens": 3991,
+      "wall_time": 8.3423,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Giuseppe Verdi?",
+          "Who was Ambroise Thomas?",
+          "Were both Giuseppe Verdi and Ambroise Thomas opera composers?"
+        ],
+        "n_triples": 50,
+        "answer": "yes",
+        "score": 0.8,
+        "feedback": "Missing: explicit statement that Ambroise Thomas is a composer (e.g., 'Ambroise Thomas -- is --> composer' or equivalent). Suggested sub-question: Is Ambroise Thomas a composer?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5a7cdcbf55429907fabef04f": {
+    "answer": "Still Kicking",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "llm_calls": 4,
+      "input_tokens": 3588,
+      "output_tokens": 215,
+      "total_tokens": 3803,
+      "wall_time": 6.3002,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Still Kicking: Six Artistic Women of Project Arts & Longevity released?",
+          "When was Time Bombs released?"
+        ],
+        "n_triples": 50,
+        "answer": "Still Kicking",
+        "score": 1.0,
+        "feedback": "Missing: release year of 'Time Bombs' relative to 'Still Kicking: Six Artistic Women of Project Arts & Longevity'. Suggested sub-question: What is the release year of the film 'Time Bombs'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+        "selected": false
+      }
+    ]
+  },
+  "5a863114554299211dda2aa5": {
+    "answer": "Joseph Ruttenberg",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a863114554299211dda2aa5",
+      "llm_calls": 7,
+      "input_tokens": 5862,
+      "output_tokens": 1908,
+      "total_tokens": 7770,
+      "wall_time": 45.0346,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the title of the drama film based on the life of Rocky Graziano?",
+          "Who won an Academy Award for their work on that film?",
+          "What specific role or contribution did that person have on the film?"
+        ],
+        "n_triples": 50,
+        "answer": "However, the instructions require a concise answer (1–5 words) and say to use *",
+        "score": 0.3,
+        "feedback": "Missing: the name of the man who won an Academy Award for his work on the drama 'Somebody Up There Likes Me' (the film based on Rocky Graziano's life). Suggested sub-question: Who won the Academy Award for Best Actor in 'Somebody Up There Likes Me'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the title of the drama film based on the life of Rocky Graziano?",
+          "Who won the Academy Award for Best Actor in 'Somebody Up There Likes Me'?",
+          "What specific role or contribution did that person have on the film?"
+        ],
+        "n_triples": 50,
+        "answer": "- \"Somebody",
+        "score": 0.3,
+        "feedback": "Missing: the name of the man who won an Academy Award for his work on the drama 'Somebody Up There Likes Me', which is based on Rocky Graziano's life. Suggested sub-question: Who won the Academy Award for Best Actor in the 1956 film 'Somebody Up There Likes Me'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Joseph Ruttenberg",
+        "selected": true
+      }
+    ]
+  },
+  "5adec53655429975fa854f87": {
+    "answer": "yes",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adec53655429975fa854f87",
+      "llm_calls": 7,
+      "input_tokens": 4267,
+      "output_tokens": 561,
+      "total_tokens": 4828,
+      "wall_time": 15.6201,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.0,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Is Kim Dong-jun a singer?",
+          "Is Charlie Harper a singer?"
+        ],
+        "n_triples": 50,
+        "answer": "yes",
+        "score": 0.0,
+        "feedback": "Missing: Kim Dong-jun's profession as a singer. Suggested sub-question: Is Kim Dong-jun a singer or musical performer, and if so, in what capacity (e.g., idol, soloist, group member)?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Is Kim Dong-jun a singer or musical performer, and if so, in what capacity (e.g., idol, soloist, group member)?",
+          "Is Charlie Harper a singer?"
+        ],
+        "n_triples": 50,
+        "answer": "yes",
+        "score": 0.42,
+        "feedback": "Missing: Kim Dong-jun's primary profession — the triples state he is a South Korean footballer, actor, and member of ZE:A Five (a K-pop sub-group), but do not confirm whether he is a singer. Suggested sub-question: Is Kim Dong-jun a professional singer or vocalist in ZE:A Five?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "Lake Worth Lagoon",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 7,
+      "input_tokens": 5290,
+      "output_tokens": 819,
+      "total_tokens": 6109,
+      "wall_time": 21.6781,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What man-made barriers were constructed for the Dundee Canal?",
+          "What man-made barriers were constructed for Lake Worth Lagoon?",
+          "Which of these two bodies of water required more intensive man-made barriers?"
+        ],
+        "n_triples": 50,
+        "answer": "Lake Worth Lagoon",
+        "score": 0.48,
+        "feedback": "Missing: any information about the Dundee Canal — including its location, construction, barriers, or engineering features. Suggested sub-question: What man-made barriers were constructed for the Dundee Canal, and how do they compare in scale or intensity to those of Lake Worth Lagoon?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What man-made barriers were constructed for the Dundee Canal, and how do they compare in scale or intensity to those of Lake Worth Lagoon?",
+          "What is the location, historical context, and purpose of the Dundee Canal?",
+          "What man-made barriers were constructed for Lake Worth Lagoon?"
+        ],
+        "n_triples": 50,
+        "answer": "Lake Worth Lagoon",
+        "score": 0.48,
+        "feedback": "Missing: any information about the Dundee Canal — including its existence, location, engineering features, or need for man-made barriers. Suggested sub-question: What man-made barriers, if any, were constructed for the Dundee Canal, and how do they compare in scale or intensity to those of Lake Worth Lagoon?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Lake Worth Lagoon",
+        "selected": true
+      }
+    ]
+  },
+  "5ab7de455542992aa3b8c864": {
+    "answer": "Grammy awards",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7de455542992aa3b8c864",
+      "llm_calls": 4,
+      "input_tokens": 3218,
+      "output_tokens": 238,
+      "total_tokens": 3456,
+      "wall_time": 6.6947,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the internationally recognized solo pianist that Janet Williams has performed with?",
+          "How many Grammy Awards has that pianist won?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.7,
+        "feedback": "Missing: the award type (e.g., Grammy Awards) earned by Vladimir Davidovich Ashkenazy. Suggested sub-question: How many Grammy Awards has Vladimir Davidovich Ashkenazy won?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Grammy awards",
+        "selected": true
+      }
+    ]
+  },
+  "5a84d80c5542992a431d1ab5": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "llm_calls": 4,
+      "input_tokens": 3384,
+      "output_tokens": 293,
+      "total_tokens": 3677,
+      "wall_time": 8.8134,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.76,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What are the uses of MiMA building?",
+          "What are the uses of 270 Park Avenue building?",
+          "How many different uses does each building have?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.76,
+        "feedback": "Missing: uses of MiMA building (e.g., residential, retail, hotel, amenities). Suggested sub-question: What are the functional uses (e.g., residential units, commercial space, hotel, fitness center) of the MiMA building in New York City?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot determine from the given context",
+        "selected": false
+      }
+    ]
+  },
+  "5a85a2845542997175ce1fe1": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a85a2845542997175ce1fe1",
+      "llm_calls": 4,
+      "input_tokens": 2947,
+      "output_tokens": 441,
+      "total_tokens": 3388,
+      "wall_time": 11.8023,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.74,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is Aloinopsis?",
+          "What is Eriogonum?",
+          "Are Aloinopsis and Eriogonum both classified as ice plants?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.74,
+        "feedback": "Missing: taxonomic classification of Eriogonum (whether it belongs to the ice plant family or not). Suggested sub-question: Does Eriogonum belong to the Aizoaceae family or another family?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5adcfbf45542990d50227d86": {
+    "answer": "Yokohama",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adcfbf45542990d50227d86",
+      "llm_calls": 7,
+      "input_tokens": 5342,
+      "output_tokens": 438,
+      "total_tokens": 5780,
+      "wall_time": 13.1332,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who performed the song 'Into Dust'?",
+          "In which city was that band formed?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: formation city of Assembly of Dust. Suggested sub-question: In which city was Assembly of Dust formed?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who performed the song 'Into Dust'?",
+          "In which city was Assembly of Dust formed?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: city where Assembly of Dust was formed. Suggested sub-question: In which city was the band Assembly of Dust formed?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Yokohama",
+        "selected": true
+      }
+    ]
+  },
+  "5a7d2afd5542995f4f402221": {
+    "answer": "Ferdi Taygan",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7d2afd5542995f4f402221",
+      "llm_calls": 7,
+      "input_tokens": 3502,
+      "output_tokens": 332,
+      "total_tokens": 3834,
+      "wall_time": 10.7446,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Ferdi Taygan born?",
+          "When was Mahesh Bhupathi born?"
+        ],
+        "n_triples": 32,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Mahesh Bhupathi. Suggested sub-question: When was Mahesh Bhupathi born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Ferdi Taygan born?",
+          "When was Mahesh Bhupathi born?"
+        ],
+        "n_triples": 32,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Mahesh Bhupathi. Suggested sub-question: When was Mahesh Bhupathi born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Ferdi Taygan",
+        "selected": true
+      }
+    ]
+  },
+  "5a7d1e685542995ed0d165f7": {
+    "answer": "unknown",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "llm_calls": 7,
+      "input_tokens": 5586,
+      "output_tokens": 891,
+      "total_tokens": 6477,
+      "wall_time": 22.691,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did Lee Young-Sun achieve her personal best throw of 58.87 metres?",
+          "Which edition of the Asian Games was held in that year?",
+          "How many women competed at that edition of the Asian Games?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: Lee Young-Sun's personal best throw year and the corresponding Asian Games edition (e.g., year and host city). Suggested sub-question: In which year did Lee Young-Sun achieve a personal best throw of 58.87 metres, and was that year an Asian Games year? If so, which edition (e.g., 2002 Busan, 2006 Doha)?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "In which year did Lee Young-Sun achieve a personal best throw of 58.87 metres, and was that year an Asian Games year? If so, which edition (e.g., 2002 Busan, 2006 Doha)?",
+          "How many women competed at the Asian Games edition identified in the previous sub-question?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.7,
+        "feedback": "Missing: total number of women competitors at the 2002 Asian Games. Suggested sub-question: How many women competed in total at the 2002 Asian Games in Busan?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5ab439f055429942dd415eef": {
+    "answer": "Albany International Airport",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab439f055429942dd415eef",
+      "llm_calls": 7,
+      "input_tokens": 5231,
+      "output_tokens": 575,
+      "total_tokens": 5806,
+      "wall_time": 15.4496,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the distance between Albany International Airport and Albany, New York?",
+          "What is the distance between Dane County Regional Airport and Madison, Wisconsin?"
+        ],
+        "n_triples": 50,
+        "answer": "Dane County Regional Airport",
+        "score": 0.3,
+        "feedback": "Missing: distance from Albany International Airport to Albany, NY and distance from Dane County Regional Airport to Madison, WI. Suggested sub-question: How far is Albany International Airport from the city of Albany, New York? How far is Dane County Regional Airport from the city of Madison, Wisconsin?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "How far is Albany International Airport from the city of Albany, New York?",
+          "How far is Dane County Regional Airport from the city of Madison, Wisconsin?"
+        ],
+        "n_triples": 50,
+        "answer": "Dane County Regional Airport",
+        "score": 0.3,
+        "feedback": "Missing: distance from Albany International Airport to Albany, NY (its local town) and distance from Dane County Regional Airport to Madison, WI (its local town). Suggested sub-question: How far is Albany International Airport from the central business district of Albany, NY? How far is Dane County Regional Airport from the central business district of Madison, WI?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Albany International Airport",
+        "selected": true
+      }
+    ]
+  },
+  "5a8d4cf35542994ba4e3dc5f": {
+    "answer": "None of the provided context passages mention a radio station that serves Belknap County",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "llm_calls": 7,
+      "input_tokens": 5516,
+      "output_tokens": 428,
+      "total_tokens": 5944,
+      "wall_time": 12.3661,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which radio station serves Belknap County, New Hampshire?",
+          "What are the call letters of that radio station?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: radio station call letters serving Belknap County, New Hampshire. Suggested sub-question: Which radio station(s) serve Belknap County, New Hampshire?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which radio station(s) serve Belknap County, New Hampshire?",
+          "What are the call letters of the radio station(s) that serve Belknap County, New Hampshire?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: radio station call letters serving Belknap County, New Hampshire. Suggested sub-question: Which radio station(s) serve Belknap County, New Hampshire?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None of the provided context passages mention a radio station that serves Belknap County",
+        "selected": true
+      }
+    ]
+  },
+  "5add016e5542992c1e3a250b": {
+    "answer": "nothing",
+    "iterations": 2,
+    "usage": {
+      "qid": "5add016e5542992c1e3a250b",
+      "llm_calls": 7,
+      "input_tokens": 6078,
+      "output_tokens": 1046,
+      "total_tokens": 7124,
+      "wall_time": 25.8481,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who abolished the Consell in 1718?",
+          "What events or circumstances led that person to resume the throne?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the identity of the man who abolished the Gran i General Consell in 1718 and the reason he resumed the throne. Suggested sub-question: Who abolished the Gran i General Consell on 22 July 1718, and what event or condition led to their resumption of the throne?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who abolished the Gran i General Consell on 22 July 1718?",
+          "What event or condition led the person who abolished the Gran i General Consell on 22 July 1718 to resume the throne?"
+        ],
+        "n_triples": 50,
+        "answer": "no such man",
+        "score": 0.3,
+        "feedback": "Missing: identity of the ruler who abolished the Gran i General Consell on 22 July 1718 and later resumed the throne. Suggested sub-question: Who was the monarch ruling the Kingdom of Majorca (or the Crown of Aragon) in 1718 who abolished the Gran i General Consell on 22 July 1718?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "nothing",
+        "selected": true
+      }
+    ]
+  },
+  "5ac4efa85542991943173a04": {
+    "answer": "Tamiami Canal",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac4efa85542991943173a04",
+      "llm_calls": 7,
+      "input_tokens": 5055,
+      "output_tokens": 982,
+      "total_tokens": 6037,
+      "wall_time": 24.1293,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which states does the Tamiami Canal flow through?",
+          "Which states does the Genesee River flow through?",
+          "How many states does each body of water flow through?"
+        ],
+        "n_triples": 50,
+        "answer": "same number",
+        "score": 0.3,
+        "feedback": "Missing: number of U.S. states traversed by Tamiami Canal and Genesee River. Suggested sub-question: Through how many U.S. states does the Tamiami Canal flow? Through how many U.S. states does the Genesee River flow?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Through how many U.S. states does the Tamiami Canal flow?",
+          "Through how many U.S. states does the Genesee River flow?",
+          "Which states does the Tamiami Canal flow through?",
+          "Which states does the Genesee River flow through?"
+        ],
+        "n_triples": 50,
+        "answer": "same number",
+        "score": 0.3,
+        "feedback": "Missing: the number of U.S. states traversed by the Tamiami Canal and by the Genesee River. Suggested sub-question: Through how many U.S. states does the Tamiami Canal flow? Through how many U.S. states does the Genesee River flow?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Tamiami Canal",
+        "selected": true
+      }
+    ]
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "Best Alternative Music Album",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 4,
+      "input_tokens": 3491,
+      "output_tokens": 367,
+      "total_tokens": 3858,
+      "wall_time": 10.1087,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which album by The White Stripes includes the song 'Seven Nation Army'?",
+          "At the 46th Grammy Awards, what award did that album win?"
+        ],
+        "n_triples": 50,
+        "answer": "Best Alternative Music Album",
+        "score": 1.0,
+        "feedback": "Missing: none. All required facts are present: 'Elephant' is confirmed as the album containing 'Seven Nation Army', released by The White Stripes; it won 'Best Alternative Music Album' at the 46th Grammy Awards (which occurred in 2004); and no triple contradicts this. The answer directly and correctly identifies the award."
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Best Alternative Music Album",
+        "selected": false
+      }
+    ]
+  },
+  "5a83880e554299123d8c214e": {
+    "answer": "Garfield",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a83880e554299123d8c214e",
+      "llm_calls": 7,
+      "input_tokens": 5277,
+      "output_tokens": 574,
+      "total_tokens": 5851,
+      "wall_time": 15.9357,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the title of Suicide's 1977 album?",
+          "What song on that album is based on a comic character?",
+          "Which brand owns the comic character featured in that song?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the title and content of Suicide's 1977 album, and which song on it is based on a comic character brand (e.g., DC Comics' Batman). Suggested sub-question: What is the title of Suicide's 1977 debut album, and does it contain a song referencing a branded comic character such as Batman, Superman, or Garfield?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the title of Suicide's 1977 debut album?",
+          "Does Suicide's 1977 debut album contain a song referencing a branded comic character such as Batman, Superman, or Garfield?",
+          "What is the title of the song on Suicide's 1977 debut album that references a branded comic character?",
+          "Which brand owns the comic character referenced in that song?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the title and content of Suicide's 1977 album, and which song on it is based on a comic character brand (e.g., 'Frankie Teardrop' or 'Ghost Rider', and their connection to Marvel/DC/other). Suggested sub-question: What is the title of Suicide's 1977 debut album, and which song on it is derived from a comic book character — and what brand (e.g., Marvel Comics) owns that character?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Garfield",
+        "selected": true
+      }
+    ]
+  },
+  "5a7458ff55429979e2882918": {
+    "answer": "American comedy films",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7458ff55429979e2882918",
+      "llm_calls": 7,
+      "input_tokens": 5474,
+      "output_tokens": 1176,
+      "total_tokens": 6650,
+      "wall_time": 28.6225,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.5900000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of film is That Darn Cat?",
+          "What type of film is Honey, I Blew Up the Kid?"
+        ],
+        "n_triples": 50,
+        "answer": "film",
+        "score": 0.48,
+        "feedback": "Missing: classification of 'That Darn Cat' as a film (e.g., 'That Darn Cat -- is a --> film' or 'That Darn Cat -- is --> Disney film'). Suggested sub-question: What is the genre or medium of 'That Darn Cat'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre or medium of 'That Darn Cat'?",
+          "What is the genre or medium of 'Honey, I Blew Up the Kid'?"
+        ],
+        "n_triples": 50,
+        "answer": "comedy films",
+        "score": 0.5900000000000001,
+        "feedback": "Missing: genre classification of 'That Darn Cat'. Suggested sub-question: What is the genre of the 1965 film 'That Darn Cat'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "American comedy films",
+        "selected": true
+      }
+    ]
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "University of California, Santa Barbara",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 7,
+      "input_tokens": 5653,
+      "output_tokens": 524,
+      "total_tokens": 6177,
+      "wall_time": 14.4072,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was the University of California, Santa Barbara founded?",
+          "When was Hamdard University founded?"
+        ],
+        "n_triples": 50,
+        "answer": "University of California, Santa Barbara",
+        "score": 0.48,
+        "feedback": "Missing: founding year of University of California, Santa Barbara. Suggested sub-question: When was the University of California, Santa Barbara founded?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was the University of California, Santa Barbara founded?",
+          "When was Hamdard University founded?"
+        ],
+        "n_triples": 50,
+        "answer": "University of California, Santa Barbara",
+        "score": 0.48,
+        "feedback": "Missing: founding year of University of California, Santa Barbara. Suggested sub-question: When was the University of California, Santa Barbara founded?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "University of California, Santa Barbara",
+        "selected": true
+      }
+    ]
+  },
+  "5adfff0755429925eb1afbce": {
+    "answer": "Rachel, Nevada",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfff0755429925eb1afbce",
+      "llm_calls": 7,
+      "input_tokens": 7334,
+      "output_tokens": 566,
+      "total_tokens": 7900,
+      "wall_time": 15.7256,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the location of Groom Lake?",
+          "What is located 25 miles south of Groom Lake?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: geographic location directly 25 miles south of Groom Lake. Suggested sub-question: What is located 25 miles south of Groom Lake?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the location of Groom Lake?",
+          "What is located 25 miles south of Groom Lake?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: geographic location of the entity located 25 miles south of Groom Lake. Suggested sub-question: What is located 25 miles south of Groom Lake?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Rachel, Nevada",
+        "selected": true
+      }
+    ]
+  },
+  "5a7283355542991f9a20c4b1": {
+    "answer": "Frederick Barbarossa",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7283355542991f9a20c4b1",
+      "llm_calls": 4,
+      "input_tokens": 3811,
+      "output_tokens": 648,
+      "total_tokens": 4459,
+      "wall_time": 15.9481,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Frederick II's father?",
+          "Who was Frederick II's paternal grandfather?",
+          "Was Frederick II's paternal grandfather the Holy Roman Emperor until his death?"
+        ],
+        "n_triples": 50,
+        "answer": "Frederick Barbarossa",
+        "score": 1.0,
+        "feedback": "Missing: confirmation that Frederick Barbarossa was Holy Roman Emperor until his death. Suggested sub-question: Was Frederick Barbarossa Holy Roman Emperor until his death, and if so, when did he die?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Frederick Barbarossa",
+        "selected": false
+      }
+    ]
+  },
+  "5a8fa2955542992414482b11": {
+    "answer": "Bougainville – Our Island Our Fight",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8fa2955542992414482b11",
+      "llm_calls": 7,
+      "input_tokens": 4979,
+      "output_tokens": 1709,
+      "total_tokens": 6688,
+      "wall_time": 40.0726,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who directed Tender Fictions?",
+          "Who directed Bougainville – Our Island Our Fight?",
+          "Was Wayne Coles-Janess the director of Tender Fictions or Bougainville – Our Island Our Fight?"
+        ],
+        "n_triples": 50,
+        "answer": "neither",
+        "score": 0.3,
+        "feedback": "Missing: director of 'Tender Fictions' and director of 'Bougainville – Our Island Our Fight'. Suggested sub-question: Who directed the documentary film 'Tender Fictions'? Who directed the documentary film 'Bougainville – Our Island Our Fight'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who directed the documentary film 'Tender Fictions'?",
+          "Who directed the documentary film 'Bougainville – Our Island Our Fight'?",
+          "Was Wayne Coles-Janess the director of Tender Fictions or Bougainville – Our Island Our Fight?"
+        ],
+        "n_triples": 50,
+        "answer": "But the instruction says",
+        "score": 0.3,
+        "feedback": "Missing: director of 'Tender Fictions' and director of 'Bougainville – Our Island Our Fight'. Suggested sub-question: Who directed the documentary 'Tender Fictions'? Who directed the documentary 'Bougainville – Our Island Our Fight'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Bougainville – Our Island Our Fight",
+        "selected": true
+      }
+    ]
+  },
+  "5a888abc5542997e5c09a604": {
+    "answer": "Kolejka",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a888abc5542997e5c09a604",
+      "llm_calls": 7,
+      "input_tokens": 5649,
+      "output_tokens": 330,
+      "total_tokens": 5979,
+      "wall_time": 9.9143,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Kolejka released?",
+          "When was Ghettopoly released?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: release dates of 'Kolejka' and 'Ghettopoly'. Suggested sub-question: When was the board game 'Kolejka' first released? When was the board game 'Ghettopoly' first released?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was the board game 'Kolejka' first released?",
+          "When was the board game 'Ghettopoly' first released?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: release dates of 'Kolejka' and 'Ghettopoly'. Suggested sub-question: When was the board game 'Kolejka' first released? When was the board game 'Ghettopoly' first released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Kolejka",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "The Rescuers",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 7,
+      "input_tokens": 5143,
+      "output_tokens": 639,
+      "total_tokens": 5782,
+      "wall_time": 16.9827,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was The Rescuers released?",
+          "When was The Muppets released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release date of 'The Muppets' (2011 film). Suggested sub-question: When was the Walt Disney Pictures film 'The Muppets' released?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was The Rescuers released?",
+          "When was the Walt Disney Pictures film 'The Muppets' released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release date of 'The Muppets' (2011 film). Suggested sub-question: When was the Walt Disney film 'The Muppets' (2011) released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Rescuers",
+        "selected": true
+      }
+    ]
+  },
+  "5ae446fc5542995ad6573d24": {
+    "answer": "Gloria Trevi",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae446fc5542995ad6573d24",
+      "llm_calls": 7,
+      "input_tokens": 5317,
+      "output_tokens": 380,
+      "total_tokens": 5697,
+      "wall_time": 11.4986,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who released the song 'Todos Me Miran'?",
+          "Is the singer from Mexico?"
+        ],
+        "n_triples": 50,
+        "answer": "Gloria Trevi",
+        "score": 0.3,
+        "feedback": "Missing: the artist who released 'Todos Me Miran'. Suggested sub-question: Who is the original recording artist of the song 'Todos Me Miran'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is the original recording artist of the song 'Todos Me Miran'?",
+          "Is the original recording artist of 'Todos Me Miran' from Mexico?"
+        ],
+        "n_triples": 50,
+        "answer": "Gloria Trevi",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that 'Todos Me Miran' was released by Gloria Trevi (e.g., release year, album name, or label). Suggested sub-question: On which album and in what year was Gloria Trevi's song 'Todos Me Miran' released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Gloria Trevi",
+        "selected": false
+      }
+    ]
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "rhythm guitar",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 7,
+      "input_tokens": 6152,
+      "output_tokens": 560,
+      "total_tokens": 6712,
+      "wall_time": 15.0735,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was the vocalist on Van Halen's album OU812?",
+          "What instrument did that vocalist play in the song 'Finish What Ya Started'?",
+          "Was OU812 the second album featuring that vocalist?"
+        ],
+        "n_triples": 50,
+        "answer": "rhythm guitar",
+        "score": 0.3,
+        "feedback": "Missing: Sammy Hagar's instrumental role in 'Finish What Ya Started' and confirmation that he played rhythm guitar on that track. Suggested sub-question: What instrument did Sammy Hagar play on the song 'Finish What Ya Started' from Van Halen's OU812 album?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was the vocalist on Van Halen's album OU812?",
+          "What instrument did Sammy Hagar play on the song 'Finish What Ya Started' from Van Halen's OU812 album?",
+          "Was OU812 the second album featuring Sammy Hagar as Van Halen's vocalist?"
+        ],
+        "n_triples": 35,
+        "answer": "rhythm guitar",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that Sammy Hagar played rhythm guitar *on 'Finish What Ya Started'* (not just 'a rhythm guitar part' in general). Suggested sub-question: Did Sammy Hagar play rhythm guitar specifically on the track 'Finish What Ya Started' from OU812?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "rhythm guitar",
+        "selected": false
+      }
+    ]
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 7,
+      "input_tokens": 5979,
+      "output_tokens": 1317,
+      "total_tokens": 7296,
+      "wall_time": 31.4411,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What movie starring Robin Williams is set in 1959 at a Vermont boarding school?",
+          "Did Joshua Aaron Charles appear in that movie?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the movie title 'Dead Poets Society' and its cast member Joshua Aaron Charles. Suggested sub-question: Which actor played Knox Overstreet in 'Dead Poets Society'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What movie starring Robin Williams is set in 1959 at a Vermont boarding school?",
+          "Did Joshua Aaron Charles appear in that movie?",
+          "Which actor played Knox Overstreet in 'Dead Poets Society'?"
+        ],
+        "n_triples": 50,
+        "answer": "Dead Poets Society",
+        "score": 0.94,
+        "feedback": "Missing: confirmation that Joshua Aaron Charles appeared in Dead Poets Society. Suggested sub-question: Who are the main cast members of Dead Poets Society besides Robin Williams?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dead Poets Society",
+        "selected": false
+      }
+    ]
+  }
+}

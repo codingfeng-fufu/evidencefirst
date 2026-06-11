@@ -1,0 +1,30 @@
+{
+  "5adf37955542993a75d2642e": {
+    "answer": "",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf37955542993a75d2642e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 208.559,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  },
+  "5adfb790554299603e418389": {
+    "answer": "",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfb790554299603e418389",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 148.9316,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  }
+}

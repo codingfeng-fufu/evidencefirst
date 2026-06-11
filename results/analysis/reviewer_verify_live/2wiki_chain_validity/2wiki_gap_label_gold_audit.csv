@@ -1,0 +1,5 @@
+gap_type,target_name,n,label_n,target_n,true_positive_n,precision,recall,target_prevalence,lift,label_em,label_f1
+complete,gold_pair_complete_and_nodes_connected,500,239,70,36,0.1506,0.5143,0.14,1.0759,0.7029,0.7681
+missing_entities,missing_gold_entity,500,217,316,149,0.6866,0.4715,0.632,1.0864,0.6959,0.7667
+disconnected,all_gold_entities_present_but_nodes_disconnected,500,11,81,1,0.0909,0.0123,0.162,0.5612,0.4545,0.5351
+short_chain,partial_gold_pair_recall,500,33,269,15,0.4545,0.0558,0.538,0.8449,0.6364,0.7035

@@ -1,0 +1,2087 @@
+{
+  "5ac23f5655429951e9e684d9": {
+    "answer": "People's Republic of China",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac23f5655429951e9e684d9",
+      "llm_calls": 4,
+      "input_tokens": 3958,
+      "output_tokens": 353,
+      "total_tokens": 4311,
+      "wall_time": 23.9043,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where is Pulandian District located?",
+          "Where is Hailar District located?",
+          "What country contains both Pulandian District and Hailar District?"
+        ],
+        "n_triples": 50,
+        "answer": "China",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating Pulandian District is located in China. Suggested sub-question: Where is Pulandian District located?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "People's Republic of China",
+        "selected": true
+      }
+    ]
+  },
+  "5ab5d4eb5542992aa134a3aa": {
+    "answer": "0",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab5d4eb5542992aa134a3aa",
+      "llm_calls": 7,
+      "input_tokens": 5671,
+      "output_tokens": 349,
+      "total_tokens": 6020,
+      "wall_time": 11.8743,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who directed the film 'Girl 6'?",
+          "How many films has that director produced since 1983?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: director of 'Girl 6'. Suggested sub-question: Who directed the film 'Girl 6'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who directed the film 'Girl 6'?",
+          "How many films has that director produced since 1983?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: director of 'Girl 6'. Suggested sub-question: Who directed the film 'Girl 6'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "0",
+        "selected": true
+      }
+    ]
+  },
+  "5a75f0bf5542994ccc91866b": {
+    "answer": "Pelle Almqvist",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a75f0bf5542994ccc91866b",
+      "llm_calls": 7,
+      "input_tokens": 4812,
+      "output_tokens": 528,
+      "total_tokens": 5340,
+      "wall_time": 14.2421,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Pelle Almqvist born?",
+          "When was Steve Winwood born?",
+          "Who is younger based on their birth dates?"
+        ],
+        "n_triples": 50,
+        "answer": "Pelle Almqvist",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Steve Winwood. Suggested sub-question: When was Steve Winwood born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Pelle Almqvist born?",
+          "When was Steve Winwood born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.7,
+        "feedback": "Missing: birth date of Steve Winwood. Suggested sub-question: When was Steve Winwood born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Pelle Almqvist",
+        "selected": true
+      }
+    ]
+  },
+  "5a7129685542994082a3e5fa": {
+    "answer": "None of the fighters listed are explicitly identified as \"Blackzilians\" in the provided context passages",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7129685542994082a3e5fa",
+      "llm_calls": 7,
+      "input_tokens": 4735,
+      "output_tokens": 922,
+      "total_tokens": 5657,
+      "wall_time": 23.8429,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who are the fighters associated with the Blackzilians team?",
+          "Which of those fighters currently compete in the UFC Middleweight division?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: affiliation of any listed fighter (Marshman, Branch, Zachrich) with the 'Blackzilians' team. Suggested sub-question: Which of these fighters — Jack Marshman, David Branch, or Luke Zachrich — trained with or was officially a member of the Blackzilians camp?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who are the fighters associated with the Blackzilians team?",
+          "Which of those fighters currently compete in the UFC Middleweight division?",
+          "Which of these fighters — Jack Marshman, David Branch, or Luke Zachrich — trained with or was officially a member of the Blackzilians camp?"
+        ],
+        "n_triples": 50,
+        "answer": "none",
+        "score": 0.3,
+        "feedback": "Missing: explicit membership relationship between any listed fighter (Jack Marshman, David Branch, Luke Zachrich) and the 'Blackzilians' team. Suggested sub-question: Which of these fighters — Jack Marshman, David Branch, or Luke Zachrich — was a member of the Blackzilians training camp?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None of the fighters listed are explicitly identified as \"Blackzilians\" in the provided context passages",
+        "selected": true
+      }
+    ]
+  },
+  "5a7220f055429971e9dc92ac": {
+    "answer": "Volvo 850",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7220f055429971e9dc92ac",
+      "llm_calls": 4,
+      "input_tokens": 3319,
+      "output_tokens": 406,
+      "total_tokens": 3725,
+      "wall_time": 10.6012,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What vehicle was the Volvo S70 essentially modeled after?",
+          "Was the Volvo S70 the first all-wheel drive Volvo?"
+        ],
+        "n_triples": 50,
+        "answer": "Volvo 850",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: Volvo S70 was essentially modeled after the Volvo 850 (i.e., it is a facelifted/revised version of the 850, sharing the same P80 platform). Suggested sub-question: What platform and predecessor model does the Volvo S70 share with the Volvo 850?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Volvo S70 was essentially a facelifted 850 saloon and the Volvo 850 was the first all-wheel drive Volvo",
+        "selected": false
+      }
+    ]
+  },
+  "5a8787915542996e4f30882e": {
+    "answer": "The Man from Snowy River II",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8787915542996e4f30882e",
+      "llm_calls": 7,
+      "input_tokens": 5156,
+      "output_tokens": 602,
+      "total_tokens": 5758,
+      "wall_time": 16.7898,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Dangal released?",
+          "When was The Man from Snowy River II released?"
+        ],
+        "n_triples": 31,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release year of 'Dangal' and release year of 'The Man from Snowy River II'. Suggested sub-question: 'When was the film Dangal released?' and 'When was the film The Man from Snowy River II released?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was the film Dangal released?",
+          "When was the film The Man from Snowy River II released?"
+        ],
+        "n_triples": 32,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release year of 'Dangal' and release year of 'The Man from Snowy River II'. Suggested sub-question: 'When was the film Dangal released?' and 'When was the film The Man from Snowy River II released?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Man from Snowy River II",
+        "selected": true
+      }
+    ]
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "unknown",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 7,
+      "input_tokens": 6245,
+      "output_tokens": 458,
+      "total_tokens": 6703,
+      "wall_time": 12.708,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What TV show has an episode titled 'Moho House'?",
+          "How many seasons does that TV show have?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the TV show whose episode is titled 'Moho House'. Suggested sub-question: Which TV show has an episode titled 'Moho House'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which TV show has an episode titled 'Moho House'?",
+          "What is the total number of seasons of that TV show?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the TV show whose episode is titled 'Moho House'. Suggested sub-question: Which TV show has an episode titled 'Moho House'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7b63eb55429931da12ca7e": {
+    "answer": "Albany",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b63eb55429931da12ca7e",
+      "llm_calls": 7,
+      "input_tokens": 5139,
+      "output_tokens": 515,
+      "total_tokens": 5654,
+      "wall_time": 14.6863,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Paul Clyne?",
+          "Who is David Soares?",
+          "What city is associated with both Paul Clyne and David Soares?"
+        ],
+        "n_triples": 50,
+        "answer": "Albany",
+        "score": 0.3,
+        "feedback": "Missing: geographic or institutional affiliation (e.g., office location, jurisdiction, or employer) for both Paul Clyne and David Soares. Suggested sub-question: In which city does David Soares serve as District Attorney? What city was Paul Clyne the District Attorney of?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Paul Clyne?",
+          "Who is David Soares?",
+          "In which city does David Soares serve as District Attorney?",
+          "What city was Paul Clyne the District Attorney of?"
+        ],
+        "n_triples": 50,
+        "answer": "Albany",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating that both Paul Clyne and David Soares served as District Attorney of Albany County, New York — though this is strongly implied by separate triples (e.g., 'Paul Clyne -- was --> District Attorney of Albany County, New York' and 'P. David Soares -- is --> Albany County, N.Y. District Attorney'), a direct joint contextualization (e.g., 'Paul Clyne and David Soares -- both held office in --> Albany') is absent. Suggested sub-question: 'In which city did both Paul Clyne and David Soares serve as District Attorney?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Albany",
+        "selected": false
+      }
+    ]
+  },
+  "5adfee9c55429906c02daa8a": {
+    "answer": "on iTunes",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfee9c55429906c02daa8a",
+      "llm_calls": 7,
+      "input_tokens": 4691,
+      "output_tokens": 1623,
+      "total_tokens": 6314,
+      "wall_time": 39.5886,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who launched the music magazine that interviewed CupcakKe about her album Audacious in September?",
+          "What is the name of the music magazine launched by Rob Stone and Jon Cohen that interviewed CupcakKe about her album Audacious in September?",
+          "Where was the first print issue of that magazine released?"
+        ],
+        "n_triples": 37,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the name and launch location of the music magazine co-founded by Rob Stone and Jon Cohen that interviewed CupcakKe about 'Audacious' in September. Suggested sub-question: What is the name of the music magazine launched by Rob Stone and Jon Cohen, and where was its first print edition released?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who launched the music magazine that interviewed CupcakKe about her album Audacious in September?",
+          "What is the name of the music magazine launched by Rob Stone and Jon Cohen, and where was its first print edition released?"
+        ],
+        "n_triples": 40,
+        "answer": "- FADER Label: founded in 2002, based in New York City —",
+        "score": 0.09,
+        "feedback": "Missing: the name and location of the first print publication launched by Rob Stone and Jon Cohen that interviewed CupcakKe about 'Audacious' in September. Suggested sub-question: What is the name of the music magazine launched by Rob Stone and Jon Cohen that published a September interview with CupcakKe about her album 'Audacious', and where was its first print edition released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "on iTunes",
+        "selected": true
+      }
+    ]
+  },
+  "5ae33fa95542990afbd1e0f2": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae33fa95542990afbd1e0f2",
+      "llm_calls": 4,
+      "input_tokens": 2781,
+      "output_tokens": 266,
+      "total_tokens": 3047,
+      "wall_time": 7.5817,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.6,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Minersville School District v. Gobitis decided?",
+          "When was Gravel v. United States decided?",
+          "Did both cases occur in the same decade?"
+        ],
+        "n_triples": 0,
+        "answer": "no",
+        "score": 0.6,
+        "feedback": "Missing: year of decision for Minersville School District v. Gobitis and year of decision for Gravel v. United States. Suggested sub-question: In what year was Minersville School District v. Gobitis decided? In what year was Gravel v. United States decided?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5ab7fa4f5542993667794080": {
+    "answer": "neither",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7fa4f5542993667794080",
+      "llm_calls": 4,
+      "input_tokens": 3464,
+      "output_tokens": 364,
+      "total_tokens": 3828,
+      "wall_time": 10.1638,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.54,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was the University of Arizona founded?",
+          "When was Presbyterian University College founded?"
+        ],
+        "n_triples": 50,
+        "answer": "neither",
+        "score": 0.54,
+        "feedback": "Missing: founding year of University of Arizona and Presbyterian University College (Ghana). Suggested sub-question: When was the University of Arizona founded? When was Presbyterian University College in Ghana established?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Presbyterian University College",
+        "selected": false
+      }
+    ]
+  },
+  "5a70f0a75542994082a3e403": {
+    "answer": "Scanian",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a70f0a75542994082a3e403",
+      "llm_calls": 7,
+      "input_tokens": 5197,
+      "output_tokens": 683,
+      "total_tokens": 5880,
+      "wall_time": 20.4359,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the name of the dialect spoken in the province of Scania?",
+          "What is the local name for Spettekaka in that dialect?"
+        ],
+        "n_triples": 50,
+        "answer": "Not specified",
+        "score": 0.3,
+        "feedback": "Missing: the name of the dialect spoken in Scania that pronounces 'Spettekaka' as 'spiddekaga'. Suggested sub-question: What is the name of the Scanian dialect variant (e.g., Malmö dialect, Kristianstad dialect) or local speech variety in Scania that renders 'Spettekaka' as 'spiddekaga'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the name of the dialect spoken in the province of Scania?",
+          "What is the local name for Spettekaka in that dialect?",
+          "What is the name of the Scanian dialect variant (e.g., Malmö dialect, Kristianstad dialect) or local speech variety in Scania that renders 'Spettekaka' as 'spiddekaga'?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the specific dialect name in Scania that pronounces 'Spettekaka' as 'spiddekaga'. Suggested sub-question: What is the name of the Scanian dialect variety (e.g., Malmö dialect, Kristianstad dialect, or broader term like 'Scanian') that renders 'Spettekaka' as 'spiddekaga'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Scanian",
+        "selected": true
+      }
+    ]
+  },
+  "5ae74eeb5542991bbc9761e1": {
+    "answer": "PET",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae74eeb5542991bbc9761e1",
+      "llm_calls": 4,
+      "input_tokens": 3245,
+      "output_tokens": 358,
+      "total_tokens": 3603,
+      "wall_time": 9.9192,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the familiar short name of Polyethylene terephthalate?",
+          "Which company based in Pakistan is mentioned as a bottle maker using this material?"
+        ],
+        "n_triples": 50,
+        "answer": "PET",
+        "score": 1.0,
+        "feedback": "Missing: explicit statement that 'Polyethylene terephthalate' is commonly abbreviated as 'PET'. Suggested sub-question: What is the standard abbreviation or familiar short name for polyethylene terephthalate?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "PET",
+        "selected": false
+      }
+    ]
+  },
+  "5ab71b5c5542991d3222377e": {
+    "answer": "none",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab71b5c5542991d3222377e",
+      "llm_calls": 7,
+      "input_tokens": 4889,
+      "output_tokens": 1588,
+      "total_tokens": 6477,
+      "wall_time": 38.3031,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the Miracle Mile?",
+          "Which luxury goods companies are located on Northern Boulevard?",
+          "Which of those luxury goods companies is long-standing or historically significant?"
+        ],
+        "n_triples": 50,
+        "answer": "none",
+        "score": 0.3,
+        "feedback": "Missing: the name of a luxury goods company located on Northern Boulevard in the Miracle Mile (Manhasset). Suggested sub-question: Which luxury goods companies are physically located along Northern Boulevard in the Miracle Mile area of Manhasset, New York?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the Miracle Mile?",
+          "Which luxury goods companies are physically located along Northern Boulevard in the Miracle Mile area of Manhasset, New York?"
+        ],
+        "n_triples": 50,
+        "answer": "No triple links any named luxury goods company",
+        "score": 0.48,
+        "feedback": "Missing: a named luxury goods company located on Northern Boulevard in the Miracle Mile (Manhasset). Suggested sub-question: Which luxury goods companies have physical retail locations on Northern Boulevard within The Miracle Mile shopping district in Manhasset, New York?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Americana Manhasset",
+        "selected": false
+      }
+    ]
+  },
+  "5ab96c93554299743d22eb63": {
+    "answer": "insufficient information",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab96c93554299743d22eb63",
+      "llm_calls": 7,
+      "input_tokens": 5446,
+      "output_tokens": 374,
+      "total_tokens": 5820,
+      "wall_time": 11.3341,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the population of Dujiangyan City according to its latest census?",
+          "What is the population of Ezhou according to its latest census?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: population figures for Dujiangyan City and Ezhou from the latest census (e.g., China's 2020 Seventh National Census). Suggested sub-question: What are the resident population counts for Dujiangyan City and Ezhou according to China's 2020 national census?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What are the resident population counts for Dujiangyan City and Ezhou according to China's 2020 national census?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 1.0,
+        "feedback": "Missing: population figures for Dujiangyan City and Ezhou from the latest census (2013 or later). Suggested sub-question: What were the resident populations of Dujiangyan City and Ezhou according to the 2020 Chinese National Census?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not enough information",
+        "selected": false
+      }
+    ]
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "Nepenthes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 4,
+      "input_tokens": 3405,
+      "output_tokens": 888,
+      "total_tokens": 4293,
+      "wall_time": 21.454,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.78,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where is Stephanocereus indigenous to?",
+          "Where is Nepenthes indigenous to?"
+        ],
+        "n_triples": 50,
+        "answer": "→ If no triple says either is, then based *only* on the triples, we cannot assert either is. But the question expects one. Since Nepenthes locations *are given* and all are non-western, and Stephanocereus is *not mentioned at all*, we cannot say Stephanocereus is — so the answer is neither. However, standard interpretation of such questions under strict KG constraints: if one entity is completely absent and the other has only eastern records, then neither qualifies — but the question may be flawed. Still, per instruction to use *only* the triples, and since no triple places any Nepenthes in the western hemisphere, and none mentions Stephanocereus, the only defensible answer is that **neither is supported**, but the format demands selection. Since Stephanocereus is *not in the KG*, it cannot be confirmed — so the answer is not Nepenthes (as all its instances are elsewhere), and not Stephanocereus (as it's unmentioned)",
+        "score": 0.78,
+        "feedback": "Missing: geographic native range of Stephanocereus. Suggested sub-question: Where is Stephanocereus indigenous?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Nepenthes",
+        "selected": true
+      }
+    ]
+  },
+  "5ac24ad7554299636651995a": {
+    "answer": "Pinocchio",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac24ad7554299636651995a",
+      "llm_calls": 7,
+      "input_tokens": 5588,
+      "output_tokens": 1511,
+      "total_tokens": 7099,
+      "wall_time": 36.119,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the chronological order of Disney's animated feature films?",
+          "Which year was Pinocchio released?",
+          "Which year was Home on the Range released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release order and production sequence of Disney's animated feature films, specifically the release years of Pinocchio and Home on the Range. Suggested sub-question: What year was Pinocchio released by Walt Disney Animation Studios? What year was Home on the Range released by Walt Disney Animation Studios?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the chronological order of Disney's animated feature films?",
+          "What year was Pinocchio released by Walt Disney Animation Studios?",
+          "What year was Home on the Range released by Walt Disney Animation Studios?"
+        ],
+        "n_triples": 50,
+        "answer": "Given the constraints, the only defensible answer is that the triples provide information about Pinocchio (",
+        "score": 0.06,
+        "feedback": "Missing: release order and production sequence of Disney's animated feature films, specifically the release years of Pinocchio and Home on the Range. Suggested sub-question: When was Pinocchio released? When was Home on the Range released? What is the chronological order of Disney's animated feature films?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Pinocchio",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0432a55429924de1b7081": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0432a55429924de1b7081",
+      "llm_calls": 7,
+      "input_tokens": 4912,
+      "output_tokens": 431,
+      "total_tokens": 5343,
+      "wall_time": 12.3528,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Rosario Castellanos?",
+          "Who was Lucy Maud Montgomery?",
+          "Were both Rosario Castellanos and Lucy Maud Montgomery authors?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.3,
+        "feedback": "Missing: Rosario Castellanos's occupation or authorship status. Suggested sub-question: Was Rosario Castellanos an author?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Was Rosario Castellanos an author?",
+          "Was Lucy Maud Montgomery an author?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.48,
+        "feedback": "Missing: Rosario Castellanos's occupation or authorship status. Suggested sub-question: Was Rosario Castellanos an author?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5a887898554299206df2b2a2": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a887898554299206df2b2a2",
+      "llm_calls": 4,
+      "input_tokens": 3668,
+      "output_tokens": 295,
+      "total_tokens": 3963,
+      "wall_time": 7.9948,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.74,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is Broughtonia?",
+          "What is Perilla?",
+          "Is Perilla a type of mint?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.74,
+        "feedback": "Missing: taxonomic classification of Broughtonia. Suggested sub-question: Does Broughtonia belong to the mint family (Lamiaceae)?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5a861ea85542994775f60700": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a861ea85542994775f60700",
+      "llm_calls": 7,
+      "input_tokens": 5197,
+      "output_tokens": 668,
+      "total_tokens": 5865,
+      "wall_time": 17.3803,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.36,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Robert Holdstock?",
+          "Who was H. L. Mencken?",
+          "Were both Robert Holdstock and H. L. Mencken known for satire?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.36,
+        "feedback": "Missing: H. L. Mencken's primary literary role (e.g., satirist, journalist, critic) and Robert Holdstock's primary literary role (e.g., fantasy novelist, not satirist). Suggested sub-question: 'Was H. L. Mencken known primarily as a satirist?' and 'Was Robert Holdstock known primarily as a satirist?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was Robert Holdstock?",
+          "Who was H. L. Mencken?",
+          "Was H. L. Mencken known primarily as a satirist?",
+          "Was Robert Holdstock known primarily as a satirist?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.39,
+        "feedback": "Missing: Robert Holdstock's primary literary genre and H. L. Mencken's role as a satirist. Suggested sub-question: Was Robert Holdstock primarily known as a satirist? Was H. L. Mencken known as a satirist?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5ae457a95542996836b02c85": {
+    "answer": "Zack Snyder; Chris Terrio and David S. Goyer",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae457a95542996836b02c85",
+      "llm_calls": 7,
+      "input_tokens": 5735,
+      "output_tokens": 1463,
+      "total_tokens": 7198,
+      "wall_time": 34.8546,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who voiced a character in the 2016 film featuring Townsend Coleman?",
+          "What is the title of the 2016 film featuring Townsend Coleman's voice?",
+          "Who directed and wrote that film?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the title and production details (director, writer, release year) of the 2016 film featuring Townsend Coleman's voice. Suggested sub-question: What 2016 film featured Townsend Putnam Coleman III as a voice actor, and who directed and wrote it?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What 2016 film featured Townsend Putnam Coleman III as a voice actor?",
+          "Who directed the 2016 film featuring Townsend Putnam Coleman III as a voice actor?",
+          "Who wrote the 2016 film featuring Townsend Putnam Coleman III as a voice actor?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the title of the 2016 film featuring Townsend Coleman's voice. Suggested sub-question: What is the title of the 2016 film in which Townsend Putnam Coleman III provided a voice performance?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Zack Snyder; Chris Terrio and David S. Goyer",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f799d55429918e830d22d": {
+    "answer": "Myrsine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f799d55429918e830d22d",
+      "llm_calls": 4,
+      "input_tokens": 3398,
+      "output_tokens": 172,
+      "total_tokens": 3570,
+      "wall_time": 5.5008,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many species are in the genus Myrsine?",
+          "How many species are in the genus Styrax?"
+        ],
+        "n_triples": 50,
+        "answer": "Myrsine",
+        "score": 1.0,
+        "feedback": "Missing: explicit species count for Styrax that directly compares with Myrsine's 'about 200 species'. Suggested sub-question: How many species are in the genus Styrax?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Myrsine",
+        "selected": false
+      }
+    ]
+  },
+  "5a8cc08455429941ae14deea": {
+    "answer": "United Kingdom",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8cc08455429941ae14deea",
+      "llm_calls": 7,
+      "input_tokens": 4796,
+      "output_tokens": 1071,
+      "total_tokens": 5867,
+      "wall_time": 25.9915,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who duets with Dave Hemingway on the song 'A Little Time'?",
+          "What country is that singer from?"
+        ],
+        "n_triples": 50,
+        "answer": "United Kingdom",
+        "score": 0.48,
+        "feedback": "Missing: the identity and nationality of Dave Hemingway's duet partner on 'A Little Time'. Suggested sub-question: Who sings the duet with Dave Hemingway on The Beautiful South's song 'A Little Time', and what is that person's country of origin?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who sings the duet with Dave Hemingway on The Beautiful South's song 'A Little Time'?",
+          "What is the country of origin of the singer who duets with Dave Hemingway on The Beautiful South's song 'A Little Time'?"
+        ],
+        "n_triples": 50,
+        "answer": "England",
+        "score": 0.3,
+        "feedback": "Missing: the identity of Dave Hemingway's duet partner on 'A Little Time'. Suggested sub-question: Who is the other vocalist (duet partner) on The Beautiful South's song 'A Little Time'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "United Kingdom",
+        "selected": false
+      }
+    ]
+  },
+  "5ae6fee3554299572ea54670": {
+    "answer": "1937",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae6fee3554299572ea54670",
+      "llm_calls": 7,
+      "input_tokens": 5788,
+      "output_tokens": 845,
+      "total_tokens": 6633,
+      "wall_time": 21.262,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who won the Heisman Trophy in 1956?",
+          "What year was that winner born?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the 1956 Heisman Trophy winner and their birth year. Suggested sub-question: Who won the Heisman Trophy in 1956, and in what year were they born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who won the Heisman Trophy in 1956, and in what year were they born?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the identity of the 1956 Heisman Trophy winner who defeated Johnny Majors, and that winner's birth year. Suggested sub-question: Who won the Heisman Trophy in 1956? Then: What is the birth year of that winner?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "1937",
+        "selected": true
+      }
+    ]
+  },
+  "5abdff775542993f32c2a082": {
+    "answer": "The Guthrie Theater",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abdff775542993f32c2a082",
+      "llm_calls": 7,
+      "input_tokens": 5408,
+      "output_tokens": 409,
+      "total_tokens": 5817,
+      "wall_time": 11.8136,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the composer and lyricist for the musical Big Fish?",
+          "What theater is that person a residential artist at?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: composer and lyricist for the musical 'Big Fish'. Suggested sub-question: Who composed and wrote the lyrics for the musical 'Big Fish'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who composed and wrote the lyrics for the musical 'Big Fish'?",
+          "What theater is that person a residential artist at?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: composer and lyricist for the musical Big Fish (Andrew Lippa) and their residential theater affiliation (e.g., The Old Globe Theatre). Suggested sub-question: Who composed and wrote the lyrics for the musical Big Fish, and at which theater are they a resident artist?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Guthrie Theater",
+        "selected": true
+      }
+    ]
+  },
+  "5a7a70b355429941d65f2647": {
+    "answer": "insufficient information",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7a70b355429941d65f2647",
+      "llm_calls": 7,
+      "input_tokens": 5034,
+      "output_tokens": 479,
+      "total_tokens": 5513,
+      "wall_time": 12.897,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Jerry Garcia born?",
+          "When was Joe Gooch born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Jerry Garcia and Joe Gooch. Suggested sub-question: When was Jerry Garcia born? When was Joe Gooch born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Jerry Garcia born?",
+          "When was Joe Gooch born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Jerry Garcia and Joe Gooch. Suggested sub-question: When was Jerry Garcia born? When was Joe Gooch born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a87bada5542994846c1cddc": {
+    "answer": "Murray Hill, New Jersey",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a87bada5542994846c1cddc",
+      "llm_calls": 4,
+      "input_tokens": 3059,
+      "output_tokens": 360,
+      "total_tokens": 3419,
+      "wall_time": 9.1765,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.54,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ravi Sethi?",
+          "Which American research and scientific development company did Ravi Sethi work for as a computer scientist?",
+          "In which city are the headquarters of that company located?"
+        ],
+        "n_triples": 50,
+        "answer": "Murray Hill",
+        "score": 0.54,
+        "feedback": "Missing: headquarters location of Bell Labs. Suggested sub-question: Where are the headquarters of Bell Labs located?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Murray Hill, New Jersey",
+        "selected": true
+      }
+    ]
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "3",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 4,
+      "input_tokens": 3657,
+      "output_tokens": 265,
+      "total_tokens": 3922,
+      "wall_time": 7.3249,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.79,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many singles titles did Kim Warwick win?",
+          "How many singles titles did Jorge Lozano win?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.79,
+        "feedback": "Missing: number of singles titles won by Kim Warwick. Suggested sub-question: How many singles titles did Kim Warwick win?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "3",
+        "selected": true
+      }
+    ]
+  },
+  "5ae55d1e55429960a22e02cb": {
+    "answer": "The context passages do not provide information about the host of the \"British Academy Television Awards 2009\" or their birth date",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "llm_calls": 7,
+      "input_tokens": 4475,
+      "output_tokens": 461,
+      "total_tokens": 4936,
+      "wall_time": 12.9715,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who hosted the British Academy Television Awards in 2009?",
+          "When was that host born?"
+        ],
+        "n_triples": 40,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: identity of the host of the British Academy Television Awards 2009. Suggested sub-question: Who hosted the British Academy Television Awards in 2009?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who hosted the British Academy Television Awards in 2009?",
+          "When was that host born?"
+        ],
+        "n_triples": 40,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: identity of the host of the British Academy Television Awards 2009. Suggested sub-question: Who hosted the British Academy Television Awards in 2009?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The context passages do not provide information about the host of the \"British Academy Television Awards 2009\" or their birth date",
+        "selected": true
+      }
+    ]
+  },
+  "5a7ce100554299683c1c63b5": {
+    "answer": "Hayley Williams",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7ce100554299683c1c63b5",
+      "llm_calls": 7,
+      "input_tokens": 4717,
+      "output_tokens": 525,
+      "total_tokens": 5242,
+      "wall_time": 13.9398,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Terry Glaze born?",
+          "When was Hayley Williams born?",
+          "Who is younger between Terry Glaze and Hayley Williams?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Terry Glaze and Hayley Williams. Suggested sub-question: When was Terry Glaze born? When was Hayley Williams born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Terry Glaze born?",
+          "When was Hayley Williams born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.7,
+        "feedback": "Missing: birth date of Terry Glaze and birth date of Hayley Williams. Suggested sub-question: When was Terry Glaze born? When was Hayley Williams born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Hayley Williams",
+        "selected": true
+      }
+    ]
+  },
+  "5add60905542995b365fab1d": {
+    "answer": "nothing",
+    "iterations": 2,
+    "usage": {
+      "qid": "5add60905542995b365fab1d",
+      "llm_calls": 7,
+      "input_tokens": 5530,
+      "output_tokens": 400,
+      "total_tokens": 5930,
+      "wall_time": 11.4493,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Victor Salva?",
+          "Who is Emilio Fernández?",
+          "What notable roles or achievements do Victor Salva and Emilio Fernández share?"
+        ],
+        "n_triples": 50,
+        "answer": "nothing",
+        "score": 0.3,
+        "feedback": "Missing: any biographical, professional, or associative information about Victor Salva in the knowledge graph. Suggested sub-question: 'Who is Victor Salva and what is his profession?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Victor Salva and what is his profession?",
+          "Who is Emilio Fernández?",
+          "What notable roles or achievements do Victor Salva and Emilio Fernández share?"
+        ],
+        "n_triples": 50,
+        "answer": "nothing",
+        "score": 0.3,
+        "feedback": "Missing: any information about Victor Salva in the knowledge graph triples. Suggested sub-question: 'Who is Victor Salva and what is his profession or notable work?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Nothing",
+        "selected": false
+      }
+    ]
+  },
+  "5ac4f9db55429924173fb532": {
+    "answer": "genus",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac4f9db55429924173fb532",
+      "llm_calls": 4,
+      "input_tokens": 3376,
+      "output_tokens": 265,
+      "total_tokens": 3641,
+      "wall_time": 7.3303,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of plant classification is Tritonia?",
+          "What type of plant classification is Phyteuma?",
+          "Are Tritonia and Phyteuma classified under the same botanical category?"
+        ],
+        "n_triples": 50,
+        "answer": "genus",
+        "score": 1.0,
+        "feedback": "Missing: explicit statement that both Tritonia and Phyteuma are *genera* (plural of genus) — though each is individually stated as 'a genus of flowering plants', the question asks for the *category* (i.e., taxonomic rank) shared by both names, and the answer 'genus' is correct and fully supported. However, the knowledge graph lacks a triple explicitly stating 'Tritonia and Phyteuma are both genera', which would directly confirm the parallel classification. Suggested sub-question: 'What taxonomic rank do Tritonia and Phyteuma share?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "genus",
+        "selected": false
+      }
+    ]
+  },
+  "5adf043b5542993a75d263d4": {
+    "answer": "Charles Joseph Scarborough",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf043b5542993a75d263d4",
+      "llm_calls": 4,
+      "input_tokens": 2869,
+      "output_tokens": 367,
+      "total_tokens": 3236,
+      "wall_time": 9.6115,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is a former GOP representative who became an American cable news and talk radio host?",
+          "What is the name of that person?"
+        ],
+        "n_triples": 50,
+        "answer": "Charles Joseph Scarborough",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that Charles Joseph Scarborough was a 'former GOP representative' (i.e., Republican U.S. Representative). Suggested sub-question: Was Charles Joseph Scarborough a Republican member of the U.S. House of Representatives?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Joe Scarborough",
+        "selected": false
+      }
+    ]
+  },
+  "5a8ad6db55429950cd6afba7": {
+    "answer": "Sufism",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8ad6db55429950cd6afba7",
+      "llm_calls": 4,
+      "input_tokens": 4360,
+      "output_tokens": 450,
+      "total_tokens": 4810,
+      "wall_time": 11.4017,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What field of study is Ovamir Anjum known for?",
+          "What is the term commonly used for Islamic mysticism?"
+        ],
+        "n_triples": 50,
+        "answer": "Sufism",
+        "score": 0.94,
+        "feedback": "Missing: explicit triple linking Ovamir Anjum to Sufism (e.g., 'Ovamir Anjum -- studies --> Sufism' or 'Ovamir Anjum -- specializes in --> Islamic mysticism'). Suggested sub-question: Does Ovamir Anjum's scholarship explicitly focus on or include Sufism/Islamic mysticism?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Sufism",
+        "selected": false
+      }
+    ]
+  },
+  "5adfed5e55429942ec259b92": {
+    "answer": "New York City",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfed5e55429942ec259b92",
+      "llm_calls": 7,
+      "input_tokens": 4865,
+      "output_tokens": 1045,
+      "total_tokens": 5910,
+      "wall_time": 25.6025,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What company owns Bumble and bumble?",
+          "Where is the headquarters of that company located?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the company that owns Bumble and bumble (i.e., its corporate parent and that parent's headquarters location). Suggested sub-question: Which company owns Bumble and bumble, and where is that company's headquarters located?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which company owns Bumble and bumble, and where is that company's headquarters located?"
+        ],
+        "n_triples": 50,
+        "answer": "not specified",
+        "score": 0.3,
+        "feedback": "Missing: headquarters location of Estée Lauder Companies, Inc. Suggested sub-question: Where is Estée Lauder Companies, Inc. headquartered?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "New York City",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f51185542992414482a3d": {
+    "answer": "0",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8f51185542992414482a3d",
+      "llm_calls": 7,
+      "input_tokens": 4976,
+      "output_tokens": 410,
+      "total_tokens": 5386,
+      "wall_time": 11.6193,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was the primary jockey of Binocular?",
+          "How many consecutive times was that jockey named Champion Jockey?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: identity of Binocular's primary jockey and their consecutive Champion Jockey titles. Suggested sub-question: Who was the primary jockey of the racehorse Binocular, and how many consecutive times did that jockey win the British jump racing Champion Jockey title?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was the primary jockey of the racehorse Binocular?",
+          "How many consecutive times did that jockey win the British jump racing Champion Jockey title?"
+        ],
+        "n_triples": 37,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: identity of Binocular's primary jockey and their consecutive Champion Jockey titles. Suggested sub-question: Who was the primary jockey for the racehorse Binocular, and how many consecutive times did that jockey win the British National Hunt Champion Jockey title?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "0",
+        "selected": true
+      }
+    ]
+  },
+  "5a893fc855429951533612f0": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a893fc855429951533612f0",
+      "llm_calls": 7,
+      "input_tokens": 4179,
+      "output_tokens": 765,
+      "total_tokens": 4944,
+      "wall_time": 19.4007,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the primary purpose of the Chien Français Blanc et Orange?",
+          "What is the primary purpose of the Cretan Hound?",
+          "Are both breeds typically used for hunting in packs?"
+        ],
+        "n_triples": 33,
+        "answer": "no",
+        "score": 0.48,
+        "feedback": "Missing: hunting behavior (pack vs. solitary) of the Cretan Hound. Suggested sub-question: Is the Cretan Hound used for hunting in packs?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the primary purpose of the Chien Français Blanc et Orange?",
+          "Is the Chien Français Blanc et Orange typically used for hunting in packs?",
+          "Is the Cretan Hound used for hunting in packs?"
+        ],
+        "n_triples": 33,
+        "answer": "no",
+        "score": 0.48,
+        "feedback": "Missing: hunting behavior (pack vs. solitary) of the Chien Français Blanc et Orange and the Cretan Hound. Suggested sub-question: Does the Chien Français Blanc et Orange hunt in packs? Does the Cretan Hound hunt in packs?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5ae34a225542992e3233c370": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae34a225542992e3233c370",
+      "llm_calls": 7,
+      "input_tokens": 5257,
+      "output_tokens": 453,
+      "total_tokens": 5710,
+      "wall_time": 12.3379,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Eugène Ionesco born and when did he die?",
+          "When was Paul Scott born and when did he die?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth and death years of Eugène Ionesco and Paul Scott. Suggested sub-question: When was Eugène Ionesco born and when did he die? When was Paul Scott born and when did he die?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Eugène Ionesco born and when did he die?",
+          "When was Paul Scott born and when did he die?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth and death years of Eugène Ionesco and Paul Scott. Suggested sub-question: When was Eugène Ionesco born and when did he die? When was Paul Scott born and when did he die?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5a7e08b55542997cc2c474fe": {
+    "answer": "none",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7e08b55542997cc2c474fe",
+      "llm_calls": 7,
+      "input_tokens": 5654,
+      "output_tokens": 1127,
+      "total_tokens": 6781,
+      "wall_time": 27.3156,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which NHL team won the Stanley Cup in 1992?",
+          "Which current NHL team owner played for that team in 1992?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: the NHL team that won the Stanley Cup in 1992 and the current NHL team owner who played for that team. Suggested sub-question: Which NHL team won the Stanley Cup in 1992, and which current NHL team owner was a player on that championship roster?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which NHL team won the Stanley Cup in 1992?",
+          "Which current NHL team owner was a player on the 1992 Stanley Cup championship roster?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: identity of the 1992 Stanley Cup-winning team and current NHL team owners who played for them. Suggested sub-question: Which NHL team won the Stanley Cup in 1992, and which current NHL team owners were players on that roster?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "none",
+        "selected": true
+      }
+    ]
+  },
+  "5ac1b8ee5542994d76dccedc": {
+    "answer": "neither",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac1b8ee5542994d76dccedc",
+      "llm_calls": 4,
+      "input_tokens": 3210,
+      "output_tokens": 780,
+      "total_tokens": 3990,
+      "wall_time": 18.688,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.54,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Lev Yilmaz?",
+          "Who is Pamela B. Green?",
+          "Which of them was known for animation?"
+        ],
+        "n_triples": 50,
+        "answer": "neither",
+        "score": 0.54,
+        "feedback": "Missing: Lev Yilmaz's professional domain (e.g., whether he is known for animation). Suggested sub-question: What is Lev Yilmaz known for professionally?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "neither",
+        "selected": false
+      }
+    ]
+  },
+  "5a74bdce55429929fddd84e1": {
+    "answer": "Georg Cantor",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a74bdce55429929fddd84e1",
+      "llm_calls": 7,
+      "input_tokens": 4697,
+      "output_tokens": 282,
+      "total_tokens": 4979,
+      "wall_time": 8.464,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did Vladimir Arnold die?",
+          "When did Georg Cantor die?",
+          "Who died later between Vladimir Arnold and Georg Cantor?"
+        ],
+        "n_triples": 43,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: death dates of Vladimir Arnold and Georg Cantor. Suggested sub-question: When did Vladimir Arnold die? When did Georg Cantor die?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When did Vladimir Arnold die?",
+          "When did Georg Cantor die?"
+        ],
+        "n_triples": 42,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: death dates of Vladimir Arnold and Georg Cantor. Suggested sub-question: 'When did Vladimir Arnold die?' and 'When did Georg Cantor die?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Georg Cantor",
+        "selected": true
+      }
+    ]
+  },
+  "5a81028b55429938b614228a": {
+    "answer": "Aliens of the Deep",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a81028b55429938b614228a",
+      "llm_calls": 4,
+      "input_tokens": 3203,
+      "output_tokens": 352,
+      "total_tokens": 3555,
+      "wall_time": 10.8824,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.9000000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which film, Aliens of the Deep or Poetry in Motion, involved collaboration with NASA scientists?",
+          "Who directed that film?"
+        ],
+        "n_triples": 38,
+        "answer": "Aliens of the Deep",
+        "score": 0.9000000000000001,
+        "feedback": "Missing: explicit confirmation that 'Poetry in Motion' did NOT involve NASA scientists, and no triple identifies 'Poetry in Motion' at all. Suggested sub-question: 'Did the film Poetry in Motion involve collaboration with NASA scientists?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aliens of the Deep",
+        "selected": false
+      }
+    ]
+  },
+  "5ac3d4b6554299204fd21e93": {
+    "answer": "Neither Jack and Jill nor Paper is mentioned in the context passages",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac3d4b6554299204fd21e93",
+      "llm_calls": 7,
+      "input_tokens": 5393,
+      "output_tokens": 1153,
+      "total_tokens": 6546,
+      "wall_time": 28.207,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the target demographic of Jack and Jill magazine?",
+          "What is the target demographic of Paper magazine?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: target demographic of Jack and Jill magazine and Paper magazine. Suggested sub-question: What is the target age demographic or audience description for Jack and Jill magazine? What is the target age demographic or audience description for Paper magazine?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the target age demographic or audience description for Jack and Jill magazine?",
+          "What is the target age demographic or audience description for Paper magazine?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: target demographic information for Jack and Jill magazine and Paper magazine. Suggested sub-question: What is the target age demographic of Jack and Jill magazine? What is the target age demographic of Paper magazine?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Neither Jack and Jill nor Paper is mentioned in the context passages",
+        "selected": true
+      }
+    ]
+  },
+  "5a72f74a55429901807daf59": {
+    "answer": "none",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a72f74a55429901807daf59",
+      "llm_calls": 7,
+      "input_tokens": 5476,
+      "output_tokens": 1296,
+      "total_tokens": 6772,
+      "wall_time": 30.5616,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which American comedian was born on March 21, 1962?",
+          "Which actors appeared in the movie 'Sleepless in Seattle'?"
+        ],
+        "n_triples": 50,
+        "answer": "none",
+        "score": 0.3,
+        "feedback": "Missing: identity of the American comedian born on March 21, 1962, who appeared in 'Sleepless in Seattle'. Suggested sub-question: Which American comedian, born on March 21, 1962, has a credited role in the 1993 film 'Sleepless in Seattle'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which American comedian was born on March 21, 1962?",
+          "Which actors appeared in the movie 'Sleepless in Seattle'?",
+          "Which American comedian, born on March 21, 1962, has a credited role in the 1993 film 'Sleepless in Seattle'?"
+        ],
+        "n_triples": 50,
+        "answer": "none",
+        "score": 0.3,
+        "feedback": "Missing: identity of the American comedian born on March 21, 1962, who appeared in 'Sleepless in Seattle'. Suggested sub-question: Which American comedian born on March 21, 1962, is credited in the cast of the 1993 film 'Sleepless in Seattle'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Rosie O'Donnell",
+        "selected": false
+      }
+    ]
+  },
+  "5ab9988b554299131ca4238e": {
+    "answer": "No triple connects *anyone* to “Innocence”, so either the movie name is erroneous or outside scope. Per instructions: use ONLY the knowledge graph triples. So",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab9988b554299131ca4238e",
+      "llm_calls": 7,
+      "input_tokens": 5193,
+      "output_tokens": 1517,
+      "total_tokens": 6710,
+      "wall_time": 35.7024,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who starred as Alexandra Cabot in the long-running NBC series Law & Order: Special Victims Unit?",
+          "What movie titled 'Innocence' features that actress?",
+          "Is that actress an American citizen?"
+        ],
+        "n_triples": 50,
+        "answer": "No triple connects *anyone* to “Innocence”, so either the movie name is erroneous or outside scope. Per instructions: use ONLY the knowledge graph triples. So",
+        "score": 0.3,
+        "feedback": "Missing: a triple linking Stephanie Caroline March (or any actress) to a movie titled 'Innocence'. Suggested sub-question: Which American actress starred in the movie 'Innocence'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who starred as Alexandra Cabot in the long-running NBC series Law & Order: Special Victims Unit?",
+          "Which American actress starred in the movie 'Innocence'?",
+          "Is the actress who starred in the movie 'Innocence' the same person who played Alexandra Cabot in Law & Order: Special Victims Unit?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the American actress who stars in the movie 'Innocence' (note: likely misspelled — correct title is 'Innocence' or possibly 'Innocent' or 'The Innocents'; no triple links any actress to a film titled 'Innocence'). Suggested sub-question: Which American actress starred in the 2013 film 'Innocence' (directed by Hilary Brougher)?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Stephanie March",
+        "selected": false
+      }
+    ]
+  },
+  "5adf75e35542993344016c98": {
+    "answer": "The Entity",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf75e35542993344016c98",
+      "llm_calls": 4,
+      "input_tokens": 2933,
+      "output_tokens": 374,
+      "total_tokens": 3307,
+      "wall_time": 9.8261,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What American horror film was directed by Sidney J. Furie?",
+          "What alleged haunting occurred in 1974 at Culver City, California?"
+        ],
+        "n_triples": 50,
+        "answer": "The Entity",
+        "score": 0.94,
+        "feedback": "Missing: explicit confirmation that the 1974 alleged haunting occurred in Culver City, California. Suggested sub-question: Where did the 1974 Doris Bither case — the basis for The Entity — take place?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Entity",
+        "selected": false
+      }
+    ]
+  },
+  "5a726b0f5542997f827839be": {
+    "answer": "Jean-Loup Chrétien",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a726b0f5542997f827839be",
+      "llm_calls": 7,
+      "input_tokens": 4812,
+      "output_tokens": 502,
+      "total_tokens": 5314,
+      "wall_time": 14.2114,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Samantha Cristoforetti born?",
+          "When was Jean-Loup Chrétien born?"
+        ],
+        "n_triples": 46,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Samantha Cristoforetti and Jean-Loup Chrétien. Suggested sub-question: When was Samantha Cristoforetti born? When was Jean-Loup Chrétien born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Samantha Cristoforetti born?",
+          "When was Jean-Loup Chrétien born?"
+        ],
+        "n_triples": 46,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Samantha Cristoforetti and Jean-Loup Chrétien. Suggested sub-question: When was Samantha Cristoforetti born? When was Jean-Loup Chrétien born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Jean-Loup Chrétien",
+        "selected": true
+      }
+    ]
+  },
+  "5ab6ba045542995eadef007e": {
+    "answer": "The Picture of Dorian Gray",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab6ba045542995eadef007e",
+      "llm_calls": 4,
+      "input_tokens": 2933,
+      "output_tokens": 362,
+      "total_tokens": 3295,
+      "wall_time": 9.4112,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the author of the novel featuring Dorian Gray as the main character?",
+          "What is the title of the philosophical novel whose editor deleted roughly five hundred words before publication due to concerns about indecency?",
+          "Why did the editor of that novel delete roughly five hundred words before publication?"
+        ],
+        "n_triples": 50,
+        "answer": "The Picture of Dorian Gray",
+        "score": 0.94,
+        "feedback": "Missing: the name of the editor who deleted roughly five hundred words and the publication context (e.g., Lippincott's Monthly Magazine). Suggested sub-question: Who was the editor of Lippincott's Monthly Magazine when 'The Picture of Dorian Gray' was first published in 1890, and what was their role in editing the text?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Picture of Dorian Gray",
+        "selected": false
+      }
+    ]
+  },
+  "5ac2cb125542996773102626": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac2cb125542996773102626",
+      "llm_calls": 4,
+      "input_tokens": 2894,
+      "output_tokens": 274,
+      "total_tokens": 3168,
+      "wall_time": 7.4869,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Is Leycesteria native to Australia?",
+          "Is Anigozanthos native to Australia?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: native range of Anigozanthos (genus-level statement). Suggested sub-question: Is the genus Anigozanthos native to Australia?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5abdf68c5542993f32c2a06b": {
+    "answer": "Michael Herr",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abdf68c5542993f32c2a06b",
+      "llm_calls": 7,
+      "input_tokens": 4739,
+      "output_tokens": 320,
+      "total_tokens": 5059,
+      "wall_time": 9.6443,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is Alice Walker's middle name?",
+          "What is Michael Herr's middle name?",
+          "Which middle name is longer?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: middle names of Alice Walker and Michael Herr. Suggested sub-question: What is Alice Walker's full name including middle name? What is Michael Herr's full name including middle name?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is Alice Walker's full name including middle name?",
+          "What is Michael Herr's full name including middle name?",
+          "What is Alice Walker's middle name?",
+          "What is Michael Herr's middle name?",
+          "Which middle name is longer?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: middle names of Alice Walker and Michael Herr. Suggested sub-question: What is Alice Walker's full name including middle name? What is Michael Herr's full name including middle name?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Michael Herr",
+        "selected": true
+      }
+    ]
+  }
+}

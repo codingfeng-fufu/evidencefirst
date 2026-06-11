@@ -1,0 +1,338 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT — Emmy, Grammy",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 4,
+      "input_tokens": 4234,
+      "output_tokens": 1741,
+      "total_tokens": 5975,
+      "wall_time": 60.2143,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "award",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": []
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_B",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "EGOT — Emmy, Grammy",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 9,
+      "input_tokens": 10549,
+      "output_tokens": 380,
+      "total_tokens": 10929,
+      "wall_time": 12.6604,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 24,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Qionghai"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 3,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": []
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 10,
+          "triples_added": 10,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Suining",
+        "selected": false
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 3,
+      "input_tokens": 2347,
+      "output_tokens": 303,
+      "total_tokens": 2650,
+      "wall_time": 7.9303,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "location",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 35,
+      "evidence_first_gap_type": "short_chain",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": []
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Great Neck",
+        "selected": false
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 3,
+      "input_tokens": 1915,
+      "output_tokens": 618,
+      "total_tokens": 2533,
+      "wall_time": 14.5907,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "profession",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 50,
+      "evidence_first_gap_type": "short_chain",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": []
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "WWE wrestler",
+        "selected": true
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 5,
+      "input_tokens": 5936,
+      "output_tokens": 741,
+      "total_tokens": 6677,
+      "wall_time": 18.723,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "location",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 68,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Arab",
+        "Aulacodes"
+      ],
+      "evidence_first_missing_entity_count": 2,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": []
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 27,
+          "triples_added": 27,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aden",
+        "selected": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+dataset,primary,ablation,n,primary_em,ablation_em,em_delta,em_delta_ci95_low,em_delta_ci95_high,primary_f1,ablation_f1,f1_delta,f1_delta_ci95_low,f1_delta_ci95_high,both_correct,primary_only,ablation_only,neither,mcnemar_exact_p
+hotpot,EvidenceFirst v6 selector guard,without_verification,1000,0.5620,0.5680,-0.0060,-0.0280,0.0170,0.6564,0.6647,-0.0083,-0.0285,0.0123,501,61,67,371,0.658701
+2wiki,EvidenceFirst v6,without_verification,500,0.6900,0.6780,0.0120,-0.0160,0.0420,0.7581,0.7579,0.0002,-0.0251,0.0251,314,31,25,130,0.504404

@@ -1,0 +1,1538 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 5,
+      "input_tokens": 5475,
+      "output_tokens": 950,
+      "total_tokens": 6425,
+      "wall_time": 42.8826,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "award",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "EGOT",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 1,
+          "triples_extracted": 4,
+          "triples_added": 4,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_B",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "EGOT",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "EGOT",
+        "answer": "EGOT",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 10,
+      "input_tokens": 12072,
+      "output_tokens": 381,
+      "total_tokens": 12453,
+      "wall_time": 12.8424,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 22,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Qionghai"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 1,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Suining",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 10,
+          "triples_added": 10,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Suining",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Suining",
+        "answer": "Suining",
+        "selected": true
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 4,
+      "input_tokens": 4428,
+      "output_tokens": 332,
+      "total_tokens": 4760,
+      "wall_time": 8.9304,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "location",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 35,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Great Neck, New York",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "unknown"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Great Neck",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Great Neck, New York",
+        "answer": "Great Neck, New York",
+        "selected": true
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 4,
+      "input_tokens": 3506,
+      "output_tokens": 584,
+      "total_tokens": 4090,
+      "wall_time": 14.525,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "profession",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 3,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "WWE wrestler",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 3
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "WWE wrestler",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "WWE wrestler",
+        "answer": "WWE wrestler",
+        "selected": true
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 6,
+      "input_tokens": 7158,
+      "output_tokens": 1446,
+      "total_tokens": 8604,
+      "wall_time": 34.2917,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "location",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 65,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Aulacodes",
+        "Arab"
+      ],
+      "evidence_first_missing_entity_count": 2,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Aden",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 2,
+          "triples_extracted": 27,
+          "triples_added": 27,
+          "llm_calls": 2
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aden",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Aden",
+        "answer": "Aden",
+        "selected": true
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "the shortest exact answer phrase supported by the passages (and",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 4,
+      "input_tokens": 3880,
+      "output_tokens": 594,
+      "total_tokens": 4474,
+      "wall_time": 14.7594,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 50,
+      "evidence_first_gap_type": "short_chain",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "the shortest exact answer phrase supported by the passages (and",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "short_chain"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "the shortest exact answer phrase supported by the passages (and",
+        "selected": true
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 4,
+      "input_tokens": 3713,
+      "output_tokens": 194,
+      "total_tokens": 3907,
+      "wall_time": 6.0163,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "St. Elizabeths Hospital",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "St. Elizabeths Hospital",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "St. Elizabeths Hospital",
+        "answer": "St. Elizabeths Hospital",
+        "selected": true
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 10,
+      "input_tokens": 24296,
+      "output_tokens": 1217,
+      "total_tokens": 25513,
+      "wall_time": 31.8117,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 67,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Psychopsis"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 1,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "flowering plants",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 19,
+          "triples_added": 19,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "flowering plants",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "flowering plants",
+        "answer": "flowering plants",
+        "selected": true
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 10,
+      "input_tokens": 18286,
+      "output_tokens": 385,
+      "total_tokens": 18671,
+      "wall_time": 13.5167,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 57,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Frozen"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 18,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "unknown",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 8,
+          "triples_added": 8,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Unknown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "unknown",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 10,
+      "input_tokens": 16542,
+      "output_tokens": 1341,
+      "total_tokens": 17883,
+      "wall_time": 34.5913,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 66,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "New York"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 2,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Downtown",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 5,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 5
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Downtown",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Is there a triple stating that the school has offices in New",
+        "answer": "Downtown",
+        "selected": true
+      }
+    ]
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "Source Edward Keonjian is not in G",
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 1,
+      "input_tokens": 80,
+      "output_tokens": 20,
+      "total_tokens": 100,
+      "wall_time": 0.7474,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "Source Edward Keonjian is not in G"
+    }
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 5,
+      "input_tokens": 4081,
+      "output_tokens": 543,
+      "total_tokens": 4624,
+      "wall_time": 14.4065,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 5,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Not specified",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 2,
+          "triples_added": 2,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 5
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 5
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Not specified",
+        "answer": "Not specified",
+        "selected": false
+      }
+    ]
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "Dwight Schultz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 5,
+      "input_tokens": 4292,
+      "output_tokens": 537,
+      "total_tokens": 4829,
+      "wall_time": 13.5983,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "person",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 57,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "American"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Dwight Schultz",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 9,
+          "triples_added": 9,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Dwight Schultz",
+        "selected": true
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Dwight Schultz",
+        "answer": "Dwight Schultz",
+        "selected": true
+      }
+    ]
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "Philadelphia Eagles",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 5,
+      "input_tokens": 5659,
+      "output_tokens": 804,
+      "total_tokens": 6463,
+      "wall_time": 19.7187,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Philadelphia Eagles",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 25,
+          "triples_added": 25,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Philadelphia Eagles",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Philadelphia Eagles",
+        "answer": "Philadelphia Eagles",
+        "selected": true
+      }
+    ]
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 5,
+      "input_tokens": 3546,
+      "output_tokens": 217,
+      "total_tokens": 3763,
+      "wall_time": 6.7765,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 50,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Heavyweights"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "insufficient information",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Cannot be determined",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 5,
+      "input_tokens": 3644,
+      "output_tokens": 286,
+      "total_tokens": 3930,
+      "wall_time": 8.6382,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "yes",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 4,
+          "triples_added": 4,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Yes",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "yes",
+        "answer": "yes",
+        "selected": true
+      }
+    ]
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "Province of New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 8,
+      "input_tokens": 11985,
+      "output_tokens": 2058,
+      "total_tokens": 14043,
+      "wall_time": 48.4361,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 127,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "British",
+        "Out",
+        "American"
+      ],
+      "evidence_first_missing_entity_count": 3,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "Province of New York",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 4,
+          "triples_extracted": 84,
+          "triples_added": 84,
+          "llm_calls": 4
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Province of New York",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "Province of New York",
+        "answer": "Province of New York",
+        "selected": true
+      }
+    ]
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 8,
+      "input_tokens": 13103,
+      "output_tokens": 1388,
+      "total_tokens": 14491,
+      "wall_time": 35.5451,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 90,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "President",
+        "General"
+      ],
+      "evidence_first_missing_entity_count": 2,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "insufficient information",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 4,
+          "triples_extracted": 48,
+          "triples_added": 48,
+          "llm_calls": 4
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Not specified",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "The Captain Matchbox Whoopee Band",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 4,
+      "input_tokens": 2284,
+      "output_tokens": 317,
+      "total_tokens": 2601,
+      "wall_time": 8.4638,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "entity",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "The Captain Matchbox Whoopee Band",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Captain Matchbox Whoopee Band",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "The Captain Matchbox Whoopee Band",
+        "answer": "The Captain Matchbox Whoopee Band",
+        "selected": true
+      }
+    ]
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 9,
+      "input_tokens": 14101,
+      "output_tokens": 513,
+      "total_tokens": 14614,
+      "wall_time": 15.4063,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_answer_type": "yesno",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 53,
+      "evidence_first_gap_type": "missing_entities",
+      "evidence_first_missing_entities": [
+        "Greek Fire"
+      ],
+      "evidence_first_missing_entity_count": 1,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [
+        "A+_enhancement",
+        "B_repair"
+      ],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "insufficient information",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "A+_enhancement",
+        "stats": {
+          "entities_processed": 1,
+          "triples_extracted": 0,
+          "triples_added": 0,
+          "llm_calls": 1
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "B_repair",
+        "stats": {
+          "pairs_processed": 4,
+          "triples_extracted": 13,
+          "triples_added": 13,
+          "llm_calls": 4
+        }
+      },
+      {
+        "iteration": 1,
+        "step": "recheck_after_A+B",
+        "complete": false,
+        "chain_length": 0
+      },
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "missing_entities"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Insufficient information",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "insufficient information",
+        "answer": "insufficient information",
+        "selected": false
+      }
+    ]
+  }
+}

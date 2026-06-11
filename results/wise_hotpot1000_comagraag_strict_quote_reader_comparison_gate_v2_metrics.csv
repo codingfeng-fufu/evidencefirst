@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,switches,acceptance_not_target,acceptance_reason_keeps_current,acceptance_same_as_current,acceptance_not_high_confidence,acceptance_quote_not_verbatim,acceptance_accepted,acceptance_film_type_mismatch
+strict_quote_gate_v2,1000,0.555,0.6565,100,2,900,2,81,12,2,2,1

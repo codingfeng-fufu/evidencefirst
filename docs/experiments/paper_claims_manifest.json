@@ -1,0 +1,138 @@
+{
+  "version": "2026-06-09",
+  "paper": "paper/evidencefirst_submission.tex",
+  "purpose": "Machine-readable claims boundary for the EvidenceFirst WISE submission. The no-LLM verifier checks regenerated artifact summaries against these values.",
+  "main_metrics": [
+    {"dataset": "hotpot", "method": "EvidenceFirst v4 fresh", "n": 1000, "em": "0.5500", "f1": "0.6484"},
+    {"dataset": "hotpot", "method": "EvidenceFirst v6 selector guard", "n": 1000, "em": "0.5620", "f1": "0.6564"},
+    {"dataset": "hotpot", "method": "HopRAG strict", "n": 1000, "em": "0.5410", "f1": "0.6438"},
+    {"dataset": "2wiki", "method": "EvidenceFirst v6", "n": 500, "em": "0.6900", "f1": "0.7581"},
+    {"dataset": "2wiki", "method": "EvidenceFirst v6 local-context", "n": 500, "em": "0.5040", "f1": "0.5945"},
+    {"dataset": "2wiki", "method": "LightRAG", "n": 500, "em": "0.6740", "f1": "0.7716"},
+    {"dataset": "2wiki", "method": "HopRAG strict", "n": 500, "em": "0.5640", "f1": "0.6157"}
+  ],
+  "paired_statistics": [
+    {"dataset": "hotpot", "subgroup": "all", "primary": "EvidenceFirst v4 fresh", "baseline": "HopRAG strict", "n": 1000, "em_delta": 0.0090, "f1_delta": 0.0047, "mcnemar_exact_p": 0.593902},
+    {"dataset": "hotpot", "subgroup": "all", "primary": "EvidenceFirst v6 selector guard", "baseline": "HopRAG strict", "n": 1000, "em_delta": 0.0210, "f1_delta": 0.0126, "mcnemar_exact_p": 0.174424},
+    {"dataset": "hotpot", "subgroup": "bridge", "primary": "EvidenceFirst v6 selector guard", "baseline": "HopRAG strict", "n": 500, "em_delta": 0.0580, "f1_delta": 0.0468, "mcnemar_exact_p": 0.010611},
+    {"dataset": "2wiki", "subgroup": "all", "primary": "EvidenceFirst v6", "baseline": "LightRAG", "n": 500, "em_delta": 0.0160, "f1_delta": -0.0135, "mcnemar_exact_p": 0.402963},
+    {"dataset": "2wiki", "subgroup": "all", "primary": "EvidenceFirst v6", "baseline": "HopRAG strict", "n": 500, "em_delta": 0.1260, "f1_delta": 0.1424, "mcnemar_exact_p": 0.0},
+    {"dataset": "2wiki", "subgroup": "all", "primary": "EvidenceFirst v6", "baseline": "A-RAG", "n": 500, "em_delta": 0.0240, "f1_delta": 0.0259, "mcnemar_exact_p": 0.256442},
+    {"dataset": "2wiki", "subgroup": "local-context stress", "primary": "EvidenceFirst v6 local-context", "baseline": "HopRAG strict", "n": 500, "em_delta": -0.0600, "f1_delta": -0.0212, "mcnemar_exact_p": 0.021574}
+  ],
+  "support_summary": {
+    "em": 0.6900,
+    "f1": 0.7581,
+    "support_title_recall": 1.0000,
+    "evidence_entity_coverage": 0.9468
+  },
+  "chain_validity_summary": {
+    "em": 0.6900,
+    "f1": 0.7581,
+    "gold_entity_coverage": 0.7657,
+    "gold_pair_recall": 0.4778,
+    "gold_relation_recall": 0.0420
+  },
+  "context_visibility": [
+    {"condition": "EvidenceFirst reader-full input", "n": 500, "support_title_recall": 1.0000, "evidence_entity_coverage": 0.9468, "em": 0.6900, "f1": 0.7581},
+    {"condition": "Naive BM25 top-5 input", "n": 500, "support_title_recall": 0.6020, "evidence_entity_coverage": 0.6685},
+    {"condition": "A-RAG actual read chunks", "n": 500, "support_title_recall": 0.2955, "evidence_entity_coverage": 0.3326},
+    {"condition": "A-RAG keyword-search found upper bound", "n": 500, "support_title_recall": 0.5885, "evidence_entity_coverage": 0.6085},
+    {"condition": "EvidenceFirst saved KG", "n": 500, "gold_entity_coverage": 0.7657, "gold_pair_recall": 0.4778, "gold_relation_recall": 0.0420, "em": 0.6900, "f1": 0.7581}
+  ],
+  "semantic_gap_adjudication": {
+    "sample_n": 100,
+    "match_rate": 0.4000,
+    "match_ci_low": 0.3094,
+    "match_ci_high": 0.4980,
+    "mismatch_rate": 0.3100,
+    "ambiguous_rate": 0.2900,
+    "fleiss_kappa": 0.1836
+  },
+  "blind_gap_adjudication": {
+    "sample_n": 100,
+    "match_rate": 0.5300,
+    "mismatch_rate": 0.3600,
+    "ambiguous_rate": 0.1100
+  },
+  "audit_overview": [
+    {"dataset": "hotpot", "method": "EvidenceFirst v6 selector guard", "n": 1000, "chain_complete_rate": 0.5680, "repair_attempt_rate": 0.6370, "repair_to_complete_rate": 0.4349, "selector_selected_rate": 0.8210},
+    {"dataset": "2wiki", "method": "EvidenceFirst v6", "n": 500, "chain_complete_rate": 0.4780, "repair_attempt_rate": 0.6000, "repair_to_complete_rate": 0.2200, "selector_selected_rate": 0.7040}
+  ],
+  "gap_labels": [
+    {"dataset": "2wiki", "gap_type": "complete", "n": 239, "em": 0.7029, "f1": 0.7681, "consistent_rate": 1.0000},
+    {"dataset": "2wiki", "gap_type": "missing_entities", "n": 217, "em": 0.6959, "f1": 0.7667, "consistent_rate": 1.0000},
+    {"dataset": "2wiki", "gap_type": "short_chain", "n": 33, "em": 0.6364, "f1": 0.7035, "consistent_rate": 1.0000},
+    {"dataset": "2wiki", "gap_type": "disconnected", "n": 11, "em": 0.4545, "f1": 0.5351, "consistent_rate": 1.0000},
+    {"dataset": "hotpot", "gap_type": "complete", "n": 577, "consistent_rate": 0.9844},
+    {"dataset": "hotpot", "gap_type": "missing_entities", "n": 302, "consistent_rate": 1.0000},
+    {"dataset": "hotpot", "gap_type": "short_chain", "n": 118, "consistent_rate": 1.0000},
+    {"dataset": "hotpot", "gap_type": "disconnected", "n": 3, "consistent_rate": 1.0000}
+  ],
+  "diagnostic_utility": [
+    {"gap_type": "complete", "gold_proxy_precision": 0.1506, "semantic_match": 0.1176, "blind_match": 0.6765},
+    {"gap_type": "missing_entities", "gold_proxy_precision": 0.6866, "semantic_match": 0.7429, "blind_match": 0.5714},
+    {"gap_type": "short_chain", "gold_proxy_precision": 0.4545, "semantic_match": 0.4000, "blind_match": 0.2000},
+    {"gap_type": "disconnected", "gold_proxy_precision": 0.0909, "semantic_match": 0.1818, "blind_match": 0.5455}
+  ],
+  "answer_selection": [
+    {"dataset": "hotpot", "selected_em": 0.6273, "not_selected_em": 0.2626},
+    {"dataset": "2wiki", "selected_em": 0.7358, "not_selected_em": 0.5811}
+  ],
+  "risk_bins": [
+    {"dataset": "hotpot", "risk_bin": "0", "n": 468, "em": 0.6581},
+    {"dataset": "hotpot", "risk_bin": "1", "n": 255, "em": 0.6078},
+    {"dataset": "hotpot", "risk_bin": "2", "n": 148, "em": 0.3986},
+    {"dataset": "hotpot", "risk_bin": "3", "n": 103, "em": 0.3592},
+    {"dataset": "hotpot", "risk_bin": "4+", "n": 26, "em": 0.1154},
+    {"dataset": "2wiki", "risk_bin": "0", "n": 170, "em": 0.7412},
+    {"dataset": "2wiki", "risk_bin": "1", "n": 149, "em": 0.7383},
+    {"dataset": "2wiki", "risk_bin": "2", "n": 81, "em": 0.6049},
+    {"dataset": "2wiki", "risk_bin": "3", "n": 89, "em": 0.6404},
+    {"dataset": "2wiki", "risk_bin": "4+", "n": 11, "em": 0.2727}
+  ],
+  "triage_utility": [
+    {"dataset": "hotpot", "signal": "audit_risk_score", "error_auc": 0.6321, "topk_error_rate": 0.6700, "topk_lift": 1.5297},
+    {"dataset": "hotpot", "signal": "graph_audit_score", "error_auc": 0.5434, "topk_error_rate": 0.5250, "topk_lift": 1.1986},
+    {"dataset": "hotpot", "signal": "answer_not_selected", "error_auc": 0.6077, "topk_error_rate": 0.7000, "topk_lift": 1.5982},
+    {"dataset": "hotpot", "signal": "chain_incomplete", "error_auc": 0.5321, "topk_error_rate": 0.5050, "topk_lift": 1.1530},
+    {"dataset": "2wiki", "signal": "audit_risk_score", "error_auc": 0.5787, "topk_error_rate": 0.4000, "topk_lift": 1.2903},
+    {"dataset": "2wiki", "signal": "graph_audit_score", "error_auc": 0.5230, "topk_error_rate": 0.3500, "topk_lift": 1.1290},
+    {"dataset": "2wiki", "signal": "answer_not_selected", "error_auc": 0.5754, "topk_error_rate": 0.4000, "topk_lift": 1.2903},
+    {"dataset": "2wiki", "signal": "chain_incomplete", "error_auc": 0.5144, "topk_error_rate": 0.2900, "topk_lift": 0.9355}
+  ],
+  "routing_queues": [
+    {"dataset": "hotpot", "queue": "selected_checked", "n": 468, "error_rate": 0.3419, "error_ci_low": 0.3003, "error_ci_high": 0.3860},
+    {"dataset": "hotpot", "queue": "selected_unrepaired_incomplete", "n": 51, "error_rate": 0.6078, "error_ci_low": 0.4708, "error_ci_high": 0.7297},
+    {"dataset": "hotpot", "queue": "not_selected_no_residual", "n": 156, "error_rate": 0.7179, "error_ci_low": 0.6428, "error_ci_high": 0.7827},
+    {"dataset": "hotpot", "queue": "not_selected_residual_gap", "n": 22, "error_rate": 0.8636, "error_ci_low": 0.6666, "error_ci_high": 0.9525},
+    {"dataset": "2wiki", "queue": "not_selected_no_residual", "n": 137, "error_rate": 0.3942, "error_ci_low": 0.3163, "error_ci_high": 0.4778},
+    {"dataset": "2wiki", "queue": "not_selected_residual_gap", "n": 11, "error_rate": 0.7273, "error_ci_low": 0.4343, "error_ci_high": 0.9025}
+  ],
+  "routing_deltas": [
+    {"dataset": "hotpot", "comparison": "selected_unrepaired_minus_checked", "delta_error": 0.2660, "delta_ci_low": 0.1220, "delta_ci_high": 0.3947},
+    {"dataset": "2wiki", "comparison": "not_selected_residual_minus_no_residual", "delta_error": 0.3331, "delta_ci_low": 0.0285, "delta_ci_high": 0.5249}
+  ],
+  "protocol_boundary": [
+    {"row_group": "HotpotQA EvidenceFirst end-to-end", "context_source": "HotpotQA local passages plus pipeline BM25 augmentation from the evaluation context pool", "global_context": "Allowed", "posthoc_transform": "None beyond saved answer normalization", "purpose": "Main completed EvidenceFirst run"},
+    {"row_group": "HotpotQA EvidenceFirst selector variant", "context_source": "Same saved source artifacts as HotpotQA EvidenceFirst end-to-end", "global_context": "Allowed", "posthoc_transform": "Deterministic selector; no fresh LLM calls", "purpose": "Sensitivity row for answer selection and cleanup"},
+    {"row_group": "2Wiki EvidenceFirst reader-full", "context_source": "Dataset-provided 2Wiki passages with full reader visibility for the saved sample", "global_context": "No external global pool", "posthoc_transform": "Deterministic canonicalizer over saved predictions", "purpose": "Main 2Wiki saved artifact"},
+    {"row_group": "2Wiki EvidenceFirst local-context stress", "context_source": "Local 2Wiki context only, without reader-full visibility", "global_context": "No", "posthoc_transform": "Same scoring/canonical boundary as saved artifact", "purpose": "Negative stress row for context-budget sensitivity"},
+    {"row_group": "2Wiki visibility audit", "context_source": "Posthoc 2Wiki support titles, evidence entities, A-RAG read chunks, and saved KG state", "global_context": "No inference access", "posthoc_transform": "No-generation support/entity coverage analysis", "purpose": "Context-budget and evidence-visibility audit"},
+    {"row_group": "Naive RAG / IRCoT / A-RAG", "context_source": "Completed baseline artifacts generated from the same benchmark samples", "global_context": "Method-specific", "posthoc_transform": "Baseline-specific saved postprocessing only", "purpose": "Retrieval and iterative/agentic baselines"},
+    {"row_group": "LightRAG / MS GraphRAG", "context_source": "Completed graph-baseline artifacts on available full-sample rows", "global_context": "Method-specific", "posthoc_transform": "Baseline-specific saved postprocessing only", "purpose": "GraphRAG comparison rows; MS GraphRAG is incomplete on 2Wiki"},
+    {"row_group": "HopRAG strict", "context_source": "Completed strict response-rescored artifacts on HotpotQA and 2Wiki", "global_context": "Method-specific", "posthoc_transform": "Strict answer extraction and independent QA rescoring", "purpose": "Closest graph traversal/pruning baseline"}
+  ],
+  "ablations": [
+    {"dataset": "hotpot", "variant": "full", "n": 1000, "em": 0.5620, "f1": 0.6564},
+    {"dataset": "hotpot", "variant": "without_verification", "n": 1000, "em": 0.5680, "f1": 0.6647},
+    {"dataset": "hotpot", "variant": "without_repair", "n": 1000, "em": 0.5540, "f1": 0.6580},
+    {"dataset": "hotpot", "variant": "without_reader_context", "n": 1000, "em": 0.2360, "f1": 0.2899},
+    {"dataset": "hotpot", "variant": "without_answer_refinement", "n": 1000, "em": 0.5510, "f1": 0.6485},
+    {"dataset": "2wiki", "variant": "full", "n": 500, "em": 0.6900, "f1": 0.7581},
+    {"dataset": "2wiki", "variant": "without_verification", "n": 500, "em": 0.6780, "f1": 0.7579},
+    {"dataset": "2wiki", "variant": "without_repair", "n": 500, "em": 0.6500, "f1": 0.7424},
+    {"dataset": "2wiki", "variant": "without_reader_context", "n": 500, "em": 0.1840, "f1": 0.2289},
+    {"dataset": "2wiki", "variant": "without_answer_refinement", "n": 500, "em": 0.6900, "f1": 0.7782}
+  ]
+}

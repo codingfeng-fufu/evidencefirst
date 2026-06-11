@@ -1,0 +1,7002 @@
+{
+  "91edc89c0bdc11eba7f7acde48001122": {
+    "answer": "Les films du losange",
+    "iterations": 1,
+    "usage": {
+      "qid": "91edc89c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 204,
+      "output_tokens": 5,
+      "total_tokens": 209,
+      "wall_time": 4.1818,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "cd80e22a08d711ebbd9aac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "cd80e22a08d711ebbd9aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 1,
+      "total_tokens": 241,
+      "wall_time": 0.3964,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ab94845c0baf11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "ab94845c0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 1,
+      "total_tokens": 216,
+      "wall_time": 0.3957,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d347b6500bdb11eba7f7acde48001122": {
+    "answer": "West German",
+    "iterations": 1,
+    "usage": {
+      "qid": "d347b6500bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 2,
+      "total_tokens": 217,
+      "wall_time": 0.6058,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "672e556408de11ebbd9eac1f6bf848b6": {
+    "answer": "上下文中未提及Ernst Bessey。",
+    "iterations": 1,
+    "usage": {
+      "qid": "672e556408de11ebbd9eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 287,
+      "output_tokens": 9,
+      "total_tokens": 296,
+      "wall_time": 1.2419,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "396b04e7089911ebbd77ac1f6bf848b6": {
+    "answer": "Blood of the Losers",
+    "iterations": 1,
+    "usage": {
+      "qid": "396b04e7089911ebbd77ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 5,
+      "total_tokens": 218,
+      "wall_time": 0.4528,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f6e8ecc80bae11ebab90acde48001122": {
+    "answer": "Owain Glyndŵr",
+    "iterations": 1,
+    "usage": {
+      "qid": "f6e8ecc80bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 7,
+      "total_tokens": 264,
+      "wall_time": 0.434,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "390da94e08a411ebbd7cac1f6bf848b6": {
+    "answer": "Dokuz Dağın Efesi",
+    "iterations": 1,
+    "usage": {
+      "qid": "390da94e08a411ebbd7cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 8,
+      "total_tokens": 225,
+      "wall_time": 0.4858,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "01b2d6ae0bdd11eba7f7acde48001122": {
+    "answer": "Albert III, Count of Namur",
+    "iterations": 1,
+    "usage": {
+      "qid": "01b2d6ae0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 7,
+      "total_tokens": 237,
+      "wall_time": 0.5257,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "21eb30140bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "21eb30140bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 270,
+      "output_tokens": 2,
+      "total_tokens": 272,
+      "wall_time": 0.6184,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8c6ba65608e511ebbda4ac1f6bf848b6": {
+    "answer": "Brutti Di Notte",
+    "iterations": 1,
+    "usage": {
+      "qid": "8c6ba65608e511ebbda4ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 6,
+      "total_tokens": 256,
+      "wall_time": 0.6827,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "435eb4480baf11ebab90acde48001122": {
+    "answer": "Mstislav I of Kiev",
+    "iterations": 1,
+    "usage": {
+      "qid": "435eb4480baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 7,
+      "total_tokens": 304,
+      "wall_time": 0.5119,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2cc66d74089011ebbd72ac1f6bf848b6": {
+    "answer": "Life Hits",
+    "iterations": 1,
+    "usage": {
+      "qid": "2cc66d74089011ebbd72ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 2,
+      "total_tokens": 210,
+      "wall_time": 0.4533,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "95f1b1b6087511ebbd67ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "95f1b1b6087511ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 2,
+      "total_tokens": 235,
+      "wall_time": 0.637,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fcc41df80bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "fcc41df80bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 222,
+      "output_tokens": 2,
+      "total_tokens": 224,
+      "wall_time": 0.6228,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "eec1dcfb08b911ebbd88ac1f6bf848b6": {
+    "answer": "Battle of Memories",
+    "iterations": 1,
+    "usage": {
+      "qid": "eec1dcfb08b911ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 236,
+      "output_tokens": 3,
+      "total_tokens": 239,
+      "wall_time": 0.6047,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d64d24180bd911eba7f7acde48001122": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "d64d24180bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 242,
+      "output_tokens": 2,
+      "total_tokens": 244,
+      "wall_time": 0.4958,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5d18eb8408e311ebbda4ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5d18eb8408e311ebbda4ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 185,
+      "output_tokens": 2,
+      "total_tokens": 187,
+      "wall_time": 0.4895,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8b16280408ce11ebbd94ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "8b16280408ce11ebbd94ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 284,
+      "output_tokens": 1,
+      "total_tokens": 285,
+      "wall_time": 0.3432,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8dfa054a0bda11eba7f7acde48001122": {
+    "answer": "Date unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "8dfa054a0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 2,
+      "total_tokens": 261,
+      "wall_time": 0.3922,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a7f5782a0bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "a7f5782a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 2,
+      "total_tokens": 256,
+      "wall_time": 0.3283,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9f500386089111ebbd73ac1f6bf848b6": {
+    "answer": "Rolling in Money",
+    "iterations": 1,
+    "usage": {
+      "qid": "9f500386089111ebbd73ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 4,
+      "total_tokens": 235,
+      "wall_time": 0.5811,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "95561eb008e111ebbda2ac1f6bf848b6": {
+    "answer": "Best of the Best 3",
+    "iterations": 1,
+    "usage": {
+      "qid": "95561eb008e111ebbda2ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 262,
+      "output_tokens": 6,
+      "total_tokens": 268,
+      "wall_time": 0.483,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f8819f3308a011ebbd78ac1f6bf848b6": {
+    "answer": "The Death Kiss",
+    "iterations": 1,
+    "usage": {
+      "qid": "f8819f3308a011ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 225,
+      "output_tokens": 3,
+      "total_tokens": 228,
+      "wall_time": 0.4316,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "22a62e140bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "22a62e140bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 206,
+      "output_tokens": 2,
+      "total_tokens": 208,
+      "wall_time": 0.5596,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f64d2f04086111ebbd5dac1f6bf848b6": {
+    "answer": "Darwin's Nightmare",
+    "iterations": 1,
+    "usage": {
+      "qid": "f64d2f04086111ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 328,
+      "output_tokens": 4,
+      "total_tokens": 332,
+      "wall_time": 0.5335,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fec1cc4a087911ebbd67ac1f6bf848b6": {
+    "answer": "No information",
+    "iterations": 1,
+    "usage": {
+      "qid": "fec1cc4a087911ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 2,
+      "total_tokens": 299,
+      "wall_time": 0.4639,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0729da3c0bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "0729da3c0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 266,
+      "output_tokens": 1,
+      "total_tokens": 267,
+      "wall_time": 0.4786,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "65a915cc0bda11eba7f7acde48001122": {
+    "answer": "上下文中未提及“Count Of St. Germain”及其父亲的信息。",
+    "iterations": 1,
+    "usage": {
+      "qid": "65a915cc0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 16,
+      "total_tokens": 266,
+      "wall_time": 0.8656,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "77dc576a0bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "77dc576a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 204,
+      "output_tokens": 2,
+      "total_tokens": 206,
+      "wall_time": 0.4432,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d18d25fa084f11ebbd56ac1f6bf848b6": {
+    "answer": "Köpekler Adası",
+    "iterations": 1,
+    "usage": {
+      "qid": "d18d25fa084f11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 6,
+      "total_tokens": 241,
+      "wall_time": 0.4319,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1a3535d20bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "1a3535d20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 2,
+      "total_tokens": 225,
+      "wall_time": 0.3796,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "cab3205608d411ebbd98ac1f6bf848b6": {
+    "answer": "Der Wixxer",
+    "iterations": 1,
+    "usage": {
+      "qid": "cab3205608d411ebbd98ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 285,
+      "output_tokens": 5,
+      "total_tokens": 290,
+      "wall_time": 0.4825,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "06df84220bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "06df84220bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 334,
+      "output_tokens": 2,
+      "total_tokens": 336,
+      "wall_time": 0.3351,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "36ecf33a0bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "36ecf33a0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 2,
+      "total_tokens": 214,
+      "wall_time": 0.3519,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c2ccbd23087811ebbd67ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "c2ccbd23087811ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 271,
+      "output_tokens": 1,
+      "total_tokens": 272,
+      "wall_time": 0.3339,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ce9cda1608a111ebbd79ac1f6bf848b6": {
+    "answer": "No information about Vindhyarani",
+    "iterations": 1,
+    "usage": {
+      "qid": "ce9cda1608a111ebbd79ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 8,
+      "total_tokens": 259,
+      "wall_time": 0.8552,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c4bdfbea08c911ebbd92ac1f6bf848b6": {
+    "answer": "Ausaf Ali",
+    "iterations": 1,
+    "usage": {
+      "qid": "c4bdfbea08c911ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 216,
+      "output_tokens": 3,
+      "total_tokens": 219,
+      "wall_time": 0.4,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "500cf3b40bda11eba7f7acde48001122": {
+    "answer": "Rome",
+    "iterations": 1,
+    "usage": {
+      "qid": "500cf3b40bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 255,
+      "output_tokens": 2,
+      "total_tokens": 257,
+      "wall_time": 0.3242,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f0441dea0bd911eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "f0441dea0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 200,
+      "output_tokens": 2,
+      "total_tokens": 202,
+      "wall_time": 0.3828,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "afc5b57c0bdd11eba7f7acde48001122": {
+    "answer": "December 15, 1890",
+    "iterations": 1,
+    "usage": {
+      "qid": "afc5b57c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 168,
+      "output_tokens": 10,
+      "total_tokens": 178,
+      "wall_time": 0.5922,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e66957060baf11ebab90acde48001122": {
+    "answer": "Maximilian-Emmanuel Graf von und",
+    "iterations": 1,
+    "usage": {
+      "qid": "e66957060baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 9,
+      "total_tokens": 235,
+      "wall_time": 1.1593,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e1d2c3a708af11ebbd83ac1f6bf848b6": {
+    "answer": "Outlaw King",
+    "iterations": 1,
+    "usage": {
+      "qid": "e1d2c3a708af11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 3,
+      "total_tokens": 262,
+      "wall_time": 0.4384,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2e2fabfc095e11ebbdafac1f6bf848b6": {
+    "answer": "Scandal at the Girls' School",
+    "iterations": 1,
+    "usage": {
+      "qid": "2e2fabfc095e11ebbdafac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 7,
+      "total_tokens": 233,
+      "wall_time": 0.464,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0d4b4cfc0bde11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "0d4b4cfc0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 294,
+      "output_tokens": 2,
+      "total_tokens": 296,
+      "wall_time": 0.3531,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "16915f740bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "16915f740bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 2,
+      "total_tokens": 278,
+      "wall_time": 0.3965,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7cb81afc0bd911eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "7cb81afc0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 279,
+      "output_tokens": 2,
+      "total_tokens": 281,
+      "wall_time": 0.3918,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ff2926840bd911eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "ff2926840bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 1,
+      "total_tokens": 231,
+      "wall_time": 0.2997,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bf3aacfc086211ebbd5dac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "bf3aacfc086211ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 2,
+      "total_tokens": 237,
+      "wall_time": 0.5685,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "08292515088411ebbd6dac1f6bf848b6": {
+    "answer": "Stella's Oorlog",
+    "iterations": 1,
+    "usage": {
+      "qid": "08292515088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 6,
+      "total_tokens": 218,
+      "wall_time": 0.5601,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dfe5c5e8088211ebbd6dac1f6bf848b6": {
+    "answer": "Richard Cawley",
+    "iterations": 1,
+    "usage": {
+      "qid": "dfe5c5e8088211ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 4,
+      "total_tokens": 244,
+      "wall_time": 0.4673,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7b3f24c80bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "7b3f24c80bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 209,
+      "output_tokens": 2,
+      "total_tokens": 211,
+      "wall_time": 0.7212,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c6339a040bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "c6339a040bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 236,
+      "output_tokens": 2,
+      "total_tokens": 238,
+      "wall_time": 0.5134,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9bdc27880bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "9bdc27880bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 203,
+      "output_tokens": 2,
+      "total_tokens": 205,
+      "wall_time": 0.4282,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "95fc33400bd911eba7f7acde48001122": {
+    "answer": "French",
+    "iterations": 1,
+    "usage": {
+      "qid": "95fc33400bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 1,
+      "total_tokens": 275,
+      "wall_time": 0.9576,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "680863e20bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "680863e20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 301,
+      "output_tokens": 2,
+      "total_tokens": 303,
+      "wall_time": 0.3799,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1c5985f60bde11eba7f7acde48001122": {
+    "answer": "4 October 1872",
+    "iterations": 1,
+    "usage": {
+      "qid": "1c5985f60bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 7,
+      "total_tokens": 283,
+      "wall_time": 0.4735,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6034a51a093811ebbdaeac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "6034a51a093811ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 1,
+      "total_tokens": 252,
+      "wall_time": 0.4105,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "01245b60088411ebbd6dac1f6bf848b6": {
+    "answer": "Jailhouse Rock",
+    "iterations": 1,
+    "usage": {
+      "qid": "01245b60088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 277,
+      "output_tokens": 4,
+      "total_tokens": 281,
+      "wall_time": 0.4684,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6392cf220bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "6392cf220bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 1,
+      "total_tokens": 236,
+      "wall_time": 0.4323,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "21906d320bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "21906d320bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 182,
+      "output_tokens": 2,
+      "total_tokens": 184,
+      "wall_time": 0.426,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "474ea44a0bb011ebab90acde48001122": {
+    "answer": "James FitzGerald, 6th Earl of Desmond",
+    "iterations": 1,
+    "usage": {
+      "qid": "474ea44a0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 356,
+      "output_tokens": 11,
+      "total_tokens": 367,
+      "wall_time": 0.5313,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "063270da08af11ebbd83ac1f6bf848b6": {
+    "answer": "Attack of Life",
+    "iterations": 1,
+    "usage": {
+      "qid": "063270da08af11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 3,
+      "total_tokens": 300,
+      "wall_time": 0.6841,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dcfe2a500bd911eba7f7acde48001122": {
+    "answer": "Nuremberg",
+    "iterations": 1,
+    "usage": {
+      "qid": "dcfe2a500bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 202,
+      "output_tokens": 4,
+      "total_tokens": 206,
+      "wall_time": 0.3984,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "16a549d40bb011ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "16a549d40bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 182,
+      "output_tokens": 1,
+      "total_tokens": 183,
+      "wall_time": 0.4387,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8cdd86760baf11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "8cdd86760baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 243,
+      "output_tokens": 1,
+      "total_tokens": 244,
+      "wall_time": 0.4501,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a00f22640bdb11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "a00f22640bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 2,
+      "total_tokens": 284,
+      "wall_time": 0.4763,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "4ca173ac0bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "4ca173ac0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 2,
+      "total_tokens": 270,
+      "wall_time": 0.5503,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3bb9590e0bb011ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "3bb9590e0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 186,
+      "output_tokens": 1,
+      "total_tokens": 187,
+      "wall_time": 0.3525,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a638412a0bdb11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "a638412a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 224,
+      "output_tokens": 2,
+      "total_tokens": 226,
+      "wall_time": 0.3213,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f4a616ac0bae11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "f4a616ac0bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 220,
+      "output_tokens": 1,
+      "total_tokens": 221,
+      "wall_time": 0.3714,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1222be100baf11ebab90acde48001122": {
+    "answer": "Valide Sultan Emine Hatun",
+    "iterations": 1,
+    "usage": {
+      "qid": "1222be100baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 7,
+      "total_tokens": 281,
+      "wall_time": 0.5674,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "080aff1c0bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "080aff1c0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 325,
+      "output_tokens": 2,
+      "total_tokens": 327,
+      "wall_time": 0.3653,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1c0f99380bdd11eba7f7acde48001122": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "1c0f99380bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 2,
+      "total_tokens": 270,
+      "wall_time": 0.3129,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "04f1ab4808c611ebbd90ac1f6bf848b6": {
+    "answer": "Ek Haseena Thi Ek Deewana Tha",
+    "iterations": 1,
+    "usage": {
+      "qid": "04f1ab4808c611ebbd90ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 293,
+      "output_tokens": 11,
+      "total_tokens": 304,
+      "wall_time": 0.6368,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "38056cd40bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "38056cd40bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 337,
+      "output_tokens": 2,
+      "total_tokens": 339,
+      "wall_time": 0.5345,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "4925ce16086c11ebbd61ac1f6bf848b6": {
+    "answer": "是",
+    "iterations": 1,
+    "usage": {
+      "qid": "4925ce16086c11ebbd61ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 1,
+      "total_tokens": 216,
+      "wall_time": 0.5982,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3e5580c00bb011ebab90acde48001122": {
+    "answer": "Gabriel-Elzéar Taschereau",
+    "iterations": 1,
+    "usage": {
+      "qid": "3e5580c00bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 338,
+      "output_tokens": 11,
+      "total_tokens": 349,
+      "wall_time": 0.8444,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f66aecd208bc11ebbd89ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "f66aecd208bc11ebbd89ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 1,
+      "total_tokens": 228,
+      "wall_time": 0.5039,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6a667eb40bdb11eba7f7acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "6a667eb40bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 2,
+      "total_tokens": 284,
+      "wall_time": 0.3908,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c8edf21008d811ebbd9cac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "c8edf21008d811ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 285,
+      "output_tokens": 1,
+      "total_tokens": 286,
+      "wall_time": 0.5618,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bbc587ba0bda11eba7f7acde48001122": {
+    "answer": "Bavaria",
+    "iterations": 1,
+    "usage": {
+      "qid": "bbc587ba0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 3,
+      "total_tokens": 238,
+      "wall_time": 0.3032,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6b0a2728087811ebbd67ac1f6bf848b6": {
+    "answer": "Lalengzama Vangchhia",
+    "iterations": 1,
+    "usage": {
+      "qid": "6b0a2728087811ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 10,
+      "total_tokens": 240,
+      "wall_time": 0.5205,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f7c2a5380bdd11eba7f7acde48001122": {
+    "answer": "London",
+    "iterations": 1,
+    "usage": {
+      "qid": "f7c2a5380bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 310,
+      "output_tokens": 1,
+      "total_tokens": 311,
+      "wall_time": 0.5285,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c664947c086f11ebbd62ac1f6bf848b6": {
+    "answer": "A Sound of Trumpets",
+    "iterations": 1,
+    "usage": {
+      "qid": "c664947c086f11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 245,
+      "output_tokens": 5,
+      "total_tokens": 250,
+      "wall_time": 0.4453,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "20d63fe60bdb11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "20d63fe60bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 214,
+      "output_tokens": 1,
+      "total_tokens": 215,
+      "wall_time": 0.3534,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b897a2aa08cb11ebbd92ac1f6bf848b6": {
+    "answer": "João da Mata",
+    "iterations": 1,
+    "usage": {
+      "qid": "b897a2aa08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 4,
+      "total_tokens": 227,
+      "wall_time": 0.4268,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "060cb332087711ebbd67ac1f6bf848b6": {
+    "answer": "Goran Veselinovski",
+    "iterations": 1,
+    "usage": {
+      "qid": "060cb332087711ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 237,
+      "output_tokens": 6,
+      "total_tokens": 243,
+      "wall_time": 0.5342,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c2c7992e08bd11ebbd8aac1f6bf848b6": {
+    "answer": "Budak Nafsu",
+    "iterations": 1,
+    "usage": {
+      "qid": "c2c7992e08bd11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 289,
+      "output_tokens": 6,
+      "total_tokens": 295,
+      "wall_time": 0.4614,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "77bf469e0bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "77bf469e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 2,
+      "total_tokens": 241,
+      "wall_time": 0.441,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "77f5a3dc0bb011ebab90acde48001122": {
+    "answer": "Prince Rainier III",
+    "iterations": 1,
+    "usage": {
+      "qid": "77f5a3dc0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 427,
+      "output_tokens": 4,
+      "total_tokens": 431,
+      "wall_time": 0.6627,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3c9ec66a089011ebbd72ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "3c9ec66a089011ebbd72ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 1,
+      "total_tokens": 214,
+      "wall_time": 0.3947,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "20806979089c11ebbd78ac1f6bf848b6": {
+    "answer": "Aloha, Bobby and Rose",
+    "iterations": 1,
+    "usage": {
+      "qid": "20806979089c11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 7,
+      "total_tokens": 297,
+      "wall_time": 0.4298,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8afe75c40bda11eba7f7acde48001122": {
+    "answer": "Filipino",
+    "iterations": 1,
+    "usage": {
+      "qid": "8afe75c40bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 3,
+      "total_tokens": 211,
+      "wall_time": 0.4681,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "85cc412008b611ebbd88ac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "85cc412008b611ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 266,
+      "output_tokens": 1,
+      "total_tokens": 267,
+      "wall_time": 0.3376,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1eb0c10808d611ebbd98ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "1eb0c10808d611ebbd98ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 2,
+      "total_tokens": 217,
+      "wall_time": 0.449,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6db45b3208bf11ebbd8aac1f6bf848b6": {
+    "answer": "Return of the Hero",
+    "iterations": 1,
+    "usage": {
+      "qid": "6db45b3208bf11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 200,
+      "output_tokens": 4,
+      "total_tokens": 204,
+      "wall_time": 0.5877,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1a76997408a311ebbd7bac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "1a76997408a311ebbd7bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 2,
+      "total_tokens": 231,
+      "wall_time": 1.022,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c7ea6b080baf11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "c7ea6b080baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 1,
+      "total_tokens": 232,
+      "wall_time": 0.3297,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "391fed160bb011ebab90acde48001122": {
+    "answer": "Princess Feodora of Leiningen",
+    "iterations": 1,
+    "usage": {
+      "qid": "391fed160bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 378,
+      "output_tokens": 9,
+      "total_tokens": 387,
+      "wall_time": 0.524,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "714be734088c11ebbd6fac1f6bf848b6": {
+    "answer": "Slums of Berlin",
+    "iterations": 1,
+    "usage": {
+      "qid": "714be734088c11ebbd6fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 4,
+      "total_tokens": 271,
+      "wall_time": 0.5728,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "55660c0a086b11ebbd5fac1f6bf848b6": {
+    "answer": "The Railroad Man",
+    "iterations": 1,
+    "usage": {
+      "qid": "55660c0a086b11ebbd5fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 3,
+      "total_tokens": 243,
+      "wall_time": 0.3557,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5f2bce30088111ebbd6dac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "5f2bce30088111ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 310,
+      "output_tokens": 2,
+      "total_tokens": 312,
+      "wall_time": 0.5201,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "28986e180bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "28986e180bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 234,
+      "output_tokens": 1,
+      "total_tokens": 235,
+      "wall_time": 0.4525,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "008b58060baf11ebab90acde48001122": {
+    "answer": "Lady Louisa Lennox",
+    "iterations": 1,
+    "usage": {
+      "qid": "008b58060baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 293,
+      "output_tokens": 5,
+      "total_tokens": 298,
+      "wall_time": 0.4421,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7be06c080baf11ebab90acde48001122": {
+    "answer": "Chiang Kai-shek",
+    "iterations": 1,
+    "usage": {
+      "qid": "7be06c080baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 5,
+      "total_tokens": 279,
+      "wall_time": 0.8012,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "952c943508a311ebbd7bac1f6bf848b6": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "952c943508a311ebbd7bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 246,
+      "output_tokens": 2,
+      "total_tokens": 248,
+      "wall_time": 0.7461,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fbef09ef089511ebbd75ac1f6bf848b6": {
+    "answer": "No information",
+    "iterations": 1,
+    "usage": {
+      "qid": "fbef09ef089511ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 2,
+      "total_tokens": 229,
+      "wall_time": 0.3866,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f3fb7e0708b411ebbd88ac1f6bf848b6": {
+    "answer": "I'll Take Sweden",
+    "iterations": 1,
+    "usage": {
+      "qid": "f3fb7e0708b411ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 221,
+      "output_tokens": 4,
+      "total_tokens": 225,
+      "wall_time": 0.4809,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c4f5ca80089611ebbd76ac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "c4f5ca80089611ebbd76ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 178,
+      "output_tokens": 2,
+      "total_tokens": 180,
+      "wall_time": 0.3662,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "086e57720bdb11eba7f7acde48001122": {
+    "answer": "British",
+    "iterations": 1,
+    "usage": {
+      "qid": "086e57720bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 249,
+      "output_tokens": 1,
+      "total_tokens": 250,
+      "wall_time": 0.3476,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "803aef7808d311ebbd96ac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "803aef7808d311ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 2,
+      "total_tokens": 231,
+      "wall_time": 0.3109,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "40b3f66a08cb11ebbd92ac1f6bf848b6": {
+    "answer": "Fine Dead Girls",
+    "iterations": 1,
+    "usage": {
+      "qid": "40b3f66a08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 3,
+      "total_tokens": 266,
+      "wall_time": 0.4739,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f7a6322e08c511ebbd8fac1f6bf848b6": {
+    "answer": "信息不足",
+    "iterations": 1,
+    "usage": {
+      "qid": "f7a6322e08c511ebbd8fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 2,
+      "total_tokens": 220,
+      "wall_time": 0.714,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9bdf26a0085a11ebbd5cac1f6bf848b6": {
+    "answer": "Neil Lloyd Macky",
+    "iterations": 1,
+    "usage": {
+      "qid": "9bdf26a0085a11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 4,
+      "total_tokens": 254,
+      "wall_time": 0.6528,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bf3fd3ba08cd11ebbd93ac1f6bf848b6": {
+    "answer": "Man on the Tracks",
+    "iterations": 1,
+    "usage": {
+      "qid": "bf3fd3ba08cd11ebbd93ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 4,
+      "total_tokens": 212,
+      "wall_time": 0.4671,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2e4716e6089d11ebbd78ac1f6bf848b6": {
+    "answer": "Legend Of The Inca Bridge",
+    "iterations": 1,
+    "usage": {
+      "qid": "2e4716e6089d11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 6,
+      "total_tokens": 282,
+      "wall_time": 0.4824,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "61c4c7c008de11ebbd9eac1f6bf848b6": {
+    "answer": "Romeo, Juliet and Darkness",
+    "iterations": 1,
+    "usage": {
+      "qid": "61c4c7c008de11ebbd9eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 181,
+      "output_tokens": 7,
+      "total_tokens": 188,
+      "wall_time": 0.4748,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3717fcf80bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "3717fcf80bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 318,
+      "output_tokens": 2,
+      "total_tokens": 320,
+      "wall_time": 0.4353,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "76b367b4088311ebbd6dac1f6bf848b6": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "76b367b4088311ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 286,
+      "output_tokens": 2,
+      "total_tokens": 288,
+      "wall_time": 0.3444,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "69ef20980bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "69ef20980bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 236,
+      "output_tokens": 2,
+      "total_tokens": 238,
+      "wall_time": 0.4453,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ab1d47a108d211ebbd96ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "ab1d47a108d211ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 181,
+      "output_tokens": 1,
+      "total_tokens": 182,
+      "wall_time": 0.4165,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2b81a68e099611ebbdb0ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "2b81a68e099611ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 1,
+      "total_tokens": 241,
+      "wall_time": 0.4411,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e0681b8c0bda11eba7f7acde48001122": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "e0681b8c0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 2,
+      "total_tokens": 265,
+      "wall_time": 0.4167,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "57c12b50094711ebbdaeac1f6bf848b6": {
+    "answer": "I'm In Love Again",
+    "iterations": 1,
+    "usage": {
+      "qid": "57c12b50094711ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 5,
+      "total_tokens": 245,
+      "wall_time": 0.5371,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "237d904a0bdc11eba7f7acde48001122": {
+    "answer": "Jülich",
+    "iterations": 1,
+    "usage": {
+      "qid": "237d904a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 296,
+      "output_tokens": 3,
+      "total_tokens": 299,
+      "wall_time": 0.4064,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2c06f0a60bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "2c06f0a60bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 262,
+      "output_tokens": 2,
+      "total_tokens": 264,
+      "wall_time": 0.4482,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "21852d1e0bde11eba7f7acde48001122": {
+    "answer": "No information",
+    "iterations": 1,
+    "usage": {
+      "qid": "21852d1e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 2,
+      "total_tokens": 278,
+      "wall_time": 0.4485,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3c9020cd097811ebbdb0ac1f6bf848b6": {
+    "answer": "Paul Temple's Triumph",
+    "iterations": 1,
+    "usage": {
+      "qid": "3c9020cd097811ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 280,
+      "output_tokens": 4,
+      "total_tokens": 284,
+      "wall_time": 0.4267,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "84d526bd088711ebbd6dac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "84d526bd088711ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 249,
+      "output_tokens": 1,
+      "total_tokens": 250,
+      "wall_time": 0.3579,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6b6a5a7f092e11ebbdaeac1f6bf848b6": {
+    "answer": "La Marca de Satanás",
+    "iterations": 1,
+    "usage": {
+      "qid": "6b6a5a7f092e11ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 269,
+      "output_tokens": 6,
+      "total_tokens": 275,
+      "wall_time": 0.4343,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c0085d55088111ebbd6dac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "c0085d55088111ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 2,
+      "total_tokens": 249,
+      "wall_time": 0.3902,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7529522e0bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "7529522e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 248,
+      "output_tokens": 2,
+      "total_tokens": 250,
+      "wall_time": 0.6003,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6e921fa8085d11ebbd5cac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "6e921fa8085d11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 1,
+      "total_tokens": 209,
+      "wall_time": 0.4407,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f6201efa0bdc11eba7f7acde48001122": {
+    "answer": "No information provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "f6201efa0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 3,
+      "total_tokens": 270,
+      "wall_time": 0.6412,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6d68448a0bdb11eba7f7acde48001122": {
+    "answer": "Best Song",
+    "iterations": 1,
+    "usage": {
+      "qid": "6d68448a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 237,
+      "output_tokens": 2,
+      "total_tokens": 239,
+      "wall_time": 0.3602,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "eb3fdf6208bb11ebbd88ac1f6bf848b6": {
+    "answer": "The Man in the Funny Suit",
+    "iterations": 1,
+    "usage": {
+      "qid": "eb3fdf6208bb11ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 332,
+      "output_tokens": 6,
+      "total_tokens": 338,
+      "wall_time": 0.4008,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1ca3370c0bdc11eba7f7acde48001122": {
+    "answer": "American",
+    "iterations": 1,
+    "usage": {
+      "qid": "1ca3370c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 1,
+      "total_tokens": 241,
+      "wall_time": 0.3014,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ca7775140bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "ca7775140bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 1,
+      "total_tokens": 251,
+      "wall_time": 0.2808,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "955eafcc089f11ebbd78ac1f6bf848b6": {
+    "answer": "Curumsey Damjee",
+    "iterations": 1,
+    "usage": {
+      "qid": "955eafcc089f11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 5,
+      "total_tokens": 273,
+      "wall_time": 0.4668,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "03e971d208d911ebbd9cac1f6bf848b6": {
+    "answer": "是",
+    "iterations": 1,
+    "usage": {
+      "qid": "03e971d208d911ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 221,
+      "output_tokens": 1,
+      "total_tokens": 222,
+      "wall_time": 0.3424,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "547835de087f11ebbd6bac1f6bf848b6": {
+    "answer": "Park So-Jin",
+    "iterations": 1,
+    "usage": {
+      "qid": "547835de087f11ebbd6bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 309,
+      "output_tokens": 4,
+      "total_tokens": 313,
+      "wall_time": 0.4758,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "77803f9c084b11ebbd56ac1f6bf848b6": {
+    "answer": "Taxi!",
+    "iterations": 1,
+    "usage": {
+      "qid": "77803f9c084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 3,
+      "total_tokens": 216,
+      "wall_time": 0.3901,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5b66327608f011ebbda8ac1f6bf848b6": {
+    "answer": "Narayana Kasturi",
+    "iterations": 1,
+    "usage": {
+      "qid": "5b66327608f011ebbda8ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 7,
+      "total_tokens": 275,
+      "wall_time": 1.0811,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "432d5c5c08aa11ebbd80ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "432d5c5c08aa11ebbd80ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 262,
+      "output_tokens": 2,
+      "total_tokens": 264,
+      "wall_time": 0.3796,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0464f5040bdc11eba7f7acde48001122": {
+    "answer": "French film director",
+    "iterations": 1,
+    "usage": {
+      "qid": "0464f5040bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 299,
+      "output_tokens": 3,
+      "total_tokens": 302,
+      "wall_time": 0.4682,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1aec8f200bb011ebab90acde48001122": {
+    "answer": "Supayalat",
+    "iterations": 1,
+    "usage": {
+      "qid": "1aec8f200bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 307,
+      "output_tokens": 4,
+      "total_tokens": 311,
+      "wall_time": 0.4917,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5d87207a0bb011ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5d87207a0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 344,
+      "output_tokens": 1,
+      "total_tokens": 345,
+      "wall_time": 0.4221,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "12372ebd08e711ebbda5ac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "12372ebd08e711ebbda5ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 1,
+      "total_tokens": 260,
+      "wall_time": 0.508,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8d91d1b60bb011ebab90acde48001122": {
+    "answer": "Ramon Berenguer IV",
+    "iterations": 1,
+    "usage": {
+      "qid": "8d91d1b60bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 6,
+      "total_tokens": 260,
+      "wall_time": 0.57,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9564cd35089311ebbd75ac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "9564cd35089311ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 1,
+      "total_tokens": 196,
+      "wall_time": 0.4432,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b86223c60bda11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "b86223c60bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 2,
+      "total_tokens": 233,
+      "wall_time": 0.4176,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a3561235086b11ebbd5fac1f6bf848b6": {
+    "answer": "La Ragazzola",
+    "iterations": 1,
+    "usage": {
+      "qid": "a3561235086b11ebbd5fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 4,
+      "total_tokens": 233,
+      "wall_time": 0.4014,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1e1d8778088e11ebbd70ac1f6bf848b6": {
+    "answer": "The Countess Died of Laughter",
+    "iterations": 1,
+    "usage": {
+      "qid": "1e1d8778088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 265,
+      "output_tokens": 7,
+      "total_tokens": 272,
+      "wall_time": 0.5017,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0bad718c0bb011ebab90acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "0bad718c0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 167,
+      "output_tokens": 2,
+      "total_tokens": 169,
+      "wall_time": 0.5823,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ef5046be0bae11ebab90acde48001122": {
+    "answer": "Anne Ferrers",
+    "iterations": 1,
+    "usage": {
+      "qid": "ef5046be0bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 406,
+      "output_tokens": 3,
+      "total_tokens": 409,
+      "wall_time": 0.6008,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8a0ed810089d11ebbd78ac1f6bf848b6": {
+    "answer": "Angel and the Badman",
+    "iterations": 1,
+    "usage": {
+      "qid": "8a0ed810089d11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 249,
+      "output_tokens": 5,
+      "total_tokens": 254,
+      "wall_time": 0.6897,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "cd0964240bda11eba7f7acde48001122": {
+    "answer": "Montélimar",
+    "iterations": 1,
+    "usage": {
+      "qid": "cd0964240bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 203,
+      "output_tokens": 4,
+      "total_tokens": 207,
+      "wall_time": 0.4234,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "632cef18089111ebbd73ac1f6bf848b6": {
+    "answer": "The Last Face",
+    "iterations": 1,
+    "usage": {
+      "qid": "632cef18089111ebbd73ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 3,
+      "total_tokens": 229,
+      "wall_time": 0.6617,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e0bdd2a808d211ebbd96ac1f6bf848b6": {
+    "answer": "Maker of Men",
+    "iterations": 1,
+    "usage": {
+      "qid": "e0bdd2a808d211ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 3,
+      "total_tokens": 234,
+      "wall_time": 0.537,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "754af08e0bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "754af08e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 249,
+      "output_tokens": 2,
+      "total_tokens": 251,
+      "wall_time": 0.3691,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2fd031c00bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "2fd031c00bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 2,
+      "total_tokens": 249,
+      "wall_time": 0.4197,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7e32dd080bda11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "7e32dd080bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 172,
+      "output_tokens": 2,
+      "total_tokens": 174,
+      "wall_time": 0.4024,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8a742e660bdd11eba7f7acde48001122": {
+    "answer": "International Emmy Award",
+    "iterations": 1,
+    "usage": {
+      "qid": "8a742e660bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 3,
+      "total_tokens": 253,
+      "wall_time": 0.4305,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "57c03881088f11ebbd72ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "57c03881088f11ebbd72ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 2,
+      "total_tokens": 284,
+      "wall_time": 0.3357,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "145752ee085e11ebbd5cac1f6bf848b6": {
+    "answer": "Kim Ho",
+    "iterations": 1,
+    "usage": {
+      "qid": "145752ee085e11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 228,
+      "output_tokens": 2,
+      "total_tokens": 230,
+      "wall_time": 0.3366,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "482773fc0baf11ebab90acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "482773fc0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 149,
+      "output_tokens": 2,
+      "total_tokens": 151,
+      "wall_time": 0.3735,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "de64290e0bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "de64290e0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 2,
+      "total_tokens": 225,
+      "wall_time": 0.4529,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fe1fa9c008d211ebbd96ac1f6bf848b6": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "fe1fa9c008d211ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 2,
+      "total_tokens": 220,
+      "wall_time": 0.4236,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b118f26308f011ebbda8ac1f6bf848b6": {
+    "answer": "Brahima Cissé",
+    "iterations": 1,
+    "usage": {
+      "qid": "b118f26308f011ebbda8ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 6,
+      "total_tokens": 288,
+      "wall_time": 0.5607,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8df60c32088411ebbd6dac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "8df60c32088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 1,
+      "total_tokens": 236,
+      "wall_time": 0.2931,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c4aa6c280bdb11eba7f7acde48001122": {
+    "answer": "未提及导演",
+    "iterations": 1,
+    "usage": {
+      "qid": "c4aa6c280bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 273,
+      "output_tokens": 3,
+      "total_tokens": 276,
+      "wall_time": 0.7466,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6837abca0bb011ebab90acde48001122": {
+    "answer": "Princess Madeleine",
+    "iterations": 1,
+    "usage": {
+      "qid": "6837abca0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 266,
+      "output_tokens": 4,
+      "total_tokens": 270,
+      "wall_time": 0.4673,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "55605b7a08b811ebbd88ac1f6bf848b6": {
+    "answer": "Daredevil's Time",
+    "iterations": 1,
+    "usage": {
+      "qid": "55605b7a08b811ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 228,
+      "output_tokens": 5,
+      "total_tokens": 233,
+      "wall_time": 0.4866,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "363fd4380bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "363fd4380bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 206,
+      "output_tokens": 1,
+      "total_tokens": 207,
+      "wall_time": 0.4266,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "18abce6a08ae11ebbd83ac1f6bf848b6": {
+    "answer": "Deadly Eyes",
+    "iterations": 1,
+    "usage": {
+      "qid": "18abce6a08ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 3,
+      "total_tokens": 260,
+      "wall_time": 0.4746,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e41c14820bd911eba7f7acde48001122": {
+    "answer": "France",
+    "iterations": 1,
+    "usage": {
+      "qid": "e41c14820bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 284,
+      "output_tokens": 1,
+      "total_tokens": 285,
+      "wall_time": 0.4478,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c5e7570c0bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "c5e7570c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 248,
+      "output_tokens": 2,
+      "total_tokens": 250,
+      "wall_time": 0.3809,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dc80e30908da11ebbd9cac1f6bf848b6": {
+    "answer": "Buster & Chauncey's Silent Night",
+    "iterations": 1,
+    "usage": {
+      "qid": "dc80e30908da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 9,
+      "total_tokens": 299,
+      "wall_time": 0.5644,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "daad21e40bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "daad21e40bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 181,
+      "output_tokens": 2,
+      "total_tokens": 183,
+      "wall_time": 0.4165,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f1a04d600bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "f1a04d600bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 2,
+      "total_tokens": 237,
+      "wall_time": 0.6563,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "07d6f60c085c11ebbd5cac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "07d6f60c085c11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 288,
+      "output_tokens": 2,
+      "total_tokens": 290,
+      "wall_time": 0.3664,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1c16807e08a211ebbd7aac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "1c16807e08a211ebbd7aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 237,
+      "output_tokens": 1,
+      "total_tokens": 238,
+      "wall_time": 0.3675,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f8fe7fc80bae11ebab90acde48001122": {
+    "answer": "Mastani",
+    "iterations": 1,
+    "usage": {
+      "qid": "f8fe7fc80bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 300,
+      "output_tokens": 3,
+      "total_tokens": 303,
+      "wall_time": 0.5435,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bc5a9fef086c11ebbd61ac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "bc5a9fef086c11ebbd61ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 351,
+      "output_tokens": 2,
+      "total_tokens": 353,
+      "wall_time": 0.3438,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bacc6ba00bdd11eba7f7acde48001122": {
+    "answer": "No information provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "bacc6ba00bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 3,
+      "total_tokens": 260,
+      "wall_time": 0.3172,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f1c093bc0bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "f1c093bc0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 232,
+      "output_tokens": 1,
+      "total_tokens": 233,
+      "wall_time": 0.4611,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2b9500fe0bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "2b9500fe0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 325,
+      "output_tokens": 1,
+      "total_tokens": 326,
+      "wall_time": 0.4146,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0a98773a0bdb11eba7f7acde48001122": {
+    "answer": "Murder",
+    "iterations": 1,
+    "usage": {
+      "qid": "0a98773a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 203,
+      "output_tokens": 2,
+      "total_tokens": 205,
+      "wall_time": 0.4007,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "07f2140e0bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "07f2140e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 1,
+      "total_tokens": 275,
+      "wall_time": 0.4208,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5f1e6610092a11ebbdaeac1f6bf848b6": {
+    "answer": "Bare Wires",
+    "iterations": 1,
+    "usage": {
+      "qid": "5f1e6610092a11ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 200,
+      "output_tokens": 4,
+      "total_tokens": 204,
+      "wall_time": 0.7334,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bac6c6d9092211ebbdaeac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "bac6c6d9092211ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 1,
+      "total_tokens": 196,
+      "wall_time": 0.5029,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8f4637ae0bdd11eba7f7acde48001122": {
+    "answer": "Executed in 1326",
+    "iterations": 1,
+    "usage": {
+      "qid": "8f4637ae0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 244,
+      "output_tokens": 8,
+      "total_tokens": 252,
+      "wall_time": 0.6883,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "92a7eb4a0bdd11eba7f7acde48001122": {
+    "answer": "Franzburg",
+    "iterations": 1,
+    "usage": {
+      "qid": "92a7eb4a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 283,
+      "output_tokens": 2,
+      "total_tokens": 285,
+      "wall_time": 0.3602,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "11562eb0090711ebbdadac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "11562eb0090711ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 1,
+      "total_tokens": 258,
+      "wall_time": 0.4034,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2ec440560bb011ebab90acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "2ec440560bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 2,
+      "total_tokens": 316,
+      "wall_time": 0.3328,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "36ba28ed089611ebbd76ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "36ba28ed089611ebbd76ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 1,
+      "total_tokens": 252,
+      "wall_time": 0.4537,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3cddcc46086511ebbd5eac1f6bf848b6": {
+    "answer": "Barbara Nawratowicz",
+    "iterations": 1,
+    "usage": {
+      "qid": "3cddcc46086511ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 6,
+      "total_tokens": 225,
+      "wall_time": 0.3815,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1793f8ec0bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "1793f8ec0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 2,
+      "total_tokens": 229,
+      "wall_time": 0.3024,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3641d5c60bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "3641d5c60bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 309,
+      "output_tokens": 2,
+      "total_tokens": 311,
+      "wall_time": 0.4384,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "39fa366e0bd911eba7f7acde48001122": {
+    "answer": "11 November 1887",
+    "iterations": 1,
+    "usage": {
+      "qid": "39fa366e0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 186,
+      "output_tokens": 8,
+      "total_tokens": 194,
+      "wall_time": 0.6567,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ef0db64a08f311ebbdaaac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "ef0db64a08f311ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 1,
+      "total_tokens": 283,
+      "wall_time": 0.3914,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a7b3993a089011ebbd72ac1f6bf848b6": {
+    "answer": "Lost in the Suburbs",
+    "iterations": 1,
+    "usage": {
+      "qid": "a7b3993a089011ebbd72ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 6,
+      "total_tokens": 273,
+      "wall_time": 0.3978,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a039577208b711ebbd88ac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "a039577208b711ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 1,
+      "total_tokens": 264,
+      "wall_time": 0.4168,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "63d6efd308a911ebbd80ac1f6bf848b6": {
+    "answer": "Forelsket i København",
+    "iterations": 1,
+    "usage": {
+      "qid": "63d6efd308a911ebbd80ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 7,
+      "total_tokens": 237,
+      "wall_time": 0.5605,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ceadeee60bdd11eba7f7acde48001122": {
+    "answer": "Mexican",
+    "iterations": 1,
+    "usage": {
+      "qid": "ceadeee60bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 232,
+      "output_tokens": 2,
+      "total_tokens": 234,
+      "wall_time": 0.4369,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "51d93b7e0bdc11eba7f7acde48001122": {
+    "answer": "1930",
+    "iterations": 1,
+    "usage": {
+      "qid": "51d93b7e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 4,
+      "total_tokens": 280,
+      "wall_time": 0.62,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "421512620bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "421512620bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 242,
+      "output_tokens": 2,
+      "total_tokens": 244,
+      "wall_time": 0.3871,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "838692a808b611ebbd88ac1f6bf848b6": {
+    "answer": "The Cruel Truth",
+    "iterations": 1,
+    "usage": {
+      "qid": "838692a808b611ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 4,
+      "total_tokens": 233,
+      "wall_time": 0.4573,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "18350dd2087e11ebbd6bac1f6bf848b6": {
+    "answer": "Corazón de criolla",
+    "iterations": 1,
+    "usage": {
+      "qid": "18350dd2087e11ebbd6bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 244,
+      "output_tokens": 6,
+      "total_tokens": 250,
+      "wall_time": 0.4451,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "4397f3460bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "4397f3460bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 2,
+      "total_tokens": 221,
+      "wall_time": 0.3431,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e3477e760bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "e3477e760bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 2,
+      "total_tokens": 316,
+      "wall_time": 0.4376,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ca4bbe1a08f811ebbdaaac1f6bf848b6": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "ca4bbe1a08f811ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 2,
+      "total_tokens": 219,
+      "wall_time": 0.404,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5f92f6f808f611ebbdaaac1f6bf848b6": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "5f92f6f808f611ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 2,
+      "total_tokens": 270,
+      "wall_time": 0.3964,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5bbff10e0bdd11eba7f7acde48001122": {
+    "answer": "United Kingdom",
+    "iterations": 1,
+    "usage": {
+      "qid": "5bbff10e0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 192,
+      "output_tokens": 2,
+      "total_tokens": 194,
+      "wall_time": 0.3378,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "68dd6b9a0bd911eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "68dd6b9a0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 256,
+      "output_tokens": 1,
+      "total_tokens": 257,
+      "wall_time": 0.506,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "416ee34a0bde11eba7f7acde48001122": {
+    "answer": "Barons' Crusade",
+    "iterations": 1,
+    "usage": {
+      "qid": "416ee34a0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 5,
+      "total_tokens": 228,
+      "wall_time": 0.4902,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3ad797c60bdd11eba7f7acde48001122": {
+    "answer": "Filipino",
+    "iterations": 1,
+    "usage": {
+      "qid": "3ad797c60bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 206,
+      "output_tokens": 3,
+      "total_tokens": 209,
+      "wall_time": 0.4986,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7f33795908a911ebbd80ac1f6bf848b6": {
+    "answer": "Shanghai Dreams",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f33795908a911ebbd80ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 228,
+      "output_tokens": 3,
+      "total_tokens": 231,
+      "wall_time": 0.3732,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "528a55ee0bdc11eba7f7acde48001122": {
+    "answer": "Jacques Dutronc",
+    "iterations": 1,
+    "usage": {
+      "qid": "528a55ee0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 279,
+      "output_tokens": 5,
+      "total_tokens": 284,
+      "wall_time": 0.4804,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6e90d9d60bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "6e90d9d60bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 2,
+      "total_tokens": 210,
+      "wall_time": 0.6231,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "08234350085111ebbd58ac1f6bf848b6": {
+    "answer": "How To Succeed With Sex",
+    "iterations": 1,
+    "usage": {
+      "qid": "08234350085111ebbd58ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 214,
+      "output_tokens": 6,
+      "total_tokens": 220,
+      "wall_time": 0.4975,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "933d94640bd911eba7f7acde48001122": {
+    "answer": "21 February 1986",
+    "iterations": 1,
+    "usage": {
+      "qid": "933d94640bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 308,
+      "output_tokens": 8,
+      "total_tokens": 316,
+      "wall_time": 0.6447,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2de78ab2092111ebbdaeac1f6bf848b6": {
+    "answer": "Carolyn of the Corners",
+    "iterations": 1,
+    "usage": {
+      "qid": "2de78ab2092111ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 190,
+      "output_tokens": 6,
+      "total_tokens": 196,
+      "wall_time": 0.5375,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "09f2f12c0bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "09f2f12c0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 273,
+      "output_tokens": 2,
+      "total_tokens": 275,
+      "wall_time": 0.7343,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bf67b3e7089e11ebbd78ac1f6bf848b6": {
+    "answer": "信息不足",
+    "iterations": 1,
+    "usage": {
+      "qid": "bf67b3e7089e11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 2,
+      "total_tokens": 278,
+      "wall_time": 0.4127,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "81502a9c08c211ebbd8cac1f6bf848b6": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "81502a9c08c211ebbd8cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 2,
+      "total_tokens": 274,
+      "wall_time": 0.3566,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9cd4f8260bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "9cd4f8260bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 2,
+      "total_tokens": 210,
+      "wall_time": 0.4243,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "20beaf000bb011ebab90acde48001122": {
+    "answer": "Henry Stafford",
+    "iterations": 1,
+    "usage": {
+      "qid": "20beaf000bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 349,
+      "output_tokens": 2,
+      "total_tokens": 351,
+      "wall_time": 0.518,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1762c76b08f211ebbdaaac1f6bf848b6": {
+    "answer": "Junda Iman Gunda",
+    "iterations": 1,
+    "usage": {
+      "qid": "1762c76b08f211ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 225,
+      "output_tokens": 6,
+      "total_tokens": 231,
+      "wall_time": 0.5589,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c0521bca087611ebbd67ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "c0521bca087611ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 1,
+      "total_tokens": 234,
+      "wall_time": 0.4506,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0290cd840baf11ebab90acde48001122": {
+    "answer": "Edward I of England",
+    "iterations": 1,
+    "usage": {
+      "qid": "0290cd840baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 4,
+      "total_tokens": 280,
+      "wall_time": 0.5073,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d43c730a086d11ebbd62ac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "d43c730a086d11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 180,
+      "output_tokens": 1,
+      "total_tokens": 181,
+      "wall_time": 0.3278,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8113911c086911ebbd5eac1f6bf848b6": {
+    "answer": "W. K. McNeil",
+    "iterations": 1,
+    "usage": {
+      "qid": "8113911c086911ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 332,
+      "output_tokens": 6,
+      "total_tokens": 338,
+      "wall_time": 0.531,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "675bb53e0bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "675bb53e0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 2,
+      "total_tokens": 228,
+      "wall_time": 0.5599,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1f8a07d20bde11eba7f7acde48001122": {
+    "answer": "Tim McGraw",
+    "iterations": 1,
+    "usage": {
+      "qid": "1f8a07d20bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 3,
+      "total_tokens": 242,
+      "wall_time": 0.3697,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3bd5e3b00bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "3bd5e3b00bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 273,
+      "output_tokens": 1,
+      "total_tokens": 274,
+      "wall_time": 0.3831,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "654d03c80bd911eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "654d03c80bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 234,
+      "output_tokens": 2,
+      "total_tokens": 236,
+      "wall_time": 0.3061,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a07044500bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "a07044500bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 350,
+      "output_tokens": 2,
+      "total_tokens": 352,
+      "wall_time": 0.3542,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "17cf260e097811ebbdb0ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "17cf260e097811ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 300,
+      "output_tokens": 1,
+      "total_tokens": 301,
+      "wall_time": 0.4029,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "060505ae089211ebbd73ac1f6bf848b6": {
+    "answer": "未知",
+    "iterations": 1,
+    "usage": {
+      "qid": "060505ae089211ebbd73ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 1,
+      "total_tokens": 255,
+      "wall_time": 0.3423,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1ef146ac087111ebbd63ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "1ef146ac087111ebbd63ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 261,
+      "output_tokens": 1,
+      "total_tokens": 262,
+      "wall_time": 0.345,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0a9f880a0bda11eba7f7acde48001122": {
+    "answer": "Olive Borden",
+    "iterations": 1,
+    "usage": {
+      "qid": "0a9f880a0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 202,
+      "output_tokens": 4,
+      "total_tokens": 206,
+      "wall_time": 0.5506,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0eda53600bde11eba7f7acde48001122": {
+    "answer": "Canadian",
+    "iterations": 1,
+    "usage": {
+      "qid": "0eda53600bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 1,
+      "total_tokens": 196,
+      "wall_time": 0.3368,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9766cddc0bdc11eba7f7acde48001122": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "9766cddc0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 185,
+      "output_tokens": 2,
+      "total_tokens": 187,
+      "wall_time": 0.4102,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9900c8200bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "9900c8200bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 238,
+      "output_tokens": 1,
+      "total_tokens": 239,
+      "wall_time": 0.3693,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8ba66b4c0bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "8ba66b4c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 238,
+      "output_tokens": 1,
+      "total_tokens": 239,
+      "wall_time": 0.5821,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "302aa8f9087811ebbd67ac1f6bf848b6": {
+    "answer": "Bhanwarey",
+    "iterations": 1,
+    "usage": {
+      "qid": "302aa8f9087811ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 4,
+      "total_tokens": 227,
+      "wall_time": 0.4375,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c8d8cca208b511ebbd88ac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "c8d8cca208b511ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 261,
+      "output_tokens": 1,
+      "total_tokens": 262,
+      "wall_time": 0.2975,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "299505620baf11ebab90acde48001122": {
+    "answer": "William, Duke of Jülich-Cleves-Berg",
+    "iterations": 1,
+    "usage": {
+      "qid": "299505620baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 385,
+      "output_tokens": 12,
+      "total_tokens": 397,
+      "wall_time": 0.5803,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "abc68a180bd911eba7f7acde48001122": {
+    "answer": "Six months before his birth",
+    "iterations": 1,
+    "usage": {
+      "qid": "abc68a180bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 5,
+      "total_tokens": 222,
+      "wall_time": 0.4548,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fe1ac99c0bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "fe1ac99c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 255,
+      "output_tokens": 2,
+      "total_tokens": 257,
+      "wall_time": 0.4332,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9b9e6cc40bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "9b9e6cc40bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 306,
+      "output_tokens": 2,
+      "total_tokens": 308,
+      "wall_time": 0.3218,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6c2ea34c0bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "6c2ea34c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 262,
+      "output_tokens": 2,
+      "total_tokens": 264,
+      "wall_time": 0.2769,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9f00dfe2089411ebbd75ac1f6bf848b6": {
+    "answer": "Dean Evans",
+    "iterations": 1,
+    "usage": {
+      "qid": "9f00dfe2089411ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 298,
+      "output_tokens": 2,
+      "total_tokens": 300,
+      "wall_time": 0.4897,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "179f51c60bde11eba7f7acde48001122": {
+    "answer": "1272",
+    "iterations": 1,
+    "usage": {
+      "qid": "179f51c60bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 286,
+      "output_tokens": 4,
+      "total_tokens": 290,
+      "wall_time": 0.5565,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6c9b4c03086911ebbd5eac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "6c9b4c03086911ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 2,
+      "total_tokens": 215,
+      "wall_time": 0.3564,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c289098a0bdc11eba7f7acde48001122": {
+    "answer": "Argentina",
+    "iterations": 1,
+    "usage": {
+      "qid": "c289098a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 1,
+      "total_tokens": 196,
+      "wall_time": 0.3395,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e811fd74088511ebbd6dac1f6bf848b6": {
+    "answer": "Claude Bramall Burgess",
+    "iterations": 1,
+    "usage": {
+      "qid": "e811fd74088511ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 5,
+      "total_tokens": 286,
+      "wall_time": 0.4544,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2c0ce6960bde11eba7f7acde48001122": {
+    "answer": "Buckingham Palace",
+    "iterations": 1,
+    "usage": {
+      "qid": "2c0ce6960bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 352,
+      "output_tokens": 4,
+      "total_tokens": 356,
+      "wall_time": 0.4289,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dcbfa8e208c411ebbd8eac1f6bf848b6": {
+    "answer": "Chithiram Pesuthadi 2",
+    "iterations": 1,
+    "usage": {
+      "qid": "dcbfa8e208c411ebbd8eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 248,
+      "output_tokens": 8,
+      "total_tokens": 256,
+      "wall_time": 0.5007,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c4dfdd5608aa11ebbd80ac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "c4dfdd5608aa11ebbd80ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 2,
+      "total_tokens": 237,
+      "wall_time": 0.3388,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2607ff70096211ebbdafac1f6bf848b6": {
+    "answer": "Blood on Wolf Mountain",
+    "iterations": 1,
+    "usage": {
+      "qid": "2607ff70096211ebbdafac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 248,
+      "output_tokens": 4,
+      "total_tokens": 252,
+      "wall_time": 0.3738,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "88d74da00bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "88d74da00bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 277,
+      "output_tokens": 2,
+      "total_tokens": 279,
+      "wall_time": 1.2587,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "73def83e0bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "73def83e0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 292,
+      "output_tokens": 2,
+      "total_tokens": 294,
+      "wall_time": 0.3834,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "eb63d1060bae11ebab90acde48001122": {
+    "answer": "Tiberius",
+    "iterations": 1,
+    "usage": {
+      "qid": "eb63d1060bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 280,
+      "output_tokens": 3,
+      "total_tokens": 283,
+      "wall_time": 0.7454,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "853ce3e308eb11ebbda7ac1f6bf848b6": {
+    "answer": "Arthur Kellam Tylee",
+    "iterations": 1,
+    "usage": {
+      "qid": "853ce3e308eb11ebbda7ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 7,
+      "total_tokens": 275,
+      "wall_time": 0.9047,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6c42e8d40baf11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "6c42e8d40baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 1,
+      "total_tokens": 242,
+      "wall_time": 0.6745,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "783b1724087611ebbd67ac1f6bf848b6": {
+    "answer": "Night and Dawn",
+    "iterations": 1,
+    "usage": {
+      "qid": "783b1724087611ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 3,
+      "total_tokens": 234,
+      "wall_time": 1.3181,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "25b06fd408c311ebbd8dac1f6bf848b6": {
+    "answer": "The House by the Cemetery",
+    "iterations": 1,
+    "usage": {
+      "qid": "25b06fd408c311ebbd8dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 5,
+      "total_tokens": 235,
+      "wall_time": 0.4334,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c5e999c208b811ebbd88ac1f6bf848b6": {
+    "answer": "Week-End In Havana",
+    "iterations": 1,
+    "usage": {
+      "qid": "c5e999c208b811ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 269,
+      "output_tokens": 5,
+      "total_tokens": 274,
+      "wall_time": 1.3469,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "05c81d7a0bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "05c81d7a0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 2,
+      "total_tokens": 283,
+      "wall_time": 0.5217,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9bdf51ee0bdd11eba7f7acde48001122": {
+    "answer": "Ottoman Salonica",
+    "iterations": 1,
+    "usage": {
+      "qid": "9bdf51ee0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 5,
+      "total_tokens": 259,
+      "wall_time": 0.4436,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "883fd545095a11ebbdaeac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "883fd545095a11ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 1,
+      "total_tokens": 213,
+      "wall_time": 0.3983,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "01eaac71085c11ebbd5cac1f6bf848b6": {
+    "answer": "The Ghosts of Berkeley Square",
+    "iterations": 1,
+    "usage": {
+      "qid": "01eaac71085c11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 282,
+      "output_tokens": 6,
+      "total_tokens": 288,
+      "wall_time": 0.4864,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "44a138ee0bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "44a138ee0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 1,
+      "total_tokens": 242,
+      "wall_time": 0.5386,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9fdb190608d411ebbd96ac1f6bf848b6": {
+    "answer": "Sven-Ole Thorsen",
+    "iterations": 1,
+    "usage": {
+      "qid": "9fdb190608d411ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 270,
+      "output_tokens": 7,
+      "total_tokens": 277,
+      "wall_time": 0.579,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2a1d94ce08b511ebbd88ac1f6bf848b6": {
+    "answer": "To See or Not to See",
+    "iterations": 1,
+    "usage": {
+      "qid": "2a1d94ce08b511ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 255,
+      "output_tokens": 6,
+      "total_tokens": 261,
+      "wall_time": 0.8304,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b8a95fa60bdb11eba7f7acde48001122": {
+    "answer": "National Film School in Łódź",
+    "iterations": 1,
+    "usage": {
+      "qid": "b8a95fa60bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 243,
+      "output_tokens": 7,
+      "total_tokens": 250,
+      "wall_time": 0.5809,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "489189f4089411ebbd75ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "489189f4089411ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 183,
+      "output_tokens": 1,
+      "total_tokens": 184,
+      "wall_time": 0.5945,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c37b86260bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "c37b86260bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 2,
+      "total_tokens": 241,
+      "wall_time": 0.3451,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8531b4a0089a11ebbd77ac1f6bf848b6": {
+    "answer": "Two Thousand Maniacs!",
+    "iterations": 1,
+    "usage": {
+      "qid": "8531b4a0089a11ebbd77ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 293,
+      "output_tokens": 6,
+      "total_tokens": 299,
+      "wall_time": 0.5995,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2ba9b53c0bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "2ba9b53c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 201,
+      "output_tokens": 2,
+      "total_tokens": 203,
+      "wall_time": 0.4462,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b4ff29c00bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "b4ff29c00bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 2,
+      "total_tokens": 269,
+      "wall_time": 0.4455,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "abf4c578090811ebbdadac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "abf4c578090811ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 201,
+      "output_tokens": 2,
+      "total_tokens": 203,
+      "wall_time": 0.3682,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6de887fc0bdc11eba7f7acde48001122": {
+    "answer": "India",
+    "iterations": 1,
+    "usage": {
+      "qid": "6de887fc0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 203,
+      "output_tokens": 1,
+      "total_tokens": 204,
+      "wall_time": 0.8796,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2ecf499e0bdb11eba7f7acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "2ecf499e0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 164,
+      "output_tokens": 2,
+      "total_tokens": 166,
+      "wall_time": 0.3613,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "76b617e40bde11eba7f7acde48001122": {
+    "answer": "Spanish",
+    "iterations": 1,
+    "usage": {
+      "qid": "76b617e40bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 339,
+      "output_tokens": 1,
+      "total_tokens": 340,
+      "wall_time": 0.3835,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c30906a60bd911eba7f7acde48001122": {
+    "answer": "Mexico",
+    "iterations": 1,
+    "usage": {
+      "qid": "c30906a60bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 194,
+      "output_tokens": 1,
+      "total_tokens": 195,
+      "wall_time": 0.3173,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "74b134420bd911eba7f7acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "74b134420bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 2,
+      "total_tokens": 235,
+      "wall_time": 0.5213,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7e815a440bdc11eba7f7acde48001122": {
+    "answer": "No information provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "7e815a440bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 211,
+      "output_tokens": 3,
+      "total_tokens": 214,
+      "wall_time": 0.3419,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9f42c2680baf11ebab90acde48001122": {
+    "answer": "No information provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "9f42c2680baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 3,
+      "total_tokens": 293,
+      "wall_time": 0.3659,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "277abef40bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "277abef40bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 225,
+      "output_tokens": 1,
+      "total_tokens": 226,
+      "wall_time": 0.4326,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a17475e3095f11ebbdafac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "a17475e3095f11ebbdafac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 1,
+      "total_tokens": 252,
+      "wall_time": 0.3064,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "84cf37580bb011ebab90acde48001122": {
+    "answer": "Johannetta of Sayn-Wittgenstein",
+    "iterations": 1,
+    "usage": {
+      "qid": "84cf37580bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 11,
+      "total_tokens": 244,
+      "wall_time": 0.7851,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9c3c466f087d11ebbd6bac1f6bf848b6": {
+    "answer": "A Woman's Case",
+    "iterations": 1,
+    "usage": {
+      "qid": "9c3c466f087d11ebbd6bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 4,
+      "total_tokens": 221,
+      "wall_time": 0.5577,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b23e2363086211ebbd5dac1f6bf848b6": {
+    "answer": "Lincoln in the White House",
+    "iterations": 1,
+    "usage": {
+      "qid": "b23e2363086211ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 6,
+      "total_tokens": 320,
+      "wall_time": 0.6933,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "07932ed80bde11eba7f7acde48001122": {
+    "answer": "American",
+    "iterations": 1,
+    "usage": {
+      "qid": "07932ed80bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 184,
+      "output_tokens": 1,
+      "total_tokens": 185,
+      "wall_time": 0.4271,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "009d55460bdd11eba7f7acde48001122": {
+    "answer": "Buren, Gelderland",
+    "iterations": 1,
+    "usage": {
+      "qid": "009d55460bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 277,
+      "output_tokens": 5,
+      "total_tokens": 282,
+      "wall_time": 0.5169,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a7f91a000bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "a7f91a000bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 271,
+      "output_tokens": 2,
+      "total_tokens": 273,
+      "wall_time": 0.5193,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e2bfd3100bae11ebab90acde48001122": {
+    "answer": "Maria Amalia of Courland",
+    "iterations": 1,
+    "usage": {
+      "qid": "e2bfd3100bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 347,
+      "output_tokens": 6,
+      "total_tokens": 353,
+      "wall_time": 0.4163,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "31ed51e00bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "31ed51e00bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 169,
+      "output_tokens": 1,
+      "total_tokens": 170,
+      "wall_time": 0.6532,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "86f198be0bb011ebab90acde48001122": {
+    "answer": "Alfonso IV",
+    "iterations": 1,
+    "usage": {
+      "qid": "86f198be0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 292,
+      "output_tokens": 4,
+      "total_tokens": 296,
+      "wall_time": 0.3988,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8a1b6bf4089b11ebbd78ac1f6bf848b6": {
+    "answer": "Mission Allahu Akbar",
+    "iterations": 1,
+    "usage": {
+      "qid": "8a1b6bf4089b11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 5,
+      "total_tokens": 234,
+      "wall_time": 0.4211,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b4399e48089511ebbd75ac1f6bf848b6": {
+    "answer": "The Piper's Price",
+    "iterations": 1,
+    "usage": {
+      "qid": "b4399e48089511ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 224,
+      "output_tokens": 4,
+      "total_tokens": 228,
+      "wall_time": 0.5098,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2fa728f20bde11eba7f7acde48001122": {
+    "answer": "England",
+    "iterations": 1,
+    "usage": {
+      "qid": "2fa728f20bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 1,
+      "total_tokens": 209,
+      "wall_time": 0.416,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d43fc51008da11ebbd9cac1f6bf848b6": {
+    "answer": "Aleksey Tarakanov",
+    "iterations": 1,
+    "usage": {
+      "qid": "d43fc51008da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 317,
+      "output_tokens": 6,
+      "total_tokens": 323,
+      "wall_time": 0.567,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d407f25408dd11ebbd9eac1f6bf848b6": {
+    "answer": "Perng Shaw-Jiin",
+    "iterations": 1,
+    "usage": {
+      "qid": "d407f25408dd11ebbd9eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 271,
+      "output_tokens": 7,
+      "total_tokens": 278,
+      "wall_time": 0.4274,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b72c73d3088611ebbd6dac1f6bf848b6": {
+    "answer": "Rene Röthke",
+    "iterations": 1,
+    "usage": {
+      "qid": "b72c73d3088611ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 6,
+      "total_tokens": 278,
+      "wall_time": 0.9673,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e86cef4e0bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "e86cef4e0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 2,
+      "total_tokens": 256,
+      "wall_time": 0.4736,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "61ec410708ea11ebbda7ac1f6bf848b6": {
+    "answer": "Stranger in Sacramento",
+    "iterations": 1,
+    "usage": {
+      "qid": "61ec410708ea11ebbda7ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 222,
+      "output_tokens": 4,
+      "total_tokens": 226,
+      "wall_time": 0.6619,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "4f8b05620bde11eba7f7acde48001122": {
+    "answer": "Israelite",
+    "iterations": 1,
+    "usage": {
+      "qid": "4f8b05620bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 209,
+      "output_tokens": 2,
+      "total_tokens": 211,
+      "wall_time": 0.4309,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9893834c092711ebbdaeac1f6bf848b6": {
+    "answer": "未提及 Gaza Ghetto",
+    "iterations": 1,
+    "usage": {
+      "qid": "9893834c092711ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 5,
+      "total_tokens": 246,
+      "wall_time": 0.5147,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7decb0240baf11ebab90acde48001122": {
+    "answer": "Lazar Branković",
+    "iterations": 1,
+    "usage": {
+      "qid": "7decb0240baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 320,
+      "output_tokens": 6,
+      "total_tokens": 326,
+      "wall_time": 0.5631,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "abcaaa1e08cb11ebbd92ac1f6bf848b6": {
+    "answer": "The Long, Hot Summer",
+    "iterations": 1,
+    "usage": {
+      "qid": "abcaaa1e08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 5,
+      "total_tokens": 264,
+      "wall_time": 0.3706,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "df56ff28087511ebbd67ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "df56ff28087511ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 269,
+      "output_tokens": 1,
+      "total_tokens": 270,
+      "wall_time": 0.4168,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7159cb420bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "7159cb420bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 2,
+      "total_tokens": 220,
+      "wall_time": 0.405,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "322178260bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "322178260bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 284,
+      "output_tokens": 2,
+      "total_tokens": 286,
+      "wall_time": 0.4942,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dc9823600baf11ebab90acde48001122": {
+    "answer": "Grand Prince Géza",
+    "iterations": 1,
+    "usage": {
+      "qid": "dc9823600baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 5,
+      "total_tokens": 223,
+      "wall_time": 0.397,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0b975649088311ebbd6dac1f6bf848b6": {
+    "answer": "A Letter from Ulster",
+    "iterations": 1,
+    "usage": {
+      "qid": "0b975649088311ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 325,
+      "output_tokens": 5,
+      "total_tokens": 330,
+      "wall_time": 0.4282,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6ebd19c00bd911eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "6ebd19c00bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 1,
+      "total_tokens": 219,
+      "wall_time": 0.3669,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9042f8900bdd11eba7f7acde48001122": {
+    "answer": "Kentucky",
+    "iterations": 1,
+    "usage": {
+      "qid": "9042f8900bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 169,
+      "output_tokens": 2,
+      "total_tokens": 171,
+      "wall_time": 0.3597,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "885ba7220bdc11eba7f7acde48001122": {
+    "answer": "Italy",
+    "iterations": 1,
+    "usage": {
+      "qid": "885ba7220bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 300,
+      "output_tokens": 1,
+      "total_tokens": 301,
+      "wall_time": 0.6074,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "07fd4f9b088011ebbd6cac1f6bf848b6": {
+    "answer": "Ingmar's Inheritance",
+    "iterations": 1,
+    "usage": {
+      "qid": "07fd4f9b088011ebbd6cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 211,
+      "output_tokens": 5,
+      "total_tokens": 216,
+      "wall_time": 0.3789,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d2781aee086611ebbd5eac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "d2781aee086611ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 197,
+      "output_tokens": 1,
+      "total_tokens": 198,
+      "wall_time": 0.3813,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1869092c0bb011ebab90acde48001122": {
+    "answer": "‘Adud al-Dawla",
+    "iterations": 1,
+    "usage": {
+      "qid": "1869092c0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 7,
+      "total_tokens": 222,
+      "wall_time": 0.5076,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "46c7082a0bdb11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "46c7082a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 2,
+      "total_tokens": 270,
+      "wall_time": 0.3403,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ba6473160bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "ba6473160bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 2,
+      "total_tokens": 221,
+      "wall_time": 0.3672,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3d624700088311ebbd6dac1f6bf848b6": {
+    "answer": "Lady from Lisbon",
+    "iterations": 1,
+    "usage": {
+      "qid": "3d624700088311ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 3,
+      "total_tokens": 257,
+      "wall_time": 0.5348,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5eb334660bdd11eba7f7acde48001122": {
+    "answer": "Venezuela",
+    "iterations": 1,
+    "usage": {
+      "qid": "5eb334660bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 3,
+      "total_tokens": 277,
+      "wall_time": 0.4963,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3004bc240bde11eba7f7acde48001122": {
+    "answer": "France",
+    "iterations": 1,
+    "usage": {
+      "qid": "3004bc240bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 273,
+      "output_tokens": 1,
+      "total_tokens": 274,
+      "wall_time": 0.3534,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f7e2a6340bd911eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "f7e2a6340bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 2,
+      "total_tokens": 276,
+      "wall_time": 0.5627,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "039006b80bb011ebab90acde48001122": {
+    "answer": "Charles William Grant",
+    "iterations": 1,
+    "usage": {
+      "qid": "039006b80bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 265,
+      "output_tokens": 3,
+      "total_tokens": 268,
+      "wall_time": 0.4006,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "43d525ba0baf11ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "43d525ba0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 1,
+      "total_tokens": 268,
+      "wall_time": 0.3367,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "385457c20bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "385457c20bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 313,
+      "output_tokens": 2,
+      "total_tokens": 315,
+      "wall_time": 0.357,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ce9c3713087e11ebbd6bac1f6bf848b6": {
+    "answer": "The Flame Barrier",
+    "iterations": 1,
+    "usage": {
+      "qid": "ce9c3713087e11ebbd6bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 3,
+      "total_tokens": 260,
+      "wall_time": 0.3615,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9132b8d80bda11eba7f7acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "9132b8d80bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 2,
+      "total_tokens": 274,
+      "wall_time": 0.8421,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7f46db180bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f46db180bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 2,
+      "total_tokens": 259,
+      "wall_time": 0.4755,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0c55bf3e0bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "0c55bf3e0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 221,
+      "output_tokens": 1,
+      "total_tokens": 222,
+      "wall_time": 0.8711,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5ca68dee08b811ebbd88ac1f6bf848b6": {
+    "answer": "Juan José López-Ibor Aliño",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ca68dee08b811ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 306,
+      "output_tokens": 7,
+      "total_tokens": 313,
+      "wall_time": 0.7329,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9a93aae20bdd11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "9a93aae20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 193,
+      "output_tokens": 1,
+      "total_tokens": 194,
+      "wall_time": 0.3015,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "4aee95dc0bd911eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "4aee95dc0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 201,
+      "output_tokens": 2,
+      "total_tokens": 203,
+      "wall_time": 0.3512,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5a9ca2660bda11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a9ca2660bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 237,
+      "output_tokens": 2,
+      "total_tokens": 239,
+      "wall_time": 0.4618,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "143e7bfe0bdb11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "143e7bfe0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 234,
+      "output_tokens": 2,
+      "total_tokens": 236,
+      "wall_time": 0.6576,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "583b8ccc0bd911eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "583b8ccc0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 2,
+      "total_tokens": 265,
+      "wall_time": 0.5108,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "61e5f936086d11ebbd62ac1f6bf848b6": {
+    "answer": "Thunder in the Night",
+    "iterations": 1,
+    "usage": {
+      "qid": "61e5f936086d11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 237,
+      "output_tokens": 4,
+      "total_tokens": 241,
+      "wall_time": 0.3837,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bdc1a262089c11ebbd78ac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "bdc1a262089c11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 261,
+      "output_tokens": 1,
+      "total_tokens": 262,
+      "wall_time": 0.3208,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9575367b091111ebbdadac1f6bf848b6": {
+    "answer": "是",
+    "iterations": 1,
+    "usage": {
+      "qid": "9575367b091111ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 1,
+      "total_tokens": 242,
+      "wall_time": 0.3966,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "22d0830d087911ebbd67ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "22d0830d087911ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 228,
+      "output_tokens": 2,
+      "total_tokens": 230,
+      "wall_time": 0.4092,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7d94852a08cb11ebbd92ac1f6bf848b6": {
+    "answer": "无法确定",
+    "iterations": 1,
+    "usage": {
+      "qid": "7d94852a08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 2,
+      "total_tokens": 242,
+      "wall_time": 0.4144,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a4244c3d093811ebbdaeac1f6bf848b6": {
+    "answer": "The Ex-Wife of My Life",
+    "iterations": 1,
+    "usage": {
+      "qid": "a4244c3d093811ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 209,
+      "output_tokens": 7,
+      "total_tokens": 216,
+      "wall_time": 0.6869,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b77d6f620bdd11eba7f7acde48001122": {
+    "answer": "Romania",
+    "iterations": 1,
+    "usage": {
+      "qid": "b77d6f620bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 321,
+      "output_tokens": 2,
+      "total_tokens": 323,
+      "wall_time": 0.4171,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7abdcf720bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "7abdcf720bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 2,
+      "total_tokens": 233,
+      "wall_time": 0.3484,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "039ffd260bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "039ffd260bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 260,
+      "output_tokens": 1,
+      "total_tokens": 261,
+      "wall_time": 0.3739,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f1caf470088411ebbd6dac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "f1caf470088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 2,
+      "total_tokens": 220,
+      "wall_time": 0.2833,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ffc9a84108da11ebbd9cac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "ffc9a84108da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 2,
+      "total_tokens": 243,
+      "wall_time": 0.3863,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "294c0f8408b611ebbd88ac1f6bf848b6": {
+    "answer": "The Heiress at Coffee Dan's",
+    "iterations": 1,
+    "usage": {
+      "qid": "294c0f8408b611ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 222,
+      "output_tokens": 8,
+      "total_tokens": 230,
+      "wall_time": 0.5262,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "90d48f160bd911eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "90d48f160bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 1,
+      "total_tokens": 231,
+      "wall_time": 0.5003,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d17b3e17085511ebbd59ac1f6bf848b6": {
+    "answer": "Henry Moore",
+    "iterations": 1,
+    "usage": {
+      "qid": "d17b3e17085511ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 2,
+      "total_tokens": 299,
+      "wall_time": 0.9935,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8c2d83600bdd11eba7f7acde48001122": {
+    "answer": "Nashville, Tennessee",
+    "iterations": 1,
+    "usage": {
+      "qid": "8c2d83600bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 257,
+      "output_tokens": 5,
+      "total_tokens": 262,
+      "wall_time": 0.406,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d05e67b408c411ebbd8eac1f6bf848b6": {
+    "answer": "The King's Stamp",
+    "iterations": 1,
+    "usage": {
+      "qid": "d05e67b408c411ebbd8eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 189,
+      "output_tokens": 4,
+      "total_tokens": 193,
+      "wall_time": 0.8341,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ad9a2b6e085111ebbd58ac1f6bf848b6": {
+    "answer": "Betrayal from the East",
+    "iterations": 1,
+    "usage": {
+      "qid": "ad9a2b6e085111ebbd58ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 6,
+      "total_tokens": 245,
+      "wall_time": 0.4214,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f095f7e408d911ebbd9cac1f6bf848b6": {
+    "answer": "Oh, Mr Porter!",
+    "iterations": 1,
+    "usage": {
+      "qid": "f095f7e408d911ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 204,
+      "output_tokens": 5,
+      "total_tokens": 209,
+      "wall_time": 0.4691,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c5e4c82a0bdd11eba7f7acde48001122": {
+    "answer": "Germany",
+    "iterations": 1,
+    "usage": {
+      "qid": "c5e4c82a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 1,
+      "total_tokens": 282,
+      "wall_time": 0.7595,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3bee1660089911ebbd77ac1f6bf848b6": {
+    "answer": "Ta chvíle, ten okamžik",
+    "iterations": 1,
+    "usage": {
+      "qid": "3bee1660089911ebbd77ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 256,
+      "output_tokens": 10,
+      "total_tokens": 266,
+      "wall_time": 0.6016,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1ad2a7c20bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "1ad2a7c20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 275,
+      "output_tokens": 2,
+      "total_tokens": 277,
+      "wall_time": 0.7093,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "20396bdc0bde11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "20396bdc0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 291,
+      "output_tokens": 2,
+      "total_tokens": 293,
+      "wall_time": 0.604,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e2c1f3520bae11ebab90acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "e2c1f3520bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 2,
+      "total_tokens": 261,
+      "wall_time": 0.3792,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a64e32e20bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "a64e32e20bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 1,
+      "total_tokens": 231,
+      "wall_time": 0.5982,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "284eb220091611ebbdaeac1f6bf848b6": {
+    "answer": "La La La Love Thang",
+    "iterations": 1,
+    "usage": {
+      "qid": "284eb220091611ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 6,
+      "total_tokens": 273,
+      "wall_time": 0.4328,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "61e66a28086911ebbd5eac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "61e66a28086911ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 170,
+      "output_tokens": 1,
+      "total_tokens": 171,
+      "wall_time": 0.3014,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "480ca2c0084e11ebbd56ac1f6bf848b6": {
+    "answer": "Brackin Karauria-Henry",
+    "iterations": 1,
+    "usage": {
+      "qid": "480ca2c0084e11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 246,
+      "output_tokens": 9,
+      "total_tokens": 255,
+      "wall_time": 0.5357,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2b9528860bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "2b9528860bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 271,
+      "output_tokens": 2,
+      "total_tokens": 273,
+      "wall_time": 0.3771,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dc5e6f8a0bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "dc5e6f8a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 256,
+      "output_tokens": 2,
+      "total_tokens": 258,
+      "wall_time": 0.3053,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "945447800bd911eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "945447800bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 2,
+      "total_tokens": 299,
+      "wall_time": 0.7709,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9afde7fe0bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "9afde7fe0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 2,
+      "total_tokens": 265,
+      "wall_time": 0.5611,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3458c05c0bdb11eba7f7acde48001122": {
+    "answer": "United Arab Emirates",
+    "iterations": 1,
+    "usage": {
+      "qid": "3458c05c0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 244,
+      "output_tokens": 3,
+      "total_tokens": 247,
+      "wall_time": 0.3558,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "53df937208ae11ebbd83ac1f6bf848b6": {
+    "answer": "Going Hollywood",
+    "iterations": 1,
+    "usage": {
+      "qid": "53df937208ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 2,
+      "total_tokens": 210,
+      "wall_time": 0.4319,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "aabc42040baf11ebab90acde48001122": {
+    "answer": "Andronikos I Komnenos",
+    "iterations": 1,
+    "usage": {
+      "qid": "aabc42040baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 304,
+      "output_tokens": 8,
+      "total_tokens": 312,
+      "wall_time": 0.5134,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "48ee55a4086b11ebbd5fac1f6bf848b6": {
+    "answer": "Alice of Wonderland in Paris",
+    "iterations": 1,
+    "usage": {
+      "qid": "48ee55a4086b11ebbd5fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 5,
+      "total_tokens": 269,
+      "wall_time": 0.5153,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "27051c6a0baf11ebab90acde48001122": {
+    "answer": "Hilderic",
+    "iterations": 1,
+    "usage": {
+      "qid": "27051c6a0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 279,
+      "output_tokens": 3,
+      "total_tokens": 282,
+      "wall_time": 0.3707,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c467dc5e08f311ebbdaaac1f6bf848b6": {
+    "answer": "Felix Cicaterri",
+    "iterations": 1,
+    "usage": {
+      "qid": "c467dc5e08f311ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 249,
+      "output_tokens": 5,
+      "total_tokens": 254,
+      "wall_time": 0.7771,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e715b66708be11ebbd8aac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "e715b66708be11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 1,
+      "total_tokens": 196,
+      "wall_time": 0.4374,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "18ef81360bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "18ef81360bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 265,
+      "output_tokens": 2,
+      "total_tokens": 267,
+      "wall_time": 0.7849,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "cff95a4108b011ebbd85ac1f6bf848b6": {
+    "answer": "City of Blood",
+    "iterations": 1,
+    "usage": {
+      "qid": "cff95a4108b011ebbd85ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 3,
+      "total_tokens": 238,
+      "wall_time": 0.4573,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1b365e5e0bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "1b365e5e0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 262,
+      "output_tokens": 2,
+      "total_tokens": 264,
+      "wall_time": 0.3419,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b0dd21c00bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "b0dd21c00bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 2,
+      "total_tokens": 215,
+      "wall_time": 0.4002,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "12ec263c0bdd11eba7f7acde48001122": {
+    "answer": "1691",
+    "iterations": 1,
+    "usage": {
+      "qid": "12ec263c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 355,
+      "output_tokens": 4,
+      "total_tokens": 359,
+      "wall_time": 0.433,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "65f3cbfd096711ebbdafac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "65f3cbfd096711ebbdafac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 1,
+      "total_tokens": 234,
+      "wall_time": 0.4049,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "dd41d993086b11ebbd60ac1f6bf848b6": {
+    "answer": "Sette Giorni All'Altro Mondo",
+    "iterations": 1,
+    "usage": {
+      "qid": "dd41d993086b11ebbd60ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 283,
+      "output_tokens": 11,
+      "total_tokens": 294,
+      "wall_time": 0.6014,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8cbad32c08d711ebbd9aac1f6bf848b6": {
+    "answer": "未知",
+    "iterations": 1,
+    "usage": {
+      "qid": "8cbad32c08d711ebbd9aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 1,
+      "total_tokens": 209,
+      "wall_time": 0.3313,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "366208cb089511ebbd75ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "366208cb089511ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 293,
+      "output_tokens": 2,
+      "total_tokens": 295,
+      "wall_time": 0.519,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0fb43d6a0bdd11eba7f7acde48001122": {
+    "answer": "No information provided",
+    "iterations": 1,
+    "usage": {
+      "qid": "0fb43d6a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 269,
+      "output_tokens": 3,
+      "total_tokens": 272,
+      "wall_time": 0.3487,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c624d5280bdd11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "c624d5280bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 2,
+      "total_tokens": 215,
+      "wall_time": 0.4271,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "49ec1ade0bdd11eba7f7acde48001122": {
+    "answer": "Argentina",
+    "iterations": 1,
+    "usage": {
+      "qid": "49ec1ade0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 1,
+      "total_tokens": 219,
+      "wall_time": 0.4175,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fa5c2aa80bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "fa5c2aa80bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 200,
+      "output_tokens": 2,
+      "total_tokens": 202,
+      "wall_time": 0.5233,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "60f247280bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "60f247280bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 2,
+      "total_tokens": 270,
+      "wall_time": 0.3105,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "00f948500bde11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "00f948500bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 2,
+      "total_tokens": 266,
+      "wall_time": 0.4574,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0083038e0bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "0083038e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 232,
+      "output_tokens": 1,
+      "total_tokens": 233,
+      "wall_time": 0.4538,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9cf73a920bdd11eba7f7acde48001122": {
+    "answer": "Boston, Massachusetts",
+    "iterations": 1,
+    "usage": {
+      "qid": "9cf73a920bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 232,
+      "output_tokens": 3,
+      "total_tokens": 235,
+      "wall_time": 0.4502,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d0d400bc0bdc11eba7f7acde48001122": {
+    "answer": "November 10, 1938",
+    "iterations": 1,
+    "usage": {
+      "qid": "d0d400bc0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 223,
+      "output_tokens": 10,
+      "total_tokens": 233,
+      "wall_time": 0.5209,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "82043b7c0bdd11eba7f7acde48001122": {
+    "answer": "Aragon",
+    "iterations": 1,
+    "usage": {
+      "qid": "82043b7c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 388,
+      "output_tokens": 2,
+      "total_tokens": 390,
+      "wall_time": 0.9062,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8ee8432c0bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "8ee8432c0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 1,
+      "total_tokens": 264,
+      "wall_time": 0.6745,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6439bf4508be11ebbd8aac1f6bf848b6": {
+    "answer": "Mystery, Alaska",
+    "iterations": 1,
+    "usage": {
+      "qid": "6439bf4508be11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 4,
+      "total_tokens": 231,
+      "wall_time": 0.6486,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0dc3d0280bde11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "0dc3d0280bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 243,
+      "output_tokens": 1,
+      "total_tokens": 244,
+      "wall_time": 0.3628,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6246a517084c11ebbd56ac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "6246a517084c11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 1,
+      "total_tokens": 282,
+      "wall_time": 0.4055,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "71bf184e0bde11eba7f7acde48001122": {
+    "answer": "Kuskovo",
+    "iterations": 1,
+    "usage": {
+      "qid": "71bf184e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 232,
+      "output_tokens": 3,
+      "total_tokens": 235,
+      "wall_time": 0.9179,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a87474d20bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "a87474d20bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 269,
+      "output_tokens": 2,
+      "total_tokens": 271,
+      "wall_time": 0.3709,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ff7fc86c0bda11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "ff7fc86c0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 194,
+      "output_tokens": 2,
+      "total_tokens": 196,
+      "wall_time": 0.3932,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1815632c0bdc11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "1815632c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 194,
+      "output_tokens": 2,
+      "total_tokens": 196,
+      "wall_time": 0.3497,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a3939d3b08a111ebbd79ac1f6bf848b6": {
+    "answer": "Strawberry Shortcake: Rockaberry Roll",
+    "iterations": 1,
+    "usage": {
+      "qid": "a3939d3b08a111ebbd79ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 10,
+      "total_tokens": 307,
+      "wall_time": 0.7929,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d4bac26008fd11ebbdadac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "d4bac26008fd11ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 159,
+      "output_tokens": 1,
+      "total_tokens": 160,
+      "wall_time": 0.3409,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "065b409008d311ebbd96ac1f6bf848b6": {
+    "answer": "Lady Stay Dead",
+    "iterations": 1,
+    "usage": {
+      "qid": "065b409008d311ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 258,
+      "output_tokens": 3,
+      "total_tokens": 261,
+      "wall_time": 0.6837,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "befd140a088511ebbd6dac1f6bf848b6": {
+    "answer": "Ana and the Wolves",
+    "iterations": 1,
+    "usage": {
+      "qid": "befd140a088511ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 278,
+      "output_tokens": 4,
+      "total_tokens": 282,
+      "wall_time": 0.482,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5df2d970087a11ebbd67ac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5df2d970087a11ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 1,
+      "total_tokens": 255,
+      "wall_time": 0.3883,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e2e113160bdd11eba7f7acde48001122": {
+    "answer": "No award mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "e2e113160bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 3,
+      "total_tokens": 215,
+      "wall_time": 0.6387,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "89760bc40bb011ebab90acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "89760bc40bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 180,
+      "output_tokens": 2,
+      "total_tokens": 182,
+      "wall_time": 0.3219,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a08505d20bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "a08505d20bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 181,
+      "output_tokens": 1,
+      "total_tokens": 182,
+      "wall_time": 0.3857,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "afbfedfc08c411ebbd8eac1f6bf848b6": {
+    "answer": "Gunnar Kulldorff",
+    "iterations": 1,
+    "usage": {
+      "qid": "afbfedfc08c411ebbd8eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 7,
+      "total_tokens": 254,
+      "wall_time": 0.6244,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "048fa24c089711ebbd76ac1f6bf848b6": {
+    "answer": "Cannot determine",
+    "iterations": 1,
+    "usage": {
+      "qid": "048fa24c089711ebbd76ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 243,
+      "output_tokens": 2,
+      "total_tokens": 245,
+      "wall_time": 0.2887,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c581990a0bdb11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "c581990a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 2,
+      "total_tokens": 316,
+      "wall_time": 0.4646,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7a465cb4095111ebbdaeac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "7a465cb4095111ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 252,
+      "output_tokens": 1,
+      "total_tokens": 253,
+      "wall_time": 0.3998,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "47f733600bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "47f733600bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 196,
+      "output_tokens": 1,
+      "total_tokens": 197,
+      "wall_time": 0.4521,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6f0a43a80bde11eba7f7acde48001122": {
+    "answer": "未提供",
+    "iterations": 1,
+    "usage": {
+      "qid": "6f0a43a80bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 2,
+      "total_tokens": 261,
+      "wall_time": 0.4943,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1dbdfcea0bdb11eba7f7acde48001122": {
+    "answer": "Poland",
+    "iterations": 1,
+    "usage": {
+      "qid": "1dbdfcea0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 302,
+      "output_tokens": 2,
+      "total_tokens": 304,
+      "wall_time": 0.706,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "cf6530d708f311ebbdaaac1f6bf848b6": {
+    "answer": "Yoon Jong-shin",
+    "iterations": 1,
+    "usage": {
+      "qid": "cf6530d708f311ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 279,
+      "output_tokens": 5,
+      "total_tokens": 284,
+      "wall_time": 0.501,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0eb54158087b11ebbd67ac1f6bf848b6": {
+    "answer": "A Summer's Tale",
+    "iterations": 1,
+    "usage": {
+      "qid": "0eb54158087b11ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 327,
+      "output_tokens": 4,
+      "total_tokens": 331,
+      "wall_time": 0.5579,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e35b10de08cd11ebbd93ac1f6bf848b6": {
+    "answer": "Karakolda Ayna Var",
+    "iterations": 1,
+    "usage": {
+      "qid": "e35b10de08cd11ebbd93ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 7,
+      "total_tokens": 248,
+      "wall_time": 0.6006,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "3dafdc26089f11ebbd78ac1f6bf848b6": {
+    "answer": "P.K.P. (Pilsudski Bought Petliura)",
+    "iterations": 1,
+    "usage": {
+      "qid": "3dafdc26089f11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 253,
+      "output_tokens": 14,
+      "total_tokens": 267,
+      "wall_time": 0.64,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "706064e7087b11ebbd68ac1f6bf848b6": {
+    "answer": "Bruno Foucher",
+    "iterations": 1,
+    "usage": {
+      "qid": "706064e7087b11ebbd68ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 258,
+      "output_tokens": 4,
+      "total_tokens": 262,
+      "wall_time": 0.3865,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7a3da0d0084b11ebbd56ac1f6bf848b6": {
+    "answer": "Spring In A Small Town",
+    "iterations": 1,
+    "usage": {
+      "qid": "7a3da0d0084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 234,
+      "output_tokens": 5,
+      "total_tokens": 239,
+      "wall_time": 0.5348,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "80774c5508f911ebbdaaac1f6bf848b6": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "80774c5508f911ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 2,
+      "total_tokens": 221,
+      "wall_time": 0.4675,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "24c40fd9099c11ebbdb0ac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "24c40fd9099c11ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 203,
+      "output_tokens": 1,
+      "total_tokens": 204,
+      "wall_time": 0.436,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "efa871c8085611ebbd59ac1f6bf848b6": {
+    "answer": "是",
+    "iterations": 1,
+    "usage": {
+      "qid": "efa871c8085611ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 299,
+      "output_tokens": 1,
+      "total_tokens": 300,
+      "wall_time": 0.3453,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "16b3e34d085711ebbd59ac1f6bf848b6": {
+    "answer": "Sikuru Hathe",
+    "iterations": 1,
+    "usage": {
+      "qid": "16b3e34d085711ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 214,
+      "output_tokens": 5,
+      "total_tokens": 219,
+      "wall_time": 0.4637,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0f0ccb9e0bdc11eba7f7acde48001122": {
+    "answer": "Toronto, Ontario",
+    "iterations": 1,
+    "usage": {
+      "qid": "0f0ccb9e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 160,
+      "output_tokens": 3,
+      "total_tokens": 163,
+      "wall_time": 0.337,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bb12fd1a0bdb11eba7f7acde48001122": {
+    "answer": "Billy Joel",
+    "iterations": 1,
+    "usage": {
+      "qid": "bb12fd1a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 185,
+      "output_tokens": 2,
+      "total_tokens": 187,
+      "wall_time": 0.3772,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1c884ef208a211ebbd7aac1f6bf848b6": {
+    "answer": "Alena Stolzová",
+    "iterations": 1,
+    "usage": {
+      "qid": "1c884ef208a211ebbd7aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 7,
+      "total_tokens": 288,
+      "wall_time": 0.386,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "00efceca0bb011ebab90acde48001122": {
+    "answer": "Emperor Manuel I",
+    "iterations": 1,
+    "usage": {
+      "qid": "00efceca0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 312,
+      "output_tokens": 4,
+      "total_tokens": 316,
+      "wall_time": 0.4577,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "58b2f61c08cb11ebbd92ac1f6bf848b6": {
+    "answer": "Unseen Forces",
+    "iterations": 1,
+    "usage": {
+      "qid": "58b2f61c08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 295,
+      "output_tokens": 3,
+      "total_tokens": 298,
+      "wall_time": 0.3322,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "27cf588e085011ebbd56ac1f6bf848b6": {
+    "answer": "Kothapalli Jayashankar",
+    "iterations": 1,
+    "usage": {
+      "qid": "27cf588e085011ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 298,
+      "output_tokens": 8,
+      "total_tokens": 306,
+      "wall_time": 0.5285,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "53e18b8c0bb011ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "53e18b8c0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 285,
+      "output_tokens": 1,
+      "total_tokens": 286,
+      "wall_time": 0.2789,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2a78f9e9084b11ebbd56ac1f6bf848b6": {
+    "answer": "Yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "2a78f9e9084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 245,
+      "output_tokens": 1,
+      "total_tokens": 246,
+      "wall_time": 0.3089,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "631c2ffb08de11ebbd9eac1f6bf848b6": {
+    "answer": "The Little Shop of Horrors",
+    "iterations": 1,
+    "usage": {
+      "qid": "631c2ffb08de11ebbd9eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 296,
+      "output_tokens": 6,
+      "total_tokens": 302,
+      "wall_time": 0.5574,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "874046160bd911eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "874046160bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 211,
+      "output_tokens": 2,
+      "total_tokens": 213,
+      "wall_time": 0.3692,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7b33f605088411ebbd6dac1f6bf848b6": {
+    "answer": "Taipei Story",
+    "iterations": 1,
+    "usage": {
+      "qid": "7b33f605088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 240,
+      "output_tokens": 3,
+      "total_tokens": 243,
+      "wall_time": 0.3586,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0bbded440bda11eba7f7acde48001122": {
+    "answer": "India",
+    "iterations": 1,
+    "usage": {
+      "qid": "0bbded440bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 1,
+      "total_tokens": 277,
+      "wall_time": 0.3972,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "855bfaea0bdc11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "855bfaea0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 446,
+      "output_tokens": 1,
+      "total_tokens": 447,
+      "wall_time": 0.3371,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "80cea3ec0baf11ebab90acde48001122": {
+    "answer": "Dietrich VII",
+    "iterations": 1,
+    "usage": {
+      "qid": "80cea3ec0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 236,
+      "output_tokens": 4,
+      "total_tokens": 240,
+      "wall_time": 0.3503,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0468fbec0bda11eba7f7acde48001122": {
+    "answer": "Vincente Minnelli",
+    "iterations": 1,
+    "usage": {
+      "qid": "0468fbec0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 5,
+      "total_tokens": 244,
+      "wall_time": 0.7118,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5e9d435708f711ebbdaaac1f6bf848b6": {
+    "answer": "否",
+    "iterations": 1,
+    "usage": {
+      "qid": "5e9d435708f711ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 350,
+      "output_tokens": 1,
+      "total_tokens": 351,
+      "wall_time": 0.3849,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f26ca8aa087611ebbd67ac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "f26ca8aa087611ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 246,
+      "output_tokens": 1,
+      "total_tokens": 247,
+      "wall_time": 0.3218,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8aea31a8087011ebbd63ac1f6bf848b6": {
+    "answer": "Hell Up in Harlem",
+    "iterations": 1,
+    "usage": {
+      "qid": "8aea31a8087011ebbd63ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 4,
+      "total_tokens": 230,
+      "wall_time": 0.5987,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5a0c9c7408c011ebbd8aac1f6bf848b6": {
+    "answer": "Jean Guillaume Audinet-Serville",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a0c9c7408c011ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 7,
+      "total_tokens": 297,
+      "wall_time": 0.4918,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "2ce41efe0bde11eba7f7acde48001122": {
+    "answer": "Date unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "2ce41efe0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 260,
+      "output_tokens": 2,
+      "total_tokens": 262,
+      "wall_time": 0.4569,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "081c7c960bda11eba7f7acde48001122": {
+    "answer": "Not stated",
+    "iterations": 1,
+    "usage": {
+      "qid": "081c7c960bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 252,
+      "output_tokens": 2,
+      "total_tokens": 254,
+      "wall_time": 0.3536,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "f90a5d6a0bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "f90a5d6a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 191,
+      "output_tokens": 2,
+      "total_tokens": 193,
+      "wall_time": 0.3122,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "acd70b040bdd11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "acd70b040bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 248,
+      "output_tokens": 2,
+      "total_tokens": 250,
+      "wall_time": 0.4364,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8223ad8e097811ebbdb0ac1f6bf848b6": {
+    "answer": "The Beginning or the End",
+    "iterations": 1,
+    "usage": {
+      "qid": "8223ad8e097811ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 5,
+      "total_tokens": 222,
+      "wall_time": 0.4813,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c7c0fbdc0bdd11eba7f7acde48001122": {
+    "answer": "Not mentioned",
+    "iterations": 1,
+    "usage": {
+      "qid": "c7c0fbdc0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 244,
+      "output_tokens": 2,
+      "total_tokens": 246,
+      "wall_time": 0.374,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "15601bc708c711ebbd91ac1f6bf848b6": {
+    "answer": "Emmy of Stork's Nest",
+    "iterations": 1,
+    "usage": {
+      "qid": "15601bc708c711ebbd91ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 224,
+      "output_tokens": 7,
+      "total_tokens": 231,
+      "wall_time": 0.7579,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5896e7a80bdd11eba7f7acde48001122": {
+    "answer": "Vietnam",
+    "iterations": 1,
+    "usage": {
+      "qid": "5896e7a80bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 2,
+      "total_tokens": 217,
+      "wall_time": 0.3996,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e81fc7b0087111ebbd64ac1f6bf848b6": {
+    "answer": "Christopher Monck",
+    "iterations": 1,
+    "usage": {
+      "qid": "e81fc7b0087111ebbd64ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 3,
+      "total_tokens": 317,
+      "wall_time": 0.4904,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "5deff9420bdd11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5deff9420bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 260,
+      "output_tokens": 1,
+      "total_tokens": 261,
+      "wall_time": 0.4365,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "c7a9e30308ae11ebbd83ac1f6bf848b6": {
+    "answer": "Day of the Idiots",
+    "iterations": 1,
+    "usage": {
+      "qid": "c7a9e30308ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 6,
+      "total_tokens": 235,
+      "wall_time": 0.4258,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "96db3af80bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "96db3af80bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 225,
+      "output_tokens": 1,
+      "total_tokens": 226,
+      "wall_time": 0.3237,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "e036fe320bdd11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "e036fe320bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 2,
+      "total_tokens": 249,
+      "wall_time": 0.5431,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ed415b0208b511ebbd88ac1f6bf848b6": {
+    "answer": "The Battle of Algiers",
+    "iterations": 1,
+    "usage": {
+      "qid": "ed415b0208b511ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 221,
+      "output_tokens": 5,
+      "total_tokens": 226,
+      "wall_time": 1.0338,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "13f3480e0bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "13f3480e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 2,
+      "total_tokens": 243,
+      "wall_time": 0.7868,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b7afade20bdd11eba7f7acde48001122": {
+    "answer": "Sweden",
+    "iterations": 1,
+    "usage": {
+      "qid": "b7afade20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 323,
+      "output_tokens": 1,
+      "total_tokens": 324,
+      "wall_time": 0.2945,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9a1b06b60bdb11eba7f7acde48001122": {
+    "answer": "Suman Ghosh directed Podokkhep, but the context does not state where he works.",
+    "iterations": 1,
+    "usage": {
+      "qid": "9a1b06b60bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 21,
+      "total_tokens": 268,
+      "wall_time": 0.9742,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "b34f43d1087b11ebbd69ac1f6bf848b6": {
+    "answer": "Elle Boit Pas...",
+    "iterations": 1,
+    "usage": {
+      "qid": "b34f43d1087b11ebbd69ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 6,
+      "total_tokens": 269,
+      "wall_time": 0.5384,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "71530df00bdb11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "71530df00bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 1,
+      "total_tokens": 273,
+      "wall_time": 0.3149,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "91e7e3780baf11ebab90acde48001122": {
+    "answer": "Kim Jong-un",
+    "iterations": 1,
+    "usage": {
+      "qid": "91e7e3780baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 326,
+      "output_tokens": 3,
+      "total_tokens": 329,
+      "wall_time": 0.4054,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6ede801c08da11ebbd9cac1f6bf848b6": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "6ede801c08da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 226,
+      "output_tokens": 1,
+      "total_tokens": 227,
+      "wall_time": 0.4104,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "44031d3c086f11ebbd62ac1f6bf848b6": {
+    "answer": "No",
+    "iterations": 1,
+    "usage": {
+      "qid": "44031d3c086f11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 1,
+      "total_tokens": 252,
+      "wall_time": 0.4909,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7f91e578086e11ebbd62ac1f6bf848b6": {
+    "answer": "Victor Bangert",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f91e578086e11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 291,
+      "output_tokens": 4,
+      "total_tokens": 295,
+      "wall_time": 0.7465,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "ee212a820bdc11eba7f7acde48001122": {
+    "answer": "Not specified",
+    "iterations": 1,
+    "usage": {
+      "qid": "ee212a820bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 259,
+      "output_tokens": 2,
+      "total_tokens": 261,
+      "wall_time": 0.4103,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "75a4468108ca11ebbd92ac1f6bf848b6": {
+    "answer": "Marion Gray",
+    "iterations": 1,
+    "usage": {
+      "qid": "75a4468108ca11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 285,
+      "output_tokens": 3,
+      "total_tokens": 288,
+      "wall_time": 0.4722,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1816ca87095011ebbdaeac1f6bf848b6": {
+    "answer": "A Maori Maid's Love",
+    "iterations": 1,
+    "usage": {
+      "qid": "1816ca87095011ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 6,
+      "total_tokens": 270,
+      "wall_time": 0.3927,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "89022ba60bdc11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "89022ba60bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 2,
+      "total_tokens": 229,
+      "wall_time": 0.3999,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "1a5823a1088e11ebbd70ac1f6bf848b6": {
+    "answer": "Cannot be determined",
+    "iterations": 1,
+    "usage": {
+      "qid": "1a5823a1088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 3,
+      "total_tokens": 218,
+      "wall_time": 0.3459,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "93bdd2060bdd11eba7f7acde48001122": {
+    "answer": "1869",
+    "iterations": 1,
+    "usage": {
+      "qid": "93bdd2060bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 4,
+      "total_tokens": 294,
+      "wall_time": 0.4502,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "31eeaa6608cf11ebbd94ac1f6bf848b6": {
+    "answer": "Einer Spinnt Immer",
+    "iterations": 1,
+    "usage": {
+      "qid": "31eeaa6608cf11ebbd94ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 6,
+      "total_tokens": 214,
+      "wall_time": 0.4523,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9af5e9640bdd11eba7f7acde48001122": {
+    "answer": "C. S. Lewis is his stepfather, not father.",
+    "iterations": 1,
+    "usage": {
+      "qid": "9af5e9640bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 205,
+      "output_tokens": 13,
+      "total_tokens": 218,
+      "wall_time": 0.6674,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "67c784f708d811ebbd9bac1f6bf848b6": {
+    "answer": "Precocious Youth",
+    "iterations": 1,
+    "usage": {
+      "qid": "67c784f708d811ebbd9bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 3,
+      "total_tokens": 230,
+      "wall_time": 0.3718,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "a7c95d2b088511ebbd6dac1f6bf848b6": {
+    "answer": "The Hungover Games",
+    "iterations": 1,
+    "usage": {
+      "qid": "a7c95d2b088511ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 4,
+      "total_tokens": 223,
+      "wall_time": 0.5035,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "6a765fc60bb011ebab90acde48001122": {
+    "answer": "Prince Aly Khan",
+    "iterations": 1,
+    "usage": {
+      "qid": "6a765fc60bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 362,
+      "output_tokens": 3,
+      "total_tokens": 365,
+      "wall_time": 1.1327,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "d3dd2d04085f11ebbd5dac1f6bf848b6": {
+    "answer": "Barbarosa",
+    "iterations": 1,
+    "usage": {
+      "qid": "d3dd2d04085f11ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 265,
+      "output_tokens": 3,
+      "total_tokens": 268,
+      "wall_time": 0.4678,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "077b294e0bdb11eba7f7acde48001122": {
+    "answer": "未提及",
+    "iterations": 1,
+    "usage": {
+      "qid": "077b294e0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 235,
+      "output_tokens": 2,
+      "total_tokens": 237,
+      "wall_time": 0.3495,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "bf847e1a086511ebbd5eac1f6bf848b6": {
+    "answer": "Tyreek Burwell",
+    "iterations": 1,
+    "usage": {
+      "qid": "bf847e1a086511ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 4,
+      "total_tokens": 276,
+      "wall_time": 0.4794,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "8f950536085a11ebbd5cac1f6bf848b6": {
+    "answer": "Cornelis Gijsbert Gerrit Jan van Steenis",
+    "iterations": 1,
+    "usage": {
+      "qid": "8f950536085a11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 278,
+      "output_tokens": 12,
+      "total_tokens": 290,
+      "wall_time": 1.1806,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "0167e737086111ebbd5dac1f6bf848b6": {
+    "answer": "Dennis E. Nolan",
+    "iterations": 1,
+    "usage": {
+      "qid": "0167e737086111ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 250,
+      "output_tokens": 5,
+      "total_tokens": 255,
+      "wall_time": 0.3686,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "87ceaacc0bda11eba7f7acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "87ceaacc0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 236,
+      "output_tokens": 1,
+      "total_tokens": 237,
+      "wall_time": 0.448,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "43dd26de086211ebbd5dac1f6bf848b6": {
+    "answer": "Pulijanmam",
+    "iterations": 1,
+    "usage": {
+      "qid": "43dd26de086211ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 6,
+      "total_tokens": 269,
+      "wall_time": 0.4274,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "7032bda20baf11ebab90acde48001122": {
+    "answer": "Armand de Bourbon",
+    "iterations": 1,
+    "usage": {
+      "qid": "7032bda20baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 266,
+      "output_tokens": 4,
+      "total_tokens": 270,
+      "wall_time": 0.368,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "9078bc380baf11ebab90acde48001122": {
+    "answer": "Yolande of Valois",
+    "iterations": 1,
+    "usage": {
+      "qid": "9078bc380baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 6,
+      "total_tokens": 282,
+      "wall_time": 0.4459,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "fb4d4eee088e11ebbd70ac1f6bf848b6": {
+    "answer": "De Damescoupeur",
+    "iterations": 1,
+    "usage": {
+      "qid": "fb4d4eee088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 251,
+      "output_tokens": 6,
+      "total_tokens": 257,
+      "wall_time": 0.4601,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "acdf3b1e08d411ebbd96ac1f6bf848b6": {
+    "answer": "是",
+    "iterations": 1,
+    "usage": {
+      "qid": "acdf3b1e08d411ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 190,
+      "output_tokens": 1,
+      "total_tokens": 191,
+      "wall_time": 0.4135,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  },
+  "897bcb4a0bb011ebab90acde48001122": {
+    "answer": "Unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "897bcb4a0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 207,
+      "output_tokens": 1,
+      "total_tokens": 208,
+      "wall_time": 0.3532,
+      "mode": "naive_rag",
+      "cache_hit": false
+    }
+  }
+}

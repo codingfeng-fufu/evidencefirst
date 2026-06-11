@@ -1,0 +1,4 @@
+mode,variant,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+full,evidence_aug,3,100,0.0,0.0,1.0,100,0.0,0.0,0.0,23.1759
+no_verif,evidence_aug,3,100,0.3,0.3452,1.0,100,0.0,0.0,0.0,7.3769
+no_decomp,evidence_aug,3,100,0.28,0.3212,1.0,100,0.0,0.0,0.0,6.7065

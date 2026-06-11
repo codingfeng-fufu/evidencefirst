@@ -1,0 +1,29 @@
+{
+  "overall": {
+    "total_questions": 1000,
+    "correct": 454,
+    "em": 0.454
+  },
+  "convergence": {
+    "converged_count": 458,
+    "converged_rate": 0.458,
+    "converged_em": 0.5851528384279476,
+    "converged_correct": 268,
+    "not_converged_count": 542,
+    "not_converged_em": 0.34317343173431736,
+    "not_converged_correct": 186,
+    "em_gap": 0.24197940669363027
+  },
+  "va_scores": {
+    "avg_score_correct": 0.6118942731277545,
+    "avg_score_wrong": 0.4854048059149738,
+    "score_difference": 0.12648946721278065,
+    "n_correct": 454,
+    "n_wrong": 541
+  },
+  "iterations": {
+    "average": 1.618,
+    "iter_1_count": 382,
+    "iter_2_count": 618
+  }
+}

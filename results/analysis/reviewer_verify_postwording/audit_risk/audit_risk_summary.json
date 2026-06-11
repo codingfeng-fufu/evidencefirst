@@ -1,0 +1,124 @@
+{
+  "summary": [
+    {
+      "dataset": "hotpot",
+      "risk_bin": "0",
+      "n": 468,
+      "rate": "0.4680",
+      "em": "0.6581",
+      "f1": "0.7616",
+      "error_rate": "0.3419",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "1.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "1",
+      "n": 255,
+      "rate": "0.2550",
+      "em": "0.6078",
+      "f1": "0.7211",
+      "error_rate": "0.3922",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "2",
+      "n": 148,
+      "rate": "0.1480",
+      "em": "0.3986",
+      "f1": "0.4227",
+      "error_rate": "0.6014",
+      "selected_rate": "0.3243",
+      "chain_complete_rate": "0.6757",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "3",
+      "n": 103,
+      "rate": "0.1030",
+      "em": "0.3592",
+      "f1": "0.4699",
+      "error_rate": "0.6408",
+      "selected_rate": "0.4951",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.4951"
+    },
+    {
+      "dataset": "hotpot",
+      "risk_bin": "4+",
+      "n": 26,
+      "rate": "0.0260",
+      "em": "0.1154",
+      "f1": "0.1974",
+      "error_rate": "0.8846",
+      "selected_rate": "0.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.6154"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "0",
+      "n": 170,
+      "rate": "0.3400",
+      "em": "0.7412",
+      "f1": "0.8056",
+      "error_rate": "0.2588",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "1.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "1",
+      "n": 149,
+      "rate": "0.2980",
+      "em": "0.7383",
+      "f1": "0.8118",
+      "error_rate": "0.2617",
+      "selected_rate": "1.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "2",
+      "n": 81,
+      "rate": "0.1620",
+      "em": "0.6049",
+      "f1": "0.6695",
+      "error_rate": "0.3951",
+      "selected_rate": "0.1481",
+      "chain_complete_rate": "0.8519",
+      "unrepaired_incomplete_rate": "0.0000"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "3",
+      "n": 89,
+      "rate": "0.1780",
+      "em": "0.6404",
+      "f1": "0.6976",
+      "error_rate": "0.3596",
+      "selected_rate": "0.2360",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.2360"
+    },
+    {
+      "dataset": "2wiki",
+      "risk_bin": "4+",
+      "n": 11,
+      "rate": "0.0220",
+      "em": "0.2727",
+      "f1": "0.4396",
+      "error_rate": "0.7273",
+      "selected_rate": "0.0000",
+      "chain_complete_rate": "0.0000",
+      "unrepaired_incomplete_rate": "0.5455"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+dataset,method,n,chain_complete_rate,repair_attempt_rate,repair_to_complete_rate,fallback_rate,selector_selected_rate,posthoc_changed_rate
+hotpot,EvidenceFirst v6 selector guard,1000,0.5680,0.6370,0.4349,0.0050,0.8210,0.0210
+2wiki,EvidenceFirst v6,500,0.4780,0.6000,0.2200,0.0000,0.7040,0.0360

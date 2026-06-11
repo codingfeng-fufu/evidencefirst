@@ -1,0 +1,21 @@
+{
+  "total_questions": 1000,
+  "convergence": {
+    "converged_count": 458,
+    "not_converged_count": 542,
+    "convergence_rate": 0.458,
+    "converged_em": 0.0,
+    "not_converged_em": 0.0,
+    "em_gap": 0.0
+  },
+  "iterations": {
+    "average": 1.618,
+    "iter_1_count": 382,
+    "iter_2_count": 618
+  },
+  "va_scores": {
+    "avg_score_correct": 0,
+    "avg_score_wrong": 0.5431195979899525,
+    "score_difference": -0.5431195979899525
+  }
+}

@@ -1,0 +1,992 @@
+{
+  "5a77f2af5542995d83181333": {
+    "answer": "Grigory Margulis",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a77f2af5542995d83181333",
+      "llm_calls": 11,
+      "input_tokens": 7638,
+      "output_tokens": 667,
+      "total_tokens": 8305,
+      "wall_time": 41.8687,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae7a8175542993210983ed8": {
+    "answer": "None",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae7a8175542993210983ed8",
+      "llm_calls": 11,
+      "input_tokens": 7717,
+      "output_tokens": 2306,
+      "total_tokens": 10023,
+      "wall_time": 55.0653,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8cd381554299653c1aa12b": {
+    "answer": "Sigmund Freud",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8cd381554299653c1aa12b",
+      "llm_calls": 8,
+      "input_tokens": 5417,
+      "output_tokens": 468,
+      "total_tokens": 5885,
+      "wall_time": 14.1626,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae7e1fc55429952e35ea9cc": {
+    "answer": "orange",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae7e1fc55429952e35ea9cc",
+      "llm_calls": 5,
+      "input_tokens": 3686,
+      "output_tokens": 241,
+      "total_tokens": 3927,
+      "wall_time": 7.3464,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a75e62f5542992d0ec06013": {
+    "answer": "Caesars Atlantic City",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a75e62f5542992d0ec06013",
+      "llm_calls": 11,
+      "input_tokens": 6947,
+      "output_tokens": 2362,
+      "total_tokens": 9309,
+      "wall_time": 56.8524,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab5f854554299637185c64e": {
+    "answer": "Pakistan",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab5f854554299637185c64e",
+      "llm_calls": 5,
+      "input_tokens": 3896,
+      "output_tokens": 235,
+      "total_tokens": 4131,
+      "wall_time": 7.218,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a843de75542992ef85e23b4": {
+    "answer": "None of the passages mention a pirate-themed Las Vegas resort developed by Steve Wynn",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a843de75542992ef85e23b4",
+      "llm_calls": 11,
+      "input_tokens": 7072,
+      "output_tokens": 1338,
+      "total_tokens": 8410,
+      "wall_time": 34.6106,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae153915542990adbacf752": {
+    "answer": "Billy Idol",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae153915542990adbacf752",
+      "llm_calls": 5,
+      "input_tokens": 3717,
+      "output_tokens": 214,
+      "total_tokens": 3931,
+      "wall_time": 6.7039,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7fe7f85542994857a7683e": {
+    "answer": "Vienna",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7fe7f85542994857a7683e",
+      "llm_calls": 5,
+      "input_tokens": 4026,
+      "output_tokens": 236,
+      "total_tokens": 4262,
+      "wall_time": 7.1264,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab7bf3f5542991d322237a8": {
+    "answer": "A.S. Roma",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab7bf3f5542991d322237a8",
+      "llm_calls": 5,
+      "input_tokens": 3156,
+      "output_tokens": 236,
+      "total_tokens": 3392,
+      "wall_time": 7.1654,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae236b2554299495565da3e": {
+    "answer": "1920",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae236b2554299495565da3e",
+      "llm_calls": 5,
+      "input_tokens": 3963,
+      "output_tokens": 386,
+      "total_tokens": 4349,
+      "wall_time": 10.4255,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abfd3ba5542994516f4550a": {
+    "answer": "Ross Case",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abfd3ba5542994516f4550a",
+      "llm_calls": 5,
+      "input_tokens": 3695,
+      "output_tokens": 281,
+      "total_tokens": 3976,
+      "wall_time": 7.9708,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae1e11c554299234fd04335": {
+    "answer": "Both Neijiang and Weifang are considered prefecture-level cities.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae1e11c554299234fd04335",
+      "llm_calls": 11,
+      "input_tokens": 7159,
+      "output_tokens": 2725,
+      "total_tokens": 9884,
+      "wall_time": 64.1858,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae7281c5542991e8301cb69": {
+    "answer": "Soul",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae7281c5542991e8301cb69",
+      "llm_calls": 11,
+      "input_tokens": 7447,
+      "output_tokens": 1292,
+      "total_tokens": 8739,
+      "wall_time": 32.9772,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adfa570554299025d62a31c": {
+    "answer": "four",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfa570554299025d62a31c",
+      "llm_calls": 11,
+      "input_tokens": 7317,
+      "output_tokens": 1361,
+      "total_tokens": 8678,
+      "wall_time": 34.8873,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a808afb5542992bc0c4a76b": {
+    "answer": "Maurice Level",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a808afb5542992bc0c4a76b",
+      "llm_calls": 11,
+      "input_tokens": 7298,
+      "output_tokens": 2947,
+      "total_tokens": 10245,
+      "wall_time": 69.3921,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a81418455429903bc27b95f": {
+    "answer": "Barbara Pierce Bush",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a81418455429903bc27b95f",
+      "llm_calls": 11,
+      "input_tokens": 7644,
+      "output_tokens": 2722,
+      "total_tokens": 10366,
+      "wall_time": 63.9877,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abd7aba55429924427fcfed": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abd7aba55429924427fcfed",
+      "llm_calls": 11,
+      "input_tokens": 7236,
+      "output_tokens": 1040,
+      "total_tokens": 8276,
+      "wall_time": 27.9235,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7353b35542994cef4bc54f": {
+    "answer": "basilica",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7353b35542994cef4bc54f",
+      "llm_calls": 11,
+      "input_tokens": 7583,
+      "output_tokens": 2162,
+      "total_tokens": 9745,
+      "wall_time": 52.2516,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a85f2f55542997b5ce40036": {
+    "answer": "Caesalpinia",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a85f2f55542997b5ce40036",
+      "llm_calls": 11,
+      "input_tokens": 7396,
+      "output_tokens": 707,
+      "total_tokens": 8103,
+      "wall_time": 19.9274,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7fa0d55542995d8a8dded3": {
+    "answer": "musician",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7fa0d55542995d8a8dded3",
+      "llm_calls": 5,
+      "input_tokens": 3784,
+      "output_tokens": 768,
+      "total_tokens": 4552,
+      "wall_time": 19.9209,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7ba83f5542995eb53be981": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7ba83f5542995eb53be981",
+      "llm_calls": 5,
+      "input_tokens": 3725,
+      "output_tokens": 326,
+      "total_tokens": 4051,
+      "wall_time": 9.6527,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a773ec45542994aec3b7245": {
+    "answer": "Simone Bolelli",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a773ec45542994aec3b7245",
+      "llm_calls": 5,
+      "input_tokens": 3470,
+      "output_tokens": 289,
+      "total_tokens": 3759,
+      "wall_time": 8.3519,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adde6535542990dbb2f7ef9": {
+    "answer": "Hail! Hail! Rock 'n' Roll",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adde6535542990dbb2f7ef9",
+      "llm_calls": 5,
+      "input_tokens": 4219,
+      "output_tokens": 297,
+      "total_tokens": 4516,
+      "wall_time": 8.6048,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab5ec0a5542997d4ad1f250": {
+    "answer": "650",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab5ec0a5542997d4ad1f250",
+      "llm_calls": 11,
+      "input_tokens": 6916,
+      "output_tokens": 1010,
+      "total_tokens": 7926,
+      "wall_time": 26.9118,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8e276b5542995a26add468": {
+    "answer": "Swervedriver",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8e276b5542995a26add468",
+      "llm_calls": 11,
+      "input_tokens": 7089,
+      "output_tokens": 654,
+      "total_tokens": 7743,
+      "wall_time": 19.2848,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a77452155429972597f14e1": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a77452155429972597f14e1",
+      "llm_calls": 5,
+      "input_tokens": 3125,
+      "output_tokens": 402,
+      "total_tokens": 3527,
+      "wall_time": 10.9388,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae3790f5542992e3233c415": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae3790f5542992e3233c415",
+      "llm_calls": 8,
+      "input_tokens": 5295,
+      "output_tokens": 769,
+      "total_tokens": 6064,
+      "wall_time": 20.9377,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adcceda5542990d50227d31": {
+    "answer": "British",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcceda5542990d50227d31",
+      "llm_calls": 5,
+      "input_tokens": 3426,
+      "output_tokens": 367,
+      "total_tokens": 3793,
+      "wall_time": 10.4191,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a764c0b55429976ec32bd89": {
+    "answer": "It was the world's first multi-purpose, domed sports stadium",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a764c0b55429976ec32bd89",
+      "llm_calls": 11,
+      "input_tokens": 8209,
+      "output_tokens": 1169,
+      "total_tokens": 9378,
+      "wall_time": 32.5726,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac1a4745542991316484b82": {
+    "answer": "44,300",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac1a4745542991316484b82",
+      "llm_calls": 11,
+      "input_tokens": 6532,
+      "output_tokens": 622,
+      "total_tokens": 7154,
+      "wall_time": 18.2544,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a74f7f15542993748c89765": {
+    "answer": "11 November 1869",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a74f7f15542993748c89765",
+      "llm_calls": 5,
+      "input_tokens": 3619,
+      "output_tokens": 174,
+      "total_tokens": 3793,
+      "wall_time": 5.9944,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a72a5a75542992359bc314e": {
+    "answer": "Ranulph Fiennes",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a72a5a75542992359bc314e",
+      "llm_calls": 11,
+      "input_tokens": 7150,
+      "output_tokens": 2191,
+      "total_tokens": 9341,
+      "wall_time": 53.1085,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac41379554299204fd21ef1": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac41379554299204fd21ef1",
+      "llm_calls": 11,
+      "input_tokens": 7291,
+      "output_tokens": 812,
+      "total_tokens": 8103,
+      "wall_time": 23.0501,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a801e845542992097ad2fd9": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a801e845542992097ad2fd9",
+      "llm_calls": 5,
+      "input_tokens": 3630,
+      "output_tokens": 312,
+      "total_tokens": 3942,
+      "wall_time": 10.1485,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae7b40e5542994a481bbdbd": {
+    "answer": "Cliff Richard",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae7b40e5542994a481bbdbd",
+      "llm_calls": 11,
+      "input_tokens": 6781,
+      "output_tokens": 1352,
+      "total_tokens": 8133,
+      "wall_time": 35.7319,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7aa07d55429941d65f2703": {
+    "answer": "Robert Redford directed *The Horse Whisperer*, the film in which Kate Bosworth made her debut.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7aa07d55429941d65f2703",
+      "llm_calls": 11,
+      "input_tokens": 6222,
+      "output_tokens": 691,
+      "total_tokens": 6913,
+      "wall_time": 21.6544,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abbfb5e554299114383a0d0": {
+    "answer": "Skatoony",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbfb5e554299114383a0d0",
+      "llm_calls": 5,
+      "input_tokens": 3718,
+      "output_tokens": 348,
+      "total_tokens": 4066,
+      "wall_time": 9.6033,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac160af5542994d76dccdfa": {
+    "answer": "Rice University",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac160af5542994d76dccdfa",
+      "llm_calls": 11,
+      "input_tokens": 7805,
+      "output_tokens": 1625,
+      "total_tokens": 9430,
+      "wall_time": 40.3031,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7a633a55429941d65f2609": {
+    "answer": "Jang Hyun-seung",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a633a55429941d65f2609",
+      "llm_calls": 5,
+      "input_tokens": 3287,
+      "output_tokens": 230,
+      "total_tokens": 3517,
+      "wall_time": 6.9806,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7fb1e55542995d8a8ddef7": {
+    "answer": "Grizzly Man premiered first.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7fb1e55542995d8a8ddef7",
+      "llm_calls": 5,
+      "input_tokens": 3677,
+      "output_tokens": 222,
+      "total_tokens": 3899,
+      "wall_time": 6.8398,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a73987c55429978a71e9039": {
+    "answer": "Walt Disney Productions",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a73987c55429978a71e9039",
+      "llm_calls": 11,
+      "input_tokens": 7595,
+      "output_tokens": 1036,
+      "total_tokens": 8631,
+      "wall_time": 28.3763,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adce12e5542990d50227d4f": {
+    "answer": "Adelaide",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adce12e5542990d50227d4f",
+      "llm_calls": 5,
+      "input_tokens": 3204,
+      "output_tokens": 189,
+      "total_tokens": 3393,
+      "wall_time": 6.1843,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac14d0c5542991316484ae2": {
+    "answer": "Jacques Tourneur",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac14d0c5542991316484ae2",
+      "llm_calls": 11,
+      "input_tokens": 6883,
+      "output_tokens": 1323,
+      "total_tokens": 8206,
+      "wall_time": 33.9783,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab596d95542992aa134a371": {
+    "answer": "different provinces",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab596d95542992aa134a371",
+      "llm_calls": 11,
+      "input_tokens": 7059,
+      "output_tokens": 791,
+      "total_tokens": 7850,
+      "wall_time": 22.2205,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac5391e5542994611c8b439": {
+    "answer": "Mexican",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac5391e5542994611c8b439",
+      "llm_calls": 5,
+      "input_tokens": 3389,
+      "output_tokens": 159,
+      "total_tokens": 3548,
+      "wall_time": 6.0827,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab28b395542993be8fa9941": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab28b395542993be8fa9941",
+      "llm_calls": 5,
+      "input_tokens": 3017,
+      "output_tokens": 210,
+      "total_tokens": 3227,
+      "wall_time": 6.6633,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a84b7db5542991dd0999db0": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a84b7db5542991dd0999db0",
+      "llm_calls": 5,
+      "input_tokens": 3810,
+      "output_tokens": 575,
+      "total_tokens": 4385,
+      "wall_time": 15.8443,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae320a95542991a06ce992e": {
+    "answer": "7,166",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae320a95542991a06ce992e",
+      "llm_calls": 11,
+      "input_tokens": 7066,
+      "output_tokens": 597,
+      "total_tokens": 7663,
+      "wall_time": 19.4398,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab9d13455429939ce03dc31": {
+    "answer": "Pulitzer Prize",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab9d13455429939ce03dc31",
+      "llm_calls": 11,
+      "input_tokens": 7418,
+      "output_tokens": 1069,
+      "total_tokens": 8487,
+      "wall_time": 28.9458,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a815c2e5542995ce29dcbe8": {
+    "answer": "The Theater at Madison Square Garden",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a815c2e5542995ce29dcbe8",
+      "llm_calls": 11,
+      "input_tokens": 9102,
+      "output_tokens": 2275,
+      "total_tokens": 11377,
+      "wall_time": 55.3093,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab626d555429953192ad279": {
+    "answer": "Detroit",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab626d555429953192ad279",
+      "llm_calls": 11,
+      "input_tokens": 7919,
+      "output_tokens": 2831,
+      "total_tokens": 10750,
+      "wall_time": 67.1529,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ab2d9f1554299545a2cfac9": {
+    "answer": "None",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab2d9f1554299545a2cfac9",
+      "llm_calls": 11,
+      "input_tokens": 7050,
+      "output_tokens": 1793,
+      "total_tokens": 8843,
+      "wall_time": 47.2922,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a7363ec5542991f29ee2dd7": {
+    "answer": "Key West",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7363ec5542991f29ee2dd7",
+      "llm_calls": 5,
+      "input_tokens": 3602,
+      "output_tokens": 375,
+      "total_tokens": 3977,
+      "wall_time": 10.4039,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5add74b75542992200553b24": {
+    "answer": "Italy",
+    "iterations": 3,
+    "usage": {
+      "qid": "5add74b75542992200553b24",
+      "llm_calls": 11,
+      "input_tokens": 7508,
+      "output_tokens": 925,
+      "total_tokens": 8433,
+      "wall_time": 25.7722,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac510255542994611c8b353": {
+    "answer": "A55",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac510255542994611c8b353",
+      "llm_calls": 11,
+      "input_tokens": 6661,
+      "output_tokens": 1000,
+      "total_tokens": 7661,
+      "wall_time": 27.2005,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae224da554299234fd043ee": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae224da554299234fd043ee",
+      "llm_calls": 5,
+      "input_tokens": 3231,
+      "output_tokens": 252,
+      "total_tokens": 3483,
+      "wall_time": 8.0261,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abb7d8b5542996cc5e4a006": {
+    "answer": "Dan Balan co-wrote the song \"Live Your Life\" from T.I.'s album *Paper Trail* (2008).",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abb7d8b5542996cc5e4a006",
+      "llm_calls": 11,
+      "input_tokens": 7420,
+      "output_tokens": 1751,
+      "total_tokens": 9171,
+      "wall_time": 44.8937,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac37dd6554299218029dbdb": {
+    "answer": "No.",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac37dd6554299218029dbdb",
+      "llm_calls": 8,
+      "input_tokens": 4791,
+      "output_tokens": 530,
+      "total_tokens": 5321,
+      "wall_time": 15.6049,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adc53f75542996e6852530a": {
+    "answer": "Yes.",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adc53f75542996e6852530a",
+      "llm_calls": 11,
+      "input_tokens": 6906,
+      "output_tokens": 1268,
+      "total_tokens": 8174,
+      "wall_time": 34.3382,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ac02d59554299294b218f3b": {
+    "answer": "cancer",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac02d59554299294b218f3b",
+      "llm_calls": 5,
+      "input_tokens": 4033,
+      "output_tokens": 300,
+      "total_tokens": 4333,
+      "wall_time": 10.0029,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5abeb6645542993fe9a41d11": {
+    "answer": "The Pentagon",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abeb6645542993fe9a41d11",
+      "llm_calls": 11,
+      "input_tokens": 8343,
+      "output_tokens": 1834,
+      "total_tokens": 10177,
+      "wall_time": 46.7903,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a80a25d5542995d8a8ddfb7": {
+    "answer": "André 3000 and Big Boi",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a80a25d5542995d8a8ddfb7",
+      "llm_calls": 11,
+      "input_tokens": 8189,
+      "output_tokens": 1893,
+      "total_tokens": 10082,
+      "wall_time": 48.2809,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5ae0a6ea5542993d6555ebe9": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0a6ea5542993d6555ebe9",
+      "llm_calls": 11,
+      "input_tokens": 6827,
+      "output_tokens": 869,
+      "total_tokens": 7696,
+      "wall_time": 24.9737,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5a8c7ced5542995e66a4761c": {
+    "answer": "film industry",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8c7ced5542995e66a4761c",
+      "llm_calls": 5,
+      "input_tokens": 3445,
+      "output_tokens": 330,
+      "total_tokens": 3775,
+      "wall_time": 9.3704,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  },
+  "5adcf48e5542992c1e3a24d4": {
+    "answer": "Antoni Norbert Patek",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcf48e5542992c1e3a24d4",
+      "llm_calls": 5,
+      "input_tokens": 3768,
+      "output_tokens": 596,
+      "total_tokens": 4364,
+      "wall_time": 15.9556,
+      "mode": "full_dual_path",
+      "cache_hit": false
+    },
+    "diagnostics": {}
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "91edc89c0bdc11eba7f7acde48001122": {
+    "answer": "his office",
+    "iterations": 1,
+    "ablation": "without_reader_context",
+    "usage": {
+      "qid": "91edc89c0bdc11eba7f7acde48001122",
+      "llm_calls": 2,
+      "input_tokens": 218,
+      "output_tokens": 131,
+      "total_tokens": 349,
+      "wall_time": 23.0155,
+      "mode": "full",
+      "ablation": "without_reader_context",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_ablation": "without_reader_context",
+      "evidence_first_verification_disabled": false,
+      "evidence_first_repair_disabled": false,
+      "evidence_first_reader_context_disabled": true,
+      "evidence_first_answer_refinement_disabled": true,
+      "evidence_first_answer_type": "location",
+      "evidence_first_chain_complete": true,
+      "evidence_first_chain_length": 2,
+      "evidence_first_gap_type": "",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 0,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": false,
+      "evidence_first_postprocess_answer": "",
+      "evidence_first_postprocess_selected": false
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": true,
+        "chain_length": 2
+      }
+    ]
+  }
+}

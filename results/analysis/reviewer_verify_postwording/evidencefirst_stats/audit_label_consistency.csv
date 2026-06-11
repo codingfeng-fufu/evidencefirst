@@ -1,0 +1,9 @@
+dataset,method,gap_type,consistency_rule,n,consistent_n,inconsistent_n,consistent_rate,em,f1
+hotpot,EvidenceFirst v6 selector guard,complete,chain_complete=true,577,568,9,0.9844,0.5858,0.6720
+hotpot,EvidenceFirst v6 selector guard,disconnected,disconnected_pair_count>0,3,3,0,1.0000,1.0000,1.0000
+hotpot,EvidenceFirst v6 selector guard,missing_entities,missing_entity_count>0 or missing_entities non-empty,302,302,0,1.0000,0.5596,0.6581
+hotpot,EvidenceFirst v6 selector guard,short_chain,chain_complete=false and chain_length>0,118,118,0,1.0000,0.4407,0.5672
+2wiki,EvidenceFirst v6,complete,chain_complete=true,239,239,0,1.0000,0.7029,0.7681
+2wiki,EvidenceFirst v6,disconnected,disconnected_pair_count>0,11,11,0,1.0000,0.4545,0.5351
+2wiki,EvidenceFirst v6,missing_entities,missing_entity_count>0 or missing_entities non-empty,217,217,0,1.0000,0.6959,0.7667
+2wiki,EvidenceFirst v6,short_chain,chain_complete=false and chain_length>0,33,33,0,1.0000,0.6364,0.7035

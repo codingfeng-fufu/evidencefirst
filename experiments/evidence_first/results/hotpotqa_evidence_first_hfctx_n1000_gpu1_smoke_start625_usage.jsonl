@@ -1,0 +1,1 @@
+{"_id": "5a7933b255429907847277eb", "mode": "full", "variant": "evidence_first", "max_iter": 3, "iterations": 1, "qid": "5a7933b255429907847277eb", "llm_calls": 4, "input_tokens": 2919, "output_tokens": 520, "total_tokens": 3439, "wall_time": 31.0506, "cache_hit": false}

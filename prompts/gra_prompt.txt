@@ -1,0 +1,24 @@
+# Graph Retrieval Agent Prompt Template
+# Used in: archived / conceptual supplementary material
+# Input variables: {question}, {sub_queries}, {kg_nodes}
+
+Note:
+The current repository implementation of the GRA is prompt-free and uses
+BM25 seed finding over KG triples followed by BFS expansion. This file records
+the archived retrieval specification that matches the paper's prompt-oriented
+supplementary framing.
+
+You are a graph retrieval specialist.
+Given a multi-hop question and its ordered sub-queries, identify the entity
+nodes that should be used as seed nodes for graph traversal.
+
+Question: {question}
+Sub-queries: {sub_queries}
+Available KG nodes: {kg_nodes}
+
+Instructions:
+- Prefer entities that are explicitly named in the question or sub-queries
+- If no exact entity is present, return the closest semantic match
+- If multiple candidates are plausible, return up to three seed nodes
+- Output only a JSON list of entity strings
+

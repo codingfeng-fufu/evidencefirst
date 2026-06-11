@@ -1,0 +1,111 @@
+% ============================================================
+% Section 2.2 & 2.4: New Related Work sections for WISE
+% Quality Assurance and Traceability in RAG systems
+% ============================================================
+
+\subsection{Quality Assurance and Verification in RAG}
+
+Retrieval-Augmented Generation mitigates LLM hallucination by grounding outputs
+in retrieved evidence, but early RAG systems provided no mechanism to verify
+that the generated answer is actually supported by the retrieved passages. This
+verification gap has motivated recent work on answer quality assessment and
+factual consistency checking.
+
+Self-RAG~\cite{asai2023selfrag} introduces reflection tokens that critique
+retrieval quality and answer faithfulness at the token level during generation,
+enabling the model to decide when to retrieve and when to self-correct. This
+approach achieves strong gains on knowledge-intensive tasks but requires
+parameter training via reinforcement learning, limiting its applicability to
+frontier LLMs accessible only via API. Moreover, the critique operates at the
+token level rather than the retrieval-component level, making it difficult to
+isolate \emph{which} retrieval step failed.
+
+FAIR-RAG~\cite{fairrag2025} addresses evidence gaps by prompting the LLM to
+assess whether retrieved passages contain sufficient information to answer the
+question, and triggers re-retrieval when gaps are detected. This provides a
+training-free quality check but operates at the evidence-set level rather than
+the sub-query level, so when re-retrieval is triggered, the system must
+re-retrieve the full evidence set rather than targeting the specific failing
+component. FAIR-RAG also does not produce a structured diagnostic record
+identifying \emph{which} fact is missing or \emph{why} retrieval failed, limiting
+its auditability for Web systems requiring traceable reasoning.
+
+CoRAG~\cite{lyu2025corag} iteratively refines retrieval through chain-of-thought
+planning: the LLM decides whether to retrieve again based on answer confidence,
+and restarts the full pipeline when refinement is needed. This provides
+adaptivity but restarts from scratch rather than surgically repairing the failing
+component, wasting computation on re-retrieving evidence that was already correct.
+
+VERIFY~\cite{verify2024} and FactScore~\cite{factscore2023} decompose generated
+answers into atomic claims and verify each claim against retrieved passages or
+a knowledge source, enabling fine-grained factual consistency checking. These
+systems excel at post-hoc verification but do not provide a retrieval-repair
+mechanism: they can detect that an answer is wrong but cannot fix the underlying
+retrieval failure that caused it.
+
+The common thread across these systems is that none provides \emph{sub-query-level}
+quality diagnostics combined with a surgical repair mechanism. Self-RAG and
+FAIR-RAG detect quality issues but cannot pinpoint which retrieval component
+failed; CoRAG restarts globally rather than repairing targeted components;
+VERIFY and FactScore verify but do not repair. \sys fills this gap by verifying
+factual consistency at the sub-query level, identifying the minimum failing unit,
+and enabling surgical repair that preserves successful retrieval work while
+revising only what failed.
+
+\subsection{Traceability and Explainability in Web QA Systems}
+
+Trustworthy Web information systems require not only correct answers but
+\emph{traceable reasoning}---a structured record of how the system arrived at
+its answer, which retrieval steps succeeded, and where failures occurred. This
+traceability is essential for regulated domains (healthcare, finance, legal QA)
+where answers must be auditable, and for production deployment where system
+maintainers need diagnostic signals to debug failures.
+
+Explainable QA has a rich history. Early neural QA systems~\cite{rajpurkar2016squad}
+provided answer span predictions with attention weights, but attention-based
+explanations are notoriously unreliable~\cite{jain2019attention}. Chain-of-thought
+prompting~\cite{wei2022cot} improved interpretability by eliciting intermediate
+reasoning steps, but the generated reasoning is post-hoc rationalization rather
+than a faithful trace of the retrieval process, and recent work has shown that
+CoT explanations often contradict the model's actual decision
+process~\cite{turpin2023cot}.
+
+For RAG systems, several approaches have emerged for tracing retrieval provenance.
+Retrieve-and-Read systems~\cite{karpukhin2020dpr} return the top-$k$ retrieved
+passages alongside the answer, providing evidence provenance but no record of
+\emph{why} those passages were selected or which parts were used. IRCOT and
+HopRAG interleave retrieval and reasoning, logging each retrieval step, but the
+logs are unstructured and provide no diagnostic signal indicating which step
+failed or why.
+
+GraphRAG systems~\cite{edge2024graphrag,guo2024lightrag} anchor answers to
+specific KG triples, providing structured evidence provenance superior to
+passage-level attribution. However, none of the existing GraphRAG systems
+produces a diagnostic record identifying which entity-linking step failed, which
+bridge entity was missed, or why a sub-query could not be resolved. When a
+GraphRAG system returns a wrong answer, the user sees the incorrect output and
+the retrieved triples but has no structured explanation of where the reasoning
+broke down.
+
+A-RAG~\cite{arag2026} logs the full trajectory of tool calls (keyword search,
+semantic search, chunk read), providing detailed provenance of the retrieval
+process. This improves transparency but remains action-trace logging rather than
+diagnostic output: the log records \emph{what} the system did but not \emph{why}
+a retrieval step failed or \emph{what} should be revised to fix it.
+
+\sys addresses this gap by producing \emph{structured diagnostic records} at the
+sub-query level. When the VA detects a quality failure, it emits a natural-language
+diagnostic string identifying (1)~which sub-query failed, (2)~the diagnosed
+failure type (entity not found, incomplete evidence, contradictory triples), and
+(3)~a concrete revision suggestion. This structured output serves dual purposes:
+it enables surgical repair (Section~\ref{sec:quality_analysis}) and it provides
+traceable reasoning for auditability. Every answer comes with a record of which
+sub-queries were resolved successfully, which required revision, and why---making
+\sys the first GraphRAG system whose reasoning process is fully auditable.
+
+The distinction is architectural: prior systems treat traceability as logging
+(record what happened), while \sys treats traceability as \emph{diagnostic output}
+(identify what failed and why). This shift from passive logging to active
+diagnostics is what enables both surgical repair and trustworthy deployment in
+Web systems serving critical applications.
+

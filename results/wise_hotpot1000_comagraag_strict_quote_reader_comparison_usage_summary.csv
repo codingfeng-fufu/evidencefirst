@@ -1,0 +1,2 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost
+results/wise/hotpot1000_comagraag_strict_quote_reader_comparison_usage.jsonl,100,1.0,1519.4,129.6,1649.0,3.308,0.0,0.0,0.0

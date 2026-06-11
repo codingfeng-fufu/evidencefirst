@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,switches,acceptance_action_not_switch,acceptance_not_target,acceptance_same_as_current,acceptance_accepted,target_person,target_location,target_comparison,target_common,target_yesno,target_number_date,target_other
+kg_challenger_gate,1000,0.558,0.6587,100,1,55,900,44,1,30,7,8,21,24,8,2

@@ -1,0 +1,14 @@
+{
+  "bridge": {
+    "total": 500,
+    "correct": 156,
+    "converged": 200,
+    "converged_correct": 90
+  },
+  "comparison": {
+    "total": 500,
+    "correct": 298,
+    "converged": 258,
+    "converged_correct": 178
+  }
+}

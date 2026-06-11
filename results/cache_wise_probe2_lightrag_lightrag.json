@@ -1,0 +1,16 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 1,
+      "input_tokens": 313,
+      "output_tokens": 2,
+      "total_tokens": 315,
+      "wall_time": 153.1846,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  }
+}

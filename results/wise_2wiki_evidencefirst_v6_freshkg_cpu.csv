@@ -1,0 +1,2 @@
+mode,variant,max_iter,n,EM,F1,avg_iter,fresh_n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_latency_s
+full,evidence_first_v6_freshkg_cpu,3,500,0.394,0.4565,1.0,500,5.9,6500.97,910.34,22.7797

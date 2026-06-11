@@ -1,0 +1,832 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "- Aretha Franklin",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 6,
+      "input_tokens": 8171,
+      "output_tokens": 2177,
+      "total_tokens": 10348,
+      "wall_time": 78.0831,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "person",
+      "evidence_aug_passages": [
+        "Ted Kooshian: Ted Kooshian (born October 8, 1961) is an American jazz pianist, keyboardist, and composer, who has performed with Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, Il Divo, and Blood, Sweat, and Tears. Kooshian has played in many Broadway pit orchestras, and has been a member of the Ed Palermo Big Band since 1994. Originally from San Jose, California, Kooshian has been performing since the 1980s.",
+        "List of awards and nominations received by Vikram: Vikram is an Indian Tamil film actor. After making his cinematic debut in the 1990 film \"En Kadhal Kanmani\", he acted in a series of small-budget Tamil, Telugu and Malayalam films. It was Bala's tragedy film \"Sethu\" (1999) that established Vikram in the Tamil film industry. In the early 2000s Vikram appeared in a series of masala films—\"Dhill\", \"Gemini\", \"Dhool\" and \"Saamy\" all becoming commercially successful. During this period, Vikram performed diverse roles and received critical acclaim for his performances in \"Kasi\" and \"Samurai\". In 2003, Vikram's performance as an autistic gravedigger in \"Pithamagan\" won a lot of acclaim and secured his first National Film Award for Best Actor. His portrayal as an innocent man with multiple personality disorder in Shankar's \"Anniyan\" was commercially successful. The film also fetched him a Filmfare Best Actor Award. Vikram's portrayal as a tribal leader in Mani Ratnam's \"Raavanan\" saw him secure further acclaim. He is only the third actor to receive a National Film Award for Best Actor in the Tamil film industry. Vikram is known for his intense performances, with his work often fetching critical acclaim and commercial success. He has won a National Film Award and seven Filmfare Awards South, of which five are Best Actor awards.",
+        "Albert Smith Medal: The Albert Smith Memorial Medal is the award given to the Man of the Match in the final of the Camanachd Cup, the blue riband trophy of the sport of shinty. It has been presented every year since 1972 by the Smith family of Fort William in honour of Albert Smith Sr. (Born in 1888, Lochuanagan, Fort Augustus.) The widow of his only son, Albert Smith Jr. currently presents the medal. Albert Sr.'s grandson, Victor Smith is a former player for Fort William Shinty Club but never won the medal despite featuring as a key player in several Fort William wins.",
+        "The Man with the Golden Arm (novel): The Man with the Golden Arm is a novel by Nelson Algren, published by Doubleday in November 1949. One of the seminal novels of post-World War II American letters, \"The Man with the Golden Arm\" is widely considered Algren's greatest and most enduring work. It won the National Book Award in 1950.",
+        "The Living Desert: The Living Desert is a 1953 American nature documentary film that shows the everyday lives of the animals of the desert of the Southwestern United States. The movie was written by James Algar, Winston Hibler, Jack Moffitt (uncredited) and Ted Sears. It was directed by Algar, with Hibler as the narrator and was filmed in Tucson, Arizona. The film won the 1953 Academy Award for Best Documentary Feature.",
+        "Triple Crown of Acting: The Triple Crown of Acting is a term used in the American entertainment industry to describe actors who have won a competitive Academy Award, Emmy Award, and Tony Award in the acting categories. 23 people have achieved the triple crown of acting (14 women, 9 men). Helen Hayes' Emmy Award win on February 5, 1953, made her the first person to achieve the triple crown. Thomas Mitchell became the first man to achieve the triple crown with his Tony Award win later the same year on March 29, 1953. Hayes and Rita Moreno are the only triple crown winners in competitive acting categories who have also won a Grammy Award to complete the EGOT.",
+        "Robert Calder (writer): Robert Lorin Calder, a Canadian writer and professor, won the Governor General's Award for English-language non-fiction in 1989 for his \"Willie: The Life of W. Somerset Maugham\", a biography based on extensive archival work and interviews with surviving associates of Maugham, in particular Alan Searle. Unlike Ted Morgan, who had obtained permission from Maugham's executors to publish from Maugham's letters in his biography (1980), Calder was refused permission to do so by the Royal Literary Fund and had to rely on paraphrase in referencing Maugham's unpublished correspondence.",
+        "The Human Centipede 2 (Full Sequence): The Human Centipede 2 (Full Sequence) is a 2011 Dutch black and white exploitation-horror film written, directed, and co-produced by Dutch filmmaker Tom Six. The sequel to Six's 2009 film \"The Human Centipede (First Sequence)\", the film stars Laurence R. Harvey as a mentally impaired English man who watches and becomes obsessed with the first \"Human Centipede\" film, and decides to make his own \"centipede\" consisting of twelve people, including Ashlynn Yennie, an actress from the first film."
+      ],
+      "evidence_aug_candidates": [
+        "Ted Kooshian",
+        "Aretha Franklin",
+        "Chuck Berry",
+        "Marvin Hamlisch",
+        "Sarah Brightman",
+        "Il Divo",
+        "Ed Palermo Big Band",
+        "San Jose",
+        "Vikram",
+        "Indian Tamil",
+        "En Kadhal Kanmani",
+        "National Film Award",
+        "Best Actor. His",
+        "Filmfare Best Actor Award. Vikram's",
+        "Mani Ratnam's",
+        "Best Actor"
+      ]
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "What award has been won by only twelve people?"
+        ],
+        "n_triples": 41,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 16,
+          "candidates": [
+            "Ted Kooshian",
+            "Aretha Franklin",
+            "Chuck Berry",
+            "Marvin Hamlisch",
+            "Sarah Brightman",
+            "Il Divo",
+            "Ed Palermo Big Band",
+            "San Jose",
+            "Vikram",
+            "Indian Tamil",
+            "En Kadhal Kanmani",
+            "National Film Award",
+            "Best Actor. His",
+            "Filmfare Best Actor Award. Vikram's",
+            "Mani Ratnam's",
+            "Best Actor"
+          ]
+        },
+        "answer": "- Aretha Franklin",
+        "score": 0.48,
+        "feedback": "Missing: The award won by only twelve people — specifically, the EGOT (Emmy, Grammy, Oscar, Tony), and that Robert Lopez (who Ted Kooshian has performed with) is one of only twelve EGOT winners. The candidate answer 'Aretha Franklin' is incorrect: while she won Grammys (18), an honorary Grammy Legend Award, and a Presidential Medal of Freedom, she never won an Emmy, Oscar, or Tony — so she is not an EGOT winner, nor one of the twelve. The knowledge graph explicitly states: 'Robert Lopez -- is --> the youngest of only twelve people who have won an Emmy, a Grammy, an Oscar and a Tony Award' and 'Ted Kooshian -- has performed with --> Aretha Franklin' (true) but also 'Ted Kooshian -- has performed with --> Marvin Hamlisch' — and Marvin Hamlisch *is* an EGOT winner (and one of the original twelve). However, the question asks for *the award*, not a person — and the award is the EGOT distinction (i.e., having won all four major awards), not a singular trophy. The answer must name the achievement ('EGOT') or clarify it as 'winning all four major American entertainment awards (Emmy, Grammy, Oscar, Tony)', not a person. Suggested retrieval: 'Which award or distinction is shared by exactly twelve people, and which of Ted Kooshian’s collaborators has achieved it?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "Which of Ted Kooshian's collaborators has won an Emmy, a Grammy, an Oscar, and a Tony Award?",
+          "What is the name of the distinction awarded to people who have won all four major American entertainment awards (Emmy, Grammy, Oscar, Tony)?",
+          "How many people have achieved the distinction of winning an Emmy, a Grammy, an Oscar, and a Tony Award?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 16,
+          "candidates": [
+            "Ted Kooshian",
+            "Aretha Franklin",
+            "Chuck Berry",
+            "Marvin Hamlisch",
+            "Sarah Brightman",
+            "Il Divo",
+            "Ed Palermo Big Band",
+            "San Jose",
+            "Vikram",
+            "Indian Tamil",
+            "En Kadhal Kanmani",
+            "National Film Award",
+            "Best Actor. His",
+            "Filmfare Best Actor Award. Vikram's",
+            "Mani Ratnam's",
+            "Best Actor"
+          ]
+        },
+        "answer": "perhaps",
+        "score": 0.15,
+        "feedback": "Missing: The specific award won by only twelve people and the identity of a man (among those twelve) who Ted Kooshian has performed with. Suggested retrieval: 'Which award has been won by exactly twelve people?' AND 'Which person among the recipients of that award has performed with Ted Kooshian?'"
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "In 2002, Suining had a population of 658,798",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 3,
+      "input_tokens": 4191,
+      "output_tokens": 385,
+      "total_tokens": 4576,
+      "wall_time": 9.6004,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "disjunctive_fact",
+      "evidence_aug_passages": [
+        "Landmines in the Vietnam War: Since the outbreak of the First Indochina War in 1946 and later the bloodier Second Indochina War of the 1960s and 1970s, countless numbers of land mines have been planted in what is now the Socialist Republic of Vietnam. Many of these devices that did not detonate at some point or another remain a very dangerous menace that continues plaguing the country and surrounding areas.",
+        "Suining: Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China. In 2002, Suining had a population of 658,798.",
+        "Daying County: Daying County () is a county of Sichuan province, China, under the administration of Suining City and in the central part of the Sichuan Basin. In 2002, it had a population of 520,000 residing in an area of 703 km2 . Daying is remarkable for being the home of the \"Chinese Dead Sea\", a tourist attraction that is based on a salt lake with 9 times the salinity of the ocean and which constitutes the largest indoor water park in China. The G42 Shanghai–Chengdu Expressway and Dazhou–Chengdu Railway (达成铁路) traverses east–west through the entire length of the county.",
+        "Tafo: Tafo is a town in Kumasi Metropolitan District in the Ashanti Region of Ghana near the regional capital Kumasi. Tafo is the thirtieth most populous settlement in Ghana, in terms of population, with a population of 60,919 people. Because of the town's population and housing development in recent years, it is debatable whether Tafo is still regarded as a separate town, or already a suburb of Kumasi, the capital of the Ashanti region. The town is near Kumasi, with a distance of approximately 3.3 kilometers to the center of a similar name sounding village named New Tafo and must be distinguished from Tafo. Tarkwa is located just 4.6 km away from Tafo. The city center of Kumasi is located approximately 9.8 kilometers away. Tafo is one of the urban constituencies of the Kumasi Metropolitan Assembly, the town's parliamentary candidate shall have one direct seat to the Parliament of Ghana.",
+        "Shia Muslims in the Arab world: Islam is historically divided into two major sects, Sunni and Shia Islam, each with its own sub-sects. Large numbers of Shia Arab Muslims live in some Arab countries including Lebanon, Yemen, Iraq, Saudi Arabia, Kuwait, Oman, the UAE, and Qatar. Shia Muslims are a numerical majority in Iraq and Bahrain. Approximately half of the population in Yemen are Shia Muslims. Exactly half of Muslims in Lebanon are Shia Muslims. There is also a very large population of Shia Muslims living in the Arab Persian Gulf countries especially in Saudi Arabia. Approximately the whole population of East Saudi Arabia, the Eastern Province are Shia Muslims. Although government statistics claim that roughly only 20-40% of the Muslim population are Shia Muslims, there has been dispute to the authenticity of this figure and recent reports and investigations indicate that there is in fact a much larger population of Shia Muslims present, with estimate figures over 45% or even making the majority of Muslim population. Saudi Arabia follows a strict recently established sect of Islam, Wahhabism, there is little freedom of religion between the different sects even whilst all of the population are Muslims. Smaller Shia groups are present in Egypt and Jordan. Despite the heavy presence of Shia Muslims in some Arab countries, particularly among the population of the Persian Gulf Arab countries, they have been treated poorly throughout history. Additionally, in recent times, Shia Muslims along with Kurds have faced genocide by the pan-Arabist regime of Saddam Hussein. For both historical and political reasons, the Shia have fared rather poorly in much of the Arab world, and the topic of Shi‘ism and Shia groups is one of the most sensitive issues for the Sunni elite. This article discusses both the history of Shī‘a Islam in the Arab world from the dawn of Islam and their current situation in the Arabic-speaking world.",
+        "Shia Muslims in the Arab world: Islam is historically divided into two major sects, Sunni and Shia Islam, each with its own sub-sects. Large numbers of Shia Arab Muslims live in some Arab countries including Lebanon, Yemen, Iraq, Saudi Arabia, Kuwait, Oman, the UAE, and Qatar. Shia Muslims are a numerical majority in Iraq and Bahrain. Approximately half of the population in Yemen are Shia Muslims. Exactly half of Muslims in Lebanon are Shia Muslims. There is also a very large population of Shia Muslims living in the Arab Persian Gulf countries especially in Saudi Arabia. Approximately the whole population of East Saudi Arabia, the Eastern Province are Shia Muslims. Although government statistics claim that roughly only 20-40% of the Muslim population are Shia Muslims, there has been dispute to the authenticity of this figure and recent reports and investigations indicate that there is in fact a much larger population of Shia Muslims present, with estimate figures over 45% or even making the majority of Muslim population. Saudi Arabia follows a strict recently established sect of Islam, Wahhabism, there is little freedom of religion between the different sects even whilst all of the population are Muslims. Smaller Shia groups are present in Egypt and Jordan. Despite the heavy presence of Shia Muslims in some Arab countries, particularly among the population of the Persian Gulf Arab countries, they have been treated poorly throughout history. Additionally, in recent times, Shia Muslims along with Kurds have faced genocide by the pan-Arabist regime of Saddam Hussein. For both historical and political reasons, the Shia have fared rather poorly in much of the Arab world, and the topic of Shi‘ism and Shia groups is one of the most sensitive issues for the Sunni elite. This article discusses both the history of Shī‘a Islam in the Arab world from the dawn of Islam and their current situation in the Arabic-speaking world.",
+        "Repartition of Ireland: The repartition of Ireland has been suggested as a possible solution to the continuing political disagreement in Northern Ireland. The essential problem was that the partition of Ireland was gerrymandered, and as a result Northern Ireland contains a large Irish nationalist minority. Much of the Irish nationalist population lives in the south and west of the region, but a significant percentage lives in Belfast and some smaller communities in the north and east, whilst Irish unionists constitute a majority of the population in the north and east of the region with some smaller communities in the south and west. The geographical area in which unionists are a majority is less than half of Northern Ireland (see graphic below), but eastern areas have a much higher population density. Collectively, Northern Ireland is split, with unionists comprising approximately 48% of the population, and falling quickly. At the last general election unionists secured precisely 50% of the seats. None of",
+        "M"
+      ],
+      "evidence_aug_candidates": [
+        "Qionghai",
+        "Suining",
+        "In 2002, Suining had a population of 658,798",
+        "In 2002, it had a population of 520,000 residing in an area of 703 km2",
+        "Tafo is the thirtieth most populous settlement in Ghana, in terms of population, with a population of 60,919 people",
+        "Collectively, Northern Ireland is split, with unionists comprising approximately 48% of the population, and falling quickly",
+        "The population of village is 233 as of 2010, but boasted a much higher population during medieval times",
+        "Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China"
+      ]
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What was the population of Qionghai in 2002?",
+          "What was the population of Suining in 2002?"
+        ],
+        "n_triples": 17,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "disjunctive_fact",
+          "n_passages": 8,
+          "n_candidates": 8,
+          "candidates": [
+            "Qionghai",
+            "Suining",
+            "In 2002, Suining had a population of 658,798",
+            "In 2002, it had a population of 520,000 residing in an area of 703 km2",
+            "Tafo is the thirtieth most populous settlement in Ghana, in terms of population, with a population of 60,919 people",
+            "Collectively, Northern Ireland is split, with unionists comprising approximately 48% of the population, and falling quickly",
+            "The population of village is 233 as of 2010, but boasted a much higher population during medieval times",
+            "Suining (; Sichuanese Pinyin: Xunin; Sichuanese pronunciation: ; ) is a prefecture-level city of eastern Sichuan province in Southwest China"
+          ]
+        },
+        "answer": "In 2002, Suining had a population of 658,798",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: population of Qionghai in 2002. Suggested retrieval: 'Qionghai City population in 2002'"
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 3,
+      "input_tokens": 4586,
+      "output_tokens": 727,
+      "total_tokens": 5313,
+      "wall_time": 17.3361,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "common",
+      "evidence_aug_passages": [
+        "Saddle Rock Elementary School: Saddle Rock Elementary School or simply \"Saddle Rock\" is an elementary school, comprising grades Kindergarten through 5. It is a public school located in Great Neck, New York, USA as part of the Great Neck School District. The school has been recognized by the Blue Ribbon Schools Program.",
+        "Charleston Community Unit School District 1: Charleston Community Unit School District 1 is a unified school district based in Charleston, the county seat of Coles County, Illinois; it was created through the consolidation of the charter school district it was formed from and over sixty-seven other school districts in the area. Charleston Community Unit School District 1 is a conglomerate of six schools, with all but one located in Charleston itself: four elementary schools, one middle school, and one high school form the makeup of the district. Education begins at a prekindergarten level, and those living in the Charleston area attend Mark Twain Elementary School, which prepares early youth for schooling by taking them through prekindergarten and kindergarten under the supervision of principal Terry Diss. Students who live in the far east reaches of Coles County may attend Ashmore Elementary School, which is based in a northeasterly village by the same name; Ashmore's distance from the other schools permits it to educate a larger range of students for the sake of efficiency. The school educates students from kindergarten through grade four, and also runs a prekindergarten program. Ashmore is also governed by Terry Diss. Students who graduate from Mark Twain move onwards to Carl Sandburg Elementary School, which educates those in grades one, two, and three under principal Chad Burgett. At Jefferson Elementary School in Charleston, the student bodies from both Carl Sandburg Elementary School and Ashmore Elementary School are consolidated. Students from grades four through six are taught in the facility under the supervision of principal Deborah Poffinbarger. District students graduating from Jefferson are moved to Charleston Middle School, where they are taught as seventh and eighth graders; the school principal here is Sandy Wilson. The last branch of education that Charleston's school district can provide is the education of adolescents in the grades nine through twelve at Charleston High School, which is run by principal Trevor Doughty. The superintendent of the schools in the district as of the 2007-08 school year was Dr. William Hill, although is considered as an interim;lastly, the mascots of the district and its middle and high schools are the Trojans, while the mascot of Jefferson Elementary School is the bulldog.",
+        "West Harvey-Dixmoor Public School District 147: West Harvey-Dixmoor Public School District 147 is an elementary school district based in the southern suburban Chicago city of Harvey, Cook County, Illinois. The district is composed of four schools: three are elementary schools and one is a middle school, where all schools are located in the adjacent village of Dixmoor with the exception of one elementary school located in Harvey. District students in living in Harvey that are in prekindergarten, kindergarten, or grades one through five attend Washington Elementary School which is directed by the principal, Dr. Earnest Taylor. Students of the same grades living in Dixmoor attend either Lincoln Elementary School or King Elementary School. The principals of the schools are, respectively, Dr. Gregory Jackson and Sandra Wells. All elementary schools feed into Rosa L. Parks Middle School, which is headed by principal Abigail Phillips. The school district's superintendent is Dr. Alex Boyd, Jr.",
+        "Jasper County Community Unit School District 1: Jasper County Community Unit School District 1 is a unified school district based in Jasper County's county seat of Newton, Illinois; it is the only school district in the county and is, consequently, the main educational body in all of Jasper County, although it serves portions of Effingham County and Cumberland County as well. This school district is composed of six schools in total; four elementary schools, one junior high school, and one high school. There is also a prekindergarten program run at the high school of the district should parents wish to enroll their children early. Willow Hill Elementary School, which is located in the village of its namesake, serves only kindergarteners; its proximity to the county seat and central position in the county allows its students to dawn from all parts of the county and still have easy access to the elementary school they will attend. The principal of Willow Hill is Dave Parker. Grove Elementary School is located in Island Grove, Illinois, the highest point of elevation in the county. Grove Elementary School educates students from kindergarten to grade six, and it runs a prekindergarten program as well. Craig Carr is the principal of this school. Ste. Marie Elementary School is located in the southern Jasper County village of Ste. Marie, and serves students in grades one through six. The principal of Ste. Marie is David Parker, the principal of Willow Hill Elementary School. Newton Elementary School is located in the county seat of Newton, and serves most of west Jasper County's first through sixth graders under principal Travis Wyatt. The latter three elementary schools feed into Jasper County Junior High School and are taught in the facility during seventh and eighth grade while being supervised by Newton Elementary School principal Travis Wyatt before graduating into Newton Community High School. Students in grades nine through twelve spend their last leg of precollegiate education at this school; their principal is Ruth Kerner. The district superintendent is Ron Alburtus, and the district's mascot is the eagle.",
+        "North Boone Community Unit School District 200: North Boone Community Unit School District 200 is a unified school district based in the central region of the county of its namesake, Boone County; more specifically, in the village of Poplar Grove, Illinois. Five of the six schools in the district are located here, with the other being eastwards in the village of Capron. The community unit school district is composed of, as previously mentioned, six schools: there are three elementary schools, two middle schools, and one high school. Manchester Elementary School, which serves the grades K-4 alongside Poplar Grove Elementary School, is governed by Principal Kristi Crawford; the principal of Poplar Grove Elementary School is Sharon Olds. Capron Elementary School, the only school in the district located in a village other than Poplar Grove, serves not only the grades K-4, but also includes a prekindergarten program. The current principal is Matt Klett. All students who graduate from one of the district elementary schools will consolidate at the fifth grade in one school, called North Boone Upper Elementary School, whose principal is Mike Greenlee;all",
+        "Zion",
+        "Villa"
+      ],
+      "evidence_aug_candidates": [
+        "Great Neck",
+        "Charleston",
+        "Charleston itself",
+        "Harvey",
+        "Dixmoor with the exception of one elementary school located in Harvey",
+        "Jasper County's county seat of Newton",
+        "Island Grove",
+        "Ste",
+        "Poplar Grove",
+        "Capron",
+        "Burbank",
+        "Saddle Rock Elementary School or simply \"Saddle Rock",
+        "Saddle Rock Elementary School",
+        "Saddle Rock",
+        "New York",
+        "Great Neck School District.  The",
+        "Blue Ribbon Schools Program",
+        "Charleston Community Unit School District 1",
+        "Charleston Community Unit School District",
+        "Coles County",
+        "Mark Twain Elementary School",
+        "Terry Diss.  Students",
+        "Ashmore Elementary School",
+        "Mark Twain"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the location of Great Neck School District?",
+          "What is the location of Saddle Rock Elementary School?"
+        ],
+        "n_triples": 35,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "common",
+          "n_passages": 7,
+          "n_candidates": 24,
+          "candidates": [
+            "Great Neck",
+            "Charleston",
+            "Charleston itself",
+            "Harvey",
+            "Dixmoor with the exception of one elementary school located in Harvey",
+            "Jasper County's county seat of Newton",
+            "Island Grove",
+            "Ste",
+            "Poplar Grove",
+            "Capron",
+            "Burbank",
+            "Saddle Rock Elementary School or simply \"Saddle Rock",
+            "Saddle Rock Elementary School",
+            "Saddle Rock",
+            "New York",
+            "Great Neck School District.  The",
+            "Blue Ribbon Schools Program",
+            "Charleston Community Unit School District 1",
+            "Charleston Community Unit School District",
+            "Coles County",
+            "Mark Twain Elementary School",
+            "Terry Diss.  Students",
+            "Ashmore Elementary School",
+            "Mark Twain"
+          ]
+        },
+        "answer": "Great Neck",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that the Great Neck School District is *located in* or *governed from* Great Neck, NY — though this is strongly implied by multiple triples (e.g., 'Village School is located in village of Great Neck, New York' and 'is one of three high schools in the Great Neck School District'; 'Saddle Rock Elementary School is located in Great Neck, New York, USA' and 'is part of Great Neck School District'). However, no triple or passage directly states the district’s official location or seat. Suggested retrieval: 'Where is the administrative headquarters or official location of the Great Neck School District?'"
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 6,
+      "input_tokens": 8763,
+      "output_tokens": 2022,
+      "total_tokens": 10785,
+      "wall_time": 48.0088,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "person",
+      "evidence_aug_passages": [
+        "Greatest Hits (Billy Idol album): Greatest Hits is a compilation of Billy Idol's most popular singles, released by Capitol Records in 2001. The album includes two additional tracks: a live recording of one of his most popular songs, \"Rebel Yell\" (this live version was recorded in 1993 and appeared as a b-side for the single \"Speed\" in 1994), plus a new version of Idol's longtime producer Keith Forsey's \"Don't You (Forget About Me)\". Although Forsey originally wrote the song with Idol in mind, Idol turned it down and eventually the song was given to Simple Minds who would go on to make it a worldwide hit in 1985. \"Greatest Hits\" was certified platinum by the RIAA in 2005.",
+        "Barry Andrews (musician): Barry Andrews (born 12 September 1956, West Norwood, London) is a vocalist and keyboardist. He is a former member of the bands XTC and League of Gentlemen with Robert Fripp, and was co-founder of Shriekback. He has collaborated with Brian Eno on several projects, most recently guesting on keyboards for the 2005 album \"Another Day On Earth\". Andrews also played on the 1980 Iggy Pop album \"Soldier\" with David Bowie, Ivan Kral, Glen Matlock and Klaus Kruger.",
+        "Refugees of the Heart: Refugees of the Heart is the sixth solo studio album by Steve Winwood, released in 1990. The album contained the hit single, \"One and Only Man\", which topped the Mainstream Rock Tracks chart and saw the return of former Traffic bandmate Jim Capaldi to Winwood's songwriting team. By coincidence, a Traffic reunion followed in 1994. Because of that collaboration, Winwood would not record another solo album until late 1997. Also \"I Will Be Here\" and \"Another Deal Goes Down\" were released as singles. Winwood stated about the closing track, “In The Light Of Day”: 'When Will and I wrote the song (. .) it was our idea of what Nelson Mandela's dream was, while he was in prison. It was really just a fantasy of ours, but that’s what we based the song on.'",
+        "Tha Trademarc: Marc Predka (born April 21, 1975) better known by his stage name Tha Trademarc, is an American hip hop artist. He first came to prominence when he and his first cousin, WWE wrestler John Cena, collaborated on the 2005 album \"You Can't See Me\", including Cena's entrance theme \"The Time Is Now\". He also appeared in the music videos of the songs, \"Bad Bad Man\" and \"Right Now\" with Cena. Prior to the album, Trademarc appeared on Cena's first WWE DVD \"Word Life\". He now works as a classroom specialist for the Peace Corps of America.",
+        "Celebration (Madonna song): \"Celebration\" is a song recorded by American singer and songwriter Madonna for her third greatest hits album of the same name (2009). It was written and produced by Madonna, Paul Oakenfold and Ian Green, with additional writing from Ciaran Gribbin. The song was released digitally on July 31, 2009 by Warner Bros. Records. Madonna collaborated with Oakenfold to develop a number of songs. Amongst all the songs developed by them, two were chosen for the greatest hits album with \"Celebration\" being released as the first single from it. It is a dance-oriented song with influences of Madonna's singles from the 1980s and 1990s, and consisting of a speak-sing format bridge. The lyrics of the song invites one to come and join a party.",
+        "Painkiller (Freestylers song): \"Painkiller\" is a 2006 single by Freestylers featuring Pendulum and SirReal. It was released to promote the release of Freestylers' album \"Adventures in Freestyle\". Pendulum had previously collaborated with Freestylers for the track \"Fasten Your Seatbelt\", which was released as a single and appeared on the former's 2005 album, \"Hold Your Colour\". The single was released on 12\" vinyl and on CD, with a second remix single being released on 12\" vinyl.",
+        "Spiritual Unity (Marc Ribot album): Spiritual Unity is a 2005 album by Marc Ribot released on Pi Recordings. The album features compositions by Albert Ayler who Ribot identifies as a significant influence. It was recorded at Orange Music Sound Studio, West Orange, New Jersey on October 28, 2004, except \"Bells\", which was recorded live at Tonic in New York City on October 27, 2004.",
+        "Duality (Ra album): Duality is a 2005 album from the band Ra. The style from this album has noticeably changed since Ra's debut album of \"From One\". The album boasts a hard rock and melodic vibe whereas their first album had more of a nu metal feel. The middle-eastern influences in the CD are still present, but are noticeably pushed back. Akin to their former album, \"Duality\" only claimed one single which was the song \"Fallen Angels\", a song that was inspired by the Kevin Smith film Dogma. The tenth track \"Got Me Going\" was played on the radio in the background of the movie \"Hot Rod\". Janel Elizabeth has a cover of the song \"Swimming Upstream\" streamed on her Myspace."
+      ],
+      "evidence_aug_candidates": [
+        "WWE wrestler",
+        "Greatest Hits",
+        "Billy Idol",
+        "Billy Idol's",
+        "Capitol Records",
+        "Rebel Yell",
+        "Keith Forsey's",
+        "Forget About Me",
+        "Although Forsey",
+        "Simple Minds",
+        "Barry Andrews",
+        "West Norwood",
+        "Robert Fripp",
+        "Brian Eno",
+        "Another Day On Earth",
+        "Iggy Pop",
+        "David Bowie"
+      ]
+    },
+    "score": 0.78,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who collaborated with Marc Predka on a 2005 album?",
+          "What song did that person write on that 2005 album?",
+          "What was the profession of that person?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 16,
+          "candidates": [
+            "Greatest Hits",
+            "Billy Idol",
+            "Billy Idol's",
+            "Capitol Records",
+            "Rebel Yell",
+            "Keith Forsey's",
+            "Forget About Me",
+            "Although Forsey",
+            "Simple Minds",
+            "Barry Andrews",
+            "West Norwood",
+            "Robert Fripp",
+            "Brian Eno",
+            "Another Day On Earth",
+            "Iggy Pop",
+            "David Bowie"
+          ]
+        },
+        "answer": "WWE wrestler",
+        "score": 0.42,
+        "feedback": "Missing: The person who wrote a song on the 2005 album he collaborated on with Marc Predka is John Cena — not Marc Predka himself. The question asks for the profession of 'the one who wrote a song' on that album; the album 'You Can't See Me' (2005) was a collaboration between John Cena and Marc Predka (Tha Trademarc), and John Cena co-wrote and performed the songs, including his entrance theme 'The Time Is Now'. The candidate answer 'WWE wrestler' correctly describes John Cena’s profession, but the reasoning is flawed because the answer incorrectly implies Marc Predka wrote the song — whereas Predka is Tha Trademarc (a hip hop artist), and the songwriter/performer in question is Cena. The triples and passage [4] confirm: 'Marc Predka ... better known by his stage name Tha Trademarc', and 'he and his first cousin, WWE wrestler John Cena, collaborated on the 2005 album \"You Can't See Me\"'. So the 'one who wrote a song' is John Cena, whose profession is WWE wrestler — making the answer *coincidentally* correct in label but not grounded in proper attribution. However, the candidate answer provides no justification linking 'the one' to Cena, and fails to identify Cena as the subject. Suggested retrieval: 'Who wrote the songs on the 2005 album \"You Can't See Me\"?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who collaborated with Marc Predka on the 2005 album 'You Can't See Me'?",
+          "Who wrote the songs on the 2005 album 'You Can't See Me'?",
+          "What was John Cena's profession?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "person",
+          "n_passages": 8,
+          "n_candidates": 17,
+          "candidates": [
+            "WWE wrestler",
+            "Greatest Hits",
+            "Billy Idol",
+            "Billy Idol's",
+            "Capitol Records",
+            "Rebel Yell",
+            "Keith Forsey's",
+            "Forget About Me",
+            "Although Forsey",
+            "Simple Minds",
+            "Barry Andrews",
+            "West Norwood",
+            "Robert Fripp",
+            "Brian Eno",
+            "Another Day On Earth",
+            "Iggy Pop",
+            "David Bowie"
+          ]
+        },
+        "answer": "WWE wrestler",
+        "score": 0.78,
+        "feedback": "Missing: The profession of Marc Predka (Tha Trademarc), not John Cena. The question asks for 'the one who wrote a song on a 2005 album he collaborated on with Marc Predka' — i.e., the collaborator *of* Marc Predka, not Marc Predka himself. The candidate answer incorrectly identifies John Cena (who collaborated *with* Marc Predka) as the songwriter, but the question’s phrasing ('the one who wrote a song... he collaborated on with Marc Predka') grammatically assigns 'he' to the songwriter — meaning the songwriter is the subject who collaborated *with* Marc Predka. So the songwriter is John Cena, and his profession is WWE wrestler — which *is* supported (John Cena -- is --> WWE wrestler; Tha Trademarc -- collaborated with --> John Cena; Tha Trademarc -- collaborated on --> 2005 album 'You Can't See Me'). However, the question does not ask 'Who collaborated with Marc Predka?' but rather 'What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?' — and 'he' ambiguously refers to the songwriter. Crucially, passage [4] states: 'he and his first cousin, WWE wrestler John Cena, collaborated on the 2005 album', confirming Marc Predka is the narrator ('he'), so 'he' = Marc Predka, and thus the question asks for the profession of the person Marc Predka collaborated *with* — i.e., John Cena. So the answer 'WWE wrestler' is factually grounded and consistent. But completeness is low because the answer fails to name John Cena or clarify the referent of 'he', leaving the reasoning opaque and omitting essential disambiguating context (e.g., that 'he' is Marc Predka, making the collaborator John Cena). Suggested retrieval: 'Who is the collaborator of Marc Predka on the 2005 album \"You Can't See Me\"?'"
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 3,
+      "input_tokens": 4423,
+      "output_tokens": 463,
+      "total_tokens": 4886,
+      "wall_time": 11.3832,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "location",
+      "evidence_aug_passages": [
+        "Aulacodes peribocalis: Aulacodes peribocalis is a moth in the Crambidae family. It was described by Walker in 1859. It is found in Yemen and India.",
+        "Nemegtomaia: Nemegtomaia is a genus of oviraptorid dinosaur from what is now Mongolia that lived in the Late Cretaceous Period, about 70million years ago. The first specimen was found in 1996, and became the basis of the new genus and species N. barsboldi in 2004. The original genus name was \"Nemegtia\", but this was changed to \"Nemegtomaia\" in 2005, as the former name was preoccupied. The first part of the generic name refers to the Nemegt Basin, where the animal was found, and the second part means \"good mother\", in reference to the fact that oviraptorids are known to have brooded their eggs. The specific name honours the palaeontologist Rinchen Barsbold. Two more specimens were found in 2007, one of which was found on top of a nest with eggs, but the dinosaur had received its genus name before it was found associated with eggs.",
+        "Jicheng (Beijing): Ji (蓟/薊 Jì), Jicheng or the City of Ji (蓟城/薊城 Jìchéng) was an ancient city in northern China, which has become the longest continuously inhabited section of modern Beijing. Historical mention of Ji dates to the founding of the Zhou Dynasty in about 1045 BC. Archaeological finds in southwestern Beijing where Ji was believed to be located date to the Spring and Autumn period (771-476 BC). The City of Ji served as the capital of the ancient states of Ji and Yan until the unification of China by the Qin Dynasty in 221 BC. Thereafter, the city was a prefectural capital for Youzhou through the Han Dynasty, Three Kingdoms, Western Jin Dynasty, Sixteen Kingdoms, Northern Dynasties, and Sui Dynasty. With the creation of a Jizhou (蓟州) during the Tang Dynasty in what is now Tianjin Municipality, the City of Ji took on the name Youzhou. Youzhou was one of the Sixteen Prefectures ceded to the Khitans during the Five Dynasties. The city then became the southern capital of the Liao Dynasty and then main capital of the Jin Dynasty (1115-1234). In the 13th Century, Kublai Khan built a new capital city for the Yuan Dynasty adjacent to Ji to the north. The old city of Ji became a suburb to Dadu. In the Ming Dynasty, the old and new cities were merged by Beijing's Ming-era city wall.",
+        "Hangman's Graveyard: Hangman's Graveyard is a Canadian documentary film which was originally broadcast in Canada on History Television on December 6, 2009. A work-in-progress screening of the film was presented at the Ontario Archaeological Society’s 36th annual symposium and as the opening film of DocFest Stratford in October 2009. The film follows an archaeological investigation at Toronto's old Don Jail beginning in September 2007. The archaeologists uncovered a cemetery behind the jail and began a process of identifying the remains. In total, 15 bodies were found, and all are thought to be remains of executed inmates. The archaeological team is led by Dr. Ronald Williamson of Archaeological Services Inc. Produced by Canada's Ballinran Productions, the company behind the Gemini and IFTA nominated documentary \"Death or Canada\", the film follows the lives of three men found in the forgotten cemetery - George Bennett, Jan Ziolko and Frederick Davis - and examines the history of the Don Jail, capital punishment in Canada and the nation's most feared hangman, Arthur Ellis.",
+        "Aulacodes templalis: Aulacodes templalis is a moth in the Crambidae family. It was described by Schaus in 1906. It is found in Brazil.",
+        "Aulacodes traversalis: Aulacodes traversalis is a moth in the Crambidae family. It was described by Harrison Gray Dyar Jr. in 1914. It is found in Panama.",
+        "Yemen: Yemen ( ; Arabic: اليَمَن‎ ‎ \"al-Yaman \"), officially known as the Republic of Yemen (الجمهورية اليمنية \"al-Jumhūrīyah al-Yamanīyah \"), is an Arab country in Western Asia at the southern end of the Arabian Peninsula. Yemen is the second-largest country in the peninsula, occupying 527,970 km (203,850 sq mi). The coastline stretches for about 2,000 km (1,200 mi). It is bordered by Saudi Arabia to the north, the Red Sea to the west, the Gulf of Aden and Arabian Sea to the south, and Oman to the east-northeast. Although Yemen's constitutionally stated capital is the city of Sana'a, the city has been under rebel control since February 2015. Because of this, Yemen's capital has been temporarily relocated to the port city of Aden, on the southern coast. Yemen's territory includes more than 200 islands; the largest of these is Socotra.",
+        "Apple Capital Museum: The Apple Capital Museum is a museum located in Berwick, Nova Scotia exploring the history of the Town of Berwick and near-by Kings County communities. The museum is housed in a restored 19th century store, originally the Harry Lyons harness shop. In the 1940s, it was purchased by Howard Margeson who operated a men's clothing store, taxi business and bicycle shop. It was donated to the Museum in 1998 by the Margeson family. The Museum was founded in 1998 and shares the building with the tourist bureau for the Town of Berwick. The apple industry is a major focus and the Museum includes a large working railway model of the town’s centre during the height of Nova Scotia's apple industry in the 1930s with the extensive tracks and sidings of the Dominion Atlantic Railway. The Museum is run by the Apple Capital Museum Society and is open seasonally."
+      ],
+      "evidence_aug_candidates": [
+        "Ji became a suburb to Dadu",
+        "Sana'a",
+        "Aden",
+        "Berwick"
+      ]
+    },
+    "score": 0.8,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "In which Arab country is the Aulacodes peribocalis moth found?",
+          "What is the capital of that Arab country?",
+          "Where was that capital relocated to?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "location",
+          "n_passages": 8,
+          "n_candidates": 4,
+          "candidates": [
+            "Ji became a suburb to Dadu",
+            "Sana'a",
+            "Aden",
+            "Berwick"
+          ]
+        },
+        "answer": "Aden",
+        "score": 0.8,
+        "feedback": "Missing: confirmation that Yemen is the Arab country where Aulacodes peribocalis is found — the retrieved passage [1] states it is found in 'Yemen and India', but the knowledge graph triples do not explicitly link Yemen to 'Arab country', nor does any triple state Yemen is Arab (though it is factually true). The question requires identifying *the* Arab country (singular) from among its range, and the answer assumes Yemen — but the triples lack 'Yemen -- is --> an Arab country'. Suggested retrieval: 'Is Yemen an Arab country?' or 'Yemen -- is --> an Arab country'"
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Passage [3] says: “At the 1964 Tokyo",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 3,
+      "input_tokens": 4741,
+      "output_tokens": 933,
+      "total_tokens": 5674,
+      "wall_time": 21.924,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "location",
+      "evidence_aug_passages": [
+        "Nicole Gordon (badminton): Nicole Gordon (born 17 March 1976 in Lower Hutt, New Zealand) is a female badminton player from New Zealand. At the 2002 Commonwealth Games she won a silver medal with Sara Petersen in the women's doubles, and a bronze medal in the mixed team.",
+        "John Lindsay (Paralympian): John Lindsay, OAM (born 29 January 1970) is an Australian Paralympic athlete from Melbourne. He competed in the 1988 Seoul games in distances ranging from 100 m to 800 m, but did not win any medals. At the 1992 Barcelona Games, he won a gold medal in the Men's 200 m TW3 event, for which he received a Medal of the Order of Australia, a silver medal in the Men's 100 m TW3 event and a bronze medal in the Men's 400 m TW3 event. That year, he had a Victorian Institute of Sport scholarship. He was also working as a fitness instructor in 1992, held world records in the 100 m and 200 m events, and was ranked 6th in the world in the 400 m. He won a gold medal in the men's athletics 100 m T52 event at the 1996 Summer Paralympics with a time of 15.22, a silver medal in the 200 m T52 event with a time of 27.38, and a bronze medal in the 400 m T52 event with a time of 52.93. At the 2000 Sydney Games, he won a gold medal in the Men's 100 m T53 event, a silver medal as part of the Men's 4x100 m Relay T54 team, and a bronze medal in the Men's 200 m T53 event; he was also part of the Men's 4x400 m Relay T54 team, which was the only one to qualify in its heat, but it did not make it to the finals. At the 2004 Athens Games, he came seventh in the first round of the Men's 100 m T53 event and sixth in the third round of the Men's 200 m T53 event. He was an Australian Institute of Sport scholarship holder in 1995 and 2000.",
+        "Marion O'Brien: Marion O'Brien is an Australian Paralympic table tennis player and athlete. At the 1964 Tokyo Games, she won a gold medal in the women's doubles C event with Daphne Ceeney, a silver medal in the women's javelin C event, and a bronze medal in the women's singles C event. At the 1968 Tel Aviv Games, she won a silver medal in the women's doubles C event with Elaine Schreiber, and a bronze medal in the women's slalom C event.",
+        "Mick Connell: Mick \"Michael\" Connell (born 13 November 1961) is an Australian wheelchair tennis player. He won a silver medal in the Men's Singles event at the 1988 Seoul Paralympics. He participated without winning any medals at the 1992 Barcelona Paralympics. In 1996, he won the men's doubles at the Australian Open with his partner, David Hall. At the 1996 Atlanta Paralympics, he won a silver medal in the Men's Doubles event with Hall.",
+        "Du Yue: Du Yue (, born 15 February 1998) is a Chinese female badminton player. In 2014, she won the silver medal at the Asian Junior Championships in the girls' doubles event partnered with Li Yinhui. In 2015, Du and Li won the gold medal at the Asia Junior Championships in the girls' doubles event. In 2016, she won the Asia Junior Championships in the girls' doubles event partnered with Xu Ya and in the mixed doubles event with He Jiting. She also won the gold medal at the World Junior Championships in the mixed doubles event with He Jiting. In 2017, she won the China International Challengge tournament in the women's doubles event partnered with Xu Ya.",
+        "Elaine Schreiber: Elaine Annette Schreiber (4 June 1939 – 11 June 2017) was an Australian Paralympic table tennis player and athlete. She contracted poliomyelitis as a child. At the 1964 Tokyo Games, she won a gold medal in the women's club throw A event, a silver medal in the women's javelin A event, and a bronze medal in the women's singles B event. At the 1968 Tel Aviv Games, she won a silver medal in the women's doubles C event with Marion O'Brien; she also competed but did not win any medals in athletic events at the 1968 games. She participated without winning medals in athletics events at both the 1972 Heidelberg and 1976 Toronto Games, and also participated in table tennis at the latter games.",
+        "Nicole Strausak: Nicole Strausak (born October 21, 1971) is a Swiss curler who retired from competitive curling in March 2005. Amongst other awards, she received a World Junior Silver medal in 1991, a European Silver medal in 1993 and a World Silver medal in 2000. In 1999, at the European Curling Championships in Chamonix, as well as receiving a Bronze medal, she was awarded the Fair Play & Friendly Award by her fellow athletes for her conduct and attitude, on and off the ice.",
+        "Anne Tran: Anne Tran (born 27 April 1996) is a French female badminton player. In 2013, she won French National Badminton Championships in women's doubles event with her partner Delphine Lansac. In the same year, she won silver medal at the European Junior Badminton Championships in mixed team event, then in 2015 she won silver medal in girls' doubles and bronze medal in mixed doubles events."
+      ],
+      "evidence_aug_candidates": []
+    },
+    "score": 0.75,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Sara Petersen's women's doubles partner who won a silver medal with her?",
+          "At which competition did Nicole Gordon and Sara Petersen win a silver medal in women's doubles?",
+          "In what city was that competition held?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "location",
+          "n_passages": 8,
+          "n_candidates": 0,
+          "candidates": []
+        },
+        "answer": "Passage [3] says: “At the 1964 Tokyo",
+        "score": 0.75,
+        "feedback": "Missing: the city where the 2002 Commonwealth Games were held. Suggested retrieval: 'Where were the 2002 Commonwealth Games held?' or '2002 Commonwealth Games host city'"
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 3,
+      "input_tokens": 4060,
+      "output_tokens": 290,
+      "total_tokens": 4350,
+      "wall_time": 8.2456,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "comparison",
+      "evidence_aug_passages": [
+        "Providence Hospital (Washington, D.C.): Providence Hospital is a 408 bed hospital located in the District of Columbia. Founded in 1861, it is the longest continuously operating hospital in the District. Providence Hospital is a member of Ascension Health, the largest non-profit health care organization in the United States.",
+        "Hospital Brothers of St. Anthony: The Hospital Brothers of St. Anthony, Order of St. Anthony or Canons Regular of St. Anthony of Vienne (\"Canonici Regulares Sancti Antonii\", or CRSAnt), also Antonines, were a Roman Catholic congregation founded in c. 1095, with the purpose of caring for those suffering from the common medieval disease of St. Anthony's fire.",
+        "Providence Hospital (Mobile, Alabama): Providence Hospital is a 349-bed high-rise hospital in the U.S. city of Mobile, Alabama. The hospital tower was completed in 1987. The building sits at the center of a 277 acre campus, it rises approximately 170 ft and 11 stories. It was designed by noted American architect Bertrand Goldberg, best known for the Marina City complex in Chicago.",
+        "Heritage Hospital: Heritage Hospital is a hospital located in Tarboro, North Carolina. It is a part of the University Health Systems of Eastern Carolina (UHSEC). Edgecombe General Hospital opened as a county-owned hospital in 1916. It succeeded Pittman Hospital, which opened in 1901. In 1959, the Hill-Burton Act helped combine Edgecombe General Hospital, with three other facilities. Edgecombe County sold the hospital to Hospital Corporation of America (HCA) in 1982. HCA opened a 127-bed facility in 1985, named Heritage Hospital. UHSEC bought Heritage Hospital in 1998 from HCA. The hospitals focus is as a community hospital. The hospital has 101 general and 16 rehabilitation hospital beds. It has five Shared Inpatient/Ambulatory Surgery, two Endoscopy, and one C-Section operating rooms.",
+        "University Hospital (Augusta, Georgia): University Hospital is a non-profit 581-bed private hospital located in downtown Augusta, Georgia. Established in 1818, it is the second-oldest hospital in Georgia. Although University Hospital is considered a teaching institution, it does not currently sponsor an academic program resulting in a degree. University Hospital is no longer directly affiliated with the Medical College of Georgia or Augusta University. University Hospital is a fully private hospital receiving no local or state funding.",
+        "Vassar Brothers Medical Center: Vassar Brother Medical Center (locally known as Vassar Hospital or VBMC) is a major medical facility located in the city of Poughkeepsie, New York that is a member of the Health Quest network, a nonprofit family of hospitals and healthcare centers in the Hudson Valley area. VBMC is one of two major medical centers located in Dutchess County, New York, the other being Mid-Hudson Regional Hospital of Westchester Medical Center. The hospital was first incorporated in 1882 under the name Vassar Brothers Hospital, following contributions made by John Guy Vassar following the death of his brother. The hospital opened its doors in 1887, and initially had 40 beds divided up into four wards, each containing ten beds. At the time the hospital opened it also contained a labor and delivery ward, a children's ward, a nursery, three private rooms, and two isolation rooms. Several major renovations occurred in 1983, 1991, and 2001; adding critical care areas, a new operating and delivery wing, and a cancer care center, respectively. In 2002 Vassar Brothers Hospital officially became Vassar Brothers Medical Center. In September 2016, VBMC announced a new $500 million expansion which would almost double the number of available rooms. Construction on the expansion is expected to be completed in 2019.",
+        "St. Elizabeths Hospital: St. Elizabeths Hospital opened in 1855 as the first federally operated psychiatric hospital in the United States. Housing over 8,000 patients at its peak in the 1950s, the hospital at one point had a fully functioning medical-surgical unit, a school of nursing, and accredited internships and psychiatric residencies. Its campus was designated a National Historic Landmark in 1990.",
+        "St. John's Regional Medical Center (California): St. John's Regional Medical Center is a hospital located in Oxnard, California in the United States, and is operated by Dignity Health, along with its sister hospital, St. John's Pleasant Valley Hospital in Camarillo, California. The hospital was founded in 1912. St. John's Regional Medical Center and St. John's Pleasant Valley Hospital offer comprehensive medical services, including 24-hour emergency medical and surgical services and care, cancer and oncology care and support, cardiovascular care, community outreach and screenings, diagnostic imaging services, laboratory services, maternity and women's services, neonatal intensive care, palliative care, patient and family education, rehabilitation services, spine and orthopedic care, weight loss surgery, wound healing and oxygen therapy, and more. Together, St. John's Regional Medical Center and St. John's Pleasant Valley Hospital represent the largest acute-care health organization in Ventura County. St. John's hospitals serve all of Ventura County and beyond, including the cities of Camarillo, Moorpark, Oxnard, Port Hueneme, Ventura, and Somis."
+      ],
+      "evidence_aug_candidates": [
+        "St. Elizabeths Hospital",
+        "Providence Hospital",
+        "Ascension Health",
+        "United States",
+        "Hospital Brothers",
+        "Canons Regular",
+        "Canonici Regulares Sancti Antonii",
+        "Roman Catholic",
+        "Bertrand Goldberg",
+        "Marina City",
+        "Heritage Hospital",
+        "North Carolina.  It",
+        "University Health Systems",
+        "Eastern Carolina",
+        "Edgecombe General Hospital",
+        "Pittman Hospital",
+        "Burton Act"
+      ]
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did St. Elizabeths Hospital open?",
+          "When did Providence Hospital open?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "comparison",
+          "n_passages": 8,
+          "n_candidates": 17,
+          "candidates": [
+            "St. Elizabeths Hospital",
+            "Providence Hospital",
+            "Ascension Health",
+            "United States",
+            "Hospital Brothers",
+            "Canons Regular",
+            "Canonici Regulares Sancti Antonii",
+            "Roman Catholic",
+            "Bertrand Goldberg",
+            "Marina City",
+            "Heritage Hospital",
+            "North Carolina.  It",
+            "University Health Systems",
+            "Eastern Carolina",
+            "Edgecombe General Hospital",
+            "Pittman Hospital",
+            "Burton Act"
+          ]
+        },
+        "answer": "St. Elizabeths Hospital",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that the Providence Hospital referenced in the question is the one in Washington, D.C. (founded 1861), not another Providence Hospital (e.g., Mobile, AL). Suggested retrieval: 'Which Providence Hospital is most historically relevant in comparison to St. Elizabeths Hospital in Washington, D.C.?'"
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 3,
+      "input_tokens": 4861,
+      "output_tokens": 545,
+      "total_tokens": 5406,
+      "wall_time": 14.8031,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "common",
+      "evidence_aug_passages": [
+        "German Spitz: German Spitz is used to refer to both a breed of dog and category or type of dog. Several modern breeds have been developed from the German Spitz, and are either registered as separate breeds or as varieties of German Spitz. All the \"German Spitz type\" dogs are dogs of the Spitz type of German origin. The Großspitz, Mittelspitz, and Kleinspitz breeds of \"German Spitz type\" are also called the German Spitz in English.",
+        "Cis AB: Cis AB is a rare mutation in the ABO gene which complicates the basic inheritance pattern and blood-transfusion compatibility matching for ABO blood typing. There are different DNA mutations of either type A or Type B alleles that change several amino acids in enzyme transferase A or B, homologous enzymes differing in only four of 354 amino acids (R176G, G235S, L266M, and G268A). A single change in ABO gene DNA could reverse type B to type A and then, a new hybrid enzyme will produce both weak B and A2 (in serum test, A2B and A2B3)). The most common mutation is an A105 allele variation in exon 7 nucleotide position G803C changing Glycine (type A) to Alanine (type B). There are another 8 alleles reported in BGMUT, the most discovered reciently in China and Taiwan. In the cis-AB genotype, both antigens are expressed, like in a standard (trans) AB genotype. In a traditional AB phenotype, A and B antigenes are inherited separately from the father and mother while a cis-AB allele comes from one parent only. In a serum test, cis-AB tests almost the same as a traditional AB, but people with this rare type have problems with blood transfusions. Some of them need components like washed red blood cells or autotransfusion of serum and blood.",
+        "Braque Francais: The Braques français are hunting dogs, from a very old type of gun dog used for pointing the location of game birds for a hunter. There are two breeds of Braque français, both from the south of France, the Braque français, type Gascogne (French Pointing Dog - Gascogne type, larger size) and the Braque français, type Pyrénées (French Pointing Dog - Pyrenean type, smaller size) They are popular hunting dogs in France, but are seldom seen elsewhere.",
+        "Aubrieta: Aubrieta (commonly known as Aubretia) is a genus of about 12 species of flowering plants in the cabbage family Brassicaceae. The genus is named after Claude Aubriet, a French flower-painter. It originates from southern Europe east to central Asia but is now a common garden escape throughout Europe. It is a low, spreading plant, hardy, evergreen and perennial, with small violet, pink or white flowers, and inhabits rocks and banks. It prefers light, well-drained soil, is tolerant of a wide pH range, and can grow in partial shade or full sun.",
+        "Composite liner: Disposing trash on Earth mainly comes in three ways: littering, incinerating, and storing in it the many landfills we have around the world. With today’s landfills, there are very constructed contaminate structures. These systems are designed to help keep solid waste from becoming too uncontained and uncontrolled from the environment and the impact it could have on the health of humans. The purpose of having a liner system within a landfill is mainly to isolate everything within the landfill from the environment and protect it from contaminating the contents of the soil and especially the water within the ground. These liners are engineered to create a physical barrier between the garbage within the landfill, the ground, and the environment, in order to separate the liquid contaminate (leachate) so that it can go to a treatment facility. There are different types of these landfill sites for the different types of solid wastes which society creates and leaves behind. There are certain levels of harmfulness in which the different types of trash have; therefore, there are different types of liner systems which are required for these different types of disposal sites. The first type is single liner-systems. These systems usually are put within landfills which mostly hold construction rubble. These landfills are not meant to hold the disposal of harmful liquid wastes such as paint, tar, or any other type of liquid garbage that can easily seep through a single liner system. The second type is double-liner systems. These systems are usually found in municipal solid waste landfills as well all hazardous waste landfills. The first part is constructed to collect the leachate while the second layer is engineered to be a leak-detection system to ensure that no contaminates leak into the ground and contaminate everything.",
+        "Collie: The collie is a distinctive type of herding dog, including many related landraces and standardised breeds. The type originated in Scotland and Northern England. The collie is a medium-sized, fairly lightly built dog, with a pointed snout. Many types have a distinctive white pattern over the shoulders. Collies are very active and agile, and most types of collies have a very strong herding instinct. Collie breeds have spread through many parts of the world (especially Australia and North America) and have diversified into many varieties, sometimes with mixture from other dog types. Some collie breeds have remained as working dogs, used for herding cattle, sheep and other livestock, while others are kept as pets, show dogs or for dog sports, in which they display great agility, stamina and trainability. While the AKC has a breed they call \"Collie\", in fact collie dogs are a distinctive type of herding dog including many related landraces and formal breeds. There are usually major distinctions between show dogs and those bred for herding trials or dog sports. They typically display great agility, stamina and trainability and more importantly sagacity.",
+        "Skin cancer in horses: Skin cancer, or neoplasia, is the most common type of cancer diagnosed in horses, accounting for 45 to 80% of all cancers diagnosed. Sarcoids are the most common type of skin neoplasm and are the most common type of cancer overall in horses. Squamous-cell carcinoma is the second-most prevalent skin cancer, followed by melanoma. Squamous-cell carcinoma and melanoma usually occur in horses greater than 9-years-old, while sarcoids commonly affect horses 3 to 6 years old. Surgical biopsy is the method of choice for diagnosis of most equine skin cancers, but is contraindicated for cases of sarcoids. Prognosis and treatment effectiveness varies based on type of cancer, degree of local tissue destruction, evidence of spread to other organs (metastasis) and location of the tumor. Not all cancers metastasize and some can be cured or mitigated by surgical removal of the cancerous tissue or through use of chemotherapeutic drugs.",
+        "Biocommunication (science): In the study of the biological sciences, biocommunication is any specific type of communication within (intraspecific) or between (interspecific) species of plants, animals, fungi, protozoa and microorganisms. Communication basically means sign-mediated interactions"
+      ],
+      "evidence_aug_candidates": [
+        "German Spitz",
+        "German Spitz.  All",
+        "Cis AB",
+        "The Braques français",
+        "Braque Francais",
+        "The Braques",
+        "French Pointing Dog",
+        "Aubrieta",
+        "Claude Aubriet",
+        "Disposing trash on Earth mainly comes in three ways: littering",
+        "The collie",
+        "Northern England.  The",
+        "North America",
+        "Skin cancer",
+        "In the study of the biological sciences"
+      ]
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of plants does the genus Psychopsis belong to?",
+          "What type of plants does the genus Aubrieta belong to?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "common",
+          "n_passages": 8,
+          "n_candidates": 15,
+          "candidates": [
+            "German Spitz",
+            "German Spitz.  All",
+            "Cis AB",
+            "The Braques français",
+            "Braque Francais",
+            "The Braques",
+            "French Pointing Dog",
+            "Aubrieta",
+            "Claude Aubriet",
+            "Disposing trash on Earth mainly comes in three ways: littering",
+            "The collie",
+            "Northern England.  The",
+            "North America",
+            "Skin cancer",
+            "In the study of the biological sciences"
+          ]
+        },
+        "answer": "flowering plants",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: confirmation that Psychopsis is a genus of flowering plants. Suggested retrieval: 'Psychopsis' -- is a genus of --> ?"
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "But caution: “no” would mean they are *not* the same genre — which also requires evidence about *Frozen*’s genre to assert. We have none. So strictly, answer is unsupported — but per",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 6,
+      "input_tokens": 8228,
+      "output_tokens": 1770,
+      "total_tokens": 9998,
+      "wall_time": 42.5659,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "yesno",
+      "evidence_aug_passages": [
+        "Silene stenophylla: Silene stenophylla is a species of flowering plant in the family Caryophyllaceae. Commonly called narrow-leafed campion, it is a species in the genus \"Silene\". It grows in the Arctic tundra of far eastern Siberia and the mountains of Northern Japan. Frozen samples, estimated via radiocarbon dating to be around 32,000 years old, were discovered in the same area as current living specimens, and in 2012 a team of scientists successfully regenerated a plant from the samples.",
+        "Peter Jackson: Sir Peter Robert Jackson {'1': \", '2': \", '3': \", '4': \"} (born 31 October 1961) is a New Zealand film director, screenwriter and film producer. He is best known as the director, writer, and producer of \"The Lord of the Rings\" trilogy (2001–03) and \"The Hobbit\" trilogy (2012–14), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama \"Heavenly Creatures\" (1994), the mockumentary \"Forgotten Silver\" (1995), the horror comedy \"The Frighteners\" (1996), the epic monster remake film \"King Kong\" (2005), and the supernatural drama film \"The Lovely Bones\" (2009). He also produced \"District 9\" (2009), \"The Adventures of Tintin: The Secret of the Unicorn\" (2011), and the documentary \"West of Memphis\" (2012).",
+        "Riptide (book series): Riptide is a series of short story anthologies published by Dirt Pie Press, based within the University of Exeter. The founding editors are Ginny Baily and Sally Flint. The journal includes submissions from writers that are both previously published and unpublished. Notable authors whose work has appeared in previous editions include Michael Morpurgo, Helen Dunmore, and Philip Hensher.",
+        "Cool and the Crazy: Cool and the Crazy is a 1994 American drama film written and directed by Ralph Bakshi and starring Jared Leto and Alicia Silverstone. The story revolves around an unhappily married couple in the late 1950s who both lead separate affairs. The film was Bakshi's first feature-length live-action film, being primarily known as a director of animated films which heavily utilize live-action sequences, such as \"Fritz the Cat\", \"Heavy Traffic\", \"Wizards\", \"American Pop\" and \"The Lord of the Rings\".",
+        "The Future of Oil: A Straight Story of the Canadian Oil Sands: The Future of Oil: A Straight Story of the Canadian Oil Sands",
+        "Low-budget film: A low-budget film or low-budget movie is a motion picture shot with little to no funding from a major film studio or private investor. Many independent films are made on low budgets, but films made on the mainstream circuit with inexperienced or unknown filmmakers can also have low budgets. Many young or first time filmmakers shoot low-budget films to prove their talent before doing bigger productions. Many low-budget films that do not gain some form of attention or acclaim are never released in theatres and are often sent straight to retail because of its lack of marketability, look, story, or premise. There is no precise number to define a low budget production, and it is relative to both genre and country. What might be a low-budget film in one country may be a big budget in another. Modern-day young filmmakers rely on film festivals for pre promotion. They use this to gain acclaim and attention for their films, which often leads to a limited release in theatres. Film that acquire a cult following may be given a wide release. Low-budget films can be either professional productions or amateur. They are either shot using professional or consumer equipment.",
+        "The Straight Story: The Straight Story is a 1999 internationally co-produced biographical road drama film directed by David Lynch. The film was edited and produced by Mary Sweeney, Lynch's longtime partner and co-worker. She co-wrote the script with John E. Roach. The film is based on the true story of Alvin Straight's 1994 journey across Iowa and Wisconsin on a lawn mower. Alvin (Richard Farnsworth) is an elderly World War II veteran who lives with his daughter Rose (Sissy Spacek), a kind woman with an intellectual disability. When he hears that his estranged brother Lyle (Harry Dean Stanton) has suffered a stroke, Alvin makes up his mind to go visit him and hopefully make amends before he dies. Because Alvin's legs and eyes are too impaired for him to receive a driving license, he hitches a trailer to his recently purchased thirty-year-old John Deere 110 Lawn Tractor, having a maximum speed of about 5 miles per hour, and sets off on the 240 mile journey from Laurens, Iowa to Mount Zion, Wisconsin.",
+        "Mary Sweeney: Mary Sweeney is an American film producer, director, writer and film editor, who collaborated for 20 years with her husband, avant-garde American film director, David Lynch. Sweeney worked with Lynch on several films and television series, most notably the original \"Twin Peaks\" series (1990), \"Lost Highway\" (1997), \"The Straight Story\", (1999) and \"Mulholland Drive\" (2001). Sweeney is the Dino and Martha De Laurentiis Endowed Professor in the Writing Division of the School of Cinematic Arts at the University of Southern California. She is the Chair of the Film Independent Board of Directors."
+      ],
+      "evidence_aug_candidates": [
+        "yes",
+        "no"
+      ]
+    },
+    "score": 0.44000000000000006,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of Frozen?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "yesno",
+          "n_passages": 8,
+          "n_candidates": 2,
+          "candidates": [
+            "yes",
+            "no"
+          ]
+        },
+        "answer": "But caution: “no” would mean they are *not* the same genre — which also requires evidence about *Frozen*’s genre to assert. We have none. So strictly, answer is unsupported — but per",
+        "score": 0.44000000000000006,
+        "feedback": "Missing: The genre of Disney's 'Frozen' (2013). Suggested retrieval: 'What is the genre of the 2013 film Frozen?' or query knowledge graph for triple: 'Frozen -- is a --> [genre]'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of the 2013 film Frozen?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "yesno",
+          "n_passages": 8,
+          "n_candidates": 2,
+          "candidates": [
+            "yes",
+            "no"
+          ]
+        },
+        "answer": "no",
+        "score": 0.47,
+        "feedback": "Missing: genre classification of 'Frozen' (2013 Disney animated film). Suggested retrieval: 'Frozen (2013 film) -- is a --> [genre]' or 'Frozen -- genre --> musical fantasy animation'"
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 3,
+      "input_tokens": 3915,
+      "output_tokens": 378,
+      "total_tokens": 4293,
+      "wall_time": 9.5732,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": true,
+      "evidence_aug_question_type": "other",
+      "evidence_aug_passages": [
+        "Japanese Weekend School of New York: The Japanese Weekend School of New York (JWSNY; ニューヨーク \"Nyūyōku Hoshū Jugyō Kō\") is a Japanese supplementary school in the New York City metropolitan area. It has its offices in New Roc City in New Rochelle, New York. The Japanese Educational Institute of New York (JEI; ニューヨーク日本人教育審議会 \"Nyūyōku Nihonjin Kyōiku Shingi Kai\") manages the school system, and the JWSNY is one of its two weekend school systems. The JEI also operates two Japanese day schools in the New York area.",
+        "New Jersey Japanese School: The New Jersey Japanese School (ニュージャージー日本人学校 , \"Nyūjājī Nihonjin Gakkō\" , NJJS) is a Japanese school located in Oakland, New Jersey, United States in the New York City metropolitan area. It is one of the two Japanese day schools operated by the Japanese Educational Institute of New York (JEI; ニューヨーク日本人教育審議会 \"Nyūyōku Nihonjin Kyōiku Shingi Kai\"), a nonprofit organization which also operates two Japanese weekend school systems in the New York City area.",
+        "Princeton Community Japanese Language School: The Princeton Community Japanese Language School (PCJLS; プリンストン日本語学校 \"Purinsuton Nihongo Gakkō\") is a Japanese weekend school in the Princeton, New Jersey area. It holds weekend Japanese classes for Japanese citizen children abroad to the standard of the Ministry of Education, Culture, Sports, Science and Technology (MEXT), and it also has classes for people with Japanese as a second language.",
+        "New Roc City: New Roc City, also known as New Rochelle Center, is an entertainment, retail and residential complex in the Downtown section of the city of New Rochelle in Westchester County, New York. It is located at 33 LeCount Place, between Main Street North and Main Street South. The center was built on the site of the former New Rochelle Mall which closed in 1992.",
+        "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden. It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+        "San Francisco Japanese School: The San Francisco Japanese School (SFJS, サンフランシスコ日本語 \"San Furanshisuko Nihongo Hoshū Kō\") is a weekend Japanese school serving the San Francisco Bay Area. The system, with its administrative offices in San Francisco, is a 501(c)(3) non-profit organization, and was the world's second largest overseas Japanese weekend school in 2006. The school is supported by the Japanese government. It is known as the best Japanese supplementary school in the world with mostly great teachers. Although it does have a shortage of teachers due to the large number of students.",
+        "Katherine Oliver: Katherine Oliver is an American media and entertainment executive based in New York City. Oliver is currently a Principal at Bloomberg Associates, a philanthropic consultancy firm founded by Michael Bloomberg to provide advice and long-term solutions to cities worldwide. On August 1, 2002, she was appointed by New York City Mayor Michael Bloomberg as the Commissioner of The New York City Mayor's Office of Film, Theatre and Broadcasting, which facilitates all aspects of film, television and commercial production in New York City, coordinating on-location filming, liaising with the community and promoting the City as an entertainment capital. Oliver was the main liaison between the Mayor's Office and Hollywood and aimed \"to make filmmakers and production companies happy to return to New York.\" In 2013, Oliver and Mayor Bloomberg were featured on the cover of Variety and were credited for their role in \"revitalizing the city's entertainment sector.\" An economic impact study released by the Boston Consulting Group in 2012 found that New York City's entertainment industry during Oliver's tenure as film commissioner had grown to account for a $7.1 billion annual direct spend in New York City, an increase of $2 billion since 2002, and that the local industry created 30,000 jobs in New York City since 2004, growing to employ 130,000 people. AM New York noted that: \"New York's film and TV industry is stronger than it has ever been, pumping $7.1 billion into the local economy in 2011 and bringing in some $60 billion over the last decade.\" After Bloomberg announced that former president and co-founder of NYC Media Group Arick Wierson was returning to the private sector, Bloomberg named Oliver as the incoming president of NYC Media and general manager of NYCTV. In July 2010, Oliver became the commissioner of the Mayor's Office of Media and Entertainment, the city agency that includes the Mayor's Office of Film, Theatre and Broadcasting, NYC Media, and NYC Digital.",
+        "Standard Star Building: The Standard Star Building is a historic commercial structure located in the Downtown section of New Rochelle, Westchester County, New York. The building, designed by architect Lawrence J. Barnard, was completed in 1924 and is an architecturally significant example of the Italian Renaissance style in New Rochelle. Although it has been altered, these changes occurred only on the Le Count Place façade and the interior of the building. The original Standard Star building exterior remains largely unchanged. It is further historically significant for its association with a long-published New Rochelle newspaper covering life in New Rochelle."
+      ],
+      "evidence_aug_candidates": []
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where is the Japanese Weekend School of New York located?",
+          "What entertainment complex is in that section of New Rochelle?"
+        ],
+        "n_triples": 50,
+        "evidence_aug": {
+          "enabled": true,
+          "question_type": "other",
+          "n_passages": 8,
+          "n_candidates": 0,
+          "candidates": []
+        },
+        "answer": "Downtown",
+        "score": 1.0,
+        "feedback": "Missing: None — the answer 'Downtown' is directly supported by triple 'New Roc City -- is located in --> the Downtown section of the city of New Rochelle' and confirmed by retrieved passage [4]: 'New Roc City [...] is an entertainment, retail and residential complex in the Downtown section of the city of New Rochelle'. The question asks for the section of New Rochelle where the Japanese Weekend School of New York has offices in the entertainment complex; 'New Roc City' is explicitly identified as that entertainment complex and as being in the Downtown section. No further retrieval is needed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "5adf37955542993a75d2642e": {
+    "answer": "The actor who appeared in both *One Life to Live* and *General Hospital* in 2012—and notably carried over the role of Starr Manning after *One Life to Live* concluded—was Kristen Alderson. According to the provided data, Alderson won the Daytime Emmy Award for Outstanding Younger Actress in **2013**, following her crossover to *General Hospital* [Data: Sources (4)]. This award recognized her performance in the role she originated on *One Life to Live* and continued on *General Hospital*, making her the second actor from that series to win an Emmy for a crossover portrayal.",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf37955542993a75d2642e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 132.2912,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  }
+}

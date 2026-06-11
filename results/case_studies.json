@@ -1,0 +1,190 @@
+[
+  {
+    "qid": "5a88db445542993b751ca88a",
+    "question": "Which Italian classical composer, conductor, and teacher born in 1750 composed this four-movement serenade in B-flat major for five instruments (2 oboes, 2 horns and 1 bassoon)?",
+    "gold": "Antonio Salieri",
+    "final_answer": "Antonio Salieri",
+    "iter1_score": 0.0,
+    "iter2_score": 0.94,
+    "iter1_subqueries": [
+      "Who is the Italian classical composer, conductor, and teacher born in 1750?",
+      "What is the title or identifying name of the four-movement serenade in B-flat major for two oboes, two horns, and one bassoon composed by that person?"
+    ],
+    "iter2_subqueries": [
+      "Who is the Italian classical composer, conductor, and teacher born in 1750?",
+      "Who composed the 'Picciola serenata in B-flat major' for 2 oboes, 2 horns, and 1 bassoon, and was that person born in 1750?"
+    ],
+    "iter1_feedback": "Missing: the composer of 'Picciola serenata (little serenade) in B-flat major' and their birth year. Suggested sub-question: Who composed the 'Picciola serenata in B-flat major' for 2 oboes, 2 horns, and 1 bassoon, and was that person born in 1750?",
+    "score_improvement": 0.94
+  },
+  {
+    "qid": "5ab852c05542990e739ec8c5",
+    "question": "Which peak is flanked by Manaslu, Shispare or Ngadi Chuli?",
+    "gold": "Ngadi Chuli",
+    "final_answer": "Ngadi Chuli",
+    "iter1_score": 0.0,
+    "iter2_score": 0.8500000000000001,
+    "iter1_subqueries": [
+      "Which mountains are Manaslu, Shispare, and Ngadi Chuli?",
+      "What is the geographical relationship (e.g., proximity, adjacency) between Manaslu, Shispare, and Ngadi Chuli?",
+      "Which peak lies between or is flanked by any two of Manaslu, Shispare, and Ngadi Chuli?"
+    ],
+    "iter2_subqueries": [
+      "Which mountains are Manaslu and Ngadi Chuli?",
+      "What is the geographical relationship (e.g., proximity, adjacency) between Manaslu and Ngadi Chuli?",
+      "Which peak is flanked by Manaslu and Ngadi Chuli?"
+    ],
+    "iter1_feedback": "Missing: the name of the peak flanked by Manaslu, Shispare, or Ngadi Chuli. Suggested sub-question: Which peak is flanked by Manaslu and Ngadi Chuli? (Note: 'Shispare' does not appear in any triple — it is absent from the knowledge graph.)",
+    "score_improvement": 0.8500000000000001
+  },
+  {
+    "qid": "5a80721b554299485f5985ef",
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "gold": "World War II",
+    "final_answer": "World War II",
+    "iter1_score": 0.29000000000000004,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Which war had over 60 million casualties?",
+      "Which war does the Livesey Hall War Memorial commemorate?"
+    ],
+    "iter2_subqueries": [
+      "Which war had over 60 million casualties?",
+      "Which war(s) does the Livesey Hall War Memorial specifically commemorate, and is there official documentation (e.g., inscription, CWGC record, or unveiling speech) confirming this?"
+    ],
+    "iter1_feedback": "Missing: definitive, unambiguous commemoration scope for The Livesey Hall War Memorial — the knowledge graph contains two contradictory triples: 'The Livesey Hall War Memorial -- commemorates --> the fallen of World War II' and 'The Livesey Hall War Memorial -- commemorates --> the fallen of World War I'. Suggested sub-question: Which war(s) does the Livesey Hall War Memorial specifically commemorate, and is there official documentation (e.g., inscription, CWGC record, or unveiling speech) confirming this?",
+    "score_improvement": 0.71
+  },
+  {
+    "qid": "5ae5415055429908b63265b7",
+    "question": "Japanese Weekend School of New York has offices in the entertainment complex in what section of New Rochelle?",
+    "gold": "Downtown",
+    "final_answer": "Downtown",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Where is the Japanese Weekend School of New York located?",
+      "What entertainment complex is in that section of New Rochelle?"
+    ],
+    "iter2_subqueries": [
+      "Where is the Japanese Weekend School of New York located?",
+      "What entertainment complex is in that section of New Rochelle?",
+      "In what section of New Rochelle is New Roc City located?"
+    ],
+    "iter1_feedback": "Missing: the section of New Rochelle where New Roc City is located. Suggested sub-question: In what section of New Rochelle is New Roc City located?",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5a8f7c9a55429918e830d239",
+    "question": "Which NFL team did both Don Looney and DeSean Jackson play for?",
+    "gold": "Philadelphia Eagles",
+    "final_answer": "Philadelphia Eagles",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Which NFL teams did Don Looney play for?",
+      "Which NFL teams did DeSean Jackson play for?",
+      "What NFL team is common to both lists?"
+    ],
+    "iter2_subqueries": [
+      "Which NFL teams did John Don Looney play for?",
+      "Which NFL teams did DeSean Jackson play for?",
+      "What NFL team is common to both lists?"
+    ],
+    "iter1_feedback": "Missing: team affiliations for Don Looney and DeSean Jackson. Suggested sub-question: Which NFL teams did John Don Looney play for? Which NFL teams did DeSean Jackson play for?",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5ab7fa4f5542993667794080",
+    "question": "Which of the following was founded in 2003: University of Arizona or Presbyterian University College?",
+    "gold": "Presbyterian University College",
+    "final_answer": "Presbyterian University College",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "When was the University of Arizona founded?",
+      "When was Presbyterian University College founded?"
+    ],
+    "iter2_subqueries": [
+      "When was the University of Arizona founded?",
+      "In which year was Presbyterian University College, Ghana founded?"
+    ],
+    "iter1_feedback": "Missing: founding year of Presbyterian University College, Ghana. Suggested sub-question: In which year was Presbyterian University College, Ghana founded?",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5a8b3af455429971feec467b",
+    "question": "Blinding Edge Pictures produced which 2000 film starring Bruce Willis?",
+    "gold": "Unbreakable",
+    "final_answer": "Unbreakable",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "What films were produced by Blinding Edge Pictures in 2000?",
+      "Which of those films starred Bruce Willis?"
+    ],
+    "iter2_subqueries": [
+      "What films were produced by Blinding Edge Pictures in 2000?",
+      "Which of those films starred Bruce Willis?",
+      "What year was Unbreakable released, and who starred in it?"
+    ],
+    "iter1_feedback": "Missing: Blinding Edge Pictures' filmography and release years for its produced films, specifically whether any of them (e.g., Unbreakable) were released in 2000 and starred Bruce Willis. Suggested sub-question: 'What year was Unbreakable released, and who starred in it?'",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5ac09d265542992a796ded39",
+    "question": "Erving Goffman was cited as higher than a literary critic on which guide?",
+    "gold": "The Times Higher Education Guide",
+    "final_answer": "The Times Higher Education Guide",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Who is Erving Goffman?",
+      "Who is the literary critic mentioned in the context of the guide?",
+      "On which guide was Erving Goffman ranked higher than that literary critic?"
+    ],
+    "iter2_subqueries": [
+      "Who is Erving Goffman?",
+      "Which literary critics were included in the same ranking as Erving Goffman?",
+      "In which edition or ranking guide was Erving Goffman ranked above literary critics, and what was the specific context or metric (e.g., citation count, influence ranking)?",
+      "Was Erving Goffman cited as higher than a literary critic in The Times Higher Education Guide, and if so, in which year and category?"
+    ],
+    "iter1_feedback": "Missing: any triple linking Erving Goffman to 'The Times Higher Education Guide' or any ranking/ranking guide where he was cited 'higher than a literary critic'. Suggested sub-question: In which edition or ranking guide was Erving Goffman ranked above literary critics, and what was the specific context or metric (e.g., citation count, influence ranking)?",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5abbc4d255429931dba144fe",
+    "question": "Which genus of plant grows originally in Mexico and Guatemala, Phylica or Weldenia?",
+    "gold": "Weldenia",
+    "final_answer": "Weldenia",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Where does Phylica originally grow?",
+      "Where does Weldenia originally grow?"
+    ],
+    "iter2_subqueries": [
+      "Where is the genus Weldenia native to?",
+      "Where is the genus Phylica native to?"
+    ],
+    "iter1_feedback": "Missing: native range (origin) of Weldenia and Phylica genera. Suggested sub-question: Where is the genus Weldenia native to? Where is the genus Phylica native to?",
+    "score_improvement": 0.7
+  },
+  {
+    "qid": "5abb326055429966062416e7",
+    "question": "Ruddles Brewery is owned by a pub retailer and brewer based in what city?",
+    "gold": "Bury St Edmunds",
+    "final_answer": "Bury St Edmunds",
+    "iter1_score": 0.3,
+    "iter2_score": 1.0,
+    "iter1_subqueries": [
+      "Who owns Ruddles Brewery?",
+      "In which city is the owner of Ruddles Brewery based?"
+    ],
+    "iter2_subqueries": [
+      "Which pub retailer and brewer owns Ruddles Brewery, and in which city is that company headquartered?"
+    ],
+    "iter1_feedback": "Missing: ownership relationship between Ruddles Brewery and a pub retailer/brewer, and the city where that owner is based. Suggested sub-question: Which pub retailer and brewer owns Ruddles Brewery, and in which city is that company headquartered?",
+    "score_improvement": 0.7
+  }
+]

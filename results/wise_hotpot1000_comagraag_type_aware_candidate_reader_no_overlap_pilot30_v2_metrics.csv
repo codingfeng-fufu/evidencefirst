@@ -1,0 +1,2 @@
+mode,n,current_EM,current_F1,EM,F1,targets,switches,switch_wins,switch_losses,acceptance_not_target,acceptance_same_as_current,acceptance_not_grounded,acceptance_how_many_year,acceptance_accepted,acceptance_low_confidence,acceptance_limit_not_called,target_number_date,target_location,target_other,target_comparison,target_common,target_yesno,target_person
+type_aware_candidate_reader,1000,0.558,0.6587,0.558,0.6587,30,1,0,0,815,26,1,1,1,1,155,5,4,12,3,3,1,2

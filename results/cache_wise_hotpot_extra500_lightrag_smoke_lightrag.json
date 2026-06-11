@@ -1,0 +1,30 @@
+{
+  "5adf37955542993a75d2642e": {
+    "answer": "1994",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf37955542993a75d2642e",
+      "llm_calls": 1,
+      "input_tokens": 345,
+      "output_tokens": 4,
+      "total_tokens": 349,
+      "wall_time": 124.035,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5adfb790554299603e418389": {
+    "answer": "Multiple common names",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adfb790554299603e418389",
+      "llm_calls": 1,
+      "input_tokens": 300,
+      "output_tokens": 3,
+      "total_tokens": 303,
+      "wall_time": 147.9499,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  }
+}

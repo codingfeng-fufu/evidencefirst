@@ -1,0 +1,12 @@
+{
+  "n": 1000,
+  "current_em": "0.5360",
+  "current_f1": "0.6484",
+  "oracle_em": "0.6140",
+  "oracle_f1": "0.7193",
+  "current_exact": 536,
+  "no_candidate_overlap": 185,
+  "partial_candidate_improves_f1": 51,
+  "partial_candidate_no_improvement": 150,
+  "selector_miss_exact_candidate": 78
+}

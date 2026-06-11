@@ -1,0 +1,542 @@
+{
+  "5a7b24fe55429931da12c9f7": {
+    "answer": "German Spitz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b24fe55429931da12c9f7",
+      "llm_calls": 4,
+      "input_tokens": 3392,
+      "output_tokens": 613,
+      "total_tokens": 4005,
+      "wall_time": 34.8802,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5abd247e5542996e802b472f": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abd247e5542996e802b472f",
+      "llm_calls": 10,
+      "input_tokens": 6457,
+      "output_tokens": 882,
+      "total_tokens": 7339,
+      "wall_time": 23.7592,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83a7e15542992ef85e2347": {
+    "answer": "Dan Castellaneta",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83a7e15542992ef85e2347",
+      "llm_calls": 4,
+      "input_tokens": 3152,
+      "output_tokens": 207,
+      "total_tokens": 3359,
+      "wall_time": 6.9695,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac4f12d55429924173fb4f6": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac4f12d55429924173fb4f6",
+      "llm_calls": 10,
+      "input_tokens": 7242,
+      "output_tokens": 1080,
+      "total_tokens": 8322,
+      "wall_time": 27.9707,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab33ef955429969a97a810e": {
+    "answer": "Washington, D.C",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab33ef955429969a97a810e",
+      "llm_calls": 10,
+      "input_tokens": 6874,
+      "output_tokens": 2728,
+      "total_tokens": 9602,
+      "wall_time": 63.7229,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a1d305542990783324e66": {
+    "answer": "musician",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7a1d305542990783324e66",
+      "llm_calls": 4,
+      "input_tokens": 2979,
+      "output_tokens": 911,
+      "total_tokens": 3890,
+      "wall_time": 21.9415,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ac00f795542996f0d89cb16": {
+    "answer": "Scrooge McDuck",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ac00f795542996f0d89cb16",
+      "llm_calls": 10,
+      "input_tokens": 7036,
+      "output_tokens": 1018,
+      "total_tokens": 8054,
+      "wall_time": 27.0352,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae4ec1e5542990ba0bbb19b": {
+    "answer": "The Bears and I",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae4ec1e5542990ba0bbb19b",
+      "llm_calls": 10,
+      "input_tokens": 7164,
+      "output_tokens": 2002,
+      "total_tokens": 9166,
+      "wall_time": 47.2458,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8408a9554299123d8c21d3": {
+    "answer": "Leonard Cohen",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8408a9554299123d8c21d3",
+      "llm_calls": 10,
+      "input_tokens": 7236,
+      "output_tokens": 1972,
+      "total_tokens": 9208,
+      "wall_time": 47.1443,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83041355429966c78a6ae8": {
+    "answer": "director",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83041355429966c78a6ae8",
+      "llm_calls": 4,
+      "input_tokens": 2864,
+      "output_tokens": 428,
+      "total_tokens": 3292,
+      "wall_time": 10.979,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "WWE wrestler",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 10,
+      "input_tokens": 7671,
+      "output_tokens": 1578,
+      "total_tokens": 9249,
+      "wall_time": 38.441,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a86458b5542991e771815ec": {
+    "answer": "not provided",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a86458b5542991e771815ec",
+      "llm_calls": 10,
+      "input_tokens": 5217,
+      "output_tokens": 575,
+      "total_tokens": 5792,
+      "wall_time": 16.9462,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae694a15542991bbc976141": {
+    "answer": "Not mentioned",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae694a15542991bbc976141",
+      "llm_calls": 10,
+      "input_tokens": 6966,
+      "output_tokens": 771,
+      "total_tokens": 7737,
+      "wall_time": 21.1094,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7f53ff5542992097ad2f17": {
+    "answer": "Columbine",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7f53ff5542992097ad2f17",
+      "llm_calls": 4,
+      "input_tokens": 3570,
+      "output_tokens": 491,
+      "total_tokens": 4061,
+      "wall_time": 12.856,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8ec02e5542995a26add501": {
+    "answer": "Check It Out!",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8ec02e5542995a26add501",
+      "llm_calls": 10,
+      "input_tokens": 6831,
+      "output_tokens": 1026,
+      "total_tokens": 7857,
+      "wall_time": 26.3519,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a8fdb955542990a98493572": {
+    "answer": "Families Against Corporate Killers",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a8fdb955542990a98493572",
+      "llm_calls": 10,
+      "input_tokens": 7278,
+      "output_tokens": 837,
+      "total_tokens": 8115,
+      "wall_time": 22.2717,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a85ae455542997175ce1ff0": {
+    "answer": "no role",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a85ae455542997175ce1ff0",
+      "llm_calls": 10,
+      "input_tokens": 7079,
+      "output_tokens": 1447,
+      "total_tokens": 8526,
+      "wall_time": 35.5126,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a710a915542994082a3e504": {
+    "answer": "Scott Treleaven",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a710a915542994082a3e504",
+      "llm_calls": 10,
+      "input_tokens": 7112,
+      "output_tokens": 1567,
+      "total_tokens": 8679,
+      "wall_time": 38.1917,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab207f65542993be8fa98b8": {
+    "answer": "Preston, Lancashire, UK",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ab207f65542993be8fa98b8",
+      "llm_calls": 4,
+      "input_tokens": 3045,
+      "output_tokens": 297,
+      "total_tokens": 3342,
+      "wall_time": 8.4765,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "Dead Poets Society",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 10,
+      "input_tokens": 8434,
+      "output_tokens": 1334,
+      "total_tokens": 9768,
+      "wall_time": 32.7915,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  }
+}

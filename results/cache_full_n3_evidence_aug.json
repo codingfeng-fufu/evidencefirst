@@ -1,0 +1,1602 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 88.2791,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.6518,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.9802,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 25.585,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.2524,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 25.307,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.1885,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 45.8917,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.0873,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.8671,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7ca74c55429907fabeefe9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7ca74c55429907fabeefe9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.9242,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab465095542991751b4d75a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab465095542991751b4d75a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 16.3512,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae763aa5542995703ce8c09": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae763aa5542995703ce8c09",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 21.4722,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8f7c9a55429918e830d239": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8f7c9a55429918e830d239",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.7294,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae383e15542992f92d822fb": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae383e15542992f92d822fb",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.2634,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.9739,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7a33205542996a35c1712f": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7a33205542996a35c1712f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 67.0703,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8459aa5542996488c2e51e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8459aa5542996488c2e51e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 28.6177,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae39e9c5542990afbd1e195": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae39e9c5542990afbd1e195",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 23.2915,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae4d0ff55429913cc204511": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae4d0ff55429913cc204511",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 20.7766,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a85fa815542996432c57155": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a85fa815542996432c57155",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 29.7587,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a89e4585542992e4fca8454": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a89e4585542992e4fca8454",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 21.9884,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7148d25542994082a3e766": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7148d25542994082a3e766",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 4.5872,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab29c24554299449642c932": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab29c24554299449642c932",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.3705,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7cdcbf55429907fabef04f": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7cdcbf55429907fabef04f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 38.0579,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a863114554299211dda2aa5": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a863114554299211dda2aa5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 59.8166,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adec53655429975fa854f87": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adec53655429975fa854f87",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.4096,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a72ac8a5542992359bc3164": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a72ac8a5542992359bc3164",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.3773,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab7de455542992aa3b8c864": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab7de455542992aa3b8c864",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.1522,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a84d80c5542992a431d1ab5": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a84d80c5542992a431d1ab5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.5491,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a85a2845542997175ce1fe1": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a85a2845542997175ce1fe1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.6585,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adcfbf45542990d50227d86": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adcfbf45542990d50227d86",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.5965,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7d2afd5542995f4f402221": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7d2afd5542995f4f402221",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.4715,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7d1e685542995ed0d165f7": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7d1e685542995ed0d165f7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 39.6419,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab439f055429942dd415eef": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab439f055429942dd415eef",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.5146,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8d4cf35542994ba4e3dc5f": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8d4cf35542994ba4e3dc5f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.7119,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5add016e5542992c1e3a250b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5add016e5542992c1e3a250b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 41.1454,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac4efa85542991943173a04": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac4efa85542991943173a04",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 34.25,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 49.1373,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a83880e554299123d8c214e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a83880e554299123d8c214e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 28.996,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7458ff55429979e2882918": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7458ff55429979e2882918",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 47.0276,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab8494d55429916710eb016": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab8494d55429916710eb016",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 32.0764,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adfff0755429925eb1afbce": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adfff0755429925eb1afbce",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 22.5841,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7283355542991f9a20c4b1": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7283355542991f9a20c4b1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 30.5098,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8fa2955542992414482b11": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8fa2955542992414482b11",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 20.6817,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a888abc5542997e5c09a604": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a888abc5542997e5c09a604",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.9568,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae0d7bf5542990adbacf67b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae0d7bf5542990adbacf67b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 33.5106,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae446fc5542995ad6573d24": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae446fc5542995ad6573d24",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.2031,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac4e593554299076e296e37": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac4e593554299076e296e37",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.3659,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a72af155542992359bc316c": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a72af155542992359bc316c",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 11.9523,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac23f5655429951e9e684d9": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac23f5655429951e9e684d9",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.5543,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab5d4eb5542992aa134a3aa": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab5d4eb5542992aa134a3aa",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 26.4225,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a75f0bf5542994ccc91866b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a75f0bf5542994ccc91866b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 23.8725,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7129685542994082a3e5fa": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7129685542994082a3e5fa",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 33.7565,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7220f055429971e9dc92ac": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7220f055429971e9dc92ac",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.5888,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8787915542996e4f30882e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8787915542996e4f30882e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 22.012,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 22.9945,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7b63eb55429931da12ca7e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7b63eb55429931da12ca7e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.7145,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adfee9c55429906c02daa8a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adfee9c55429906c02daa8a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 53.6237,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae33fa95542990afbd1e0f2": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae33fa95542990afbd1e0f2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.8586,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab7fa4f5542993667794080": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab7fa4f5542993667794080",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 13.1794,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a70f0a75542994082a3e403": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a70f0a75542994082a3e403",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 24.6052,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae74eeb5542991bbc9761e1": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae74eeb5542991bbc9761e1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.4179,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab71b5c5542991d3222377e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab71b5c5542991d3222377e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.7872,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab96c93554299743d22eb63": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab96c93554299743d22eb63",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 5.5603,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5abd4f2e5542993062266c4b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5abd4f2e5542993062266c4b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 66.4473,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac24ad7554299636651995a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac24ad7554299636651995a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 53.6668,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae0432a55429924de1b7081": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae0432a55429924de1b7081",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.7275,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a887898554299206df2b2a2": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a887898554299206df2b2a2",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.867,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a861ea85542994775f60700": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a861ea85542994775f60700",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 31.7203,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae457a95542996836b02c85": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae457a95542996836b02c85",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 24.1769,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8f799d55429918e830d22d": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8f799d55429918e830d22d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 6.463,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8cc08455429941ae14deea": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8cc08455429941ae14deea",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 46.6254,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae6fee3554299572ea54670": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae6fee3554299572ea54670",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 46.7037,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5abdff775542993f32c2a082": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5abdff775542993f32c2a082",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.6604,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7a70b355429941d65f2647": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7a70b355429941d65f2647",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 19.8081,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a87bada5542994846c1cddc": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a87bada5542994846c1cddc",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.5436,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5abaad5855429901930fa88f": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5abaad5855429901930fa88f",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.4637,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae55d1e55429960a22e02cb": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae55d1e55429960a22e02cb",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 16.926,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7ce100554299683c1c63b5": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7ce100554299683c1c63b5",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 21.3789,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5add60905542995b365fab1d": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5add60905542995b365fab1d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 26.7613,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac4f9db55429924173fb532": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac4f9db55429924173fb532",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.557,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adf043b5542993a75d263d4": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adf043b5542993a75d263d4",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 7.9357,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8ad6db55429950cd6afba7": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8ad6db55429950cd6afba7",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 15.5236,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adfed5e55429942ec259b92": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adfed5e55429942ec259b92",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 22.2397,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a8f51185542992414482a3d": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a8f51185542992414482a3d",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 16.2595,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a893fc855429951533612f0": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a893fc855429951533612f0",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 34.0951,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ae34a225542992e3233c370": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ae34a225542992e3233c370",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.5245,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a7e08b55542997cc2c474fe": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a7e08b55542997cc2c474fe",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 30.3237,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac1b8ee5542994d76dccedc": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac1b8ee5542994d76dccedc",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 63.1136,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a74bdce55429929fddd84e1": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a74bdce55429929fddd84e1",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 14.285,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a81028b55429938b614228a": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a81028b55429938b614228a",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 11.0127,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac3d4b6554299204fd21e93": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac3d4b6554299204fd21e93",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 34.4377,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a72f74a55429901807daf59": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a72f74a55429901807daf59",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 44.5822,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab9988b554299131ca4238e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab9988b554299131ca4238e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 66.5006,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5adf75e35542993344016c98": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5adf75e35542993344016c98",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 8.5409,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5a726b0f5542997f827839be": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5a726b0f5542997f827839be",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 18.5416,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ab6ba045542995eadef007e": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ab6ba045542995eadef007e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 9.133,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5ac2cb125542996773102626": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5ac2cb125542996773102626",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 10.6806,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  },
+  "5abdf68c5542993f32c2a06b": {
+    "answer": "",
+    "iterations": 1,
+    "error": "name 'build_evidence_augmentation' is not defined",
+    "usage": {
+      "qid": "5abdf68c5542993f32c2a06b",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 13.7908,
+      "mode": "full",
+      "cache_hit": false,
+      "error": "name 'build_evidence_augmentation' is not defined"
+    }
+  }
+}

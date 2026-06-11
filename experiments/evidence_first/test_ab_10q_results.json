@@ -1,0 +1,381 @@
+{
+  "summary": {
+    "total": 10,
+    "correct": 6,
+    "em": 0.6,
+    "chain_complete": 5,
+    "chain_rate": 0.5
+  },
+  "results": [
+    {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "question": "What award won by only twelve people has a man who Ted Kooshian has performed with won?",
+      "gold_answer": "EGOT",
+      "predicted_answer": "EGOT",
+      "correct": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "EGOT",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ae0e183554299422ee9953f",
+      "question": "Did Qionghai or Suining  have a population of 658,798 in 2002? ",
+      "gold_answer": "In 2002, Suining had a population of 658,798.",
+      "predicted_answer": "Suining",
+      "correct": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 11,
+            "triples_added": 11,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Suining",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "question": "What location is shared by both Great Neck School District and Saddle Rock Elementary School?",
+      "gold_answer": "New York, United States",
+      "predicted_answer": "Great Neck, New York",
+      "correct": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Great Neck, New York",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "question": "What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?",
+      "gold_answer": "professional wrestler, actor, and hip hop musician",
+      "predicted_answer": "WWE wrestler",
+      "correct": false,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "WWE wrestler",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ae796af554299540e5a5623",
+      "question": "Where was the capital of the Arab country, in which the Aulacodes peribocalis moth is found, relocated to?  ",
+      "gold_answer": "Aden",
+      "predicted_answer": "Aden",
+      "correct": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 2,
+            "triples_extracted": 29,
+            "triples_added": 29,
+            "llm_calls": 2
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Aden",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "question": "Nicole Gordon won a silver medal with Sara Petersen int he women's doubles at a competition held in what city?",
+      "gold_answer": "Manchester",
+      "predicted_answer": "Manchester",
+      "correct": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 5,
+            "triples_added": 5,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 2
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Manchester",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a738b855542992d56e7e363",
+      "question": "Which hospital opened first, St. Elizabeths Hospital or Providence Hospital?",
+      "gold_answer": "St. Elizabeths Hospital",
+      "predicted_answer": "St. Elizabeths Hospital",
+      "correct": true,
+      "chain_complete": true,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": true,
+          "chain_length": 1
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "St. Elizabeths Hospital",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "question": "Psychopsis and Aubrieta are both genuses of which type of plants?",
+      "gold_answer": "flowering plants",
+      "predicted_answer": "flowering plants",
+      "correct": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 0,
+            "triples_added": 0,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 17,
+            "triples_added": 17,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "flowering plants",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "qid": "5a840e395542992ef85e239d",
+      "question": "Are both The Straight Story and Frozen films of the same genre?",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "correct": true,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 16,
+            "triples_added": 16,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 15,
+            "triples_added": 15,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "no",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "qid": "5ae5415055429908b63265b7",
+      "question": "Japanese Weekend School of New York has offices in the entertainment complex in what section of New Rochelle?",
+      "gold_answer": "Downtown",
+      "predicted_answer": "\"Ruby Dee Park at Library Green -- is located in --> the downtown section of the city of New Rochelle",
+      "correct": false,
+      "chain_complete": false,
+      "history": [
+        {
+          "iteration": 1,
+          "step": "A+_enhancement",
+          "stats": {
+            "entities_processed": 1,
+            "triples_extracted": 11,
+            "triples_added": 11,
+            "llm_calls": 1
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "B_repair",
+          "stats": {
+            "pairs_processed": 5,
+            "triples_extracted": 18,
+            "triples_added": 18,
+            "llm_calls": 5
+          }
+        },
+        {
+          "iteration": 1,
+          "step": "recheck_after_A+B",
+          "complete": false,
+          "chain_length": 0
+        },
+        {
+          "iteration": 1,
+          "step": "evidence_chain_check",
+          "complete": false,
+          "gap_type": "missing_entities"
+        },
+        {
+          "iteration": "context_fallback",
+          "answer": "Downtown",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

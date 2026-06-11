@@ -1,0 +1,2326 @@
+{
+  "385457c20bde11eba7f7acde48001122": {
+    "answer": "February 14, 1755",
+    "iterations": 1,
+    "usage": {
+      "qid": "385457c20bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 10,
+      "total_tokens": 282,
+      "wall_time": 99.8392,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ce9c3713087e11ebbd6bac1f6bf848b6": {
+    "answer": "The Famous Mrs. Fair",
+    "iterations": 1,
+    "usage": {
+      "qid": "ce9c3713087e11ebbd6bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 352,
+      "output_tokens": 5,
+      "total_tokens": 357,
+      "wall_time": 98.4139,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9132b8d80bda11eba7f7acde48001122": {
+    "answer": "Catherine Robbe-Grillet",
+    "iterations": 1,
+    "usage": {
+      "qid": "9132b8d80bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 279,
+      "output_tokens": 7,
+      "total_tokens": 286,
+      "wall_time": 73.7375,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7f46db180bda11eba7f7acde48001122": {
+    "answer": "Tripp County South Dakota",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f46db180bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 227,
+      "output_tokens": 5,
+      "total_tokens": 232,
+      "wall_time": 59.4086,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0c55bf3e0bda11eba7f7acde48001122": {
+    "answer": "Frankish",
+    "iterations": 1,
+    "usage": {
+      "qid": "0c55bf3e0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 273,
+      "output_tokens": 2,
+      "total_tokens": 275,
+      "wall_time": 97.7963,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5ca68dee08b811ebbd88ac1f6bf848b6": {
+    "answer": "Juan José López-Ibor Aliño",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ca68dee08b811ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 231,
+      "output_tokens": 7,
+      "total_tokens": 238,
+      "wall_time": 97.6115,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9a93aae20bdd11eba7f7acde48001122": {
+    "answer": "English",
+    "iterations": 1,
+    "usage": {
+      "qid": "9a93aae20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 286,
+      "output_tokens": 1,
+      "total_tokens": 287,
+      "wall_time": 80.1998,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "4aee95dc0bd911eba7f7acde48001122": {
+    "answer": "New York, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "4aee95dc0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 213,
+      "output_tokens": 5,
+      "total_tokens": 218,
+      "wall_time": 46.1486,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5a9ca2660bda11eba7f7acde48001122": {
+    "answer": "American",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a9ca2660bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 222,
+      "output_tokens": 1,
+      "total_tokens": 223,
+      "wall_time": 68.4732,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "143e7bfe0bdb11eba7f7acde48001122": {
+    "answer": "St. Stephen, New Brunswick",
+    "iterations": 1,
+    "usage": {
+      "qid": "143e7bfe0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 267,
+      "output_tokens": 6,
+      "total_tokens": 273,
+      "wall_time": 103.8368,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "583b8ccc0bd911eba7f7acde48001122": {
+    "answer": "30 July 1857",
+    "iterations": 1,
+    "usage": {
+      "qid": "583b8ccc0bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 295,
+      "output_tokens": 8,
+      "total_tokens": 303,
+      "wall_time": 116.3179,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "61e5f936086d11ebbd62ac1f6bf848b6": {
+    "answer": "Thunder in the Night",
+    "iterations": 1,
+    "usage": {
+      "qid": "61e5f936086d11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 380,
+      "output_tokens": 4,
+      "total_tokens": 384,
+      "wall_time": 61.298,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "bdc1a262089c11ebbd78ac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "bdc1a262089c11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 281,
+      "output_tokens": 1,
+      "total_tokens": 282,
+      "wall_time": 239.0724,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9575367b091111ebbdadac1f6bf848b6": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "9575367b091111ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 318,
+      "output_tokens": 1,
+      "total_tokens": 319,
+      "wall_time": 131.1553,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "22d0830d087911ebbd67ac1f6bf848b6": {
+    "answer": "Laughing Heirs",
+    "iterations": 1,
+    "usage": {
+      "qid": "22d0830d087911ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 4,
+      "total_tokens": 267,
+      "wall_time": 72.9526,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7d94852a08cb11ebbd92ac1f6bf848b6": {
+    "answer": "Mr. Reeder In Room 13",
+    "iterations": 1,
+    "usage": {
+      "qid": "7d94852a08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 376,
+      "output_tokens": 9,
+      "total_tokens": 385,
+      "wall_time": 122.4608,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a4244c3d093811ebbdaeac1f6bf848b6": {
+    "answer": "Wrangler's Roost",
+    "iterations": 1,
+    "usage": {
+      "qid": "a4244c3d093811ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 268,
+      "output_tokens": 5,
+      "total_tokens": 273,
+      "wall_time": 63.6256,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "b77d6f620bdd11eba7f7acde48001122": {
+    "answer": "Germany",
+    "iterations": 1,
+    "usage": {
+      "qid": "b77d6f620bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 303,
+      "output_tokens": 1,
+      "total_tokens": 304,
+      "wall_time": 69.438,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7abdcf720bdd11eba7f7acde48001122": {
+    "answer": "Memphis Tennessee",
+    "iterations": 1,
+    "usage": {
+      "qid": "7abdcf720bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 228,
+      "output_tokens": 3,
+      "total_tokens": 231,
+      "wall_time": 60.1199,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "039ffd260bdc11eba7f7acde48001122": {
+    "answer": "Sophie Fillières",
+    "iterations": 1,
+    "usage": {
+      "qid": "039ffd260bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 285,
+      "output_tokens": 4,
+      "total_tokens": 289,
+      "wall_time": 80.137,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "f1caf470088411ebbd6dac1f6bf848b6": {
+    "answer": "My Family's Beautiful!",
+    "iterations": 1,
+    "usage": {
+      "qid": "f1caf470088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 341,
+      "output_tokens": 5,
+      "total_tokens": 346,
+      "wall_time": 60.7981,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ffc9a84108da11ebbd9cac1f6bf848b6": {
+    "answer": "Panam Paduthum Padu",
+    "iterations": 1,
+    "usage": {
+      "qid": "ffc9a84108da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 372,
+      "output_tokens": 7,
+      "total_tokens": 379,
+      "wall_time": 86.1013,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "294c0f8408b611ebbd88ac1f6bf848b6": {
+    "answer": "The Heiress At Coffee Dan'S",
+    "iterations": 1,
+    "usage": {
+      "qid": "294c0f8408b611ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 387,
+      "output_tokens": 8,
+      "total_tokens": 395,
+      "wall_time": 63.9722,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "90d48f160bd911eba7f7acde48001122": {
+    "answer": "Mandira Bedi",
+    "iterations": 1,
+    "usage": {
+      "qid": "90d48f160bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 239,
+      "output_tokens": 5,
+      "total_tokens": 244,
+      "wall_time": 51.6497,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "d17b3e17085511ebbd59ac1f6bf848b6": {
+    "answer": "Brodie Van Wagenen",
+    "iterations": 1,
+    "usage": {
+      "qid": "d17b3e17085511ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 374,
+      "output_tokens": 7,
+      "total_tokens": 381,
+      "wall_time": 82.5887,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8c2d83600bdd11eba7f7acde48001122": {
+    "answer": "Nashville Tennessee",
+    "iterations": 1,
+    "usage": {
+      "qid": "8c2d83600bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 4,
+      "total_tokens": 268,
+      "wall_time": 131.1062,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "d05e67b408c411ebbd8eac1f6bf848b6": {
+    "answer": "The King's Stamp",
+    "iterations": 1,
+    "usage": {
+      "qid": "d05e67b408c411ebbd8eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 284,
+      "output_tokens": 4,
+      "total_tokens": 288,
+      "wall_time": 38.1774,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ad9a2b6e085111ebbd58ac1f6bf848b6": {
+    "answer": "Betrayal From The East",
+    "iterations": 1,
+    "usage": {
+      "qid": "ad9a2b6e085111ebbd58ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 294,
+      "output_tokens": 6,
+      "total_tokens": 300,
+      "wall_time": 65.1648,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "f095f7e408d911ebbd9cac1f6bf848b6": {
+    "answer": "Oh, Mr Porter!",
+    "iterations": 1,
+    "usage": {
+      "qid": "f095f7e408d911ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 304,
+      "output_tokens": 5,
+      "total_tokens": 309,
+      "wall_time": 112.0606,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c5e4c82a0bdd11eba7f7acde48001122": {
+    "answer": "Germany",
+    "iterations": 1,
+    "usage": {
+      "qid": "c5e4c82a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 159,
+      "output_tokens": 1,
+      "total_tokens": 160,
+      "wall_time": 109.7374,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "3bee1660089911ebbd77ac1f6bf848b6": {
+    "answer": "Ta Chvíle, Ten Okamžik",
+    "iterations": 1,
+    "usage": {
+      "qid": "3bee1660089911ebbd77ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 371,
+      "output_tokens": 10,
+      "total_tokens": 381,
+      "wall_time": 44.3704,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1ad2a7c20bdd11eba7f7acde48001122": {
+    "answer": "not disclosed",
+    "iterations": 1,
+    "usage": {
+      "qid": "1ad2a7c20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 276,
+      "output_tokens": 2,
+      "total_tokens": 278,
+      "wall_time": 86.5983,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "20396bdc0bde11eba7f7acde48001122": {
+    "answer": "11 March 1870",
+    "iterations": 1,
+    "usage": {
+      "qid": "20396bdc0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 311,
+      "output_tokens": 8,
+      "total_tokens": 319,
+      "wall_time": 125.6898,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e2c1f3520bae11ebab90acde48001122": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "e2c1f3520bae11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 280,
+      "output_tokens": 1,
+      "total_tokens": 281,
+      "wall_time": 91.2674,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a64e32e20bda11eba7f7acde48001122": {
+    "answer": "New York City",
+    "iterations": 1,
+    "usage": {
+      "qid": "a64e32e20bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 220,
+      "output_tokens": 3,
+      "total_tokens": 223,
+      "wall_time": 118.4773,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "284eb220091611ebbdaeac1f6bf848b6": {
+    "answer": "La La La Love Thang",
+    "iterations": 1,
+    "usage": {
+      "qid": "284eb220091611ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 216,
+      "output_tokens": 6,
+      "total_tokens": 222,
+      "wall_time": 110.5377,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "61e66a28086911ebbd5eac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "61e66a28086911ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 278,
+      "output_tokens": 1,
+      "total_tokens": 279,
+      "wall_time": 62.9788,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "480ca2c0084e11ebbd56ac1f6bf848b6": {
+    "answer": "Brackin Karauria-Henry",
+    "iterations": 1,
+    "usage": {
+      "qid": "480ca2c0084e11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 270,
+      "output_tokens": 9,
+      "total_tokens": 279,
+      "wall_time": 82.2521,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "2b9528860bde11eba7f7acde48001122": {
+    "answer": "Genoa",
+    "iterations": 1,
+    "usage": {
+      "qid": "2b9528860bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 313,
+      "output_tokens": 2,
+      "total_tokens": 315,
+      "wall_time": 119.3128,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "dc5e6f8a0bdc11eba7f7acde48001122": {
+    "answer": "Cimetière Notre-Dame-de-Belmont",
+    "iterations": 1,
+    "usage": {
+      "qid": "dc5e6f8a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 335,
+      "output_tokens": 10,
+      "total_tokens": 345,
+      "wall_time": 68.8695,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "945447800bd911eba7f7acde48001122": {
+    "answer": "19 January 1628",
+    "iterations": 1,
+    "usage": {
+      "qid": "945447800bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 292,
+      "output_tokens": 8,
+      "total_tokens": 300,
+      "wall_time": 122.1811,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9afde7fe0bdd11eba7f7acde48001122": {
+    "answer": "Case School of Applied Science",
+    "iterations": 1,
+    "usage": {
+      "qid": "9afde7fe0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 188,
+      "output_tokens": 5,
+      "total_tokens": 193,
+      "wall_time": 58.7572,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "3458c05c0bdb11eba7f7acde48001122": {
+    "answer": "United Arab Emirates",
+    "iterations": 1,
+    "usage": {
+      "qid": "3458c05c0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 246,
+      "output_tokens": 3,
+      "total_tokens": 249,
+      "wall_time": 121.5173,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "53df937208ae11ebbd83ac1f6bf848b6": {
+    "answer": "The Abyss",
+    "iterations": 1,
+    "usage": {
+      "qid": "53df937208ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 299,
+      "output_tokens": 2,
+      "total_tokens": 301,
+      "wall_time": 112.3174,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "aabc42040baf11ebab90acde48001122": {
+    "answer": "Isaac Komnenos",
+    "iterations": 1,
+    "usage": {
+      "qid": "aabc42040baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 348,
+      "output_tokens": 5,
+      "total_tokens": 353,
+      "wall_time": 98.9458,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "48ee55a4086b11ebbd5fac1f6bf848b6": {
+    "answer": "Alice of Wonderland in Paris",
+    "iterations": 1,
+    "usage": {
+      "qid": "48ee55a4086b11ebbd5fac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 327,
+      "output_tokens": 5,
+      "total_tokens": 332,
+      "wall_time": 43.377,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "27051c6a0baf11ebab90acde48001122": {
+    "answer": "Olybrius",
+    "iterations": 1,
+    "usage": {
+      "qid": "27051c6a0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 332,
+      "output_tokens": 5,
+      "total_tokens": 337,
+      "wall_time": 108.9876,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c467dc5e08f311ebbdaaac1f6bf848b6": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "c467dc5e08f311ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 94,
+      "output_tokens": 1,
+      "total_tokens": 95,
+      "wall_time": 2.7956,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e715b66708be11ebbd8aac1f6bf848b6": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "e715b66708be11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 247,
+      "output_tokens": 1,
+      "total_tokens": 248,
+      "wall_time": 63.4689,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "18ef81360bde11eba7f7acde48001122": {
+    "answer": "Ireland",
+    "iterations": 1,
+    "usage": {
+      "qid": "18ef81360bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 229,
+      "output_tokens": 2,
+      "total_tokens": 231,
+      "wall_time": 90.0149,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "cff95a4108b011ebbd85ac1f6bf848b6": {
+    "answer": "Melody Of Murder",
+    "iterations": 1,
+    "usage": {
+      "qid": "cff95a4108b011ebbd85ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 361,
+      "output_tokens": 4,
+      "total_tokens": 365,
+      "wall_time": 74.901,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1b365e5e0bdb11eba7f7acde48001122": {
+    "answer": "Weston-super-Mare",
+    "iterations": 1,
+    "usage": {
+      "qid": "1b365e5e0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 6,
+      "total_tokens": 214,
+      "wall_time": 53.2166,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "b0dd21c00bdd11eba7f7acde48001122": {
+    "answer": "École Polytechnique Fédérale de Lausanne",
+    "iterations": 1,
+    "usage": {
+      "qid": "b0dd21c00bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 13,
+      "total_tokens": 225,
+      "wall_time": 93.3238,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "12ec263c0bdd11eba7f7acde48001122": {
+    "answer": "3 March 1778",
+    "iterations": 1,
+    "usage": {
+      "qid": "12ec263c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 205,
+      "output_tokens": 7,
+      "total_tokens": 212,
+      "wall_time": 134.5343,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "65f3cbfd096711ebbdafac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "65f3cbfd096711ebbdafac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 307,
+      "output_tokens": 1,
+      "total_tokens": 308,
+      "wall_time": 50.9179,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "dd41d993086b11ebbd60ac1f6bf848b6": {
+    "answer": "Sette Giorni All'Altro Mondo",
+    "iterations": 1,
+    "usage": {
+      "qid": "dd41d993086b11ebbd60ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 418,
+      "output_tokens": 11,
+      "total_tokens": 429,
+      "wall_time": 128.6958,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8cbad32c08d711ebbd9aac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "8cbad32c08d711ebbd9aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 312,
+      "output_tokens": 1,
+      "total_tokens": 313,
+      "wall_time": 80.6344,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "366208cb089511ebbd75ac1f6bf848b6": {
+    "answer": "Vendredi Soir",
+    "iterations": 1,
+    "usage": {
+      "qid": "366208cb089511ebbd75ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 359,
+      "output_tokens": 5,
+      "total_tokens": 364,
+      "wall_time": 111.2113,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0fb43d6a0bdd11eba7f7acde48001122": {
+    "answer": "Volker Schlöndorff",
+    "iterations": 1,
+    "usage": {
+      "qid": "0fb43d6a0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 287,
+      "output_tokens": 7,
+      "total_tokens": 294,
+      "wall_time": 71.7817,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c624d5280bdd11eba7f7acde48001122": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "c624d5280bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 275,
+      "output_tokens": 1,
+      "total_tokens": 276,
+      "wall_time": 56.0777,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "49ec1ade0bdd11eba7f7acde48001122": {
+    "answer": "Argentina",
+    "iterations": 1,
+    "usage": {
+      "qid": "49ec1ade0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 169,
+      "output_tokens": 1,
+      "total_tokens": 170,
+      "wall_time": 73.5864,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "fa5c2aa80bdd11eba7f7acde48001122": {
+    "answer": "Vidya Vikas Institute of Engineering & Technology",
+    "iterations": 1,
+    "usage": {
+      "qid": "fa5c2aa80bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 196,
+      "output_tokens": 10,
+      "total_tokens": 206,
+      "wall_time": 71.6529,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "60f247280bdb11eba7f7acde48001122": {
+    "answer": "Kovilpatti",
+    "iterations": 1,
+    "usage": {
+      "qid": "60f247280bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 210,
+      "output_tokens": 5,
+      "total_tokens": 215,
+      "wall_time": 78.3992,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "00f948500bde11eba7f7acde48001122": {
+    "answer": "El Cajon, California",
+    "iterations": 1,
+    "usage": {
+      "qid": "00f948500bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 5,
+      "total_tokens": 220,
+      "wall_time": 66.1373,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0083038e0bde11eba7f7acde48001122": {
+    "answer": "Schloss Nymphenburg, Munich",
+    "iterations": 1,
+    "usage": {
+      "qid": "0083038e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 328,
+      "output_tokens": 8,
+      "total_tokens": 336,
+      "wall_time": 98.7903,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9cf73a920bdd11eba7f7acde48001122": {
+    "answer": "East Boston, Massachusetts",
+    "iterations": 1,
+    "usage": {
+      "qid": "9cf73a920bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 173,
+      "output_tokens": 4,
+      "total_tokens": 177,
+      "wall_time": 82.3785,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "d0d400bc0bdc11eba7f7acde48001122": {
+    "answer": "November 10, 1938",
+    "iterations": 1,
+    "usage": {
+      "qid": "d0d400bc0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 186,
+      "output_tokens": 10,
+      "total_tokens": 196,
+      "wall_time": 81.3781,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "82043b7c0bdd11eba7f7acde48001122": {
+    "answer": "Spain",
+    "iterations": 1,
+    "usage": {
+      "qid": "82043b7c0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 278,
+      "output_tokens": 1,
+      "total_tokens": 279,
+      "wall_time": 108.4673,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8ee8432c0bda11eba7f7acde48001122": {
+    "answer": "10 July 1099",
+    "iterations": 1,
+    "usage": {
+      "qid": "8ee8432c0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 342,
+      "output_tokens": 8,
+      "total_tokens": 350,
+      "wall_time": 69.0385,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "6439bf4508be11ebbd8aac1f6bf848b6": {
+    "answer": "Mystery, Alaska",
+    "iterations": 1,
+    "usage": {
+      "qid": "6439bf4508be11ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 338,
+      "output_tokens": 4,
+      "total_tokens": 342,
+      "wall_time": 77.1136,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0dc3d0280bde11eba7f7acde48001122": {
+    "answer": "Mongolia",
+    "iterations": 1,
+    "usage": {
+      "qid": "0dc3d0280bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 245,
+      "output_tokens": 3,
+      "total_tokens": 248,
+      "wall_time": 127.2996,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "6246a517084c11ebbd56ac1f6bf848b6": {
+    "answer": "The True Story Of Eskimo Nell",
+    "iterations": 1,
+    "usage": {
+      "qid": "6246a517084c11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 365,
+      "output_tokens": 8,
+      "total_tokens": 373,
+      "wall_time": 105.0321,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "71bf184e0bde11eba7f7acde48001122": {
+    "answer": "Moscow",
+    "iterations": 1,
+    "usage": {
+      "qid": "71bf184e0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 335,
+      "output_tokens": 2,
+      "total_tokens": 337,
+      "wall_time": 79.3635,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a87474d20bda11eba7f7acde48001122": {
+    "answer": "Bathurst New Brunswick",
+    "iterations": 1,
+    "usage": {
+      "qid": "a87474d20bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 5,
+      "total_tokens": 269,
+      "wall_time": 56.0154,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ff7fc86c0bda11eba7f7acde48001122": {
+    "answer": "Siamese",
+    "iterations": 1,
+    "usage": {
+      "qid": "ff7fc86c0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 326,
+      "output_tokens": 3,
+      "total_tokens": 329,
+      "wall_time": 127.2576,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1815632c0bdc11eba7f7acde48001122": {
+    "answer": "New Zealand",
+    "iterations": 1,
+    "usage": {
+      "qid": "1815632c0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 219,
+      "output_tokens": 2,
+      "total_tokens": 221,
+      "wall_time": 56.0292,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a3939d3b08a111ebbd79ac1f6bf848b6": {
+    "answer": "Strawberry Shortcake: Rockaberry Roll",
+    "iterations": 1,
+    "usage": {
+      "qid": "a3939d3b08a111ebbd79ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 10,
+      "total_tokens": 324,
+      "wall_time": 79.5336,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "d4bac26008fd11ebbdadac1f6bf848b6": {
+    "answer": "Switchmas",
+    "iterations": 1,
+    "usage": {
+      "qid": "d4bac26008fd11ebbdadac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 274,
+      "output_tokens": 2,
+      "total_tokens": 276,
+      "wall_time": 65.2762,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "065b409008d311ebbd96ac1f6bf848b6": {
+    "answer": "Lady Stay Dead",
+    "iterations": 1,
+    "usage": {
+      "qid": "065b409008d311ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 372,
+      "output_tokens": 3,
+      "total_tokens": 375,
+      "wall_time": 44.0029,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "befd140a088511ebbd6dac1f6bf848b6": {
+    "answer": "Ana and the Wolves",
+    "iterations": 1,
+    "usage": {
+      "qid": "befd140a088511ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 336,
+      "output_tokens": 4,
+      "total_tokens": 340,
+      "wall_time": 59.2287,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5df2d970087a11ebbd67ac1f6bf848b6": {
+    "answer": "Stop The Wedding",
+    "iterations": 1,
+    "usage": {
+      "qid": "5df2d970087a11ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 321,
+      "output_tokens": 3,
+      "total_tokens": 324,
+      "wall_time": 96.3108,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e2e113160bdd11eba7f7acde48001122": {
+    "answer": "seven Emmy Awards",
+    "iterations": 1,
+    "usage": {
+      "qid": "e2e113160bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 300,
+      "output_tokens": 3,
+      "total_tokens": 303,
+      "wall_time": 104.4668,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "89760bc40bb011ebab90acde48001122": {
+    "answer": "Princess Joséphine-Charlotte of Belgium",
+    "iterations": 1,
+    "usage": {
+      "qid": "89760bc40bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 309,
+      "output_tokens": 9,
+      "total_tokens": 318,
+      "wall_time": 103.2091,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a08505d20bdc11eba7f7acde48001122": {
+    "answer": "Aldo Parisot",
+    "iterations": 1,
+    "usage": {
+      "qid": "a08505d20bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 314,
+      "output_tokens": 5,
+      "total_tokens": 319,
+      "wall_time": 71.8357,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "afbfedfc08c411ebbd8eac1f6bf848b6": {
+    "answer": "Gordon Gibson Sr.",
+    "iterations": 1,
+    "usage": {
+      "qid": "afbfedfc08c411ebbd8eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 312,
+      "output_tokens": 5,
+      "total_tokens": 317,
+      "wall_time": 75.38,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "048fa24c089711ebbd76ac1f6bf848b6": {
+    "answer": "Darby's Rangers",
+    "iterations": 1,
+    "usage": {
+      "qid": "048fa24c089711ebbd76ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 317,
+      "output_tokens": 4,
+      "total_tokens": 321,
+      "wall_time": 80.2089,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c581990a0bdb11eba7f7acde48001122": {
+    "answer": "Denmark",
+    "iterations": 1,
+    "usage": {
+      "qid": "c581990a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 218,
+      "output_tokens": 2,
+      "total_tokens": 220,
+      "wall_time": 86.6045,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7a465cb4095111ebbdaeac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "7a465cb4095111ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 292,
+      "output_tokens": 1,
+      "total_tokens": 293,
+      "wall_time": 106.0936,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "47f733600bda11eba7f7acde48001122": {
+    "answer": "3 August 1995",
+    "iterations": 1,
+    "usage": {
+      "qid": "47f733600bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 7,
+      "total_tokens": 297,
+      "wall_time": 72.2281,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "6f0a43a80bde11eba7f7acde48001122": {
+    "answer": "19 November 2011",
+    "iterations": 1,
+    "usage": {
+      "qid": "6f0a43a80bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 302,
+      "output_tokens": 8,
+      "total_tokens": 310,
+      "wall_time": 91.1336,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1dbdfcea0bdb11eba7f7acde48001122": {
+    "answer": "Kraków Poland",
+    "iterations": 1,
+    "usage": {
+      "qid": "1dbdfcea0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 212,
+      "output_tokens": 4,
+      "total_tokens": 216,
+      "wall_time": 66.3996,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "cf6530d708f311ebbdaaac1f6bf848b6": {
+    "answer": "Yoon Jong-Hoon",
+    "iterations": 1,
+    "usage": {
+      "qid": "cf6530d708f311ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 187,
+      "output_tokens": 5,
+      "total_tokens": 192,
+      "wall_time": 49.5674,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0eb54158087b11ebbd67ac1f6bf848b6": {
+    "answer": "A Summer's Tale",
+    "iterations": 1,
+    "usage": {
+      "qid": "0eb54158087b11ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 345,
+      "output_tokens": 4,
+      "total_tokens": 349,
+      "wall_time": 84.7221,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e35b10de08cd11ebbd93ac1f6bf848b6": {
+    "answer": "Karakolda Ayna Var",
+    "iterations": 1,
+    "usage": {
+      "qid": "e35b10de08cd11ebbd93ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 392,
+      "output_tokens": 7,
+      "total_tokens": 399,
+      "wall_time": 68.7042,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "3dafdc26089f11ebbd78ac1f6bf848b6": {
+    "answer": "P.K.P. (Pilsudski Bought Petliura)",
+    "iterations": 1,
+    "usage": {
+      "qid": "3dafdc26089f11ebbd78ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 340,
+      "output_tokens": 14,
+      "total_tokens": 354,
+      "wall_time": 140.4831,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "706064e7087b11ebbd68ac1f6bf848b6": {
+    "answer": "Bruno Foucher",
+    "iterations": 1,
+    "usage": {
+      "qid": "706064e7087b11ebbd68ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 156,
+      "output_tokens": 4,
+      "total_tokens": 160,
+      "wall_time": 43.5115,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7a3da0d0084b11ebbd56ac1f6bf848b6": {
+    "answer": "Cannibal Tours",
+    "iterations": 1,
+    "usage": {
+      "qid": "7a3da0d0084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 311,
+      "output_tokens": 4,
+      "total_tokens": 315,
+      "wall_time": 65.3419,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "80774c5508f911ebbdaaac1f6bf848b6": {
+    "answer": "Illustreret Nyhedsblad",
+    "iterations": 1,
+    "usage": {
+      "qid": "80774c5508f911ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 340,
+      "output_tokens": 8,
+      "total_tokens": 348,
+      "wall_time": 79.3726,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "24c40fd9099c11ebbdb0ac1f6bf848b6": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "24c40fd9099c11ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 304,
+      "output_tokens": 1,
+      "total_tokens": 305,
+      "wall_time": 113.4341,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "efa871c8085611ebbd59ac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "efa871c8085611ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 307,
+      "output_tokens": 1,
+      "total_tokens": 308,
+      "wall_time": 73.3751,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "16b3e34d085711ebbd59ac1f6bf848b6": {
+    "answer": "Sikuru Hathe",
+    "iterations": 1,
+    "usage": {
+      "qid": "16b3e34d085711ebbd59ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 291,
+      "output_tokens": 5,
+      "total_tokens": 296,
+      "wall_time": 171.0783,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0f0ccb9e0bdc11eba7f7acde48001122": {
+    "answer": "Toronto, Ontario",
+    "iterations": 1,
+    "usage": {
+      "qid": "0f0ccb9e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 158,
+      "output_tokens": 3,
+      "total_tokens": 161,
+      "wall_time": 36.0041,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "bb12fd1a0bdb11eba7f7acde48001122": {
+    "answer": "Alexis Roderick",
+    "iterations": 1,
+    "usage": {
+      "qid": "bb12fd1a0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 241,
+      "output_tokens": 5,
+      "total_tokens": 246,
+      "wall_time": 98.8107,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1c884ef208a211ebbd7aac1f6bf848b6": {
+    "answer": "Ibrahim Al-Saqqar",
+    "iterations": 1,
+    "usage": {
+      "qid": "1c884ef208a211ebbd7aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 215,
+      "output_tokens": 7,
+      "total_tokens": 222,
+      "wall_time": 47.4004,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "00efceca0bb011ebab90acde48001122": {
+    "answer": "Manuel I of Trebizond",
+    "iterations": 1,
+    "usage": {
+      "qid": "00efceca0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 327,
+      "output_tokens": 7,
+      "total_tokens": 334,
+      "wall_time": 68.1101,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "58b2f61c08cb11ebbd92ac1f6bf848b6": {
+    "answer": "The Twilight Saga: Breaking Dawn – Part 1",
+    "iterations": 1,
+    "usage": {
+      "qid": "58b2f61c08cb11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 204,
+      "output_tokens": 10,
+      "total_tokens": 214,
+      "wall_time": 112.1525,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "27cf588e085011ebbd56ac1f6bf848b6": {
+    "answer": "Kothapalli Jayashankar",
+    "iterations": 1,
+    "usage": {
+      "qid": "27cf588e085011ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 275,
+      "output_tokens": 8,
+      "total_tokens": 283,
+      "wall_time": 151.3542,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "53e18b8c0bb011ebab90acde48001122": {
+    "answer": "William Henry Fellowes",
+    "iterations": 1,
+    "usage": {
+      "qid": "53e18b8c0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 345,
+      "output_tokens": 4,
+      "total_tokens": 349,
+      "wall_time": 83.6346,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "2a78f9e9084b11ebbd56ac1f6bf848b6": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "2a78f9e9084b11ebbd56ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 258,
+      "output_tokens": 1,
+      "total_tokens": 259,
+      "wall_time": 79.5906,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "631c2ffb08de11ebbd9eac1f6bf848b6": {
+    "answer": "The Little Shop of Horrors",
+    "iterations": 1,
+    "usage": {
+      "qid": "631c2ffb08de11ebbd9eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 327,
+      "output_tokens": 6,
+      "total_tokens": 333,
+      "wall_time": 141.0539,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "874046160bd911eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "874046160bd911eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 2,
+      "total_tokens": 232,
+      "wall_time": 52.756,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7b33f605088411ebbd6dac1f6bf848b6": {
+    "answer": "Taipei Story",
+    "iterations": 1,
+    "usage": {
+      "qid": "7b33f605088411ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 312,
+      "output_tokens": 3,
+      "total_tokens": 315,
+      "wall_time": 104.1876,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0bbded440bda11eba7f7acde48001122": {
+    "answer": "India",
+    "iterations": 1,
+    "usage": {
+      "qid": "0bbded440bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 319,
+      "output_tokens": 1,
+      "total_tokens": 320,
+      "wall_time": 55.9295,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "855bfaea0bdc11eba7f7acde48001122": {
+    "answer": "Florence",
+    "iterations": 1,
+    "usage": {
+      "qid": "855bfaea0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 343,
+      "output_tokens": 2,
+      "total_tokens": 345,
+      "wall_time": 116.6275,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "80cea3ec0baf11ebab90acde48001122": {
+    "answer": "Dietrich VI",
+    "iterations": 1,
+    "usage": {
+      "qid": "80cea3ec0baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 253,
+      "output_tokens": 4,
+      "total_tokens": 257,
+      "wall_time": 129.0893,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0468fbec0bda11eba7f7acde48001122": {
+    "answer": "Vincente Minnelli",
+    "iterations": 1,
+    "usage": {
+      "qid": "0468fbec0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 342,
+      "output_tokens": 5,
+      "total_tokens": 347,
+      "wall_time": 55.2495,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5e9d435708f711ebbdaaac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5e9d435708f711ebbdaaac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 306,
+      "output_tokens": 1,
+      "total_tokens": 307,
+      "wall_time": 127.8496,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "f26ca8aa087611ebbd67ac1f6bf848b6": {
+    "answer": "Gustav Philipp Mörl",
+    "iterations": 1,
+    "usage": {
+      "qid": "f26ca8aa087611ebbd67ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 295,
+      "output_tokens": 6,
+      "total_tokens": 301,
+      "wall_time": 80.975,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8aea31a8087011ebbd63ac1f6bf848b6": {
+    "answer": "Hell Up in Harlem",
+    "iterations": 1,
+    "usage": {
+      "qid": "8aea31a8087011ebbd63ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 342,
+      "output_tokens": 4,
+      "total_tokens": 346,
+      "wall_time": 98.3022,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5a0c9c7408c011ebbd8aac1f6bf848b6": {
+    "answer": "Jean Guillaume Audinet-Serville",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a0c9c7408c011ebbd8aac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 289,
+      "output_tokens": 7,
+      "total_tokens": 296,
+      "wall_time": 94.2308,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "2ce41efe0bde11eba7f7acde48001122": {
+    "answer": "17 September 1979",
+    "iterations": 1,
+    "usage": {
+      "qid": "2ce41efe0bde11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 356,
+      "output_tokens": 8,
+      "total_tokens": 364,
+      "wall_time": 93.4798,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "081c7c960bda11eba7f7acde48001122": {
+    "answer": "Naples Florida",
+    "iterations": 1,
+    "usage": {
+      "qid": "081c7c960bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 272,
+      "output_tokens": 4,
+      "total_tokens": 276,
+      "wall_time": 83.2571,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "f90a5d6a0bdc11eba7f7acde48001122": {
+    "answer": "IDHEC in Paris",
+    "iterations": 1,
+    "usage": {
+      "qid": "f90a5d6a0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 201,
+      "output_tokens": 5,
+      "total_tokens": 206,
+      "wall_time": 66.2509,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "acd70b040bdd11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "acd70b040bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 287,
+      "output_tokens": 2,
+      "total_tokens": 289,
+      "wall_time": 103.6431,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8223ad8e097811ebbdb0ac1f6bf848b6": {
+    "answer": "The Beginning Or The End",
+    "iterations": 1,
+    "usage": {
+      "qid": "8223ad8e097811ebbdb0ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 217,
+      "output_tokens": 5,
+      "total_tokens": 222,
+      "wall_time": 70.8493,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c7c0fbdc0bdd11eba7f7acde48001122": {
+    "answer": "Milla Jovovich",
+    "iterations": 1,
+    "usage": {
+      "qid": "c7c0fbdc0bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 242,
+      "output_tokens": 5,
+      "total_tokens": 247,
+      "wall_time": 73.1135,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "15601bc708c711ebbd91ac1f6bf848b6": {
+    "answer": "Emmy Of Stork'S Nest",
+    "iterations": 1,
+    "usage": {
+      "qid": "15601bc708c711ebbd91ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 311,
+      "output_tokens": 7,
+      "total_tokens": 318,
+      "wall_time": 57.3234,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5896e7a80bdd11eba7f7acde48001122": {
+    "answer": "Vietnam",
+    "iterations": 1,
+    "usage": {
+      "qid": "5896e7a80bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 266,
+      "output_tokens": 2,
+      "total_tokens": 268,
+      "wall_time": 70.9189,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e81fc7b0087111ebbd64ac1f6bf848b6": {
+    "answer": "Christopher Monck",
+    "iterations": 1,
+    "usage": {
+      "qid": "e81fc7b0087111ebbd64ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 280,
+      "output_tokens": 3,
+      "total_tokens": 283,
+      "wall_time": 80.3633,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "5deff9420bdd11eba7f7acde48001122": {
+    "answer": "25 July 1182",
+    "iterations": 1,
+    "usage": {
+      "qid": "5deff9420bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 354,
+      "output_tokens": 8,
+      "total_tokens": 362,
+      "wall_time": 131.0854,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "c7a9e30308ae11ebbd83ac1f6bf848b6": {
+    "answer": "Day Of The Idiots",
+    "iterations": 1,
+    "usage": {
+      "qid": "c7a9e30308ae11ebbd83ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 264,
+      "output_tokens": 6,
+      "total_tokens": 270,
+      "wall_time": 84.4972,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "96db3af80bda11eba7f7acde48001122": {
+    "answer": "Karin Molander and Elsa Fahlberg",
+    "iterations": 1,
+    "usage": {
+      "qid": "96db3af80bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 270,
+      "output_tokens": 9,
+      "total_tokens": 279,
+      "wall_time": 101.9655,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "e036fe320bdd11eba7f7acde48001122": {
+    "answer": "New York City",
+    "iterations": 1,
+    "usage": {
+      "qid": "e036fe320bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 233,
+      "output_tokens": 3,
+      "total_tokens": 236,
+      "wall_time": 165.2356,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ed415b0208b511ebbd88ac1f6bf848b6": {
+    "answer": "The Battle Of Algiers",
+    "iterations": 1,
+    "usage": {
+      "qid": "ed415b0208b511ebbd88ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 287,
+      "output_tokens": 5,
+      "total_tokens": 292,
+      "wall_time": 88.4354,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "13f3480e0bdc11eba7f7acde48001122": {
+    "answer": "April 30, 1971",
+    "iterations": 1,
+    "usage": {
+      "qid": "13f3480e0bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 325,
+      "output_tokens": 10,
+      "total_tokens": 335,
+      "wall_time": 120.2025,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "b7afade20bdd11eba7f7acde48001122": {
+    "answer": "Sweden",
+    "iterations": 1,
+    "usage": {
+      "qid": "b7afade20bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 277,
+      "output_tokens": 1,
+      "total_tokens": 278,
+      "wall_time": 123.2625,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9a1b06b60bdb11eba7f7acde48001122": {
+    "answer": "Florida Atlantic University",
+    "iterations": 1,
+    "usage": {
+      "qid": "9a1b06b60bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 195,
+      "output_tokens": 3,
+      "total_tokens": 198,
+      "wall_time": 53.8202,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "b34f43d1087b11ebbd69ac1f6bf848b6": {
+    "answer": "Elle Boit Pas, Elle Fume Pas, Elle Drague Pas, Mais... Elle Cause !",
+    "iterations": 1,
+    "usage": {
+      "qid": "b34f43d1087b11ebbd69ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 292,
+      "output_tokens": 21,
+      "total_tokens": 313,
+      "wall_time": 99.339,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "71530df00bdb11eba7f7acde48001122": {
+    "answer": "Fearless Nadia",
+    "iterations": 1,
+    "usage": {
+      "qid": "71530df00bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 253,
+      "output_tokens": 4,
+      "total_tokens": 257,
+      "wall_time": 102.0134,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "91e7e3780baf11ebab90acde48001122": {
+    "answer": "Kim Jong-il",
+    "iterations": 1,
+    "usage": {
+      "qid": "91e7e3780baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 335,
+      "output_tokens": 3,
+      "total_tokens": 338,
+      "wall_time": 115.7662,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "6ede801c08da11ebbd9cac1f6bf848b6": {
+    "answer": "Blue Blood and Red",
+    "iterations": 1,
+    "usage": {
+      "qid": "6ede801c08da11ebbd9cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 295,
+      "output_tokens": 4,
+      "total_tokens": 299,
+      "wall_time": 82.8963,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "44031d3c086f11ebbd62ac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "44031d3c086f11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 297,
+      "output_tokens": 1,
+      "total_tokens": 298,
+      "wall_time": 82.7435,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7f91e578086e11ebbd62ac1f6bf848b6": {
+    "answer": "Simone Fontecchio",
+    "iterations": 1,
+    "usage": {
+      "qid": "7f91e578086e11ebbd62ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 254,
+      "output_tokens": 5,
+      "total_tokens": 259,
+      "wall_time": 114.3015,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "ee212a820bdc11eba7f7acde48001122": {
+    "answer": "Richmond, Virginia",
+    "iterations": 1,
+    "usage": {
+      "qid": "ee212a820bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 263,
+      "output_tokens": 4,
+      "total_tokens": 267,
+      "wall_time": 126.7366,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "75a4468108ca11ebbd92ac1f6bf848b6": {
+    "answer": "Marion Gray",
+    "iterations": 1,
+    "usage": {
+      "qid": "75a4468108ca11ebbd92ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 178,
+      "output_tokens": 3,
+      "total_tokens": 181,
+      "wall_time": 57.6965,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1816ca87095011ebbdaeac1f6bf848b6": {
+    "answer": "A Maori Maid's Love",
+    "iterations": 1,
+    "usage": {
+      "qid": "1816ca87095011ebbdaeac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 207,
+      "output_tokens": 6,
+      "total_tokens": 213,
+      "wall_time": 74.6441,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "89022ba60bdc11eba7f7acde48001122": {
+    "answer": "United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "89022ba60bdc11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 230,
+      "output_tokens": 2,
+      "total_tokens": 232,
+      "wall_time": 78.3016,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "1a5823a1088e11ebbd70ac1f6bf848b6": {
+    "answer": "Target Zero",
+    "iterations": 1,
+    "usage": {
+      "qid": "1a5823a1088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 367,
+      "output_tokens": 2,
+      "total_tokens": 369,
+      "wall_time": 70.0091,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "93bdd2060bdd11eba7f7acde48001122": {
+    "answer": "23 February 1869",
+    "iterations": 1,
+    "usage": {
+      "qid": "93bdd2060bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 357,
+      "output_tokens": 8,
+      "total_tokens": 365,
+      "wall_time": 93.5055,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "31eeaa6608cf11ebbd94ac1f6bf848b6": {
+    "answer": "Einer Spinnt Immer",
+    "iterations": 1,
+    "usage": {
+      "qid": "31eeaa6608cf11ebbd94ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 313,
+      "output_tokens": 6,
+      "total_tokens": 319,
+      "wall_time": 106.3086,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9af5e9640bdd11eba7f7acde48001122": {
+    "answer": "unknown",
+    "iterations": 1,
+    "usage": {
+      "qid": "9af5e9640bdd11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 243,
+      "output_tokens": 1,
+      "total_tokens": 244,
+      "wall_time": 102.5274,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "67c784f708d811ebbd9bac1f6bf848b6": {
+    "answer": "Precocious Youth",
+    "iterations": 1,
+    "usage": {
+      "qid": "67c784f708d811ebbd9bac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 312,
+      "output_tokens": 3,
+      "total_tokens": 315,
+      "wall_time": 78.0774,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "a7c95d2b088511ebbd6dac1f6bf848b6": {
+    "answer": "The Hungover Games",
+    "iterations": 1,
+    "usage": {
+      "qid": "a7c95d2b088511ebbd6dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 322,
+      "output_tokens": 4,
+      "total_tokens": 326,
+      "wall_time": 48.3264,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "6a765fc60bb011ebab90acde48001122": {
+    "answer": "Sultan Mahommed Shah Aga Khan III",
+    "iterations": 1,
+    "usage": {
+      "qid": "6a765fc60bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 332,
+      "output_tokens": 10,
+      "total_tokens": 342,
+      "wall_time": 63.1216,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "d3dd2d04085f11ebbd5dac1f6bf848b6": {
+    "answer": "Barbarosa",
+    "iterations": 1,
+    "usage": {
+      "qid": "d3dd2d04085f11ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 364,
+      "output_tokens": 3,
+      "total_tokens": 367,
+      "wall_time": 41.896,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "077b294e0bdb11eba7f7acde48001122": {
+    "answer": "Tehran, Iran",
+    "iterations": 1,
+    "usage": {
+      "qid": "077b294e0bdb11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 298,
+      "output_tokens": 5,
+      "total_tokens": 303,
+      "wall_time": 65.5273,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "bf847e1a086511ebbd5eac1f6bf848b6": {
+    "answer": "Tyreek Burwell",
+    "iterations": 1,
+    "usage": {
+      "qid": "bf847e1a086511ebbd5eac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 208,
+      "output_tokens": 4,
+      "total_tokens": 212,
+      "wall_time": 77.2685,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "8f950536085a11ebbd5cac1f6bf848b6": {
+    "answer": "Cornelis Gijsbert Gerrit Jan Van Steenis",
+    "iterations": 1,
+    "usage": {
+      "qid": "8f950536085a11ebbd5cac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 324,
+      "output_tokens": 12,
+      "total_tokens": 336,
+      "wall_time": 81.8533,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "0167e737086111ebbd5dac1f6bf848b6": {
+    "answer": "Dennis E. Nolan",
+    "iterations": 1,
+    "usage": {
+      "qid": "0167e737086111ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 283,
+      "output_tokens": 5,
+      "total_tokens": 288,
+      "wall_time": 73.6024,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "87ceaacc0bda11eba7f7acde48001122": {
+    "answer": "Ying Tian Fu",
+    "iterations": 1,
+    "usage": {
+      "qid": "87ceaacc0bda11eba7f7acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 308,
+      "output_tokens": 4,
+      "total_tokens": 312,
+      "wall_time": 99.5174,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "43dd26de086211ebbd5dac1f6bf848b6": {
+    "answer": "Pulijanmam",
+    "iterations": 1,
+    "usage": {
+      "qid": "43dd26de086211ebbd5dac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 245,
+      "output_tokens": 6,
+      "total_tokens": 251,
+      "wall_time": 54.4171,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "7032bda20baf11ebab90acde48001122": {
+    "answer": "Armand de Bourbon",
+    "iterations": 1,
+    "usage": {
+      "qid": "7032bda20baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 293,
+      "output_tokens": 4,
+      "total_tokens": 297,
+      "wall_time": 76.1174,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "9078bc380baf11ebab90acde48001122": {
+    "answer": "Bona of Savoy",
+    "iterations": 1,
+    "usage": {
+      "qid": "9078bc380baf11ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 290,
+      "output_tokens": 5,
+      "total_tokens": 295,
+      "wall_time": 88.715,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "fb4d4eee088e11ebbd70ac1f6bf848b6": {
+    "answer": "De Damescoupeur",
+    "iterations": 1,
+    "usage": {
+      "qid": "fb4d4eee088e11ebbd70ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 357,
+      "output_tokens": 6,
+      "total_tokens": 363,
+      "wall_time": 61.3679,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "acdf3b1e08d411ebbd96ac1f6bf848b6": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "acdf3b1e08d411ebbd96ac1f6bf848b6",
+      "llm_calls": 1,
+      "input_tokens": 298,
+      "output_tokens": 1,
+      "total_tokens": 299,
+      "wall_time": 120.0653,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  },
+  "897bcb4a0bb011ebab90acde48001122": {
+    "answer": "Jan I the Scholastic",
+    "iterations": 1,
+    "usage": {
+      "qid": "897bcb4a0bb011ebab90acde48001122",
+      "llm_calls": 1,
+      "input_tokens": 372,
+      "output_tokens": 6,
+      "total_tokens": 378,
+      "wall_time": 114.8757,
+      "mode": "lightrag",
+      "cache_hit": false
+    }
+  }
+}

@@ -1,0 +1,660 @@
+% ============================================================
+% EvidenceFirst draft
+% Springer LNICST / LNCS style
+% Compile from paper/: pdflatex -> bibtex -> pdflatex -> pdflatex
+% ============================================================
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\newcommand{\sys}{\textsc{EvidenceFirst}\xspace}
+\newcommand{\eg}{\emph{e.g.},\xspace}
+\newcommand{\ie}{\emph{i.e.},\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\calG}{\mathcal{G}}
+\newcommand{\calQ}{\mathcal{Q}}
+\newcommand{\calE}{\mathcal{E}}
+\newcommand{\calC}{\mathcal{C}}
+\newcommand{\calP}{\mathcal{P}}
+
+\begin{document}
+
+\title{\sys: Pre-Generation Evidence-Chain Verification for Traceable KG-RAG}
+\titlerunning{\sys: Pre-Generation Evidence-Chain Verification}
+
+\author{Anonymous Author(s)}
+\authorrunning{Anonymous}
+\institute{
+  Institution anonymized for review\\
+  \email{email@anonymized.com}
+}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+% ============================================================
+
+Knowledge graph-enhanced retrieval-augmented generation (KG-RAG) is attractive
+for multi-hop question answering because graph structure can expose the entity
+and relation chain needed to answer a question. Yet most KG-RAG systems still
+verify too late. They retrieve a graph neighborhood, ask a language model to
+generate an answer, and only then evaluate the final string. When the retrieved
+subgraph is incomplete, the generator may still produce a fluent answer, but
+the system cannot say whether the failure came from a missing entity, a broken
+bridge relation, a disconnected component, or the generator itself.
+
+We present \sys, a training-free KG-RAG pipeline that verifies evidence before
+generation. The central object of verification is not the answer string, but
+the graph-structured evidence chain. \sys builds a per-question evidence graph,
+checks whether the graph contains a complete multi-hop chain, diagnoses graph
+gaps, performs localized repair, and then generates a grounded answer from the
+verified or repaired evidence. The output is therefore both an answer and an
+audit trail: chain completeness, missing entities, disconnected pairs, repair
+attempts, fallback cases, and runtime failures.
+
+On a repaired-context 1000-question HotpotQA evaluation, the frozen fresh
+\sys run reaches 55.0\% EM and 64.8\% F1, competitive with the strongest
+standalone HopRAG baseline (54.7\% EM / 65.0\% F1). Deterministic offline
+answer cleanup and selector guarding reaches 56.2\% EM and 65.6\% F1 without
+additional LLM calls. We do not frame \sys as a score-only state-of-the-art
+claim. The contribution is that pre-generation evidence-chain verification can
+match strong standalone baselines while exposing graph-level diagnostics that
+retrieve-then-generate systems do not provide.
+
+\keywords{KG-RAG \and GraphRAG \and Evidence Verification \and Multi-Hop QA
+\and HotpotQA \and Traceable Reasoning}
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+% ============================================================
+
+Multi-hop question answering over Web knowledge requires more than retrieving
+a passage that shares surface words with the question. A correct answer often
+depends on a chain of intermediate entities and relations: an entity mentioned
+in the question leads to a bridge page, the bridge page identifies another
+entity, and only then can the answer be derived. Retrieval-augmented generation
+(RAG) grounds a language model in retrieved text~\cite{lewis2020rag}; KG-RAG
+and GraphRAG systems add structured entity-relation evidence over the retrieved
+corpus~\cite{edge2024graphrag,guo2024lightrag,han2025graphragsurvey}. Graphs
+are a natural fit for multi-hop reasoning because the answer is often the
+endpoint of a path through evidence.
+
+The open problem is not merely retrieval quality. It is evidence sufficiency.
+A KG-RAG system may retrieve several relevant triples and still miss the bridge
+edge that makes the answer derivable. It may retrieve both endpoint entities
+but leave them in disconnected components. It may retrieve a graph neighborhood
+whose entities look plausible but do not form the required reasoning chain.
+In all of these cases, a retrieve-then-generate pipeline can still produce a
+confident answer. The final answer string may be evaluated later, but the
+system has already lost the ability to explain whether the failure was caused
+by retrieval, graph construction, evidence connectivity, or generation.
+
+\sys addresses this by making the evidence graph the verified object. Before
+generation, the system checks whether the retrieved graph contains a complete
+multi-hop evidence chain for the question. If the chain is incomplete, \sys
+does not simply lower confidence. It emits a graph-structural diagnostic:
+which entity is missing, which endpoints are disconnected, whether a bridge
+edge is absent, or whether evidence retrieval failed entirely. The diagnostic
+then drives targeted repair, after which the generator receives the verified
+or repaired evidence.
+
+This framing deliberately changes the paper's goal. We do not argue that every
+new RAG paper should be judged only by an incremental EM improvement. Instead,
+we ask a stricter systems question: can a KG-RAG pipeline remain competitive
+with strong standalone baselines while providing an audit trail for evidence
+sufficiency? On the current repaired-context HotpotQA evaluation, the answer is
+yes. The frozen fresh \sys run reaches 55.0\% EM and 64.8\% F1, comparable to
+the strongest standalone HopRAG result. A deterministic offline cleanup pass
+raises this to 56.2\% EM and 65.6\% F1, but the paper keeps this boundary
+explicit: the fresh run is the primary standalone result, while offline cleanup
+is reported as engineering analysis.
+
+\paragraph{Contributions.}
+This paper makes three contributions:
+\begin{itemize}
+    \item We introduce pre-generation evidence-chain verification for KG-RAG:
+    the verified object is the retrieved evidence path, not only the generated
+    answer.
+    \item We define graph-structural diagnostics for multi-hop QA, including
+    chain completeness, missing entities, disconnected pairs, bridge gaps, and
+    fallback cases.
+    \item We evaluate \sys on a repaired-context 1000-question HotpotQA setup,
+    showing competitive answer quality with HopRAG while preserving a clear
+    diagnostic trace for each prediction.
+\end{itemize}
+
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+% ============================================================
+
+\paragraph{Retrieval-augmented generation.}
+RAG grounds language-model generation in retrieved text passages~\cite{lewis2020rag}. Dense retrieval methods such as DPR~\cite{karpukhin2020dpr}
+and iterative systems such as IRCoT~\cite{trivedi2022ircot} improve recall by
+retrieving evidence across reasoning steps. Active retrieval and self-reflective
+generation methods further adapt retrieval to the model's intermediate state~\cite{jiang2023active,asai2023selfrag}. These methods improve access to
+evidence, but they usually do not expose graph-structural reasons why a
+multi-hop evidence chain is complete or incomplete.
+
+\paragraph{KG-RAG and GraphRAG.}
+GraphRAG systems organize retrieved evidence into entities, relations, and
+communities~\cite{edge2024graphrag,guo2024lightrag}. Recent work explores
+graph traversal and path-aware retrieval for multi-hop QA~\cite{gutierrez2024hipporag,chen2025pathrag,yu2025hoprag}. These systems
+show that graph structure can improve multi-hop retrieval, but the graph is
+usually treated as a retrieval substrate rather than an object to be verified.
+\sys differs by making the evidence graph itself the target of pre-generation
+verification.
+
+\paragraph{Verification and auditability.}
+Verification-oriented RAG methods check generated claims or filter unreliable
+answers~\cite{fairrag2025,huang2025unbiased}. Agent frameworks also expose
+tool traces and intermediate decisions~\cite{wu2023autogen,hong2024metagpt}.
+However, answer-level verification can happen too late: once the generator has
+filled gaps in the evidence, it is difficult to distinguish a wrong answer
+caused by generation from one caused by incomplete retrieval. \sys instead
+checks evidence-chain sufficiency before generation and records the graph gap
+responsible for incomplete reasoning.
+
+% ============================================================
+\section{Method}
+\label{sec:method}
+% ============================================================
+
+\subsection{Design Principles}
+\label{sec:principles}
+
+\sys is built around three design principles.
+
+\paragraph{Verify before generation.}
+The system should not ask a generator to answer from evidence whose multi-hop
+structure has not been checked. Verification therefore happens before final
+answer generation.
+
+\paragraph{Verify the evidence chain, not only the answer.}
+Answer-level verification asks whether a candidate answer is plausible or
+supported. \sys asks a prior question: whether the retrieved graph contains a
+connected evidence chain from question entities to answer-supporting evidence.
+This makes the verifier independent of any particular generated answer string.
+
+\paragraph{Expose graph gaps as first-class outputs.}
+The verifier returns structured diagnostics, not just a confidence score. A
+wrong answer and an incomplete evidence graph are different failure modes; the
+system should expose which one occurred.
+
+\subsection{Problem Setup}
+\label{sec:setup}
+
+Let $q$ be a multi-hop question and $\calP=\{p_i\}$ a set of candidate
+passages. A KG construction step extracts triples
+$\calG=(V,E)$, where vertices are entities and edges are typed relations or
+text-derived relational statements. The goal is to produce an answer $a$ while
+also determining whether the evidence graph contains a structurally complete
+chain for $q$.
+
+Unlike answer-verification methods, \sys does not begin by asking whether a
+generated answer is correct. It asks whether the evidence graph contains enough
+connected support to justify any answer. This changes the key intermediate
+state from an answer candidate to an evidence-chain state:
+\[
+    s(q,\calG) = (\calC, d, r),
+\]
+where $\calC$ is the retrieved evidence chain, $d$ is a diagnostic label, and
+$r$ is a repair action or fallback decision.
+
+\subsection{Pipeline Overview}
+\label{sec:pipeline}
+
+\sys uses six stages:
+\begin{enumerate}
+    \item Build or load a per-question KG from the candidate passages.
+    \item Retrieve KG triples and top-ranked passages for the question.
+    \item Construct an evidence graph from retrieved triples.
+    \item Check graph-structural chain completeness.
+    \item Repair localized graph gaps when possible.
+    \item Generate a concise answer from the verified or repaired evidence.
+\end{enumerate}
+
+Algorithm~\ref{alg:evidencefirst} summarizes the procedure.
+
+\begin{algorithm}[t]
+\caption{\sys inference}
+\label{alg:evidencefirst}
+\begin{algorithmic}[1]
+\Require Question $q$, passages $\calP$, per-question KG $\calG$
+\Ensure Answer $a$, diagnostic record $D$
+\State $T \gets$ retrieve\_triples$(q,\calG)$
+\State $G_E \gets$ build\_evidence\_graph$(T)$
+\State $(complete, D) \gets$ check\_chain\_completeness$(q,G_E)$
+\If{not $complete$}
+    \State $(T', D_r) \gets$ repair\_gap$(q,\calG,D)$
+    \State $T \gets T \cup T'$
+    \State $G_E \gets$ build\_evidence\_graph$(T)$
+    \State $(complete, D') \gets$ check\_chain\_completeness$(q,G_E)$
+    \State $D \gets D \cup D_r \cup D'$
+\EndIf
+\If{$T$ is sparse}
+    \State $P_q \gets$ BM25\_passage\_fallback$(q,\calP)$
+\Else
+    \State $P_q \gets \emptyset$
+\EndIf
+\State $a \gets$ grounded\_generate$(q,T,P_q,D)$
+\State $a \gets$ answer\_canonicalize$(q,a,\calP)$
+\State \Return $(a,D)$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Evidence-Chain Verification}
+\label{sec:verification}
+
+The chain verifier computes whether the evidence graph contains the entities
+and connections required by the question. It identifies four gap types.
+
+\begin{table}[t]
+\centering
+\caption{Graph-structural diagnostics emitted by \sys before generation.}
+\label{tab:gap_types}
+\begin{tabular}{lll}
+\toprule
+Gap type & Graph condition & Typical repair action \\
+\midrule
+Missing entity & Required node absent & Entity expansion / passage recall \\
+Disconnected pair & Endpoints in separate components & Bridge search \\
+Bridge gap & Partial path without bridge edge & Targeted relation retrieval \\
+Empty evidence & No usable triples retrieved & Passage fallback \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Missing entity.}
+A question entity, candidate answer entity, or expected bridge entity is absent
+from the retrieved evidence graph. This usually indicates failed entity linking,
+insufficient KG extraction, or passage truncation.
+
+\paragraph{Disconnected pair.}
+Two required entities are present but lie in disconnected components. This
+means retrieval found relevant endpoints but missed the bridge relation.
+
+\paragraph{Bridge gap.}
+A partial path exists, but a specific edge or bridge entity is missing. This is
+the most directly repairable case, because the system can target retrieval at
+the missing connection.
+
+\paragraph{Empty evidence.}
+No useful triples are retrieved. In this case \sys falls back to passage-level
+evidence rather than hallucinating from an empty graph.
+
+The verifier emits a structured diagnostic record rather than a single scalar
+confidence score. The diagnostic record is used both for repair and for later
+analysis.
+
+\paragraph{Completeness criterion.}
+Operationally, a chain is treated as complete when the retrieved evidence graph
+contains the required question entities and a connected support structure that
+links them through retrieved triples or repaired evidence. The checker is not
+an oracle for semantic truth: it is a structural sufficiency test. This
+distinction matters. A complete evidence chain can still lead to a wrong answer
+if the generator misreads it, while an incomplete chain is a warning that the
+system should repair or fallback before generation.
+
+\subsection{Targeted Gap Repair}
+\label{sec:repair}
+
+When the chain is incomplete, \sys does not restart the full pipeline. It uses
+the diagnostic label to target repair. Missing-entity cases trigger entity
+expansion and passage-backed retrieval; disconnected-pair cases trigger bridge
+search; sparse-chain cases trigger passage fallback. This keeps repair scoped
+to the graph failure observed by the verifier.
+
+This repair policy is deliberately conservative. A repair attempt can add
+evidence, but it does not override the need for grounded generation. If the
+graph remains incomplete, the final diagnostic record preserves that fact.
+
+\subsection{Grounded Generation and Answer Canonicalization}
+\label{sec:generation}
+
+The answer generator receives the verified chain, repaired triples, and
+fallback passages when needed. The prompt asks for a concise final answer and
+records whether the answer came from a complete chain, a repaired chain, or a
+fallback path.
+
+After generation, \sys applies deterministic answer canonicalization. This is
+not used to change the evidence graph; it only normalizes final answer strings
+for exact-match evaluation. Examples include removing instruction leakage,
+extracting acronym answers from definition-like outputs, keeping supported
+full names from passages, and selecting a short final answer segment when the
+model emits leaked context before the answer. We report fresh results and
+posthoc deterministic cleanup results separately.
+
+% ============================================================
+\section{Experimental Setup}
+\label{sec:setup_exp}
+% ============================================================
+
+\subsection{Dataset}
+
+We evaluate on HotpotQA distractor-style multi-hop questions~\cite{yang2018hotpotqa}. During development we found that the local sample
+file used by earlier experiments contained incomplete context: in the first
+100 rows, 110 of 240 supporting-fact titles were absent from the provided
+context. We therefore restore contexts by question id from the HuggingFace
+HotpotQA distractor validation split and use the repaired-context file as the
+primary EvidenceFirst evaluation input. On the current 1000-question evaluation
+file, all supporting-fact titles are present in context.
+
+The repository also contains a Wikidata-derived 2WikiMultiHopQA sample
+~\cite{ho2020constructing}. This 500-question sample stores natural-language
+contexts together with gold evidence triples, Wikidata entity ids, evidence
+ids, and answer ids. For example, a compositional question can include a gold
+chain such as $(\textit{film}, \textit{director}, \textit{person})$ followed by
+$(\textit{person}, \textit{place of birth}, \textit{city})$. This makes
+2Wiki/Wikidata a particularly good fit for evidence-chain verification because
+the graph structure is explicitly available. In the current draft, HotpotQA is
+the primary EvidenceFirst result; the 2Wiki/Wikidata sample is reported as an
+available secondary benchmark and a natural next rerun target.
+
+\subsection{Baselines}
+
+We compare against the repository's 1000-question HotpotQA baseline summary:
+Naive RAG, IRCoT, A-RAG, LightRAG, Microsoft GraphRAG, HopRAG strict rescoring,
+and HopRAG legacy metrics. We also report internal selector and consensus
+variants for context, but we do not treat external-consensus variants as
+standalone systems because they use outputs from other baselines.
+
+For 2Wiki/Wikidata, we report the surviving 500-question legacy CoMaGRAG
+baselines only as scope context. These rows are useful because they establish
+that the dataset, KG cache, and evaluation pipeline already exist in the
+repository. They should not be read as EvidenceFirst results until the
+EvidenceFirst pipeline is rerun on the 2Wiki/Wikidata sample.
+
+\subsection{Metrics}
+
+We use standard HotpotQA exact match (EM) and token F1, with normalization by
+lowercasing, removing articles, removing punctuation, and collapsing
+whitespace. In addition, \sys records evidence diagnostics: chain completion,
+repair attempts, missing entities, disconnected pairs, fallback frequency, and
+runtime errors.
+
+\subsection{Implementation Notes}
+
+The current run uses Qwen-compatible LLM calls through the repository's OpenAI
+interface and a local SentenceTransformer embedding model for graph retrieval.
+The 1000-question run was executed in split batches to avoid GPU memory
+contention from the local embedding model. The first complete merged result
+with no CUDA OOM failures is frozen as v4. Later v5/v6 rows are deterministic
+offline passes over the v4 predictions and make no fresh LLM calls.
+
+\paragraph{Reporting boundary.}
+We report three kinds of numbers and keep them separate. The v4 row is the
+fresh end-to-end \sys run and is the primary method result. The v5/v6 rows are
+deterministic posthoc answer-normalization and selector-guard passes over the
+same v4 predictions; they measure how much of the remaining error is caused by
+formatting or conservative answer selection. The external consensus row is a
+hybrid upper comparison that uses agreement among external baseline outputs;
+it is not a standalone \sys result.
+
+% ============================================================
+\section{Results}
+\label{sec:results}
+% ============================================================
+
+\subsection{Main HotpotQA Results}
+
+Table~\ref{tab:main_results} compares \sys with the available 1000-question
+baselines. The fresh \sys run is competitive with the strongest standalone
+graph baseline: it slightly exceeds HopRAG legacy EM and is within 0.2 F1
+points. The deterministic offline selector-guard pass improves both EM and F1,
+but we report it separately because it is posthoc over the same fresh
+predictions.
+
+\begin{table}[t]
+\centering
+\caption{HotpotQA 1000-question results. v4 is the frozen fresh \sys run.
+v6 is deterministic offline cleanup and selector guarding over v4/v5
+predictions with no fresh LLM calls.}
+\label{tab:main_results}
+\begin{tabular}{lccc}
+\toprule
+Method & N & EM & F1 \\
+\midrule
+Microsoft GraphRAG & 1000 & 0.1890 & 0.2774 \\
+Naive RAG & 1000 & 0.3920 & 0.4865 \\
+LightRAG & 1000 & 0.4380 & 0.5376 \\
+IRCoT & 1000 & 0.4660 & 0.5707 \\
+A-RAG & 1000 & 0.5170 & 0.6273 \\
+HopRAG strict & 1000 & 0.5410 & 0.6438 \\
+HopRAG legacy & 1000 & 0.5470 & 0.6498 \\
+\midrule
+\sys v4 fresh & 1000 & 0.5500 & 0.6484 \\
+\sys v6 offline selector guard & 1000 & 0.5620 & 0.6564 \\
+\midrule
+External consensus hybrid & 1000 & 0.5840 & 0.6869 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The result supports a conservative claim: \sys is not presented as a
+state-of-the-art score-only system, but as a traceable KG-RAG pipeline whose
+fresh accuracy is competitive with the strongest standalone baselines. The
+offline pass shows that a small number of deterministic answer-selection
+failures can be corrected without additional model calls.
+
+Two observations follow from Table~\ref{tab:main_results}. First, the fresh
+\sys row is already in the same accuracy regime as HopRAG. This is important
+because \sys adds diagnostics without giving up answer quality. Second, the
+offline v6 row exceeds the standalone HopRAG rows, but it should be interpreted
+as deterministic cleanup over a frozen run, not as a new retrieval or reasoning
+experiment. This is why the paper's main claim is competitive accuracy plus
+auditability rather than an unrestricted leaderboard claim.
+
+\subsection{Repaired-Context 100-Question Check}
+
+On the repaired-context first 100 HotpotQA rows, \sys reaches 0.5800 EM and
+0.6495 F1. This slice is useful as a development check because it is small
+enough for fast iteration while preserving complete supporting contexts. The
+larger 1000-question v4 result is the primary fresh-run result.
+
+\subsection{Offline Answer Cleanup}
+
+Table~\ref{tab:offline_passes} summarizes the deterministic posthoc passes.
+The v5 pass fixes final-answer leakage such as ``context sentence followed by
+answer''. The v6 pass adds a narrow selector guard for cases where the current
+answer is clearly the wrong type, such as a non-yes/no question answered with
+``no'', while the postprocessor produced a short supported phrase.
+
+The no-loss property in Table~\ref{tab:offline_passes} is measured against the
+frozen v4/v5 predictions. It does not imply that the rule is universally safe
+under distribution shift; rather, it justifies reporting the pass as a
+deterministic cleanup of this evaluation artifact.
+
+\begin{table}[t]
+\centering
+\caption{Deterministic offline passes over the frozen v4 predictions. These
+passes do not make fresh LLM calls and are not counted as fresh end-to-end
+runs.}
+\label{tab:offline_passes}
+\begin{tabular}{lcccc}
+\toprule
+Variant & EM & F1 & EM gains & EM losses \\
+\midrule
+v4 fresh & 0.5500 & 0.6484 & -- & -- \\
+v5 offline final-answer clean & 0.5570 & 0.6507 & 7 & 0 \\
+v6 offline selector guard & 0.5620 & 0.6564 & 5 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Evidence Diagnostics}
+
+The diagnostic trace is the main reason to use \sys. Table~\ref{tab:diag}
+shows the aggregate diagnostics from the frozen v4 1000-question run. More
+than half of the questions have complete chains after retrieval and repair,
+while a large number still require repair attempts. The disconnected-pair
+count shows that many errors are not simply missing isolated entities; they
+are failures to retrieve or construct the bridge relation connecting otherwise
+present evidence.
+
+\begin{table}[t]
+\centering
+\caption{EvidenceFirst diagnostics on the frozen v4 1000-question run.}
+\label{tab:diag}
+\begin{tabular}{lr}
+\toprule
+Diagnostic & Count \\
+\midrule
+Questions & 1000 \\
+Chain complete & 568 \\
+Repair attempts & 637 \\
+Fallback cases & 5 \\
+Missing-entity total & 432 \\
+Disconnected-pair total & 2082 \\
+Runtime/content-filter errors & 4 \\
+CUDA OOM errors & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These diagnostics give a more actionable error surface than answer accuracy
+alone. A plain EM failure says only that the final string did not match the
+gold answer. A \sys failure can additionally say whether the graph lacked a
+question entity, contained disconnected components, or required fallback
+because triple retrieval was sparse.
+
+\subsection{2Wiki/Wikidata Scope}
+
+Table~\ref{tab:2wiki_scope} records the existing 500-question
+2Wiki/Wikidata results available in the repository. These are legacy CoMaGRAG
+rows, not EvidenceFirst rows. We include them in the draft because the dataset
+is important for the paper's planned generalization story: unlike HotpotQA, the
+2Wiki sample includes gold evidence triples and Wikidata ids, which can support
+direct evaluation of evidence-chain completeness.
+
+\begin{table}[t]
+\centering
+\caption{Existing legacy 2Wiki/Wikidata 500-question results. These rows are
+included as dataset scope context, not as EvidenceFirst results.}
+\label{tab:2wiki_scope}
+\begin{tabular}{lccc}
+\toprule
+Method & N & EM & F1 \\
+\midrule
+Naive RAG & 500 & 0.3020 & 0.3361 \\
+CoMaGRAG no decomposition & 500 & 0.3040 & 0.3533 \\
+CoMaGRAG full & 500 & 0.3180 & 0.3770 \\
+CoMaGRAG no verification & 500 & 0.3360 & 0.3862 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The current table should be treated as a placeholder for experimental scope,
+not as a final result section. The main reason to keep 2Wiki/Wikidata in the
+paper is methodological: it provides gold graph evidence that can test whether
+\sys's chain verifier identifies the same supporting relation path as the
+dataset annotation.
+
+% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+% ============================================================
+
+\paragraph{Accuracy is competitive, but not the main story.}
+The fresh \sys result is close to HopRAG, and deterministic cleanup exceeds the
+standalone HopRAG numbers available in the repository. However, the strongest
+hybrid consensus result remains higher. We therefore avoid framing the method
+as a pure leaderboard contribution. The more robust claim is that \sys reaches
+competitive accuracy while adding pre-generation evidence diagnostics.
+
+\paragraph{Why pre-generation verification matters.}
+Answer-level verification can reject a bad answer, but it often cannot explain
+why the system failed. Was the answer wrong because the model reasoned poorly,
+because the graph retrieval missed a bridge entity, because entity linking
+selected the wrong node, or because the context itself lacked the page? \sys
+records the graph state before generation, making these distinctions visible.
+
+\paragraph{Diagnostics turn failures into engineering signals.}
+The diagnostic counters are not merely explanatory metadata. They identify
+where the next improvement should occur. A high missing-entity rate suggests
+better entity extraction or context restoration. A high disconnected-pair rate
+suggests bridge retrieval and relation extraction improvements. A high fallback
+rate suggests sparse graph construction. This makes \sys useful even when the
+final answer is wrong, because the failure is assigned to a repairable system
+component.
+
+\paragraph{The context-repair lesson.}
+The early local HotpotQA sample had incomplete contexts. This substantially
+changed the interpretation of results: a system cannot be expected to recover
+supporting pages absent from the evaluation context. Restoring contexts by id
+from the original HotpotQA validation split makes the evaluation fairer and
+also demonstrates why evidence diagnostics are useful. Missing context and
+missing graph evidence should not be conflated.
+
+\paragraph{Why the Wikidata-derived benchmark matters.}
+2Wiki/Wikidata is a stronger test of the method's central claim than a plain
+answer-only benchmark because its examples include explicit evidence triples
+and entity ids. This makes it possible to evaluate not only whether the final
+answer string is correct, but whether the system recovers the annotated
+relation chain. The current paper draft therefore keeps 2Wiki/Wikidata in view
+as the natural next evaluation, while avoiding unsupported EvidenceFirst claims
+before the rerun is completed.
+
+\paragraph{Posthoc passes are useful but bounded.}
+The v5/v6 deterministic passes improve EM by correcting final-answer formatting
+and narrow selector failures. They do not change retrieval or reasoning. In
+the paper, these should be presented as analysis and engineering cleanup rather
+than as the core method. The core method is the fresh v4 pipeline.
+
+% ============================================================
+\section{Limitations}
+\label{sec:limitations}
+% ============================================================
+
+\sys has four important limitations. First, graph construction quality remains
+a bottleneck. If entity extraction or triple extraction fails, the verifier can
+diagnose the failure but cannot always repair it. Second, the current repair
+policy is conservative and still leaves many disconnected-pair cases unresolved.
+Third, v5/v6 improvements are deterministic offline passes over existing
+predictions; they should not be reported as fresh LLM runs. Fourth, the current
+EvidenceFirst evaluation is focused on HotpotQA. Although the repository
+contains a 2Wiki/Wikidata sample and legacy baselines, the EvidenceFirst rerun
+on that dataset remains future work. The evidence-chain diagnostics should also
+be tested on additional multi-hop datasets and open-domain Web settings.
+
+There are also two threats to validity. The repaired-context evaluation is more
+fair than the incomplete local sample, but it depends on restoring contexts by
+question id from the source HotpotQA validation split. Future work should
+publish the repaired ids and context-generation script alongside the result
+artifacts. In addition, some baselines use different retrieval stacks and
+runtime assumptions. We therefore treat the comparison as evidence of
+competitiveness, not as a definitive benchmark ranking.
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+% ============================================================
+
+We introduced \sys, a KG-RAG pipeline that verifies evidence-chain completeness
+before generation. The method changes the reliability object from the final
+answer string to the retrieved evidence graph, enabling graph-structural
+diagnostics such as missing entities, disconnected pairs, repair attempts, and
+fallback cases. On a repaired-context 1000-question HotpotQA evaluation, the
+fresh \sys run is competitive with strong standalone baselines, and deterministic
+cleanup further improves answer accuracy without new model calls. More
+importantly, \sys provides a traceable account of where evidence succeeds or
+fails. This makes it a step toward KG-RAG systems that are not only accurate,
+but auditable.
+
+\bibliographystyle{splncs04}
+\bibliography{comagraag}
+
+\end{document}

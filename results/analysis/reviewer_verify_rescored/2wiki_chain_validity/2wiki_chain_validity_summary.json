@@ -1,0 +1,247 @@
+{
+  "n": 500,
+  "overall": {
+    "em": 0.69,
+    "f1": 0.7581,
+    "gold_entity_coverage": 0.7657,
+    "gold_pair_recall": 0.4778,
+    "gold_relation_recall": 0.042,
+    "gold_pair_complete_rate": 0.192,
+    "gold_nodes_connected_rate": 0.206
+  },
+  "by_chain_complete": [
+    {
+      "chain_complete": "False",
+      "n": 261,
+      "em": 0.6782,
+      "f1": 0.749,
+      "gold_entity_coverage": 0.7726,
+      "gold_pair_recall": 0.4801,
+      "gold_relation_recall": 0.0402,
+      "gold_pair_complete_rate": 0.1686,
+      "gold_nodes_connected_rate": 0.1877,
+      "repair_attempt_rate": 0.8966,
+      "repair_to_complete_rate": 0.0
+    },
+    {
+      "chain_complete": "True",
+      "n": 239,
+      "em": 0.7029,
+      "f1": 0.7681,
+      "gold_entity_coverage": 0.758,
+      "gold_pair_recall": 0.4753,
+      "gold_relation_recall": 0.0439,
+      "gold_pair_complete_rate": 0.2176,
+      "gold_nodes_connected_rate": 0.2259,
+      "repair_attempt_rate": 0.2762,
+      "repair_to_complete_rate": 1.0
+    }
+  ],
+  "by_gap_type": [
+    {
+      "gap_type": "complete",
+      "n": 239,
+      "em": 0.7029,
+      "f1": 0.7681,
+      "gold_entity_coverage": 0.758,
+      "gold_pair_recall": 0.4753,
+      "gold_relation_recall": 0.0439,
+      "gold_pair_complete_rate": 0.2176,
+      "gold_nodes_connected_rate": 0.2259,
+      "repair_attempt_rate": 0.2762,
+      "repair_to_complete_rate": 1.0
+    },
+    {
+      "gap_type": "disconnected",
+      "n": 11,
+      "em": 0.4545,
+      "f1": 0.5351,
+      "gold_entity_coverage": 0.8485,
+      "gold_pair_recall": 0.6818,
+      "gold_relation_recall": 0.0455,
+      "gold_pair_complete_rate": 0.3636,
+      "gold_nodes_connected_rate": 0.4545,
+      "repair_attempt_rate": 1.0,
+      "repair_to_complete_rate": 0.0
+    },
+    {
+      "gap_type": "missing_entities",
+      "n": 217,
+      "em": 0.6959,
+      "f1": 0.7667,
+      "gold_entity_coverage": 0.7652,
+      "gold_pair_recall": 0.4703,
+      "gold_relation_recall": 0.0415,
+      "gold_pair_complete_rate": 0.1475,
+      "gold_nodes_connected_rate": 0.1797,
+      "repair_attempt_rate": 1.0,
+      "repair_to_complete_rate": 0.0
+    },
+    {
+      "gap_type": "short_chain",
+      "n": 33,
+      "em": 0.6364,
+      "f1": 0.7035,
+      "gold_entity_coverage": 0.7962,
+      "gold_pair_recall": 0.4773,
+      "gold_relation_recall": 0.0303,
+      "gold_pair_complete_rate": 0.2424,
+      "gold_nodes_connected_rate": 0.1515,
+      "repair_attempt_rate": 0.1818,
+      "repair_to_complete_rate": 0.0
+    }
+  ],
+  "by_repair_outcome": [
+    {
+      "repair_outcome": "not_attempted",
+      "n": 200,
+      "em": 0.705,
+      "f1": 0.7725,
+      "gold_entity_coverage": 0.791,
+      "gold_pair_recall": 0.518,
+      "gold_relation_recall": 0.0462,
+      "gold_pair_complete_rate": 0.26,
+      "gold_nodes_connected_rate": 0.25,
+      "repair_attempt_rate": 0.0,
+      "repair_to_complete_rate": 0.0
+    },
+    {
+      "repair_outcome": "repair_residual_gap",
+      "n": 234,
+      "em": 0.6795,
+      "f1": 0.749,
+      "gold_entity_coverage": 0.766,
+      "gold_pair_recall": 0.4746,
+      "gold_relation_recall": 0.0406,
+      "gold_pair_complete_rate": 0.1581,
+      "gold_nodes_connected_rate": 0.1923,
+      "repair_attempt_rate": 1.0,
+      "repair_to_complete_rate": 0.0
+    },
+    {
+      "repair_outcome": "repair_to_complete",
+      "n": 66,
+      "em": 0.6818,
+      "f1": 0.747,
+      "gold_entity_coverage": 0.6876,
+      "gold_pair_recall": 0.3674,
+      "gold_relation_recall": 0.0341,
+      "gold_pair_complete_rate": 0.1061,
+      "gold_nodes_connected_rate": 0.1212,
+      "repair_attempt_rate": 1.0,
+      "repair_to_complete_rate": 1.0
+    }
+  ],
+  "by_type": [
+    {
+      "type": "bridge_comparison",
+      "n": 112,
+      "em": 0.9375,
+      "f1": 0.9375,
+      "gold_entity_coverage": 0.8233,
+      "gold_pair_recall": 0.6018,
+      "gold_relation_recall": 0.0536,
+      "gold_pair_complete_rate": 0.0625,
+      "gold_nodes_connected_rate": 0.0089,
+      "repair_attempt_rate": 0.6786,
+      "repair_to_complete_rate": 0.0526
+    },
+    {
+      "type": "comparison",
+      "n": 119,
+      "em": 0.958,
+      "f1": 0.9652,
+      "gold_entity_coverage": 0.6011,
+      "gold_pair_recall": 0.2983,
+      "gold_relation_recall": 0.0378,
+      "gold_pair_complete_rate": 0.1597,
+      "gold_nodes_connected_rate": 0.0,
+      "repair_attempt_rate": 0.4538,
+      "repair_to_complete_rate": 0.3519
+    },
+    {
+      "type": "compositional",
+      "n": 218,
+      "em": 0.4541,
+      "f1": 0.5626,
+      "gold_entity_coverage": 0.8012,
+      "gold_pair_recall": 0.5138,
+      "gold_relation_recall": 0.0367,
+      "gold_pair_complete_rate": 0.2752,
+      "gold_nodes_connected_rate": 0.3761,
+      "repair_attempt_rate": 0.633,
+      "repair_to_complete_rate": 0.2609
+    },
+    {
+      "type": "inference",
+      "n": 51,
+      "em": 0.5294,
+      "f1": 0.7167,
+      "gold_entity_coverage": 0.8709,
+      "gold_pair_recall": 0.4706,
+      "gold_relation_recall": 0.049,
+      "gold_pair_complete_rate": 0.1961,
+      "gold_nodes_connected_rate": 0.3922,
+      "repair_attempt_rate": 0.6275,
+      "repair_to_complete_rate": 0.2188
+    }
+  ],
+  "gap_label_gold_audit": [
+    {
+      "gap_type": "complete",
+      "target_name": "gold_pair_complete_and_nodes_connected",
+      "n": 500,
+      "label_n": 239,
+      "target_n": 70,
+      "true_positive_n": 36,
+      "precision": 0.1506,
+      "recall": 0.5143,
+      "target_prevalence": 0.14,
+      "lift": 1.0759,
+      "label_em": 0.7029,
+      "label_f1": 0.7681
+    },
+    {
+      "gap_type": "missing_entities",
+      "target_name": "missing_gold_entity",
+      "n": 500,
+      "label_n": 217,
+      "target_n": 316,
+      "true_positive_n": 149,
+      "precision": 0.6866,
+      "recall": 0.4715,
+      "target_prevalence": 0.632,
+      "lift": 1.0864,
+      "label_em": 0.6959,
+      "label_f1": 0.7667
+    },
+    {
+      "gap_type": "disconnected",
+      "target_name": "all_gold_entities_present_but_nodes_disconnected",
+      "n": 500,
+      "label_n": 11,
+      "target_n": 81,
+      "true_positive_n": 1,
+      "precision": 0.0909,
+      "recall": 0.0123,
+      "target_prevalence": 0.162,
+      "lift": 0.5612,
+      "label_em": 0.4545,
+      "label_f1": 0.5351
+    },
+    {
+      "gap_type": "short_chain",
+      "target_name": "partial_gold_pair_recall",
+      "n": 500,
+      "label_n": 33,
+      "target_n": 269,
+      "true_positive_n": 15,
+      "precision": 0.4545,
+      "recall": 0.0558,
+      "target_prevalence": 0.538,
+      "lift": 0.8449,
+      "label_em": 0.6364,
+      "label_f1": 0.7035
+    }
+  ]
+}

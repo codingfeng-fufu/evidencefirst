@@ -1,0 +1,2 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost
+results/wise/hotpot_extra500_arag_full_post_predictions.jsonl,500,5.06,0.0,0.0,0.0,0.0,4.06,686.9,0.011198

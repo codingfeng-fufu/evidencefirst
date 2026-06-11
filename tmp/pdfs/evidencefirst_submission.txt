@@ -1,0 +1,726 @@
+    EvidenceFirst: Evidence-State Control for
+     Knowledge Graphs and RAG on the Web
+
+                              Anonymous Author(s)
+
+                         Institution anonymized for review
+                               email@anonymized.com
+
+
+
+      Abstract. Fixed-context Web Knowledge-RAG combines pages, entity-
+      relation graphs, and LLM readers, but deployed systems still lack a
+      reliable pre-generation answer to a basic operational question: is the
+      Web evidence graph ready for the reader, or should the case be repaired,
+      routed, or reviewed first? EvidenceFirst introduces an evidence-state
+      control layer for Web Knowledge-RAG. Before generation, a determin-
+      istic structural checker assigns each question to a structurally checked
+      candidate path, repaired path, residual gap, or passage-fallback state;
+      the state then controls localized graph repair, passage fallback, evidence
+      routing, and later replay. The contract complements semantic answer
+      checking by turning retrieved graph evidence into executable state before
+      the reader output is finalized. The answer-quality rows place this control
+      layer in a practical operating range: EvidenceFirst reaches 55.0/64.8
+      on the HotpotQA end-to-end row, 56.2/65.6 on its selector sensitivity
+      row, 69.0/75.8 in the context-rich 2Wiki reader-full audit setting, and
+      50.4/59.5 under the stricter 2Wiki local-context stress boundary. The
+      central empirical finding is operational: saved states create recomputable
+      Web audit queues and a 2Wiki evidence-visibility audit without new LLM
+      calls.
+
+      Keywords: Knowledge Graphs · RAG on the Web · GraphRAG ·
+      Evidence-State Control · Web Question Answering
+
+
+1   Introduction
+Knowledge-intensive Web applications increasingly answer questions from a
+mixture of retrieved pages, extracted entities, and knowledge-graph structure.
+In an enterprise search or public Web QA service, however, the operational
+failure is not only that an answer may be wrong. The operator also needs to
+know whether the evidence graph connected the entities required by the question,
+whether a missing bridge was repaired, whether generation fell back to passages,
+and whether the same decision can be replayed later for audit. RAG grounds
+language-model answers in retrieved text [6], while KG-RAG and GraphRAG
+systems add entity-relation structure over retrieved corpora [2–4]. For Knowledge
+and RAG on the Web, graph construction, entity-relation evidence, multi-hop
+answering, and operational audit meet in the same question: what state was the
+Web evidence graph in before generation?
+2        Anonymous
+
+    The missing systems abstraction is an evidence-state contract between Web
+knowledge retrieval and answer generation. A GraphRAG pipeline can retrieve
+relevant triples while still missing the bridge edge that makes the answer derivable.
+It can retrieve both endpoint entities but leave them in disconnected components.
+It can also retrieve a plausible graph neighborhood that lacks the actual candidate
+support chain. In all of these cases, a retrieve-then-generate pipeline may still
+produce a fluent answer, but after generation the log cannot tell whether the
+failure belongs to retrieval, graph construction, graph repair, reader behavior, or
+answer selection.
+    EvidenceFirst turns the evidence graph into a control surface before the
+reader is called. Instead of treating the generated answer string as the first
+object to inspect, EvidenceFirst checks whether the constructed Web evidence
+graph contains a structurally connected candidate chain for the question. The
+checker assigns the case to a structurally checked candidate path, repaired path,
+residual graph gap, or passage-fallback state. That state is executable rather
+than merely logged: it is computed before the reader, determines graph repair
+or passage fallback, constrains which evidence is passed to generation, records
+the downstream selection decision, and can be replayed from saved artifacts. The
+method therefore makes a focused systems claim: structural graph state is an
+effective pre-reader interface for routing and auditing Knowledge-RAG failures
+on fixed Web evidence. The path/gap state gives the system a control boundary
+before answer generation, where repair and fallback decisions can be made from
+the graph condition rather than from the final answer string.
+    Table 1 makes the Web information-system requirements explicit. The key
+difference from passive traces is that EvidenceFirst records the evidence
+condition that controlled generation, not merely an explanation after an answer
+has already been produced. A checked-path failure can be routed to reader or
+selector inspection; a residual gap can be routed to graph repair; an empty or
+fallback state can be routed to retrieval and context review. Because the same
+fields are stored in per-example artifacts, auditors can replay the state transitions
+without fresh LLM calls.
+Table 1. Operational requirements for Web Knowledge-RAG. EvidenceFirst adds a
+pre-reader state contract that turns graph evidence into repair, fallback, selection, and
+replay decisions.
+
+Requirement               Operational question             EvidenceFirst mechanism and saved evi-
+                                                           dence
+Evidence readiness        Is the graph ready before the    Structural path check with chain_complete,
+                          reader?                          path length, and gap label.
+Gap localization          Which entity or endpoint pair    Missing-entity and disconnected-pair fields
+                          blocks a chain?                  record the structural cause.
+Repair/fallback routing   Expand graph, use passages, or   Repair/fallback tags record A+/B repair,
+                          inspect the reader?              passage fallback, and selection.
+Replayable audit          Can claims be recomputed with-   JSONL artifacts, fingerprints, independent
+                          out generation?                  rescoring, and no-LLM verifier outputs.
+Protocol boundary         What Web context was visible?    Saved protocol rows and support-visibility
+                                                           audits separate Hotpot BM25 context,
+                                                           2Wiki reader-full audit, and local-context
+                                                           stress.
+                           EvidenceFirst for Knowledge-RAG on the Web              3
+
+    The paper studies this Web Knowledge-RAG problem in fixed-context Web-
+style evidence corpora. HotpotQA and 2Wiki provide retrieved passages, en-
+tity mentions, and linked evidence graphs; EvidenceFirst focuses on how a
+Knowledge-RAG system exposes and uses the retrieved graph state before genera-
+tion. The reported accuracy rows place the control layer within a usable Web QA
+range: under recorded protocols, EvidenceFirst preserves usable answer quality
+while adding state telemetry that standard baselines do not expose. The paper’s
+core evidence is operational: saved states create audit queues whose top-20% risk
+strata contain 67.0% HotpotQA errors and 40.0% 2Wiki errors, while residual
+graph states add typed causes for repair or reader inspection. Support-visibility,
+local-context, gold-chain, and proxy/blind audits then show where fixed-context
+graph state is strongest as a control signal.
+
+Contributions. This paper makes three contributions:
+ – We formulate a Web Knowledge-RAG evidence-state contract: every answer
+   is tied to a structurally checked, repaired, residual, or fallback graph state
+   computed before generation and replayable after deployment.
+ – We implement this contract as structural control logic, where gap states drive
+   localized graph repair, passage fallback, evidence routing, answer-selection
+   audit, and typed Web audit queues.
+ – We show that the control layer can preserve usable answer quality while pro-
+   ducing replayable Web audit queues, validated with HotpotQA and 2Wiki ar-
+   tifacts, paired statistics, operational removals, risk stratification, proxy/blind
+   inspections, and no-LLM claim verification.
+
+
+2   Related Work
+RAG, GraphRAG, and multi-hop retrieval. RAG conditions a language model
+on retrieved evidence [6], while GraphRAG systems organize retrieved infor-
+mation into entity, relation, or community structures [2–4]. IRCoT interleaves
+retrieval with chain-of-thought reasoning [10], A-RAG uses an agentic retrieval
+trajectory [1], and HopRAG performs logic-aware graph retrieval and pruning [8].
+These systems use graphs primarily to acquire, traverse, or compress evidence
+for a reader. EvidenceFirst targets a different stage of the same Web KG-
+RAG pipeline: after graph evidence has been retrieved or constructed, it records
+whether that graph is in a checked, repaired, residual, or fallback state before
+the reader is called.
+
+Knowledge graphs for Web information systems. Web knowledge graphs expose
+entity and relation structure for search, question answering, and information
+fusion, but their operational value depends on how graph state is exposed to
+downstream components. A retrieved subgraph may contain useful Web evidence
+while still omitting a bridge entity, separating endpoint entities into different
+components, or exposing only a shallow relation that is insufficient for a multi-hop
+query. EvidenceFirst treats these cases as first-class Web information-system
+4       Anonymous
+
+states. Rather than adding another retrieval score, it records the graph condition
+that the reader actually saw and turns that condition into a repair, fallback, or
+audit route.
+
+Verification and auditability. S2G-RAG judges whether evidence memory is
+sufficient and emits text gap items [7], while RAGChecker defines diagnostic
+metrics for retrieval and generation modules [9]. EvidenceFirst narrows the
+claim to a different object of control: a per-question graph state whose path/gap
+label is stored before generation, affects repair and fallback routing, records
+selection state, and can be recomputed from saved artifacts. The distinction
+is the timing and control boundary. RAGChecker-style metrics score modules
+after outputs are available, and sufficiency-style systems emit gap judgments
+over evidence; EvidenceFirst stores a graph state before the reader output is
+finalized and uses that state to select the repair or fallback route whose result is
+later replayed.
+
+
+3     Method
+
+3.1   Web Knowledge-RAG Problem Setting
+
+We model a Web Knowledge-RAG query as a fixed-context inference problem
+over retrieved or provided Web evidence. Given a question q, candidate passages
+P = {pi }, and a per-question evidence graph G = (V, E) built from the same
+visible evidence, the system must output a short answer a and a diagnostic record
+D. Nodes in G are entities or evidence units, and edges are extracted relations,
+support links, or passage-level associations. The setting covers search results,
+Wikipedia-style pages, entity descriptions, and linked Web documents; it does
+not assume live crawling or changing Web content during inference.
+    The central object of control is the pre-reader evidence state of G. Standard
+RAG readers consume passages directly, and many GraphRAG systems use graphs
+to retrieve or compress context for the reader. EvidenceFirst instead asks
+whether the visible graph contains a connected candidate chain before the reader
+is called. Bridge questions require an intermediate entity or relation; comparison
+questions require compared attributes or entities before the reader decides the
+answer. This structural view is designed for routing: using only test-time graph
+and passage evidence, it exposes whether the retrieved Web knowledge graph is
+connected enough to justify a reader attempt.
+    Operationally, EvidenceFirst records a structural path-state contract before
+generation. For each question, the graph state is recorded as one of four states: a
+checked structurally connected candidate path found in the retrieved evidence
+graph, a repaired path after localized graph expansion, a residual graph gap after
+unsuccessful repair, or a passage-fallback state when usable graph evidence is
+absent. The diagnostic record D stores path-checked status, path length, gap
+type, missing-entity and disconnected-pair counts, repair and fallback step tags,
+and the final answer-selection flag. This contract is the method’s main difference
+                                     EvidenceFirst for Knowledge-RAG on the Web                                           5
+
+from using a Web knowledge graph merely as reader context: the recorded state
+authorizes the repair, fallback, or evidence route that generation receives.
+Table 2. Evidence-state contract used by EvidenceFirst. The states are operational
+control states over the retrieved graph.
+
+State              Entry condition                    Control action                        Saved fields
+Checked path       Candidate path satisfies entity     Terminal reader route: pass ex-      chain_complete, chain length,
+                   mapping, answer-type filter, and    tracted chain, with local passages   empty gap label
+                   minimum path length                 when enabled
+Repaired path      Initial gap triggers A+/B repair    Transition from gap to termi-        repair tags,   chain_complete,
+                   and recheck becomes complete        nal reader route; preserve repair    chain length
+                                                       provenance
+Residual gap       Recheck remains incomplete or Terminal reader route with avail-          gap label, missing entities,
+                   short after repair                  able triples/passages and retained   disconnected-pair count, repair
+                                                       graph cause                          tags
+Passage fallback   No usable triples or graph evidence Terminal passage route; mark         fallback tags, empty/unknown
+                   is absent                           graph evidence unavailable           chain fields
+
+
+
+Algorithmic contract. Given question q, visible passages P, and evidence graph
+G, EvidenceFirst executes a fixed state machine before the final reader output.
+It first retrieves question triples and local passages, extracts question entities
+with named-entity and proper-noun fallbacks, filters generic terms, normalizes
+strings, and maps entities to graph nodes by exact, substring, and token-overlap
+matching with threshold 0.85. It then selects non-question candidate nodes, filters
+them by a coarse answer type inferred from q, and tests shortest paths in the
+evidence subgraph. Non-yes/no questions require at least a two-edge support
+path; yes/no questions require at least one edge. If an adequate path exists, the
+state is checked and the extracted chain is sent to the reader. Otherwise, the
+checker emits missing_entity, disconnected, bridge, or short_chain; empty
+graph evidence becomes passage fallback. Missing entities trigger A+ expansion,
+disconnected pairs trigger B bridge extraction over at most five endpoint pairs,
+and every repair is followed by the same structural recheck. A complete recheck
+becomes a repaired path; otherwise the residual gap or fallback state is retained
+through generation and selection. The invariants are that the state is written
+before the reader call, each state has a control action, and the saved fields can be
+replayed from the graph, repair log, and selector decision without new generation.
+These rules are fixed before evaluation and use no gold answers or support facts
+at test time.
+
+3.2     Evidence-First Inference
+EvidenceFirst performs inference by applying the state machine in Figure 1.
+It builds or loads a per-question KG, retrieves triples and passages, applies the
+pre-reader structural check, optionally repairs and rechecks localized gaps, and
+generates from the evidence packet selected by the resulting state. Empty graph
+evidence routes to passages instead of being silently treated as complete, and
+residual gaps remain attached to the final answer record.
+
+3.3     Path-State Checking and Diagnostic Repair
+The structural checker emits structured diagnostic states rather than a single
+scalar confidence score. It first checks whether any mapped question entity and any
+6         Anonymous
+
+                 Question + candidate passages + question KG
+
+                    Pre-reader structural checker: entity map-
+                    ping, answer-type filter, shortest-path rule
+
+
+       Checked path                 Graph gap                 Empty/residual
+    send chain to reader        repair and recheck            passage fallback    no new
+                                                                                 LLM calls
+
+           Reader receives selected evidence; selector decision is logged
+
+              Saved audit record: chain_complete, path length, gap
+                label, repair/fallback tags, answer-selection state
+
+Fig. 1. EvidenceFirst pre-reader evidence-state contract. The graph state is computed
+before generation, controls repair/fallback and evidence routing, records selection state,
+and is saved for audit and triage.
+
+candidate answer node are connected in the evidence subgraph. If a path exists,
+EvidenceFirst extracts the shortest path as the evidence chain passed to the
+reader. A path shorter than the question-type minimum is labeled as a short chain
+rather than accepted as complete. If no adequate path exists, EvidenceFirst
+records the concrete failure state. A missing entity means that an entity required
+by the question is absent from the evidence graph. A disconnected pair means
+that relevant endpoint entities are present but lie in separate components. A
+bridge gap means that a partial path reaches one side of the answer entity but
+lacks the relation needed to connect the reasoning chain. A short chain means
+that a connection exists but is too shallow for the inferred question type. Empty
+evidence means that KG retrieval returned no usable support and the reader
+must fall back to passages.
+    Representative saved 2Wiki records show why graph readiness and answer
+correctness should be inspected separately. A correct answer can carry a missing-
+entity graph label, while a structurally connected candidate path can mismatch
+a posthoc gold-chain proxy. These divergences motivate audit/control states over
+the saved graph.
+    Diagnostic repair is localized to the reported gap. For missing entities, Evi-
+denceFirst extracts triples about the missing entity from the retrieved passages
+and adds them to the evidence graph. For disconnected pairs, EvidenceFirst
+processes at most five entity pairs and extracts bridging triples from the same
+passage context. After each repair stage, the structural checker is run again
+and the new chain length, gap type, and repair statistics are appended to D.
+When the graph remains incomplete, the reader still receives the available triples
+together with local passages, while D records the residual gap. This design avoids
+presenting a repaired answer as if the graph had been complete from the start.
+Repair uses only the candidate passage and graph context available to the system;
+it does not use gold answers or gold support facts at test time. The structural
+check and saved-state replay are deterministic functions of the saved triples and
+logs; graph repair itself may use the same temperature-zero LLM extraction
+backend as KG construction, so replayability is defined over saved artifacts.
+                          EvidenceFirst for Knowledge-RAG on the Web           7
+
+3.4   Grounded Reading, Selection, and Canonicalization
+The answer reader receives the selected evidence triples and local passages
+associated with the current evidence route. The reader is instructed to produce
+a concise answer rather than a long explanation. A final selection step decides
+whether to use the evidence-grounded postprocessed answer, and a lightweight
+canonicalizer normalizes title casing, entity aliases, yes/no outputs, and short
+answer forms when supported by the available context.
+    This stage is intentionally downstream of structural path-state checking.
+Reader context can compensate for imperfect graph evidence, but the saved route
+remains attached to the output. As a result, EvidenceFirst can distinguish
+cases where the graph was structurally complete but the reader failed from
+cases where generation was attempted after repair or fallback. Local passage
+context is enabled in the main EvidenceFirst setting and disabled only in the
+reader-context ablation, so the ablation isolates how much answer realization
+depends on text grounding beyond graph triples.
+    The selector is conservative. It accepts the refined answer when the original
+answer is malformed, when the refined answer is normalization-equivalent to the
+original answer, when the refined answer is a shorter supported form, or when
+it repairs a question-type mismatch such as a yes/no placeholder for an entity
+question. Otherwise, the KG-grounded answer is preserved. The diagnostic record
+therefore includes not only graph states, but also whether the final answer was
+selected from the refined evidence-grounded path.
+
+
+4     Experimental Setup
+Datasets. We evaluate on two multi-hop QA settings. HotpotQA-1000 is a
+1000-question distractor-style evaluation set with repaired contexts from the
+HotpotQA validation split [11]. 2WikiMultiHopQA-500 is a 500-question sample
+from 2WikiMultiHopQA [5]; each example contains natural-language passages
+and Wikidata-derived evidence triples, entity ids, evidence ids, and answer
+ids. The 2Wiki sample contains 5000 question-context pairs and 3346 unique
+passage bodies for graph-based baselines. During inference, EvidenceFirst uses
+the question, candidate passages, and constructed graph fields only; support
+annotations, evidence ids, answer ids, and gold answers are loaded only after
+prediction for offline diagnostics.
+    Both benchmarks combine Web-style text with linked entities and require
+multi-hop evidence composition; 2Wiki additionally exposes Wikidata-derived
+support identifiers for offline diagnostics. They instantiate a fixed-context Web
+QA setting rather than live Web search, so the experiments test evidence-state
+control over available passages and graph evidence, not crawling, freshness, or
+changing page content.
+
+Evaluation questions. The evaluation is organized around four Web Knowledge-
+RAG questions. First, can a pre-reader graph-state contract be attached to
+answer artifacts while preserving usable answer quality? Second, do the saved
+8       Anonymous
+
+states create replayable audit queues without rerunning generation? Third, do
+graph-state labels provide useful routing causes as structural audit labels? Fourth,
+how sensitive are the answer results and evidence visibility to reader context and
+postprocessing under explicit protocol boundaries?
+
+Baselines. On HotpotQA-1000, we compare with Naive RAG, IRCoT [10],
+A-RAG [1], LightRAG [3], MS GraphRAG [2], and HopRAG strict [8]. On
+2WikiMultiHopQA-500, the completed baselines are Naive RAG, IRCoT, A-
+RAG, LightRAG, and HopRAG strict. Main tables include completed full-sample
+artifacts with independent strict rescoring. For HotpotQA, paired claims use
+the strict response-only HopRAG row; the artifact bundle also keeps the legacy
+HopRAG extraction file (0.5470 EM / 0.6498 F1) for reproducibility.
+
+Protocol and context-budget boundary. The main tables use a saved-artifact
+protocol with explicit context rows. Table 3 summarizes the visible evidence for
+each row: HotpotQA uses saved end-to-end and selector artifacts, while 2Wiki
+reports both a context-rich reader-full artifact and a stricter local-context stress
+row. A separate 2Wiki visibility audit measures how much annotated support
+is visible in reader inputs or saved graph state after prediction. The answer-
+quality rows test whether replayable control telemetry can be attached to usable
+answer-quality artifacts under these recorded evidence conditions.
+       Table 3. Protocol matrix for result rows. EF denotes EvidenceFirst.
+
+Row group                Context visibility              Transform         Purpose
+Hotpot EF end-to-end     local + BM25 pool               saved run         main Hotpot artifact
+Hotpot EF selector       same saved artifact             deterministic     selector sensitivity
+2Wiki EF reader-full     full sample passages            canonicalizer     context-rich audit artifact
+2Wiki EF local stress    local context only              canonicalizer     stricter context boundary
+2Wiki visibility audit   support/evidence ids posthoc    no generation     context-budget audit
+Baselines                method-specific saved context   saved postproc.   completed comparisons
+
+
+
+Metrics and reporting boundary. We use exact match (EM) and token F1 with
+standard QA normalization: lowercasing, article removal, punctuation removal,
+and whitespace collapse. HotpotQA reports both the end-to-end saved run and a
+deterministic selector sensitivity row over saved artifacts with no fresh LLM calls;
+the selector changes 21 predictions and 12 EM labels. Pairwise reporting uses
+shared question IDs, bootstrap CIs, exact McNemar tests for EM, and explicit
+labels for exploratory subgroup rows or compound ablation switches. The 2Wiki
+visibility audit uses support-title recall and gold evidence-entity coverage only
+after prediction; it does not supply support facts, evidence ids, or gold answers
+to inference.
+
+Implementation settings. The reported runs use the repository’s OpenAI-style
+backend with qwen-plus on a DashScope-compatible endpoint unless a run
+script explicitly overrides it. Answering and repair calls use temperature 0;
+KG construction artifacts are cached and loaded for the reported evaluations.
+The main pipeline uses max-iter 3, local passage top-k = 5, and at most five
+                           EvidenceFirst for Knowledge-RAG on the Web               9
+
+disconnected endpoint pairs per repair pass. The deterministic selector and 2Wiki
+canonicalizer make no LLM calls. Verifier thresholds and ablation switches are
+fixed before evaluation. Per-example JSONL artifacts record cache status, usage,
+ablation flags, path-state status, gap labels, repair/fallback steps, and answer-
+selection decisions, so audit summaries can be recomputed without new LLM
+calls.
+
+Artifacts and reproducibility boundary. Every reported result is computed from
+completed full-sample artifacts with independent strict rescoring. The offline
+no-LLM verifier checks pinned SHA256, size, row-count, and schema finger-
+prints; independently rescores prediction/gold rows; and recomputes the main
+saved summaries without fresh generation. The quick presence check, python
+scripts/verify_paper_artifacts.py –check-only, checks 40 required files,
+44 fingerprints, 12 2Wiki source-field files, and 17,500 rescored rows. Usage re-
+porting is artifact-limited and averaged per example: EvidenceFirst uses 5.711
+LLM calls and 7095.1 tokens on HotpotQA end-to-end selector artifacts and
+5.938 calls and 6540.4 tokens on 2Wiki.
+
+
+5     Results
+
+5.1   Answer-Quality Envelope Under Recorded Protocols
+
+Table 4 reports EM/F1 for the recorded protocols of the state-control layer.
+The end-to-end saved EvidenceFirst run reaches 55.0% EM and 64.8% F1 on
+HotpotQA-1000, and the deterministic selector sensitivity row reaches 56.2%
+EM and 65.6% F1. These rows show that the control layer operates at strong-
+baseline answer quality. The paired full-set intervals in Table 5 cross zero, so these
+HotpotQA rows establish the operating range for the control layer; the systems
+claim rests on the added state trace and routing utility. The bridge subset has
+the largest observed paired gain and is reported as exploratory evidence.
+    The same table reports two 2WikiMultiHopQA-500 protocol rows. The reader-
+full audit row evaluates the context-rich audit setting and reaches 69.0% EM /
+75.8% F1; the local-context stress row reaches 50.4% EM / 59.5% F1 and marks
+the stricter context boundary. The visibility audit in Table 10 quantifies the
+evidence boundary: reader-full keeps all annotated support titles visible, while
+local top-k retrieval traces and A-RAG read chunks expose substantially less
+annotated support.
+
+
+5.2   Replay and Routing Utility
+
+The second result is that EvidenceFirst turns saved GraphRAG outputs
+into recomputable operational strata. The no-LLM verifier replays the artifact
+boundary without fresh generation, checks source-field hygiene for 2Wiki inference
+artifacts, and independently rescores saved prediction/gold rows before trusting
+reported EM/F1 values. More importantly, the same record lets an operator
+10       Anonymous
+
+
+
+
+Table 4. Saved-protocol answer-quality envelope from completed artifacts. Context
+marks the recorded evidence condition, not a uniform retrieval budget; 2Wiki reader-full
+is context-rich and local-context is the stricter stress boundary.
+
+Dataset Context                    Method                                               N       EM        F1
+Hotpot       method-specific       Naive RAG                                           1000   0.3920   0.4865
+Hotpot       method-specific       IRCoT                                               1000   0.4660   0.5707
+Hotpot       method-specific       A-RAG                                               1000   0.5170   0.6273
+Hotpot       method-specific       LightRAG                                            1000   0.4380   0.5376
+Hotpot       method-specific       MS GraphRAG                                         1000   0.1890   0.2774
+Hotpot       method-specific       HopRAG strict                                       1000   0.5410   0.6438
+Hotpot       local+BM25            EvidenceFirst end-to-end                            1000   0.5500   0.6484
+Hotpot       same saved run        EvidenceFirst selector sensitivity                  1000   0.5620   0.6564
+2Wiki        method-specific       Naive RAG                                           500    0.2980   0.3338
+2Wiki        method-specific       IRCoT                                               500    0.6560   0.7301
+2Wiki        method-specific       A-RAG                                               500    0.6660   0.7323
+2Wiki        method-specific       HopRAG strict                                       500    0.5640   0.6157
+2Wiki        method-specific       LightRAG                                            500    0.6740   0.7716
+2Wiki        local stress          EvidenceFirst local-context stress                  500    0.5040   0.5945
+2Wiki        reader-full audit     EvidenceFirst reader-full audit                     500    0.6900   0.7581
+
+
+
+
+Table 5. Paired comparison statistics from saved per-example artifacts. CIs are paired
+bootstrap 95% intervals over question-level deltas; p is exact McNemar on EM. The
+HotpotQA bridge row is an unadjusted exploratory subgroup; the 2Wiki reader-full rows
+are audit-condition comparisons; only the bridge and reader-full-vs-HopRAG intervals
+exclude zero positively.
+
+Comparison                                     Split           ∆EM [95% CI]             ∆F1 [95% CI]        p
+EvidenceFirst   end-to-end – HopRAG            All           0.009[−0.021, 0.038]    0.005[−0.022, 0.032]  0.594
+EvidenceFirst   selector – HopRAG              All           0.021[−0.008, 0.050]    0.013[−0.014, 0.040]  0.174
+EvidenceFirst   selector – HopRAG              Bridge         0.058[0.016, 0.100]     0.047[0.007, 0.087]  0.011
+EvidenceFirst   reader-full audit – LightRAG   2Wiki audit   0.016[−0.016, 0.050]    −0.014[−0.041, 0.013] 0.403
+EvidenceFirst   reader-full audit – HopRAG     2Wiki audit    0.126[0.084, 0.166]     0.142[0.104, 0.183] < 0.001
+EvidenceFirst   reader-full audit – A-RAG      2Wiki audit   0.024[−0.012, 0.062]    0.026[−0.008, 0.060]  0.256
+EvidenceFirst   local – HopRAG                 2Wiki stress −0.060[−0.110, −0.012]   −0.021[−0.068, 0.026] 0.022
+                                     EvidenceFirst for Knowledge-RAG on the Web                            11
+
+recompute which answers came from checked paths, repaired paths, residual gaps,
+or fallback states rather than rerunning the model.
+    The state contract is visible in individual saved records. In Hotpot 5a7b1e...,
+a bridge question about an award won by a collaborator of Ted Kooshian records
+B_repair, a rechecked path of length 2, postprocess selection, and the correct
+answer EGOT; an operator can keep the answer while preserving that bridge
+repair was needed before generation. In 2Wiki 91edc8..., a question about
+where the founder of Les Films Du Losange works records B_repair, a residual
+disconnected gap with two disconnected pairs, rejected postprocessing, and an
+incorrect final answer; this case should be routed to graph/evidence construction
+review rather than treated as a reader-only error. These examples instantiate the
+same fields used in the aggregate verifier and routing analyses.
+    The resulting queues support operational triage. The composite audit-risk
+signal combines answer-selection and graph-state signals; it concentrates answer
+errors in the top-20% review budget (67.0% error rate on HotpotQA and 40.0%
+on 2Wiki). Inside answer-selection queues, graph state adds typed routing causes:
+Table 6 shows two positive conditional contrasts for repair and residual-gap states.
+Graph-only signals are modest as global rankers (Table 8), but they give review
+queues actionable causes: graph repair, reader inspection, or retrieval/context
+review.
+Table 6. Conditional routing utility of graph state inside answer-selection queues.
+Error-rate deltas use Wilson/Newcombe 95% intervals.
+
+Dataset Conditional queue contrast                              N1 /N2 Error1 Error2        ∆ error [95% CI]
+Hotpot   selected checked path → selected unrepaired incomplete 468/51 0.3419 0.6078 0.2660[0.1220, 0.3947]
+2Wiki    non-selected no residual gap → non-selected residual gap 137/11 0.3942 0.7273 0.3331[0.0285, 0.5249]
+
+
+
+
+5.3      Operational Removals
+
+Table 7 reports four operational removals on both datasets. Two switches are
+intentionally compound: disabling structural checking also disables gap-driven
+repair, and disabling reader context also disables passage-based answer refine-
+ment. The largest answer-quality drop comes from removing reader-context and
+refinement, which reduces HotpotQA EM from 0.5620 to 0.2360 and 2Wiki EM
+from 0.6900 to 0.1840. This result shows that graph triples alone do not provide
+enough surface evidence for robust answer realization. Removing graph repair
+reduces 2Wiki EM by 4.0 points and HotpotQA EM by 0.8 points, while remov-
+ing answer refinement hurts HotpotQA but increases 2Wiki F1. These mixed
+answer-level effects clarify the paper’s scope: structural checking and repair add
+observability and routing controls, and the answer-quality changes show how
+those controls interact with the reader under each recorded protocol.
+    The checker ablation tests loss of control-state observability. When chain-
+checking and repair are disabled, the reader can still answer from unchecked
+context, so answer-level effects are mixed. The operational loss is clearer: the
+system no longer records whether the reader saw a checked path, a repaired path,
+12        Anonymous
+
+a residual graph gap, or fallback evidence, and it loses the typed state needed to
+route graph repair versus reader inspection.
+Table 7. Compound operational removals for EvidenceFirst. Full rows use the
+selector-variant protocol; ablations use explicit switches, with two compound rows
+labeled in the text rather than interpreted as isolated causal effects.
+
+                                                         HotpotQA-1000           2Wiki-500
+         Variant
+                                                            EM           F1       EM             F1
+         Full EvidenceFirst selector protocol            0.5620      0.6564    0.6900    0.7581
+         w/o chain check + repair                        0.5680      0.6647    0.6780    0.7579
+         w/o graph repair                                0.5540      0.6580    0.6500    0.7424
+         w/o reader context + refinement                 0.2360      0.2899    0.1840    0.2289
+         w/o answer refinement                           0.5510      0.6485    0.6900    0.7782
+
+
+5.4      Diagnostic Validity and Failure Analysis
+The saved audit records expose structural states before answer scoring. On
+HotpotQA, 56.8% of examples end with a checked candidate path, repair is
+attempted on 63.7%, and 43.49% of attempted repairs end with a structurally
+connected recheck; on 2Wiki, the corresponding rates are 47.8%, 60.0%, and
+22.0%. These are structural recheck-complete rates. Internal label-consistency
+checks over saved fields show that missing-entity, disconnected, and short-chain
+labels satisfy their structural invariants on both datasets; the HotpotQA checked-
+path label is 98.44% consistent because nine incomplete rows carry an empty final
+gap label. Thus, the method records whether an answer came from checked-path,
+repaired, or residual incomplete evidence before answer scoring.
+     Answer selection is informative but not sufficient: selected answers reach
+0.6273 EM versus 0.2626 EM for non-selected answers on HotpotQA, and 0.7358
+versus 0.5811 EM on 2Wiki. Table 8 therefore separates triage signals and reports
+lift over the base error rate. The composite audit-risk score combines answer
+selection with residual graph-state signals and improves over chain incompleteness
+alone, while the graph-only score is modest; this supports review prioritization
+with structural failure causes.
+     The routing contrasts above show how graph state supplies cause codes inside
+review queues; the remaining analysis separates signal decomposition from label
+validity.
+Table 8. Triage utility of saved audit signals. AUC detects answer errors; top-20 error is
+the error rate among the highest-risk 20% examples, and lift is relative to each dataset’s
+base error rate.
+
+Signal                 Hotpot AUC Hotpot top-20 err. Hotpot lift 2Wiki AUC 2Wiki top-20 err. 2Wiki lift
+Composite audit risk         0.6321            0.6700     1.5297      0.5787            0.4000        1.2903
+Answer not selected          0.6077            0.7000     1.5982      0.5754            0.4000        1.2903
+Graph-only audit             0.5434            0.5250     1.1986      0.5230            0.3500        1.1290
+Chain incomplete             0.5321            0.5050     1.1530      0.5144            0.2900        0.9355
+
+   Table 9 summarizes the 2Wiki structural-state audit. Structural consistency
+checks whether saved fields satisfy the rule that produced the state. Gold-proxy
+                              EvidenceFirst for Knowledge-RAG on the Web              13
+
+precision checks alignment with a corresponding posthoc gold-evidence condition;
+proxy match reports a 100-example three-proxy offline audit; and blind match
+reports a separate 100-case blind packet judged without gold answers, EM/F1,
+baselines, or prior proxy judgments. Here, a match means that the structural
+label is supported by the corresponding posthoc proxy or blind judgment; low
+match rates calibrate structural metadata rather than answer correctness.
+Table 9. 2Wiki structural audit-state analysis. Structural consistency is computed over
+all 500 saved examples; proxy match is from the 100-row offline proxy plausibility audit;
+blind match is from a separate 100-case isolated blind audit packet.
+
+Audit state        N      EM/F1 Struct. cons. Gold-proxy prec. Proxy match Blind match
+complete         239 0.703 / 0.768      1.000            0.151        0.118       0.677
+missing entities 217 0.696 / 0.767      1.000            0.687        0.743       0.571
+short chain       33 0.636 / 0.704      1.000            0.455        0.400       0.200
+disconnected      11 0.455 / 0.535      1.000            0.091        0.182       0.546
+
+Table 10. 2Wiki evidence-visibility audit. Support-title recall and evidence entity
+coverage use 2Wiki annotations only after prediction; passage rows scan visible text,
+while the saved-KG row scans graph nodes and edges.
+
+ Evidence object                        N Support recall Entity cov.           EM/F1
+ EvidenceFirst reader-full input      500          1.0000        0.9468 0.6900/0.7581
+ Naive BM25 top-5 input               500          0.6020        0.6685             –
+ A-RAG actual read chunks             500          0.2955        0.3326             –
+ A-RAG search-found upper bound       500          0.5885        0.6085             –
+ EvidenceFirst saved KG               500               –        0.7657 0.6900/0.7581
+
+    Because 2Wiki includes support facts and evidence triples, we use them only
+after prediction to audit evidence visibility and gold-chain alignment. The saved
+EvidenceFirst KG covers 76.57% of gold evidence entities, recalls 47.78%
+of gold endpoint pairs, and exactly matches 4.20% of gold relations. Thus the
+checked/repaired states are operational evidence states, while exact gold-chain
+recovery remains a separate audit target. LightRAG and IRCoT are omitted from
+Table 10 because their saved outputs do not expose comparable visible-support
+traces.
+    The structural states are selective audit strata. Checked-path cases reach
+70.29% EM and 76.81% F1, while disconnected-gap cases fall to 45.45% EM and
+53.51% F1 and short-chain cases fall to 63.64% EM and 70.35% F1. Missing-entity
+cases remain close to complete cases, and the gold-chain audit shows low relation
+recall. A gold-derived proxy audit is also mixed: the missing-entity label has
+0.6866 precision for missing gold entities, but disconnected and short-chain labels
+have low proxy recall. The resulting interpretation is that the states expose
+structural strata for auditing and repair without replacing semantic evidence
+validation.
+    To make the gap-label question inspectable, we additionally run two offline
+100-example 2Wiki audits. A proxy audit using saved gold-chain and reader-
+support metrics identifies missing-entity as the most reliable state, with a 0.7429
+proxy-match rate (Wilson 95% CI [0.5793, 0.8584]), but also shows low agreement
+(Fleiss κ = 0.1836). A separate blind packet without gold answers, EM/F1,
+14      Anonymous
+
+baselines, or proxy judgments yields 53 match, 36 mismatch, and 11 ambiguous
+judgments. Thus structural states are reproducible audit metadata and routing
+causes, not human expert annotations or semantic correctness certificates.
+
+
+6    Discussion
+The experiments support three systems claims for Knowledge Graphs and RAG
+on the Web. First, EvidenceFirst attaches a pre-reader control contract to
+answer artifacts and retains usable answer quality under the recorded protocols.
+Second, each reader call is tied to a checked, repaired, residual, or fallback graph
+state that affected repair, fallback, selection, and replay before generation. Third,
+evidence states are most useful as routing and audit objects: reader context and
+answer selection dominate EM/F1, while graph state contributes typed causes
+for reader inspection, graph repair, or retrieval/context review.
+
+
+7    Threats to Validity
+Protocol validity. The experiments define a fixed-context Web Knowledge-RAG
+setting with recorded, but not uniform, context budgets. The supported claim
+is fixed-context graph-state control: every reported row has a saved evidence
+condition, the 2Wiki table separates reader-full and local-context rows, and the
+verifier recomputes the main claims without fresh generation.
+
+Diagnostic validity. The checker is structural rather than semantic, depends on
+lexical mapping and coarse answer-type filters, and only partially aligns with
+gold 2Wiki paths. The gold-chain, proxy, and blind audits calibrate the saved
+states as routing metadata while keeping semantic evidence validation separate.
+
+Deployment validity. The artifact boundary has practical consequences: 2Wiki
+lacks a completed MS GraphRAG run, passage fallback is rare in the saved rows,
+ablations are partly compound, and the selector row is deterministic postprocess-
+ing. Future work should add professional gap-label adjudication, fallback stress
+tests, semantic repair-success analysis, and deployment-scale uniform-budget
+Web retrieval runs.
+
+
+8    Conclusion
+We presented EvidenceFirst, a Web Knowledge-RAG pipeline that records
+structural candidate-path state before generation. By shifting reliability logging
+from only the answer string to the retrieved evidence graph, EvidenceFirst
+exposes missing entities, disconnected pairs, repair attempts, fallback cases, and
+selection state as recomputable audit metadata. The result is a fixed-context
+Web Knowledge-RAG run that operators can replay, triage, and debug after
+deployment.
+                             EvidenceFirst for Knowledge-RAG on the Web                 15
+
+References
+ 1. Du, M., Xu, B., Zhu, C., Wang, S., Wang, P., Wang, X., Mao, Z.: A-RAG: Scaling
+    agentic retrieval-augmented generation via hierarchical retrieval interfaces. arXiv
+    preprint arXiv:2602.03442 (2026)
+ 2. Edge, D., Trinh, H., Cheng, N., Bradley, J., Chao, A., Mody, A., Truitt, S., Larson,
+    J.: From local to global: A graph RAG approach to query-focused summarization.
+    arXiv preprint arXiv:2404.16130 (2024)
+ 3. Guo, Z., Xia, L., Yu, Y., Ao, T., Huang, C.: LightRAG: Simple and fast retrieval-
+    augmented generation. arXiv preprint arXiv:2410.05779 (2024)
+ 4. Han, H., Wang, Y., Shomer, H., Guo, K., Ding, J., Lei, Y., Halappanavar, M., Rossi,
+    R.A., Mukherjee, S., Tang, X., et al.: Retrieval-augmented generation with graphs
+    (GraphRAG). arXiv preprint arXiv:2501.00309 (2025)
+ 5. Ho, X., Nguyen, A.D., Sugawara, S., Aizawa, A.: Constructing A multi-hop QA
+    dataset for comprehensive evaluation of reasoning steps. In: Proceedings of the 28th
+    International Conference on Computational Linguistics (COLING). pp. 6609–6625
+    (2020)
+ 6. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H.,
+    Lewis, M., Yih, W., Rocktäschel, T., Riedel, S., Kiela, D.: Retrieval-augmented
+    generation for knowledge-intensive NLP tasks. In: Advances in Neural Information
+    Processing Systems (NeurIPS). pp. 9459–9474 (2020)
+ 7. Li, M., Zou, J., Lv, X., Zhang, C., Zhou, G.: S2G-RAG: Structured sufficiency and
+    gap judging for iterative retrieval-augmented QA. arXiv preprint arXiv:2604.23783
+    (2026), accepted to ACL 2026 Main Conference
+ 8. Liu, H., Wang, Z., Chen, X., Li, Z., Xiong, F., Yu, Q., Zhang, W.: HopRAG:
+    Multi-hop reasoning for logic-aware retrieval-augmented generation. arXiv preprint
+    arXiv:2502.12442 (2025)
+ 9. Ru, D., Qiu, L., Hu, X., Zhang, T., Shi, P., Chang, S., Jiayang, C., Wang, C., Sun, S.,
+    Li, H., Zhang, Z., Wang, B., Jiang, J., He, T., Wang, Z., Liu, P., Zhang, Y., Zhang,
+    Z.: RAGChecker: A fine-grained framework for diagnosing retrieval-augmented
+    generation. arXiv preprint arXiv:2408.08067 (2024)
+10. Trivedi, H., Balasubramanian, N., Khot, T., Sabharwal, A.: Interleaving retrieval
+    with chain-of-thought reasoning for knowledge-intensive multi-step questions. In:
+    Proceedings of ACL. pp. 10014–10037 (2023)
+11. Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W.W., Salakhutdinov, R., Manning,
+    C.D.: HotpotQA: A dataset for diverse, explainable multi-hop question answering.
+    In: Proceedings of EMNLP. pp. 2369–2380 (2018)
+

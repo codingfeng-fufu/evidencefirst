@@ -1,0 +1,16 @@
+{
+  "5adf37955542993a75d2642e": {
+    "answer": "",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf37955542993a75d2642e",
+      "llm_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "wall_time": 172.6584,
+      "mode": "ms_graphrag",
+      "cache_hit": false
+    }
+  }
+}

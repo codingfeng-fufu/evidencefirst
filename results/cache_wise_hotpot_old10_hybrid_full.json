@@ -1,0 +1,378 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "- Also appears in passage [10]: “the",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 6,
+      "input_tokens": 7546,
+      "output_tokens": 1951,
+      "total_tokens": 9497,
+      "wall_time": 58.0155,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.0,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "What award has been won by only twelve people?"
+        ],
+        "n_triples": 80,
+        "answer": "- Also appears in passage [10]: “the",
+        "score": 0.0,
+        "feedback": "Missing: the name of the award won by only twelve people and the identity of the specific person (who Ted Kooshian has performed with) who won it. Suggested sub-question: Which award has been won by exactly twelve people, and which of Ted Kooshian's collaborators (e.g., Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, Il Divo, Blood Sweat and Tears) has won that award?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ted Kooshian?",
+          "Which people has Ted Kooshian performed with?",
+          "Which award has been won by exactly twelve people?",
+          "Which of Ted Kooshian's collaborators — Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, Il Divo, or Blood Sweat and Tears — has won the award that has been won by exactly twelve people?"
+        ],
+        "n_triples": 80,
+        "answer": "“Ted Kooshian … has performed with Aretha Franklin, Chuck Berry, Marvin Hamlisch, Sarah Brightman, Il",
+        "score": 0.0,
+        "feedback": "Missing: the name of the award won by only twelve people and which one of Ted Kooshian's collaborators (e.g., Aretha Franklin, Marvin Hamlisch, etc.) won it. Suggested sub-question: Which of the people Ted Kooshian has performed with has won an award that has been awarded to exactly twelve individuals?"
+      }
+    ]
+  },
+  "5ae0e183554299422ee9953f": {
+    "answer": "Suining",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0e183554299422ee9953f",
+      "llm_calls": 3,
+      "input_tokens": 1437,
+      "output_tokens": 300,
+      "total_tokens": 1737,
+      "wall_time": 7.5679,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What was the population of Qionghai in 2002?",
+          "What was the population of Suining in 2002?"
+        ],
+        "n_triples": 17,
+        "answer": "Suining",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: population of Qionghai in 2002. Suggested sub-question: What was the population of Qionghai in 2002?"
+      }
+    ]
+  },
+  "5a88e3cc5542997e5c09a6c2": {
+    "answer": "Great Neck, New York",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a88e3cc5542997e5c09a6c2",
+      "llm_calls": 3,
+      "input_tokens": 4664,
+      "output_tokens": 713,
+      "total_tokens": 5377,
+      "wall_time": 16.8,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.54,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the location of Great Neck School District?",
+          "What is the location of Saddle Rock Elementary School?"
+        ],
+        "n_triples": 80,
+        "answer": "Great Neck, New York",
+        "score": 0.54,
+        "feedback": "Missing: the specific location (e.g., village or town) where Saddle Rock Elementary School is physically situated. Suggested sub-question: In which village or municipality is Saddle Rock Elementary School located?"
+      }
+    ]
+  },
+  "5ae0c29c5542993d6555ec46": {
+    "answer": "From passage [2]: “He [Marc Predka / Tha Trademarc] first came to prominence when",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae0c29c5542993d6555ec46",
+      "llm_calls": 6,
+      "input_tokens": 8666,
+      "output_tokens": 1936,
+      "total_tokens": 10602,
+      "wall_time": 45.723,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.0,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who collaborated with Marc Predka on a 2005 album?",
+          "What song did that person write on that 2005 album?",
+          "What was the profession of that person?"
+        ],
+        "n_triples": 80,
+        "answer": "From passage [2]: “He [Marc Predka / Tha Trademarc] first came to prominence when",
+        "score": 0.0,
+        "feedback": "Missing: the identity of the person who collaborated with Marc Predka on a 2005 album and wrote a song on it. Suggested sub-question: Who co-released a 2005 album with Marc Predka (Tha Trademarc), and what is that person's profession?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who co-released a 2005 album with Marc Predka (Tha Trademarc)?",
+          "What is the profession of the person who co-released a 2005 album with Marc Predka (Tha Trademarc)?"
+        ],
+        "n_triples": 80,
+        "answer": "No other collaborator with Predka on a 2005 album is mentioned in the evidence. So the only 2005 album involving Marc Predka is *You Can't See Me*, and its primary artist is John Cena, a WWE wrestler",
+        "score": 0.41000000000000003,
+        "feedback": "Missing: the identity of the artist who wrote a song on a 2005 album he collaborated on with Marc Predka (a.k.a. Tha Trademarc), and confirmation that Predka co-wrote or performed on such an album in 2005. Suggested sub-question: Which 2005 album features a collaboration between Marc Predka (Tha Trademarc) and another artist who also wrote a song on that album?"
+      }
+    ]
+  },
+  "5ae796af554299540e5a5623": {
+    "answer": "Aden",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae796af554299540e5a5623",
+      "llm_calls": 6,
+      "input_tokens": 7530,
+      "output_tokens": 813,
+      "total_tokens": 8343,
+      "wall_time": 20.8163,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "In which Arab country is the Aulacodes peribocalis moth found?",
+          "What is the capital of that Arab country?",
+          "Where was that capital relocated to?"
+        ],
+        "n_triples": 79,
+        "answer": "Aden",
+        "score": 0.3,
+        "feedback": "Missing: the Arab country where Aulacodes peribocalis is found. Suggested sub-question: In which Arab country is the moth Aulacodes peribocalis found?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "In which Arab country is the moth Aulacodes peribocalis found?",
+          "What is the capital of that Arab country?",
+          "Where was that capital relocated to?"
+        ],
+        "n_triples": 79,
+        "answer": "Aden",
+        "score": 0.3,
+        "feedback": "Missing: the Arab country where Aulacodes peribocalis is found. Suggested sub-question: In which Arab country is the moth species Aulacodes peribocalis found?"
+      }
+    ]
+  },
+  "5abbcfaf5542993f40c73ba9": {
+    "answer": "Thus, no Commonwealth Games host city appears anywhere",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abbcfaf5542993f40c73ba9",
+      "llm_calls": 6,
+      "input_tokens": 9000,
+      "output_tokens": 1825,
+      "total_tokens": 10825,
+      "wall_time": 42.2942,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Sara Petersen's women's doubles partner who won a silver medal with her?",
+          "In which city was the competition held where Nicole Gordon and Sara Petersen won a silver medal in women's doubles?"
+        ],
+        "n_triples": 80,
+        "answer": "Thus, no Commonwealth Games host city appears anywhere",
+        "score": 0.3,
+        "feedback": "Missing: host city of the 2002 Commonwealth Games. Suggested sub-question: In which city was the 2002 Commonwealth Games held?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Sara Petersen's women's doubles partner who won a silver medal with her?",
+          "In which city was the 2002 Commonwealth Games held?"
+        ],
+        "n_triples": 80,
+        "answer": "> “If the passages contain the answer, do not answer 'unknown",
+        "score": 0.3,
+        "feedback": "Missing: host city of the 2002 Commonwealth Games. Suggested sub-question: In which city were the 2002 Commonwealth Games held?"
+      }
+    ]
+  },
+  "5a738b855542992d56e7e363": {
+    "answer": "St. Elizabeths Hospital",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a738b855542992d56e7e363",
+      "llm_calls": 3,
+      "input_tokens": 3857,
+      "output_tokens": 222,
+      "total_tokens": 4079,
+      "wall_time": 6.3275,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did St. Elizabeths Hospital open?",
+          "When did Providence Hospital open?"
+        ],
+        "n_triples": 80,
+        "answer": "St. Elizabeths Hospital",
+        "score": 1.0,
+        "feedback": "Missing: opening year of Providence Hospital. Suggested sub-question: In what year did Providence Hospital open?"
+      }
+    ]
+  },
+  "5a8b7e9c5542995d1e6f13c1": {
+    "answer": "unknown",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8b7e9c5542995d1e6f13c1",
+      "llm_calls": 6,
+      "input_tokens": 9154,
+      "output_tokens": 722,
+      "total_tokens": 9876,
+      "wall_time": 18.298,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What type of plants does the genus Psychopsis belong to?",
+          "What type of plants does the genus Aubrieta belong to?"
+        ],
+        "n_triples": 80,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: taxonomic classification (plant type) for Psychopsis. Suggested sub-question: What plant family or type is the genus Psychopsis?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What plant family or type is the genus Psychopsis?",
+          "What plant family or type is the genus Aubrieta?"
+        ],
+        "n_triples": 80,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: taxonomic classification (plant type/family) for Psychopsis. Suggested sub-question: What family or plant type does the genus Psychopsis belong to?"
+      }
+    ]
+  },
+  "5a840e395542992ef85e239d": {
+    "answer": "unknown",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a840e395542992ef85e239d",
+      "llm_calls": 6,
+      "input_tokens": 7501,
+      "output_tokens": 602,
+      "total_tokens": 8103,
+      "wall_time": 16.1873,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the genre of The Straight Story?",
+          "What is the genre of Frozen?"
+        ],
+        "n_triples": 80,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: genre of 'The Straight Story' and genre of 'Frozen'. Suggested sub-question: What is the genre of the film 'The Straight Story'? What is the genre of the film 'Frozen'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre of the film 'The Straight Story'?",
+          "What is the genre of the film 'Frozen'?"
+        ],
+        "n_triples": 80,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: genre of 'The Straight Story' and genre of 'Frozen'. Suggested sub-question: What is the genre of the film 'The Straight Story'? What is the genre of the film 'Frozen'?"
+      }
+    ]
+  },
+  "5ae5415055429908b63265b7": {
+    "answer": "Downtown section",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae5415055429908b63265b7",
+      "llm_calls": 6,
+      "input_tokens": 7753,
+      "output_tokens": 752,
+      "total_tokens": 8505,
+      "wall_time": 18.7736,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the address or location of the Japanese Weekend School of New York's offices?",
+          "What entertainment complex is located in New Rochelle?",
+          "Which section of New Rochelle contains that entertainment complex?"
+        ],
+        "n_triples": 80,
+        "answer": "Downtown section",
+        "score": 0.3,
+        "feedback": "Missing: the location of the Japanese Weekend School of New York's offices, specifically whether they are in New Roc City and whether New Roc City is in the downtown section of New Rochelle. Suggested sub-question: Where are the offices of the Japanese Weekend School of New York located, and is New Roc City — described as an entertainment, retail and residential complex in New Rochelle — situated in the downtown section?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the address or location of the Japanese Weekend School of New York's offices?",
+          "What entertainment complex is located in New Rochelle?",
+          "Is New Roc City — described as an entertainment, retail and residential complex in New Rochelle — situated in the downtown section of New Rochelle?",
+          "Are the offices of the Japanese Weekend School of New York located in New Roc City?"
+        ],
+        "n_triples": 80,
+        "answer": "Downtown section",
+        "score": 0.3,
+        "feedback": "Missing: the location of the Japanese Weekend School of New York's offices, specifically whether they are in New Roc City and whether New Roc City is in the downtown section of New Rochelle. Suggested sub-question: Where are the offices of the Japanese Weekend School of New York located, and what section of New Rochelle is that address in?"
+      }
+    ]
+  }
+}

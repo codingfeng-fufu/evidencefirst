@@ -1,0 +1,1825 @@
+[
+  {
+    "id": "5a7b24fe55429931da12c9f7",
+    "question": "Which dog breed has more derivative breeds from the original, German Spitz or Norfolk Spaniel?",
+    "answer": "German Spitz",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "German Spitz",
+        "German Spitz",
+        "Norfolk Spaniel"
+      ],
+      "sent_id": [
+        0,
+        1,
+        2
+      ]
+    },
+    "context": {
+      "title": [
+        "King Charles Spaniel",
+        "German Spitz",
+        "English Springer Spaniel",
+        "German Spitz (Klein)",
+        "American Cocker Spaniel",
+        "American Eskimo Dog",
+        "Norfolk Spaniel",
+        "Pomeranian (dog)",
+        "Welsh Springer Spaniel",
+        "Picardy Spaniel"
+      ],
+      "sentences": [
+        [
+          "The King Charles Spaniel (also known as the English Toy Spaniel) is a small dog breed of the spaniel type.",
+          " In 1903, the Kennel Club combined four separate toy spaniel breeds under this single title.",
+          " The other varieties merged into this breed were the Blenheim, Ruby and Prince Charles Spaniels, each of which contributed one of the four colours available in the breed."
+        ],
+        [
+          "German Spitz is used to refer to both a breed of dog and category or type of dog.",
+          " Several modern breeds have been developed from the German Spitz, and are either registered as separate breeds or as varieties of German Spitz.",
+          " All the \"German Spitz type\" dogs are dogs of the Spitz type of German origin.",
+          " The Gro\u00dfspitz, Mittelspitz, and Kleinspitz breeds of \"German Spitz type\" are also called the German Spitz in English."
+        ],
+        [
+          "The English Springer Spaniel is a breed of gun dog in the Spaniel family traditionally used for flushing and retrieving game.",
+          " It is an affectionate, excitable breed with a typical lifespan of twelve to fourteen years.",
+          " They are very similar to the Welsh Springer Spaniel and are descended from the Norfolk or Shropshire Spaniels of the mid-19th century; the breed has diverged into separate show and working lines.",
+          " The breed suffers from average health complaints.",
+          " The show-bred version of the breed has been linked to \"rage syndrome\", although the disorder is very rare.",
+          " It is closely related to the Welsh Springer Spaniel and very closely to the English Cocker Spaniel; less than a century ago, springers and cockers would come from the same litter.",
+          " The smaller \"cockers\" hunted woodcock while the larger littermates were used to flush, or \"spring,\" game.",
+          " In 1902, The Kennel Club recognized the English Springer Spaniel as a distinct breed.",
+          " They are used as sniffer dogs on a widespread basis.",
+          " The term \"Springer\" comes from the historic hunting role, where the dog would flush (spring) birds into the air."
+        ],
+        [
+          "The German Spitz Klein is a breed of dog of the German Spitz type.",
+          " They are usually classed as a toy or utility breed."
+        ],
+        [
+          "The American Cocker Spaniel is a breed of sporting dog.",
+          " It is a spaniel type dog that is closely related to the English Cocker Spaniel; the two breeds diverged during the 20th century due to differing breed standards in America and the UK.",
+          " In the United States, the breed is usually called the Cocker Spaniel, while elsewhere in the world, it is called the American Cocker Spaniel in order to differentiate between it and its English cousin, which was already known as \"Cocker Spaniel\" before the American variety was created.",
+          " The word \"cocker\" is commonly held to stem from their use to hunt woodcock in England, while \"spaniel\" is thought to be derived from the type's origins in Spain."
+        ],
+        [
+          "The American Eskimo Dog is a breed of companion dog originating in Germany.",
+          " The American Eskimo is a member of the Spitz family.",
+          " The breed's progenitors were German Spitz, but due to anti-German prejudice during the First World War, it was renamed \"American Eskimo Dog\".",
+          " Although modern American Eskimos have been exported as German Spitz Gross (or Mittel, depending on the dog's height), the breeds have diverged and the standards are significantly different.",
+          " In addition to serving as a watchdog and companion, the American Eskimo Dog also achieved a high degree of popularity in the United States in the 1930s and 1940s as a circus performer."
+        ],
+        [
+          "The Norfolk Spaniel or Shropshire Spaniel is an extinct breed of dog since the early 20th century.",
+          " It was originally thought to have originated from the work of one of the Dukes of Norfolk, but this theory was disproven after being in doubt during the later part of the 19th century.",
+          " The term was used to designate springer type spaniels that were neither Sussex nor Clumber Spaniels, and attempts were made to use it to specify a breed that would later become known as the English Springer Spaniel."
+        ],
+        [
+          "The Pomeranian (often known as a Pom or Pom Pom) is a breed of dog of the Spitz type that is named for the Pomerania region in Germany and Poland in Central Europe.",
+          " Classed as a toy dog breed because of its small size, the Pomeranian is descended from the larger Spitz type dogs, specifically the German Spitz.",
+          " It has been determined by the F\u00e9d\u00e9ration Cynologique Internationale to be part of the German Spitz breed; and in many countries, they are known as the Zwergspitz (\"Dwarf-Spitz\")."
+        ],
+        [
+          "The Welsh Springer Spaniel is a breed of dog and a member of the spaniel family.",
+          " Thought to be comparable to the old Land Spaniel, they are similar to the English Springer Spaniel and historically have been referred to as both the Welsh Spaniel and the Welsh Cocker Spaniel.",
+          " They were relatively unknown until a succession of victories in dog trials by the breed increased its popularity.",
+          " Following recognition by The Kennel Club in 1902, the breed gained the modern name of Welsh Springer Spaniel.",
+          " The breed's coat only comes in a single colour combination of white with red markings, usually in a piebald pattern.",
+          " Loyal and affectionate, they can become very attached to family members and are wary of strangers.",
+          " Health conditions are limited to those common among many breeds of dog, although they are affected more than average by hip dysplasia and some eye conditions.",
+          " They are a working dog, bred for hunting, and while not as rare as some varieties of spaniel, they are rarer than the more widely known English Springer Spaniel with which they are sometimes confused."
+        ],
+        [
+          "The Picardy Spaniel is a breed of dog developed in France for use as a gundog.",
+          " It is related to the Blue Picardy Spaniel, and still has many similarities, but the Picardy Spaniel is the older of the two breeds.",
+          " It is thought to be one of the two oldest continental spaniel breeds and was favoured by the French nobility, remaining popular for hunting after the French Revolution due to its weather resistant coat that enabled it to hunt in a variety of conditions and terrain.",
+          " However its popularity waned following the influx of English hunting breeds in the early 20th century.",
+          " Slightly smaller than an English Setter but larger than most of its spaniel cousins, it has no major health issues although as with many breeds with pendulous ears, it can be prone to ear infections."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5abd247e5542996e802b472f",
+    "question": "Are Robert Philibosian and David Ignatius both politicians?",
+    "answer": "no",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Robert Philibosian",
+        "David Ignatius"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "David Finnegan",
+        "David I. Walsh",
+        "The Man from Snowy River: Arena Spectacular",
+        "Enemy Combatant (book)",
+        "Lois Romano",
+        "David Smick",
+        "Robert Philibosian",
+        "Body of Lies (novel)",
+        "David Jackman (politician)",
+        "Gorgias Press"
+      ],
+      "sentences": [
+        [
+          "David Ignatius Finnegan (January 28, 1941 \u2013 October 12, 2015) was an American attorney, talk show host, and politician.",
+          " He was a partner at Finnegan, Underwood, Ryan & Tierney."
+        ],
+        [
+          "David Ignatius Walsh (November 11, 1872June 11, 1947) was a United States politician from Massachusetts.",
+          " A member of the Democratic Party, he served as the 46th Governor of Massachusetts before serving several terms in the United States Senate."
+        ],
+        [
+          "The Man from Snowy River: Arena Spectacular, based on Banjo Paterson's poem \"The Man from Snowy River\", was a popular musical theatre production which toured Australian capital cities twice during 2002.",
+          " Kevin Jacobsen and David Atkins were the executive producers for the show.",
+          " David Atkins and Ignatius Jones were co-directors and co-writers.",
+          " Extra dialogue was written for the show by Jonathan Biggins and Phillip Scott."
+        ],
+        [
+          "Enemy Combatant is a memoir by British Muslim, Moazzam Begg, co-written by Victoria Brittain, former Associate Foreign Editor for \"The Guardian\", about Begg's detention by the government of the United States of America in Bagram Detention Facility and at Camp Echo, Guantanamo Bay and his life prior to that detention.",
+          " It was published in Britain as \"Enemy Combatant: A British Muslim's Journey To Guantanamo and Back\" (ISBN\u00a0 ), and in the US as \"Enemy Combatant: My Imprisonment at Guantanamo, Bagram, and Kandahar\" (ISBN\u00a0 ).",
+          " In the US, the foreword was written by David Ignatius of The Washington Post."
+        ],
+        [
+          "Lois Romano is an American national journalist who was an editor, reporter and columnist for The Washington Post.",
+          " She was most recently the editor of Washington Post Live, the news organization's editorial events business.",
+          " In early 2015, she returned to the newspaper where she had a long career as a political correspondent and profile writer.",
+          " During her tenure at PostLive, she raised the profile of the platform by linking it to the outlet's award-winning enterprise journalism and utilizing its deep bench of seasoned journalists as moderators.",
+          " She also created the high value editorial content, such as the successful \u201cPre-Game\u201d series before presidential debates, a news-driven morning event called Coffee@WaPo, and the Security Tomorrow conversations with columnist David Ignatius.",
+          " Working with engineers, Romano helped develop the platform's first App.",
+          " Working with newsroom leadership in 2016, Romano also ensured that The Post had its first-ever political convention venues outside the official workspaces in both Cleveland and Philadelphia."
+        ],
+        [
+          "David M. Smick is a macroeconomic adviser to a select group of prominent global investment funds and a non-fiction author.",
+          " He is the chairman and CEO of Johnson Smick International, a financial advisory firm in Washington, D.C. where he is in partnership with former Federal Reserve Vice Chairman Manuel H. Johnson.",
+          " Smick wrote an acclaimed book \"The World Is Curved\" on the financial perils of globalization, in response to \"The World Is Flat\" bestseller by Thomas Friedman.",
+          " The book received positive reviews by the \"USA Today\" and \"Forbes\", was called \"astonishingly prescient\" by David Brooks and \"clairvoyant\" by David Ignatius."
+        ],
+        [
+          "Robert Harry Philibosian (born 1940) is an American politician.",
+          " He served as Los Angeles County District Attorney from 1982 to 1984.",
+          " He received his B.A. in history from Stanford University and his law degree from Southwestern Law School, and was admitted to the California State Bar in 1968.",
+          " He is now Of counsel at the law firm of Sheppard, Mullin, Richter & Hampton."
+        ],
+        [
+          "Body of Lies is an American spy thriller novel by David Ignatius, a columnist for \"The Washington Post\".",
+          " It was published by W. W. Norton in 2007.",
+          " It was originally titled \"Penetration\" but was renamed after Warner Bros. bought the rights in 2006.",
+          " It was made into a film of the same name in 2008."
+        ],
+        [
+          "David Ignatius \"Nish\" Jackman (May 19, 1902 \u2013 March 23, 1967) was a labour leader and politician in Newfoundland.",
+          " He represented Harbour Main-Bell Island in the Newfoundland House of Assembly from 1949 to 1956."
+        ],
+        [
+          "Gorgias Press is an academic publisher of books and journals covering a range of religious and language studies that include Syriac language, Eastern Christianity, Ancient Near East, Arabic and Islam, Early Christianity, Judaism, and more.",
+          " Gorgias Press was founded in 2001 by George Kiraz, and is based in Piscataway, New Jersey.",
+          " Authors include Sebastian Brock, Clinton Bennett, David C. Parker, Andrei Orlov, Iain Torrance, Philip Khuri Hitti, George Percy Badger, Ignatius Zakka I Iwas, Ignatius Afram I Barsoum, Ignatius Elias III, Carl Brockelmann, Aziz Suryal Atiya, and William Hatch."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a83a7e15542992ef85e2347",
+    "question": "Who voices Homer Simpson's character on the animated television series? ",
+    "answer": "Daniel Louis Castellaneta",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Homer Simpson",
+        "Homer Simpson",
+        "Dan Castellaneta"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Santa's Little Helper",
+        "Grampa Simpson",
+        "Dan Castellaneta",
+        "Homer Simpson",
+        "Girly Edition",
+        "Citizen Joe",
+        "Homer to the Max",
+        "Moe Szyslak",
+        "Ned Flanders",
+        "Homer Simpson, This Is Your Wife"
+      ],
+      "sentences": [
+        [
+          "Santa's Little Helper is a recurring character in the American animated television series \"The Simpsons\".",
+          " He is the pet greyhound of the Simpson family.",
+          " The dog was introduced in the first episode of the show, the 1989 Christmas special \"Simpsons Roasting on an Open Fire\", in which his owner abandons him for finishing last in a greyhound race.",
+          " Homer Simpson and his son Bart, who are at the race track in hope of winning some money for Christmas presents, see this and decide to adopt the dog."
+        ],
+        [
+          "Abraham Jedediah Simpson II, often known as Grampa, is a fictional character in the animated television series \"The Simpsons\".",
+          " He made his first appearance in the episode entitled \"Grampa and the Kids\", a Simpsons short on \"The Tracey Ullman Show\".",
+          " Voiced by Dan Castellaneta, he is the father of Homer Simpson and the grandfather of Bart, Lisa and Maggie Simpson.",
+          " In the 1000th issue of \"Entertainment Weekly\", Grampa was selected as the Grandpa for \"The Perfect TV Family\"."
+        ],
+        [
+          "Daniel Louis Castellaneta ( ; born October 29, 1957) is an American actor, voice actor, comedian and screenwriter.",
+          " Noted for his long-running role as Homer Simpson on the animated television series \"The Simpsons\", he also voices many other characters for the show, including Abraham \"Grampa\" Simpson, Barney Gumble, Krusty the Clown, Sideshow Mel, Groundskeeper Willie, Mayor Quimby and Hans Moleman."
+        ],
+        [
+          "Homer Jay Simpson is a fictional character and the main protagonist of the American animated television series \"The Simpsons\" as the patriarch of the eponymous family.",
+          " He is voiced by Dan Castellaneta and first appeared on television, along with the rest of his family, in \"The Tracey Ullman Show\" short \"Good Night\" on April 19, 1987.",
+          " Homer was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office.",
+          " Groening had been called to pitch a series of shorts based on his comic strip \"Life in Hell\" but instead decided to create a new set of characters.",
+          " He named the character after his father, Homer Groening.",
+          " After appearing for three seasons on \"The Tracey Ullman Show\", the Simpson family got their own series on Fox that debuted December 17, 1989."
+        ],
+        [
+          "\"Girly Edition\" is the twenty-first episode in the ninth season of the American animated television series \"The Simpsons\".",
+          " It originally aired on the Fox network in the United States on April 19, 1998.",
+          " In the episode, Lisa and Bart Simpson must co-anchor a new news program, though when Bart is seen as a more successful news anchor, Lisa becomes jealous and seeks revenge.",
+          " Meanwhile, in the subplot, Homer Simpson gets a monkey helper because of his laziness.",
+          " \"Girly Edition\" was the first episode written by Larry Doyle and was directed by Mark Kirkland.",
+          " Much of the subplot was inspired by the film \"Monkey Shines\".",
+          " Critics gave the episode positive reviews and it was well received by Lisa's voice actress Yeardley Smith."
+        ],
+        [
+          "\"Citizen Joe\" is the fifteenth episode for season eight of the Canadian-American military science fiction television series \"Stargate SG-1\".",
+          " The episode features known voice actor Dan Castellaneta, who voices Homer Simpson in \"The Simpsons\".",
+          " The episode was written by executive producer Robert C. Cooper, the episode was directed by Andy Mikita.",
+          " The episode received a below average Nielsen household rating and received no syndication rating to compare.",
+          " The episode got strong reviews from major media publishers worldwide."
+        ],
+        [
+          "\"Homer to the Max\" is the thirteenth episode of \"The Simpsons\"<nowiki>'</nowiki> tenth season.",
+          " It originally aired on the Fox network in the United States on February 7, 1999.",
+          " In the episode, Homer discovers that a new television show, \"Police Cops\", has a hero also named Homer Simpson.",
+          " He is delighted with the positive attention he receives because of his name, but when the television character is rewritten from a hero to a bumbling idiot, he is mocked and taunted, so he changes his name to \"Max Power\" to rid himself of the negative attention.",
+          " Max gains new friends, and is forced into a protest to prevent a forest from being knocked down.",
+          " In the end, he changes his name back to Homer Simpson."
+        ],
+        [
+          "Morris \"Moe\" Szyslak is a fictional character from the American animated television series \"The Simpsons\".",
+          " He is voiced by Hank Azaria and first appeared in the series premiere episode \"Simpsons Roasting on an Open Fire\".",
+          " Moe is the proprietor and bartender of Moe's Tavern, a Springfield bar frequented by Homer Simpson, Barney Gumble, Carl Carlson, Lenny Leonard, Sam, Larry, and others."
+        ],
+        [
+          "Nedward \"Ned\" Flanders, Jr. is a recurring fictional character in the animated television series \"The Simpsons\".",
+          " He is voiced by Harry Shearer, and first appeared in the series premiere episode \"Simpsons Roasting on an Open Fire\".",
+          " He is the good-natured, cheery next-door neighbor to the Simpson family and is generally loathed by Homer Simpson.",
+          " A devout Evangelical Christian with an annoyingly perfect family, he is among the friendliest and most compassionate of Springfield's residents and is generally considered a pillar of the Springfield community."
+        ],
+        [
+          "\"Homer Simpson, This Is Your Wife\" is the fifteenth episode of the seventeenth season of the American animated television sitcom \"The Simpsons\".",
+          " It originally aired on the Fox network in the United States on March 26, 2006, and was watched by around ten million people during that broadcast.",
+          " In the episode, Homer signs the Simpson family up for a reality show in which the mothers of two families switch places.",
+          " Marge gets to live with a friendly man named Charles and his perfect son, while Homer, Bart, and Lisa must spend time with Charles' strict wife Verity."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ac4f12d55429924173fb4f6",
+    "question": "Pravda and Stiffelio are both operas?",
+    "answer": "no",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Pravda",
+        "Stiffelio"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Isobel Pravda",
+        "Pravda.ru",
+        "Truth prevails",
+        "Workers' Truth",
+        "Pravda Pyat",
+        "Steamer Pravda",
+        "Russkaya Pravda",
+        "Bednota",
+        "Pravda (play)",
+        "Jos\u00e9 Cura"
+      ],
+      "sentences": [
+        [
+          "Isobel Pravda is an English actress and the granddaughter of Czech actors George Pravda and Hana Maria Pravda."
+        ],
+        [
+          "Pravda.ru (formerly Pravda Online) is a Russian internet news website established in 1999 and owned by Pravda.ru Holding (headed by Vadim Gorshenin)."
+        ],
+        [
+          "\"Truth prevails\" (Czech: \"Pravda v\u00edt\u011bz\u00ed\" , Slovak: \"Pravda v\u00ed\u0165az\u00ed\" , Latin: \"Veritas vincit\" ) was a motto inscribed on the banner of the President of Czechoslovakia, still used today on the banner of the President of the Czech Republic.",
+          " The banner of the President is one of the national symbols according to the Czech Constitution.",
+          " The phrase also appears along the base of the Jan Hus Memorial in Prague.",
+          " The motto is believed to be derived from Jan Hus' phrase \"Seek the truth, hear the truth, learn the truth, love the truth, speak the truth, hold the truth and defend the truth until death\".",
+          " \"Truth prevails\" was adopted as motto by the first President of Czechoslovakia Tom\u00e1\u0161 Garrigue Masaryk in 1918 and then echoed in V\u00e1clav Havel's notion of \"life in truth\" and in his famous statement \"Truth and love must prevail over lies and hatred\" (Czech: \"Pravda a l\u00e1ska mus\u00ed zv\u00edt\u011bzit nad l\u017e\u00ed a nen\u00e1vist\u00ed\" ).",
+          " The Latin version \"Veritas vincit\" was in use on the presidential banner from 1990 to 1992 as a linguistically neutral compromise reached between the Czech and Slovak political representation."
+        ],
+        [
+          "Worker's Truth (Rabochaya Pravda) was Russian socialist opposition group which was founded in 1921.",
+          " They published \"Rabochaya Pravda\", an eponymous newspaper, which first appeared in September 1921."
+        ],
+        [
+          "Pravda Pyat (Russian: \u043f\u0440\u0430\u0432\u0434\u0430 \u043f\u044f\u0442\u044c or \"Truth Five\") is a weekly Russian tabloid news publication that was a spin-off from \"Pravda\".",
+          " It was founded by Greek entrepreneurs Christos Giannikos and Fyodoros Giannikos of Pravda International in 1996.",
+          " The magazine replaced \"Pravda\" when that publication ceased operations.",
+          " Its intended audience was younger readers, and coverage was more sensationalistic than \"Pravda\", focusing on crime and scandals."
+        ],
+        [
+          "Steamer \"Pravda\" was a Soviet merchant freighter of about 3,100 tonnes displacement, which was active in the Soviet Arctic during the 1930s.",
+          " This ship had been normally used for carrying timber.",
+          " It was named after Soviet newspaper \"Pravda\"."
+        ],
+        [
+          "Russkaya Pravda (English: Rus' Justice or Rus\u2019 Truth [Law] ; Old East Slavic: \u041f\u0440\u0430\u0432\u0434\u0430 \u0440\u043e\u0443\u0441\u044c\u0441\u043a\u0430\ua657 , \"Pravda Rus\u012dskaya\" (13th century, 1280), \u041f\u0440\u0430\u0432\u0434\u0430 \u0420\u0443\u0441\u044c\u043a\u0430\u044f, \"Pravda Rus'kaya\" (second half of the 15th century); Russian: \u0420\u0443\u0441\u0441\u043a\u0430\u044f \u043f\u0440\u0430\u0432\u0434\u0430 , \"Russkaya Pravda\"; Ukrainian: \u0420\u0443\u0441\u044c\u043a\u0430 \u041f\u0440\u0430\u0432\u0434\u0430, \"Rus'ka Pravda\" ) was the legal code of Kievan Rus' and the subsequent Rus' principalities during the times of feudal division.",
+          " It was written at the beginning of the 12th century and remade during many centuries.",
+          " The basis of the Russkaya Pravda, Pravda of Yaroslav was written at the beginning of the 11th century.",
+          " Russkaya Pravda was a main source of Old Russian Law."
+        ],
+        [
+          "Bednota (Russian: \u0411\u0435\u0434\u043d\u043e\u0442\u0430 , or \"poverty\") was a daily newspaper for peasants, issued by Central Committee of the Communist Party in Moscow, Russia, from March 1918 till January 1931.",
+          " Its predecessors were newspapers \"Derevenskaya Bednota\" (Rural Poverty), \"Soldatskaya Pravda\" (Soldier's Truth, printed in Petrograd), \"Derevenskaya Pravda\" (printed in Moscow).",
+          " During the Russian civil war \"Bednota\" was the Red Army's paper as well \u2013 nearly half the print was sent to the army (by 1919 the distribution was 750,000)."
+        ],
+        [
+          "Pravda is a satirical play by David Hare and Howard Brenton exploring the role of journalism in society.",
+          " It was first produced at the National Theatre in London on 2 May 1985, directed by Hare and starring Anthony Hopkins in the role of Lambert Le Roux, white South African media mogul.",
+          " It is a satire on the mid-1980s newspaper industry, in particular the Australian media and press baron Rupert Murdoch.",
+          " Its title refers to the Russian Communist party newspaper \"Pravda\"."
+        ],
+        [
+          "Jos\u00e9 Cura (born December 5, 1962 in Rosario, Argentina) is an Argentine operatic tenor, conductor, director, scenographer and photographer known for intense and original interpretations of opera characters, notably \"Otello\" in Verdi\u2019s \"Otello\", \"Samson\" in Saint-Sa\u00ebns\u2019 \"Samson et Dalila\", \"Canio\" in Ruggero Leoncavallo's \"Pagliacci\", \"Stiffelio\" in Giuseppe Verdi's \"Stiffelio\" and many others."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ab33ef955429969a97a810e",
+    "question": "Corn Ranch is a spaceport where test flights are carried out by a company headquartered in what state?",
+    "answer": "Washington",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Corn Ranch",
+        "Blue Origin"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Corn Ranch",
+        "Drop test",
+        "John Christiansen",
+        "Orion abort modes",
+        "H-T Ranch",
+        "SpaceShipOne flight 15P",
+        "Project Highwater",
+        "Soyuz (rocket)",
+        "De Havilland Sprite",
+        "Apollo 7"
+      ],
+      "sentences": [
+        [
+          "Corn Ranch is a spaceport in the West Texas town of Van Horn, Texas, where flight tests of the New Shepard are carried out by Blue Origin.",
+          " The 165,000-acre (670\u00a0km\u00b2) land parcel was purchased by Internet billionaire Jeff Bezos.",
+          " The first flight test took place on November 13, 2006 with the goal of providing commercial tourist flights."
+        ],
+        [
+          "A drop test is a method of testing the in-flight characteristics of prototype or experimental aircraft and spacecraft by raising the test vehicle to a specific altitude and then releasing it.",
+          " Test flights involving powered aircraft, particularly rocket-powered aircraft, may be referred to as drop launches due to the launch of the aircraft's rockets after release from its carrier aircraft."
+        ],
+        [
+          "John \u201cChris\u201d Christiansen (May 1, 1923 \uff0d September 12, 1998) was the chief military test pilot for Lockheed California Company for over 30 years.",
+          " He might be most known for having performed Lockheed S-3 Viking's maiden flight on January 21, 1972.",
+          " His assignments also included the initial test flights of Lockheed P-3 Orion.",
+          " Christiansen was born in Oslo, Norway in 1923 and became an American citizen in 1939.",
+          " He later served in the U.S. Navy during World War II and the Korean Conflict.",
+          " He began experimental flying for Lockheed Martin in 1953, and worked there until his retirement in 1984.",
+          " He was a fellow at Society of Experimental Test Pilots."
+        ],
+        [
+          "NASA's newest spacecraft, the Orion Multi-Purpose Crew Vehicle (MPCV), will be the first American spacecraft since Project Apollo to use an escape system in the event of a launch abort, something its predecessor, the Space Shuttle, had for only its first four orbital test flights in 1981-1982.",
+          " Like the Apollo Command-Service Module (CSM), the Orion CEV will use the Launch escape system (LES), a solid-fueled tractor rocket that will be able to pull the Orion crew module away from a malfunctioning Space Launch System (SLS) rocket during the initial launch phase.",
+          " Based on the launch escape system found on the Soviet/Russian Soyuz spacecraft, the LAS, designed and manufactured by ATK for the Orion CEV, will be larger than the Soyuz version and will have more thrust than the Atlas 109-D booster that carried astronaut John Glenn into orbit in 1962."
+        ],
+        [
+          "H-T Ranch is a historic ranch complex 10 mi west of Amidon, North Dakota.",
+          " The ranch originally consisted of ten buildings; however, only the ranch house and log barn survive.",
+          " The ranch served as the headquarters of the Little Missouri Cattle Company, which was run by Arthur Clark Hidekoper.",
+          " Hidekober established the ranch in the 1880s, and by the end of the decade, it had become the \"most notable\" ranch in the area.",
+          " The ranch house, called Shackford, was built in 1896; its uncommon style resembles a bungalow but also borrows from other styles such as the Stick style.",
+          " By 1906, the \"Fargo Forum\" described the ranch as \"the biggest and most important [ranch] in the state\" and \"one of the largest horse raising outlets in the world\".",
+          " In the same year, Hidekoper sold the 70,000 acre ranch; the sale was the largest land deal in North Dakota history.",
+          " After the sale, a land company reduced the ranch to 5000 acre ; it was later used as a dude ranch in the 1920s."
+        ],
+        [
+          "Flight 15P of SpaceShipOne (X0) was the first privately funded human spaceflight.",
+          " It took place on June 21, 2004.",
+          " It was the fourth powered test flight of the Tier One program, the previous three test flights having reached much lower altitudes.",
+          " The flight carried only its pilot, Mike Melvill, who thus became the first non-governmental astronaut."
+        ],
+        [
+          "Project Highwater was an experiment carried out as part of two of the test flights of NASA's Saturn I launch vehicle (using battleship upper stages), successfully launched into a sub-orbital trajectory from Cape Canaveral, Florida.",
+          " The Highwater experiment sought to determine the effect of a large volume of water suddenly released into the ionosphere.",
+          " The project answered questions about the effect of the diffusion of propellants in the event that a rocket was destroyed at high altitude."
+        ],
+        [
+          "The Soyuz (Russian: \u0421\u043e\u044e\u0437 , meaning \"union\", GRAU index 11A511) was a Soviet expendable carrier rocket designed in the 1960s by OKB-1 and manufactured by State Aviation Plant No. 1 in Kuybyshev, Soviet Union.",
+          " It was commissioned to launch Soyuz spacecraft as part of the Soviet human spaceflight program, first with 8 unmanned test flights, followed by the first 19 manned launches.",
+          " The original Soyuz also propelled four test flights of the improved Soyuz 7K-T capsule between 1972 and 1974.",
+          " In total it flew 30 successful missions over 10 years and suffered two failures."
+        ],
+        [
+          "The Sprite was a British rocket engine built by de Havilland for use in RATO (Rocket-assisted take off) applications.",
+          " For RATO use only a short burn time is required, with simplicity and light weight as major virtues.",
+          " The intended market was for assisting take-off of de Havilland Comet 1 airliners (as hot and high operations in the British Empire were considered important) and also for V bombers carrying heavy nuclear weapons.",
+          " 30 successful test flights were carried out by Comets, from May 1951, but gas turbine performance improved rapidly, and so RATO was not required in service."
+        ],
+        [
+          "Apollo 7 was an October 1968 human spaceflight mission carried out by the United States.",
+          " It was the first mission in the United States' Apollo program to carry a crew into space.",
+          " It was also the first U.S. spaceflight to carry astronauts since the flight of Gemini XII in November 1966.",
+          " The AS-204 mission, also known as \"Apollo 1\", was intended to be the first manned flight of the Apollo program.",
+          " It was scheduled to launch in February 1967, but a fire in the cabin during a January 1967 test killed the crew.",
+          " Manned flights were then suspended for 21 months, while the cause of the accident was investigated and improvements made to the spacecraft and safety procedures, and unmanned test flights of the Saturn V rocket and Apollo Lunar Module were made.",
+          " Apollo 7 fulfilled Apollo 1's mission of testing the Apollo Command/Service Module (CSM) in low Earth orbit."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a7a1d305542990783324e66",
+    "question": "What are the professions of Tom Johnston and Daryl Palumbo?",
+    "answer": "American musician",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Tom Johnston (musician)",
+        "Daryl Palumbo"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Cody B. Ware",
+        "Glassjaw",
+        "Daryl Palumbo",
+        "Tom Johnston",
+        "El Mark",
+        "Head Automatica",
+        "Color Film (band)",
+        "United Nations (band)",
+        "1964\u201365 Huddersfield Town A.F.C. season",
+        "Sons of Abraham"
+      ],
+      "sentences": [
+        [
+          "Cody Morgan Verdecias (born September 4,1988), better known by his stage name Cody B. Ware is an American Rapper, Songwriter and A&R from Queens, New York who works on hip-hop and black metal.",
+          " He is a member of the Queens-Based music collective World's Fair.",
+          " Verdecias is a child of interracial parents and he is of half-Afro-Rican and half-Jewish descent.",
+          " According to Verdecias, Bad Rabbits \"blessed\" him with the stage name Cody B. Ware after Retired Pro Wrestler Koko B. Ware.",
+          " Verdecias says that growing up, his musical influences in hip-hop were Nas, Andre 3000, Big Pun, Khujo Goodie of Goodie Mob and he was also inspired by rock artists such as Daryl Palumbo of Glassjaw and Jacob Bannon of Converge."
+        ],
+        [
+          "Glassjaw is an American post-hardcore band from Long Island, New York.",
+          " The band is fronted by vocalist Daryl Palumbo and guitarist Justin Beck.",
+          " The band has been influential in the progression of the underground music scene in the eastern United States and United Kingdom and on the post-hardcore genre, and are known for their intense live shows and frequent line-up changes."
+        ],
+        [
+          "Daryl Palumbo (born February 10, 1979) is an American musician, originally from Elmira, New York.",
+          " He is the frontman of the bands Glassjaw, Head Automatica and Color Film.",
+          " As a youth he was a member of the Long Island straight edge band \"XbustedX.\"",
+          " In 1993 he met guitarist Justin Beck, who would become his good friend.",
+          " Together they formed Glassjaw."
+        ],
+        [
+          "Tom Johnston, Thomas Johnston or Tommy Johnston may refer to:"
+        ],
+        [
+          "El Mark is a B-side EP recording released by the band Glassjaw in 2005 exclusively on iTunes.",
+          " It consists of two previously released UK B-Sides (from the Cosmopolitan Bloodloss single) and a new previously unreleased track, entitled \"Oxycodone\".",
+          " The track \"The Number No Good Things Come Of\" features Daryl Palumbo as the only Glassjaw member, Ross Robinson plays piano and Shannon Larkin is on drums.",
+          " It is also the last Glassjaw release to feature Todd Weinstock."
+        ],
+        [
+          "Head Automatica is an American rock band from Long Island, New York fronted by Daryl Palumbo (also of Glassjaw)."
+        ],
+        [
+          "Color Film is a post-punk/new wave band from New York formed in 2012 by Glassjaw/Head Automatica frontman Daryl Palumbo and former Men Women & Children bassist/current Head Automatica multi-instrumentalist Richard Penzone."
+        ],
+        [
+          "The idea of the side project can be traced back to the early 2000s, but it was not until 2008 that United Nations took shape.",
+          " Geoff Rickly has said the band started over tequila with Daryl Palumbo.",
+          " At the start of the band, all members except for Rickly were under contracts with other record labels and were not legally permitted to work in projects released by another, making it difficult for the official lineup of the band to be well known.",
+          " However some members from the band's original line-up have been revealed through interviews and social media posts, such as Daryl Palumbo, Jonah Bayer and Lukas Previn.",
+          " Since Rickly was the only member whose primary band was not under contract, his name is the only one that could legally appear in press materials.",
+          " Press photos of the band released in 2008 depict four people wearing Ronald Reagan masks."
+        ],
+        [
+          "Huddersfield Town's 1964\u201365 campaign was mainly a season of change for the Terriers, with Roger B. Kaye becoming the new chairman just before the start of the season, followed by the departure of manager Eddie Boot after just 3 games.",
+          " Tom Johnston would then give Town a big boost for the rest of the season.",
+          " A superb second half of the season saw Town only lose 3 league games in 1965, which would eventually lead Town to 8th place in Division 2."
+        ],
+        [
+          "Sons of Abraham were a five piece Jewish Straight edge Metalcore band from Long Island, New York.",
+          " They released one demo, a split EP with Indecision, and CD/LP titled \"Termites In His Smile\".",
+          " They disbanded in 1998, as guitarists Justin Beck and Todd Weinstock decided to concentrate on their other band, Glassjaw with friend Daryl Palumbo."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ac00f795542996f0d89cb16",
+    "question": "The Disney version of Ebenezer Scrooge was voiced by whom?",
+    "answer": "Alan Young",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Alan Young",
+        "Alan Young",
+        "Alan Young",
+        "Mickey's Christmas Carol"
+      ],
+      "sent_id": [
+        0,
+        2,
+        3,
+        2
+      ]
+    },
+    "context": {
+      "title": [
+        "Scrooge (1951 film)",
+        "David Pevsner",
+        "A Christmas Carol (2009 film)",
+        "Scrooge (1913 film)",
+        "Mr. Fezziwig",
+        "A Christmas Carol",
+        "Scrooge (1935 film)",
+        "Scrooge, or, Marley's Ghost",
+        "Mickey's Christmas Carol",
+        "Ebenezer (film)"
+      ],
+      "sentences": [
+        [
+          "Scrooge is a 1951 British fantasy drama film and an adaptation of Charles Dickens' \"A Christmas Carol\" (1843).",
+          " It stars Alastair Sim as Ebenezer Scrooge, and was produced and directed by Brian Desmond Hurst, with a screenplay by Noel Langley.",
+          " It was released as A Christmas Carol in the United States."
+        ],
+        [
+          "David Pevsner is an American actor, singer, dancer, and writer.",
+          " Pevsner appeared in the 1990 revival of \"Fiddler on the Roof\", 1991 revival of \"Rags\", and some other theatrical productions.",
+          " He also wrote three songs for the 1999 musical \"Naked Boys Singing!",
+          "\", including \"Perky Little Porn Star.\"",
+          " He wrote and produced two one-person shows, \"To Bitter and Back\" (2003) and \"Musical Comedy Whore\" (2013).",
+          " Pevsner portrayed mostly minor roles in films and television.",
+          " His major screen roles are Ebenezer Scrooge in the 2012 film adaptation of \"A Christmas Carol\", \"Scrooge & Marley\", and Ross Stein in a 2011 web series \"Old Dogs & New Tricks\".",
+          " He recorded the 2016 album \"Most Versatile\", whose album cover pays homage to Bruce Springsteen's album \"Born in the U.S.A.\""
+        ],
+        [
+          "A Christmas Carol is a 2009 American 3D computer animated motion-capture fantasy film written and directed by Robert Zemeckis.",
+          " It is an adaptation of the Charles Dickens story of the same name and stars Jim Carrey in a multitude of roles, including Ebenezer Scrooge as a young, middle-aged, and old man, and the three ghosts who haunt Scrooge.",
+          " The film also features supporting roles done by Gary Oldman, Colin Firth, Bob Hoskins, Robin Wright, and Cary Elwes."
+        ],
+        [
+          "Scrooge is a 1913 British black and white silent film based on the 1843 novel \"A Christmas Carol\" by Charles Dickens.",
+          " It starred Seymour Hicks as Ebenezer Scrooge.",
+          " In the United States it was released in 1926 as \"Old Scrooge\"."
+        ],
+        [
+          "Mr. Fezziwig is a character from the novel \"A Christmas Carol\" created by Charles Dickens to provide contrast with Ebenezer Scrooge's attitudes towards business ethics.",
+          " Scrooge, who apprenticed under Fezziwig, is the very antithesis of the person he worked for as a young man.",
+          " Mr. Fezziwig is portrayed as a jovial, foppish man with a large Welsh wig.",
+          " In Act I, Scene 5 of \"A Christmas Carol\", the Ghost of Christmas Past takes Scrooge to revisit his youthful days in Fezziwig's world located at the cusp of the Industrial Revolution.",
+          " Dickens used Fezziwig to represent a set of communal values and a way of life which was quickly being swept away in the economic turmoil of the early nineteenth century."
+        ],
+        [
+          "A Christmas Carol in Prose, Being a Ghost-Story of Christmas, commonly known as A Christmas Carol, is a novella by Charles Dickens, first published in London by Chapman & Hall in 1843; the first edition was illustrated by John Leech.",
+          " \"A Christmas Carol\" tells the story of Ebenezer Scrooge, an old miser who is visited by the ghost of his former business partner Jacob Marley and the Ghosts of Christmas Past, Present and Yet to Come.",
+          " After their visits Scrooge is transformed into a kinder, gentler man."
+        ],
+        [
+          "Scrooge is a 1935 British fantasy film directed by Henry Edwards and starring Seymour Hicks, Donald Calthrop and Robert Cochran.",
+          " Hicks appears as Ebenezer Scrooge, the miser who hates Christmas.",
+          " It was the first sound version of the Charles Dickens classic \"A Christmas Carol\", not counting a 1928 short subject that now appears to be lost.",
+          " Hicks had previously played the role of Scrooge on the stage many times beginning in 1901, and again in a 1913 British silent film version."
+        ],
+        [
+          "Scrooge, or, Marley's Ghost is a 1901 British short silent drama film, directed by Walter R. Booth, featuring the miserly Ebenezer Scrooge confronted by Marley's ghost and given visions of Christmas past, present, and future, is the earliest known film adaptation of Charles Dickens's 1843 novel \"A Christmas Carol\".",
+          " The film, \"although somewhat flat and stage-bound to modern eyes,\" according to Ewan Davidson of BFI Screenonline, \"was an ambitious undertaking at the time,\" as, \"not only did it attempt to tell an 80 page story in five minutes, but it featured impressive trick effects, superimposing Marley's face over the door knocker and the scenes from his youth over a black curtain in Scrooge's bedroom.\""
+        ],
+        [
+          "Mickey's Christmas Carol is a 1983 American animated featurette produced by Walt Disney Productions and released by Buena Vista Distribution.",
+          " It was directed and produced by Burny Mattinson.",
+          " The cartoon is an adaptation of Charles Dickens' \"A Christmas Carol\", starring Scrooge McDuck as Ebenezer Scrooge.",
+          " Many other Disney characters, primarily from the Mickey Mouse universe, \"Robin Hood\", and \"The Adventures of Ichabod and Mr. Toad\", were cast throughout the film."
+        ],
+        [
+          "Ebenezer is a 1998 Canadian made-for-television re-telling of Charles Dickens' classic \"A Christmas Carol\" with Jack Palance giving a performance as Ebenezer Scrooge, \u00e1 la Western genre.",
+          " After a half-century of screen presence, in one of Palance's final projects before his retirement."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ae4ec1e5542990ba0bbb19b",
+    "question": "In between The Bears and I and Oceans which was released on July 31, 1974, by Buena Vista Distribution?",
+    "answer": "The Bears and I",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "The Bears and I",
+        "The Bears and I",
+        "Oceans (film)"
+      ],
+      "sent_id": [
+        0,
+        2,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Buena Vista Park",
+        "Buena Vista and Ellaville Railroad",
+        "The Bears and I",
+        "Walt Disney Studios Motion Pictures",
+        "List of Walt Disney Pictures films",
+        "Buena Vista Downtown Historic District",
+        "Buena Vista (brand)",
+        "Best Western Lake Buena Vista Resort Hotel",
+        "Buena Vista, Pennsylvania",
+        "Buena Vista High School (Michigan)"
+      ],
+      "sentences": [
+        [
+          "Buena Vista Park is a park in the Haight-Ashbury and Buena Vista Heights neighborhoods of San Francisco, California.",
+          " It is the oldest official park in San Francisco, established in 1867 as Hill Park, later renamed Buena Vista.",
+          " It is bounded by Haight Street to the north, and by Buena Vista Avenue West and Buena Vista Avenue East.",
+          " The park is on a steep hill that peaks at 575 feet , and covers 37 acre .",
+          " The lowest section is the north end along Haight."
+        ],
+        [
+          "The Buena Vista and Ellaville Railroad is a historic railroad that operated in Georgia, USA.",
+          " It was originally incorporated as the Buena Vista Railroad in 1880 and the name was changed to the Buena Vista and Ellaville Railroad in 1885 following a corporate reorganization.",
+          " The railroad ran 30 mi of track between Buena Vista and Americus when, in 1888, it was merged with several other lines into the Savannah and Western Railroad, a subsidiary of the Central of Georgia Railway."
+        ],
+        [
+          "The Bears and I is a 1974 American drama film directed by Bernard McEveety and written by John Whedon.",
+          " The film stars Patrick Wayne, Chief Dan George, Andrew Duggan, Michael Ansara and Robert Pine.",
+          " The film was released on July 31, 1974, by Buena Vista Distribution."
+        ],
+        [
+          "Walt Disney Studios Motion Pictures (formerly Buena Vista Pictures Distribution and Buena Vista Film Distribution Company) is an American film distributor owned by The Walt Disney Company.",
+          " Established in 1953 as Buena Vista Film Distribution Company, the company handles theatrical distribution, marketing and promotion for films produced and released by the Walt Disney Studios, including Walt Disney Pictures, Walt Disney Animation Studios, Pixar Animation Studios, DisneyToon Studios, Marvel Studios, Lucasfilm, Disneynature, and Touchstone Pictures.",
+          " The division took on its current name in late 2007, which before that had been Buena Vista Pictures Distribution since 1987."
+        ],
+        [
+          "This is a list of films released theatrically under the Walt Disney Pictures banner (known as that since 1983, with \"Never Cry Wolf\" as its first release) and films released before that under the former name of the parent company, Walt Disney Productions (1929\u20131983).",
+          " Most films listed here were distributed in the United States by the company's distribution division, Walt Disney Studios Motion Pictures (formerly known as Buena Vista Distribution Company [1953\u20131987] and Buena Vista Pictures Distribution [1987\u20132007]).",
+          " The Disney features produced before \"Peter Pan\" (1953) were originally distributed by RKO Radio Pictures, and are now distributed by Walt Disney Studios Motion Pictures."
+        ],
+        [
+          "Buena Vista Downtown Historic District is a national historic district located at Buena Vista, Virginia.",
+          " The district encompasses 38 contributing buildings and 1 contributing structure in the central business district of Buena Vista.",
+          " The buildings are primarily one- and two-story masonry structures, with the earliest built in 1889-1890.",
+          " Notable buildings include the Buena Vista Post Office (1930), Buena Vista War Memorial Building (1954), Peoples Bank of Buena Vista (1907), Dickinson Building (c. 1907), Royer\u2019s Restaurant (c. 1940), the Advocate Building (1889), Buena Vista Masonic Building (c. 1910), and the Valley Steam Laundry Building (c. 1905).",
+          " The Buena Vista Company Building (1890) is separately listed as the Old Courthouse."
+        ],
+        [
+          "Buena Vista is a brand name which was historically often used for divisions and subsidiaries of The Walt Disney Company, whose primary studios, the Walt Disney Studios, are located on Buena Vista Street in Burbank, California.",
+          " (The studio lot is also home to the Company's corporate headquarters, the Team Disney Burbank building.)",
+          " The logos for the various Buena Vista brands featured the \"Buena Vista\" wordmark superimposed over the Disney Castle image to signal the affiliation between Buena Vista and Disney.",
+          " The name literally means \"good view\" in Spanish."
+        ],
+        [
+          "The Best Western Lake Buena Vista Resort Hotel is a 325-room resort that is on the property of Walt Disney World Resort in Lake Buena Vista, Florida.",
+          " The resort is located across from the Disney Springs area.",
+          " The hotel originally opened in November 1972 as the Travelodge at Lake Buena Vista.",
+          " It was operated by Travelodge from 1972 through 1983, then in 1984 the resort became the Viscount Hotel and operated as such until 1988.",
+          " In 1989, it was reacquired by Travelodge.",
+          " In 2000, the Travelodge hotel switched over to become the Best Western Lake Buena Vista Resort Hotel.",
+          " The hotel was renovated in 2004 and has 2 outdoor pools."
+        ],
+        [
+          "Buena Vista ( ) is an unincorporated community in Elizabeth Township, Allegheny County, Pennsylvania, United States, located just outside Pittsburgh on the Youghiogheny River.",
+          " The Great Allegheny Passage rail trail runs through the community.",
+          " Buena Vista's ZIP code is 15018.",
+          " For a time, Buena Vista served as a mining town.",
+          " Like many places in the USA with this name, Buena Vista was named for the 1847 Battle of Buena Vista during the Mexican-American War."
+        ],
+        [
+          "Buena Vista High School was a public high school located at 3945 East Holland in Buena Vista Charter Township, Michigan and was part of the former Buena Vista School District.",
+          " The school was closed when the Buena Vista School District was dissolved in July 2013.",
+          " Buena Vista's mascot was the Knights, and its colors were blue and white.",
+          " The school's athletic program competed in the Greater Thumb Conference as a Class C, and later in the Highland Conference as a Class D school."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a8408a9554299123d8c21d3",
+    "question": "Which Canadian artist is credited with first coming up with the title of Various Positions?",
+    "answer": "Leonard Cohen",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Various Positions (film)",
+        "Leonard Cohen"
+      ],
+      "sent_id": [
+        2,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "John M\u00e1rquez",
+        "A. D. David Mackay",
+        "Various Positions (film)",
+        "Michel Lemieux",
+        "Mabel May",
+        "Lewis Nicola",
+        "Various Positions Tour",
+        "Ghetto Love (Karl Wolf song)",
+        "William Arthur Irwin",
+        "Angus Macdonald (rugby union)"
+      ],
+      "sentences": [
+        [
+          "John E. M\u00e1rquez is an American Democratic politician and activist who has held various positions in Richmond, California city government over a span twenty-three years in addition to further years of service before and after in the West County Area.",
+          " This includes eighteen years as a city councilman and a stint as vice mayor.",
+          " He was the first Latino to serve on the Richmond City Council.",
+          " Originally he was an appointee to the council in 1985 and won an election to that seat in 1987, he subsequently lost his second bid in 1991.",
+          " However he was elected again in 1993 and twice more in 1997 and 2004.",
+          " In 1990 and 1998 he also served as vice mayor.",
+          " M\u00e1rquez was defeated for re-election in 2008, and also lost a mayoral bid in 2001 to Green Gayle McLaughlin.",
+          " In addition to his elected offices in the city of Richmond, he has held various other positions in Contra Costa County, California on various commissions including college trustee."
+        ],
+        [
+          "A. D. David Mackay became the Chief Executive Officer and President of Kellogg Company on December 31, 2006 and retired in January, 2011.",
+          " He was previously the President and Chief Operating Officer since September 2003 prior to his promotion.",
+          " His career at Kellogg began when he joined Kellogg Australia in 1985, and he went on to serve in various positions in Kellogg USA, Kellogg Australia and Kellogg New Zealand until his departure in 1992.",
+          " In 1998, he rejoined Kellogg Australia and became the managing director of Kellogg United Kingdom and Ireland within the same year.",
+          " Since then, he has held various positions within the company, including Senior Vice President, President, Executive Vice President, President, and Chief Operating Officer.",
+          " In addition to his executive positions, he is also a director of Kellogg and Fortune Brands, Inc."
+        ],
+        [
+          "Various Positions is a 2002 film by Vancouver, BC, lawyer and filmmaker Ori Kowarsky, starring Carly Pope and Tygh Runyan.",
+          " \"Various Positions\" won the 2002 Prix de Montr\u00e9al at the Montreal World Film Festival.",
+          " Although the film takes its title from an album by (and Ira Nadel's biography of) Leonard Cohen, the subject of the film is not Cohen, nor does he have any affiliation with the work."
+        ],
+        [
+          "Michel Lemieux (born February 13, 1959 in Indianapolis, Indiana) is a Canadian multimedia artist from Quebec, whose career has incorporated work in theatrical design, installation art, film, video, dance and music.",
+          " First coming to prominence in the early 1980s as a performance artist whose work explored the integration of new media technologies into experimental pop music in a manner similar to Peter Gabriel and Laurie Anderson, more recently he has concentrated primarily on creating, designing, directing and producing multimedia theatrical presentations for events, theatrical companies and other artists."
+        ],
+        [
+          "Henrietta Mabel May (September 11, 1877 \u2013 October 8, 1971), was a Canadian artist in the early 20th century and an organizer of women artists.",
+          " Based in Quebec early in her career, and later in her life, Vancouver, she was a well-known painter and member of multiple important Canadian artist groups, including the Art Association of Montreal, the Beaver Hall Group and the Canadian Group of Painters.",
+          " Her works have been displayed at the Canadian War Memorial, National Gallery, the Vancouver Art Gallery and many smaller galleries throughout Quebec.",
+          " She has been commonly referred to as the \u201cEmily Carr of Montreal\u201d due to her interest in landscape and nature focused artwork.",
+          " Her artwork was mostly influenced by her avid interest in French Impressionists."
+        ],
+        [
+          "Lewis Nicola (1717 \u2013 August 9, 1807) was an Irish-born American military officer, merchant, and writer who held various military and civilian positions throughout his career.",
+          " Nicola is most notable for authoring the Newburgh letter, which urged George Washington to assume a royal title.",
+          " Born in Dublin, Ireland, Nicola had been an officer in the British Army, serving in Europe before immigrating to the Thirteen Colonies.",
+          " Establishing a residence in Philadelphia with his family, Nicola opened a library in 1767 and was active in colonial philosophical organizations.",
+          " As a result of his work to establish the American Philosophical Society, he was elected as one of its curators.",
+          " When the American Revolution broke out, Nicola offered his services to the colonial government, which eventually appointed him to various positions with local forces."
+        ],
+        [
+          "The Various Positions Tour was a concert tour by Leonard Cohen, in support of his album \"Various Positions\", released in 1984 (Canada) and 1985 in Europe and the United States."
+        ],
+        [
+          "\"Ghetto Love\" is a 2011 single by Canadian artist Karl Wolf from his 2012 album \"Finally Free\".",
+          " The single released in May 2011 features Canadian artist Kardinal Offishall with downloads made available on May 17, 2011."
+        ],
+        [
+          "William Arthur Irwin, often credited as W. Arthur Irwin (May 27, 1898 \u2013 August 9, 1999), was a Canadian journalist and diplomat.",
+          " He is best known for his work on \"Maclean's\", a magazine with which he held various positions across a quarter of a century.",
+          " He also served as the Commissioner of the National Film Board of Canada (NFB), and as Canadian high commissioner or ambassador to various countries."
+        ],
+        [
+          "Angus James Macdonald (born 12 January 1981 in Whangarei) is a retired New Zealand rugby union footballer.",
+          " Macdonald has played for Auckland, the Blues, Glasgow Warriors, New Zealand Maori and the All Blacks in a career that began in 2001.",
+          " Angus Macdonald is known for his versatility, as he has played in various positions in the forwards including Lock, Flanker and Number 8.",
+          " It was this ability to play multiple positions capably that led to his selection in the 2005 Northern Hemisphere tour, he joined Chris Masoe, Neemia Tialata Isaia Toeava as All Black coach Graham Henry looked to strengthen depth by breaking in players that could take up many positions.",
+          " Macdonald was part of the champion Blues Super 14 campaign in 2003 and has captained his province; at the young age of 24."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a83041355429966c78a6ae8",
+    "question": "Both Ralph Bakshi and B\u00e9la Ga\u00e1l had what roll in film making?",
+    "answer": "film director",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Ralph Bakshi",
+        "B\u00e9la Ga\u00e1l"
+      ],
+      "sent_id": [
+        3,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Vaughn Bod\u0113",
+        "Heavy Traffic",
+        "Modern Girls (1937 film)",
+        "B\u00e9la Ga\u00e1l",
+        "Cool and the Crazy",
+        "The Dream Car",
+        "Fritz the Cat (film)",
+        "Tales of Budapest",
+        "Fire and Ice (1983 film)",
+        "The New Relative"
+      ],
+      "sentences": [
+        [
+          "Vaughn Bod\u0113 ( ; July 22, 1941 \u2013 July 18, 1975) was an underground cartoonist and illustrator known for his character Cheech Wizard and his artwork depicting voluptuous women.",
+          " A contemporary of Ralph Bakshi, Bod\u0113 has been credited as an influence on Bakshi's animated films \"Wizards\" and \"The Lord of the Rings\".",
+          " Bod\u0113 has a huge following among graffiti artists, with his characters remaining a popular subject."
+        ],
+        [
+          "Heavy Traffic is a 1973 American adult animated comedy-drama film written and directed by Ralph Bakshi.",
+          " The film, which begins, ends, and occasionally combines with live-action, explores the often surreal fantasies of a young New York cartoonist named Michael Corleone, using pinball imagery as a metaphor for inner-city life.",
+          " \"Heavy Traffic\" was Bakshi and producer Steve Krantz's follow-up to the film \"Fritz the Cat\".",
+          " Though producer Krantz made varied attempts to produce an R-rated film, \"Heavy Traffic\" was given an X rating by the MPAA.",
+          " The film received positive reviews and is widely considered to be Bakshi's biggest critical success."
+        ],
+        [
+          "Modern Girls or Today's Girls (Hungarian: Mai l\u00e1nyok) is a 1937 Hungarian comedy film directed by B\u00e9la Ga\u00e1l and starring Lia Szepes, J\u00ebno Pataky and Steven Geray.",
+          " The film may be best remembered for Magda Gabor's appearance in a supporting role."
+        ],
+        [
+          "B\u00e9la Ga\u00e1l (2 January 1893 \u2013 18 February 1945) was a Hungarian film director.",
+          " His 1930 film \"Csak egy kisl\u00e1ny van a vil\u00e1gon\" was the first sound film to be made in Hungary."
+        ],
+        [
+          "Cool and the Crazy is a 1994 American drama film written and directed by Ralph Bakshi and starring Jared Leto and Alicia Silverstone.",
+          " The story revolves around an unhappily married couple in the late 1950s who both lead separate affairs.",
+          " The film was Bakshi's first feature-length live-action film, being primarily known as a director of animated films which heavily utilize live-action sequences, such as \"Fritz the Cat\", \"Heavy Traffic\", \"Wizards\", \"American Pop\" and \"The Lord of the Rings\"."
+        ],
+        [
+          "The Dream Car (Hungarian: Meseaut\u00f3 ) is a 1934 Hungarian romantic comedy film directed by B\u00e9la Ga\u00e1l and starring Zita Perczel, Ella Gombasz\u00f6gi and Kl\u00e1ri Tolnay.",
+          " A tycoon falls in love with a poor woman and secretly buys her a car.",
+          " The 1935 British film \"Car of Dreams\" was based on this film."
+        ],
+        [
+          "Fritz the Cat is a 1972 American adult animated comedy film written and directed by Ralph Bakshi.",
+          " It was Bakshi's feature film debut and is loosely based on the Fritz the Cat comic strips by Robert Crumb.",
+          " It was the first animated feature film to receive an X rating in the United States."
+        ],
+        [
+          "Tales Of Budapest (Hungarian: \"Pesti mese\" ) is a 1937 Hungarian comedy film directed by B\u00e9la Ga\u00e1l."
+        ],
+        [
+          "Fire and Ice is a 1983 American adult animated epic high fantasy adventure film directed by Ralph Bakshi.",
+          " The film, a collaboration between Bakshi and Frank Frazetta, was distributed by 20th Century Fox, which also distributed Bakshi's 1977 release, \"Wizards\".",
+          " The animated feature, based on characters Bakshi and Frazetta co-created, was made using the process of rotoscoping, in which scenes were shot in live action and then traced onto animation cels."
+        ],
+        [
+          "The New Relative (Hungarian: Az \u00faj rokon ) is a 1934 Hungarian comedy film directed by B\u00e9la Ga\u00e1l."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ae0c29c5542993d6555ec46",
+    "question": "What was the profession of the one who wrote a song on a 2005 album he collaborated on with Marc Predka?",
+    "answer": "professional wrestler, actor, and hip hop musician",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Tha Trademarc",
+        "Tha Trademarc",
+        "The Time Is Now (John Cena song)"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Barry Andrews (musician)",
+        "Hopp\u00edpolla",
+        "Fresh Azimiz",
+        "Painkiller (Freestylers song)",
+        "Spiritual Unity (Marc Ribot album)",
+        "L'Heure d'\u00e9t\u00e9 (album)",
+        "Tha Trademarc",
+        "Duality (Ra album)",
+        "Can We Talk",
+        "Like Light to the Flies"
+      ],
+      "sentences": [
+        [
+          "Barry Andrews (born 12 September 1956, West Norwood, London) is a vocalist and keyboardist.",
+          " He is a former member of the bands XTC and League of Gentlemen with Robert Fripp, and was co-founder of Shriekback.",
+          " He has collaborated with Brian Eno on several projects, most recently guesting on keyboards for the 2005 album \"Another Day On Earth\".",
+          " Andrews also played on the 1980 Iggy Pop album \"Soldier\" with David Bowie, Ivan Kral, Glen Matlock and Klaus Kruger."
+        ],
+        [
+          "\"Hopp\u00edpolla\" (] , \"Hopp \u00ed polla\" is Icelandic for \"Hopping into puddles\") is a song by Icelandic band Sigur R\u00f3s from their 2005 album \"Takk...\".",
+          " It was released as the album's second single on 28 November 2005.",
+          " The lyrics are mainly in Icelandic, with some nonsensical phrases, a \"language\" the band calls Vonlenska (\"Hopelandic\").",
+          " Written with spaces, the song's title would be \"Hoppa \u00ed polla\" (the \"\u2014a\" in \"hoppa\" is not pronounced).",
+          " As with many of the band's songs, it was given a nickname in the early stages of writing.",
+          " \"Hopp\u00edpolla\" was \"The Money Song\", as the band was certain they had written a song which would have commercial success.",
+          " It is the band's most successful single, charting at #24 on the UK Singles Chart in May 2006.",
+          " It is considered the most well known song within its genre.",
+          " The single also features \"Me\u00f0 bl\u00f3\u00f0nasir\", an instrumental coda to \"Hopp\u00edpolla\", which is also featured on \"Takk...\"; and a studio remake of \"Hafss\u00f3l\", a song previously released on the band's 1997 debut album, \"Von\".",
+          " The title appears as \"Hafs\u00f3l\" on the single."
+        ],
+        [
+          "\"Fresh Azimiz\" (\"\"fresh as I'm is\"\") is a single featured on rapper Bow Wow's 2005 album \"Wanted\".",
+          " It is the third song after his chart topping singles \"Let Me Hold You\" with singer Omarion and \"Like You\" with Ciara.",
+          " It features J-Kwon & Jermaine Dupri.",
+          " The song was produced by Jermaine Dupri.",
+          " The song became his third Top 40 single from his 2005 album \"Wanted\", peaking at number 23 on the \"Billboard\" Hot 100."
+        ],
+        [
+          "\"Painkiller\" is a 2006 single by Freestylers featuring Pendulum and SirReal.",
+          " It was released to promote the release of Freestylers' album \"Adventures in Freestyle\".",
+          " Pendulum had previously collaborated with Freestylers for the track \"Fasten Your Seatbelt\", which was released as a single and appeared on the former's 2005 album, \"Hold Your Colour\".",
+          " The single was released on 12\" vinyl and on CD, with a second remix single being released on 12\" vinyl."
+        ],
+        [
+          "Spiritual Unity is a 2005 album by Marc Ribot released on Pi Recordings.",
+          " The album features compositions by Albert Ayler who Ribot identifies as a significant influence.",
+          " It was recorded at Orange Music Sound Studio, West Orange, New Jersey on October 28, 2004, except \"Bells\", which was recorded live at Tonic in New York City on October 27, 2004."
+        ],
+        [
+          "L'Heure d'\u00e9t\u00e9 is a 2005 album recorded by French artist Marc Lavoine.",
+          " It was his ninth studio album and his 12th album overall.",
+          " Released on May 23, 2005, it was successful in the francophone countries."
+        ],
+        [
+          "Marc Predka (born April 21, 1975) better known by his stage name Tha Trademarc, is an American hip hop artist.",
+          " He first came to prominence when he and his first cousin, WWE wrestler John Cena, collaborated on the 2005 album \"You Can't See Me\", including Cena's entrance theme \"The Time Is Now\".",
+          " He also appeared in the music videos of the songs, \"Bad Bad Man\" and \"Right Now\" with Cena.",
+          " Prior to the album, Trademarc appeared on Cena's first WWE DVD \"Word Life\".",
+          " He now works as a classroom specialist for the Peace Corps of America."
+        ],
+        [
+          "Duality is a 2005 album from the band Ra.",
+          " The style from this album has noticeably changed since Ra's debut album of \"From One\".",
+          " The album boasts a hard rock and melodic vibe whereas their first album had more of a nu metal feel.",
+          " The middle-eastern influences in the CD are still present, but are noticeably pushed back.",
+          " Akin to their former album, \"Duality\" only claimed one single which was the song \"Fallen Angels\", a song that was inspired by the Kevin Smith film Dogma.",
+          " The tenth track \"Got Me Going\" was played on the radio in the background of the movie \"Hot Rod\".",
+          " Janel Elizabeth has a cover of the song \"Swimming Upstream\" streamed on her Myspace."
+        ],
+        [
+          "\"Can We Talk\" is a song recorded by American R&B singer Tevin Campbell and composed and produced by Babyface.",
+          " It was the first single to be released from his double platinum second release \"I'm Ready\".",
+          " The song hit top ten on the pop charts peaking at number nine on the \"Billboard\" Hot 100 and spent a total of three weeks at number one on the US R&B chart.",
+          " It sold 500,000 copies and earned a gold certification from the Recording Industry Association of America.",
+          " The song was also Nominated for a Grammy Award for Best Rhythm & Blues Vocal Performance - Male.",
+          " It was also nominated and later won the Soul Train Music Award for Best R&B/Soul Single - Male (\"Can We Talk\").",
+          " Cover versions of the hit song have been done by The Whispers, Sanchez, and Kirk Whalum (on his 2005 album \"Kirk Whalum Performs the Babyface Songbook\").",
+          " The song was later covered by British boyband Code Red in 1996, for their debut album \"Scarlet\" and was released as the album's lead single becoming a modest hit and reaching #1 in Asia.",
+          " The song has also been covered by a Japanese/Korean singer during June 2008.",
+          " The song became the opening theme to the 2012 sitcom \"1600 Penn\".",
+          " The song was sampled in hip hop duo Luniz's song \"Playa Hata\" from their debut album \"Operation Stackola\".",
+          " The song was sung by 19-year-old Victor Sulfa during the semi-finals on season 3 of \"New Zealand Idol\" as well as Nikko Smith during the Top 10 round on season 4 of \"American Idol\".",
+          " The song has been featured on at least two different compilation albums including Disc 14 of \"Classic Soul Ballads\" entitled \"Tender Love\" and Volume 6 of MTV's \"Party to Go\" compilation albums series entitled \"MTV Party to Go 6\"."
+        ],
+        [
+          "\"Like Light to the Flies\" (or \"Like Light\", as it is often referred to) is a song by heavy metal band Trivium and is the first single and music video from their 2005 album, \"Ascendancy\".",
+          " The band originally considered using the song \"Ember to Inferno\" as their first single but changed their minds after recording this song (along with \"Blinding Tears Will Break the Skies\" and \"The Deceived\").",
+          " \"Like Light\" was released in January 2005, and features a mix of screaming and singing.",
+          " The song contains two guitar solos which are meshed into one longer solo, with a small interlude in the middle.",
+          " The Music video featured the original member & bass player Brent Young and the version used in the video is the demo version, not the album version, but the demo found previously on the MTV compilation album \"\"."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a86458b5542991e771815ec",
+    "question": "What is the population of the city where the Akademisches Kunstmuseum is?",
+    "answer": "300,000",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Akademisches Kunstmuseum",
+        "Bonn"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Akademisches Kunstmuseum"
+      ],
+      "sentences": [
+        [
+          "Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+          " It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+          " It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ae694a15542991bbc976141",
+    "question": "Why is Minister Pool important to Black Country and the West Midlands in England?",
+    "answer": "defence of the Cathedral",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Minster Pool",
+        "Lichfield Cathedral"
+      ],
+      "sent_id": [
+        1,
+        2
+      ]
+    },
+    "context": {
+      "title": [
+        "Cradley Heath Workers' Institute",
+        "List of railway stations in the West Midlands",
+        "Black Country Living Museum",
+        "Free Radio Shropshire &amp; Black Country",
+        "Black Country Rangers F.C.",
+        "Ryan's Gig Guide",
+        "Dudley Zoo",
+        "Tipton",
+        "Brierley Hill",
+        "Walsall"
+      ],
+      "sentences": [
+        [
+          "The Cradley Heath Workers' Institute was built between 1911 and 1912 in Lomey Town, Cradley Heath, West Midlands, England.",
+          " It was built as a social centre for the Black Country, intended to become a venue for educational meetings and lectures.",
+          " It also housed Union offices, where members could come to seek guidance, and from which the Contributory Unemployment Fund would be distributed.",
+          " In 2006 the building was threatened by a bypass and so was moved to the Black Country Living Museum."
+        ],
+        [
+          "This is a list of railway stations within the West Midlands, a metropolitan county in central England which includes the cities of Birmingham, Coventry and Wolverhampton.",
+          " It includes all railway stations in the West Midlands that currently have regular timetabled train services, as well as certain stations outside the county which are within the area supported by Transport for West Midlands (TfWM), formerly known as Centro.",
+          " Transport within the West Midlands is subsidised by TfWM, who since 2006 have used the brand name Network West Midlands to demonstrate the 'joined-up' nature of the regions bus and rail networks."
+        ],
+        [
+          "The Black Country Living Museum (formerly The Black Country Museum) is an open-air museum of rebuilt historic buildings in Dudley in the West Midlands of England.",
+          " It is located in the centre of the Black Country, 10 miles west of Birmingham.",
+          " The museum occupies 105000 m2 of former industrial land partly reclaimed from a former railway goods yard, disused lime kilns, canal arm and former coal pits."
+        ],
+        [
+          "Free Radio Shropshire & Black Country (previously known as Beacon Radio), is an Independent Local Radio station serving Shropshire and the Black Country in the West Midlands region of England.",
+          " The station, owned and operated by the Bauer Media Group, broadcasts from studios in Oldbury and broadcasts on 103.1 / 97.2 FM and DAB Digital Radio, as well as online at www.freeradio.co.uk, The station is part of the Bauer City 1 network, which broadcasts a mix of chart music from the last 15 years alongside local/national news, travel, sport and weather."
+        ],
+        [
+          "Black Country Rangers Football Club is a football club based in Rowley Regis in the West Midlands.",
+          " They are currently members of the West Midlands (Regional) League Premier Division and play at the Beeches in Cradley, groundsharing with Cradley Town."
+        ],
+        [
+          "Ryan's Gig Guide is an independent incisive band friendly gig guide and music magazine based in The Black Country, England and distributed throughout the West Midlands United Kingdom.",
+          " The printed publication is not just a list of gigs each month, but the finger on the pulse of the Birmingham and the Black Country music scene."
+        ],
+        [
+          "Dudley Zoological Gardens is a 40 acre zoo located within the grounds of Dudley Castle in the town of Dudley, in the Black Country region of the West Midlands, England.",
+          " The Zoo opened to the public on 18 May 1937.",
+          " Dudley Zoo is owned and operated by Dudley and West Midlands Zoological Society, founded in 1935 and a registered charity."
+        ],
+        [
+          "Tipton is a town in the borough of Sandwell, West Midlands, England, with a population of around 38,777 at the 2011 UK Census.",
+          " Tipton is located about halfway between Birmingham and Wolverhampton.",
+          " It is a part of the West Midlands conurbation and is a part of the Black Country."
+        ],
+        [
+          "Brierley Hill is a small town and electoral ward of the Dudley Metropolitan Borough, in the West Midlands of England, and is situated approximately 2.5 miles south of central Dudley and 2 miles north of Stourbridge.",
+          " Part of the Black Country, and in a heavily industrialised area of the Dudley Borough, it has a population of 13,935 at the 2011 census, and is best known for glass and steel manufacturing, although the industry has declined considerably since the 1970s.",
+          " One of the largest factories in the area was the Round Oak Steelworks, which was closed down and redeveloped in the 1980s to become the Merry Hill Shopping Centre.",
+          " Brierley Hill was originally in Staffordshire, but is now part of the West Midlands metropolitan county since its creation in 1974."
+        ],
+        [
+          "Walsall ( ) is an industrial town in the West Midlands of England.",
+          " It is located 8 miles north-west of the City of Birmingham and 6 miles east of the City of Wolverhampton.",
+          " Historically a part of Staffordshire, Walsall is a component area of the West Midlands conurbation, and part of the Black Country."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a7f53ff5542992097ad2f17",
+    "question": "In addition to the best known comic servant from Commedia dell'arte, who else is featured in La Surprise de l'amour?",
+    "answer": "Columbine",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "La Surprise de l'amour",
+        "La Surprise de l'amour",
+        "Harlequin"
+      ],
+      "sent_id": [
+        0,
+        1,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "La Surprise de l'amour",
+        "Gilles (stock character)",
+        "Pedrolino",
+        "Pierrot lunaire (book)",
+        "Tartaglia (commedia dell'arte)",
+        "Niccol\u00f2 Barbieri",
+        "Masques (Debussy)",
+        "Commedia dell'arte",
+        "Columbina",
+        "Harlequin"
+      ],
+      "sentences": [
+        [
+          "Like many of Marivaux's , \"La Surprise de l'amour\" makes use of stock characters from the Commedia dell'arte.",
+          " In this play, Arlequin and Columbine are featured."
+        ],
+        [
+          "Gilles (] )\u2014sometimes Gille\u2014is a stock character of French farce and Commedia dell'Arte.",
+          " He enjoyed his greatest vogue in 18th-century France, in entertainments both at the fairgrounds of the capital and in private and public theaters, though his origins can be traced back to the 17th century and, possibly, the century previous.",
+          " A \"zanni\", or comic servant, he is a type of bungling clown, stupid, credulous, and lewd\u2014a character that shares little, problematically, with the sensitive figure in Watteau's famous portrait that, until the latter half of the 20th century, bore his name alone.",
+          " Gilles fades from view in the 19th century, to persist in the 20th and 21st as the Belgian Gilles of Binche Carnival."
+        ],
+        [
+          "Pedrolino is a \"primo zanni\", or comic servant, of the \"Commedia dell'Arte\"; the name is a hypocorism of \"Pedro\" (Peter), via the suffix \"-lino\".",
+          " The character made its first appearance in the last quarter of the 16th century, apparently as the invention of the actor with whom the role was to be long identified, Giovanni Pellesini.",
+          " Contemporary illustrations suggest that his white blouse and trousers constituted \"a variant of the typical \"zanni\" suit\", and his Bergamasque dialect marked him as a member of the \"low\" rustic class.",
+          " But if his costume and social station were without distinction, his dramatic role was certainly not: as a multifaceted \"first\" \"zanni\", his character was\u2014and still is\u2014rich in comic incongruities."
+        ],
+        [
+          "Pierrot lunaire: rondels bergamasques (\"Moonstruck Pierrot: bergamask rondels\") is a collection of fifty poems published in 1884 by the Belgian poet Albert Giraud (born Emile Albert Kayenburgh), who is usually associated with the Symbolist Movement.",
+          " The protagonist of the cycle is Pierrot, the comic servant of the French Commedia dell'Arte and, later, of Parisian boulevard pantomime.",
+          " The early 19th-century Romantics, Th\u00e9ophile Gautier most notably, had been drawn to the figure by his Chaplinesque pluckiness and pathos, and by the end of the century, especially in the hands of the Symbolists and Decadents, Pierrot had evolved into an alter-ego of the artist, particularly of the so-called po\u00e8te maudit.",
+          " He became the subject of numerous compositions, theatrical, literary, musical, and graphic."
+        ],
+        [
+          "Tartaglia is a dainty character in the Commedia dell'arte.",
+          " He is farsighted and with a minor stutter (hence his name; cf. Spanish tartamudear), he is usually classed as one of the group of old characters (vecchio) who appears in many scenarios as one of the lovers (innamorati).",
+          " His social status varies; he is sometimes a bailiff, lawyer, notary or chemist.",
+          " Dramatist Carlo Gozzi turned him into a statesman, and so he remained thereafter.",
+          " Tartaglia wears a large felt hat, an enormous cloak, oversized boots, a long sword, a giant moustache and a cardboard nose.",
+          " He usually represents the lower working class but at times the middle or upper class in the commedia dell'arte.",
+          " In the opera \"Le maschere\" by Mascagni, one of the characters is Tartaglia, a stuttering servant."
+        ],
+        [
+          "Niccol\u00f2 (or Nicol\u00f2) Barbieri (Vercelli, 1586 - 1641) was an Italian writer and actor of the commedia dell'arte theatrical genre.",
+          " He was also known as Beltrame di Milano (\"Beltrame of Milan\") in reference to one of his most popular characters, Beltrame; this was the main character of one of Barbieri's best known plays, \"L'inavertito\", which is known to have inspired Moliere's \"L'\u00c9tourdi ou Les Contretemps\" (\"The Blunderer\").",
+          " Besides popularizing Beltrame, Barbieri is also credited with creating another \"commedia dell'arte\" mask, Scapino."
+        ],
+        [
+          "Masques, L. 105, is a piece for solo piano by Claude Debussy.",
+          " Composed in July 1904, it was premiered on 18 February 1905 by Ricardo Vi\u00f1es at the Salle Pleyel in Paris.",
+          " Its sombre character reflects Debussy\u2019s difficult separation from Lilly Texier, his first wife.",
+          " The title refers to the commedia dell\u2019arte, although Debussy confided to Marguerite Long that the piece was \"not Italian comedy, but an expression of the tragedy of existence\" - (\"\"ce n'est pas la com\u00e9die italienne, mais l'expression tragique de l\u2019existence.\"\")"
+        ],
+        [
+          "Commedia dell'arte (] , comedy of the profession) was an early form of professional theatre, originating from Italy, that was popular in Europe from the 16th through the 18th century.",
+          " \"Commedia dell'arte\" also is known as \"commedia alla maschera\", \"commedia improvviso\", and \"commedia dell'arte all'improvviso\".",
+          " \"Commedia\" is a form of theatre characterized by masked \"types\" which began in Italy in the 16th century and was responsible for the advent of actresses (Isabella Andreini) and improvised performances based on sketches or scenarios.",
+          " A \"commedia\", such as \"The Tooth Puller\", is both scripted and improvised.",
+          " Characters' entrances and exits are scripted.",
+          " A special characteristic of \"commedia dell'arte\" are the \"lazzi\".",
+          " A \"lazzo\" is a joke or \"something foolish\" or \"witty\".",
+          " Another characteristic of \"commedia dell'arte\" is pantomime, which is mostly used by the character Arlecchino (Harlequin)."
+        ],
+        [
+          "Columbina (in Italian Colombina, meaning \"little dove\"; in French and English Colombine) is a stock character in the \"Commedia dell'Arte\".",
+          " She is Harlequin's mistress, a comic servant playing the tricky slave type, and wife of Pierrot.",
+          " Rudlin and Crick use the Italian spelling Colombina in \"Commedia dell'arte: A Handbook for Troupes\"."
+        ],
+        [
+          "Harlequin ( ; Italian: \"Arlecchino\" ] , French: \"Arlequin\" ] , Old French \"Harlequin\") is the best-known of the \"zanni\" or comic servant characters from the Italian \"Commedia dell'arte\".",
+          " The role is traditionally believed to have been introduced by Zan Ganassa in the late 16th century, and was definitively popularized by the Italian actor Tristano Martinelli in Paris in 1584\u20131585 and became a stock character after Martinelli's death in 1630."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a8ec02e5542995a26add501",
+    "question": "Which American sketch comedy television series starring John C. Reilly was produced by Abso Lutely Productions?",
+    "answer": "Check It Out!",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Abso Lutely Productions",
+        "Abso Lutely Productions",
+        "Abso Lutely Productions",
+        "Check It Out! with Dr. Steve Brule",
+        "Check It Out! with Dr. Steve Brule"
+      ],
+      "sent_id": [
+        1,
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "context": {
+      "title": [
+        "Hot Package",
+        "Dave Kneebone",
+        "List of Key &amp; Peele episodes",
+        "Friends of the People",
+        "Bagboy (TV special)",
+        "In Living Color",
+        "Kate Berlant",
+        "Check It Out! with Dr. Steve Brule",
+        "Upright Citizens Brigade (TV series)",
+        "Abso Lutely Productions"
+      ],
+      "sentences": [
+        [
+          "Hot Package is an Adult Swim entertainment variety show, created by Derrick Beckles.",
+          " The show parodies network entertainment shows such as \"Entertainment Tonight\" and \"Access Hollywood\".",
+          " Instead of sourcing its news from real celebrities, TV shows, and films, all of Hot Package's \"entertainment\" news comes from found footage, including clips from forgotten B Films and bizarre TV shows.",
+          " The show is hosted by Derrick Beckles, Pat O'Brien, Anastasia Roark, and Mark McGrath, and features colorful guests, makeovers, and interview segments.",
+          " \"Hot Package\", produced by Abso Lutely Productions, Abominable Pictures, TV Carnage, and Williams Street, premiered on October 4, 2013, and has currently aired eleven episodes.",
+          " On May 9, 2014, Adult Swim confirmed that Hot Package would be returning for a second season."
+        ],
+        [
+          "Dave Kneebone is an American producer.",
+          " Along with Eric Wareheim and Tim Heidecker he runs Abso Lutely Productions which produces a variety of television and films.",
+          " His role has been described as the business chief and \"straight man\" at Abso Lutely.",
+          " Kneebone has worked as a producer on a variety of television shows including \"Comedy Bang!",
+          " Bang!",
+          "\", \"Nathan for You\", and \"Tim and Eric Awesome Show, Great Job!",
+          "\".",
+          " He is also listed a producer on the feature film \"Tim and Eric's Billion Dollar Movie\"."
+        ],
+        [
+          "\"Key & Peele\" is an American sketch comedy television series starring Keegan-Michael Key and Jordan Peele, both former cast members of \"MADtv\".",
+          " Each episode of the series consists of several pre-taped sketches starring the two actors.",
+          " The sketches cover a variety of societal topics, often with a focus on African-American culture and race relations.",
+          " The series premiered on January 31, 2012 and ended on September 9, 2015, with a total of 53 episodes, over the course of five seasons.",
+          " A special entitled \"Key & Peele's Super Bowl Special\" aired on January 30, 2015."
+        ],
+        [
+          "Friends of the People is an American sketch comedy television series.",
+          " It was slated to premiere on TruTV in summer 2014, but was pushed to October 28, 2014, as part of the network's shift in their programming direction.",
+          " Many of the cast members (Jennifer Bartels, Jermaine Fowler, and Lil Rel Howery) were originally reported to be cast members of a planned revival of In Living Color which never materialized.",
+          " The show's first season consists of 10 episodes.",
+          " This makes it the network's first sketch comedy show.",
+          " The series holds a TV-14 rating, though select episodes are rated TV-MA--also a first for the truTV network."
+        ],
+        [
+          "Bagboy is a 2015 American television special produced for Adult Swim, and aired on February 21, 2015, to positive critical reception.",
+          " Written and directed by Tim Heidecker and Eric Wareheim for Abso Lutely Productions and John C. Reilly, the special is a fictional sitcom pilot in the universe of \"Tim and Eric Awesome Show, Great Job!",
+          "\", written by and starring Reilly's recurring \"Tim and Eric\" character Dr. Steve Brule.",
+          " This is the second \"Tim and Eric\" spin-off to feature the Dr. Steve Brule character after \"Check it Out!",
+          " with Dr. Steve Brule\"."
+        ],
+        [
+          "In Living Color is an American sketch comedy television series that originally ran on Fox from April 15, 1990, to May 19, 1994.",
+          " Brothers Keenen and Damon Wayans created, wrote and starred in the program.",
+          " The show was produced by Ivory Way Productions in association with 20th Century Fox Television and was taped at stage 7 at the Fox Television Center on Sunset Boulevard in Hollywood, California.",
+          " The title of the series was inspired by the NBC announcement of broadcasts being presented \"in living color\" during the 1960s, prior to mainstream color television.",
+          " It also refers to the fact that most of the show's cast were black, unlike other sketch comedy shows such as \"Saturday Night Live\" whose casts are mostly white.",
+          " It was controversial due to the Wayans' decision to portray African-American humor from the ghetto in a time when mainstream American tastes regarding black comedy had been set by more upscale shows such as \"The Cosby Show\", causing an eventual feud for control between Fox executives and the Wayans."
+        ],
+        [
+          "Kate Berlant (born July 16, 1987) is an American stand-up comedian, actress, and writer.",
+          " She is known for appearing on \"The Meltdown with Jonah and Kumail\" and starring in an episode of the Netflix original series \"\".",
+          " With John Early, Berlant created the Vimeo original series \"555\" produced by Abso Lutely Productions.",
+          " Her father is the artist Tony Berlant."
+        ],
+        [
+          "Check It Out!",
+          " with Dr. Steve Brule is an American sketch comedy television series that is a spin-off of \"Tim and Eric Awesome Show, Great Job!",
+          "\" starring John C. Reilly as Dr. Steve Brule.",
+          " The series premiered on Cartoon Network's late night programming block, Adult Swim, on May 16, 2010.",
+          " The program follows Brule as he examines different facets of living.",
+          " His severe naivete and social awkwardness generally land him in embarrassing situations, though he largely remains ignorant of any embarrassment he's causing himself.",
+          " As the series progresses, he reveals shocking and sometimes horrifying details about his past and personal life."
+        ],
+        [
+          "Upright Citizens Brigade is an American sketch comedy television series that premiered on August 19, 1998 on Comedy Central.",
+          " The show aired for three seasons with each season consisting of ten episodes.",
+          " The series featured four members of Upright Citizens Brigade, an improvisational sketch comedy group.",
+          " The cast included Matt Besser, Amy Poehler, Ian Roberts, and Matt Walsh.",
+          " The cast would later reunite for another series of a similar format that premiered in 2016 on Seeso."
+        ],
+        [
+          "Abso Lutely Productions is a film and television production company owned by actor and producers Tim Heidecker, Eric Wareheim and producer Dave Kneebone.",
+          " It is known for producing the long-running series \"Tom Goes to the Mayor\", \"Nathan For You\", \"Tim and Eric Awesome Show, Great Job!",
+          "\" and \"Check It Out!",
+          " with Dr. Steve Brule\"."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a8fdb955542990a98493572",
+    "question": "One of the directors of Mediastan is well-known for founding what organisation in 2006?",
+    "answer": "WikiLeaks",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Mediastan",
+        "Julian Assange"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Indian National Council",
+        "Families Against Corporate Killers",
+        "Ebba Witt-Brattstr\u00f6m",
+        "The Guild of the Pope's Peace",
+        "Sahara and Sahel Observatory",
+        "Theatrical Organization of Cyprus",
+        "Charles Segal",
+        "Civil Human Rights Front",
+        "Fiji Sports Council",
+        "Inquilabi Communist Sangathan"
+      ],
+      "sentences": [
+        [
+          "The Indian National Council was an organisation founded in December 1941 in Bangkok by Indian Nationalists residing in Thailand.",
+          " The organisation was founded from the Thai-Bharat Cultural Lodge on 22 December 1941.",
+          " The founding president of the Council was Swami Satyananda Puri, along with Debnath Das as the founding secretary.",
+          " Along with the Indian Independence League, it came to be one of the two prominent Indian associations that corresponded with I Fujiwara's F Kikan on the scopes of Japanese assistance to the Indian movement."
+        ],
+        [
+          "Families Against Corporate Killers (FACK) is a nonprofit organisation based in the UK which campaigns on behalf of families bereaved by workplace deaths.",
+          " It was founded in July 2006 by members of the Bereaved by Work North West support group and the Greater Manchester Hazards Centre.",
+          " The organisation campaigns for increased funding for the enforcement of health and safety law and changes to the Corporate Manslaughter and Corporate Homicide Act 2007 - which currently only imposes financial penalties - to make directors criminally responsible for health and safety offences with the possibility of imprisonment.",
+          " Co-founder Hilda Palmer said: \"Fines alone are an insufficient penalty for taking a life.\"",
+          " FACK also lobbies for the introduction of juries at all work-related inquests in England and Wales.",
+          " They also provide guidance for bereaved families to obtain legal help and emotional support."
+        ],
+        [
+          "Ebba Witt-Brattstr\u00f6m (born 1953) is a Swedish scholar in comparative literature.",
+          " She is Professor of Literature and head of department at S\u00f6dert\u00f6rn University outside Stockholm, and a well-known feminist.",
+          " In the 1970s she was a member of the feminist organisation Grupp 8, and in 2005 she was one of the founders of the feminist political organisation and party Feministiskt Initiativ, although she later distanced herself from the organisation and criticized its alleged strong left-wing tendencies."
+        ],
+        [
+          "The Guild of the Pope's Peace was a short-lived Roman Catholic organisation in Great Britain opposed to the First World War.",
+          " Set up in 1916 to disseminate and promote Pope Benedict XV's utterances in favour of an immediate negotiated peace, the organisation lasted for one year and produced a series of publications also memorable for their attention to typographical detail.",
+          " Beyond its propagation of an anti-war stance within the British Catholic community, it was notable as an early project of founders Francis Meynell and Stanley Morison, who would later go on to become well-known typographers."
+        ],
+        [
+          "The Sahara and Sahel Observatory (French: \"Observatoire du Sahara et du Sahel\" , OSS) is an African intergovernmental organisation established in 1992 and based in Tunis, Tunisia.",
+          " Its aim is to protect the environment in Sahara and Sahel, supervise the usage of natural resources in the region, and lobby for environmental accords, especially those pertaining desertification and climate change.",
+          " The membership of the organisation comprises 22 African countries, five countries outside Africa (Canada, France, Germany, Italy, Switzerland), ten international organisations (including five sub-regional representatives from West, East and North Africa) and one non-governmental organisation.",
+          " The organisation raised \u20ac17\u00a0million between 2006 and 2011.",
+          " In April 2016, the Kingdom of Morocco was elected to a four-year term presiding the organisation."
+        ],
+        [
+          "THOC (Theatre Organization of Cyprus) (Greek: \u0398\u039f\u039a), also known as Cyprus Theatre Organisation established in 1970 is the first semi-governmental theatrical organization in Cyprus.",
+          " In accordance with its Founding Law (No. 71/1970) the aims and objectives of THOC are to \u00abpromote the art of theatre in Cyprus and to cultivate a sense of theatre among the people, and to promote artistic relations between the theatre world of Cyprus and that of Greece and other countries\u00bb.",
+          " THOC is governed by a 9-member Board of Directors appointed by the President of the Republic for a 3-year term of office, and is run by a Director whose appointment is made by the Board and ratified by the Council of Ministers.",
+          " There is also an Artistic Committee, an advisory body responsible for artistic matters.",
+          " Once the budget of THOC has been approved by the competent Ministry and the Council of Ministers, it is tabled for approval by the House of Representatives.",
+          " The Organisation's policy is set out by the Board."
+        ],
+        [
+          "Charles Segal (born in Joni\u0161kis, Lithuania) is a classically trained jazz and commercial pianist, and composer.",
+          " At the age of 2, his family moved to South Africa.",
+          " Segal studied classical music, becoming an Associate (ATCL) and a Licentiate of the Trinity College of London (LTCL) in performance and teaching.",
+          " Segal had a well-known musical career as a pianist, composer, publisher, arranger and teacher.",
+          " He was a founding member of the Southern African Music Rights Organisation (SAMRO) and the Drama and Literary Rights Organization (DALRO) in 1961 along with Dr. Gideon Roos Senior.",
+          " He founded the Charles Segal Music School in Pretoria and Cape Town."
+        ],
+        [
+          "Civil Human Rights Front or CHRF () is an organisation that focuses on the issues of Hong Kong politics and livelihood, affiliates almost all the pan-democratic camps in Hong Kong.",
+          " Forty-eight NGOs and political groups have been involved in the organisation as of January 2006.",
+          " The most well-known event held by the CHRF is the Hong Kong 1 July marches."
+        ],
+        [
+          "The Fiji Sports Council is an organisation that is the custodian of all Fiji Government owned Sporting Facilities around the country.",
+          " Fiji Sports Council is tasked to manage, maintain and upkeep all facilities under its area of responsibilities.",
+          " The Fiji Sports Council is self funding and does not receive Government Funding for its Operational Expenses.",
+          " It is also one of the leading providers of quality sports and recreational facilities and programs at national, regional and international levels.",
+          " It was established in 1978 under the Fiji Sports Council Act and a year later in 1979 it hosted the first South Pacific Games.",
+          " It is not affiliated to FASANOC.",
+          " It was established under an Act of Parliament so has its own rules.",
+          " The organisation is headed by its Chief Executive Officer Litiana Loabuka who is governed by a Board of Directors chaired by Businessman Peter Mazey."
+        ],
+        [
+          "Inquilabi Communist Sangathan was a Trotskyist organisation in India.",
+          " Formed through the merger of the Communist League and the Bolshevik Leninist Group, it was set up in 1984.",
+          " In the early years it had state units and members in ten provinces of India, and significant mass work.",
+          " From the 1990s, there was a decline, partly because many of its members were unable to do serious teamwork; and partly because the dogmatic style of Magan Desai, a powerful figure in the strongest state unit, Gujarat, clashed with other members who wanted a more open and non-sectarian functioning.",
+          " In addition, many ex-Stalinist and ex-Maoists were recruited, and one faction in West Bengal showed that they had simply replaced the Stalin-Mao cult by the Trotsky cult.",
+          " By the end of the 1990s, the ICS was a much shrunken organisation.",
+          " The final crisis came after the Gujarat carnage of 2002, when a faction around Desai attacked the most well-known anti-communal and civil rights activist members of the party as self-seeking individuals.",
+          " The Conference of 2003 saw Gujarat, led by Desai, rejecting a delegate session, so it was unclear how many members were actually in ICS.",
+          " The West Bengal unit, along with several Gujarat members, left.",
+          " It is uncertain whether Desai had an actual majority with him, but he continued to call his rump organisation ICS.",
+          " Their last public activity was a hostile intervention into the World Social Forum of Mumbai 2004.",
+          " Those who had split subsequently set up an organisation, Radical Socialist."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a85ae455542997175ce1ff0",
+    "question": "What is Rachelle Amy Beinart's role in the film that follows a group of rebels on a mission?",
+    "answer": "stunt performances",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Rachelle Beinart",
+        "Rogue One"
+      ],
+      "sent_id": [
+        1,
+        5
+      ]
+    },
+    "context": {
+      "title": [
+        "Rachelle Henry",
+        "Rogue One",
+        "The Doom Generation",
+        "Rachelle Beinart",
+        "Operation Barras",
+        "Amy O'Neill",
+        "Doublecross (series)",
+        "Silver Circle (film)",
+        "Rachelle Lefevre",
+        "Homeworld"
+      ],
+      "sentences": [
+        [
+          "Rachelle Henry (born December 16, 2000) is an American teen actress and filmmaker.",
+          " She played the role of Sandy Hobbs in the TLC (TV network) Series \"Escaping the Prophet\"and Lissa Golaski in \"Depth\", the film prequel to the Soma (video game) by Frictional Games.",
+          " She is also known for directing and producing short films containing messages of social influence and coming of age themes including \"MISSING\" and \"Almost Boyfriends\"."
+        ],
+        [
+          "Rogue One: A Star Wars Story, or simply Rogue One, is a 2016 American epic space opera film directed by Gareth Edwards.",
+          " The screenplay by Chris Weitz and Tony Gilroy is from a story by John Knoll and Gary Whitta.",
+          " It was produced by Lucasfilm and distributed by Walt Disney Studios Motion Pictures.",
+          " It is the first installment of the \"Star Wars\" \"Anthology\" series, set immediately before the events of the original \"Star Wars\" film.",
+          " The cast includes Felicity Jones, Diego Luna, Riz Ahmed, Ben Mendelsohn, Donnie Yen, Mads Mikkelsen, Alan Tudyk, Jiang Wen and Forest Whitaker.",
+          " \"Rogue One\" follows a group of rebels on a mission to steal the plans for the Death Star, the Galactic Empire's superweapon."
+        ],
+        [
+          "The Doom Generation is a 1995 American dark comedy film written and directed by Gregg Araki.",
+          " It stars James Duval, Rose McGowan, and Johnathon Schaech.",
+          " The film follows two troubled teenage lovers Amy Blue (McGowan) and Jordan White (Duval) who pick up a young handsome drifter named Xavier Red (Schaech).",
+          " After he accidentally kills a store's clerk, the trio embarks on a journey full of sex, violence, and people from Amy's past.",
+          " Billed as \"A Heterosexual Movie by Gregg Araki\", \"The Doom Generation\" is the second film in the director's trilogy known as the \"Teenage Apocalypse Trilogy\", the first being \"Totally Fucked Up\" (1993) and the last one \"Nowhere\" (1997).",
+          " The characters of Amy Blue and Jordan White are based on the Mark Beyer comic strip \"Amy and Jordan\"."
+        ],
+        [
+          "Rachelle Amy Beinart (born 29 September 1984) is a British actress and stunt performer.",
+          " She is a member of the \"Game of Thrones\" stunt teams that won two Screen Actors Guild Awards, and has done stunt performances for films including \"Rogue One\".",
+          " She has also acted in preschool children's shows as a suit actor, including the reboot of \"Teletubbies\"."
+        ],
+        [
+          "Operation Barras was a British Army operation that took place in Sierra Leone on 10 September 2000, during the late stages of that nation's civil war.",
+          " The operation aimed to release five British soldiers of the Royal Irish Regiment who had been held by a militia group known as the \"West Side Boys\".",
+          " The soldiers were part of a patrol that was returning from a visit to Jordanian peacekeepers attached to the United Nations Mission in Sierra Leone (UNAMSIL) at Masiaka on 25 August 2000 when they turned off the main road and down a track towards the village of Magbeni.",
+          " There the patrol was overwhelmed by a large number of heavily armed rebels, taken prisoner, and transported to Gberi Bana on the opposite side of Rokel Creek."
+        ],
+        [
+          "Amy O'Neill (born July 8, 1971) is an American performer and former actress.",
+          " After appearing in several sitcoms and starring as Molly Stark on \"The Young and the Restless\" in 1986, she was cast in her notable role as Amy Szalinski in the 1989 Disney film, \"Honey, I Shrunk the Kids\", for which she was nominated for a Young Artist Award.",
+          " She reprised her role as Amy Szalinski in the 1992 sequel, \"Honey, I Blew Up the Kid\" and appeared as Lisa Barnes in \"Where's Rodney?",
+          "\"."
+        ],
+        [
+          "The 39 Clues: Doublecross is the fourth series in the 39 Clues series of books.",
+          " It follows the story of the Cahills as they suffer from infighting.",
+          " In the first book, Mission Titanic, Ian Kabra has become the new leader of the Cahills.",
+          " Dan and Amy decided to take a break from the Cahills after nearly dying from combating Pierce and his thugs.",
+          " Although Ian believe that he is much more fit to rule the Cahills that Amy and Dan, it seems that the Cahills do not fully recognize Ian as the leader.",
+          " Ian has suspicions that many Cahills are plotting a coup.",
+          " When this coup is realized, Ian Kabra and Cara Pierce are expelled from the Cahill home in Attleboro, Massachusetts.",
+          " The leader of the coup is the Outcast, and he plans to replicate history's worst disasters in order to test Cahill leadership.",
+          " The Cahills are expected to prevent the disasters in order to prove that they are worthy.",
+          " Throughout the series, the Cahills make many shocking discoveries, discovering that Grace was actually ruthless and cruel, and that the Outcast is Nathaniel Hartford, the husband of Grace whom Grace wanted dead.",
+          " There are four books in the series:"
+        ],
+        [
+          "Silver Circle is an American computer-animated thriller film released in 2013.",
+          " A heavily libertarian-slanted film, it follows a group called the Rebels, who have vowed to take down the Federal Reserve.",
+          " \"Silver Circle\" was given a limited release in the United States on March 22, 2013, and received universally negative reviews from critics."
+        ],
+        [
+          "Rachelle Lefevre ( ; born February 1, 1979) is a Canadian actress.",
+          " She has starred in the television series \"Big Wolf on Campus\" and had recurring roles in \"What About Brian\", \"Boston Legal\", and \"Swingtown\".",
+          " She played the vampire Victoria Sutherland in the first two films of the \"Twilight\" saga, before being replaced by Bryce Dallas Howard in the third installment, \"\", due to scheduling conflicts with her role in the film \"Barney's Version\".",
+          " In 2011, she starred in the ABC medical drama \"Off the Map\", followed by the CBS series \"A Gifted Man\" (2011\u20132012) and \"Under the Dome\" (2013\u20132015)."
+        ],
+        [
+          "Homeworld is a real-time strategy video game developed by Relic Entertainment and published by Sierra Studios on September 28, 1999, for Microsoft Windows.",
+          " Set in space, the science fiction game follows the Kushan exiles of the planet Kharak after their home planet is destroyed by the Taiidan Empire in retaliation for developing hyperspace jump technology.",
+          " The survivors journey with their spacecraft-constructing mothership to reclaim their ancient homeworld of Hiigara from the Taiidan, encountering a variety of pirates, mercenaries, traders, and rebels along the way.",
+          " In each of the game's levels, the player gathers resources, builds a fleet, and uses it to destroy enemy ships and accomplish mission objectives.",
+          " The player's fleet carries over between levels, and can travel in a fully three-dimensional space within each level rather than being limited to a two-dimensional plane."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a710a915542994082a3e504",
+    "question": "Which of these men, Scott Treleaven and Edmund Mortimer, is credited with working in both films and photography?",
+    "answer": "Scott Treleaven",
+    "type": "comparison",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Scott Treleaven",
+        "Edmund Mortimer (actor)"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Edmund Mortimer, 2nd Baron Mortimer",
+        "Tripartite Indenture",
+        "Edmund Mortimer, 5th Earl of March",
+        "Lady Elizabeth Percy",
+        "Edmund Mortimer (actor)",
+        "The Wolf Man (1924 film)",
+        "Edmund Mortimer (1302\u20131331)",
+        "Against All Odds (1924 film)",
+        "Elizabeth de Badlesmere, Countess of Northampton",
+        "Scott Treleaven"
+      ],
+      "sentences": [
+        [
+          "Edmund Mortimer, 2nd Lord Mortimer (1251 \u2013 17 July 1304) was the second son and eventual heir of Roger Mortimer, 1st Baron Mortimer.",
+          " His mother was Maud de Braose.",
+          " As a younger son, Edmund had been intended for clerical or monastic life, and had been sent to study at Oxford University."
+        ],
+        [
+          "The Tripartite Indenture was an agreement made in February 1405 between Owain Glynd\u0175r, Edmund Mortimer, and Henry Percy, 1st Earl of Northumberland, agreeing to divide England and Wales up between them at the expense of Henry IV.",
+          " Glynd\u0175r was to be given Wales, and a substantial part of the west of England, including the English portions of the Welsh Marches.",
+          " Northumberland was to have received the north, as well as Northamptonshire, Norfolk, Warwickshire, and Leicestershire.",
+          " The Mortimers were to have received the rest of southern England."
+        ],
+        [
+          "Edmund de Mortimer, 5th Earl of March and 7th Earl of Ulster (6 November 1391 \u2013 18 January 1425) was an English nobleman.",
+          " A great-great-grandson of King Edward III of England, he was heir presumptive to King Richard II of England, his first cousin twice removed, when Richard II was deposed in favour of Henry IV.",
+          " Edmund Mortimer's claim to the throne was the basis of rebellions and plots against Henry IV and his son Henry V, and was later taken up by the House of York in the Wars of the Roses, though Mortimer himself was an important and loyal vassal of Henry V and Henry VI.",
+          " Edmund Mortimer was the last Earl of March of the Mortimer family."
+        ],
+        [
+          "Lady Elizabeth Percy (c. 1395 \u2013 26 October 1436) was the daughter of Sir Henry Percy, known to history as 'Hotspur', and Elizabeth Mortimer.",
+          " Her mother was the eldest daughter of Edmund Mortimer, 3rd Earl of March and his wife, Philippa, the only child of Lionel, 1st Duke of Clarence, and Elizabeth de Burgh, Countess of Ulster."
+        ],
+        [
+          "Edmund Mortimer (21 August 1874 \u2013 21 May 1944) was an American actor and film director.",
+          " He appeared in 251 films between 1913 and 1945.",
+          " He also directed 23 films between 1918 and 1928.",
+          " He was born in New York, New York and died in Los Angeles, California."
+        ],
+        [
+          "The Wolf Man is a 1924 American silent drama film that starred John Gilbert and Norma Shearer, before they signed with the newly formed MGM.",
+          " Directed by Edmund Mortimer, the film's story was written by Reed Heustis, and written by Fanny and Frederic Hatton.",
+          " \"The Wolf Man\" is now considered lost."
+        ],
+        [
+          "Sir Edmund Mortimer (1302/1303 \u2013 16 December 1331) was the eldest son of Roger Mortimer, 1st Earl of March and Joan de Geneville, 2nd Baroness Geneville.",
+          " By his wife Elizabeth de Badlesmere he was the father of Roger Mortimer, 2nd Earl of March.",
+          " Though Edmund survived his father by one year, he did not inherit his father's lands and titles as they were forfeited to the Crown and his son only reacquired them gradually."
+        ],
+        [
+          "Against All Odds is a lost 1924 silent film western directed by Edmund Mortimer and starring Buck Jones.",
+          " It was produced and distributed by Fox Film Corporation."
+        ],
+        [
+          "Elizabeth de Badlesmere, Countess of Northampton (1313 \u2013 8 June 1356) was the wife of two English noblemen, Sir Edmund Mortimer and William de Bohun, 1st Earl of Northampton.",
+          " She was a co-heiress of her brother Giles de Badlesmere, 2nd Baron Badlesmere."
+        ],
+        [
+          "Scott Treleaven is a Canadian artist whose work employs a variety of media including collage, film, video, drawing, photography and installation."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5ab207f65542993be8fa98b8",
+    "question": "Edmund Robert Harris is the principal benefactor of a museum located where ?",
+    "answer": "Preston",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Edmund Robert Harris",
+        "Harris Museum"
+      ],
+      "sent_id": [
+        0,
+        0
+      ]
+    },
+    "context": {
+      "title": [
+        "Edmund Bartley-Denniss",
+        "William Humphreys Art Gallery",
+        "Edmund de Unger",
+        "Rotman School of Management",
+        "Fran\u00e7ois Genoud",
+        "J. Robert Donnelly Husky Heritage Sports Museum",
+        "Stele of Sulaiman",
+        "Edmund Robert Harris",
+        "Wickliffe Draper",
+        "Lyman School for Boys"
+      ],
+      "sentences": [
+        [
+          "Sir Edmund Robert Bartley Bartley-Denniss KC (9 April 1854 \u2013 20 March 1931), born Edmund Robert Bartley Denniss, was a barrister, prominent Freemason and Conservative Party Member of Parliament in the United Kingdom.",
+          " He was also a pioneer of the sport of cycling in Britain."
+        ],
+        [
+          "The William Humphreys Art Gallery, in Kimberley, South Africa, was opened in 1952 and named after its principal benefactor, William Benbow Humphreys (1889\u20131965)."
+        ],
+        [
+          "Edmund Robert Anthony de Unger (Hungarian: \"Odon Antal Robert de Unger\" , b 6 August 1918, Budapest - d 25 January 2011, Ham, Surrey) was a Hungarian-born property developer and art collector.",
+          " In London he built up the Keir Collection, one of the greatest post-war collections of Islamic art, bequeathed in 2008 to the Pergamon Museum of Islamic Art in Berlin.",
+          " The arrangement for the museum to curate the collection came to an end in July 2012.",
+          " The collection is now hosted by the Dallas Museum of Art as of May 2014 for a 15-year renewable loan."
+        ],
+        [
+          "The Joseph L. Rotman School of Management commonly known as the Rotman School of Management, the Rotman School or just Rotman, is the University of Toronto's graduate business school, located in Downtown Toronto.",
+          " The University of Toronto has been offering undergraduate courses in commerce and management since 1901, but the school was formally established in 1950 as the Institute of Business Administration, which was then changed to the Faculty of Management Studies in 1972 and subsequently shortened to the Faculty of Management in 1986.",
+          " The school was renamed in 1997 after the late Joseph L. Rotman (1935\u20132015), its principal benefactor."
+        ],
+        [
+          "Fran\u00e7ois Genoud (26 October 1915 \u2013 30 May 1996) was a noted Swiss financier and a principal benefactor of the Nazi diaspora through the ODESSA network and supporter of Middle Eastern terror groups during the post-World War II 20th century.",
+          " He was considered the Swiss financier of the Third Reich."
+        ],
+        [
+          "The J. Robert Donnelly Husky Heritage Sports Museum is a public museum located on the University of Connecticut's main campus at Storrs, Connecticut.",
+          " The museum documents and celebrates UConn's intercollegiate athletics.",
+          " Opening its doors on January 19, 2002, the 2,700-square-foot museum was named in honor of benefactor and 1940 Connecticut basketball and football captain J. Robert (Bob) Donnelly (1971-2005).",
+          " Exhibits include national and regional championship trophies, trading cards, photographs, and various sports memorabilia, as well as a six-screen video wall replaying moments of triumph for the UConn Huskies.",
+          " A life-size fiberglass sculpture of Jonathan the Husky, UConn's mascot, greets visitors at the museum entrance.",
+          " The Connecticut Basketball Rotunda, featuring NCAA championship trophies and life-size cutouts of Ray Allen and Rebecca Lobo, is among the museum's permanent exhibits."
+        ],
+        [
+          "The Stele of Sulaiman is a Yuan Dynasty stele that was erected in 1348 to commemorate the benefactors and donors to a Buddhist temple at the Mogao Caves southeast of Dunhuang in Gansu, China.",
+          " The principal benefactor is named as Sulaiman (), Prince of Xining (died 1351).",
+          " The stele, which is now held at the Dunhuang Academy, is renowned for an inscription of the Buddhist \"mantra\" \"Om mani padme hum\" in six different scripts.",
+          " Another stele, commemorating the restoration of the Huangqing Temple () in 1351 by Sulaiman was found at the same location as the 1348 stele."
+        ],
+        [
+          "Edmund Robert Harris (c. 1804 \u2013 27 May 1877) was an English lawyer from Preston, Lancashire, UK who was the principal benefactor of the Harris Museum, Harris Institute or Art School, Harris Technical School and the Harris Orphanage."
+        ],
+        [
+          "Wickliffe Draper (August 9, 1891 \u2013 1972) was an American multimillionaire and philanthropist.",
+          " He was an ardent eugenicist and lifelong advocate of strict racial segregation.",
+          " In 1937, he founded the Pioneer Fund, a registered charitable organisation established to provide scholarships for descendants of original white American settlers and to support research into heredity and eugenics; he later became its principal benefactor."
+        ],
+        [
+          "The Lyman School for Boys was established by the Commonwealth of Massachusetts about 1886 and was closed in 1971.",
+          " It was the first reform school, or training school in the United States, replacing the State Reform School for Boys near the same site, which was opened in 1848.",
+          " The school was named for its principal benefactor, Theodore Lyman, who had been a mayor of Boston, Massachusetts in 1834 and a philanthropist.",
+          " Lyman School is not used for its original purpose today but remains a nationally registered historic place."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "5a72af155542992359bc316c",
+    "question": "What movie included Robin Williams along with Joshua Aaron Charles, set in 1959 at a Vermont boarding school?",
+    "answer": "Dead Poets Society",
+    "type": "bridge",
+    "level": "hard",
+    "supporting_facts": {
+      "title": [
+        "Josh Charles",
+        "Dead Poets Society",
+        "Dead Poets Society"
+      ],
+      "sent_id": [
+        1,
+        0,
+        1
+      ]
+    },
+    "context": {
+      "title": [
+        "Jawahar Navodaya Vidyalaya Kanpur",
+        "Piney Woods Country Life School",
+        "Jawahar Navodaya Vidyalaya, Amroha",
+        "Dead Poets Society",
+        "Grennaskolan",
+        "Bosei Sports High School",
+        "Vishwajyoti Higher Secondary School",
+        "Concho Indian Boarding School",
+        "Saint Andrew's School (Boca Raton, Florida)",
+        "Bagsv\u00e6rd Kostskole og Gymnasium"
+      ],
+      "sentences": [
+        [
+          "Jawahar Navodaya Vidyalaya Kanpur (Hindi: \u091c\u0935\u093e\u0939\u0930 \u0928\u0935\u094b\u0926\u092f \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0915\u093e\u0928\u092a\u0941\u0930 ) (also known as JNV Kanpur or JNVK) is a boarding school, set up in Kanpur, India, in 1987.",
+          " It is an autonomous body which works under the Department of Education, Ministry of Human Resource Development (India).",
+          " The concept of opening a boarding school, called Navodaya Vidyalaya, in every district of India was born as a part of the section 5.15 in New Policy on Education(NPE86).",
+          " Jawahar Navodaya Vidyalaya Kanpur has a campus of 35\u00a0acres, close to national highway (NH-2) (GT Road) near Navodaya Nagar, Sarsaul, Kanpur( 26\u00b016'6\"N, 80\u00b030'1\"E).",
+          " It is a fully residential boarding school which provides accommodation to students, faculty and staff."
+        ],
+        [
+          "The Piney Woods Country Life School (or The Piney Woods School) is a co-educational independent historically African-American boarding school for grades 9-12 in Piney Woods, unincorporated Rankin County, Mississippi.",
+          " It is 21 mi south of Jackson.",
+          " It is one of four remaining historically African-American boarding schools in the United States.",
+          " It is currently the largest African-American boarding school, as well as being the second oldest continually operating African-American boarding school."
+        ],
+        [
+          "Jawahar Navodaya Vidyalaya Amroha (also known as JNV Amroha or JNV Baseda Taga) is a boarding school, set up in Amroha, India, in 2000.",
+          " It is an autonomous body which works under the Department of Education, Ministry of Human Resource Development (India).",
+          " The concept of opening a boarding school, called Navodaya Vidyalaya, in every district of India was born as a part of the section 5.15 in New Policy on Education (NPE86).",
+          " Jawahar Navodaya Vidyalaya Amroha has a campus of 35\u00a0acres, close to Saidpur Mafi Bijnor on NH -76, in Baseda Taga, Amroha.",
+          " It is a fully residential boarding school which provides accommodation to students, faculty and staff."
+        ],
+        [
+          "Dead Poets Society is a 1989 American drama film directed by Peter Weir, written by Tom Schulman, and starring Robin Williams.",
+          " Set in 1959 at the fictional elite conservative Vermont boarding school Welton Academy, it tells the story of an English teacher who inspires his students through his teaching of poetry."
+        ],
+        [
+          "Grennaskolan Boarding School is a Swedish boarding school located in Gr\u00e4nna, J\u00f6nk\u00f6ping County.",
+          " Grennaskolan Boarding School was founded in 1963 by Stockholm University and has today approximately 200 students, half of whom are boarding school students and half of whom are international students."
+        ],
+        [
+          "Bosei Sports High School (Danish: Idr\u00e6tsh\u00f8jskolen Bosei ) is a folk high school (non-degree granting educational institution for adults) in Pr\u00e6st\u00f8, Denmark, in the campus of the former Tokai University Boarding School in Denmark, a Japanese boarding school.",
+          " This school was established by local Danish authorities in conjunction with Tokai University, which had operated the boarding school."
+        ],
+        [
+          "Vishwajyoti Higher Secondary School was initially established in the year 2051 B.S (1994 A.D) by a group of highly experienced professional in the field of education at Pragatinagar \u2013 3, Nawalparasi, Nepal, in collaboration with Nawal English Boarding School, established at Rajhar V.D.C. in the year 2039 B.S (1982 A.D) to promote it from Primary Level to Secondary Level and was run under the name of Nawal English Boarding School (NEBS) upto 2056 B.S (1999 A.D).",
+          " NEBS was later merged into Vishwa Jyoti English Boarding School in the year 2057 B.S (2000 A.D).",
+          " In the year 2064 B.S (2007 A.D) the school upgraded itself to the Higher Secondary Level, affiliated to the Higher Secondary Education Board (H.S.E.B.) and started running classes in the science and management stream.",
+          "official website"
+        ],
+        [
+          "Concho Indian Boarding School (also known as the Cheyenne-Arapaho Boarding School at Concho or Concho Indian School and home to the Concho Demonstration School) was a boarding school for members of the Cheyenne and Arapaho Tribes and later opened to other Native American students.",
+          " It existed from 1909 to 1983.",
+          " It was located in central Oklahoma, approximately 1 mile south of Concho, Oklahoma and 4 miles north of El Reno, Oklahoma.",
+          " The name of the town and school is the Spanish word for \"shell\" and was named for the Indian agent, Charles E. Shell."
+        ],
+        [
+          "Saint Andrew\u2019s School, in Boca Raton, Florida, is a PreK-12 day and boarding college preparatory school.",
+          " Over more than five decades, the School has expanded in scope and mission and today it is a premier co-educational day and boarding School with approximately 1,275 students in Junior Kindergarten through Grade 12.",
+          " While the campus has changed, the focus remains to educate the whole child and instill a dedication to lifelong learning.",
+          " Saint Andrew's focuses on rigorous college-preparatory education and fosters a learning environment that challenges unique talents, encourages creative endeavors, and supports a wide range of advanced placement courses as well as the esteemed International Baccalaureate curriculum.",
+          " SAS expands upon the classic New England preparatory and boarding school traditions with a unique perspective in Southeast Florida, creating a cosmopolitan, global School.",
+          " The school is characterized by a balanced life of high goals, hard work, healthy relationships, generosity of spirit, and a sense of play.",
+          " SAS strives to inspire students to lead honorable lives of purpose and take on limitless opportunities to impact the world."
+        ],
+        [
+          "Bagsv\u00e6rd Kostskole og Gymnasium (Eng: 'Bagsv\u00e6rd Boarding School and Gymnasium'), usually referred to among students, teachers etc. as simply BK, is a private day school, gymnasium, and boarding school situated in Bagsv\u00e6rd, a suburb of Copenhagen.",
+          " The vast majority of the 800 pupils and students at BK commute to school every day; the boarding school (Haraldsgave, lit.",
+          " \"Harald's Gift\", commonly known as Haga) only houses up to 60 students."
+        ]
+      ]
+    }
+  }
+]

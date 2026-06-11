@@ -1,0 +1,70 @@
+{
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "EGOT",
+    "iterations": 1,
+    "ablation": "without_repair",
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 4,
+      "input_tokens": 3970,
+      "output_tokens": 1250,
+      "total_tokens": 5220,
+      "wall_time": 54.9349,
+      "mode": "full",
+      "ablation": "without_repair",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": "",
+      "evidence_first_enabled": true,
+      "evidence_first_ablation": "without_repair",
+      "evidence_first_verification_disabled": false,
+      "evidence_first_repair_disabled": true,
+      "evidence_first_reader_context_disabled": false,
+      "evidence_first_answer_refinement_disabled": false,
+      "evidence_first_answer_type": "award",
+      "evidence_first_chain_complete": false,
+      "evidence_first_chain_length": 44,
+      "evidence_first_gap_type": "disconnected",
+      "evidence_first_missing_entities": [],
+      "evidence_first_missing_entity_count": 0,
+      "evidence_first_disconnected_pair_count": 1,
+      "evidence_first_repair_steps": [],
+      "evidence_first_fallback_steps": [],
+      "evidence_first_postprocess_used": true,
+      "evidence_first_postprocess_answer": "EGOT",
+      "evidence_first_postprocess_selected": true
+    },
+    "score": null,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "step": "evidence_chain_check",
+        "complete": false,
+        "gap_type": "disconnected"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Alternative",
+        "selected": false
+      },
+      {
+        "iteration": "answer_postprocess",
+        "draft_answer": "“A group of twelve people",
+        "answer": "EGOT",
+        "selected": true
+      }
+    ]
+  }
+}

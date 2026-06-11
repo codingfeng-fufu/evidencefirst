@@ -1,0 +1,2 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost
+results/wise/hotpot_extra500_ircot_usage.jsonl,500,2.722,1600.5,158.9,1759.4,4.696,1.0,0.0,0.0

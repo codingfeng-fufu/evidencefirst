@@ -1,0 +1,5 @@
+type,n,em,f1,gold_entity_coverage,gold_pair_recall,gold_relation_recall,gold_pair_complete_rate,gold_nodes_connected_rate,repair_attempt_rate,repair_to_complete_rate
+bridge_comparison,112,0.9375,0.9375,0.8233,0.6018,0.0536,0.0625,0.0089,0.6786,0.0526
+comparison,119,0.958,0.9652,0.6011,0.2983,0.0378,0.1597,0.0,0.4538,0.3519
+compositional,218,0.4541,0.5626,0.8012,0.5138,0.0367,0.2752,0.3761,0.633,0.2609
+inference,51,0.5294,0.7167,0.8709,0.4706,0.049,0.1961,0.3922,0.6275,0.2188

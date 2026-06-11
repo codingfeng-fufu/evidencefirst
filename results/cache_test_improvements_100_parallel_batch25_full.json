@@ -1,0 +1,677 @@
+{
+  "5abbdb195542993f40c73bf1": {
+    "answer": "Sierra de Guadarrama National Park",
+    "iterations": 3,
+    "usage": {
+      "qid": "5abbdb195542993f40c73bf1",
+      "llm_calls": 10,
+      "input_tokens": 7688,
+      "output_tokens": 1038,
+      "total_tokens": 8726,
+      "wall_time": 46.2258,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a78d16455429974737f78bb": {
+    "answer": "Philippe Perrin",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a78d16455429974737f78bb",
+      "llm_calls": 4,
+      "input_tokens": 2763,
+      "output_tokens": 256,
+      "total_tokens": 3019,
+      "wall_time": 7.049,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a83ab355542990548d0b218": {
+    "answer": "Paola Suárez",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a83ab355542990548d0b218",
+      "llm_calls": 10,
+      "input_tokens": 6930,
+      "output_tokens": 662,
+      "total_tokens": 7592,
+      "wall_time": 19.2917,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a80c79155429938b61421da": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a80c79155429938b61421da",
+      "llm_calls": 10,
+      "input_tokens": 8072,
+      "output_tokens": 737,
+      "total_tokens": 8809,
+      "wall_time": 20.2575,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf33965542993344016c20": {
+    "answer": "KWCH-DT",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adf33965542993344016c20",
+      "llm_calls": 4,
+      "input_tokens": 3440,
+      "output_tokens": 325,
+      "total_tokens": 3765,
+      "wall_time": 8.5434,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a82bc7455429940e5e1a926": {
+    "answer": "Moonstruck",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a82bc7455429940e5e1a926",
+      "llm_calls": 10,
+      "input_tokens": 6513,
+      "output_tokens": 2390,
+      "total_tokens": 8903,
+      "wall_time": 56.3109,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfdef9554299025d62a36b": {
+    "answer": "Maine gubernatorial election, 1820",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfdef9554299025d62a36b",
+      "llm_calls": 10,
+      "input_tokens": 6880,
+      "output_tokens": 1307,
+      "total_tokens": 8187,
+      "wall_time": 33.7614,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ade7fa3554299728e26c727": {
+    "answer": "unknown",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ade7fa3554299728e26c727",
+      "llm_calls": 10,
+      "input_tokens": 6414,
+      "output_tokens": 617,
+      "total_tokens": 7031,
+      "wall_time": 17.7616,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a779fd95542997042120ab5": {
+    "answer": "1997",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a779fd95542997042120ab5",
+      "llm_calls": 4,
+      "input_tokens": 3383,
+      "output_tokens": 433,
+      "total_tokens": 3816,
+      "wall_time": 11.0308,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0fe4e554299422ee995a9": {
+    "answer": "Nutrient-Rich diet",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ae0fe4e554299422ee995a9",
+      "llm_calls": 10,
+      "input_tokens": 6876,
+      "output_tokens": 1236,
+      "total_tokens": 8112,
+      "wall_time": 31.0811,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adfecd755429942ec259b90": {
+    "answer": "1933",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adfecd755429942ec259b90",
+      "llm_calls": 10,
+      "input_tokens": 7921,
+      "output_tokens": 887,
+      "total_tokens": 8808,
+      "wall_time": 24.526,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a884adb5542996e4f308938": {
+    "answer": "no",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a884adb5542996e4f308938",
+      "llm_calls": 10,
+      "input_tokens": 7582,
+      "output_tokens": 586,
+      "total_tokens": 8168,
+      "wall_time": 16.9327,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a728dc65542992359bc30ef": {
+    "answer": "Nihat Kahveci",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a728dc65542992359bc30ef",
+      "llm_calls": 4,
+      "input_tokens": 3562,
+      "output_tokens": 566,
+      "total_tokens": 4128,
+      "wall_time": 14.2155,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7145d55542994082a3e73c": {
+    "answer": "Arne Christer Fuglesang",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7145d55542994082a3e73c",
+      "llm_calls": 4,
+      "input_tokens": 3106,
+      "output_tokens": 258,
+      "total_tokens": 3364,
+      "wall_time": 7.4524,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab474135542991751b4d77b": {
+    "answer": "Best Alternative Music Album",
+    "iterations": 3,
+    "usage": {
+      "qid": "5ab474135542991751b4d77b",
+      "llm_calls": 10,
+      "input_tokens": 7653,
+      "output_tokens": 1044,
+      "total_tokens": 8697,
+      "wall_time": 27.2753,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7a7dc15542994f819ef1f2": {
+    "answer": "Alexander Butler",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7a7dc15542994f819ef1f2",
+      "llm_calls": 10,
+      "input_tokens": 6474,
+      "output_tokens": 532,
+      "total_tokens": 7006,
+      "wall_time": 16.3433,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7133565542994082a3e65c": {
+    "answer": "Oldham County, Kentucky",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7133565542994082a3e65c",
+      "llm_calls": 10,
+      "input_tokens": 6563,
+      "output_tokens": 2763,
+      "total_tokens": 9326,
+      "wall_time": 64.8648,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae3e84b5542996836b02bf0": {
+    "answer": "Brainerd Lakes Regional Airport",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae3e84b5542996836b02bf0",
+      "llm_calls": 7,
+      "input_tokens": 4820,
+      "output_tokens": 1991,
+      "total_tokens": 6811,
+      "wall_time": 46.8485,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ab8869155429916710eb081": {
+    "answer": "Boeing EA-18G Growler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab8869155429916710eb081",
+      "llm_calls": 7,
+      "input_tokens": 6230,
+      "output_tokens": 1654,
+      "total_tokens": 7884,
+      "wall_time": 40.2377,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adf53dc5542995534e8c791": {
+    "answer": "Elmer Clifton",
+    "iterations": 3,
+    "usage": {
+      "qid": "5adf53dc5542995534e8c791",
+      "llm_calls": 10,
+      "input_tokens": 6395,
+      "output_tokens": 1175,
+      "total_tokens": 7570,
+      "wall_time": 29.5721,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5adcd4325542994d58a2f6ed": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd4325542994d58a2f6ed",
+      "llm_calls": 4,
+      "input_tokens": 2726,
+      "output_tokens": 205,
+      "total_tokens": 2931,
+      "wall_time": 5.7807,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7b1e22554299042af8f6e4": {
+    "answer": "Il Divo →",
+    "iterations": 3,
+    "usage": {
+      "qid": "5a7b1e22554299042af8f6e4",
+      "llm_calls": 10,
+      "input_tokens": 6237,
+      "output_tokens": 2853,
+      "total_tokens": 9090,
+      "wall_time": 67.5047,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae6152d5542996de7b71b38": {
+    "answer": "Bo Welch",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae6152d5542996de7b71b38",
+      "llm_calls": 4,
+      "input_tokens": 3421,
+      "output_tokens": 477,
+      "total_tokens": 3898,
+      "wall_time": 11.9611,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5a7652435542992d0ec060a5": {
+    "answer": "Pyotr Ilyich Tchaikovsky",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7652435542992d0ec060a5",
+      "llm_calls": 4,
+      "input_tokens": 3865,
+      "output_tokens": 335,
+      "total_tokens": 4200,
+      "wall_time": 9.9324,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  },
+  "5ae0ead25542990adbacf6c8": {
+    "answer": "Jersey barriers",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae0ead25542990adbacf6c8",
+      "llm_calls": 4,
+      "input_tokens": 3005,
+      "output_tokens": 354,
+      "total_tokens": 3359,
+      "wall_time": 9.6486,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "diagnostics": {
+      "evidence_aug_enabled": false,
+      "evidence_aug_question_type": "",
+      "evidence_aug_passages": [],
+      "evidence_aug_candidates": [],
+      "evidence_aug_challenger": "",
+      "evidence_aug_selected": false,
+      "evidence_aug_acceptance": "",
+      "evidence_aug_choice_label": "",
+      "evidence_aug_choice_answer": "",
+      "evidence_aug_choice_confidence": 0.0,
+      "evidence_aug_choice_rationale": ""
+    }
+  }
+}

@@ -1,0 +1,2058 @@
+{
+  "5a7a9b9a5542990198eaf160": {
+    "answer": "unknown",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7a9b9a5542990198eaf160",
+      "llm_calls": 7,
+      "input_tokens": 5033,
+      "output_tokens": 492,
+      "total_tokens": 5525,
+      "wall_time": 30.3987,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the Chinese American electronic musician and singer who collaborated on the album I Remember?",
+          "When was that musician born?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Zhu. Suggested sub-question: When was Zhu born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is the Chinese American electronic musician and singer who collaborated on the album I Remember?",
+          "When was Zhu born?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Zhu. Suggested sub-question: When was Zhu born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The context passages do not mention an album titled \"I Remember\" or provide a birthdate for any musician associated with such an album. Therefore, the question cannot be answered based on the given context",
+        "selected": false
+      }
+    ]
+  },
+  "5ac18b585542994ab5c67d76": {
+    "answer": "Therefore, strictly from the triples: no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac18b585542994ab5c67d76",
+      "llm_calls": 7,
+      "input_tokens": 5234,
+      "output_tokens": 1875,
+      "total_tokens": 7109,
+      "wall_time": 44.2197,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who directed the teen comedy about a high school nerd?",
+          "What is the title of that teen comedy about a high school nerd directed by Steve Rash?",
+          "Who played the male lead in that movie?"
+        ],
+        "n_triples": 50,
+        "answer": "Therefore, strictly from the triples: no",
+        "score": 0.3,
+        "feedback": "Missing: the title and cast of the teen comedy about a high school nerd directed by Steve Rash. Suggested sub-question: What is the title of the teen comedy film directed by Steve Rash that centers on a high school nerd, and who played the male lead in it?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who directed the teen comedy about a high school nerd?",
+          "What is the title of the teen comedy film directed by Steve Rash that centers on a high school nerd, and who played the male lead in it?"
+        ],
+        "n_triples": 50,
+        "answer": "- \"Winston Connelly -- is --> high school nerd",
+        "score": 0.09,
+        "feedback": "Missing: the actor who played the male lead in the teen comedy about a high school nerd directed by Steve Rash. Suggested sub-question: Which teen comedy about a high school nerd was directed by Steve Rash, and who played the male lead in it?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Patrick Dempsey",
+        "selected": false
+      }
+    ]
+  },
+  "5adc2f53554299438c868d6d": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adc2f53554299438c868d6d",
+      "llm_calls": 7,
+      "input_tokens": 6150,
+      "output_tokens": 327,
+      "total_tokens": 6477,
+      "wall_time": 9.9507,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Triumph of the Will released?",
+          "When was The End of America released?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: release years of 'Triumph of the Will' and 'The End of America'. Suggested sub-question: 'When was the film \"Triumph of the Will\" released?' and 'When was the documentary \"The End of America\" released?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was the film \"Triumph of the Will\" released?",
+          "When was the documentary \"The End of America\" released?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: release years of 'Triumph of the Will' and 'The End of America'. Suggested sub-question: 'In what year was the film Triumph of the Will released?' and 'In what year was the documentary The End of America released?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5a7e49e05542991319bc9463": {
+    "answer": "David Rockefeller",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7e49e05542991319bc9463",
+      "llm_calls": 4,
+      "input_tokens": 3083,
+      "output_tokens": 391,
+      "total_tokens": 3474,
+      "wall_time": 10.1405,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who were the siblings of John D. Rockefeller III?",
+          "Which sibling of John D. Rockefeller III served as chairman of Chase Manhattan Corporation?"
+        ],
+        "n_triples": 50,
+        "answer": "David Rockefeller",
+        "score": 1.0,
+        "feedback": "Missing: explicit sibling relationship between David Rockefeller and John D. Rockefeller III. Suggested sub-question: Is David Rockefeller a brother of John D. Rockefeller III?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "David Rockefeller",
+        "selected": false
+      }
+    ]
+  },
+  "5a8db348554299068b959dc2": {
+    "answer": "Interscope and Mad Love",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8db348554299068b959dc2",
+      "llm_calls": 7,
+      "input_tokens": 4965,
+      "output_tokens": 892,
+      "total_tokens": 5857,
+      "wall_time": 23.2079,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which record company released the song 'Love Incredible'?",
+          "What is the subsidiary of that record company?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the record company that released 'Love Incredible' and its corporate parent/subsidiary relationship. Suggested sub-question: Which record company released the song 'Love Incredible', and is that company a subsidiary of another record label?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Which record company released the song 'Love Incredible'?",
+          "Which record company released the song 'Love Incredible', and is that company a subsidiary of another record label?"
+        ],
+        "n_triples": 50,
+        "answer": "not specified",
+        "score": 0.3,
+        "feedback": "Missing: the subsidiary relationship between Interscope and Mad Love (i.e., which is the subsidiary of the other, or if either is a subsidiary of a parent company relevant to the release of 'Love Incredible'). Suggested sub-question: 'Is Mad Love Records a subsidiary of Interscope Records, or are they both subsidiaries of a common parent company?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Interscope and Mad Love",
+        "selected": true
+      }
+    ]
+  },
+  "5a89e95c5542992e4fca8474": {
+    "answer": "tennis player",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a89e95c5542992e4fca8474",
+      "llm_calls": 7,
+      "input_tokens": 3332,
+      "output_tokens": 379,
+      "total_tokens": 3711,
+      "wall_time": 10.866,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Javier Frana?",
+          "Who is Thomaz Koch?",
+          "What occupation do Javier Frana and Thomaz Koch share?"
+        ],
+        "n_triples": 29,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: occupation of Javier Frana and Thomaz Koch. Suggested sub-question: What is Javier Frana's profession? What is Thomaz Koch's profession?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Javier Frana?",
+          "Who is Thomaz Koch?",
+          "What is Javier Frana's profession?",
+          "What is Thomaz Koch's profession?",
+          "What occupation do Javier Frana and Thomaz Koch share?"
+        ],
+        "n_triples": 29,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: occupation of Javier Frana and Thomaz Koch. Suggested sub-question: What is Javier Frana's profession? What is Thomaz Koch's profession?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "tennis player",
+        "selected": true
+      }
+    ]
+  },
+  "5a734bb65542994cef4bc50f": {
+    "answer": "Vince Guaraldi",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a734bb65542994cef4bc50f",
+      "llm_calls": 4,
+      "input_tokens": 3080,
+      "output_tokens": 256,
+      "total_tokens": 3336,
+      "wall_time": 7.2479,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who composed the music for the animated television adaptations of the 'Peanuts' comic strip?",
+          "Was that composer an American jazz pianist?",
+          "Was that composer associated with Fantasy Records?"
+        ],
+        "n_triples": 50,
+        "answer": "Vince Guaraldi",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple linking Vince Guaraldi to Fantasy Records as a recording artist (e.g., 'Vince Guaraldi -- recorded for --> Fantasy Records'). Suggested sub-question: Did Vince Guaraldi record for Fantasy Records?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Vince Guaraldi",
+        "selected": false
+      }
+    ]
+  },
+  "5a75eca555429976ec32bca8": {
+    "answer": "The Nassau Herald",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a75eca555429976ec32bca8",
+      "llm_calls": 4,
+      "input_tokens": 3247,
+      "output_tokens": 447,
+      "total_tokens": 3694,
+      "wall_time": 11.6925,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.79,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What villages in Nassau County, New York have a population of 6,483?",
+          "Which newspapers are part of the Long Island Herald newspaper chain?",
+          "Which Long Island Herald newspaper serves the village identified in the first sub-question?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.79,
+        "feedback": "Missing: population of the village served by The Nassau Herald. Suggested sub-question: What is the population of the village served by The Nassau Herald in Nassau County, New York?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Nassau Herald",
+        "selected": true
+      }
+    ]
+  },
+  "5abd259d55429924427fcf1a": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abd259d55429924427fcf1a",
+      "llm_calls": 7,
+      "input_tokens": 3526,
+      "output_tokens": 537,
+      "total_tokens": 4063,
+      "wall_time": 14.9768,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is Dictyosperma classified as in biological taxonomy?",
+          "What is Huernia classified as in biological taxonomy?"
+        ],
+        "n_triples": 17,
+        "answer": "no",
+        "score": 0.48,
+        "feedback": "Missing: taxonomic status (genus or not) of Dictyosperma and explicit confirmation that Huernia is a genus. Suggested sub-question: 'Is Dictyosperma recognized as a genus in botanical taxonomy?' and 'Was Huernia formally described and accepted as a genus?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Is Dictyosperma recognized as a genus in botanical taxonomy?",
+          "Was Huernia formally described and accepted as a genus?"
+        ],
+        "n_triples": 18,
+        "answer": "no",
+        "score": 0.3,
+        "feedback": "Missing: taxonomic status (genus-level classification) for both Dictyosperma and Huernia. Suggested sub-question: 'Is Dictyosperma recognized as a valid genus in botanical taxonomy?' and 'Was Huernia formally described as a genus, and if so, when?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5adfdef9554299025d62a36b": {
+    "answer": "Maine gubernatorial election, 1820",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfdef9554299025d62a36b",
+      "llm_calls": 7,
+      "input_tokens": 5300,
+      "output_tokens": 849,
+      "total_tokens": 6149,
+      "wall_time": 21.4193,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What was the first state admitted to the Union after the Missouri Compromise?",
+          "Who was the first governor of that state?",
+          "Where was that governor born?"
+        ],
+        "n_triples": 50,
+        "answer": "not specified",
+        "score": 0.3,
+        "feedback": "Missing: the name and origin of the first governor of Missouri after the Missouri Compromise. Suggested sub-question: Who was the first governor of Missouri after it achieved statehood in 1821, and where was he from?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was the first governor of Missouri after it achieved statehood in 1821, and where was he from?"
+        ],
+        "n_triples": 50,
+        "answer": "Maine",
+        "score": 0.48,
+        "feedback": "Missing: identity and home state of the first governor of Missouri (the state admitted under the Missouri Compromise). Suggested sub-question: Who was the first governor of Missouri, and where was he from?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Maine gubernatorial election, 1820",
+        "selected": true
+      }
+    ]
+  },
+  "5a7f244255429934daa2fcec": {
+    "answer": "liberal arts and science courses",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7f244255429934daa2fcec",
+      "llm_calls": 7,
+      "input_tokens": 5122,
+      "output_tokens": 906,
+      "total_tokens": 6028,
+      "wall_time": 22.8758,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What educational tradition does St. John's College, Belize follow?",
+          "What are the three core subjects in that educational tradition?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the three core subjects in the Jesuit educational tradition at St. John's College, Belize. Suggested sub-question: What are the three core subjects emphasized in the Jesuit liberal arts tradition at St. John's College, Belize?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What educational tradition does St. John's College, Belize follow?",
+          "What are the three core subjects emphasized in the Jesuit liberal arts tradition at St. John's College, Belize?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: the three core subjects in the Jesuit educational tradition at St. John's College, Belize. Suggested sub-question: What are the three core subjects emphasized in the Jesuit tradition at St. John's College, Belize?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "liberal arts and science courses",
+        "selected": true
+      }
+    ]
+  },
+  "5a8fae205542997ba9cb32ec": {
+    "answer": "television film",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a8fae205542997ba9cb32ec",
+      "llm_calls": 7,
+      "input_tokens": 4824,
+      "output_tokens": 1856,
+      "total_tokens": 6680,
+      "wall_time": 43.8303,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.79,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Dylan Everett?",
+          "What television show did Dylan Everett star in in 2015?",
+          "What type of television show is that?"
+        ],
+        "n_triples": 50,
+        "answer": "But let’s verify if any external inference is allowed — no, instructions forbid. So final answer must reflect absence of information. However, standard practice in such constrained QA is to answer with what *is* known — and the only thing known is the show’s title and year. But the question asks for *type*, not",
+        "score": 0.3,
+        "feedback": "Missing: genre or type (e.g., drama, teen comedy, medical series) of 'Open Heart' (2015), the television show Dylan Everett starred in that year. Suggested sub-question: What genre is the 2015 television series 'Open Heart'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Dylan Everett?",
+          "What television show did Dylan Everett star in in 2015?",
+          "What genre is the 2015 television series 'Open Heart'?"
+        ],
+        "n_triples": 50,
+        "answer": "Thus, based solely on the triples, the *only* thing we know about \"Open Heart\" is that it “aired in 2015” and Dylan Everett starred in it. Since “aired” is used exclusively for television shows in this graph (e.g., “How To Be Indie” -- aired from --> 2009–",
+        "score": 0.79,
+        "feedback": "Missing: genre or type of television show 'Open Heart' is (e.g., drama, teen drama, medical drama, etc.). Suggested sub-question: What genre is the television show 'Open Heart'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "television film",
+        "selected": true
+      }
+    ]
+  },
+  "5a87868c5542996e4f308828": {
+    "answer": "Gino's Pizza and Spaghetti",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a87868c5542996e4f308828",
+      "llm_calls": 7,
+      "input_tokens": 4668,
+      "output_tokens": 1174,
+      "total_tokens": 5842,
+      "wall_time": 28.9018,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Papa Murphy's founded?",
+          "When was Gino's Pizza and Spaghetti founded?",
+          "Which of these two founding dates is earlier?"
+        ],
+        "n_triples": 49,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: founding year of Gino's Pizza and Spaghetti. Suggested sub-question: When was Gino's Pizza and Spaghetti founded?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Papa Murphy's founded?",
+          "When was Gino's Pizza and Spaghetti founded?"
+        ],
+        "n_triples": 32,
+        "answer": "- Also: \"Papa Aldo's Pizza -- was founded in --> 198",
+        "score": 0.09,
+        "feedback": "Missing: founding year of Gino's Pizza and Spaghetti. Suggested sub-question: When was Gino's Pizza and Spaghetti founded?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Gino's Pizza and Spaghetti",
+        "selected": true
+      }
+    ]
+  },
+  "5adff4a555429925eb1afb91": {
+    "answer": "Wilmington International Airport",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adff4a555429925eb1afb91",
+      "llm_calls": 7,
+      "input_tokens": 5654,
+      "output_tokens": 727,
+      "total_tokens": 6381,
+      "wall_time": 18.9063,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What are the geographic coordinates of Wilmington International Airport?",
+          "What are the geographic coordinates of Texarkana Regional Airport?",
+          "What is the distance from each airport to the nearest point on the Atlantic Ocean coastline?"
+        ],
+        "n_triples": 43,
+        "answer": "Wilmington International Airport",
+        "score": 0.3,
+        "feedback": "Missing: geographic coordinates or coastal proximity data for Wilmington International Airport and Texarkana Regional Airport. Suggested sub-question: What are the latitude and longitude of Wilmington International Airport and Texarkana Regional Airport, and what is the distance from each to the nearest point on the Atlantic Ocean coastline?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What are the latitude and longitude of Wilmington International Airport?",
+          "What are the latitude and longitude of Texarkana Regional Airport?",
+          "What is the distance from Wilmington International Airport to the nearest point on the Atlantic Ocean coastline?",
+          "What is the distance from Texarkana Regional Airport to the nearest point on the Atlantic Ocean coastline?"
+        ],
+        "n_triples": 43,
+        "answer": "Wilmington International Airport",
+        "score": 0.3,
+        "feedback": "Missing: geographic coordinates or coastal proximity data for Wilmington International Airport and Texarkana Regional Airport. Suggested sub-question: What are the latitude and longitude of Wilmington International Airport (ILM) and Texarkana Regional Airport (TXK), and what is the distance from each to the nearest point on the Atlantic Ocean coastline?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Wilmington International Airport",
+        "selected": false
+      }
+    ]
+  },
+  "5a7aa0a55542990198eaf165": {
+    "answer": "Jacques Feyder",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7aa0a55542990198eaf165",
+      "llm_calls": 7,
+      "input_tokens": 5055,
+      "output_tokens": 288,
+      "total_tokens": 5343,
+      "wall_time": 8.8445,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Sathish Kalathil born?",
+          "When was Jacques Feyder born?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Sathish Kalathil and Jacques Feyder. Suggested sub-question: When was Sathish Kalathil born? When was Jacques Feyder born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Sathish Kalathil born?",
+          "When was Jacques Feyder born?"
+        ],
+        "n_triples": 50,
+        "answer": "Cannot be determined",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Sathish Kalathil and Jacques Feyder. Suggested sub-question: When was Sathish Kalathil born? When was Jacques Feyder born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Jacques Feyder",
+        "selected": true
+      }
+    ]
+  },
+  "5a7bd25a554299294a54ab13": {
+    "answer": "insufficient information",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7bd25a554299294a54ab13",
+      "llm_calls": 4,
+      "input_tokens": 2789,
+      "output_tokens": 237,
+      "total_tokens": 3026,
+      "wall_time": 6.9686,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Lowell Sherman born and when did he die?",
+          "When was Jonathan Kaplan born and when did he die?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.7,
+        "feedback": "Missing: birth and death dates of Lowell Sherman and Jonathan Kaplan. Suggested sub-question: When was Lowell Sherman born and when did he die? When was Jonathan Kaplan born and when did he die?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "unknown",
+        "selected": false
+      }
+    ]
+  },
+  "5a7542425542996c70cfaecc": {
+    "answer": "Karen Joy Fowler",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7542425542996c70cfaecc",
+      "llm_calls": 7,
+      "input_tokens": 4874,
+      "output_tokens": 310,
+      "total_tokens": 5184,
+      "wall_time": 9.4054,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Karen Joy Fowler born?",
+          "When was Bruce Chatwin born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Bruce Chatwin. Suggested sub-question: When was Bruce Chatwin born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Karen Joy Fowler born?",
+          "When was Bruce Chatwin born?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Bruce Chatwin. Suggested sub-question: When was Bruce Chatwin born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Karen Joy Fowler",
+        "selected": true
+      }
+    ]
+  },
+  "5a7b24fe55429931da12c9f7": {
+    "answer": "German Spitz",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7b24fe55429931da12c9f7",
+      "llm_calls": 4,
+      "input_tokens": 3414,
+      "output_tokens": 550,
+      "total_tokens": 3964,
+      "wall_time": 13.9967,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8400000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What dog breeds are derived from the German Spitz?",
+          "What dog breeds are derived from the Norfolk Spaniel?",
+          "How many derivative breeds does each of those two breeds have?"
+        ],
+        "n_triples": 50,
+        "answer": "German Spitz",
+        "score": 0.8400000000000001,
+        "feedback": "Missing: explicit count or list of derivative breeds from German Spitz versus Norfolk Spaniel. Suggested sub-question: How many modern dog breeds are directly derived from the German Spitz, and how many (if any) are derived from the extinct Norfolk Spaniel?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "German Spitz",
+        "selected": false
+      }
+    ]
+  },
+  "5a7a276d5542996c55b2dd27": {
+    "answer": "George Walter Hunter Macfarlane",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7a276d5542996c55b2dd27",
+      "llm_calls": 7,
+      "input_tokens": 5404,
+      "output_tokens": 1330,
+      "total_tokens": 6734,
+      "wall_time": 33.2352,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was Chamberlain of The Merrie Monarch?",
+          "Who was Colonel of the military staff of The Merrie Monarch?"
+        ],
+        "n_triples": 50,
+        "answer": "George Walter Hunter Macfarlane",
+        "score": 0.48,
+        "feedback": "Missing: direct triple linking George Walter Hunter Macfarlane to 'Chamberlain and Colonel of the military staff of The Merrie Monarch'. Suggested sub-question: 'Who served as Chamberlain and Colonel of the military staff for King David Kalākaua, known as the Merrie Monarch?'"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was Chamberlain of The Merrie Monarch?",
+          "Who was Colonel of the military staff of The Merrie Monarch?",
+          "Who served as Chamberlain and Colonel of the military staff for King David Kalākaua, known as the Merrie Monarch?"
+        ],
+        "n_triples": 50,
+        "answer": "George Walter Hunter Macfarlane",
+        "score": 0.42,
+        "feedback": "Missing: direct triple linking George Walter Hunter Macfarlane to 'The Merrie Monarch' (i.e., King Kalākaua) as Chamberlain *and* Colonel of the military staff — the triples only state he was 'final chamberlain of king' without specifying *which* king or confirming his role on the military staff of *The Merrie Monarch*. Also missing: explicit confirmation that 'The Merrie Monarch' refers to King Kalākaua *in the context of his royal household/military staff*, not the modern festival. Suggested sub-question: 'Who was the final chamberlain of King David Kalākaua, and did he also serve as Colonel of the King’s military staff?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Colonel Charles Hastings Judd",
+        "selected": false
+      }
+    ]
+  },
+  "5ac325495542995ef918c12e": {
+    "answer": "Ashanti Region",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac325495542995ef918c12e",
+      "llm_calls": 4,
+      "input_tokens": 3574,
+      "output_tokens": 180,
+      "total_tokens": 3754,
+      "wall_time": 5.3142,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where is Akrofuom located?",
+          "What region of Ghana contains that location?"
+        ],
+        "n_triples": 50,
+        "answer": "Ashanti Region",
+        "score": 1.0,
+        "feedback": "Missing: direct triple linking Akrofuom to Ashanti Region. Suggested sub-question: Which administrative region is Akrofuom located in?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Ashanti Region",
+        "selected": false
+      }
+    ]
+  },
+  "5a75fbe855429976ec32bcde": {
+    "answer": "War/Dance",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a75fbe855429976ec32bcde",
+      "llm_calls": 7,
+      "input_tokens": 5147,
+      "output_tokens": 576,
+      "total_tokens": 5723,
+      "wall_time": 15.519,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was War/Dance released?",
+          "When was The Sorrow and the Pity released?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: release year of 'War/Dance' and release year of 'The Sorrow and the Pity'. Suggested sub-question: When was the documentary 'War/Dance' released? When was the documentary 'The Sorrow and the Pity' released?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was the documentary 'War/Dance' released?",
+          "When was the documentary 'The Sorrow and the Pity' released?"
+        ],
+        "n_triples": 50,
+        "answer": "Cannot be determined",
+        "score": 0.3,
+        "feedback": "Missing: release year of 'War/Dance' and release year of 'The Sorrow and the Pity'. Suggested sub-question: When was 'War/Dance' released? When was 'The Sorrow and the Pity' released?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "War/Dance",
+        "selected": true
+      }
+    ]
+  },
+  "5a74f8bd5542993748c8976a": {
+    "answer": "Tim Cluess",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a74f8bd5542993748c8976a",
+      "llm_calls": 7,
+      "input_tokens": 5097,
+      "output_tokens": 699,
+      "total_tokens": 5796,
+      "wall_time": 18.1168,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.45999999999999996,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When did Tim Cluess start coaching his current team?",
+          "When did Steve Prohm start coaching his current team?",
+          "Which coach has been coaching for a longer period of time?"
+        ],
+        "n_triples": 50,
+        "answer": "Tim Cluess",
+        "score": 0.45999999999999996,
+        "feedback": "Missing: tenure duration (start year or number of years) for Steve Prohm. Suggested sub-question: In which year did Steve Prohm begin his tenure as head coach, and how many consecutive years has he coached?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When did Tim Cluess start coaching his current team?",
+          "In which year did Steve Prohm begin his tenure as head coach, and how many consecutive years has he coached?"
+        ],
+        "n_triples": 50,
+        "answer": "Tim Cluess",
+        "score": 0.4,
+        "feedback": "Missing: tenure duration (start year or number of years) for both Tim Cluess and Steve Prohm. Suggested sub-question: In which year did Tim Cluess become head coach of the Iona Gaels? In which year did Steve Prohm become head coach of his team (e.g., Iowa State or Murray State)?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Tim Cluess",
+        "selected": false
+      }
+    ]
+  },
+  "5a7b40cd5542995eb53be8d4": {
+    "answer": "Golf Digest",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a7b40cd5542995eb53be8d4",
+      "llm_calls": 7,
+      "input_tokens": 5198,
+      "output_tokens": 307,
+      "total_tokens": 5505,
+      "wall_time": 9.4888,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Guitar World first published?",
+          "When was Golf Digest first published?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: founding year of Guitar World. Suggested sub-question: When was Guitar World magazine first published?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Guitar World magazine first published?",
+          "When was Golf Digest first published?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: founding year of Guitar World and founding year of Golf Digest. Suggested sub-question: When was Guitar World magazine first published? When was Golf Digest magazine first published?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Golf Digest",
+        "selected": true
+      }
+    ]
+  },
+  "5abf12f25542997719eab667": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abf12f25542997719eab667",
+      "llm_calls": 7,
+      "input_tokens": 5463,
+      "output_tokens": 396,
+      "total_tokens": 5859,
+      "wall_time": 11.3983,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the genre of McFarland, USA?",
+          "What is the genre of The Black Hole?"
+        ],
+        "n_triples": 46,
+        "answer": "no",
+        "score": 0.3,
+        "feedback": "Missing: genre classification of 'McFarland, USA' and 'The Black Hole'. Suggested sub-question: What is the genre of the film 'McFarland, USA'? What is the genre of the film 'The Black Hole'?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the genre of the film 'McFarland, USA'?",
+          "What is the genre of the film 'The Black Hole'?"
+        ],
+        "n_triples": 46,
+        "answer": "no",
+        "score": 0.3,
+        "feedback": "Missing: genre classification of 'McFarland, USA' and 'The Black Hole'. Suggested sub-question: What is the genre of the film 'McFarland, USA'? What is the genre of the film 'The Black Hole' (1979)?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5ab9b4a555429970cfb8eb75": {
+    "answer": "Grand Forks International Airport",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ab9b4a555429970cfb8eb75",
+      "llm_calls": 7,
+      "input_tokens": 4414,
+      "output_tokens": 919,
+      "total_tokens": 5333,
+      "wall_time": 23.6839,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.42,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What town is Rick Husband Amarillo International Airport near?",
+          "What town is Grand Forks International Airport near?",
+          "What is the distance from Rick Husband Amarillo International Airport to Amarillo, Texas?",
+          "What is the distance from Grand Forks International Airport to Grand Forks, North Dakota?"
+        ],
+        "n_triples": 37,
+        "answer": "Grand Forks International Airport",
+        "score": 0.42,
+        "feedback": "Missing: distance from Rick Husband Amarillo International Airport to downtown Amarillo AND distance from Grand Forks International Airport to downtown Grand Forks (or central Grand Forks). Suggested sub-question: How far is Rick Husband Amarillo International Airport from downtown Amarillo, and how far is Grand Forks International Airport from downtown Grand Forks?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What town is Rick Husband Amarillo International Airport near?",
+          "What town is Grand Forks International Airport near?",
+          "How far is Rick Husband Amarillo International Airport from downtown Amarillo?",
+          "How far is Grand Forks International Airport from downtown Grand Forks?"
+        ],
+        "n_triples": 33,
+        "answer": "Grand Forks International Airport",
+        "score": 0.42,
+        "feedback": "Missing: distance from Rick Husband Amarillo International Airport to Amarillo (e.g., 'six miles east of downtown Amarillo') compared to distance from Grand Forks International Airport to Grand Forks (e.g., 'five miles northwest of Grand Forks'). Suggested sub-question: How far is Rick Husband Amarillo International Airport from the center of Amarillo, and how far is Grand Forks International Airport from the center of Grand Forks?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Rick Husband Amarillo International Airport",
+        "selected": false
+      }
+    ]
+  },
+  "5a8af1e255429950cd6afc28": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8af1e255429950cd6afc28",
+      "llm_calls": 4,
+      "input_tokens": 2578,
+      "output_tokens": 296,
+      "total_tokens": 2874,
+      "wall_time": 10.4311,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.79,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the former footballer born in the same place as where he plays?",
+          "Where was that former footballer born?",
+          "Who is the English professional footballer who is the niece of that former footballer?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.79,
+        "feedback": "Missing: identity of an English professional footballer who is the niece of a former footballer, and the shared birthplace between the niece and her uncle. Suggested sub-question: Which English professional footballer is the niece of a former footballer, and where were both born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": true
+      }
+    ]
+  },
+  "5a7dec305542995ed0d16679": {
+    "answer": "Ken Kwapis",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a7dec305542995ed0d16679",
+      "llm_calls": 4,
+      "input_tokens": 2809,
+      "output_tokens": 563,
+      "total_tokens": 3372,
+      "wall_time": 14.2149,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.52,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many films has Jon Paul Puno directed?",
+          "How many films has Ken Kwapis directed?"
+        ],
+        "n_triples": 50,
+        "answer": "Ken Kwapis",
+        "score": 0.52,
+        "feedback": "Missing: total number of films directed by Jon Paul Puno and Ken Kwapis respectively. Suggested sub-question: How many feature films has Jon Paul Puno directed? How many feature films has Ken Kwapis directed?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Ken Kwapis",
+        "selected": false
+      }
+    ]
+  },
+  "5ade6eb65542992fa25da782": {
+    "answer": "Johnny Cash and Waylon Jennings",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ade6eb65542992fa25da782",
+      "llm_calls": 4,
+      "input_tokens": 4052,
+      "output_tokens": 925,
+      "total_tokens": 4977,
+      "wall_time": 22.095,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8500000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who performed the song 'I Would Like to See You Again'?",
+          "What country music group, active between 1985 and 1995, included both of those singers?",
+          "What were the names of the two singers who were members of that country music group?"
+        ],
+        "n_triples": 50,
+        "answer": "Johnny Cash and Waylon Jennings",
+        "score": 0.8500000000000001,
+        "feedback": "Missing: confirmation that Johnny Cash and Waylon Jennings performed together as part of a country music group active between 1985 and 1995. Suggested sub-question: Did Johnny Cash and Waylon Jennings perform together in a formal country music group (e.g., The Highwaymen) between 1985 and 1995, and was that group active during those years?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Johnny Cash and Waylon Jennings",
+        "selected": false
+      }
+    ]
+  },
+  "5abb30755542996cc5e49fd8": {
+    "answer": "President of the United States",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abb30755542996cc5e49fd8",
+      "llm_calls": 4,
+      "input_tokens": 3170,
+      "output_tokens": 571,
+      "total_tokens": 3741,
+      "wall_time": 14.4512,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What position did Ronald Reagan hold in the U.S. government?",
+          "What position did George H. W. Bush hold in the U.S. government?"
+        ],
+        "n_triples": 50,
+        "answer": "President of the United States",
+        "score": 0.94,
+        "feedback": "Missing: George H. W. Bush's presidency (e.g., 'George H. W. Bush -- inaugurated as --> President of the United States' or equivalent triple confirming he held the presidency). Suggested sub-question: Did George H. W. Bush serve as President of the United States, and if so, when?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "President and Vice President",
+        "selected": false
+      }
+    ]
+  },
+  "5a77671255429966f1a36d21": {
+    "answer": "negotiation phases",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a77671255429966f1a36d21",
+      "llm_calls": 4,
+      "input_tokens": 3153,
+      "output_tokens": 629,
+      "total_tokens": 3782,
+      "wall_time": 15.3942,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What are the key gameplay mechanics and aspects of the board game Diplomacy?",
+          "What are the key gameplay mechanics and aspects of the board game Uncle Wiggily?",
+          "Which gameplay aspect is present in Diplomacy but absent in Uncle Wiggily?"
+        ],
+        "n_triples": 38,
+        "answer": "negotiation phases",
+        "score": 0.94,
+        "feedback": "Missing: explicit statement that Uncle Wiggily lacks negotiation phases. Suggested sub-question: Does the Uncle Wiggily Game include negotiation phases or player-to-player diplomacy mechanics?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "negotiation phases",
+        "selected": false
+      }
+    ]
+  },
+  "5a886b7555429938390d3f4d": {
+    "answer": "The Rhinoceros Party of Canada was nominally led by the rhinoceros Cornelius the First, but the context does not specify when it began",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a886b7555429938390d3f4d",
+      "llm_calls": 4,
+      "input_tokens": 4049,
+      "output_tokens": 434,
+      "total_tokens": 4483,
+      "wall_time": 11.6034,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.7,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is Cacareco?",
+          "Which political party in Canada was inspired by Cacareco?",
+          "When did that party begin in Canada?"
+        ],
+        "n_triples": 43,
+        "answer": "unknown",
+        "score": 0.7,
+        "feedback": "Missing: founding date of the Rhinoceros Party of Canada. Suggested sub-question: When was the Rhinoceros Party of Canada founded?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The Rhinoceros Party of Canada was nominally led by the rhinoceros Cornelius the First, but the context does not specify when it began",
+        "selected": true
+      }
+    ]
+  },
+  "5a84de255542991dd0999e06": {
+    "answer": "Nelson DeMille",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a84de255542991dd0999e06",
+      "llm_calls": 7,
+      "input_tokens": 4522,
+      "output_tokens": 654,
+      "total_tokens": 5176,
+      "wall_time": 17.565,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.42,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many pen names did George Orwell use?",
+          "How many pen names did Nelson DeMille use?"
+        ],
+        "n_triples": 50,
+        "answer": "Nelson DeMille",
+        "score": 0.42,
+        "feedback": "Missing: number of pen names used by George Orwell (beyond 'George Orwell' itself) and explicit confirmation that Eric Blair used *only* that one pen name. Suggested sub-question: How many distinct pen names did Eric Blair use, and what were they?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "How many distinct pen names did Eric Blair use, and what were they?",
+          "How many pen names did Nelson DeMille use?"
+        ],
+        "n_triples": 50,
+        "answer": "Nelson DeMille",
+        "score": 0.48,
+        "feedback": "Missing: number of pen names used by George Orwell. Suggested sub-question: How many pen names did Eric Blair (George Orwell) use besides 'George Orwell'?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Nelson Richard DeMille",
+        "selected": false
+      }
+    ]
+  },
+  "5ade17d255429939a52fe80e": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ade17d255429939a52fe80e",
+      "llm_calls": 4,
+      "input_tokens": 3280,
+      "output_tokens": 294,
+      "total_tokens": 3574,
+      "wall_time": 8.1321,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.5900000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Is the Wire Fox Terrier a dog breed?",
+          "Is the West Siberian Laika a dog breed?"
+        ],
+        "n_triples": 42,
+        "answer": "yes",
+        "score": 0.5900000000000001,
+        "feedback": "Missing: explicit statement that the West Siberian Laika is a dog breed. Suggested sub-question: Is the West Siberian Laika recognized as a dog breed?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5a83041355429966c78a6ae8": {
+    "answer": "director",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a83041355429966c78a6ae8",
+      "llm_calls": 4,
+      "input_tokens": 2876,
+      "output_tokens": 462,
+      "total_tokens": 3338,
+      "wall_time": 11.9765,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ralph Bakshi?",
+          "Who is Béla Gaál?",
+          "What role did each of them have in filmmaking?"
+        ],
+        "n_triples": 50,
+        "answer": "director",
+        "score": 0.94,
+        "feedback": "Missing: explicit statement that Béla Gaál was a director *in general* (beyond directing specific films), and no triple explicitly states Ralph Bakshi's role as 'director' outside of Fritz the Cat and Heavy Traffic — though both are strongly implied, the question asks for their shared role *in filmmaking*, which requires confirmation that 'director' is their primary or defining professional role. Suggested sub-question: 'What was Béla Gaál’s primary professional role in the Hungarian film industry?'"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "directors",
+        "selected": false
+      }
+    ]
+  },
+  "5adfc06d55429906c02daa2a": {
+    "answer": "Port of Boston",
+    "iterations": 2,
+    "usage": {
+      "qid": "5adfc06d55429906c02daa2a",
+      "llm_calls": 7,
+      "input_tokens": 5108,
+      "output_tokens": 1850,
+      "total_tokens": 6958,
+      "wall_time": 43.0942,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.44000000000000006,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where do the Boston Red Sox play?",
+          "What is the largest shipping facility in the Northeastern United States?",
+          "Is the largest shipping facility in the Northeastern United States located in the same city where the Boston Red Sox play?"
+        ],
+        "n_triples": 50,
+        "answer": "- So final answer should reflect absence: “No such facility",
+        "score": 0.44000000000000006,
+        "feedback": "Missing: the name of the largest shipping facility in the Northeastern United States. Suggested sub-question: What is the largest container shipping facility in the Northeastern United States by annual TEU volume or physical size?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Where do the Boston Red Sox play?",
+          "What is the largest container shipping facility in the Northeastern United States by annual TEU volume or physical size?"
+        ],
+        "n_triples": 50,
+        "answer": "- The safest factual answer, grounded",
+        "score": 0.0,
+        "feedback": "Missing: the name of the largest shipping facility in the Northeastern United States. Suggested sub-question: What is the largest container shipping facility in the Northeastern United States by annual TEU volume or physical size?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Port of Boston",
+        "selected": true
+      }
+    ]
+  },
+  "5adcd9fe5542990d50227d46": {
+    "answer": "flowering plants",
+    "iterations": 1,
+    "usage": {
+      "qid": "5adcd9fe5542990d50227d46",
+      "llm_calls": 4,
+      "input_tokens": 3007,
+      "output_tokens": 434,
+      "total_tokens": 3441,
+      "wall_time": 11.3403,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.94,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the plant family of Dieffenbachia?",
+          "What is the plant family of Carlina?",
+          "Do Dieffenbachia and Carlina share the same plant family?"
+        ],
+        "n_triples": 39,
+        "answer": "flowering plants",
+        "score": 0.94,
+        "feedback": "Missing: explicit statement that Dieffenbachia and Carlina both belong to the same higher-level taxonomic group beyond 'flowering plants' (e.g., Angiosperms) — though 'flowering plants' is factually correct, the question asks for 'group of plants', and while 'flowering plants' is valid, the knowledge graph lacks confirmation that this is the *most precise shared group* (e.g., whether both are also monocots or eudicots). However, critically missing is a triple confirming that Dieffenbachia is a flowering plant *in the same sense as Carlina* — but the triples do state 'Dieffenbachia -- is --> a genus of tropical flowering plants' and 'Carlina -- is --> a genus of flowering plants', so grounding is sufficient. The completeness issue is minor: the answer 'flowering plants' is correct and complete *at the level asked*, but the graph does not explicitly state the shared clade (e.g., 'both are angiosperms'), though 'flowering plants' is synonymous. No actionable gap remains for correctness — the answer is fully supported and appropriate. Thus, feedback should reflect no critical omission: Missing: none. Suggested sub-question: none."
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "flowering plants",
+        "selected": false
+      }
+    ]
+  },
+  "5ae074aa5542993d6555eb54": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae074aa5542993d6555eb54",
+      "llm_calls": 7,
+      "input_tokens": 4692,
+      "output_tokens": 652,
+      "total_tokens": 5344,
+      "wall_time": 17.8627,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.42,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is Ash Lieb?",
+          "Who is Elswyth Thane?",
+          "Is each of them an artist?"
+        ],
+        "n_triples": 46,
+        "answer": "no",
+        "score": 0.42,
+        "feedback": "Missing: whether Elswyth Thane is an artist (e.g., visual artist, painter, illustrator, or other art practitioner). Suggested sub-question: Was Elswyth Thane trained in, exhibited, or professionally recognized for visual art, music, or other non-literary artistic practice?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who is Ash Lieb?",
+          "Who is Elswyth Thane?",
+          "Was Elswyth Thane trained in, exhibited, or professionally recognized for visual art, music, or other non-literary artistic practice?",
+          "Is Ash Lieb an artist?"
+        ],
+        "n_triples": 48,
+        "answer": "no",
+        "score": 0.42,
+        "feedback": "Missing: occupational classification of Helen Elswyth Thane Ricker Beebe as an artist (or not). Suggested sub-question: Was Helen Elswyth Thane Ricker Beebe ever professionally recognized as a visual, literary, or performing artist?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5ae2e06d55429928c4239521": {
+    "answer": "tennis",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae2e06d55429928c4239521",
+      "llm_calls": 7,
+      "input_tokens": 4751,
+      "output_tokens": 531,
+      "total_tokens": 5282,
+      "wall_time": 14.5361,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.48,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What sport does Vitas Gerulaitis play?",
+          "What sport does Heather Watson play?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.48,
+        "feedback": "Missing: sport played by Heather Watson. Suggested sub-question: What sport does Heather Watson play?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What sport does Vitas Gerulaitis play?",
+          "What sport does Heather Watson play?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.48,
+        "feedback": "Missing: sport played by Heather Watson. Suggested sub-question: What sport does Heather Watson play?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "tennis",
+        "selected": true
+      }
+    ]
+  },
+  "5a8a06455542992e4fca84db": {
+    "answer": "no",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8a06455542992e4fca84db",
+      "llm_calls": 4,
+      "input_tokens": 2953,
+      "output_tokens": 166,
+      "total_tokens": 3119,
+      "wall_time": 5.4991,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Where was Lukas Rossi born?",
+          "Where was Terry Kath born?"
+        ],
+        "n_triples": 49,
+        "answer": "no",
+        "score": 0.8,
+        "feedback": "Missing: birth country of Terry Kath. Suggested sub-question: Where was Terry Kath born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  },
+  "5a874e9b554299211dda2bd3": {
+    "answer": "insufficient information",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a874e9b554299211dda2bd3",
+      "llm_calls": 7,
+      "input_tokens": 5302,
+      "output_tokens": 1133,
+      "total_tokens": 6435,
+      "wall_time": 28.5002,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who was the second First Lady born outside the United States or areas that would become part of the United States?",
+          "What profession or occupation did she have before marrying the U.S. president?"
+        ],
+        "n_triples": 48,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: occupation or activities of Louisa Catherine Johnson Adams before marrying John Quincy Adams. Suggested sub-question: What did Louisa Catherine Johnson Adams do before her marriage to John Quincy Adams in 1797?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Who was the second First Lady born outside the United States or areas that would become part of the United States?",
+          "What did Louisa Catherine Johnson Adams do before her marriage to John Quincy Adams in 1797?"
+        ],
+        "n_triples": 29,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: Louisa Catherine Johnson Adams's activities or occupation before marrying John Quincy Adams. Suggested sub-question: What did Louisa Catherine Johnson Adams do before her marriage to John Quincy Adams in 1797?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "The second First Lady to be born outside the United States or areas that would become part of the United States was Melania Trump. Before marrying, she worked as a model. However, this information is not present in the provided context passages. Therefore, based on the given context alone, the answer cannot be determined.\n\nno",
+        "selected": false
+      }
+    ]
+  },
+  "5abdcad155429965af743e4d": {
+    "answer": "insufficient information",
+    "iterations": 2,
+    "usage": {
+      "qid": "5abdcad155429965af743e4d",
+      "llm_calls": 7,
+      "input_tokens": 4956,
+      "output_tokens": 397,
+      "total_tokens": 5353,
+      "wall_time": 11.6502,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many acts does Pagliacci have?",
+          "How many acts does Suor Angelica have?"
+        ],
+        "n_triples": 50,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: number of acts in Pagliacci and Suor Angelica. Suggested sub-question: How many acts does Pagliacci have? How many acts does Suor Angelica have?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "How many acts does Pagliacci have?",
+          "How many acts does Suor Angelica have?"
+        ],
+        "n_triples": 50,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: number of acts in Pagliacci and Suor Angelica. Suggested sub-question: How many acts does Pagliacci have? How many acts does Suor Angelica have?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Pagliacci has more acts than Suor Angelica.  \nSuor Angelica is an opera in one act.  \nPagliacci is not mentioned in the context, so no comparison can be made from the given passages.  \nTherefore, the answer cannot be determined from the provided context.  \n\nBut the question asks to answer using ONLY the context passages, and the context only states that Suor",
+        "selected": false
+      }
+    ]
+  },
+  "5abc7bc45542993a06baf8ef": {
+    "answer": "Deutzia",
+    "iterations": 1,
+    "usage": {
+      "qid": "5abc7bc45542993a06baf8ef",
+      "llm_calls": 4,
+      "input_tokens": 3001,
+      "output_tokens": 242,
+      "total_tokens": 3243,
+      "wall_time": 6.7296,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "How many species are in the genus Cassiope?",
+          "How many species are in the genus Deutzia?"
+        ],
+        "n_triples": 42,
+        "answer": "Deutzia",
+        "score": 1.0,
+        "feedback": "Missing: explicit numerical species count for Cassiope (e.g., 'Cassiope has 9–12 species') is stated, and 'Deutzia has about 60 species' is stated — both are directly provided in the triples. The answer 'Deutzia' is fully supported and complete. No missing fact or contradiction. Suggested sub-question: None — all required facts are present."
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Deutzia",
+        "selected": false
+      }
+    ]
+  },
+  "5ac097b05542996f0d89cc18": {
+    "answer": "yes",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ac097b05542996f0d89cc18",
+      "llm_calls": 4,
+      "input_tokens": 3412,
+      "output_tokens": 332,
+      "total_tokens": 3744,
+      "wall_time": 9.7501,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Is Ruggero Deodato a film director?",
+          "Is Alejandro Springall a film director?",
+          "Is Ruggero Deodato from Italy?",
+          "Is Alejandro Springall from Mexico?"
+        ],
+        "n_triples": 50,
+        "answer": "yes",
+        "score": 0.8,
+        "feedback": "Missing: Ruggero Deodato's nationality (specifically confirmation that he is from Italy). Suggested sub-question: Where was Ruggero Deodato born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "yes",
+        "selected": false
+      }
+    ]
+  },
+  "5a78d16455429974737f78bb": {
+    "answer": "Philippe Perrin",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a78d16455429974737f78bb",
+      "llm_calls": 7,
+      "input_tokens": 4190,
+      "output_tokens": 745,
+      "total_tokens": 4935,
+      "wall_time": 19.7379,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Ernst Messerschmid born?",
+          "When was Philippe Perrin born?"
+        ],
+        "n_triples": 38,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Ernst Messerschmid. Suggested sub-question: When was Ernst Messerschmid born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Ernst Messerschmid born?",
+          "When was Philippe Perrin born?"
+        ],
+        "n_triples": 38,
+        "answer": "insufficient information",
+        "score": 0.3,
+        "feedback": "Missing: birth date of Ernst Messerschmid. Suggested sub-question: When was Ernst Messerschmid born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Philippe Perrin",
+        "selected": true
+      }
+    ]
+  },
+  "5a886886554299206df2b258": {
+    "answer": "FIFA Women's World Cup",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a886886554299206df2b258",
+      "llm_calls": 4,
+      "input_tokens": 3234,
+      "output_tokens": 317,
+      "total_tokens": 3551,
+      "wall_time": 8.638,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Which international football competition for women was held in 1991, 1995, and 1999?",
+          "Did Liu Ailing play in the women's international football competition held in 1991, 1995, and 1999?"
+        ],
+        "n_triples": 44,
+        "answer": "FIFA Women's World Cup",
+        "score": 1.0,
+        "feedback": "Missing: explicit triple stating that the FIFA Women's World Cup is the international football competition for women held in 1991, 1995, and 1999. Suggested sub-question: What is the name of the international women's football competition held in 1991, 1995, and 1999?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "FIFA Women's World Cup",
+        "selected": false
+      }
+    ]
+  },
+  "5ae81032554299540e5a572a": {
+    "answer": "Pakenham",
+    "iterations": 1,
+    "usage": {
+      "qid": "5ae81032554299540e5a572a",
+      "llm_calls": 4,
+      "input_tokens": 2984,
+      "output_tokens": 308,
+      "total_tokens": 3292,
+      "wall_time": 8.5793,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 1.0,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the Electoral district of Bass?",
+          "Which satellite suburbs of Melbourne are partially included in the Electoral district of Bass?"
+        ],
+        "n_triples": 50,
+        "answer": "Pakenham",
+        "score": 1.0,
+        "feedback": "Missing: explicit confirmation that Pakenham is a *satellite* suburb of Melbourne. Suggested sub-question: Is Pakenham classified as a satellite suburb of Melbourne?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "None of the provided passages mention the Electoral district of Bass or indicate that any satellite suburb of Melbourne is partially included in it",
+        "selected": false
+      }
+    ]
+  },
+  "5ac2f1d1554299218029dba4": {
+    "answer": "Nothing is in both the Lithocarpus and Duranta species",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ac2f1d1554299218029dba4",
+      "llm_calls": 7,
+      "input_tokens": 4738,
+      "output_tokens": 1907,
+      "total_tokens": 6645,
+      "wall_time": 44.72,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.35,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "What is the Lithocarpus species?",
+          "What is the Duranta species?",
+          "What characteristics or components do Lithocarpus and Duranta species share?"
+        ],
+        "n_triples": 50,
+        "answer": "- \"Lithocarpus crassinervius -- is --> a species of plant",
+        "score": 0.35,
+        "feedback": "Missing: shared biological feature or taxonomic characteristic between Lithocarpus and Duranta species (e.g., family, genus-level trait, reproductive structure, or chemical compound). Suggested sub-question: What plant family is Duranta erecta in?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "What is the Lithocarpus species?",
+          "What is the Duranta species?",
+          "What plant family is Lithocarpus in?",
+          "What plant family is Duranta erecta in?",
+          "What characteristics or components do Lithocarpus and Duranta species share?"
+        ],
+        "n_triples": 50,
+        "answer": "- *Duranta erecta* is explicitly \"a species of flowering shrub\". So",
+        "score": 0.15,
+        "feedback": "Missing: any shared biological feature, trait, structure, or taxonomic category between Lithocarpus and Duranta species (e.g., both are plants, both produce flowers, both belong to same family/order, both have fruits, etc.). Suggested sub-question: What taxonomic rank or biological characteristic do Lithocarpus and Duranta share?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Nothing is in both the Lithocarpus and Duranta species",
+        "selected": true
+      }
+    ]
+  },
+  "5a79d2fe5542994f819ef0c3": {
+    "answer": "Aleksandr Ivanovsky",
+    "iterations": 2,
+    "usage": {
+      "qid": "5a79d2fe5542994f819ef0c3",
+      "llm_calls": 7,
+      "input_tokens": 4344,
+      "output_tokens": 337,
+      "total_tokens": 4681,
+      "wall_time": 11.2132,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.3,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "When was Aleksandr Ivanovsky born?",
+          "When was Arthur Lubin born?"
+        ],
+        "n_triples": 43,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Aleksandr Ivanovsky and Arthur Lubin. Suggested sub-question: When was Aleksandr Ivanovsky born? When was Arthur Lubin born?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "When was Aleksandr Ivanovsky born?",
+          "When was Arthur Lubin born?"
+        ],
+        "n_triples": 43,
+        "answer": "unknown",
+        "score": 0.3,
+        "feedback": "Missing: birth dates of Aleksandr Ivanovsky and Arthur Lubin. Suggested sub-question: When was Aleksandr Ivanovsky born? When was Arthur Lubin born?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "Aleksandr Ivanovsky",
+        "selected": true
+      }
+    ]
+  },
+  "5a8a575a554299515336136e": {
+    "answer": "tabasco peppers",
+    "iterations": 1,
+    "usage": {
+      "qid": "5a8a575a554299515336136e",
+      "llm_calls": 4,
+      "input_tokens": 3266,
+      "output_tokens": 441,
+      "total_tokens": 3707,
+      "wall_time": 11.5639,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.8400000000000001,
+    "converged": true,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Who is the conservationist after whom Rynella is named?",
+          "What brand of hot sauce is made from vinegar, salt, and peppers, and who is its maker?",
+          "What kind of peppers are used in that hot sauce?"
+        ],
+        "n_triples": 50,
+        "answer": "tabasco peppers",
+        "score": 0.8400000000000001,
+        "feedback": "Missing: the specific type of peppers used in the hot sauce made by the maker (McIlhenny Company) whose conservationist president (Edward Avery McIlhenny) had daughters after whom Rynella was named. Suggested sub-question: What kind of peppers are used in Tabasco brand pepper sauce?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "tabasco peppers",
+        "selected": false
+      }
+    ]
+  },
+  "5ae39fb85542990afbd1e197": {
+    "answer": "no",
+    "iterations": 2,
+    "usage": {
+      "qid": "5ae39fb85542990afbd1e197",
+      "llm_calls": 7,
+      "input_tokens": 4973,
+      "output_tokens": 1030,
+      "total_tokens": 6003,
+      "wall_time": 25.833,
+      "mode": "full",
+      "cache_hit": false
+    },
+    "score": 0.15,
+    "converged": false,
+    "history": [
+      {
+        "iteration": 1,
+        "subqueries": [
+          "Does Changle District face water?",
+          "Does Longkou face water?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.15,
+        "feedback": "Missing: geographic location and coastal/riverine adjacency of Changle District (Fujian Province) and Longkou (Shandong Province). Suggested sub-question: Does Changle District, Fuzhou City, Fujian Province, border the sea or a major river? Does Longkou City, Yantai Prefecture, Shandong Province, border the Bohai Sea?"
+      },
+      {
+        "iteration": 2,
+        "subqueries": [
+          "Does Changle District, Fuzhou City, Fujian Province, border the sea or a major river?",
+          "Does Longkou City, Yantai Prefecture, Shandong Province, border the Bohai Sea?"
+        ],
+        "n_triples": 50,
+        "answer": "no",
+        "score": 0.3,
+        "feedback": "Missing: geographic location and coastal/riverine adjacency of Changle District (Fuzhou, Fujian) and Longkou (Yantai, Shandong). Suggested sub-question: Does Changle District, Fuzhou, Fujian Province, border the sea or a major river? Does Longkou City, Yantai, Shandong Province, border the Bohai Sea?"
+      },
+      {
+        "iteration": "context_fallback",
+        "answer": "no",
+        "selected": false
+      }
+    ]
+  }
+}

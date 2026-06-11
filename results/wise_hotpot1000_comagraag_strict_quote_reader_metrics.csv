@@ -1,0 +1,2 @@
+mode,n,EM,F1,targets,switches,acceptance_not_target,acceptance_not_high_confidence,acceptance_same_as_current,acceptance_quote_not_verbatim,acceptance_accepted,target_common,target_comparison
+strict_quote_reader,1000,0.553,0.6553,100,2,900,15,81,2,2,98,2

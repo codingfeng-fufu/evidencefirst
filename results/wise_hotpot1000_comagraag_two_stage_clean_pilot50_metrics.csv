@@ -1,0 +1,2 @@
+mode,n,current_EM,current_F1,EM,F1,targets,llm_calls,switches,switch_wins,switch_losses,avg_input_tokens,avg_output_tokens,avg_wall_time,acceptance_same_as_current,acceptance_locator_insufficient,acceptance_limit_not_called,target_person,target_disjunctive_fact,target_common,target_location,target_comparison,target_yesno,target_other,target_number_date
+two_stage_evidence_reader,1000,0.558,0.6587,0.558,0.6587,50,100,0,0,0,2291.94,154.76,4.257,37,13,950,5,1,4,3,13,5,16,3

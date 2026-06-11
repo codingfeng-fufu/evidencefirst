@@ -1,0 +1,5 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost,avg_source_llm_calls,avg_source_input_tokens,avg_source_output_tokens,avg_source_total_tokens,avg_source_wall_time_s,avg_end_to_end_llm_calls,avg_end_to_end_total_tokens,avg_end_to_end_wall_time_s
+experiments/evidence_first/results/hotpotqa_evidence_first_hfctx_n1000_splitkg_v4_usage.jsonl,1000,5.711,6301.2,793.8,7095.1,20.13,1.0,0.0,0.0,5.711,6301.2,793.8,7095.1,20.13,5.711,7095.1,20.13
+experiments/evidence_first/results/hotpotqa_evidence_first_hfctx_n1000_splitkg_v6_offline_selector_guard_usage.jsonl,1000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.711,6301.2,793.8,7095.1,20.13,5.711,7095.1,20.13
+results/wise/2wiki_evidencefirst_v6_readerfull_canon_usage.jsonl,500,5.938,5693.9,846.6,6540.4,21.344,1.0,0.0,0.0,5.938,5693.9,846.6,6540.4,21.344,5.938,6540.4,21.344
+results/wise/2wiki_lightrag_usage.jsonl,100,1.0,280.6,4.4,285.0,88.374,1.0,0.0,0.0,1.0,280.6,4.4,285.0,88.374,1.0,285.0,88.374

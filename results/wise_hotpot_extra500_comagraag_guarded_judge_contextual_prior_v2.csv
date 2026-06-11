@@ -1,0 +1,2 @@
+mode,n,EM,F1,current_v4_EM,judge_v2_EM,contextual_prior_v2_EM,selected_current,selected_judge,selected_contextual_prior
+guarded_judge_contextual_prior_v2,500,0.48,0.5786,0.454,0.496,0.43,462,23,15

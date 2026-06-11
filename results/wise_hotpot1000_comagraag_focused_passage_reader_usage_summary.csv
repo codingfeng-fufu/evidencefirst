@@ -1,0 +1,2 @@
+file,n,avg_llm_calls,avg_input_tokens,avg_output_tokens,avg_total_tokens,avg_wall_time_s,avg_iter_or_loops,avg_retrieved_tokens,avg_total_cost
+results/wise/hotpot1000_comagraag_focused_passage_reader_usage.jsonl,100,1.0,1645.5,103.5,1749.0,2.735,0.0,0.0,0.0
