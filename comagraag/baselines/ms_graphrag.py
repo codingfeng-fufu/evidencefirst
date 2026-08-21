@@ -10,6 +10,7 @@ import os
 import shutil
 import signal
 import subprocess
+import sys
 import tempfile
 import textwrap
 import time
@@ -199,18 +200,31 @@ def _save_failure_artifacts(
 
 def _context_to_text(context) -> list:
     """返回 [(title, text), ...] 列表"""
+    if isinstance(context, list) and (not context or isinstance(context[0], str)):
+        passages = []
+        for i, passage in enumerate(context):
+            text = str(passage)
+            title, sep, body = text.partition(":")
+            if sep and title.strip():
+                passages.append((title.strip(), body.strip() or text))
+            else:
+                passages.append((f"passage_{i}", text))
+        return passages
     if isinstance(context, dict):
         titles    = context["title"]
         sentences = context["sentences"]
     else:
         titles    = [t for t, _ in context]
         sentences = [s for _, s in context]
-    return [(t, " ".join(s)) for t, s in zip(titles, sentences)]
+    return [
+        (t, s if isinstance(s, str) else " ".join(s))
+        for t, s in zip(titles, sentences)
+    ]
 
 
 def _run_index_workflows(tmp_dir: str) -> tuple[bool, str, str]:
     r = subprocess.run(
-        ["python3", "-c", INDEX_RUNNER, tmp_dir],
+        [sys.executable, "-c", INDEX_RUNNER, tmp_dir],
         capture_output=True,
         text=True,
         timeout=config.MS_GRAPHRAG_INDEX_TIMEOUT,
@@ -316,7 +330,7 @@ def _run_cli(question: str, context, tmp_dir: str, case_id: str) -> str:
     # graphrag query (local search)
     try:
         r = subprocess.run(
-            ["python3", "-m", "graphrag", "query",
+            [sys.executable, "-m", "graphrag", "query",
              "--root", tmp_dir,
              "--method", "local",
              "--query", question],

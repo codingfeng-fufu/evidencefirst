@@ -7,6 +7,7 @@ Naive RAG 基线：BM25 检索 + LLM 生成
 from rank_bm25 import BM25Okapi
 from openai import OpenAI
 import time, config
+import usage
 
 client = OpenAI(api_key=config.OPENAI_API_KEY, base_url=config.LLM_BASE_URL)
 
@@ -30,15 +31,20 @@ def naive_rag(question: str, context: list,
     #   list of [title, sentences]  （原始 HotpotQA）
     #   dict {"title": [...], "sentences": [[...], ...]}  （datasets 加载后）
     passages = []
-    if isinstance(context, dict):
+    if isinstance(context, list) and (not context or isinstance(context[0], str)):
+        passages = [p for p in context if p]
+    elif isinstance(context, dict):
         titles    = context.get("title", [])
         sentences = context.get("sentences", [])
         pairs = zip(titles, sentences)
+        for title, sents in pairs:
+            for sent in sents:
+                passages.append(f"{title}: {sent}")
     else:
         pairs = context
-    for title, sents in pairs:
-        for sent in sents:
-            passages.append(f"{title}: {sent}")
+        for title, sents in pairs:
+            for sent in sents:
+                passages.append(f"{title}: {sent}")
 
     if not passages:
         return ""
@@ -61,6 +67,7 @@ def naive_rag(question: str, context: list,
                 temperature=0,
                 max_tokens=100,
             )
+            usage.record_response(resp)
             return resp.choices[0].message.content.strip()
         except Exception as e:
             if attempt < retries - 1:

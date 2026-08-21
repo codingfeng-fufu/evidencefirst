@@ -17,6 +17,12 @@ def _load_impl(module_name: str, file_path: Path):
     return module
 
 
+def _prefer_root_data(name: str) -> str:
+    primary = ROOT / "data" / name
+    legacy = PKG / "data" / name
+    return str(primary if primary.exists() or not legacy.exists() else legacy)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", choices=["hotpotqa", "2wiki"], default="hotpotqa")
@@ -25,21 +31,20 @@ def main() -> None:
     parser.add_argument("--skip-sample", action="store_true", help="Skip HotpotQA sampling step if input file is missing")
     args = parser.parse_args()
 
-    hotpot_impl = _load_impl("comagraag_build_kg_impl", PKG / "build_kg.py")
-    wiki2_impl = _load_impl("comagraag_build_2wiki_kg_impl", PKG / "data" / "build_2wiki_kg.py")
-
     if args.dataset == "hotpotqa":
-        data_path = args.data or "data/hotpotqa_sample.json"
-        out_path = args.out or "data/hotpotqa_kgs.pkl"
+        hotpot_impl = _load_impl("comagraag_build_kg_impl", PKG / "build_kg.py")
+        data_path = args.data or _prefer_root_data("hotpotqa_sample.json")
+        out_path = args.out or str(ROOT / "data" / "hotpotqa_kgs.pkl")
         if not args.skip_sample and not Path(data_path).exists():
             hotpot_impl.sample_hotpotqa()
         hotpot_impl.build_all_kgs(data_path=data_path, kg_path=out_path)
     else:
-        data_path = args.data or "data/2wiki_sample_fixed.json"
+        wiki2_impl = _load_impl("comagraag_build_2wiki_kg_impl", PKG / "data" / "build_2wiki_kg.py")
+        data_path = args.data or _prefer_root_data("2wiki_sample_fixed.json")
         if not Path(data_path).exists():
-            fallback = ROOT / "data" / "2wiki_sample.json"
+            fallback = Path(_prefer_root_data("2wiki_sample.json"))
             data_path = str(fallback if fallback.exists() else data_path)
-        out_path = args.out or "data/2wiki_kgs_fixed.pkl"
+        out_path = args.out or str(ROOT / "data" / "2wiki_kgs_fixed.pkl")
         wiki2_impl.build_all_2wiki_kgs(data_path=data_path, kg_path=out_path)
 
 

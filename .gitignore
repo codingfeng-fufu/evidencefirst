@@ -19,6 +19,7 @@ htmlcov/
 
 # Virtual environments
 .venv/
+.venv*/
 venv/
 env/
 ENV/
@@ -45,11 +46,19 @@ temp/
 *.log
 *.out
 *.err
+*.pid
 nohup.out
+build_kg.log
+test_*.log
+Answer
+Graph
+Reader
+Repair
 
 # Generated datasets, KG caches, and model artifacts
 data/*.json
 data/*.jsonl
+data/*.txt
 data/*.pkl
 data/*.pickle
 data/*.ckpt
@@ -73,8 +82,25 @@ comagraag/data/*.npy
 comagraag/data/*.npz
 
 # Experiment caches and large reruns
+external_repos/
+external_runs/
+experiments/evidence_first/cache/
+experiments/evidence_first/results/*_usage.jsonl
+results/logs/
+results/wise/
+results/core_results.csv
 results/cache_*.json
 results/**/cache_*.json
+results/wise_*.csv
+results/wise_*.json
+results/wise_hotpot*.csv
+results/wise_hotpot*.json
+results/*_usage_summary.csv
+results/analysis/
+results/figures/
+results/quality_analysis_*.json
+results/question_type_analysis.json
+results/case_studies.json
 comagraag/results/cache_*.json
 comagraag/results/*.log
 comagraag/results/*.json
@@ -106,3 +132,33 @@ comagraag/test_thresh.py
 *.tar
 *.tar.gz
 *.tgz
+external_tools/
+
+# Private research workspace and paper-production materials
+paper/
+docs/
+experiments/
+probe_live/
+probe_noise/
+probe_web/
+results/
+comagraag/results/
+scripts/_resume_probe.py
+scripts/analyze_2wiki_chain_validity.py
+scripts/analyze_2wiki_evidence_support.py
+scripts/analyze_audit_risk.py
+scripts/analyze_evidencefirst_stats.py
+scripts/clone_external_baselines.py
+scripts/prepare_external_baseline_inputs.py
+scripts/prepare_hotpot_extra500.py
+scripts/probe_live_retrieval.py
+scripts/probe_web_search.py
+scripts/run_semantic_gap_adjudication.py
+scripts/summarize_usage.py
+scripts/verify_paper_artifacts.py
+scripts/eval_results.py
+scripts/export_result_csvs.py
+scripts/prepare_hotpot_sets.py
+tests/test_analysis_scripts.py
+test_10q_after_fix.json
+repo_cleanup_gap_note.md

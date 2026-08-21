@@ -104,13 +104,17 @@ def build_kg(context) -> nx.DiGraph:
     并行抽取各 passage 的三元组以提速。
     """
     G = nx.DiGraph()
-    titles    = context["title"]     if isinstance(context, dict) else [t for t, _ in context]
-    sentences = context["sentences"] if isinstance(context, dict) else [s for _, s in context]
-    passages  = [" ".join(sents) for sents in sentences]
+    if isinstance(context, list) and (not context or isinstance(context[0], str)):
+        passages = [str(p) for p in context if p]
+    else:
+        titles    = context["title"]     if isinstance(context, dict) else [t for t, _ in context]
+        sentences = context["sentences"] if isinstance(context, dict) else [s for _, s in context]
+        passages  = [sents if isinstance(sents, str) else " ".join(sents) for sents in sentences]
 
-    # 并发提取三元组（5 个 passage 同时请求）
+    # 并发提取三元组；正式补跑时可用 KG_BUILD_WORKERS 控制 API 压力。
     all_triples = [None] * len(passages)
-    with ThreadPoolExecutor(max_workers=5) as ex:
+    max_workers = int(os.environ.get("KG_BUILD_WORKERS", "5"))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
         futs = {ex.submit(extract_triples, p): i for i, p in enumerate(passages)}
         for fut in as_completed(futs):
             all_triples[futs[fut]] = fut.result()

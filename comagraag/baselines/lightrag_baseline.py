@@ -56,13 +56,18 @@ def _make_embedding_func():
 
 
 def _context_to_text(context) -> str:
+    if isinstance(context, list) and (not context or isinstance(context[0], str)):
+        return "\n\n".join(str(p) for p in context if p)
     if isinstance(context, dict):
         titles    = context["title"]
         sentences = context["sentences"]
     else:
         titles    = [t for t, _ in context]
         sentences = [s for _, s in context]
-    return "\n\n".join(f"{t}\n" + " ".join(s) for t, s in zip(titles, sentences))
+    return "\n\n".join(
+        f"{t}\n" + (s if isinstance(s, str) else " ".join(s))
+        for t, s in zip(titles, sentences)
+    )
 
 
 _EXTRACT_PROMPT = """Extract the direct answer to the question from the passage below.

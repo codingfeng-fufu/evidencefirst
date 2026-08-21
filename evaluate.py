@@ -8,6 +8,14 @@ ROOT = Path(__file__).resolve().parent
 PKG = ROOT / "comagraag"
 sys.path.insert(0, str(PKG))
 
+_ABLATIONS = (
+    "none",
+    "without_verification",
+    "without_repair",
+    "without_reader_context",
+    "without_answer_refinement",
+)
+
 
 def _load_impl(module_name: str, file_path: Path):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
@@ -17,18 +25,24 @@ def _load_impl(module_name: str, file_path: Path):
     return module
 
 
+def _prefer_root_data(name: str) -> str:
+    primary = ROOT / "data" / name
+    legacy = PKG / "data" / name
+    return str(primary if primary.exists() or not legacy.exists() else legacy)
+
+
 def _default_data(dataset: str) -> str:
     if dataset == "2wiki":
-        fixed = ROOT / "data" / "2wiki_sample_fixed.json"
-        return str(fixed if fixed.exists() else ROOT / "data" / "2wiki_sample.json")
-    return str(ROOT / "data" / "hotpotqa_sample.json")
+        fixed = _prefer_root_data("2wiki_sample_fixed.json")
+        return fixed if Path(fixed).exists() else _prefer_root_data("2wiki_sample.json")
+    return _prefer_root_data("hotpotqa_sample.json")
 
 
 def _default_kg(dataset: str) -> str:
     if dataset == "2wiki":
-        fixed = ROOT / "data" / "2wiki_kgs_fixed.pkl"
-        return str(fixed if fixed.exists() else ROOT / "data" / "2wiki_kgs.pkl")
-    return str(ROOT / "data" / "hotpotqa_kgs.pkl")
+        fixed = _prefer_root_data("2wiki_kgs_fixed.pkl")
+        return fixed if Path(fixed).exists() else _prefer_root_data("2wiki_kgs.pkl")
+    return _prefer_root_data("hotpotqa_kgs.pkl")
 
 
 def main() -> None:
@@ -44,6 +58,13 @@ def main() -> None:
     parser.add_argument("--out-dir", type=str, default="results", help="Cache/output directory")
     parser.add_argument("--rerun-bad-cache", action="store_true", help="Rerun empty or bad cached answers")
     parser.add_argument("--save-pipeline-details", action="store_true", help="Save score/converged/history for pipeline modes")
+    parser.add_argument("--max-iter", type=int, default=None, help="Override config.MAX_ITER for this run")
+    parser.add_argument("--variant", type=str, default="default", choices=["default", "sparql_cot", "evidence_aug", "evidence_first"], help="Experiment variant")
+    parser.add_argument("--ablation", type=str, default="none", choices=_ABLATIONS, help="EvidenceFirst ablation switch")
+    parser.add_argument("--jsonl-out", type=str, default=None, help="Per-example prediction JSONL output")
+    parser.add_argument("--usage-log", type=str, default=None, help="Per-example usage JSONL output")
+    parser.add_argument("--cache-tag", type=str, default=None, help="Cache namespace for this experiment")
+    parser.add_argument("--no-global-context", action="store_true", help="For pipeline modes, use only each example's local context")
     args = parser.parse_args()
 
     impl = _load_impl("comagraag_evaluate_impl", PKG / "evaluate.py")
@@ -62,6 +83,13 @@ def main() -> None:
         out_csv=args.out,
         rerun_bad_cache=args.rerun_bad_cache,
         save_pipeline_details=args.save_pipeline_details,
+        max_iter=args.max_iter,
+        variant=args.variant,
+        ablation=args.ablation,
+        jsonl_out=args.jsonl_out,
+        usage_log=args.usage_log,
+        cache_tag=args.cache_tag,
+        use_global_context=not args.no_global_context,
     )
 
 

@@ -13,6 +13,7 @@ from rank_bm25 import BM25Okapi
 from openai import OpenAI
 
 import config
+import usage
 
 
 client = OpenAI(api_key=config.OPENAI_API_KEY, base_url=config.LLM_BASE_URL)
@@ -66,6 +67,8 @@ FINAL_ANSWER: <short answer>
 
 
 def _sentence_corpus(context) -> list[str]:
+    if isinstance(context, list) and (not context or isinstance(context[0], str)):
+        return [p for p in context if p]
     if isinstance(context, dict):
         titles = context.get("title", [])
         sentences = context.get("sentences", [])
@@ -159,6 +162,7 @@ def ircot(question: str, context, retries: int = 4) -> str:
                     temperature=0,
                     max_tokens=180,
                 )
+                usage.record_response(resp)
                 text = resp.choices[0].message.content.strip()
                 break
             except Exception as e:
@@ -199,6 +203,7 @@ def ircot(question: str, context, retries: int = 4) -> str:
                 temperature=0,
                 max_tokens=100,
             )
+            usage.record_response(resp)
             return _extract_final_answer(resp.choices[0].message.content.strip())
         except Exception as e:
             if attempt < retries - 1:
@@ -206,4 +211,3 @@ def ircot(question: str, context, retries: int = 4) -> str:
             else:
                 print(f"  [ERR] ircot final: {e}")
                 return ""
-

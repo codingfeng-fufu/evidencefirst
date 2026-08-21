@@ -1,7 +1,6 @@
 # Data Preparation
 
 The repository does not track generated dataset samples or KG caches.
-
 Use the preparation scripts in this directory to recreate the evaluation files:
 
 - [prepare_hotpot.py](prepare_hotpot.py) - sample HotpotQA and derive the validation subset
